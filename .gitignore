@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Scripts personales
+ARREGLAR_*.py
+CREAR_*.py
+FIX_*.py
+GENERAR_*.py
+IMPORTAR_*.py
+ORGANIZAR_*.py
+SPLIT_*.py
+ADD_*.py
+MATRICULA_TOTAL.py
+DATOS_*.py
+# HTMLs con nombres muy largos
+ejercicios/ejercicios_completos-lengua-castellana/
+contenido/html/

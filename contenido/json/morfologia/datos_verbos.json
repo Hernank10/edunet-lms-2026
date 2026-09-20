@@ -1,0 +1,9 @@
+{
+  "ejemplos": {
+    "ejemplos": "{\"-ear\": [\"canturrear\", \"matear\", \"patear\"], \"-izar\": [\"argentinizar\", \"computerizar\"], \"a-N-ar\": [\"abotonar\", \"aterrizar\"], \"en-A-ecer\": [\"entristecer\", \"enriquecer\"]}"
+  },
+  "variantes": {
+    "diacronicas": "{\"enriquir\": \"enriquecer\", \"atristar\": \"entristecer\"}",
+    "diatopicas": "{\"concientizar\": [\"Am\\u00e9rica\"], \"liderizar\": [\"Regi\\u00f3n Andina\"]}"
+  }
+}

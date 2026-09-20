@@ -1,0 +1,11 @@
+{% extends "gamificacion/_base_estudiante.html" %}
+{% block contenido %}
+<h2 class="mb-4">📈 Mis Estadísticas</h2>
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between"><span>💎 XP Total</span><strong>{{ perfil.xp_total }}</strong></li>
+  <li class="list-group-item d-flex justify-content-between"><span>🏅 Nivel</span><strong>{{ perfil.nivel_actual }}</strong></li>
+  <li class="list-group-item d-flex justify-content-between"><span>🔥 Racha</span><strong>{{ perfil.racha_dias }} días</strong></li>
+  <li class="list-group-item d-flex justify-content-between"><span>🎓 Cursos completados</span><strong>{{ perfil.cursos_completados }}</strong></li>
+  <li class="list-group-item d-flex justify-content-between"><span>📚 Lecciones completadas</span><strong>{{ perfil.lecciones_completadas }}</strong></li>
+</ul>
+{% endblock %}

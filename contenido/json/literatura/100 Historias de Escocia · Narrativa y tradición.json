@@ -1,0 +1,730 @@
+{
+  "titulo": "100 Historias de Escocia · Narrativa y tradición",
+  "version": "1.0",
+  "total_historias": 100,
+  "fuente": "Tradición oral, anécdotas contemporáneas y folklore escocés",
+  "regiones": {
+    "Glasgow": {
+      "inicio": 1,
+      "fin": 25
+    },
+    "Edimburgo": {
+      "inicio": 26,
+      "fin": 50
+    },
+    "Highlands": {
+      "inicio": 51,
+      "fin": 70
+    },
+    "Islas": {
+      "inicio": 71,
+      "85": 85
+    },
+    "Otras_ciudades": {
+      "inicio": 86,
+      "fin": 100
+    }
+  },
+  "historias": [
+    {
+      "id": 1,
+      "ciudad": "Glasgow",
+      "lugar": "The Pot Still Pub",
+      "titulo": "El turista que pidió Irn-Bru con hielo",
+      "historia": "Un turista español entró al Pot Still y pidió un 'Irn-Bru con hielo y pajita'. El camarero, un escocés de pura cepa, se quedó en silencio, sirvió el refresco naranja sin hielo y dijo: 'Eso se bebe como Dios manda, amigo. ¡Salud!' El turista aprendió la lección y ahora solo lo toma a temperatura ambiente."
+    },
+    {
+      "id": 2,
+      "ciudad": "Glasgow",
+      "lugar": "Necrópolis",
+      "titulo": "El cuervo emprendedor",
+      "historia": "Un estudiante de la Universidad de Glasgow estaba comiendo un sándwich en las escaleras de la Necrópolis. Un cuervo se posó frente a él, dejó caer una moneda de 20 peniques y graznó señalando el bocadillo. El chico, desconcertado, le dio medio sándwich. El cuervo volvió al día siguiente con otra moneda."
+    },
+    {
+      "id": 3,
+      "ciudad": "Glasgow",
+      "lugar": "Río Clyde",
+      "titulo": "La apuesta de los dos amigos",
+      "historia": "Dos amigos borrachos apostaron quién cruzaba el Clyde nadando. Ambos saltaron, pero una lancha turística los rescató a los dos metros. El capitán les ofreció un tour gratis y ahora son guías honorarios contando su 'hazaña' a los turistas."
+    },
+    {
+      "id": 4,
+      "ciudad": "Glasgow",
+      "lugar": "George Square",
+      "titulo": "El gaitero y los caballos bailarines",
+      "historia": "Un gaitero callejero comenzó a tocar 'Scotland the Brave' con un ritmo un poco acelerado. Dos caballos de la policía montada empezaron a menear la cabeza al compás. El gaitero sigue tocando allí cada fin de semana, y los caballos nunca fallan."
+    },
+    {
+      "id": 5,
+      "ciudad": "Glasgow",
+      "lugar": "Kelvinbridge",
+      "titulo": "El robot repartidor confundido",
+      "historia": "Un robot de reparto autónomo se equivocó de dirección y entregó una orden de fish & chips en una mesa donde un loro conversaba con su dueño. El loro gritó '¡Más sal!' y el robot se fue a buscar sal. Volvió 10 minutos después con un sobrecito."
+    },
+    {
+      "id": 6,
+      "ciudad": "Glasgow",
+      "lugar": "Autobús 77",
+      "titulo": "El conductor cantante",
+      "historia": "Un conductor de autobús cantó 'Flower of Scotland' por el altavoz durante todo el trayecto de la Buchanan Street a la Universidad de Strathclyde. Los pasajeros terminaron coreando. Ahora es conocido como 'El Pavarotti del 77'."
+    },
+    {
+      "id": 7,
+      "ciudad": "Glasgow",
+      "lugar": "Buchanan Street",
+      "titulo": "Nessie en el centro",
+      "historia": "Un hombre disfrazado de Nessie recorrió Buchanan Street repartiendo caramelos de regaliz. Nadie entendía por qué, pero la policía lo escoltó hasta el final de la calle mientras la gente le pedía selfies."
+    },
+    {
+      "id": 8,
+      "ciudad": "Glasgow",
+      "lugar": "Catedral de Glasgow",
+      "titulo": "El fantasma del sacristán",
+      "historia": "Un turista escuchó pasos en la cripta vacía. Era el sacristán, un anciano que llevaba 40 años abriendo la catedral. 'No soy fantasma —dijo—, solo soy matutino'. Le regaló una guía firmada."
+    },
+    {
+      "id": 9,
+      "ciudad": "Glasgow",
+      "lugar": "Kelvingrove Museum",
+      "titulo": "La espada que habla",
+      "historia": "Una niña preguntó a un vigilante si la espada medieval hablaba. El vigilante, con toda seriedad, respondió: 'Solo susurra los martes'. La niña volvió al martes siguiente y el vigilante le regaló una calcomanía de una espada sonriente."
+    },
+    {
+      "id": 10,
+      "ciudad": "Glasgow",
+      "lugar": "The Clutha Bar",
+      "titulo": "El acordeonista olvidadizo",
+      "historia": "Un músico llegó al pub, pidió una pinta, y cuando subió al escenario descubrió que había olvidado su acordeón. El público esperó, él se fue corriendo y volvió 20 minutos después. Tocó tan bien que nadie se quejó."
+    },
+    {
+      "id": 11,
+      "ciudad": "Glasgow",
+      "lugar": "Queen's Park",
+      "titulo": "La ardilla fitness",
+      "historia": "Una ardilla robaba las nueces de los corredores del parque. Un día, un atleta olímpico la persiguió y la ardilla subió a un árbol, dejó caer una nuez y pareció reírse. Se hizo viral en TikTok como 'Squirrel McFast'."
+    },
+    {
+      "id": 12,
+      "ciudad": "Glasgow",
+      "lugar": "Barrowland Ballroom",
+      "titulo": "El cantante que perdió la voz",
+      "historia": "El cantante de una banda local perdió la voz antes del concierto. El público empezó a cantar todas las canciones. Desde entonces, en ese recinto, el público canta siempre la primera estrofa."
+    },
+    {
+      "id": 13,
+      "ciudad": "Glasgow",
+      "lugar": "The Horseshoe Bar",
+      "titulo": "La moneda de la suerte",
+      "historia": "Un cliente dejó una moneda de £1 pegada al mostrador con chicle. Nadie pudo quitarla. Ahora los turistas intentan despegarla, y el dueño dice que es un imán para la buena fortuna."
+    },
+    {
+      "id": 14,
+      "ciudad": "Glasgow",
+      "lugar": "Finnieston Crane",
+      "titulo": "La grúa iluminada",
+      "historia": "Un ingeniero decidió decorar la grúa con luces de Navidad en pleno julio. La ciudad entera le siguió la corriente, y ahora la grúa tiene luces de temporada todo el año."
+    },
+    {
+      "id": 15,
+      "ciudad": "Glasgow",
+      "lugar": "Ashton Lane",
+      "titulo": "El perro catador de cerveza",
+      "historia": "Un labrador llamado 'Duff' visita los pubs de Ashton Lane. Cada dueño le ofrece un cuenco de agua, pero él solo acepta si antes le dan un trozo de salchicha. Es famoso en Instagram como 'The Beer Dog'."
+    },
+    {
+      "id": 16,
+      "ciudad": "Glasgow",
+      "lugar": "University of Glasgow",
+      "titulo": "El fantasma del claustro",
+      "historia": "Los estudiantes juran que un profesor del siglo XIX aún corrige exámenes en el claustro. Un vigilante nocturno puso una taza de té en su escritorio y al día siguiente la taza estaba vacía."
+    },
+    {
+      "id": 17,
+      "ciudad": "Glasgow",
+      "lugar": "Pollok Country Park",
+      "titulo": "Las vacas highland rebeldes",
+      "historia": "Dos vacas highland escaparon del parque y caminaron por la autopista M77. La policía las escoltó de vuelta mientras los conductores les tomaban fotos. Ahora tienen sus propias páginas de fans."
+    },
+    {
+      "id": 18,
+      "ciudad": "Glasgow",
+      "lugar": "Shawlands",
+      "titulo": "El repartidor de pizza filosófico",
+      "historia": "Un repartidor de pizza dejó una nota en cada caja: '¿Existe la pizza perfecta? Quizás, pero esta está muy cerca'. Los vecinos empezaron a coleccionar sus frases. Ahora tiene un libro."
+    },
+    {
+      "id": 19,
+      "ciudad": "Glasgow",
+      "lugar": "Glasgow Green",
+      "titulo": "El hombre de los globos",
+      "historia": "Un jubilado infla globos con forma de personajes históricos escoceses cada domingo. Los niños lo adoran. Un día hizo a William Wallace con melena de hilo. Nadie sabe cómo aprendió."
+    },
+    {
+      "id": 20,
+      "ciudad": "Glasgow",
+      "lugar": "The Gorbals",
+      "titulo": "La leyenda del murciélago de la biblioteca",
+      "historia": "Un murciélago se instaló en la biblioteca pública. Los lectores le dejaban migas de pan. El bibliotecario le puso 'Sir Bats-a-Lot'. Ahora es la mascota no oficial del barrio."
+    },
+    {
+      "id": 21,
+      "ciudad": "Glasgow",
+      "lugar": "Merchant City",
+      "titulo": "El vendedor de paraguas",
+      "historia": "Un vendedor ambulante predijo la lluvia todos los días durante un mes. Acertó 28 veces. Los vecinos le regalaron un paraguas dorado. Él sigue vendiendo pero ahora con un cartel: 'Lo sé, soy brujo'."
+    },
+    {
+      "id": 22,
+      "ciudad": "Glasgow",
+      "lugar": "Partick",
+      "titulo": "El gato del tranvía",
+      "historia": "Un gato negro aborda el tranvía todas las mañanas en la parada de Partick, se sienta en el asiento del conductor y se baja tres paradas después. Nadie sabe su nombre, pero todos le dicen 'Mister Conductor'."
+    },
+    {
+      "id": 23,
+      "ciudad": "Glasgow",
+      "lugar": "The SSE Hydro",
+      "titulo": "La cantante y la fan equivocada",
+      "historia": "Una fan pensó que la cantante le había dedicado una canción, pero en realidad saludaba a su madre. La fan se desmayó de la emoción. Ahora la cantante siempre dice 'Esto va por mamá... y por la chica que se desmayó'."
+    },
+    {
+      "id": 24,
+      "ciudad": "Glasgow",
+      "lugar": "Botanic Gardens",
+      "titulo": "El loro políglota",
+      "historia": "Un loro en el invernadero aprende frases en español, alemán y gaélico. Su dueño asegura que el ave eligió los idiomas. Los turistas lo graban, y el loro ahora dice 'selfie' en tres idiomas."
+    },
+    {
+      "id": 25,
+      "ciudad": "Glasgow",
+      "lugar": "St Enoch Centre",
+      "titulo": "El maniquí que cambió de pose",
+      "historia": "Un maniquí de una tienda apareció en una pose diferente cada mañana durante una semana. Las cámaras de seguridad mostraron que era un empleado que practicaba yoga antes de abrir. Se hizo tan popular que ahora la tienda tiene una sección 'yoga con maniquíes'."
+    },
+    {
+      "id": 26,
+      "ciudad": "Edimburgo",
+      "lugar": "Royal Mile",
+      "titulo": "El mimo que no podía callar",
+      "historia": "Un mimo turista estornudó en medio de su acto. El público rompió a reír. El mimo, avergonzado, rompió su personaje y empezó a contar chistes. Ahora es humorista y su número del 'mimo que habla' es famoso en el Fringe."
+    },
+    {
+      "id": 27,
+      "ciudad": "Edimburgo",
+      "lugar": "Castillo de Edimburgo",
+      "titulo": "El cañón que nunca sonó",
+      "historia": "El cañón de las una no disparó porque un turista había dejado su mochila apoyada en el mecanismo. El artillero pidió disculpas, y el turista se hizo famoso. Ahora tiene una placa: 'Aquí una mochila detuvo la historia'."
+    },
+    {
+      "id": 28,
+      "ciudad": "Edimburgo",
+      "lugar": "Victoria Street",
+      "titulo": "La librería encantada",
+      "historia": "Los libros de poesía cambiaban de estante cada noche. El dueño instaló cámaras y descubrió que era su gato, que dormía sobre los poemas de Burns. Ahora hay una estatua del gato en la entrada."
+    },
+    {
+      "id": 29,
+      "ciudad": "Edimburgo",
+      "lugar": "Holyrood Park",
+      "titulo": "El ciclista y la oveja",
+      "historia": "Un ciclista se detuvo a descansar y una oveja se subió a su bicicleta. El animal se quedó quieta, mirando al horizonte. La foto fue portada del Edinburgh Evening News."
+    },
+    {
+      "id": 30,
+      "ciudad": "Edimburgo",
+      "lugar": "Calton Hill",
+      "titulo": "El monumento inacabado y la boda improvisada",
+      "historia": "Una pareja planeaba casarse en Grecia, pero su vuelo se canceló. Subieron a Calton Hill, encontraron un ministro que paseaba y se casaron allí mismo, con el Partenón de Edimburgo de fondo."
+    },
+    {
+      "id": 31,
+      "ciudad": "Edimburgo",
+      "lugar": "Grassmarket",
+      "titulo": "El fantasma que pedía monedas",
+      "historia": "Un actor disfrazado de fantasma pedía £1 por foto. Una noche, una turista le dio una moneda y el 'fantasma' se desmayó... era un fantasma real que cobraba. El actor siguió la tradición y ahora todos los fantasmas del tour tienen POS."
+    },
+    {
+      "id": 32,
+      "ciudad": "Edimburgo",
+      "lugar": "The Elephant House",
+      "titulo": "La taza de Harry Potter",
+      "historia": "Alguien dejó una taza con la inscripción 'Soy el elegido' en la mesa donde Rowling escribió. La taza desapareció y reapareció en una tienda de antigüedades. El dueño la compró y la devolvió. Ahora está en vitrina."
+    },
+    {
+      "id": 33,
+      "ciudad": "Edimburgo",
+      "lugar": "Princes Street Gardens",
+      "titulo": "El pianista de la lluvia",
+      "historia": "Un pianista callejero tocaba bajo la lluvia sin parar. La gente le daba paraguas. Al final del día tenía 30 paraguas y 50 libras. Ahora toca solo cuando llueve, porque dice que 'las gotas son sus aplausos'."
+    },
+    {
+      "id": 34,
+      "ciudad": "Edimburgo",
+      "lugar": "Mary King's Close",
+      "titulo": "La niña que preguntó por su muñeca",
+      "historia": "Una niña dejó una muñeca en el close y al día siguiente había una nota: 'Cuídala, se llama Annie'. Los guías ahora colocan juguetes nuevos cada semana. Nadie sabe quién es Annie."
+    },
+    {
+      "id": 35,
+      "ciudad": "Edimburgo",
+      "lugar": "Arthur's Seat",
+      "titulo": "El corredor matutino y el águila",
+      "historia": "Un corredor encontró un águila posada en la cima. El animal no se movió durante su entrenamiento. El hombre le habló, y el águila alzó el vuelo al terminar. Ahora sube todos los días esperando verla."
+    },
+    {
+      "id": 36,
+      "ciudad": "Edimburgo",
+      "lugar": "Scott Monument",
+      "titulo": "El escalador accidental",
+      "historia": "Un turista intentó subir el monumento y se quedó atascado en una ventana. Los bomberos lo rescataron. Desde entonces, el monumento tiene un cartel: 'No intentes ser Walter Scott, él ya lo fue'."
+    },
+    {
+      "id": 37,
+      "ciudad": "Edimburgo",
+      "lugar": "Greyfriars Kirkyard",
+      "titulo": "El perro que espera 200 años",
+      "historia": "Un pastor alemán se sienta junto a la tumba de Greyfriars Bobby cada 12 de enero. Nadie sabe de dónde viene. Los vecinos le dejan galletas. Dicen que es el tataranieto espiritual de Bobby."
+    },
+    {
+      "id": 38,
+      "ciudad": "Edimburgo",
+      "lugar": "Meadows",
+      "titulo": "El partido de cricket de los absurdos",
+      "historia": "Dos equipos jugaron un partido con reglas inventadas: si la pelota golpeaba un árbol, era strike. Si un perro la atrapaba, era out. Los perros ganaron 3-0."
+    },
+    {
+      "id": 39,
+      "ciudad": "Edimburgo",
+      "lugar": "Waverley Station",
+      "titulo": "El tren que nunca llegó",
+      "historia": "Un anuncio decía 'tren con destino a las Highlands, retraso 300 años'. Era una broma del Día de los Inocentes escocés. Los turistas se lo creyeron y esperaron 2 horas. La estación les regaló galletas."
+    },
+    {
+      "id": 40,
+      "ciudad": "Edimburgo",
+      "lugar": "Rose Street",
+      "titulo": "El poeta del karaoke",
+      "historia": "Un borracho subió al karaoke y en lugar de cantar, recitó a Burns con música de Queen. El público enloqueció. Ahora es un espectáculo semanal: 'Rap de los poetas muertos'."
+    },
+    {
+      "id": 41,
+      "ciudad": "Edimburgo",
+      "lugar": "Dean Village",
+      "titulo": "El cisne cartero",
+      "historia": "Un cisne recogía cartas que caían al río. El cartero dejaba una golosina para que las devolviera. Ahora el cisne espera cada mañana. Se llama 'Postman Swan'."
+    },
+    {
+      "id": 42,
+      "ciudad": "Edimburgo",
+      "lugar": "St. Giles' Cathedral",
+      "titulo": "La campana que sonó sola",
+      "historia": "A medianoche, la campana sonó tres veces sin que nadie la tocara. Un sacristán revisó y encontró a un búho posado en la cuerda. El búho fue bautizado 'El campanero emplumado'."
+    },
+    {
+      "id": 43,
+      "ciudad": "Edimburgo",
+      "lugar": "The Real Mary King's Close",
+      "titulo": "El mensaje en la pared",
+      "historia": "Un restaurador encontró un grafiti del siglo XVII: 'Alistair bebía aquí'. Debajo, otro: 'Y yo, su esposa, también'. Hoy es uno de los lugares más fotografiados."
+    },
+    {
+      "id": 44,
+      "ciudad": "Edimburgo",
+      "lugar": "Bruntsfield Links",
+      "titulo": "El golfista sin pelotas",
+      "historia": "Un jugador perdió todas sus pelotas. Un perro se las trajo de vuelta, una por una. El dueño del perro dijo: 'Es su hobby'. El golfista ahora lleva provisiones para el perro."
+    },
+    {
+      "id": 45,
+      "ciudad": "Edimburgo",
+      "lugar": "Leith",
+      "titulo": "La tienda de los espejismos",
+      "historia": "Una tienda de antigüedades tenía un espejo que devolvía la imagen sonriendo, incluso si tú no lo hacías. La gente hacía cola para verse feliz. El espejo resultó tener un sensor de movimiento y una pantalla. El dueño lo dejó porque 'la felicidad no se cuestiona'."
+    },
+    {
+      "id": 46,
+      "ciudad": "Edimburgo",
+      "lugar": "Stockbridge Market",
+      "titulo": "El chef de las palabras",
+      "historia": "Un chef escribía poemas en las bolsas de pan. Los clientes coleccionaban sus versos. Ahora publica un libro de recetas con haikus. 'El pan y la poesía alimentan el alma'."
+    },
+    {
+      "id": 47,
+      "ciudad": "Edimburgo",
+      "lugar": "Inverleith Park",
+      "titulo": "Los patos filósofos",
+      "historia": "Un grupo de patos se reunía en círculo todas las tardes. Un biólogo descubrió que esperaban a un hombre que les daba pan. Los patos 'deliberaban' sobre dónde estaba. El hombre llegaba siempre a las 6."
+    },
+    {
+      "id": 48,
+      "ciudad": "Edimburgo",
+      "lugar": "The Royal Yacht Britannia",
+      "titulo": "El turista que quiso comprar el barco",
+      "historia": "Un multimillonario preguntó el precio del yate. El guía le dijo: 'No está en venta, señor'. El hombre respondió: 'Todo tiene precio'. Al día siguiente donó £10,000 para su mantenimiento. Ahora tiene una placa con su nombre."
+    },
+    {
+      "id": 49,
+      "ciudad": "Edimburgo",
+      "lugar": "Portobello Beach",
+      "titulo": "El castillo de arena más alto",
+      "historia": "Un escultor construyó un castillo de arena de 5 metros. Duró tres días. La marea lo derribó, pero los vecinos hicieron una ceremonia de despedida con gaitas. Ahora es tradición anual."
+    },
+    {
+      "id": 50,
+      "ciudad": "Edimburgo",
+      "lugar": "The Stand Comedy Club",
+      "titulo": "El cómico que olvidó el chiste",
+      "historia": "Un cómico subió al escenario y en blanco total. El público empezó a decir chistes. Él se sentó entre ellos y se rió. Al final dijo: 'Esta noche ustedes son los cómicos'. La función se alargó 3 horas."
+    },
+    {
+      "id": 51,
+      "ciudad": "Highlands",
+      "lugar": "Lago Ness",
+      "titulo": "Nessie turista",
+      "historia": "Un hijo de Nessie salió a la superficie con un gorro de turista. Se tomó selfies con un bote lleno de japoneses. La foto dio la vuelta al mundo. Ahora Nessie tiene una cuenta de Instagram."
+    },
+    {
+      "id": 52,
+      "ciudad": "Highlands",
+      "lugar": "Glen Coe",
+      "titulo": "El eco que contestaba",
+      "historia": "Un senderista gritó '¡Hola!' y el eco respondió '¡Hola! ¿Cómo estás?'. Nadie lo explicó. Después se supo que era un guardaparque escondido. Ahora 'el eco parlante' es una atracción turística."
+    },
+    {
+      "id": 53,
+      "ciudad": "Highlands",
+      "lugar": "Isle of Skye",
+      "titulo": "El hada que dejó un zapato",
+      "historia": "En las Fairy Pools, alguien dejó un zapato tallado en piedra. Los turistas le dejaban ofrendas flores. Un artista confesó que era su obra. Ahora es un monumento a la fantasía."
+    },
+    {
+      "id": 54,
+      "ciudad": "Highlands",
+      "lugar": "Ben Nevis",
+      "titulo": "El escalador en pijama",
+      "historia": "Un hombre subió el Ben Nevis en pijama como apuesta. Llegó a la cima, publicó una selfie y se hizo viral. Las pijamas con la bandera de Escocia se agotaron en una semana."
+    },
+    {
+      "id": 55,
+      "ciudad": "Highlands",
+      "lugar": "Eilean Donan",
+      "titulo": "El fantasma del puente",
+      "historia": "Un perro fantasma aparece en el puente cada luna llena. Los turistas le dejan huesos de mentira. El dueño del castillo dice que es su labrador que murió en 1920. Las cámaras captaron una sombra canina."
+    },
+    {
+      "id": 56,
+      "ciudad": "Highlands",
+      "lugar": "Fort William",
+      "titulo": "El tren de Harry Potter sin mago",
+      "historia": "El tren de vapor iba lleno de niños disfrazados de magos. El maquinista se disfrazó de Dumbledore. Nadie sabía que era el Día de la Magia. Ahora todos los 31 de julio se repite la tradición."
+    },
+    {
+      "id": 57,
+      "ciudad": "Highlands",
+      "lugar": "Culloden Battlefield",
+      "titulo": "El turista que quiso revivir la batalla",
+      "historia": "Un turista llegó con una espada de plástico y empezó a dar órdenes. Los guardias lo detuvieron, pero le permitieron una recreación pacífica. Ahora hay un 'día del turista general'."
+    },
+    {
+      "id": 58,
+      "ciudad": "Highlands",
+      "lugar": "Loch Lomond",
+      "titulo": "El cisne taxista",
+      "historia": "Un cisne llevaba a patitos en su lomo a través del lago. Los turistas pagaban por ver el 'transporte acuático'. La organización de animales lo prohibió, pero el cisne sigue haciéndolo por cuenta propia."
+    },
+    {
+      "id": 59,
+      "ciudad": "Highlands",
+      "lugar": "Glenfinnan Viaduct",
+      "titulo": "El niño que paró el tren",
+      "historia": "Un niño puso una piedra en la vía (pequeña). El tren pasó por encima, pero la piedra saltó y rompió una ventanilla. El niño pagó con sus ahorros. Ahora es el 'guardián de las vías' honorario."
+    },
+    {
+      "id": 60,
+      "ciudad": "Highlands",
+      "lugar": "Isle of Arran",
+      "titulo": "La cabra con GPS",
+      "historia": "Una cabra tenía un GPS colgado del cuello. Los excursionistas la seguían creyendo que era una ruta oficial. La cabra los llevaba siempre a un pub. El dueño del pub le ponía comida gratis."
+    },
+    {
+      "id": 61,
+      "ciudad": "Highlands",
+      "lugar": "Castillo de Urquhart",
+      "titulo": "El guardián que dormía",
+      "historia": "Un vigilante nocturno se durmió en la torre y soñó con un tesoro escondido. Al despertar, excavó y encontró monedas romanas. El museo local las exhibe con su foto. Ahora es 'el guardián visionario'."
+    },
+    {
+      "id": 62,
+      "ciudad": "Highlands",
+      "lugar": "Smoo Cave",
+      "titulo": "El eco musical",
+      "historia": "Una cantante de ópera descubrió que la cueva tenía una acústica perfecta. Ahora hay conciertos mensuales. Los murciélagos se han acostumbrado y algunos parecen bailar."
+    },
+    {
+      "id": 63,
+      "ciudad": "Highlands",
+      "lugar": "John O'Groats",
+      "titulo": "El fin del mundo y el heladero",
+      "historia": "Un heladero se instaló en el punto más al norte. Decía: 'Si llegas hasta aquí, mereces un helado gratis'. La gente hacía cola durante kilómetros. El gobierno local le dio una subvención."
+    },
+    {
+      "id": 64,
+      "ciudad": "Highlands",
+      "lugar": "Cairngorms",
+      "titulo": "El reno ladrón",
+      "historia": "Un reno robó una cámara de un turista. La llevó a su manada y se tomaron fotos grupales. La cámara fue encontrada con 200 selfies de renos. La foto más famosa muestra a uno con gafas de sol."
+    },
+    {
+      "id": 65,
+      "ciudad": "Highlands",
+      "lugar": "Loch Maree",
+      "titulo": "La isla de los deseos",
+      "historia": "Un visitante ató una cinta a un árbol pidiendo amor. Al día siguiente había cintas de todos colores. Ahora es 'la isla de los deseos'. Los guardas renuevan las cintas cada año."
+    },
+    {
+      "id": 66,
+      "ciudad": "Highlands",
+      "lugar": "Dornoch",
+      "titulo": "El campo de golf de las vacas",
+      "historia": "Un rebaño de vacas pastaba en un campo de golf. Los jugadores esperaban a que se movieran. Las vacas aprendieron a evitar los hoyos. Ahora son 'las greenkeepers no oficiales'."
+    },
+    {
+      "id": 67,
+      "ciudad": "Highlands",
+      "lugar": "Plockton",
+      "titulo": "El delfín cartero",
+      "historia": "Un delfín recogía cartas que caían al agua desde un ferry. Las devolvía al día siguiente. Los pescadores le dejaban pescado. Ahora es una atracción turística: 'Postman Dolphin'."
+    },
+    {
+      "id": 68,
+      "ciudad": "Highlands",
+      "lugar": "Applecross",
+      "titulo": "El conductor del paso más peligroso",
+      "historia": "Un conductor local ofrecía rides gratis por el paso de Bealach na Bà. Decía: 'Yo conozco cada curva'. Nunca tuvo un accidente. Le regalaron un autobús turístico."
+    },
+    {
+      "id": 69,
+      "ciudad": "Highlands",
+      "lugar": "Ullapool",
+      "titulo": "El ferry de los borrachos",
+      "historia": "Un barco de pesca llevaba a los borrachos de vuelta a tierra firme. El capitán cobraba en cerveza. La tradición se mantiene: los sábados hay 'ferry de la resaca' con música en vivo."
+    },
+    {
+      "id": 70,
+      "ciudad": "Highlands",
+      "lugar": "Castillo de Dunvegan",
+      "titulo": "El hada del cuadro",
+      "historia": "Una turista juró que la dama del cuadro le guiñó un ojo. El guía dijo: 'Lleva 400 años haciéndolo'. La familia MacLeod lo confirma. La leyenda dice que protege a los visitantes solitarios."
+    },
+    {
+      "id": 71,
+      "ciudad": "Islas",
+      "lugar": "Islay",
+      "titulo": "El fantasma del whisky",
+      "historia": "Una destilería reportó que una botella de whisky de 50 años desaparecía cada noche y aparecía vacía al amanecer. Instalaron cámaras: era el gato del dueño, que había aprendido a abrir puertas. El gato ahora tiene su propia etiqueta."
+    },
+    {
+      "id": 72,
+      "ciudad": "Islas",
+      "lugar": "Isle of Mull",
+      "titulo": "La nutria cazadora de selfies",
+      "historia": "Una nutria robaba teléfonos a los turistas para mirarse en la pantalla. Devolvía los aparatos después de unos minutos. Los biólogos creen que le gusta verse. Ahora tiene una cuenta de TikTok manejada por el parque natural."
+    },
+    {
+      "id": 73,
+      "ciudad": "Islas",
+      "lugar": "Stornoway",
+      "titulo": "El hombre del tiempo que nunca fallaba",
+      "historia": "Un pescador predecía el clima con un 95% de acierto. El servicio meteorológico lo contrató como consultor. Su método: observar a las gaviotas. Ahora tiene un programa de radio: 'El oráculo de las alas'."
+    },
+    {
+      "id": 74,
+      "ciudad": "Islas",
+      "lugar": "Isle of Harris",
+      "titulo": "La tejedora de nubes",
+      "historia": "Una artesana tejía bufandas con lana tan blanca que parecían nubes. Los astronautas de la ISS las fotografiaron desde el espacio. Ahora sus bufandas se venden como 'las que se ven desde el cielo'."
+    },
+    {
+      "id": 75,
+      "ciudad": "Islas",
+      "lugar": "Orkney",
+      "titulo": "El círculo de piedras parlante",
+      "historia": "Un guía aseguraba que las piedras de Stenness susurraban al oído. Los turistas ponían sus orejas. Un día una niña escuchó: 'Cuida el planeta'. El guía confesó que era un altavoz escondido. La gente lo aplaudió. Ahora hay mensajes ambientales cada hora."
+    },
+    {
+      "id": 76,
+      "ciudad": "Islas",
+      "lugar": "Shetland",
+      "titulo": "El poni que quería ser oveja",
+      "historia": "Un poni Shetland se juntaba con las ovejas, imitaba sus balidos y pastaba con ellas. El granjero lo aceptó. El poni ahora es 'el pastor honorario' y guía a las ovejas a casa."
+    },
+    {
+      "id": 77,
+      "ciudad": "Islas",
+      "lugar": "Isle of Barra",
+      "titulo": "La playa-avión",
+      "historia": "El aeropuerto de Barra está en la playa. Un turista llegó en avioneta, bajó y montó una sombrilla. Los operadores le pidieron que despejara la pista. Ahora hay un cartel: 'Prohibido tomar sol en la pista'."
+    },
+    {
+      "id": 78,
+      "ciudad": "Islas",
+      "lugar": "St Kilda",
+      "titulo": "El habitante solitario",
+      "historia": "Un guarda vive solo en la isla durante el verano. Los turistas le llevan periódicos. Él los lee en voz alta a las aves. Las aves parecen escuchar. Dicen que es el 'bibliotecario de los pájaros'."
+    },
+    {
+      "id": 79,
+      "ciudad": "Islas",
+      "lugar": "Isle of Skye (Portree)",
+      "titulo": "El pub flotante",
+      "historia": "Un barco pesquero se convirtió en pub flotante. Los clientes llegaban en kayak. Un día, la marea lo movió 200 metros. Los kayakistas lo remolcaron de vuelta. Ahora tiene ancla gigante."
+    },
+    {
+      "id": 80,
+      "ciudad": "Islas",
+      "lugar": "Iona",
+      "titulo": "La campana que nunca se moja",
+      "historia": "La campana de la abadía suena sola cuando hay tormenta. Los monjes decían que San Columba la protegía. Un científico descubrió que el viento la movía. La leyenda sigue viva."
+    },
+    {
+      "id": 81,
+      "ciudad": "Islas",
+      "lugar": "Isle of Arran (Goatfell)",
+      "titulo": "La cabra montañesa récord",
+      "historia": "Una cabra escaló Goatfell 5 veces en un día. Los montañistas la bautizaron 'Reina de las cumbres'. El récord está registrado en la oficina de turismo."
+    },
+    {
+      "id": 82,
+      "ciudad": "Islas",
+      "lugar": "Isle of Lewis",
+      "titulo": "El farolero automático",
+      "historia": "Un vecino encendía las farolas a las 8 pm exactas durante 50 años. Al jubilarse, el pueblo instaló un sistema automático pero con un botón de su nombre. Ahora los niños pueden 'encender el pueblo' presionando 'El botón de MacKenzie'."
+    },
+    {
+      "id": 83,
+      "ciudad": "Islas",
+      "lugar": "Isle of Staffa",
+      "titulo": "La gruta de los ecos musicales",
+      "historia": "Una violinista tocó dentro de la cueva de Fingal. El eco se escuchó en la costa 15 segundos después. La grabación se usó en un álbum de música clásica. Ahora hay conciertos cuando la marea lo permite."
+    },
+    {
+      "id": 84,
+      "ciudad": "Islas",
+      "lugar": "Isle of Gigha",
+      "titulo": "Los jardines que caminan",
+      "historia": "Los jardines de Achamore parecen cambiar de diseño cada primavera. La jardinera dice que 'las plantas deciden'. Un estudio mostró que algunas especies se expanden solas. Ahora se llama 'el jardín anarquista'."
+    },
+    {
+      "id": 85,
+      "ciudad": "Islas",
+      "lugar": "Isle of Eigg",
+      "titulo": "La isla sin coches (y con burro taxi)",
+      "historia": "La isla prohibió los coches. Un burro llamado 'Eigg' lleva las compras de los vecinos. Los turistas pueden alquilarlo por £5 la hora. El burro tiene su propio chaleco reflectante."
+    },
+    {
+      "id": 86,
+      "ciudad": "Dundee",
+      "lugar": "V&A Dundee",
+      "titulo": "El barco fantasma del museo",
+      "historia": "Las cámaras captaron la silueta de un barco del siglo XIX reflejada en el museo. Era el reflejo de un velero moderno. Pero el museo adoptó la leyenda: ahora hay una exposición de 'barcos que nunca zarparon'."
+    },
+    {
+      "id": 87,
+      "ciudad": "Aberdeen",
+      "lugar": "Union Street",
+      "titulo": "El granito que brilla de noche",
+      "historia": "Los edificios de granito reflejan la luna. Un turista pensó que era un fenómeno sobrenatural. Los vecinos le explicaron la ciencia. El turista se hizo geólogo. Ahora estudia el granito escocés."
+    },
+    {
+      "id": 88,
+      "ciudad": "Inverness",
+      "lugar": "River Ness",
+      "titulo": "El salmón filósofo",
+      "historia": "Un pescador capturó un salmón que parecía escucharlo. Lo soltó. El salmón volvió al día siguiente. El pescador le hablaba de sus problemas. El salmón siempre asentía moviendo la aleta."
+    },
+    {
+      "id": 89,
+      "ciudad": "Stirling",
+      "lugar": "Castillo de Stirling",
+      "titulo": "El guardia que confundió un maniquí",
+      "historia": "Un guardia saludó a una estatua creyendo que era un turista. La estatua era de Robert the Bruce. El guardia se disculpó. Ahora saluda a la estatua cada mañana."
+    },
+    {
+      "id": 90,
+      "ciudad": "Perth",
+      "lugar": "Scone Palace",
+      "titulo": "La piedra del destino (réplica)",
+      "historia": "Un turista pensó que podía tocar la piedra real. Era una réplica. El guardia le dijo: 'Esta es de mentira, la verdadera está en Edimburgo'. El turista se fue feliz porque 'no rompió nada sagrado'."
+    },
+    {
+      "id": 91,
+      "ciudad": "Dumfries",
+      "lugar": "Casa de Robert Burns",
+      "titulo": "El poeta que roncaba",
+      "historia": "La casa museo tiene una grabación de los ronquidos de un actor imitando a Burns. Los niños se ríen. Los adultos dicen que 'el poeta también descansaba'."
+    },
+    {
+      "id": 92,
+      "ciudad": "Oban",
+      "lugar": "McCaig's Tower",
+      "titulo": "El Coliseo escocés sin peleas",
+      "historia": "Un turista esperaba ver gladiadores. Solo había familias tomando té. El guía le explicó que era un monumento al amor. El turista se quedó y pidió un té con pastel de frutas."
+    },
+    {
+      "id": 93,
+      "ciudad": "Ayr",
+      "lugar": "Playa de Ayr",
+      "titulo": "El caballo de mar de arena",
+      "historia": "Un escultor hizo un caballo de mar de 30 metros en la playa. La marea lo borró. Ahora lo replica cada año. Es un evento llamado 'El sueño del caballo marino'."
+    },
+    {
+      "id": 94,
+      "ciudad": "Kirkwall",
+      "lugar": "Catedral de San Magnus",
+      "titulo": "El eco de los vikingos",
+      "historia": "Los turistas escuchan pasos en la torre. Un niño preguntó si era un vikingo. El guía dijo: 'Sí, se llama Magnus, cobra entrada'. El niño le dejó una moneda. Ahora hay una alcancía 'para Magnus'."
+    },
+    {
+      "id": 95,
+      "ciudad": "Lerwick",
+      "lugar": "Puerto de Lerwick",
+      "titulo": "La foca que pedía monedas",
+      "historia": "Una foca se acercaba a los barcos y ladraba hasta que le tiraban pescado. Los marineros le pusieron 'Larry'. Larry desapareció un año y volvió con una cría. Ahora son dos."
+    },
+    {
+      "id": 96,
+      "ciudad": "Fort Augustus",
+      "lugar": "Caledonian Canal",
+      "titulo": "El esclusero poeta",
+      "historia": "El operador de las esclusas escribía poemas en los boletos. Los turistas los coleccionaban. La compañía del canal publicó un libro: 'Versos de las esclusas'."
+    },
+    {
+      "id": 97,
+      "ciudad": "Pitlochry",
+      "lugar": "Theatre Pitlochry",
+      "titulo": "El actor que se durmió en escena",
+      "historia": "Un actor se durmió durante un monólogo. El público pensó que era parte de la obra. Al despertar, improvisó: '¡Qué sueño más real!'. El aplauso duró 5 minutos."
+    },
+    {
+      "id": 98,
+      "ciudad": "Mallaig",
+      "lugar": "Estación de tren",
+      "titulo": "El perro que vendía boletos",
+      "historia": "Un labrador se sentaba en la taquilla. Los turistas le pedían boletos. El dueño le puso un chaleco de 'asistente'. Ahora el perro da la bienvenida con su pata."
+    },
+    {
+      "id": 99,
+      "ciudad": "Largs",
+      "lugar": "Pencil Monument",
+      "titulo": "El lápiz más grande del mundo",
+      "historia": "Un niño preguntó si podía escribir con el monumento. El guía le regaló un lápiz de recuerdo. Ahora se regalan lápices con la forma del monumento."
+    },
+    {
+      "id": 100,
+      "ciudad": "Escocia entera",
+      "lugar": "North Coast 500",
+      "titulo": "El viaje sin fin",
+      "historia": "Una pareja recorrió la ruta NC500 durante 500 días. Hicieron amigos en cada pueblo. Al final, se mudaron a Escocia. Ahora tienen una casita en la ruta y ofrecen té a los viajeros."
+    }
+  ]
+}

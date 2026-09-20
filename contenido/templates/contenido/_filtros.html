@@ -1,0 +1,32 @@
+<div class="row mb-4">
+  <div class="col-md-8">
+    <form method="get" class="d-flex gap-2">
+      <input type="text" name="q" class="form-control" placeholder="Buscar..."
+             value="{{ busqueda }}">
+      {% if categorias %}
+        <select name="categoria" class="form-select" style="max-width: 200px;">
+          <option value="">Todas las categorías</option>
+          {% for c in categorias %}
+            <option value="{{ c.codigo }}" {% if c.codigo == categoria_actual %}selected{% endif %}>
+              {{ c.nombre }} ({{ c.n }})
+            </option>
+          {% endfor %}
+        </select>
+      {% endif %}
+      {% if tipos %}
+        <select name="tipo" class="form-select" style="max-width: 180px;">
+          <option value="">Todos los tipos</option>
+          {% for t in tipos %}
+            <option value="{{ t.codigo }}" {% if t.codigo == tipo_actual %}selected{% endif %}>
+              {{ t.nombre }} ({{ t.n }})
+            </option>
+          {% endfor %}
+        </select>
+      {% endif %}
+      <button type="submit" class="btn btn-primary">🔍</button>
+    </form>
+  </div>
+  <div class="col-md-4 text-end">
+    <span class="text-muted small">{{ page.paginator.count }} resultados</span>
+  </div>
+</div>

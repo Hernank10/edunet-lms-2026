@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex">
+  <nav class="bg-dark text-white p-3" style="min-height:100vh; width:240px;">
+    <h5 class="mb-4">🎓 EduNet</h5>
+    <ul class="nav flex-column">
+      <li><a class="nav-link text-white" href="{% url 'gamificacion:dashboard' %}">📊 Dashboard</a></li>
+      <li><a class="nav-link text-white" href="{% url 'gamificacion:mis_cursos' %}">🎓 Mis Cursos</a></li>
+      <li><a class="nav-link text-white" href="{% url 'gamificacion:practicas' %}">✏️ Prácticas</a></li>
+      <li><a class="nav-link text-white" href="{% url 'gamificacion:evaluaciones' %}">🏆 Evaluaciones</a></li>
+      <li><a class="nav-link text-white" href="{% url 'gamificacion:mis_logros' %}">🏅 Logros</a></li>
+      <li><a class="nav-link text-white" href="{% url 'gamificacion:estadisticas' %}">📈 Estadísticas</a></li>
+      <li><a class="nav-link text-white" href="{% url 'certificaciones:mis_certificados' %}">🎓 Certificados</a></li>
+      <li><a class="nav-link text-white" href="{% url 'contenido:hub' %}">📚 Contenido</a></li>
+      <li><a class="nav-link text-white" href="{% url 'accounts:perfil' %}">👤 Mi Perfil</a></li>
+      <li class="mt-3">
+        <form method="post" action="{% url 'logout' %}">
+          {% csrf_token %}
+          <button class="btn btn-outline-light btn-sm w-100">🚪 Salir</button>
+        </form>
+      </li>
+    </ul>
+  </nav>
+  <main class="flex-grow-1 p-4">
+    {% block contenido %}{% endblock %}
+  </main>
+</div>
+{% endblock %}

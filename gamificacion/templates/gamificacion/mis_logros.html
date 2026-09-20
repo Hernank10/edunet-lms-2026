@@ -1,0 +1,26 @@
+{% extends "gamificacion/_base_estudiante.html" %}
+{% block contenido %}
+<h2 class="mb-4">🏅 Mis Logros</h2>
+<h4>Ganadas ({{ ganadas|length }})</h4>
+<div class="d-flex flex-wrap gap-3 mb-4">
+  {% for ins in ganadas %}
+    <div class="card p-3 text-center" style="width:140px;">
+      <div style="font-size:2.5rem;">{{ ins.icono }}</div>
+      <strong>{{ ins.nombre }}</strong>
+      <small class="text-muted">{{ ins.descripcion|truncatechars:40 }}</small>
+    </div>
+  {% empty %}
+    <p class="text-muted">Aún no has ganado insignias.</p>
+  {% endfor %}
+</div>
+<h4>Bloqueadas ({{ bloqueadas|length }})</h4>
+<div class="d-flex flex-wrap gap-3">
+  {% for ins in bloqueadas %}
+    <div class="card p-3 text-center bg-light" style="width:140px; opacity:0.6;">
+      <div style="font-size:2.5rem;">🔒</div>
+      <strong>{{ ins.nombre }}</strong>
+      <small class="text-muted">{{ ins.requisito_xp }} XP</small>
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

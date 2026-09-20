@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+  <h1 class="mb-4">📄 Recursos JSON ({{ page.paginator.count }})</h1>
+
+  {% include "contenido/_filtros.html" %}
+
+  <div class="row">
+    {% for recurso in page %}
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-secondary mb-2">{{ recurso.get_categoria_display }}</span>
+            <h5 class="card-title">{{ recurso.titulo|truncatechars:60 }}</h5>
+            {% if recurso.subtitulo %}
+              <p class="text-muted small">{{ recurso.subtitulo|truncatechars:80 }}</p>
+            {% endif %}
+            <p class="small mb-2">
+              🎯 {{ recurso.total_real }} técnicas
+              {% if recurso.bilingue %} · 🌐 Bilingüe{% endif %}
+            </p>
+            <a href="{% url 'contenido:detalle_recurso' recurso.pk %}" class="btn btn-primary btn-sm w-100">
+              Ver técnicas →
+            </a>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p class="text-muted">No hay recursos que coincidan.</p>
+    {% endfor %}
+  </div>
+
+  <!-- Paginación -->
+  {% if page.has_other_pages %}
+    <nav class="mt-4">
+      <ul class="pagination justify-content-center">
+        {% if page.has_previous %}
+          <li class="page-item">
+            <a class="page-link" href="?page={{ page.previous_page_number }}{% if categoria_actual %}&categoria={{ categoria_actual }}{% endif %}{% if busqueda %}&q={{ busqueda }}{% endif %}">«</a>
+          </li>
+        {% endif %}
+        <li class="page-item disabled">
+          <span class="page-link">Página {{ page.number }} de {{ page.paginator.num_pages }}</span>
+        </li>
+        {% if page.has_next %}
+          <li class="page-item">
+            <a class="page-link" href="?page={{ page.next_page_number }}{% if categoria_actual %}&categoria={{ categoria_actual }}{% endif %}{% if busqueda %}&q={{ busqueda }}{% endif %}">»</a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+  {% endif %}
+</div>
+{% endblock %}

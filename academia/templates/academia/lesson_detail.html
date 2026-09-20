@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{ lesson.title }}</h2>
+
+<div class="mb-4">
+  {{ lesson.content|linebreaks }}
+</div>
+
+<h4>Ejercicios</h4>
+
+<form method="post">
+  {% csrf_token %}
+
+  {% for exercise in lesson.exercises.all %}
+    <div class="mb-3">
+      <strong>{{ exercise.question }}</strong>
+
+      {% for option in exercise.options %}
+        <div class="form-check">
+          <input class="form-check-input"
+                 type="radio"
+                 name="exercise_{{ exercise.id }}">
+          <label class="form-check-label">
+            {{ option }}
+          </label>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+
+  {% if not progress.completed %}
+    <button type="submit" class="btn btn-success">
+      Marcar como completada
+    </button>
+  {% else %}
+    <div class="alert alert-success">
+      ✔ Lección completada
+    </div>
+  {% endif %}
+</form>
+{% endblock %}
+
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>{{ leccion.titulo }}</h2>
+
+<p>{{ leccion.contenido }}</p>
+
+<form method="post">
+    {% csrf_token %}
+
+    {% for ejercicio in ejercicios %}
+        <p>{{ ejercicio.data.pregunta }}</p>
+        <input type="text" name="ejercicio_{{ ejercicio.id }}">
+    {% endfor %}
+
+    <button type="submit">Enviar</button>
+</form>
+
+{% endblock %}
+

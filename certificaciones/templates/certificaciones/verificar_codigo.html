@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5" style="max-width: 700px;">
+  <h2 class="mb-4">🔍 Verificar certificado</h2>
+
+  <p class="text-muted">
+    Introduce el código único que aparece en el certificado para verificar su autenticidad.
+  </p>
+
+  <form method="post" class="mb-4">
+    {% csrf_token %}
+    <div class="input-group">
+      <input type="text" name="codigo" class="form-control" placeholder="Código único" required>
+      <button type="submit" class="btn btn-primary">Verificar</button>
+    </div>
+  </form>
+
+  {% if error %}
+    <div class="alert alert-danger">{{ error }}</div>
+  {% endif %}
+
+  {% if cert %}
+    <div class="card border-success">
+      <div class="card-body">
+        <h4>✅ Certificado válido</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>Estudiante:</strong> {{ cert.usuario.get_full_name|default:cert.usuario.username }}</li>
+          <li class="list-group-item"><strong>Curso:</strong> {{ cert.curso.titulo }}</li>
+          <li class="list-group-item"><strong>Nivel:</strong> {{ cert.curso.nivel.codigo }}</li>
+          <li class="list-group-item"><strong>Nota:</strong> {{ cert.nota_final }}/100</li>
+          <li class="list-group-item"><strong>Fecha:</strong> {{ cert.fecha_emision|date:"d M Y" }}</li>
+        </ul>
+        <a href="{% url 'certificaciones:ver_certificado' cert.codigo %}" class="btn btn-success mt-3">
+          Ver certificado completo
+        </a>
+      </div>
+    </div>
+  {% endif %}
+</div>
+{% endblock %}

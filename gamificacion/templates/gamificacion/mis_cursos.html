@@ -1,0 +1,26 @@
+{% extends "gamificacion/_base_estudiante.html" %}
+{% block contenido %}
+<h2 class="mb-4">🎓 Mis Cursos ({{ inscripciones|length }})</h2>
+<div class="row">
+  {% for ins in inscripciones %}
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h6>{{ ins.curso.titulo|truncatechars:60 }}</h6>
+          <small class="text-muted">{{ ins.curso.nivel.codigo }}</small>
+          <div class="progress my-2" style="height:12px;">
+            <div class="progress-bar" style="width: {{ ins.progreso_pct }}%;">{{ ins.progreso_pct }}%</div>
+          </div>
+          {% if ins.completado %}
+            <span class="badge bg-success">✅ Completado</span>
+          {% else %}
+            <a href="{% url 'academia:course_lessons' ins.curso.id %}" class="btn btn-primary btn-sm w-100">Continuar</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p class="text-muted">No estás inscrito en ningún curso.</p>
+  {% endfor %}
+</div>
+{% endblock %}

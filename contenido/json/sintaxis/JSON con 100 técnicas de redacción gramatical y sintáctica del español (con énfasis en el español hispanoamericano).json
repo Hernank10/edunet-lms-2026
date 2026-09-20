@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Concordancia de número entre sujeto y verbo",
+    "category": "Concordancia",
+    "teoria": "El verbo debe coincidir en número (singular/plural) con el núcleo del sujeto. Evitar errores cuando hay sujetos complejos o anteposiciones.",
+    "ejemplo": "La mayoría de los estudiantes está de acuerdo. (Correcto: 'mayoría' es singular, aunque el complemento sea plural).",
+    "ejercicio": "Corrige: 'Los precios de los productos ha subido'.",
+    "suggestedAnswer": "Los precios de los productos han subido."
+  },
+  {
+    "id": 2,
+    "name": "Concordancia de género en adjetivos",
+    "category": "Concordancia",
+    "teoria": "El adjetivo debe coincidir en género (masculino/femenino) con el sustantivo al que modifica.",
+    "ejemplo": "La casa es bonita (femenino). El coche es bonito (masculino).",
+    "ejercicio": "Corrige: 'La niña está cansado'.",
+    "suggestedAnswer": "La niña está cansada."
+  },
+  {
+    "id": 3,
+    "name": "Uso correcto del pretérito indefinido",
+    "category": "Tiempos verbales",
+    "teoria": "El pretérito indefinido (canté, comí, viví) se usa para acciones pasadas ya terminadas, con un marco temporal cerrado.",
+    "ejemplo": "Ayer compré pan. (Acción terminada en un momento específico).",
+    "ejercicio": "Elige el tiempo correcto: 'El año pasado (viajé / viajaba) a Colombia'.",
+    "suggestedAnswer": "viajé (acción terminada en un período cerrado)."
+  },
+  {
+    "id": 4,
+    "name": "Uso correcto del pretérito imperfecto",
+    "category": "Tiempos verbales",
+    "teoria": "El pretérito imperfecto (cantaba, comía, vivía) se usa para acciones habituales en el pasado o para describir situaciones sin límite definido.",
+    "ejemplo": "Cuando era niño, jugaba en el parque todos los días.",
+    "ejercicio": "Completa: 'De niño, (tener) miedo a la oscuridad'.",
+    "suggestedAnswer": "tenía"
+  },
+  {
+    "id": 5,
+    "name": "Uso del pretérito perfecto compuesto",
+    "category": "Tiempos verbales",
+    "teoria": "El pretérito perfecto (he cantado) se usa para acciones pasadas que tienen relación con el presente o que ocurren en un período no cerrado.",
+    "ejemplo": "Este año he viajado mucho. (El año aún no ha terminado).",
+    "ejercicio": "Corrige: 'La semana pasada he visto a María' (si la semana pasada ya terminó).",
+    "suggestedAnswer": "La semana pasada vi a María."
+  },
+  {
+    "id": 6,
+    "name": "Uso del pluscuamperfecto",
+    "category": "Tiempos verbales",
+    "teoria": "El pluscuamperfecto (había cantado) expresa una acción pasada anterior a otra también pasada.",
+    "ejemplo": "Cuando llegué, ellos ya habían comido.",
+    "ejercicio": "Completa: 'No pude entrar porque (olvidar) las llaves'.",
+    "suggestedAnswer": "había olvidado"
+  },
+  {
+    "id": 7,
+    "name": "Uso del futuro simple (valor de conjetura)",
+    "category": "Tiempos verbales",
+    "teoria": "El futuro simple también puede expresar probabilidad o conjetura en el presente.",
+    "ejemplo": "Serán las tres. (Supongo que son las tres).",
+    "ejercicio": "Reescribe usando futuro de conjetura: 'Probablemente Juan está en casa'.",
+    "suggestedAnswer": "Juan estará en casa."
+  },
+  {
+    "id": 8,
+    "name": "Uso del condicional simple (valor de conjetura en el pasado)",
+    "category": "Tiempos verbales",
+    "teoria": "El condicional (cantaría) se usa para expresar probabilidad sobre un hecho pasado.",
+    "ejemplo": "Serían las diez cuando sonó el teléfono.",
+    "ejercicio": "Reescribe con condicional de conjetura: 'Seguramente ya habían cenado'.",
+    "suggestedAnswer": "Ya habrían cenado."
+  },
+  {
+    "id": 9,
+    "name": "Posición de los pronombres enclíticos",
+    "category": "Pronombres",
+    "teoria": "Los pronombres átonos (me, te, se, lo, la, etc.) se colocan después del verbo en infinitivo, gerundio o imperativo afirmativo, y antes en formas personales conjugadas.",
+    "ejemplo": "Dámelo (imperativo). Quiero darte (infinitivo). Me lo dijo (antes).",
+    "ejercicio": "Corrige: 'Lo dame a mí'.",
+    "suggestedAnswer": "Dámelo a mí (imperativo) o 'Me lo da' (si es indicativo)."
+  },
+  {
+    "id": 10,
+    "name": "Leísmo, laísmo y loísmo",
+    "category": "Pronombres",
+    "teoria": "El leísmo es usar 'le' para complemento directo masculino (válido en zonas de España pero no en todas). Laísmo y loísmo son usar 'la' o 'lo' para complemento indirecto, considerados incorrectos en la norma culta.",
+    "ejemplo": "Le vi ayer (leísmo aceptado en algunos lugares). La di un regalo (laísmo, incorrecto → le di).",
+    "ejercicio": "Corrige: 'La dije la verdad'.",
+    "suggestedAnswer": "Le dije la verdad."
+  },
+  {
+    "id": 11,
+    "name": "Uso de 'que' como relativo sin preposición",
+    "category": "Oraciones subordinadas",
+    "teoria": "El relativo 'que' puede usarse sin preposición cuando es sujeto o complemento directo. Con preposición se debe anteponer ('el que', 'la que', etc.).",
+    "ejemplo": "La casa que compramos es grande. (Sin preposición, CD). La persona de la que hablo es Juan. (Con preposición).",
+    "ejercicio": "Corrige: 'El proyecto el que trabajamos es complejo'.",
+    "suggestedAnswer": "El proyecto en el que trabajamos es complejo."
+  },
+  {
+    "id": 12,
+    "name": "Dequeísmo",
+    "category": "Sintaxis",
+    "teoria": "Consiste en añadir 'de' antes de 'que' cuando el verbo rige directamente 'que' (no se necesita preposición). Es incorrecto.",
+    "ejemplo": "Incorrecto: Pienso de que vendrá. Correcto: Pienso que vendrá.",
+    "ejercicio": "Corrige: 'Me alegro de que vengas' (¿es dequeísmo?)",
+    "suggestedAnswer": "No, 'alegrarse de que' es correcto porque 'alegrarse' rige la preposición 'de'."
+  },
+  {
+    "id": 13,
+    "name": "Queísmo",
+    "category": "Sintaxis",
+    "teoria": "Consiste en omitir la preposición que exige el verbo antes de 'que'. Ejemplo: 'Me doy cuenta que llegas tarde' (falta 'de').",
+    "ejemplo": "Incorrecto: Me acuerdo que fue bonito. Correcto: Me acuerdo de que fue bonito.",
+    "ejercicio": "Corrige: 'Estoy seguro que ganaremos'.",
+    "suggestedAnswer": "Estoy seguro de que ganaremos."
+  },
+  {
+    "id": 14,
+    "name": "Uso del subjuntivo en cláusulas de deseo",
+    "category": "Modo verbal",
+    "teoria": "Las expresiones de deseo (ojalá, quisiera que, espero que) rigen subjuntivo.",
+    "ejemplo": "Ojalá venga pronto. Espero que lo hagas bien.",
+    "ejercicio": "Completa: 'Deseo que (tener) éxito'.",
+    "suggestedAnswer": "tenga"
+  },
+  {
+    "id": 15,
+    "name": "Uso del subjuntivo en cláusulas de duda o negación",
+    "category": "Modo verbal",
+    "teoria": "Los verbos de duda (dudar, no creer, no pensar) rigen subjuntivo.",
+    "ejemplo": "No creo que venga. Dudo que sea cierto.",
+    "ejercicio": "Completa: 'No pienso que (llover) hoy'.",
+    "suggestedAnswer": "llueva"
+  },
+  {
+    "id": 16,
+    "name": "Uso del indicativo en afirmaciones seguras",
+    "category": "Modo verbal",
+    "teoria": "Los verbos de certeza (creer, pensar, estar seguro) en afirmación van con indicativo.",
+    "ejemplo": "Creo que vendrá. (Indicativo).",
+    "ejercicio": "Corrige: 'Pienso que sea tarde' (cuando se afirma seguridad).",
+    "suggestedAnswer": "Pienso que es tarde."
+  },
+  {
+    "id": 17,
+    "name": "Concordancia con 'más de uno'",
+    "category": "Concordancia",
+    "teoria": "La expresión 'más de uno' va seguida de verbo en singular, aunque se refiera a varias personas.",
+    "ejemplo": "Más de uno se quejó. (Correcto).",
+    "ejercicio": "Corrige: 'Más de uno lo saben'.",
+    "suggestedAnswer": "Más de uno lo sabe."
+  },
+  {
+    "id": 18,
+    "name": "Uso de 'la mayoría' en singular",
+    "category": "Concordancia",
+    "teoria": "La mayoría, el resto, la mitad son cuantificadores singulares y llevan verbo en singular, aunque a veces se admita el plural por proximidad.",
+    "ejemplo": "La mayoría está de acuerdo (singular).",
+    "ejercicio": "Elige: 'La mitad de los estudiantes (aprobó / aprobaron)'.",
+    "suggestedAnswer": "Ambas son posibles, pero la RAE prefiere singular: 'aprobó'."
+  },
+  {
+    "id": 19,
+    "name": "Voseo verbal",
+    "category": "Variedades hispanoamericanas",
+    "teoria": "En regiones voseantes (Argentina, Uruguay, Centroamérica, etc.) se usa 'vos' en lugar de 'tú', con conjugaciones específicas: vos hablás, comés, vivís.",
+    "ejemplo": "Vos sos mi amigo. (En lugar de 'tú eres').",
+    "ejercicio": "Convierte al voseo: 'Tú cantas muy bien'.",
+    "suggestedAnswer": "Vos cantás muy bien."
+  },
+  {
+    "id": 20,
+    "name": "Uso de 'ustedes' por 'vosotros'",
+    "category": "Variedades hispanoamericanas",
+    "teoria": "En Hispanoamérica no se usa 'vosotros', se emplea 'ustedes' tanto en registro formal como informal.",
+    "ejemplo": "Ustedes son amables. (En España sería 'vosotros sois' para informal).",
+    "ejercicio": "Convierte al español hispanoamericano: 'Vosotros vendréis mañana'.",
+    "suggestedAnswer": "Ustedes vendrán mañana."
+  },
+  {
+    "id": 21,
+    "name": "Posición de los pronombres en oraciones exclamativas",
+    "category": "Pronombres",
+    "teoria": "En exclamativas, los pronombres átonos suelen ir antepuestos al verbo.",
+    "ejemplo": "¡Te lo dije! (no ¡Díjetelo! que sería imperativo).",
+    "ejercicio": "Corrige: '¡Díselo a ella!' (¿es correcto?)",
+    "suggestedAnswer": "Es correcto en imperativo afirmativo. En exclamativa indicativa sería '¡Se lo dices a ella!'"
+  },
+  {
+    "id": 22,
+    "name": "Uso de 'sino' y 'si no'",
+    "category": "Ortografía y puntuación",
+    "teoria": "'Sino' es conjunción adversativa (contraste). 'Si no' es condición + negación.",
+    "ejemplo": "No quiero dinero, sino justicia. Si no estudias, suspenderás.",
+    "ejercicio": "Completa: 'No vino, (sino/si no) llamó'.",
+    "suggestedAnswer": "sino"
+  },
+  {
+    "id": 23,
+    "name": "Uso de 'por qué', 'porque', 'porqué', 'por que'",
+    "category": "Ortografía y puntuación",
+    "teoria": "'Por qué' (interrogativo), 'porque' (causal), 'porqué' (sustantivo, el motivo), 'por que' (preposición + que relativo).",
+    "ejemplo": "¿Por qué viniste? Porque quería. No entiendo el porqué. La razón por que luchamos.",
+    "ejercicio": "Completa: 'No sé (el) ______ de su actitud'.",
+    "suggestedAnswer": "porqué"
+  },
+  {
+    "id": 24,
+    "name": "Colocación de adverbios en -mente",
+    "category": "Estilo y sintaxis",
+    "teoria": "Los adverbios terminados en -mente modifican al verbo o al adjetivo. Si hay varios, solo el último lleva -mente; los anteriores se escriben en femenino singular.",
+    "ejemplo": "Habló clara y concisamente. (No 'claramente y concisamente').",
+    "ejercicio": "Corrige: 'Realizó el trabajo rápidamente y eficientemente'.",
+    "suggestedAnswer": "Realizó el trabajo rápida y eficientemente."
+  },
+  {
+    "id": 25,
+    "name": "Uso de 'haber' impersonal",
+    "category": "Sintaxis",
+    "teoria": "'Haber' en construcciones impersonales siempre va en singular (hay, habrá, hubo). No debe concordar con el objeto.",
+    "ejemplo": "Hubo muchos problemas. (No 'hubieron').",
+    "ejercicio": "Corrige: 'Habrán varias soluciones'.",
+    "suggestedAnswer": "Habrá varias soluciones."
+  },
+  {
+    "id": 26,
+    "name": "Uso de 'a por' (regionalismo)",
+    "category": "Sintaxis",
+    "teoria": "En España se usa 'voy a por pan', mientras que en Hispanoamérica se prefiere 'voy por pan'. Ambas son válidas, pero en textos hispanoamericanos conviene evitarlo.",
+    "ejemplo": "Voy por el libro (hispanoamérica).",
+    "ejercicio": "Convierte al uso hispanoamericano: 'Salgo a por el periódico'.",
+    "suggestedAnswer": "Salgo por el periódico."
+  },
+  {
+    "id": 27,
+    "name": "Uso de 'comillas' para extranjerismos",
+    "category": "Ortografía y puntuación",
+    "teoria": "Los extranjerismos no adaptados se escriben en cursiva o entre comillas.",
+    "ejemplo": "El 'marketing' es clave. O el marketing (sin comillas si está adaptado).",
+    "ejercicio": "Corrige: 'El software fue instalado' (si se considera extranjerismo adaptado, no requiere comillas; si no, ponerlas).",
+    "suggestedAnswer": "Ambas opciones: 'software' es aceptado como hispanizado, por lo que sin comillas está bien."
+  },
+  {
+    "id": 28,
+    "name": "Uso de la coma en enumeraciones",
+    "category": "Ortografía y puntuación",
+    "teoria": "Se usa coma para separar elementos de una enumeración, excepto antes de 'y' o 'o' (salvo que se quiera marcar una pausa o evitar ambigüedad).",
+    "ejemplo": "Compré leche, pan, huevos y queso.",
+    "ejercicio": "Pon comas donde falten: 'Necesito papel tijeras pegamento y cartulina'.",
+    "suggestedAnswer": "Necesito papel, tijeras, pegamento y cartulina."
+  },
+  {
+    "id": 29,
+    "name": "Coma antes de 'pero'",
+    "category": "Ortografía y puntuación",
+    "teoria": "Siempre se escribe coma antes de la conjunción adversativa 'pero', aunque también después si interrumpe el orden.",
+    "ejemplo": "Quería venir, pero se cansó.",
+    "ejercicio": "Corrige: 'Llegó tarde pero nadie se enfadó'.",
+    "suggestedAnswer": "Llegó tarde, pero nadie se enfadó."
+  },
+  {
+    "id": 30,
+    "name": "Punto y coma para separar oraciones relacionadas",
+    "category": "Ortografía y puntuación",
+    "teoria": "El punto y coma se usa para unir dos oraciones con relación semántica, especialmente cuando ya hay comas en su interior.",
+    "ejemplo": "Trajo la comida; yo, las bebidas.",
+    "ejercicio": "Une con punto y coma: 'El día estuvo soleado. Por la noche llovió'.",
+    "suggestedAnswer": "El día estuvo soleado; por la noche llovió."
+  },
+  {
+    "id": 31,
+    "name": "Uso de los dos puntos",
+    "category": "Ortografía y puntuación",
+    "teoria": "Los dos puntos se usan para anunciar una enumeración, una cita textual, o una explicación.",
+    "ejemplo": "Tres cosas: paciencia, esfuerzo y constancia.",
+    "ejercicio": "Añade dos puntos en: 'Necesitas lo siguiente coraje y fe'.",
+    "suggestedAnswer": "Necesitas lo siguiente: coraje y fe."
+  },
+  {
+    "id": 32,
+    "name": "Uso de los puntos suspensivos",
+    "category": "Ortografía y puntuación",
+    "teoria": "Indican suspensión del discurso, duda o final abierto. Son tres puntos (no más), y después de ellos no se escribe punto.",
+    "ejemplo": "No sé si decirle la verdad...",
+    "ejercicio": "Corrige: 'No me gusta... .'",
+    "suggestedAnswer": "No me gusta..."
+  },
+  {
+    "id": 33,
+    "name": "Uso de mayúscula inicial después de punto",
+    "category": "Ortografía y puntuación",
+    "teoria": "Después de punto (seguido o aparte) se escribe mayúscula. Después de dos puntos, en enumeración se usa minúscula, pero en cita textual se puede usar mayúscula.",
+    "ejemplo": "Llegó tarde. No avisó.",
+    "ejercicio": "Corrige: 'Llegó tarde. no avisó'.",
+    "suggestedAnswer": "Llegó tarde. No avisó."
+  },
+  {
+    "id": 34,
+    "name": "Acentuación de palabras agudas",
+    "category": "Ortografía",
+    "teoria": "Las palabras agudas llevan tilde si terminan en vocal, 'n' o 's'.",
+    "ejemplo": "Canción, compás, tomó.",
+    "ejercicio": "¿Lleva tilde 'corazon'?",
+    "suggestedAnswer": "Sí: 'corazón' (aguda terminada en n)."
+  },
+  {
+    "id": 35,
+    "name": "Acentuación de palabras graves (llanas)",
+    "category": "Ortografía",
+    "teoria": "Las palabras graves llevan tilde si NO terminan en vocal, 'n' o 's'.",
+    "ejemplo": "Árbol, césped, lápiz.",
+    "ejercicio": "¿Lleva tilde 'facil'?",
+    "suggestedAnswer": "Sí: 'fácil' (grave terminada en l)."
+  },
+  {
+    "id": 36,
+    "name": "Acentuación de palabras esdrújulas",
+    "category": "Ortografía",
+    "teoria": "Todas las palabras esdrújulas llevan tilde.",
+    "ejemplo": "Médico, esdrújula, pájaro.",
+    "ejercicio": "¿Lleva tilde 'amigo'?",
+    "suggestedAnswer": "No, porque es grave y termina en vocal."
+  },
+  {
+    "id": 37,
+    "name": "Tilde diacrítica en monosílabos",
+    "category": "Ortografía",
+    "teoria": "Algunos monosílabos llevan tilde para distinguir funciones: él (pronombre) / el (artículo), té (bebida) / te (pronombre), etc.",
+    "ejemplo": "Él lo dijo. (pronombre). El coche es rojo. (artículo).",
+    "ejercicio": "Completa: '___ (El/Él) libro es mío'.",
+    "suggestedAnswer": "El"
+  },
+  {
+    "id": 38,
+    "name": "Acentuación de adverbios en -mente",
+    "category": "Ortografía",
+    "teoria": "Los adverbios en -mente conservan la tilde si el adjetivo base la tenía.",
+    "ejemplo": "Fácilmente (de fácil), rápidamente (de rápida, sin tilde).",
+    "ejercicio": "¿Lleva tilde 'lentamente'?",
+    "suggestedAnswer": "No, porque 'lenta' no tiene tilde."
+  },
+  {
+    "id": 39,
+    "name": "Uso de 'y' antes de 'i' o 'hi'",
+    "category": "Ortografía",
+    "teoria": "Para evitar cacofonía, la conjunción 'y' se cambia por 'e' cuando la palabra siguiente empieza por 'i' o 'hi'.",
+    "ejemplo": "Madre e hijo (no 'madre y hijo').",
+    "ejercicio": "Corrige: 'Juan y Ignacio'.",
+    "suggestedAnswer": "Juan e Ignacio."
+  },
+  {
+    "id": 40,
+    "name": "Uso de 'u' antes de 'o' o 'ho'",
+    "category": "Ortografía",
+    "teoria": "La conjunción 'o' se cambia por 'u' ante palabras que empiezan por 'o' u 'ho'.",
+    "ejemplo": "Siete u ocho (no 'siete o ocho').",
+    "ejercicio": "Corrige: 'personas o organismos'.",
+    "suggestedAnswer": "personas u organismos."
+  },
+  {
+    "id": 41,
+    "name": "Pronombres reflexivos: 'se' accidental",
+    "category": "Pronombres",
+    "teoria": "Construcción 'se me/te/le...' para expresar acciones involuntarias (accidentalidad).",
+    "ejemplo": "Se me cayó el vaso. (No fue intencional).",
+    "ejercicio": "Reescribe: 'Olvidé las llaves' en forma accidental.",
+    "suggestedAnswer": "Se me olvidaron las llaves."
+  },
+  {
+    "id": 42,
+    "name": "Perífrasis verbales de obligación: 'tener que'",
+    "category": "Perífrasis verbales",
+    "teoria": "'Tener que' + infinitivo expresa obligación. 'Habrá que' expresa necesidad impersonal.",
+    "ejemplo": "Tienes que estudiar. Habrá que esperar.",
+    "ejercicio": "Completa con 'tener que' o 'haber que': '___ decidir pronto' (impersonal).",
+    "suggestedAnswer": "Hay que decidir pronto."
+  },
+  {
+    "id": 43,
+    "name": "Perífrasis de gerundio: 'estar + gerundio'",
+    "category": "Perífrasis verbales",
+    "teoria": "'Estar + gerundio' indica acción en desarrollo en el momento del habla.",
+    "ejemplo": "Estoy estudiando ahora.",
+    "ejercicio": "Transforma: 'Ahora leo' con perífrasis.",
+    "suggestedAnswer": "Estoy leyendo ahora."
+  },
+  {
+    "id": 44,
+    "name": "Perífrasis 'ir a + infinitivo' (futuro próximo)",
+    "category": "Perífrasis verbales",
+    "teoria": "Expresa intención o acción inmediata.",
+    "ejemplo": "Voy a llamar a mi madre.",
+    "ejercicio": "Sustituye el futuro simple: 'Comeré en un rato'.",
+    "suggestedAnswer": "Voy a comer en un rato."
+  },
+  {
+    "id": 45,
+    "name": "Perífrasis 'venir + gerundio'",
+    "category": "Perífrasis verbales",
+    "teoria": "Indica una acción que se viene desarrollando desde antes y continúa.",
+    "ejemplo": "Vengo trabajando aquí desde 2020.",
+    "ejercicio": "Reescribe: 'Llevo dos horas esperando' usando 'venir'.",
+    "suggestedAnswer": "Vengo esperando dos horas."
+  },
+  {
+    "id": 46,
+    "name": "Uso de 'le' con verbos de daño o beneficio",
+    "category": "Pronombres",
+    "teoria": "El dativo ético (o de interés) agrega un pronombre para involucrar emocionalmente al hablante.",
+    "ejemplo": "No me le pegues al niño. (El 'le' enfatiza la afectación).",
+    "ejercicio": "Añade dativo ético: 'No me toques la computadora'.",
+    "suggestedAnswer": "No me me toques la computadora (redundante). Mejor 'No me la toques' (siendo 'la' la computadora)."
+  },
+  {
+    "id": 47,
+    "name": "Uso de 'se' como marca de impersonalidad",
+    "category": "Sintaxis",
+    "teoria": "'Se' + verbo en tercera persona singular (o plural si el objeto es plural) para enunciados sin sujeto específico.",
+    "ejemplo": "Se vive bien en esta ciudad. Se alquilan pisos.",
+    "ejercicio": "Transforma a impersonal: 'La gente come bien aquí'.",
+    "suggestedAnswer": "Se come bien aquí."
+  },
+  {
+    "id": 48,
+    "name": "Uso de 'se' como pasiva refleja",
+    "category": "Sintaxis",
+    "teoria": "'Se' + verbo en activa que equivale a voz pasiva, con sujeto paciente.",
+    "ejemplo": "Se venden casas (casas son vendidas).",
+    "ejercicio": "Convierte a pasiva refleja: 'Fueron destruidas las casas'.",
+    "suggestedAnswer": "Se destruyeron las casas."
+  },
+  {
+    "id": 49,
+    "name": "Queísmo y dequeísmo en verbos de percepción",
+    "category": "Sintaxis",
+    "teoria": "Verbos como 'ver', 'oír', 'sentir' no llevan preposición antes de 'que': 'Veo que viene' (no 'Veo de que viene').",
+    "ejemplo": "Oigo que cantan.",
+    "ejercicio": "Corrige: 'Siento de que no puedas venir'.",
+    "suggestedAnswer": "Siento que no puedas venir."
+  },
+  {
+    "id": 50,
+    "name": "Concordancia en oraciones con 'el cual'",
+    "category": "Pronombres relativos",
+    "teoria": "Los relativos compuestos 'el cual, la cual, los cuales, las cuales' deben concordar en género y número con su antecedente.",
+    "ejemplo": "Los estudiantes, los cuales aprobaron, recibieron premio.",
+    "ejercicio": "Corrige: 'La mesa, el cual está rota'.",
+    "suggestedAnswer": "La mesa, la cual está rota."
+  },
+  {
+    "id": 51,
+    "name": "Uso de 'cuyo' como relativo posesivo",
+    "category": "Pronombres relativos",
+    "teoria": "'Cuyo, cuya, cuyos, cuyas' indica posesión y debe concordar con el objeto poseído.",
+    "ejemplo": "El autor cuyo libro leí es famoso.",
+    "ejercicio": "Completa: 'La niña ___ madre trabaja'.",
+    "suggestedAnswer": "cuya"
+  },
+  {
+    "id": 52,
+    "name": "Posición de los pronombres en imperativo negativo",
+    "category": "Pronombres",
+    "teoria": "En imperativo negativo, los pronombres se anteponen al verbo.",
+    "ejemplo": "No lo hagas. No te preocupes.",
+    "ejercicio": "Convierte a negativo: 'Dímelo'.",
+    "suggestedAnswer": "No me lo digas."
+  },
+  {
+    "id": 53,
+    "name": "Uso de 'conmigo', 'contigo', 'consigo'",
+    "category": "Pronombres",
+    "teoria": "Se usan estas formas en lugar de 'con mí', 'con ti', 'con sí'.",
+    "ejemplo": "Ven conmigo (no 'con mí').",
+    "ejercicio": "Corrige: 'Voy con ti'.",
+    "suggestedAnswer": "Voy contigo."
+  },
+  {
+    "id": 54,
+    "name": "Verbos de cambio: 'hacerse', 'volverse', 'ponerse'",
+    "category": "Sintaxis verbal",
+    "teoria": "'Hacerse' indica cambio logrado por esfuerzo, 'volverse' cambio brusco negativo, 'ponerse' cambio transitorio o físico.",
+    "ejemplo": "Se hizo médico (profesión). Se volvió loco (brusco). Se puso rojo (momentáneo).",
+    "ejercicio": "Elige el verbo adecuado: 'Se ___ triste cuando llueve'.",
+    "suggestedAnswer": "pone"
+  },
+  {
+    "id": 55,
+    "name": "Uso de 'quizá' y 'quizás'",
+    "category": "Adverbios",
+    "teoria": "Ambas formas son válidas. Pueden ir seguidas de indicativo (mayor probabilidad) o subjuntivo (menor probabilidad).",
+    "ejemplo": "Quizá venga. Quizás viene.",
+    "ejercicio": "Completa: 'Quizás (llover) esta tarde' (probable).",
+    "suggestedAnswer": "llueve"
+  },
+  {
+    "id": 56,
+    "name": "Uso de 'aunque' con subjuntivo e indicativo",
+    "category": "Conjunciones",
+    "teoria": "'Aunque' + indicativo expresa un hecho real; + subjuntivo expresa concesión hipotética.",
+    "ejemplo": "Aunque llueve, saldré (real). Aunque llueva, saldré (hipotético).",
+    "ejercicio": "Completa: 'Aunque (ser) tarde, iremos' (con certeza de que es tarde).",
+    "suggestedAnswer": "es"
+  },
+  {
+    "id": 57,
+    "name": "Uso de 'siquiera'",
+    "category": "Adverbios",
+    "teoria": "'Siquiera' significa 'al menos', y 'ni siquiera' significa 'incluso... no'.",
+    "ejemplo": "Dame siquiera un minuto. Ni siquiera saludó.",
+    "ejercicio": "Completa: '___ me llamó para avisar' (énfasis negativo).",
+    "suggestedAnswer": "Ni siquiera"
+  },
+  {
+    "id": 58,
+    "name": "Concordancia con números decimales",
+    "category": "Sintaxis",
+    "teoria": "Con números decimales se usa el singular con 'uno', pero el verbo puede ir en singular (con la unidad) o plural (con el total).",
+    "ejemplo": "1,5 litros es suficiente (plural del sustantivo).",
+    "ejercicio": "Corrige: 'Son 1,5 metro de tela'.",
+    "suggestedAnswer": "Es 1,5 metro de tela (o '1,5 metros de tela son')."
+  },
+  {
+    "id": 59,
+    "name": "Uso del artículo ante nombres propios",
+    "category": "Artículos",
+    "teoria": "En Hispanoamérica, a veces se usa artículo con nombres de pila ('la Laura') en contextos coloquiales, pero no es normativo.",
+    "ejemplo": "Conversé con Laura (norma culta). Conversé con la Laura (coloquial, algunas regiones).",
+    "ejercicio": "¿Es correcto decir 'el Juan' en un texto formal?",
+    "suggestedAnswer": "No, en textos formales se omite el artículo."
+  },
+  {
+    "id": 60,
+    "name": "Uso de 'mucho' vs 'muy'",
+    "category": "Adverbios y adjetivos",
+    "teoria": "'Muy' solo modifica adjetivos o adverbios; 'mucho' modifica verbos o sustantivos.",
+    "ejemplo": "Estoy muy cansado (adj). Tengo mucho cansancio (sust).",
+    "ejercicio": "Corrige: 'La película fue mucho entretenida'.",
+    "suggestedAnswer": "La película fue muy entretenida."
+  },
+  {
+    "id": 61,
+    "name": "Colocación de 'también' y 'tampoco'",
+    "category": "Adverbios",
+    "teoria": "'También' se usa en oraciones afirmativas, 'tampoco' en negativas. Su posición puede variar, pero habitualmente van cerca del verbo.",
+    "ejemplo": "Yo también voy. Yo tampoco voy.",
+    "ejercicio": "Responde negativamente: 'A mí me gusta'.",
+    "suggestedAnswer": "A mí no me gusta tampoco (o 'A mí tampoco')."
+  },
+  {
+    "id": 62,
+    "name": "Uso de 'acá' y 'allá' en hispanoamérica",
+    "category": "Adverbios de lugar",
+    "teoria": "En Hispanoamérica se usan 'acá' y 'allá' (más que 'aquí' y 'allí'), pero no hay diferencia semántica estricta.",
+    "ejemplo": "Ven acá (más coloquial que 'ven aquí').",
+    "ejercicio": "Sustituye 'aquí' por 'acá' en la frase 'Ven aquí ahora'.",
+    "suggestedAnswer": "Ven acá ahora."
+  },
+  {
+    "id": 63,
+    "name": "El gerundio de posterioridad",
+    "category": "Gerundio",
+    "teoria": "El gerundio debe indicar acción simultánea o anterior. Evitar el gerundio de posterioridad (incorrecto).",
+    "ejemplo": "Incorrecto: 'Se cayó, rompiéndose el brazo' (primero se cayó, luego se rompió). Correcto: 'Se cayó y se rompió el brazo'.",
+    "ejercicio": "Corrige: 'Entró en la sala, saludando a todos' (si primero entró y luego saludó, ¿es válido?)",
+    "suggestedAnswer": "Es válido si la acción es casi simultánea. Si hay un orden claro, mejor 'entró y saludó'."
+  },
+  {
+    "id": 64,
+    "name": "Gerundio en lugar de subordinada de tiempo",
+    "category": "Gerundio",
+    "teoria": "Es correcto usar gerundio para expresar simultaneidad: 'Leyó el periódico tomando café'.",
+    "ejemplo": "Caminaba mirando el paisaje.",
+    "ejercicio": "Reescribe: 'Mientras esperaba, leía un libro' con gerundio.",
+    "suggestedAnswer": "Esperaba leyendo un libro."
+  },
+  {
+    "id": 65,
+    "name": "Infinitivo como sujeto",
+    "category": "Infinitivo",
+    "teoria": "El infinitivo puede funcionar como sustantivo (sujeto u objeto).",
+    "ejemplo": "Fumar es perjudicial. (Sujeto).",
+    "ejercicio": "Identifica el sujeto: 'Estudiar español me apasiona'.",
+    "suggestedAnswer": "Estudiar español"
+  },
+  {
+    "id": 66,
+    "name": "Perífrasis 'deber' vs 'deber de'",
+    "category": "Perífrasis verbales",
+    "teoria": "'Deber' + infinitivo expresa obligación; 'deber de' + infinitivo expresa probabilidad o suposición.",
+    "ejemplo": "Debes estudiar (obligación). Debe de ser tarde (suposición).",
+    "ejercicio": "Completa: 'El ladrón ___ ser el vecino' (suposición).",
+    "suggestedAnswer": "debe de"
+  },
+  {
+    "id": 67,
+    "name": "Perífrasis 'dejar de + infinitivo'",
+    "category": "Perífrasis verbales",
+    "teoria": "Significa 'cesar en una acción'.",
+    "ejemplo": "Dejó de llover.",
+    "ejercicio": "Reescribe: 'Ya no fumo' usando la perífrasis.",
+    "suggestedAnswer": "He dejado de fumar."
+  },
+  {
+    "id": 68,
+    "name": "Perífrasis 'echar a + infinitivo'",
+    "category": "Perífrasis verbales",
+    "teoria": "Indica inicio brusco o repentino de una acción.",
+    "ejemplo": "Echó a correr.",
+    "ejercicio": "Usa 'echar a' en 'De repente empezó a llover'.",
+    "suggestedAnswer": "Echó a llover de repente."
+  },
+  {
+    "id": 69,
+    "name": "Uso de los pronombres 'esto', 'eso', 'aquello'",
+    "category": "Demostrativos",
+    "teoria": "Se usan para referirse a ideas o conceptos abstractos o indeterminados.",
+    "ejemplo": "Esto es importante. (Se refiere a lo dicho antes).",
+    "ejercicio": "Completa: 'No me gusta ____ que dices' (refiriéndose a un concepto general).",
+    "suggestedAnswer": "eso"
+  },
+  {
+    "id": 70,
+    "name": "Concordancia de 'cientos' y 'miles'",
+    "category": "Sintaxis numérica",
+    "teoria": "Cientos, miles, millones concuerdan en plural con el sustantivo: 'cientos de personas', 'miles de dólares'.",
+    "ejemplo": "Miles de manifestantes.",
+    "ejercicio": "Corrige: 'Había cientos de problema'.",
+    "suggestedAnswer": "cientos de problemas"
+  },
+  {
+    "id": 71,
+    "name": "Uso de 'sendos' (distributivo)",
+    "category": "Adjetivos",
+    "teoria": "'Sendos, sendas' significa 'uno para cada uno' y concuerda con el sustantivo.",
+    "ejemplo": "Los alumnos recibieron sendos premios (cada uno un premio).",
+    "ejercicio": "Corrige: 'Les dieron sendos regalos a cada uno' (redundante).",
+    "suggestedAnswer": "Les dieron sendos regalos (sin 'a cada uno')."
+  },
+  {
+    "id": 72,
+    "name": "Adjetivos relacionales",
+    "category": "Adjetivos",
+    "teoria": "Los adjetivos relacionales (policial, presidencial) no admiten grados comparativos ni posposición libre.",
+    "ejemplo": "Política educativa (no 'educativa política'). Muy policial (incorrecto).",
+    "ejercicio": "¿Es correcto 'muy presidencial'?",
+    "suggestedAnswer": "No, porque es un adjetivo relacional."
+  },
+  {
+    "id": 73,
+    "name": "Uso de los artículos en títulos y encabezados",
+    "category": "Artículos",
+    "teoria": "En titulares se suele omitir el artículo cuando no es necesario.",
+    "ejemplo": "Titular: 'Gobierno aprueba ley'. En texto: 'El gobierno aprobó la ley'.",
+    "ejercicio": "Convierte a titular: 'La policía detuvo al ladrón'.",
+    "suggestedAnswer": "Policía detiene a ladrón (o 'Policía detiene al ladrón' con artículo al ladrón)."
+  },
+  {
+    "id": 74,
+    "name": "Posición de 'solo' adverbial",
+    "category": "Adverbios",
+    "teoria": "El adverbio 'solo' (solamente) puede escribirse sin tilde desde 2010, aunque era recomendable tildarlo para evitar ambigüedades.",
+    "ejemplo": "Solo quiero ayudar (sin tilde). Sólo quiero ayudar (tilde diacrítica aceptada antes).",
+    "ejercicio": "¿En qué caso escribirías 'sólo' con tilde?",
+    "suggestedAnswer": "En contextos donde pueda confundirse con el adjetivo 'solo' (sin compañía). Actualmente la RAE desaconseja la tilde."
+  },
+  {
+    "id": 75,
+    "name": "Uso de los signos de interrogación",
+    "category": "Ortografía y puntuación",
+    "teoria": "En español, los signos de interrogación se colocan al inicio y al final de la oración (¿?).",
+    "ejemplo": "¿Cómo estás?",
+    "ejercicio": "Corrige: 'Cómo te llamas?'",
+    "suggestedAnswer": "¿Cómo te llamas?"
+  },
+  {
+    "id": 76,
+    "name": "Uso de los signos de exclamación",
+    "category": "Ortografía y puntuación",
+    "teoria": "Al igual que los interrogativos, se usan los signos de apertura y cierre (¡!).",
+    "ejemplo": "¡Qué sorpresa!",
+    "ejercicio": "Corrige: 'Viva el rey!'",
+    "suggestedAnswer": "¡Viva el rey!"
+  },
+  {
+    "id": 77,
+    "name": "Paréntesis para incisos",
+    "category": "Ortografía y puntuación",
+    "teoria": "Los paréntesis se usan para encerrar aclaraciones o datos secundarios.",
+    "ejemplo": "El resultado (como veremos más adelante) fue sorprendente.",
+    "ejercicio": "Añade paréntesis: 'El presidente según fuentes oficiales dimitirá'.",
+    "suggestedAnswer": "El presidente (según fuentes oficiales) dimitirá."
+  },
+  {
+    "id": 78,
+    "name": "Uso de la raya (—) para diálogos",
+    "category": "Ortografía y puntuación",
+    "teoria": "La raya se usa para introducir parlamentos en diálogos, sin necesidad de comillas.",
+    "ejemplo": "—¿Vienes? —Sí, ahora mismo.",
+    "ejercicio": "Escribe un breve diálogo de dos líneas usando raya.",
+    "suggestedAnswer": "—Hola —dijo Juan. —Buenas —respondió Ana."
+  },
+  {
+    "id": 79,
+    "name": "Uso de la coma vocativa",
+    "category": "Ortografía y puntuación",
+    "teoria": "La coma separa el vocativo del resto de la oración.",
+    "ejemplo": "Juan, ven aquí. Ven aquí, Juan.",
+    "ejercicio": "Corrige: 'Juan ven aquí'.",
+    "suggestedAnswer": "Juan, ven aquí."
+  },
+  {
+    "id": 80,
+    "name": "Uso de la coma entre sujeto y verbo",
+    "category": "Ortografía y puntuación",
+    "teoria": "Nunca se escribe coma entre el sujeto y el verbo, salvo en casos de incisos.",
+    "ejemplo": "Los estudiantes, los de primero, aprobaron. (Inciso).",
+    "ejercicio": "Corrige: 'Mi hermano, llegó tarde'.",
+    "suggestedAnswer": "Mi hermano llegó tarde."
+  },
+  {
+    "id": 81,
+    "name": "Uso de la coma en aposiciones",
+    "category": "Ortografía y puntuación",
+    "teoria": "Las aposiciones explicativas van entre comas; las especificativas no.",
+    "ejemplo": "Mi amigo, el arquitecto, vendrá (explicativa). El arquitecto López diseñó el puente (especificativa).",
+    "ejercicio": "Añade comas si es necesario: 'Mi vecino Juan es simpático' (si tengo un solo vecino).",
+    "suggestedAnswer": "Mi vecino, Juan, es simpático."
+  },
+  {
+    "id": 82,
+    "name": "La coma hiperbática",
+    "category": "Ortografía y puntuación",
+    "teoria": "En construcciones hiperbáticas (alteración del orden natural), a veces se usa coma después de un complemento antepuesto.",
+    "ejemplo": "A quien madruga, Dios le ayuda.",
+    "ejercicio": "Pon coma donde corresponda: 'A los niños hay que cuidarlos'.",
+    "suggestedAnswer": "A los niños, hay que cuidarlos."
+  },
+  {
+    "id": 83,
+    "name": "Uso del punto y coma en oraciones complejas",
+    "category": "Ortografía y puntuación",
+    "teoria": "El punto y coma separa oraciones relacionadas, especialmente cuando ya tienen comas internas.",
+    "ejemplo": "Llegaron los invitados; los niños, emocionados; los adultos, cansados.",
+    "ejercicio": "Divide con punto y coma: 'Compré pan, leche y huevos; mi hermana, frutas; mi padre, vino'.",
+    "suggestedAnswer": "Ya está correcto."
+  },
+  {
+    "id": 84,
+    "name": "Uso de los dos puntos en cartas y discursos",
+    "category": "Ortografía y puntuación",
+    "teoria": "Tras el saludo en cartas formales se usan dos puntos, no coma.",
+    "ejemplo": "Estimado señor: Le escribo para...",
+    "ejercicio": "Corrige: 'Querido amigo, Te cuento...'",
+    "suggestedAnswer": "Querido amigo: Te cuento..."
+  },
+  {
+    "id": 85,
+    "name": "Uso de las comillas para títulos de artículos o poemas",
+    "category": "Ortografía y puntuación",
+    "teoria": "Los títulos de artículos, poemas, capítulos se escriben entre comillas, mientras que los de libros se escriben en cursiva.",
+    "ejemplo": "Leí el poema 'Rima XXI' de Bécquer.",
+    "ejercicio": "Pon comillas: 'He leído el capítulo La verdad sobre el caso'.",
+    "suggestedAnswer": "He leído el capítulo 'La verdad sobre el caso'."
+  },
+  {
+    "id": 86,
+    "name": "Uso de la tilde en 'solo' cuando es adverbio (casos antiguos)",
+    "category": "Ortografía",
+    "teoria": "Antes de 2010, se recomendaba tildar 'sólo' para distinguirlo del adjetivo. Actualmente la RAE desaconseja la tilde, excepto en casos de ambigüedad real.",
+    "ejemplo": "Trabajo solo (sin compañía) / Trabajo sólo (solamente). Hoy se escribe sin tilde.",
+    "ejercicio": "¿Debe llevar tilde 'solo' en la frase 'Solo quiero un poco'?",
+    "suggestedAnswer": "Según la normativa actual, no."
+  },
+  {
+    "id": 87,
+    "name": "Acentuación de los demostrativos",
+    "category": "Ortografía",
+    "teoria": "Los demostrativos (este, ese, aquel) nunca llevan tilde, salvo que haya riesgo de ambigüedad (caso raro).",
+    "ejemplo": "Ese libro es mío. (Sin tilde).",
+    "ejercicio": "Corrige: 'Éste es mi auto'.",
+    "suggestedAnswer": "Este es mi auto."
+  },
+  {
+    "id": 88,
+    "name": "Uso de 'además' y 'a demás'",
+    "category": "Ortografía",
+    "teoria": "'Además' es adverbio (encima, también). 'A demás' (preposición + adjetivo) apenas se usa.",
+    "ejemplo": "Además, tengo hambre. No es a demás.",
+    "ejercicio": "Completa: '___ de ser listo, es simpático'.",
+    "suggestedAnswer": "Además"
+  },
+  {
+    "id": 89,
+    "name": "Uso de 'respecto a' y 'con respecto a'",
+    "category": "Sintaxis",
+    "teoria": "Son correctas ambas formas (no 'respecto a' a secas). 'Respecto a' y 'con respecto a' significan 'en relación con'.",
+    "ejemplo": "Respecto al tema, estamos de acuerdo. Con respecto a la fecha, no lo sé.",
+    "ejercicio": "Corrige: 'Respecto al plan, lo aprobamos'.",
+    "suggestedAnswer": "Es correcto: 'Respecto al plan...'"
+  },
+  {
+    "id": 90,
+    "name": "Uso de 'en base a'",
+    "category": "Sintaxis",
+    "teoria": "La expresión 'en base a' es aceptable para indicar fundamento. Algunos prefieren 'basado en'.",
+    "ejemplo": "Tomamos la decisión en base a los informes.",
+    "ejercicio": "Sustituye por otra expresión: 'En base a lo dicho, actuaré'.",
+    "suggestedAnswer": "Basándome en lo dicho, actuaré."
+  },
+  {
+    "id": 91,
+    "name": "Laísmo en uso culto",
+    "category": "Pronombres",
+    "teoria": "El laísmo (usar 'la' como complemento indirecto) es incorrecto en la norma culta hispanoamericana.",
+    "ejemplo": "Incorrecto: 'La di el libro'. Correcto: 'Le di el libro'.",
+    "ejercicio": "Corrige: 'La escribí una carta'.",
+    "suggestedAnswer": "Le escribí una carta."
+  },
+  {
+    "id": 92,
+    "name": "Uso de 'había' en lugar de 'hubo'",
+    "category": "Sintaxis",
+    "teoria": "En muchos países hispanoamericanos, se usa 'habían' (plural) en lugar de 'hubo', pero es incorrecto. 'Había' es impersonal y siempre singular.",
+    "ejemplo": "Había muchas personas (correcto). Hubo muchas personas (también correcto). Habían muchas personas (incorrecto).",
+    "ejercicio": "Corrige: 'Habían varios errores'.",
+    "suggestedAnswer": "Había varios errores."
+  },
+  {
+    "id": 93,
+    "name": "Uso de 'delante mío' (posesivo)",
+    "category": "Adverbios",
+    "teoria": "Es preferible 'delante de mí' en lugar de 'delante mío', aunque este último es coloquial y frecuente en Hispanoamérica.",
+    "ejemplo": "Se sentó delante de mí (norma culta). Se sentó delante mío (coloquial).",
+    "ejercicio": "Convierte a expresión normativa: 'Detrás suyo'.",
+    "suggestedAnswer": "Detrás de él."
+  },
+  {
+    "id": 94,
+    "name": "Concordancia con 'el mismo' 'la misma'",
+    "category": "Concordancia",
+    "teoria": "'El mismo', 'la misma' para referirse a algo ya mencionado; cuidado con el uso excesivo.",
+    "ejemplo": "Compré el libro y leí el mismo en una semana.",
+    "ejercicio": "Reemplaza 'el mismo' por un pronombre: 'Vi la película y luego comenté la misma'.",
+    "suggestedAnswer": "Vi la película y luego la comenté."
+  },
+  {
+    "id": 95,
+    "name": "Uso de 'cada' como distributivo",
+    "category": "Sintaxis",
+    "teoria": "'Cada' va seguido de sustantivo en singular. 'Cada uno', 'cada cual' son locuciones.",
+    "ejemplo": "Cada día estudio. Cada uno de nosotros.",
+    "ejercicio": "Corrige: 'Cada personas tienen su opinión'.",
+    "suggestedAnswer": "Cada persona tiene su opinión."
+  },
+  {
+    "id": 96,
+    "name": "Uso de 'cualquiera' y 'cualquier'",
+    "category": "Adjetivos",
+    "teoria": "'Cualquier' se usa ante sustantivo masculino o femenino (cualquier día, cualquier cosa). 'Cualquiera' se usa como pronombre o pospuesto al sustantivo (un estudiante cualquiera).",
+    "ejemplo": "Cualquier persona puede venir. Ese tipo cualquiera no me gusta.",
+    "ejercicio": "Completa: '___ estudiante puede participar'.",
+    "suggestedAnswer": "Cualquier"
+  },
+  {
+    "id": 97,
+    "name": "Uso de 'mismo' como adjetivo enfático",
+    "category": "Adjetivos",
+    "teoria": "Puede usarse 'mismo' para dar énfasis: 'Yo mismo lo hice'.",
+    "ejemplo": "Usted mismo lo dijo.",
+    "ejercicio": "Escribe una frase usando 'mismo' con énfasis en primera persona.",
+    "suggestedAnswer": "Yo mismo resolveré el problema."
+  },
+  {
+    "id": 98,
+    "name": "Uso de 'demás' como pronombre",
+    "category": "Pronombres",
+    "teoria": "'Demás' equivale a 'otros' o 'los restantes' y se usa con artículo.",
+    "ejemplo": "Los demás están de acuerdo.",
+    "ejercicio": "Reemplaza 'otros' por 'demás': 'Otros vinieron tarde'.",
+    "suggestedAnswer": "Los demás vinieron tarde."
+  },
+  {
+    "id": 99,
+    "name": "Uso de 'aplicar a' versus 'aplicar en'",
+    "category": "Preposiciones",
+    "teoria": "Se aplica una cosa 'a' alguien o algo, o se aplica 'en' un campo. Depende del contexto: 'aplicar la ley a todos', 'aplicar una técnica en el aula'.",
+    "ejemplo": "Aplicaron la vacuna a los niños. Aplican nuevas metodologías en la escuela.",
+    "ejercicio": "Completa: 'Debemos aplicar la normativa ___ todos los trabajadores'.",
+    "suggestedAnswer": "a"
+  },
+  {
+    "id": 100,
+    "name": "Uso de 'acorde' como adjetivo invariable",
+    "category": "Adjetivos",
+    "teoria": "'Acorde' significa 'conforme' y puede usarse como adjetivo invariable o seguido de 'con'.",
+    "ejemplo": "Una actuación acorde a las normas. Actuaron acorde con lo pactado.",
+    "ejercicio": "Corrige: 'Debe actuar acorde las reglas'.",
+    "suggestedAnswer": "Debe actuar acorde con las reglas (o 'acorde a las reglas')."
+  }
+]

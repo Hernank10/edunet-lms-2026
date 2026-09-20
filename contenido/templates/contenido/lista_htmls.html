@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+  <h1 class="mb-4">🌐 HTMLs interactivos ({{ page.paginator.count }})</h1>
+
+  {% include "contenido/_filtros.html" %}
+
+  <div class="row">
+    {% for html in page %}
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-warning text-dark mb-2">{{ html.get_tipo_display }}</span>
+            <span class="badge bg-secondary mb-2">{{ html.get_categoria_display }}</span>
+            <h5 class="card-title">{{ html.titulo|truncatechars:60 }}</h5>
+            {% if html.num_tecnicas %}
+              <p class="small mb-2">🎯 {{ html.num_tecnicas }} técnicas</p>
+            {% endif %}
+            <div class="d-grid gap-2">
+              <a href="{% url 'contenido:visor_html' html.slug %}" class="btn btn-success btn-sm">
+                ▶ Abrir visor
+              </a>
+              <a href="{{ html.url_static }}" target="_blank" class="btn btn-outline-secondary btn-sm">
+                🔗 Abrir directo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p class="text-muted">No hay HTMLs que coincidan.</p>
+    {% endfor %}
+  </div>
+
+  {% if page.has_other_pages %}
+    <nav class="mt-4">
+      <ul class="pagination justify-content-center">
+        {% if page.has_previous %}
+          <li class="page-item">
+            <a class="page-link" href="?page={{ page.previous_page_number }}{% if categoria_actual %}&categoria={{ categoria_actual }}{% endif %}{% if tipo_actual %}&tipo={{ tipo_actual }}{% endif %}">«</a>
+          </li>
+        {% endif %}
+        <li class="page-item disabled">
+          <span class="page-link">Página {{ page.number }} de {{ page.paginator.num_pages }}</span>
+        </li>
+        {% if page.has_next %}
+          <li class="page-item">
+            <a class="page-link" href="?page={{ page.next_page_number }}{% if categoria_actual %}&categoria={{ categoria_actual }}{% endif %}{% if tipo_actual %}&tipo={{ tipo_actual }}{% endif %}">»</a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+  {% endif %}
+</div>
+{% endblock %}

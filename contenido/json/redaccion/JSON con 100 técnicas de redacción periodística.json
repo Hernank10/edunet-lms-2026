@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Pirámide invertida",
+    "category": "Estructura de la noticia",
+    "teoria": "Organizar la información de mayor a menor importancia, respondiendo las 5W (qué, quién, cuándo, dónde, por qué) en los primeros párrafos.",
+    "ejemplo": "El Congreso aprobó ayer la ley de cambio climático con 210 votos a favor. La nueva norma prohibirá los plásticos de un solo uso a partir de 2026. Los detalles técnicos se incluyen al final.",
+    "ejercicio": "Reescribe una noticia breve usando pirámide invertida.",
+    "suggestedAnswer": "Un terremoto de magnitud 6,2 sacudió la costa esta madrugada. No hay víctimas mortales, pero 15 personas resultaron heridas leves. Los servicios de emergencia trabajan en la zona."
+  },
+  {
+    "id": 2,
+    "name": "Titular activo",
+    "category": "Titulación",
+    "teoria": "Redactar titulares con verbos en voz activa y presente para transmitir inmediatez y fuerza.",
+    "ejemplo": "El gobierno aprueba la reforma educativa (mejor que 'La reforma educativa fue aprobada por el gobierno').",
+    "ejercicio": "Convierte este titular pasivo a activo: 'El premio fue ganado por la escritora local'.",
+    "suggestedAnswer": "La escritora local gana el premio."
+  },
+  {
+    "id": 3,
+    "name": "Lead de resumen (5W)",
+    "category": "Entradilla (lead)",
+    "teoria": "Primer párrafo que responde las cinco preguntas básicas: qué, quién, cuándo, dónde, por qué (y a veces cómo).",
+    "ejemplo": "El Consejo de Ministros aprobó hoy viernes una ayuda directa de 200 euros para familias vulnerables, con el objetivo de paliar el aumento de la cesta de la compra.",
+    "ejercicio": "Escribe un lead de resumen para una noticia sobre un accidente de tráfico con tres heridos.",
+    "suggestedAnswer": "Tres personas resultaron heridas ayer en un choque frontal entre dos turismos en la carretera A-6, a la altura de Villalba, debido a la espesa niebla."
+  },
+  {
+    "id": 4,
+    "name": "Entradilla de contraste",
+    "category": "Entradilla (lead)",
+    "teoria": "Iniciar la noticia con un contraste entre lo esperado y lo ocurrido, para generar interés.",
+    "ejemplo": "Pensaban que sería un fin de semana tranquilo, pero un incendio forestal los sorprendió.",
+    "ejercicio": "Crea una entradilla de contraste para una victoria inesperada en un torneo deportivo.",
+    "suggestedAnswer": "Nadie daba un duro por el equipo local, pero el CD Leganés eliminó al Real Madrid en la prórroga con un gol de cabeza."
+  },
+  {
+    "id": 5,
+    "name": "Cita directa",
+    "category": "Fuentes y verificación",
+    "teoria": "Insertar textualmente las palabras de una fuente entrecomilladas para dar credibilidad y testimonio.",
+    "ejemplo": "El alcalde declaró: 'No vamos a permitir que se especule con el suelo público'.",
+    "ejercicio": "Añade una cita directa relevante a una noticia sobre la inauguración de un hospital.",
+    "suggestedAnswer": "El consejero de Sanidad afirmó: 'Este hospital reduce en 40 minutos el tiempo de atención a urgencias'."
+  },
+  {
+    "id": 6,
+    "name": "Cita indirecta",
+    "category": "Fuentes y verificación",
+    "teoria": "Parafrasear las declaraciones de una fuente sin usar comillas, pero manteniendo el sentido.",
+    "ejemplo": "El portavoz aseguró que las negociaciones continúan y que esperan un acuerdo antes de fin de mes.",
+    "ejercicio": "Transforma esta cita directa en indirecta: 'Nunca he visto tanta nieve', dijo el agricultor.",
+    "suggestedAnswer": "El agricultor dijo que nunca había visto tanta nieve."
+  },
+  {
+    "id": 7,
+    "name": "Regla de las tres fuentes",
+    "category": "Fuentes y verificación",
+    "teoria": "Contrastar una información con al menos tres fuentes independientes antes de publicarla, especialmente en temas controvertidos.",
+    "ejemplo": "Para confirmar el despido de un directivo, el periodista consultó a un miembro del consejo, a un empleado anónimo y al departamento de RRHH.",
+    "ejercicio": "¿Cómo aplicarías la regla de las tres fuentes a una filtración sobre un nuevo modelo de móvil?",
+    "suggestedAnswer": "Contrastaría la filtración con un analista del sector, un empleado anónimo de la fábrica y un comunicado oficial (si lo hay)."
+  },
+  {
+    "id": 8,
+    "name": "Lenguaje sencillo (Plain Language)",
+    "category": "Estilo y lenguaje",
+    "teoria": "Escribir frases cortas, palabras comunes y estructura lógica para que cualquier lector entienda.",
+    "ejemplo": "En lugar de 'implementar medidas de contención', decir 'poner freno'.",
+    "ejercicio": "Reescribe esta frase en lenguaje sencillo: 'La administración procederá a la externalización de los servicios de limpieza'.",
+    "suggestedAnswer": "El ayuntamiento contratará a empresas externas para limpiar."
+  },
+  {
+    "id": 9,
+    "name": "Evitar nominalizaciones",
+    "category": "Estilo y lenguaje",
+    "teoria": "Sustituir sustantivos derivados de verbos (nominalizaciones) por los verbos originales para ganar claridad y dinamismo.",
+    "ejemplo": "En lugar de 'realizar una investigación', decir 'investigar'.",
+    "ejercicio": "Corrige: 'El equipo llevó a cabo la elaboración de un informe'.",
+    "suggestedAnswer": "El equipo elaboró un informe."
+  },
+  {
+    "id": 10,
+    "name": "Voz activa",
+    "category": "Estilo y lenguaje",
+    "teoria": "Preferir la voz activa a la pasiva para hacer las frases más directas y ágiles.",
+    "ejemplo": "El ladrón robó el banco (activa) vs. El banco fue robado por el ladrón (pasiva).",
+    "ejercicio": "Transforma esta pasiva a activa: 'El premio fue entregado por el rey'.",
+    "suggestedAnswer": "El rey entregó el premio."
+  },
+  {
+    "id": 11,
+    "name": "Párrafos cortos",
+    "category": "Estilo y lenguaje",
+    "teoria": "Limitar los párrafos a una o dos oraciones para facilitar la lectura en pantalla y en papel.",
+    "ejemplo": "Cada idea principal en un párrafo independiente.",
+    "ejercicio": "Divide este párrafo de 5 líneas en dos párrafos más cortos. (Texto a elección)",
+    "suggestedAnswer": "Ejemplo: 'Ayer se firmó el acuerdo. La reunión duró tres horas.' (dos párrafos)."
+  },
+  {
+    "id": 12,
+    "name": "Titular nominal",
+    "category": "Titulación",
+    "teoria": "Usar un sustantivo acompañado de complementos para titular, eficaz en prensa deportiva o de sucesos.",
+    "ejemplo": "Accidente de tren en Valencia con tres heridos leves",
+    "ejercicio": "Convierte en titular nominal: 'El Barcelona ganó la Champions League'.",
+    "suggestedAnswer": "Champions League para el Barcelona"
+  },
+  {
+    "id": 13,
+    "name": "Titular interrogativo",
+    "category": "Titulación",
+    "teoria": "Plantear una pregunta en el titular para atraer al lector, frecuente en reportajes y entrevistas.",
+    "ejemplo": "¿Quién mató a la prensa local?",
+    "ejercicio": "Crea un titular interrogativo sobre el alza de tipos de interés.",
+    "suggestedAnswer": "¿Hasta cuándo subirá el euríbor?"
+  },
+  {
+    "id": 14,
+    "name": "Subtítulo (baño)",
+    "category": "Titulación",
+    "teoria": "Añadir un segundo titular más explicativo bajo el principal, que amplía sin repetir.",
+    "ejemplo": "Titular: 'Sequía histórica en Cataluña'. Subtítulo: 'Los embalses están al 15% de su capacidad y se anuncian restricciones en 200 municipios'.",
+    "ejercicio": "Redacta un subtítulo para el titular 'Acuerdo salarial en la hostelería'.",
+    "suggestedAnswer": "El convenio sube un 8% los sueldos y reduce la jornada máxima a 38 horas semanales."
+  },
+  {
+    "id": 15,
+    "name": "Entradilla de impacto",
+    "category": "Entradilla (lead)",
+    "teoria": "Comenzar con una declaración impactante o un dato sorprendente para enganchar al lector.",
+    "ejemplo": "Un niño de 5 años salvó a su familia al llamar a emergencias mientras su madre sufría un infarto.",
+    "ejercicio": "Escribe una entradilla de impacto para una noticia sobre el descubrimiento de agua en Marte.",
+    "suggestedAnswer": "Marte tiene agua líquida bajo su superficie, según acaban de confirmar los científicos de la NASA."
+  },
+  {
+    "id": 16,
+    "name": "Lead de contexto",
+    "category": "Entradilla (lead)",
+    "teoria": "Situar la noticia en un marco histórico o temporal amplio antes de dar los datos concretos.",
+    "ejemplo": "Diez años después del terremoto de Lorca, la falla sigue activa y los vecinos temen una nueva sacudida.",
+    "ejercicio": "Escribe un lead de contexto sobre el cambio climático en el Ártico.",
+    "suggestedAnswer": "Después de tres décadas de deshielo acelerado, el Polo Norte registra su temperatura más alta de la historia."
+  },
+  {
+    "id": 17,
+    "name": "Anticipación (prolepsis periodística)",
+    "category": "Estructura",
+    "teoria": "Anunciar brevemente el desenlace al inicio de la crónica para generar suspense o facilitar la comprensión.",
+    "ejemplo": "El jurado declaró culpable al acusado, pero el proceso estuvo lleno de recovecos legales.",
+    "ejercicio": "Escribe una noticia de un juicio empezando por el veredicto y luego explicando el proceso.",
+    "suggestedAnswer": "La jueza ha condenado a 15 años al contable del PP. A continuación, los detalles de una trama que duró una década."
+  },
+  {
+    "id": 18,
+    "name": "Noticia de última hora",
+    "category": "Géneros periodísticos",
+    "teoria": "Texto muy breve que informa de un suceso reciente, a menudo con pocos datos y en continuo desarrollo.",
+    "ejemplo": "Estalla una bomba en el centro de Kabul. Aún se desconocen los heridos.",
+    "ejercicio": "Escribe una noticia de última hora sobre un corte de luz masivo en tu ciudad.",
+    "suggestedAnswer": "Un apagón afecta a 50.000 personas en el centro de Madrid. Los técnicos trabajan para restablecer el servicio."
+  },
+  {
+    "id": 19,
+    "name": "Crónica",
+    "category": "Géneros periodísticos",
+    "teoria": "Relato detallado y cronológico de un acontecimiento (político, deportivo, cultural) que incluye interpretación del periodista.",
+    "ejemplo": "El partido empezó con tensión... (narra minuto a minuto, añadiendo valoraciones).",
+    "ejercicio": "Escribe el primer párrafo de una crónica de una manifestación.",
+    "suggestedAnswer": "Bajo una lluvia fina, 10.000 personas recorrieron el Paseo de la Castellana al grito de 'No a la privatización sanitaria'. La protesta, convocada por sindicatos, transcurrió sin incidentes hasta las ocho de la tarde."
+  },
+  {
+    "id": 20,
+    "name": "Entrevista de declaraciones",
+    "category": "Géneros periodísticos",
+    "teoria": "Reproducir las respuestas del entrevistado de forma textual, a veces intercaladas con preguntas resumidas.",
+    "ejemplo": "—¿Qué opina de la crisis? —Que hay que tomar medidas urgentes.",
+    "ejercicio": "Escribe dos intercambios de una entrevista a un científico sobre un nuevo fármaco.",
+    "suggestedAnswer": "—¿Es eficaz el medicamento? —En ensayos clínicos ha reducido un 40% los síntomas. —¿Cuándo estará disponible? —Esperamos que el próximo año tras los trámites regulatorios."
+  },
+  {
+    "id": 21,
+    "name": "Reportaje de profundidad",
+    "category": "Géneros periodísticos",
+    "teoria": "Trata un tema en profundidad con múltiples fuentes, contexto, datos y testimonios, sin urgencia temporal.",
+    "ejemplo": "Un reportaje sobre la soledad no deseada en ancianos: estadísticas, entrevistas a psicólogos, visitas a residencias.",
+    "ejercicio": "Propón un posible reportaje de profundidad sobre la despoblación rural.",
+    "suggestedAnswer": "Título: 'El éxodo silencioso'. Abordaría cifras de despoblación, testimonios de alcaldes, iniciativas de repoblación y comparativa europea."
+  },
+  {
+    "id": 22,
+    "name": "Artículo de opinión",
+    "category": "Géneros periodísticos",
+    "teoria": "Texto argumentativo que expresa la postura del autor sobre un tema de actualidad, con tesis y argumentos.",
+    "ejemplo": "Un editorial sobre la Ley de Vivienda: defiende que es insuficiente y propone medidas adicionales.",
+    "ejercicio": "Escribe la tesis inicial de un artículo de opinión sobre el teletrabajo.",
+    "suggestedAnswer": "El teletrabajo no es solo una moda, sino una oportunidad para conciliar que las empresas deberían regular de forma permanente."
+  },
+  {
+    "id": 23,
+    "name": "Columna",
+    "category": "Géneros periodísticos",
+    "teoria": "Artículo breve, subjetivo y a menudo personal, escrito por un columnista habitual, con libertad estilística.",
+    "ejemplo": "Columna de Rosa Montero sobre la soledad digital.",
+    "ejercicio": "Escribe una oración inicial para una columna sobre el ruido de las redes sociales.",
+    "suggestedAnswer": "Vivimos atados a un móvil que no para de silbar, ladrar y cantar, pero que casi nunca nos deja escuchar el silencio."
+  },
+  {
+    "id": 24,
+    "name": "Crítica",
+    "category": "Géneros periodísticos",
+    "teoria": "Análisis valorativo de una obra cultural (cine, teatro, literatura, música) con argumentos estéticos y técnicos.",
+    "ejemplo": "Crítica de una película: 'El guion es predecible, pero la fotografía salva el largometraje'.",
+    "ejercicio": "Escribe la frase de valoración principal de una crítica de un concierto.",
+    "suggestedAnswer": "La voz de la cantante estaba apagada, pero el despliegue visual convirtió el show en un espectáculo inolvidable."
+  },
+  {
+    "id": 25,
+    "name": "Noticia de servicio público",
+    "category": "Géneros periodísticos",
+    "teoria": "Información útil para la vida cotidiana del lector: cambios en el tráfico, cortes de agua, alertas meteorológicas.",
+    "ejemplo": "La línea 3 de metro permanecerá cerrada este fin de semana por obras.",
+    "ejercicio": "Redacta una noticia de servicio público sobre una alerta naranja por calor extremo.",
+    "suggestedAnswer": "La Agencia Estatal de Meteorología activa la alerta naranja para el jueves en el valle del Guadalquivir. Se recomienda no salir de casa entre las 12 y las 18 horas."
+  },
+  {
+    "id": 26,
+    "name": "Listicle (artículo en lista)",
+    "category": "Narrativa digital",
+    "teoria": "Estructurar la información en una lista numerada o con viñetas, fácil de escanear y compartir en redes.",
+    "ejemplo": "Diez trucos para ahorrar en la factura de la luz.",
+    "ejercicio": "Propón un título para un listicle sobre rutas de senderismo en España.",
+    "suggestedAnswer": "7 senderos espectaculares que no conocías (y están a una hora de tu ciudad)."
+  },
+  {
+    "id": 27,
+    "name": "Escritura en pirámide de bloques",
+    "category": "Estructura de la noticia",
+    "teoria": "Alternativa a la pirámide invertida: agrupar la información en módulos temáticos (bloques) que el lector puede leer en cualquier orden.",
+    "ejemplo": "Un reportaje sobre el cambio climático con bloques: 'Efectos en el Ártico', 'Emisiones por países', 'Soluciones tecnológicas'.",
+    "ejercicio": "Propón tres bloques para un artículo sobre la Inteligencia Artificial en el periodismo.",
+    "suggestedAnswer": "1. Cómo la IA escribe noticias deportivas. 2. Herramientas de verificación automática. 3. Ética: ¿quién firma un texto generado por IA?"
+  },
+  {
+    "id": 28,
+    "name": "Narrativa no lineal",
+    "category": "Narrativa digital",
+    "teoria": "Usar hipervínculos, vídeos, infografías interactivas para que el lector elija su propio recorrido.",
+    "ejemplo": "Un especial multimedia sobre la guerra de Ucrania con mapas desplegables, testimonios en vídeo y cronología interactiva.",
+    "ejercicio": "Describe un elemento interactivo para un reportaje sobre el desempleo juvenil.",
+    "suggestedAnswer": "Un buscador por provincias que muestra la tasa de paro juvenil y la compara con la media nacional."
+  },
+  {
+    "id": 29,
+    "name": "Titular con cifras",
+    "category": "Titulación",
+    "teoria": "Incluir un número concreto en el titular para atraer la atención y dar precisión.",
+    "ejemplo": "La gasolina sube 8 céntimos en una semana",
+    "ejercicio": "Reescribe este titular añadiendo una cifra relevante: 'Aumentan los robos en el centro'.",
+    "suggestedAnswer": "Los robos en el centro se disparan un 25% en enero."
+  },
+  {
+    "id": 30,
+    "name": "Titular con nombre propio",
+    "category": "Titulación",
+    "teoria": "Usar el nombre de un personaje conocido para atraer al lector interesado en esa figura.",
+    "ejemplo": "Messi ficha por el Inter de Miami",
+    "ejercicio": "Crea un titular con nombre propio para el fichaje de un entrenador famoso por tu equipo local.",
+    "suggestedAnswer": "Pep Guardiola dirigirá al Atlético de Madrid la próxima temporada (o un ejemplo ficticio)."
+  },
+  {
+    "id": 31,
+    "name": "Titular cínico o irónico",
+    "category": "Titulación",
+    "teoria": "Utilizar la ironía para llamar la atención o criticar sutilmente, frecuente en prensa satírica o columnas.",
+    "ejemplo": "El gobierno ahorrará 2 millones recortando en educación y gastándoselos en asesores",
+    "ejercicio": "Inventa un titular irónico sobre un retraso crónico en los trenes.",
+    "suggestedAnswer": "Renfe supera su propio récord: el AVE de las 8:00 llegará, si hay suerte, antes del almuerzo."
+  },
+  {
+    "id": 32,
+    "name": "Entradilla de cita",
+    "category": "Entradilla (lead)",
+    "teoria": "Comenzar con una declaración textual relevante de un protagonista.",
+    "ejemplo": "«No voy a dimitir», dijo el presidente en su comparecencia de ayer, pese a las presiones de su partido.",
+    "ejercicio": "Escribe un lead de cita para la noticia del lanzamiento de un nuevo producto tecnológico por parte de un CEO.",
+    "suggestedAnswer": "«Este teléfono cambiará la forma en que nos comunicamos», aseguró el consejero delegado de Phony durante la presentación del modelo X10."
+  },
+  {
+    "id": 33,
+    "name": "Entradilla de narración",
+    "category": "Entradilla (lead)",
+    "teoria": "Iniciar la noticia como si fuera un cuento o relato, situando al lector en una escena.",
+    "ejemplo": "Eran las tres de la madrugada cuando una patrulla de la policía local escuchó los disparos.",
+    "ejercicio": "Redacta un lead narrativo para una noticia sobre el rescate de un montañero.",
+    "suggestedAnswer": "La noche del sábado, mientras la nieve caía sin tregua, el helicóptero del GREM localizó a José, agarrado a una roca a 2.000 metros de altitud."
+  },
+  {
+    "id": 34,
+    "name": "Recursos de transición",
+    "category": "Edición y corrección",
+    "teoria": "Usar conectores y frases puente (pero, sin embargo, además, por su parte) para enlazar párrafos sin saltos bruscos.",
+    "ejemplo": "El turismo ha crecido un 10%. En cambio, la oferta hotelera no ha aumentado al mismo ritmo.",
+    "ejercicio": "Añade un conector adecuado entre las dos frases: 'Los precios suben. El consumo no baja'.",
+    "suggestedAnswer": "Los precios suben, pero el consumo no baja."
+  },
+  {
+    "id": 35,
+    "name": "Eliminación de muletillas",
+    "category": "Edición y corrección",
+    "teoria": "Suprimir palabras vacías o muletillas como 'en relación a', 'a nivel de', 'en base a' para ganar concisión.",
+    "ejemplo": "En lugar de 'en base a los datos', decir 'según los datos'.",
+    "ejercicio": "Corrige: 'En relación al accidente, se están investigando las causas'.",
+    "suggestedAnswer": "Se investigan las causas del accidente."
+  },
+  {
+    "id": 36,
+    "name": "Verificación de datos (fact-checking)",
+    "category": "Fuentes y verificación",
+    "teoria": "Contrastar afirmaciones, datos y cifras con fuentes oficiales y documentación, y exponer los resultados.",
+    "ejemplo": "Un político dijo que el paro había bajado un 20%; el INE muestra que bajó un 12%.",
+    "ejercicio": "¿Qué pasos darías para verificar la afirmación 'el 80% de los jóvenes emigra'?",
+    "suggestedAnswer": "Buscar datos del INE o Eurostat sobre emigración juvenil, consultar informes de universidades, entrevistar a expertos en demografía."
+  },
+  {
+    "id": 37,
+    "name": "Contextualización de fuentes",
+    "category": "Fuentes y verificación",
+    "teoria": "Explicar quién es la fuente y sus posibles sesgos para que el lector evalúe la credibilidad.",
+    "ejemplo": "Según un portavoz de Greenpeace (organización ecologista), las petroleras contaminan más de lo admitido.",
+    "ejercicio": "Contextualiza la siguiente fuente: 'El sindicato mayoritario asegura que los salarios han perdido poder adquisitivo'.",
+    "suggestedAnswer": "El sindicato UGT, que representa a trabajadores de sectores públicos y privados, denunció que los salarios reales han caído un 3% en el último año."
+  },
+  {
+    "id": 38,
+    "name": "Anonimización de fuentes",
+    "category": "Fuentes y verificación",
+    "teoria": "Proteger la identidad de fuentes que podrían sufrir represalias, explicando las razones.",
+    "ejemplo": "Un alto cargo del ministerio, que pidió el anonimato por temor a represalias, asegura que el proyecto se paralizará.",
+    "ejercicio": "Describe una situación en la que anonimizarías a una fuente.",
+    "suggestedAnswer": "Una víctima de violencia de género que testifica sobre fallos policiales, para evitar que su agresor la localice."
+  },
+  {
+    "id": 39,
+    "name": "Derecho a la información vs intimidad",
+    "category": "Ética y deontología",
+    "teoria": "Equilibrar el interés público de una información con el respeto a la vida privada de las personas afectadas.",
+    "ejemplo": "Publicar la enfermedad de un político solo si afecta a su capacidad de gobernar, no por morbo.",
+    "ejercicio": "Plantea un caso de conflicto entre información pública e intimidad en un accidente de famoso.",
+    "suggestedAnswer": "Informar del accidente y sus causas, pero no difundir fotos del interior del coche con heridas sangrantes ni detalles médicos innecesarios."
+  },
+  {
+    "id": 40,
+    "name": "Contraste de versiones",
+    "category": "Fuentes y verificación",
+    "teoria": "Presentar las diferentes versiones de un hecho cuando las fuentes discrepan, sin tomar partido.",
+    "ejemplo": "La policía afirma que el manifestante llevaba una navaja, mientras que los testigos aseguran que iba desarmado.",
+    "ejercicio": "Redacta un párrafo con versiones contrapuestas sobre un desalojo conflictivo.",
+    "suggestedAnswer": "Los bomberos sostienen que actuaron siguiendo el protocolo de seguridad; en cambio, los vecinos denuncian que echaron a familias sin previo aviso ni alternativa habitacional."
+  },
+  {
+    "id": 41,
+    "name": "Presunción de inocencia",
+    "category": "Ética y deontología",
+    "teoria": "No tratar como culpable a un acusado antes de que haya sentencia firme; usar términos como 'presunto', 'supuesto'.",
+    "ejemplo": "El presunto asesino fue detenido anoche (no 'el asesino fue detenido').",
+    "ejercicio": "Corrige la siguiente frase: 'El estafador engañó a una docena de familias' (sin sentencia).",
+    "suggestedAnswer": "El presunto estafador habría engañado a una docena de familias, según la acusación."
+  },
+  {
+    "id": 42,
+    "name": "Separación de hechos y opiniones",
+    "category": "Ética y deontología",
+    "teoria": "Diferenciar claramente entre información objetiva (hechos verificables) y valoraciones del periodista o fuentes.",
+    "ejemplo": "En una noticia: 'El paro bajó un 2%'. En un editorial: 'Consideramos que la bajada es insuficiente'.",
+    "ejercicio": "Identifica qué parte de esta oración es hecho y cuál opinión: 'La ministra mintió al afirmar que no había fondos, una actuación deleznable'.",
+    "suggestedAnswer": "Hecho: 'La ministra afirmó que no había fondos'. Opinión: 'mintió' y 'actuación deleznable'."
+  },
+  {
+    "id": 43,
+    "name": "Derecho de rectificación",
+    "category": "Ética y deontología",
+    "teoria": "Publicar una corrección cuando se ha difundido una información errónea, de forma visible y con disculpa si procede.",
+    "ejemplo": "Fe de errores: 'En nuestra información del martes, dijimos que el concierto era el día 15, cuando realmente será el 16. Ofrecemos disculpas'.",
+    "ejercicio": "Redacta una breve rectificación por haber confundido las siglas de un ministerio.",
+    "suggestedAnswer": "Rectificación: En la noticia 'El MITECO aprueba la ley', publicada el lunes, debe decir 'El MITERD' (Ministerio para la Transición Ecológica y el Reto Demográfico). Pedimos disculpas por el error."
+  },
+  {
+    "id": 44,
+    "name": "Evitar sensacionalismo",
+    "category": "Ética y deontología",
+    "teoria": "No exagerar ni dramatizar en exceso para no alarmar o manipular al lector; usar un tono proporcionado.",
+    "ejemplo": "En lugar de 'masacre en la carretera', decir 'choque múltiple con tres fallecidos'.",
+    "ejercicio": "Reescribe de forma menos sensacionalista: 'Baño de sangre en la fiesta, decenas de heridos'.",
+    "suggestedAnswer": "Un incidente en la fiesta dejó una decena de heridos leves, según fuentes sanitarias."
+  },
+  {
+    "id": 45,
+    "name": "Titular con gancho emocional",
+    "category": "Titulación",
+    "teoria": "Apelar a las emociones del lector (empatía, ira, ternura) para que haga clic o lea.",
+    "ejemplo": "La emotiva carta de un niño enfermo a los Reyes Magos se vuelve viral",
+    "ejercicio": "Escribe un titular con gancho emocional sobre un perro abandonado que fue adoptado.",
+    "suggestedAnswer": "La historia de 'Max', el perro que fue abandonado dos veces y ahora tiene una familia que lo ama."
+  },
+  {
+    "id": 46,
+    "name": "Titular de instrucción o consejo",
+    "category": "Titulación",
+    "teoria": "Ofrecer un consejo práctico o una instrucción directa al lector (cómo hacer algo).",
+    "ejemplo": "Cómo pedir la devolución de Hacienda si te han cobrado de más",
+    "ejercicio": "Crea un titular de instrucción sobre cómo proteger datos personales en internet.",
+    "suggestedAnswer": "Tres pasos sencillos para proteger tu correo de los hackers"
+  },
+  {
+    "id": 47,
+    "name": "Titular de declaración",
+    "category": "Titulación",
+    "teoria": "Recoger una frase textual del protagonista, generalmente entrecomillada, como titular.",
+    "ejemplo": "Sánchez: «No descartamos tocar las pensiones»",
+    "ejercicio": "Convierte en titular de declaración estas palabras: 'El alcalde dice que este año no subirán los impuestos'.",
+    "suggestedAnswer": "El alcalde: «Los impuestos no subirán este año»"
+  },
+  {
+    "id": 48,
+    "name": "Evitar nominalizaciones en títulos",
+    "category": "Edición y corrección",
+    "teoria": "Sustituir sustantivos abstractos en el titular por verbos concretos para ganar potencia.",
+    "ejemplo": "Mejor 'El gobierno aprueba la ley' que 'Aprobación de la ley por el gobierno'.",
+    "ejercicio": "Mejora este titular: 'Realización de una huelga general para el martes'.",
+    "suggestedAnswer": "Los sindicatos convocan una huelga general para el martes."
+  },
+  {
+    "id": 49,
+    "name": "Uso del pretérito perfecto en titulares",
+    "category": "Titulación",
+    "teoria": "Utilizar el pretérito perfecto (ha ocurrido) para dar sensación de inmediatez en noticias recientes.",
+    "ejemplo": "El Parlamento ha aprobado la ley de eutanasia",
+    "ejercicio": "Convierte 'El banco anunció nuevos recortes' a pretérito perfecto.",
+    "suggestedAnswer": "El banco ha anunciado nuevos recortes"
+  },
+  {
+    "id": 50,
+    "name": "Titular con metáfora",
+    "category": "Titulación",
+    "teoria": "Usar una metáfora breve y comprensible para atraer la atención y sugerir sentido figurado.",
+    "ejemplo": "El pulso por el mando único en el PP se intensifica",
+    "ejercicio": "Inventa un titular con metáfora sobre la subida de tipos de interés.",
+    "suggestedAnswer": "El euríbor escuece a los hipotecados: la cuota sube 200 euros al año"
+  },
+  {
+    "id": 51,
+    "name": "Entradilla de suspenso",
+    "category": "Entradilla (lead)",
+    "teoria": "Comenzar con un interrogante o una situación intrigante que se resolverá más adelante.",
+    "ejemplo": "¿Quién filtró los papeles del juez? La investigación apunta a un informático.",
+    "ejercicio": "Redacta una entradilla de suspenso sobre un premio de lotería que aún no se ha reclamado.",
+    "suggestedAnswer": "El sorteo de Navidad dejó un décimo premiado con 400.000 euros en un quiosco de Vallecas. Nadie ha ido a cobrarlo. ¿Quién será el afortunado? El plazo expira en tres semanas."
+  },
+  {
+    "id": 52,
+    "name": "Cobertura en directo (minuto a minuto)",
+    "category": "Narrativa digital",
+    "teoria": "Actualizar una noticia en tiempo real con pequeños bloques cronológicos, típico de acontecimientos largos (juicios, partidos, sesiones parlamentarias).",
+    "ejemplo": "23:45: El delantero falla un penalti. 23:50: El portero para el segundo penalti.",
+    "ejercicio": "Redacta dos entradas de minuto a minuto de una rueda de prensa del gobierno.",
+    "suggestedAnswer": "12:30: La vicepresidenta anuncia una inversión de 300 millones en energías renovables. 12:35: Pregunta sobre el déficit; la ministra de Hacienda pide esperar al informe de la AIReF."
+  },
+  {
+    "id": 53,
+    "name": "Elementos multimedia incrustados",
+    "category": "Narrativa digital",
+    "teoria": "Incluir vídeos, audios, galerías de fotos, gráficos interactivos o enlaces a documentos dentro del artículo.",
+    "ejemplo": "Un reportaje sobre el incendio de la catedral de Notre Dame con un vídeo del momento en que cae la aguja.",
+    "ejercicio": "Propón un elemento multimedia para un artículo sobre la huella de carbono de los vuelos.",
+    "suggestedAnswer": "Una calculadora interactiva donde el lector introduzca su vuelo y vea las emisiones de CO2 equivalentes."
+  },
+  {
+    "id": 54,
+    "name": "Storytelling (narración con arco dramático)",
+    "category": "Narrativa digital",
+    "teoria": "Aplicar técnicas narrativas propias de la ficción (personaje, conflicto, clímax, desenlace) a una historia real.",
+    "ejemplo": "La odisea de una familia siria que logró llegar a Alemania después de tres intentos fallidos.",
+    "ejercicio": "Identifica el conflicto y clímax en una historia real que conozcas (ej. rescate mineros de Chile).",
+    "suggestedAnswer": "Conflicto: 33 mineros atrapados a 700 metros de profundidad. Clímax: cuando la sonda perforadora llega al refugio y los mineros confirman que están vivos."
+  },
+  {
+    "id": 55,
+    "name": "Enfoque de soluciones (periodismo constructivo)",
+    "category": "Ética y deontología",
+    "teoria": "Además de informar del problema, ofrecer posibles soluciones o iniciativas que están funcionando.",
+    "ejemplo": "No solo hablar de la contaminación de los plásticos, sino también de empresas que fabrican envases compostables.",
+    "ejercicio": "Propón un enfoque de soluciones para un artículo sobre la despoblación rural.",
+    "suggestedAnswer": "Contar la experiencia de un pueblo que atrajo nuevos habitantes con alquileres bajos y una red de teletrabajo, y entrevistar a sus promotores."
+  },
+  {
+    "id": 56,
+    "name": "Periodismo de datos",
+    "category": "Periodismo digital",
+    "teoria": "Usar bases de datos públicas para extraer tendencias, patrones y visualizaciones que sustenten una investigación.",
+    "ejemplo": "Análisis de 10.000 multas de tráfico para mostrar qué calles concentran más sanciones.",
+    "ejercicio": "¿Qué datos analizarías para investigar los retrasos en los trenes de Cercanías?",
+    "suggestedAnswer": "Registros de horarios de Renfe, incidencias diarias, quejas en la web del operador y datos del ADIF sobre estado de la infraestructura."
+  },
+  {
+    "id": 57,
+    "name": "Verificación de vídeos y fotos",
+    "category": "Fuentes y verificación",
+    "teoria": "Comprobar la autenticidad de imágenes virales usando metadatos, geolocalización, búsqueda inversa y contraste con otras fuentes.",
+    "ejemplo": "Un vídeo que supuestamente muestra un tornado en Madrid se analiza: la nube no coincide con el cielo de esa fecha y la ubicación no corresponde.",
+    "ejercicio": "¿Qué pasos seguirías para verificar una foto de un supuesto incendio en tu ciudad?",
+    "suggestedAnswer": "Buscar la misma imagen en Google Imágenes, comparar con otras fotos del lugar en redes sociales, consultar el parte de bomberos, contactar testigos."
+  },
+  {
+    "id": 58,
+    "name": "Titular de pregunta abierta",
+    "category": "Titulación",
+    "teoria": "Formular una pregunta que invite a la reflexión sin esperar respuesta explícita, frecuente en reportajes.",
+    "ejemplo": "¿Hacia dónde va la educación concertada?",
+    "ejercicio": "Redacta un titular de pregunta abierta sobre el futuro del trabajo remoto.",
+    "suggestedAnswer": "¿Volverán las oficinas o el teletrabajo ha venido para quedarse?"
+  },
+  {
+    "id": 59,
+    "name": "Titular con dos partes separadas por punto y coma",
+    "category": "Titulación",
+    "teoria": "Dividir el titular en dos mitades relacionadas, con equilibrio y ritmo.",
+    "ejemplo": "El PSOE gana en Andalucía; el PP se hunde en Cataluña",
+    "ejercicio": "Crea un titular de dos partes sobre la subida del oro y la bajada de la bolsa.",
+    "suggestedAnswer": "El oro sube un 5% en enero; la bolsa registra pérdidas del 2%"
+  },
+  {
+    "id": 60,
+    "name": "Entradilla de enumeración",
+    "category": "Entradilla (lead)",
+    "teoria": "Listar varios elementos relevantes en el primer párrafo para resumir aspectos clave.",
+    "ejemplo": "Aumento del paro, caída de exportaciones y menor consumo: tres datos que alertan sobre la economía.",
+    "ejercicio": "Escribe una entradilla de enumeración para una noticia sobre los logros de un atleta olímpico.",
+    "suggestedAnswer": "Oro en 100 metros, plata en 200 y récord del mundo: así fue la gesta de la velocista española."
+  },
+  {
+    "id": 61,
+    "name": "Lead de escena",
+    "category": "Entradilla (lead)",
+    "teoria": "Describir un lugar o momento concreto como si fuera un cuento, sumergiendo al lector.",
+    "ejemplo": "En el andén número 5, a las 8:47, un hombre de gabardina esperaba el tren que nunca llegó.",
+    "ejercicio": "Redacta un lead de escena para un reportaje sobre el tráfico en una gran ciudad.",
+    "suggestedAnswer": "La bocina del autobús perfora la mañana, los semáforos se suceden en rojo y los conductores golpean el volante. Es la hora punta en la M-30."
+  },
+  {
+    "id": 62,
+    "name": "Estructura de caja china (relato dentro de relato)",
+    "category": "Estructura de la noticia",
+    "teoria": "Empezar con una anécdota o historia secundaria que después conecta con el tema principal.",
+    "ejemplo": "Un niño de 8 años soñaba con ser astronauta. Hoy, ese niño es director de la Agencia Espacial Europea.",
+    "ejercicio": "Escribe el principio de una noticia sobre un avance médico empezando por la historia personal de un paciente.",
+    "suggestedAnswer": "A María le diagnosticaron cáncer de mama hace cinco años. Ahora, gracias a un nuevo fármaco, está libre de la enfermedad. Es una de las 200 personas que han probado el tratamiento experimental."
+  },
+  {
+    "id": 63,
+    "name": "Uso de frases cortas (telegrafismo)",
+    "category": "Estilo y lenguaje",
+    "teoria": "Redactar oraciones de menos de 20 palabras para dar ritmo y claridad, propio de la prensa anglosajona.",
+    "ejemplo": "El presidente llegó ayer. Habló de economía. No mencionó los escándalos.",
+    "ejercicio": "Divide esta frase larga en tres frases cortas: 'Tras una reunión de cuatro horas, el Consejo de Ministros aprobó el plan de rescate bancario, que incluye una inyección de 10.000 millones y la supervisión del BCE'.",
+    "suggestedAnswer": "El Consejo de Ministros se reunió durante cuatro horas. Aprobó el plan de rescate bancario. Incluye 10.000 millones y supervisión del BCE."
+  },
+  {
+    "id": 64,
+    "name": "Evitar adverbios en -mente en cadena",
+    "category": "Edición y corrección",
+    "teoria": "No acumular adverbios terminados en -mente (clara y concisamente → más claro y conciso).",
+    "ejemplo": "Hablar lenta y suavemente → hablar lento y suave.",
+    "ejercicio": "Corrige: 'El periodista describió los hechos precisa y detalladamente'.",
+    "suggestedAnswer": "El periodista describió los hechos con precisión y detalle."
+  },
+  {
+    "id": 65,
+    "name": "Uso de sinónimos para evitar repetición",
+    "category": "Edición y corrección",
+    "teoria": "Variar las palabras (policía / agentes, gobierno / ejecutivo) para no cansar al lector.",
+    "ejemplo": "El presidente se reunió con los ministros. El mandatario anunció luego una rueda de prensa.",
+    "ejercicio": "Reemplaza la palabra repetida 'empresa' en esta frase: 'La empresa tecnológica lanzó un producto. La empresa espera aumentar ventas'.",
+    "suggestedAnswer": "La empresa tecnológica lanzó un producto. La firma espera aumentar ventas."
+  },
+  {
+    "id": 66,
+    "name": "Empleo de la metáfora en crónicas",
+    "category": "Géneros periodísticos",
+    "teoria": "Usar metáforas (sin abusar) para hacer más vívida la descripción de un evento.",
+    "ejemplo": "El aluvión de goles sepultó al rival en los primeros veinte minutos.",
+    "ejercicio": "Añade una metáfora a esta frase: 'El viento azotó la costa durante la borrasca'.",
+    "suggestedAnswer": "El viento, como un gigante enfurecido, azotó la costa durante la borrasca."
+  },
+  {
+    "id": 67,
+    "name": "Entradilla de contrapunto",
+    "category": "Entradilla (lead)",
+    "teoria": "Comenzar con una idea y contraponerla inmediatamente con otra opuesta.",
+    "ejemplo": "La economía española crece al 3%, pero los salarios no se recuperan.",
+    "ejercicio": "Escribe un lead de contrapunto sobre el aumento de la esperanza de vida y la insostenibilidad del sistema de pensiones.",
+    "suggestedAnswer": "Los españoles viven cada vez más años, pero el sistema público de pensiones peligra por el envejecimiento de la población."
+  },
+  {
+    "id": 68,
+    "name": "Transparencia de fuentes anónimas",
+    "category": "Fuentes y verificación",
+    "teoria": "Explicar por qué la fuente pide anonimato (miedo a represalias, protección de su puesto) y qué intereses podría tener.",
+    "ejemplo": "Un funcionario de Hacienda, que habla bajo condición de anonimato por temor a ser despedido, revela que...",
+    "ejercicio": "Describe la razón de anonimato de una fuente que denuncia irregularidades en una empresa.",
+    "suggestedAnswer": "El denunciante, que trabaja en el departamento de contabilidad, teme ser despedido o señalado internamente, por lo que habla protegido por el anonimato."
+  },
+  {
+    "id": 69,
+    "name": "Derecho al olvido digital",
+    "category": "Ética y deontología",
+    "teoria": "Respetar la solicitud de retirar información antigua y ya no relevante de buscadores, en especial si afecta a la reputación de personas no públicas.",
+    "ejemplo": "Un ciudadano pide eliminar de Google una noticia sobre su condena menor de hace 15 años, al considerar que ya no es de interés público.",
+    "ejercicio": "¿Qué argumentos darías para negar o aceptar el derecho al olvido de un político condenado por corrupción?",
+    "suggestedAnswer": "Se mantendría por interés público, ya que la condena afecta a su idoneidad para cargos públicos, aunque haya pasado tiempo."
+  },
+  {
+    "id": 70,
+    "name": "Cobertura de juicios con lenguaje preciso",
+    "category": "Géneros periodísticos",
+    "teoria": "Usar términos jurídicos adecuados (imputado, procesado, absuelto, indemnización) para no inducir a error.",
+    "ejemplo": "No decir 'culpable' hasta que haya sentencia firme.",
+    "ejercicio": "Corrige: 'El juez condenó al acusado a pagar una multa' (si todavía no es firme).",
+    "suggestedAnswer": "El juez impuso al acusado una multa de 3.000 euros, que podrá ser recurrida ante la Audiencia Provincial."
+  },
+  {
+    "id": 71,
+    "name": "Entrevista de personalidad",
+    "category": "Géneros periodísticos",
+    "teoria": "Perfil biográfico y psicológico de una persona, combinando declaraciones, anécdotas y descripciones.",
+    "ejemplo": "Un reportaje sobre un escritor: su casa, sus manías, sus influencias, y fragmentos de charla.",
+    "ejercicio": "Propón una pregunta para una entrevista de personalidad a un músico famoso.",
+    "suggestedAnswer": "¿Qué escuchabas cuando eras adolescente? ¿Cómo influyó esa música en tu primer disco?"
+  },
+  {
+    "id": 72,
+    "name": "Entradilla de pregunta retórica",
+    "category": "Entradilla (lead)",
+    "teoria": "Iniciar con una pregunta que el lector se haría, para implicarlo emocionalmente.",
+    "ejemplo": "¿Quién no ha soñado con ganar el Gordo de Navidad? Pues este año ha ocurrido en un pueblo de Teruel.",
+    "ejercicio": "Escribe una entradilla con pregunta retórica sobre la precariedad laboral juvenil.",
+    "suggestedAnswer": "¿Te imaginas trabajar 40 horas a la semana y no llegar a fin de mes? Es la realidad de uno de cada tres jóvenes en España."
+  },
+  {
+    "id": 73,
+    "name": "Edición para web: enlaces internos",
+    "category": "Periodismo digital",
+    "teoria": "Insertar hipervínculos a noticias relacionadas del mismo medio para retener al lector y dar contexto.",
+    "ejemplo": "En un artículo sobre subida de tipos, añadir un enlace a 'Qué es el euríbor' (artículo explicativo previo).",
+    "ejercicio": "¿Qué enlaces internos pondrías en una noticia sobre la aprobación de una ley de cambio climático?",
+    "suggestedAnswer": "Enlace a la noticia de la presentación del proyecto de ley, a un artículo sobre el Acuerdo de París y a una pieza sobre energías renovables."
+  },
+  {
+    "id": 74,
+    "name": "SEO para periodistas: titular y meta descripción",
+    "category": "Periodismo digital",
+    "teoria": "Escribir titulares con palabras clave relevantes (entre 50-70 caracteres) y una meta descripción de 150-160 caracteres que resuma la noticia.",
+    "ejemplo": "Titular: 'El nuevo fármaco contra el alzhéimer reduce un 30% el deterioro cognitivo'",
+    "ejercicio": "Redacta la meta descripción para esa noticia.",
+    "suggestedAnswer": "Un estudio clínico revela que el fármaco Lecanemab frena la progresión de la enfermedad en fases iniciales. El tratamiento podría estar disponible en 2026."
+  },
+  {
+    "id": 75,
+    "name": "Legibilidad: frases con sujeto + verbo + predicado",
+    "category": "Estilo y lenguaje",
+    "teoria": "Mantener el orden sintáctico básico para evitar confusiones, especialmente en frases largas.",
+    "ejemplo": "El ministro anunció ayer nuevas medidas. (Sujeto-Verbo-Complementos).",
+    "ejercicio": "Reordena esta frase: 'Ayer, por parte del ministro, fueron anunciadas nuevas medidas'.",
+    "suggestedAnswer": "El ministro anunció ayer nuevas medidas."
+  },
+  {
+    "id": 76,
+    "name": "Uso de preguntas retóricas en el cierre",
+    "category": "Edición y corrección",
+    "teoria": "Terminar un artículo o crónica con una pregunta que invite a la reflexión del lector.",
+    "ejemplo": "¿Serán capaces los políticos de ponerse de acuerdo antes de que sea demasiado tarde?",
+    "ejercicio": "Escribe un cierre con pregunta retórica para un reportaje sobre la contaminación por plásticos.",
+    "suggestedAnswer": "Los océanos se ahogan en plástico, pero seguimos comprando botellas de un solo uso. ¿Cuándo empezaremos a actuar?"
+  },
+  {
+    "id": 77,
+    "name": "Evitar estereotipos y lenguaje sexista",
+    "category": "Ética y deontología",
+    "teoria": "Usar términos inclusivos, evitar generalizaciones y mencionar el género solo cuando sea relevante.",
+    "ejemplo": "En lugar de 'los médicos', usar 'el personal médico' o 'los y las médicas'.",
+    "ejercicio": "Reescribe: 'Los científicos descubrieron una nueva especie' de forma inclusiva.",
+    "suggestedAnswer": "Un equipo de científicas y científicos descubrió una nueva especie."
+  },
+  {
+    "id": 78,
+    "name": "Entradilla de dato impactante",
+    "category": "Entradilla (lead)",
+    "teoria": "Abrir con una cifra sorprendente o una estadística inesperada.",
+    "ejemplo": "Tres de cada cuatro jóvenes españoles no pueden permitirse comprar una vivienda, según un informe del Banco de España.",
+    "ejercicio": "Crea un lead de dato impactante sobre el desperdicio alimentario mundial.",
+    "suggestedAnswer": "Un tercio de los alimentos que se producen en el mundo acaban en la basura: 1.300 millones de toneladas cada año, suficientes para alimentar a 2.000 millones de personas."
+  },
+  {
+    "id": 79,
+    "name": "Periodismo de precisión",
+    "category": "Periodismo digital",
+    "teoria": "Aplicar herramientas de big data, machine learning y análisis estadístico para descubrir patrones ocultos.",
+    "ejemplo": "El consorcio de periodistas ICIJ usó los Papeles de Pandora para destapar paraísos fiscales.",
+    "ejercicio": "¿Qué tipo de datos analizarías para investigar si hay discriminación en las concesiones de ayudas públicas?",
+    "suggestedAnswer": "Relación de beneficiarios por municipio, partido político gobernante, importes, y cruce con bases de datos de contratación pública."
+  },
+  {
+    "id": 80,
+    "name": "Narrativa en primera persona (testimonio)",
+    "category": "Géneros periodísticos",
+    "teoria": "El periodista se convierte en parte de la historia, narrando su experiencia directa para dar credibilidad.",
+    "ejemplo": "Crónica de un periodista infiltrado en una banda neonazi.",
+    "ejercicio": "Escribe la primera línea de un testimonio en primera persona tras vivir un terremoto.",
+    "suggestedAnswer": "Todo empezó a temblar mientras tomaba café en la terraza. En cinco segundos, las sillas volaban y la gente gritaba."
+  },
+  {
+    "id": 81,
+    "name": "Entradilla de analogía",
+    "category": "Entradilla (lead)",
+    "teoria": "Comparar el hecho noticioso con otro más cercano o conocido para explicarlo.",
+    "ejemplo": "El nuevo mando militar en Libia actúa como un 'señor de la guerra' similar a los caudillos latinoamericanos del siglo XIX.",
+    "ejercicio": "Crea un lead con analogía para explicar el funcionamiento de un mercado financiero.",
+    "suggestedAnswer": "El parqué de la Bolsa es como un acuario lleno de tiburones: los inversores grandes devoran a los pequeños en cuestión de segundos."
+  },
+  {
+    "id": 82,
+    "name": "Titular en forma de lista",
+    "category": "Titulación",
+    "teoria": "Anunciar directamente un número de puntos en el titular (útil para artículos prácticos).",
+    "ejemplo": "Cinco claves para entender la guerra de Ucrania",
+    "ejercicio": "Convierte el tema 'Ahorro de agua en casa' en un titular de lista.",
+    "suggestedAnswer": "Ocho trucos para ahorrar agua en tu hogar (y en tu factura)"
+  },
+  {
+    "id": 83,
+    "name": "Uso de la repetición como recurso estilístico",
+    "category": "Estilo y lenguaje",
+    "teoria": "Repetir una palabra o estructura en párrafos contiguos para reforzar una idea (anáfora periodística).",
+    "ejemplo": "Llevan años prometiendo. Llevan años incumpliendo. Llevan años engañando a los ciudadanos.",
+    "ejercicio": "Escribe una breve repetición anafórica sobre la lentitud de la justicia.",
+    "suggestedAnswer": "Un juicio que dura años. Una sentencia que tarda décadas. Una justicia que no llega nunca."
+  },
+  {
+    "id": 84,
+    "name": "El párrafo cero o sobreentradilla",
+    "category": "Estructura de la noticia",
+    "teoria": "Un párrafo muy breve sobre el titular que resume lo más destacado, usado en cibermedios.",
+    "ejemplo": "El PSOE y Unidas Podemos alcanzan un acuerdo para subir el salario mínimo a 1.000 euros.",
+    "ejercicio": "Redacta una sobreentradilla para la noticia 'El Barcelona gana la Champions'.",
+    "suggestedAnswer": "Los azulgranas se imponen al Bayern en la final de Londres (2-1) con un gol de Lewandowski en el minuto 89."
+  },
+  {
+    "id": 85,
+    "name": "Empatía con las víctimas",
+    "category": "Ética y deontología",
+    "teoria": "Tratar con respeto y evitar detalles morbosos cuando se informa sobre víctimas de violencia, catástrofes o accidentes.",
+    "ejemplo": "No difundir el nombre de una víctima de violencia de género hasta que la familia lo autorice, ni mostrar imágenes del cadáver.",
+    "ejercicio": "Reescribe: 'La mujer fue violada brutalmente por tres hombres' de manera más respetuosa.",
+    "suggestedAnswer": "Tres hombres han sido detenidos como presuntos autores de una agresión sexual a una mujer. La víctima recibe atención psicológica."
+  },
+  {
+    "id": 86,
+    "name": "Titular de advertencia o alarma",
+    "category": "Titulación",
+    "teoria": "Informar de un peligro inminente o riesgo para movilizar al lector.",
+    "ejemplo": "Alerta sanitaria: retiran un lote de leche por posible contaminación",
+    "ejercicio": "Escribe un titular de advertencia sobre una ola de calor extremo que afectará a varias provincias.",
+    "suggestedAnswer": "Ola de calor sin precedentes: diez provincias en alerta roja con temperaturas de hasta 44 grados"
+  },
+  {
+    "id": 87,
+    "name": "Titular paradójico",
+    "category": "Titulación",
+    "teoria": "Mostrar una contradicción aparente que despierta curiosidad.",
+    "ejemplo": "La sequía provoca inundaciones: el extraño fenómeno del suelo seco que no absorbe el agua",
+    "ejercicio": "Crea un titular paradójico sobre el exceso de oferta de vivienda y los altos precios.",
+    "suggestedAnswer": "Hay más casas vacías que nunca, pero los precios de alquiler no dejan de subir: la paradoja del mercado inmobiliario"
+  },
+  {
+    "id": 88,
+    "name": "Planificación de la cobertura",
+    "category": "Edición y corrección",
+    "teoria": "Anticipar preguntas, escenarios y fuentes antes de escribir una noticia compleja, para no dejar lagunas.",
+    "ejemplo": "Para informar sobre la dimisión de un ministro, preparar reacciones del gobierno, oposición, afectados y datos de gestión.",
+    "ejercicio": "Enumera tres fuentes que consultarías antes de escribir sobre el cierre de una fábrica.",
+    "suggestedAnswer": "1. Comité de empresa (trabajadores). 2. Dirección de la empresa. 3. Ayuntamiento o consejería de industria."
+  },
+  {
+    "id": 89,
+    "name": "Entradilla de dilema",
+    "category": "Entradilla (lead)",
+    "teoria": "Plantear un problema ético o práctico sin resolver como inicio.",
+    "ejemplo": "¿Deben los colegios públicos enseñar religión? La polémica vuelve al Parlamento.",
+    "ejercicio": "Escribe un lead de dilema sobre la eutanasia.",
+    "suggestedAnswer": "¿Hasta dónde llega el derecho a decidir sobre la propia muerte? El Congreso debate hoy la ley de eutanasia, que divide a médicos y ciudadanos."
+  },
+  {
+    "id": 90,
+    "name": "Edición para móviles: fragmentación",
+    "category": "Periodismo digital",
+    "teoria": "Dividir el texto en párrafos muy cortos (una o dos frases) para facilitar la lectura en pantalla pequeña.",
+    "ejemplo": "Cada oración importante en una línea. Como este ejemplo.",
+    "ejercicio": "Toma un párrafo de 4 líneas y redáctalo para móvil en 3 párrafos.",
+    "suggestedAnswer": "El incendio comenzó a las tres de la madrugada. Las llamas se extendieron rápidamente por la segunda planta. No hubo heridos, pero los daños materiales son cuantiosos."
+  },
+  {
+    "id": 91,
+    "name": "Titular con humor",
+    "category": "Titulación",
+    "teoria": "Utilizar el humor o la ironía en noticias ligeras o de sucesos curiosos.",
+    "ejemplo": "Un ladrón se queda atrapado en el techo del supermercado y tiene que llamar a la policía",
+    "ejercicio": "Inventa un titular humorístico sobre un perro que salva a su dueño de una multa.",
+    "suggestedAnswer": "El pastor alemán ladró al agente y evitó que su dueño se llevara la multa por aparcar mal"
+  },
+  {
+    "id": 92,
+    "name": "Titular de suspenso",
+    "category": "Titulación",
+    "teoria": "Dejar una información clave sin desvelar para incentivar la lectura.",
+    "ejemplo": "El mensaje que la reina Letizia envió a la infanta Sofía y que ha desatado la polémica",
+    "ejercicio": "Redacta un titular de suspenso sobre el descubrimiento de un nuevo planeta habitable.",
+    "suggestedAnswer": "Los astrónomos han encontrado un planeta similar a la Tierra, pero hay un problema: su atmósfera es irrespirable"
+  },
+  {
+    "id": 93,
+    "name": "Entradilla de declaración de intenciones",
+    "category": "Entradilla (lead)",
+    "teoria": "Comenzar con la meta o propósito de la información, útil para textos de servicio público.",
+    "ejemplo": "Con este tutorial aprenderás a cambiar una rueda pinchada en menos de diez minutos.",
+    "ejercicio": "Escribe un lead de intenciones para un artículo sobre cómo preparar la declaración de la renta.",
+    "suggestedAnswer": "Te explicamos paso a paso cómo rellenar el borrador de la renta y evitar errores comunes para que no pagues más de lo debido."
+  },
+  {
+    "id": 94,
+    "name": "Periodismo de inmersión",
+    "category": "Géneros periodísticos",
+    "teoria": "El periodista vive una experiencia (trabajar de minero, vivir en un barrio marginal) para contarla en primera persona.",
+    "ejemplo": "Barbara Ehrenreich se hizo camarera para escribir 'Por cuatro duros'.",
+    "ejercicio": "Propón una inmersión periodística para investigar la vida de los temporeros agrícolas.",
+    "suggestedAnswer": "El periodista se aloja en un campamento de temporeros, trabaja una semana recogiendo fruta y entrevista a compañeros sin revelar su identidad profesional."
+  },
+  {
+    "id": 95,
+    "name": "Edición para móviles: texto con formato escaneable",
+    "category": "Periodismo digital",
+    "teoria": "Usar negritas, listas y subtítulos para que el lector encuentre rápido lo que busca.",
+    "ejemplo": "En una noticia larga, poner subtítulos destacados (🔹 Claves, 🔹 Contexto, 🔹 Próximos pasos).",
+    "ejercicio": "Propón tres subtítulos para un artículo sobre la contaminación del aire.",
+    "suggestedAnswer": "1. Los barrios más afectados. 2. Efectos en la salud. 3. Medidas que puedes tomar."
+  },
+  {
+    "id": 96,
+    "name": "Uso de fechas como anclaje temporal",
+    "category": "Edición y corrección",
+    "teoria": "Situar los acontecimientos en el tiempo de forma explícita (ayer, el martes, en 2023) para evitar ambigüedades.",
+    "ejemplo": "No decir 'pronto' o 'recientemente' sin concretar.",
+    "ejercicio": "Corrige: 'El accidente ocurrió recientemente en la autopista'.",
+    "suggestedAnswer": "El accidente ocurrió el pasado jueves 12 de mayo en la autopista A-7."
+  },
+  {
+    "id": 97,
+    "name": "Entradilla de autoridad",
+    "category": "Entradilla (lead)",
+    "teoria": "Apoyarse en una fuente de prestigio para dar credibilidad desde el principio.",
+    "ejemplo": "Según un informe de la Organización Mundial de la Salud, el consumo de azúcar se ha duplicado en una década.",
+    "ejercicio": "Escribe un lead de autoridad sobre el cambio climático usando el IPCC.",
+    "suggestedAnswer": "El Panel Intergubernamental sobre Cambio Climático (IPCC) advierte de que los océanos podrían subir un metro en 2100 si no se reducen las emisiones."
+  },
+  {
+    "id": 98,
+    "name": "Evitar extranjerismos innecesarios",
+    "category": "Estilo y lenguaje",
+    "teoria": "Preferir palabras españolas a anglicismos o galicismos cuando exista alternativa clara.",
+    "ejemplo": "En lugar de 'meeting', decir 'reunión'; en lugar de 'delivery', 'a domicilio'.",
+    "ejercicio": "Sustituye el extranjerismo: 'Hicieron un brainstorming en el workshop'.",
+    "suggestedAnswer": "Hicieron una lluvia de ideas en el taller."
+  },
+  {
+    "id": 99,
+    "name": "Empatía cultural",
+    "category": "Ética y deontología",
+    "teoria": "Evitar imponer la propia mirada cultural al informar sobre otras sociedades; respetar sus costumbres y puntos de vista.",
+    "ejemplo": "No calificar de 'extraña' una tradición religiosa ajena.",
+    "ejercicio": "Reescribe: 'Los indígenas viven en chozas primitivas' de forma neutra.",
+    "suggestedAnswer": "Los miembros de la comunidad viven en viviendas construidas con materiales autóctonos como madera y paja."
+  },
+  {
+    "id": 100,
+    "name": "Periodismo de soluciones: seguimiento",
+    "category": "Ética y deontología",
+    "teoria": "No solo publicar una denuncia, sino hacer seguimiento periódico para ver si las autoridades responden o el problema se resuelve.",
+    "ejemplo": "Un año después de reportar el vertido ilegal, el periódico vuelve al lugar y verifica si se ha limpiado.",
+    "ejercicio": "Diseña un plan de seguimiento para una noticia sobre un colegio con goteras.",
+    "suggestedAnswer": "Contactar cada mes con la dirección del centro y el ayuntamiento, pedir informes de reparación, visitar el colegio en cada época de lluvias y publicar actualizaciones trimestrales."
+  }
+]

@@ -1,0 +1,817 @@
+{
+  "titulo": "Retórica Clásica y Figuras Retóricas del Castellano",
+  "subtitulo": "El arte de la persuasión y la expresión literaria",
+  "total_tecnicas": 100,
+  "categorias": [
+    "Fundamentos de la retórica clásica (01-12)",
+    "Figuras de pensamiento (13-24)",
+    "Figuras de dicción o de palabra (25-36)",
+    "Figuras de construcción o sintácticas (37-48)",
+    "Figuras de repetición (49-60)",
+    "Tropos o figuras de significado (61-72)",
+    "Figuras de argumentación y persuasión (73-84)",
+    "Retórica aplicada y análisis de discurso (85-100)"
+  ],
+  "tecnicas": [
+    {
+      "id": 1,
+      "nombre": "Retórica clásica: definición y partes del discurso",
+      "teoria": "La retórica clásica es el arte de la persuasión mediante el lenguaje. Sus cinco partes canónicas (inventio, dispositio, elocutio, memoria, actio) fueron sistematizadas por Aristóteles, Cicerón y Quintiliano. Inventio (invención): búsqueda de argumentos. Dispositio (disposición): organización del discurso. Elocutio (elocución): estilo y figuras. Memoria: memorización. Actio: pronunciación y gestos.",
+      "ejemplo": "Ejemplo de aplicación: un abogado en un juicio: 1) inventio: selecciona pruebas y argumentos; 2) dispositio: ordena en introducción, narración, argumentación, conclusión; 3) elocutio: usa metáforas y antítesis para persuadir; 4) memoria: memoriza los puntos clave; 5) actio: gesticula y modula la voz.",
+      "ejercicio": "Explica las cinco partes canónicas de la retórica clásica y da un ejemplo de aplicación de cada una.",
+      "respuesta": "1) Inventio: búsqueda de argumentos (ej. seleccionar datos estadísticos). 2) Dispositio: organización (introducción, desarrollo, conclusión). 3) Elocutio: estilo y figuras (metáforas, ironía). 4) Memoria: técnicas mnemotécnicas. 5) Actio: gestos, tono, volumen."
+    },
+    {
+      "id": 2,
+      "nombre": "Ethos, pathos y logos (Aristóteles)",
+      "teoria": "Aristóteles identificó tres modos de persuasión: ethos (credibilidad del orador), pathos (apelación a las emociones), y logos (argumentación lógica). Un discurso eficaz combina los tres. Ethos: el orador debe parecer sabio, virtuoso y benevolente. Pathos: evoca emociones como ira, compasión, miedo, alegría. Logos: usa razonamientos inductivos y deductivos (entimemas).",
+      "ejemplo": "Ejemplo: 'Como médico con 20 años de experiencia (ethos), les aseguro que esta vacuna es segura. Imaginen a sus hijos protegidos (pathos). Los datos muestran una eficacia del 95% (logos).'",
+      "ejercicio": "Analiza el ethos, pathos y logos en un discurso político conocido o inventa un ejemplo corto que incluya los tres.",
+      "respuesta": "Ejemplo: 'He trabajado por esta comunidad durante 30 años (ethos). ¿Quieren que sus hijos hereden un planeta destruido? (pathos). Las cifras de contaminación han bajado un 40% (logos).'"
+    },
+    {
+      "id": 3,
+      "nombre": "Entimema: silogismo retórico",
+      "teoria": "El entimema es un silogismo en el que una de las premisas está implícita (no se enuncia) porque es conocida o sobreentendida por el auditorio. Es la base del razonamiento retórico. Ejemplo: 'Sócrates es mortal porque es hombre' (premisa implícita: todos los hombres son mortales). Es más persuasivo que el silogismo completo porque involucra al auditorio.",
+      "ejemplo": "Ejemplo entimema: 'No podemos confiar en él, porque es político.' Premisa implícita: 'Los políticos no son confiables'. Otro: 'Estudia, que aprobarás.' Implícito: 'Si estudias, apruebas.'",
+      "ejercicio": "Convierte el siguiente silogismo en entimema y explica qué premisa se omite: 'Todos los seres humanos son mortales. Los filósofos son seres humanos. Por lo tanto, los filósofos son mortales.'",
+      "respuesta": "Entimema: 'Los filósofos son mortales' (se omite 'los filósofos son humanos' o 'todos los humanos son mortales'). También: 'Los filósofos son humanos, luego mortales.'"
+    },
+    {
+      "id": 4,
+      "nombre": "Lugares comunes (topoi)",
+      "teoria": "Los lugares comunes (tópoi) son esquemas argumentativos universales que sirven para encontrar argumentos. Aristóteles clasificó los tópicos en comunes (aplicables a cualquier tema) y específicos (por disciplinas). Ejemplos de tópicos comunes: definición, comparación, causa-efecto, autoridad, posibilidad-imposibilidad, mayor-menor, contrario, ejemplo, analogía.",
+      "ejemplo": "Ejemplo tópico de definición: 'Si la justicia es dar a cada uno lo suyo, entonces debemos castigar al culpable.' Tópico de causa-efecto: 'Si fumas, tendrás cáncer.' Tópico de autoridad: 'La OMS recomienda vacunarse.'",
+      "ejercicio": "Aplica el tópico de comparación a un argumento sobre por qué el español es una lengua importante.",
+      "respuesta": "'El español tiene más hablantes nativos que el francés y el alemán juntos. Si la importancia de una lengua se mide por su número de hablantes, entonces el español es una de las lenguas más importantes del mundo.'"
+    },
+    {
+      "id": 5,
+      "nombre": "Dispositio: partes del discurso (exordio, narración, argumentación, peroración)",
+      "teoria": "La dispositio clásica divide el discurso en cuatro o seis partes: exordio (introducción, capta atención y buena voluntad), narratio (exposición de los hechos), propositio (tesis), argumentatio (argumentos a favor y en contra), refutatio (respuesta a objeciones), y peroratio (conclusión, resume y apela a las emociones).",
+      "ejemplo": "Ejemplo de dispositio: Exordio: 'Señores jueces, estamos ante un hecho que conmueve la conciencia.' Narratio: 'El 15 de marzo, el acusado entró en la tienda...' Propositio: 'El acusado es inocente.' Argumentatio: 'Las pruebas muestran que...' Peroratio: 'Por todo ello, pedimos la absolución.'",
+      "ejercicio": "Escribe el exordio y la peroración de un discurso ficticio sobre la importancia de la educación.",
+      "respuesta": "Exordio: 'Imaginen un mundo sin escuelas, sin maestros, sin libros. Un mundo donde el conocimiento se pierde con cada generación.' Peroración: 'Por eso, invirtamos en educación. Por eso, valoremos a los maestros. Por un futuro mejor, eduquemos a nuestros niños.'"
+    },
+    {
+      "id": 6,
+      "nombre": "Elocutio: los niveles de estilo (grave, medio, humilde)",
+      "teoria": "Cicerón y la retórica clásica distinguen tres niveles de estilo: genus grave (estilo elevado, para discursos solemnes, con figuras grandiosas, metáforas épicas), genus medium (estilo medio, para enseñar o deleitar, con figuras moderadas), genus humile (estilo sencillo, para instruir con claridad, sin ornamentación excesiva). La elección depende del tema, la audiencia y el propósito.",
+      "ejemplo": "Estilo grave: 'Surcó los mares tempestuosos el intrépido navegante, desafiando a los dioses.' Estilo medio: 'El explorador viajó por océanos peligrosos con valentía.' Estilo humilde: 'El hombre cruzó el mar en un barco.'",
+      "ejercicio": "Reescribe la siguiente idea en los tres niveles de estilo: 'El atleta ganó la carrera'.",
+      "respuesta": "Grave: 'El héroe olímpico, cual rayo veloz, traspasó la meta en glorioso triunfo.' Medio: 'El atleta se esforzó y logró ganar la carrera.' Humilde: 'El corredor ganó.'"
+    },
+    {
+      "id": 7,
+      "nombre": "Figuras retóricas: definición y clasificación",
+      "teoria": "Las figuras retóricas (o tropos) son recursos lingüísticos que desvían el uso normal del lenguaje para lograr un efecto estético, persuasivo o expresivo. Se clasifican en: figuras de pensamiento (afectan al contenido), de dicción (afectan a la forma de las palabras), de construcción (afectan a la sintaxis), de repetición, y tropos (cambio de significado).",
+      "ejemplo": "Ejemplo de figura de pensamiento: ironía ('Qué listo eres' a quien comete un error). Figura de dicción: aliteración ('El susurro suave del silencio'). Tropos: metáfora ('El tiempo es oro').",
+      "ejercicio": "Clasifica las siguientes figuras como de pensamiento, dicción o tropos: 'Las perlas de tu boca' (metáfora), '¡Ay de mí!' (exclamación), 'El campo triste amaneció' (personificación).",
+      "respuesta": "'Las perlas de tu boca' → tropo (metáfora). '¡Ay de mí!' → figura de pensamiento (exclamación). 'El campo triste amaneció' → tropo (personificación)."
+    },
+    {
+      "id": 8,
+      "nombre": "Figuras de pensamiento: exclamación, interrogación retórica",
+      "teoria": "La exclamación expresa emoción intensa (alegría, dolor, sorpresa) mediante signos de exclamación (¡!). La interrogación retórica es una pregunta que no espera respuesta, sino que afirma o niega enfáticamente. Ambas son figuras de pensamiento por su carga subjetiva y afectiva.",
+      "ejemplo": "Exclamación: '¡Qué hermosa es la libertad!' Interrogación retórica: '¿Quién puede dudar de la importancia de la educación?' (equivale a 'nadie puede dudar').",
+      "ejercicio": "Convierte las siguientes afirmaciones en exclamación e interrogación retórica: 'La paz es valiosa' y 'Estudiar es necesario'.",
+      "respuesta": "Exclamación: '¡Qué valiosa es la paz!' Interrogación retórica: '¿Quién puede negar la necesidad de estudiar?'"
+    },
+    {
+      "id": 9,
+      "nombre": "Figuras de pensamiento: apóstrofe",
+      "teoria": "El apóstrofe es una figura que consiste en dirigir la palabra a un ser ausente (muerto, ausente, personificación) o a un ser inanimado como si pudiera responder. Es frecuente en la poesía elegíaca, la oratoria y la literatura romántica. Busca intensidad emocional y dramatismo.",
+      "ejemplo": "Ejemplo: 'Oh, muerte, ¿por qué te llevaste a mi amado?' 'Tú, libertad, que aún esperamos...' '¡Oh, patria mía, cuánto he sufrido lejos de ti!'",
+      "ejercicio": "Escribe un apóstrofe dirigido a la luna o al silencio, en una oración poética.",
+      "respuesta": "'Silencio, cómplice de mis pensamientos, dime qué ocultan las sombras.' O: 'Luna, testigo de desvelos, ilumina mi soledad.'"
+    },
+    {
+      "id": 10,
+      "nombre": "Figuras de pensamiento: prosopopeya o personificación",
+      "teoria": "La prosopopeya (o personificación) atribuye cualidades humanas (acciones, emociones, lenguaje) a seres inanimados, animales o ideas abstractas. Es común en poesía, fábulas y discursos retóricos para crear empatía y expresividad. Puede ser breve (una palabra) o extensa.",
+      "ejemplo": "Ejemplo: 'La noche vestía su manto de estrellas.' 'El viento susurraba entre los árboles.' 'La muerte llamó a su puerta.' 'La justicia ciega repartió su balanza.'",
+      "ejercicio": "Escribe una personificación del silencio o la soledad en dos oraciones.",
+      "respuesta": "'La soledad se sentó a mi lado y susurró promesas vacías. El silencio, testigo de mis penas, me envolvió con su manto frío.'"
+    },
+    {
+      "id": 11,
+      "nombre": "Figuras de pensamiento: ironía",
+      "teoria": "La ironía consiste en decir lo contrario de lo que se quiere expresar, o valorar negativamente mediante una expresión positiva. El oyente debe detectar la discrepancia entre lo dicho y la realidad. Es una figura de pensamiento por su doble sentido. Puede ser verbal, dramática o situacional. El sarcasmo es una ironía hiriente.",
+      "ejemplo": "Ejemplo irónico: '¡Qué hermoso día!' durante una tormenta. 'Eres todo un genio' a quien comete un error. Sarcasmo: 'Brillante idea, incendiaste la cocina.'",
+      "ejercicio": "Escribe una oración irónica sobre alguien que llega muy tarde a una cita.",
+      "respuesta": "'¡Qué puntual eres! Siempre llegas antes que el sol... del día siguiente.'"
+    },
+    {
+      "id": 12,
+      "nombre": "Figuras de pensamiento: hipérbole",
+      "teoria": "La hipérbole consiste en exagerar una cualidad o magnitud para crear énfasis, humor o emoción. Es común en la literatura, el humor y el lenguaje cotidiano. Puede ser cuantitativa ('mil veces') o cualitativa ('muerto de risa'). En retórica clásica, está relacionada con el estilo elevado.",
+      "ejemplo": "Ejemplo: 'Te lo he dicho mil veces.' 'Estoy muerto de cansancio.' 'Corría más rápido que el viento.' 'El discurso duró siglos.'",
+      "ejercicio": "Transforma las siguientes frases en hipérboles: 'Estaba cansado', 'El libro es largo', 'Había mucha gente'.",
+      "respuesta": "'Estaba tan cansado que podría dormir un año entero.' 'El libro era más largo que la espera de un tren en domingo.' 'Había tanta gente que no cabía ni un alma más.'"
+    },
+    {
+      "id": 13,
+      "nombre": "Figuras de pensamiento: antítesis y contraste",
+      "teoria": "La antítesis yuxtapone términos o ideas opuestas en una estructura paralela para crear un contraste enfático. Puede ser de palabras (luz/oscuridad, vida/muerte) o de conceptos. Es fundamental en la argumentación dialéctica. Su poder persuasivo radica en la claridad del contraste.",
+      "ejemplo": "Ejemplo: 'El hombre propone, Dios dispone.' 'Ir y venir, vivir y morir, reír y llorar.' 'La vida es corta, el arte es largo.' 'Tu amor me eleva, tu indiferencia me hunde.'",
+      "ejercicio": "Construye una antítesis sobre 'conocimiento e ignorancia' usando estructuras paralelas.",
+      "respuesta": "'El conocimiento abre puertas; la ignorancia las cierra. El sabio sabe que no sabe; el ignorante cree que todo lo sabe. El primero avanza; el segundo se estanca.'"
+    },
+    {
+      "id": 14,
+      "nombre": "Figuras de pensamiento: paradoja",
+      "teoria": "La paradoja es una afirmación aparentemente contradictoria que encierra una verdad profunda o una revelación. No es un error lógico sino un recurso dialéctico para desafiar el pensamiento convencional. Es frecuente en aforismos y literatura mística.",
+      "ejemplo": "Ejemplo: 'Solo sé que no sé nada' (Sócrates). 'Cuanto más das, más tienes.' 'Para llegar a la paz, prepárate para la guerra.' 'Esta frase es falsa.'",
+      "ejercicio": "Construye una paradoja sobre 'el silencio' o 'la escritura'.",
+      "respuesta": "'El silencio es la palabra más elocuente.' O: 'Escribir es olvidar las palabras para recordar las ideas.'"
+    },
+    {
+      "id": 15,
+      "nombre": "Figuras de pensamiento: oxímoron",
+      "teoria": "El oxímoron es una figura que une dos términos semánticamente opuestos en un mismo sintagma nominal o adjetivo. Es una paradoja condensada en dos palabras. Su efecto es sorpresa y reflexión. Propio de la poesía y el aforismo.",
+      "ejemplo": "Ejemplo: 'oscuridad luminosa', 'silencio atronador', 'dulce amargura', 'soledad acompañada', 'paz violenta', 'fuego helado', 'mentira verdad'.",
+      "ejercicio": "Crea tres oxímoros originales sobre temas contemporáneos (tecnología, redes sociales, trabajo).",
+      "respuesta": "'Conexión aislada', 'privacidad pública', 'descanso agotador', 'ruido informativo', 'innovación obsoleta'."
+    },
+    {
+      "id": 16,
+      "nombre": "Figuras de pensamiento: eufemismo y disfemismo",
+      "teoria": "El eufemismo sustituye un término tabú, desagradable o doloroso por uno más neutro o agradable. El disfemismo hace lo contrario: busca crudeza, realismo o efecto provocador. Ambas son figuras de pensamiento que reflejan valores culturales y actitudes.",
+      "ejemplo": "Eufemismo: 'falleció' por 'murió', 'tercera edad' por 'vejez', 'reestructuración de personal' por 'despido'. Disfemismo: 'estiró la pata', 'palmar', 'tirar la toalla'.",
+      "ejercicio": "Reemplaza 'despedir a un empleado' por un eufemismo formal y por un disfemismo coloquial.",
+      "respuesta": "Eufemismo formal: 'desvinculación laboral', 'reajuste de personal'. Disfemismo coloquial: 'echar', 'dar la patada'."
+    },
+    {
+      "id": 17,
+      "nombre": "Figuras de pensamiento: lítotes",
+      "teoria": "La lítotes es una figura que afirma algo negando lo contrario, produciendo un efecto de atenuación o modestia. Ejemplo: 'No está mal' (significa 'está bien o muy bien'), 'No carece de méritos' (tiene méritos). Es característica de la cortesía negativa y del lenguaje diplomático.",
+      "ejemplo": "Ejemplo: 'El resultado no fue desfavorable' (fue favorable). 'No es un genio, pero tampoco es tonto' (es normal). 'La propuesta no es descabellada' (es razonable).",
+      "ejercicio": "Reescribe la afirmación directa 'Es un texto excelente' como una lítotes.",
+      "respuesta": "'El texto no carece de virtudes.' o 'No está mal escrito.'"
+    },
+    {
+      "id": 18,
+      "nombre": "Figuras de dicción: aliteración",
+      "teoria": "La aliteración es la repetición de un mismo sonido (consonante o vocal) al inicio de palabras cercanas. Crea musicalidad, ritmo y refuerza el significado. Es común en poesía, trabalenguas y publicidad. Puede ser de consonantes (aliteración consonántica) o de vocales (asonancia).",
+      "ejemplo": "Ejemplo de aliteración consonántica: 'El susurro suave del silencio.' 'Tres tristes tigres tragaban trigo.' Asonancia: 'La noche oscura, la luna bruna.'",
+      "ejercicio": "Crea una oración con aliteración de la letra 'r' que evoque el sonido de un motor.",
+      "respuesta": "'El ronco rugido del rojo motor rompió la rutina.'"
+    },
+    {
+      "id": 19,
+      "nombre": "Figuras de dicción: onomatopeya",
+      "teoria": "La onomatopeya es la imitación lingüística de sonidos de la naturaleza, animales u objetos. Puede ser directa ('guau', 'miau', 'pum', 'clic') o indirecta (mediante palabras que evocan sonidos). Es frecuente en cómics, poesía y narrativa infantil.",
+      "ejemplo": "Ejemplos: 'El reloj hacía tic-tac.' 'El viento silbaba.' 'El agua chapoteaba.' '¡Zas! ¡Boom! ¡Plaf!'",
+      "ejercicio": "Escribe una oración que incluya al menos tres onomatopeyas.",
+      "respuesta": "'El gato maulló, el perro ladró y la puerta crujió cuando el ladrón entró: zas, bang, plaf.'"
+    },
+    {
+      "id": 20,
+      "nombre": "Figuras de dicción: paranomasia",
+      "teoria": "La paranomasia (o paronomasia) es el juego de palabras entre palabras de sonido similar pero significado diferente (parónimos). Crea humor, ironía o énfasis. Es común en chistes, adivinanzas, titulares y publicidad.",
+      "ejemplo": "Ejemplo: 'Yo me río, tú te ríes, él se ríe... pero ¿quién rie'? 'Casa' y 'caza', 'bienes' y 'vienes', 'ablando' y 'hablando', 'rayo' y 'rallo'.",
+      "ejercicio": "Crea una oración que juegue con las palabras 'casa' y 'caza'.",
+      "respuesta": "'El cazador volvió a su casa después de la caza.'"
+    },
+    {
+      "id": 21,
+      "nombre": "Figuras de dicción: calambur",
+      "teoria": "El calambur es un juego de palabras que reúne sílabas de dos o más palabras para crear un doble sentido. Se basa en la reasignación de límites entre palabras. Es una forma más compleja de paranomasia. Frecuente en poesía de vanguardia, adivinanzas y chistes.",
+      "ejemplo": "Ejemplo: 'Entre el clavel y la rosa, su majestad escoja' (escoja/es coja). 'A esto le llaman banco, pero yo lo llamo banco porque me siento.' 'Oro parece, plata no es; el que no lo adivine, bien tonto es' (el plátano).",
+      "ejercicio": "Crea un calambur con las palabras 'semántica' y 'semana'.",
+      "respuesta": "'Semana tica: la que estudia semántica.'"
+    },
+    {
+      "id": 22,
+      "nombre": "Figuras de dicción: retruécano",
+      "teoria": "El retruécano repite una misma frase con palabras invertidas o reordenadas para crear un nuevo significado, a menudo antitético. Es una figura de dicción que juega con el orden sintáctico. Requiere ingenio y precisión.",
+      "ejemplo": "Ejemplo: 'No hay camino para la paz, la paz es el camino.' 'Cada uno es como es, pero no es como cada uno.' 'Nace de la libertad la igualdad, de la igualdad la libertad.'",
+      "ejercicio": "Construye un retruécano con la palabra 'vida' y 'muerte'.",
+      "respuesta": "'La muerte es el precio de la vida; la vida es el camino hacia la muerte.'"
+    },
+    {
+      "id": 23,
+      "nombre": "Figuras de construcción: hipérbaton",
+      "teoria": "El hipérbaton altera el orden sintáctico canónico (sujeto-verbo-objeto) para enfatizar un elemento o lograr un efecto poético. Es muy común en la poesía y la prosa literaria del Siglo de Oro. Puede anteponer complementos, separar palabras que normalmente van juntas, o invertir el orden de cláusulas.",
+      "ejemplo": "Ejemplo: 'Del tiempo y sus mudanzas tratará este capítulo' (en lugar de 'Este capítulo tratará del tiempo'). 'Volverán las oscuras golondrinas en tu balcón sus nidos a colgar' (Bécquer).",
+      "ejercicio": "Reescribe la oración 'El poeta canta al amor eternamente' con hipérbaton.",
+      "respuesta": "'Al amor eternamente canta el poeta.' o 'Canta el poeta al amor eternamente.'"
+    },
+    {
+      "id": 24,
+      "nombre": "Figuras de construcción: asíndeton",
+      "teoria": "El asíndeton consiste en omitir las conjunciones (generalmente 'y', 'o') entre los elementos de una enumeración, creando un efecto de rapidez, dinamismo, o acumulación caótica. Da sensación de fluidez o urgencia.",
+      "ejemplo": "Ejemplo: 'Llegué, vi, vencí.' (Julio César). 'Corre, salta, vuela, no te detengas.' 'Vida, sueño, muerte, nada.'",
+      "ejercicio": "Reescribe la siguiente frase en asíndeton: 'Compré pan, y leche, y queso, y frutas.'",
+      "respuesta": "'Compré pan, leche, queso, frutas.'"
+    },
+    {
+      "id": 25,
+      "nombre": "Figuras de construcción: polisíndeton",
+      "teoria": "El polisíndeton consiste en repetir conjunciones (generalmente 'y', 'ni', 'o') entre cada elemento de una enumeración, creando un efecto de lentitud, solemnidad, énfasis o acumulación fatiga. Es lo opuesto al asíndeton.",
+      "ejemplo": "Ejemplo: 'Y el mundo sigue y sigue y sigue.' 'Ni come, ni bebe, ni duerme.' 'Y llora y ríe y sueña y calla.'",
+      "ejercicio": "Reescribe la frase 'Estudia, trabaja, descansa' en polisíndeton.",
+      "respuesta": "'Estudia y trabaja y descansa.'"
+    },
+    {
+      "id": 26,
+      "nombre": "Figuras de construcción: anáfora",
+      "teoria": "La anáfora es la repetición de una o varias palabras al inicio de frases, versos u oraciones consecutivas. Crea ritmo, énfasis y cohesión. Es una de las figuras más usadas en poesía, oratoria y publicidad.",
+      "ejemplo": "Ejemplo: 'El mar, el mar, el mar. Siempre el mar.' 'No pasarán, no pasarán, no pasarán.' 'Estudia para aprender, estudia para crecer, estudia para trascender.'",
+      "ejercicio": "Escribe un ejemplo de anáfora con la palabra 'lengua'.",
+      "respuesta": "'La lengua nos define. La lengua nos conecta. La lengua es nuestra identidad.'"
+    },
+    {
+      "id": 27,
+      "nombre": "Figuras de construcción: epífora",
+      "teoria": "La epífora (o epistrofe) es la repetición de una o varias palabras al final de frases, versos u oraciones consecutivas. Es menos común que la anáfora, pero igualmente efectiva para crear ritmo y énfasis en las conclusiones.",
+      "ejemplo": "Ejemplo: 'Estudia para aprender, trabaja para aprender, vive para aprender.' 'No sé quién eres, no sé qué quieres, no sé de dónde vienes.'",
+      "ejercicio": "Escribe un ejemplo de epífora con la palabra 'importante'.",
+      "respuesta": "'La claridad es importante. La precisión es importante. La brevedad es importante.'"
+    },
+    {
+      "id": 28,
+      "nombre": "Figuras de construcción: compleja o anadiplosis",
+      "teoria": "La anadiplosis consiste en repetir la última palabra (o grupo de palabras) de una cláusula al inicio de la siguiente. Crea encadenamiento y ritmo. Es frecuente en la poesía y la prosa rítmica. Puede formar una cadena larga (epanadiplosis múltiple).",
+      "ejemplo": "Ejemplo: 'Todo lo vence el amor, el amor vence todo.' 'El sueño es vida, la vida es sueño.' 'La libertad es justicia, la justicia es paz.'",
+      "ejercicio": "Crea una oración con anadiplosis usando la palabra 'palabra'.",
+      "respuesta": "'La palabra es reflejo del pensamiento, el pensamiento es reflejo del alma.'"
+    },
+    {
+      "id": 29,
+      "nombre": "Figuras de construcción: quiasmo",
+      "teoria": "El quiasmo consiste en cruzar dos términos o ideas en una estructura AB/BA. Crea un efecto de espejo y equilibrio. Es frecuente en la literatura y la oratoria para resaltar paralelismos. Su nombre proviene de la letra griega chi (χ).",
+      "ejemplo": "Ejemplo: 'No pregunto qué puede hacer tu país por ti, sino qué puedes hacer tú por tu país.' (Kennedy). 'Obrar bien sin mirar a quién, y mirar bien sin obrar.'",
+      "ejercicio": "Construye un quiasmo con los conceptos 'aprender' y 'enseñar'.",
+      "respuesta": "'Para aprender, enseña; para enseñar, aprende.'"
+    },
+    {
+      "id": 30,
+      "nombre": "Figuras de construcción: zeugma y elipsis",
+      "teoria": "El zeugma es la elipsis de un verbo (o palabra) que se sobreentiende de una cláusula anterior, aplicándose a varios elementos. La elipsis es la omisión de elementos recuperables por el contexto. Ambas evitan repeticiones y agilizan el discurso.",
+      "ejemplo": "Zeugma: 'Unos estudian; otros, trabajan' (se omite 'estudian'). 'Juan llegó tarde y María temprano.' Elipsis: 'Compré manzanas y peras' (se omite 'compré' en la segunda).",
+      "ejercicio": "Reescribe la siguiente oración usando zeugma: 'María estudia historia y Juan estudia literatura.'",
+      "respuesta": "'María estudia historia y Juan, literatura.'"
+    },
+    {
+      "id": 31,
+      "nombre": "Figuras de construcción: pleonasmo",
+      "teoria": "El pleonasmo consiste en añadir palabras redundantes que no son necesarias para el significado, pero que refuerzan la expresión o crean énfasis. Puede ser intencional (estilístico) o vicioso (error). En retórica, es recurso enfático.",
+      "ejemplo": "Ejemplo intencional: 'Lo vi con mis propios ojos.' 'Subir arriba.' 'Salir afuera.' 'Oír con mis oídos.' 'Volar por los aires.'",
+      "ejercicio": "Identifica si el siguiente pleonasmo es intencional o vicioso: 'Era un círculo perfecto redondo.'",
+      "respuesta": "Vicioso (redundante): 'círculo' ya es redondo. Intencional podría ser: 'Lo vi con mis propios ojos' (énfasis)."
+    },
+    {
+      "id": 32,
+      "nombre": "Figuras de construcción: epíteto",
+      "teoria": "El epíteto es un adjetivo que expresa una cualidad inherente al sustantivo, y que no añade información nueva pero embellece o enfatiza. Es típico de la poesía épica (Homero) y la lírica. Ejemplos: 'blanca nieve', 'verde prado', 'roja sangre', 'dulce miel'.",
+      "ejemplo": "Ejemplo literario: 'La blanca nieve cubría el valle.' 'El fiero león rugía.' 'La dulce primavera llegó.' 'La oscura noche lo envolvió.'",
+      "ejercicio": "Escribe una oración que incluya tres epítetos.",
+      "respuesta": "'La blanca nieve cubría el verde prado bajo el frío invierno.'"
+    },
+    {
+      "id": 33,
+      "nombre": "Figuras de significado: metáfora",
+      "teoria": "La metáfora es un tropo que identifica un objeto (término real) con otro (término imaginario) con el que guarda una relación de semejanza. Es una comparación implícita (sin 'como' o 'cual'). Es la figura más importante en poesía y retórica. Estructura: A es B ( 'la vida es sueño').",
+      "ejemplo": "Ejemplo: 'El tiempo es oro.' 'Sus cabellos eran hebras de oro.' 'Las perlas de tu boca.' 'El mar de la incertidumbre.'",
+      "ejercicio": "Convierte la siguiente comparación en metáfora: 'El sol brilla como un diamante.'",
+      "respuesta": "'El sol es un diamante.'"
+    },
+    {
+      "id": 34,
+      "nombre": "Figuras de significado: metonimia",
+      "teoria": "La metonimia es un tropo que designa un concepto con el nombre de otro con el que tiene una relación de contigüidad (causa-efecto, autor-obra, continente-contenido, instrumento-músico, lugar-institución). No se basa en semejanza, sino en conexión real.",
+      "ejemplo": "Ejemplo: 'Leer a Cervantes' (autor por obra). 'Beber una copa' (contenedor por contenido). 'La Casa Blanca anunció' (lugar por gobierno). 'El violín desafinó' (instrumento por músico).",
+      "ejercicio": "Identifica la metonimia en: 'El museo compró un Goya.'",
+      "respuesta": "Metonimia: 'un Goya' (productor por producto, el pintor Goya representa su cuadro)."
+    },
+    {
+      "id": 35,
+      "nombre": "Figuras de significado: sinécdoque",
+      "teoria": "La sinécdoque es un tipo de metonimia que consiste en designar un todo por la parte (o viceversa), o un género por la especie. Es muy frecuente en el lenguaje cotidiano y literario. Puede ser cuantitativa (singular por plural) o cualitativa.",
+      "ejemplo": "Ejemplo de parte por todo: 'Necesitamos manos' (manos = trabajadores). 'Diez primaveras' (primaveras = años). Todo por parte: 'La ciudad entera protestó' (ciudad = habitantes). Género por especie: 'El felino acechaba' (felino = león).",
+      "ejercicio": "Identifica la sinécdoque en: 'El público aplaudió emocionado.'",
+      "respuesta": "'El público' (colectivo por los individuos que lo componen). Es una sinécdoque de todo por partes."
+    },
+    {
+      "id": 36,
+      "nombre": "Figuras de significado: sinestesia",
+      "teoria": "La sinestesia consiste en atribuir a un sentido una sensación que corresponde a otro sentido (mezcla sensorial). Ejemplo: 'colores cálidos', 'sonidos ásperos', 'suave melodía', 'voz aterciopelada'. Es frecuente en la poesía simbolista y modernista.",
+      "ejemplo": "Ejemplo: 'El verde chillón' (vista y oído). 'Una mirada dulce' (vista y gusto). 'Olor penetrante' (olfato y tacto). 'Sabor amargo del recuerdo' (gusto y emoción).",
+      "ejercicio": "Crea una sinestesia que mezcle tacto y oído.",
+      "respuesta": "'El áspero sonido de la guitarra eléctrica.' O: 'Una caricia musical.'"
+    },
+    {
+      "id": 37,
+      "nombre": "Figuras de significado: alegoría",
+      "teoria": "La alegoría es una metáfora extendida que constituye todo un texto o un pasaje extenso, donde cada elemento representa una idea abstracta. Es un recurso de la literatura didáctica y filosófica. Ejemplos clásicos: 'La caverna' de Platón, 'La nave de estado', 'El árbol de la vida'.",
+      "ejemplo": "Ejemplo de alegoría: 'El camino es la vida, con sus curvas y obstáculos. La juventud es la salida, la vejez el atardecer. Los amigos son los compañeros de viaje, y el destino es la muerte.'",
+      "ejercicio": "Interpreta la alegoría de 'la cueva' en la que unos prisioneros ven solo sombras.",
+      "respuesta": "La cueva representa la ignorancia; las sombras, la percepción engañosa de la realidad; la salida de la cueva, el conocimiento filosófico; el sol, la Idea del Bien. Es una alegoría del conocimiento y la educación."
+    },
+    {
+      "id": 38,
+      "nombre": "Figuras de significado: símil o comparación",
+      "teoria": "El símil (o comparación) es una figura que establece una relación de semejanza entre dos elementos mediante un nexo explícito ('como', 'cual', 'tal como', 'parece', 'semejante a'). Es más explícito que la metáfora, por lo que es más accesible. Es frecuente en la poesía y la literatura.",
+      "ejemplo": "Ejemplo: 'Escribe como si tallara una piedra.' 'Brillaba como el sol.' 'Corría como un conejo.' 'Era frío como el hielo.'",
+      "ejercicio": "Transforma la siguiente metáfora en símil: 'El amor es un laberinto.'",
+      "respuesta": "'El amor es como un laberinto.'"
+    },
+    {
+      "id": 39,
+      "nombre": "Figuras de significado: perífrasis",
+      "teoria": "La perífrasis designa una realidad mediante una descripción indirecta o un rodeo de palabras, evitando el término directo. Puede tener función eufemística, estilística o didáctica. Es típica de la épica y la poesía culta (ej. 'el padre de la lingüística moderna' por Saussure).",
+      "ejemplo": "Ejemplo: 'La ciudad de los rascacielos' por Nueva York. 'El autor de El Quijote' por Cervantes. 'La ciencia de los signos' por semiótica. 'El astro rey' por el Sol.",
+      "ejercicio": "Sustituye 'Real Academia Española' por una perífrasis.",
+      "respuesta": "'La institución que vela por la lengua castellana.' o 'La máxima corporación lingüística hispánica.'"
+    },
+    {
+      "id": 40,
+      "nombre": "Figuras de significado: antonomasia",
+      "teoria": "La antonomasia es una perífrasis que sustituye un nombre propio por una cualidad característica, o viceversa (usar un nombre propio como arquetipo). Ejemplos: 'El Libertador' por Simón Bolívar; 'Un Quijote' por un idealista; 'El Sabio' por Alfonso X; 'El Estagirita' por Aristóteles.",
+      "ejemplo": "Ejemplo: 'El Cantor de los Cantores' por el Rey David. 'El Pelvis' por Elvis Presley. 'El Che' por Ernesto Guevara. 'Un Neruda' por un gran poeta.",
+      "ejercicio": "Utiliza la antonomasia para referirte a Cristóbal Colón sin usar su nombre.",
+      "respuesta": "'El Descubridor de América.'"
+    },
+    {
+      "id": 41,
+      "nombre": "Figuras de diálogo: sermocinatio",
+      "teoria": "La sermocinatio (o diálogo ficticio) finge una conversación con el lector, un adversario, o un personaje ausente. Crea dinamismo y acerca el discurso a la audiencia. Es frecuente en diálogos filosóficos, sermones y ensayos.",
+      "ejemplo": "Ejemplo: 'Dirá el lector: '¿Y todo esto para qué?' Le responderé...' 'Imagina que alguien objeta: 'No es posible'.'",
+      "ejercicio": "Escribe una oración de sermocinatio en la que imagines la objeción de un crítico.",
+      "respuesta": "'Quizás alguno piense: 'Eso es demasiado idealista'. A eso replico que...'"
+    },
+    {
+      "id": 42,
+      "nombre": "Figuras de diálogo: interrogación retórica",
+      "teoria": "La interrogación retórica es una pregunta que no espera respuesta, sino que afirma o niega enfáticamente. Es una figura de pensamiento muy efectiva en la oratoria para involucrar al auditorio y hacer reflexionar.",
+      "ejemplo": "Ejemplo: '¿Quién no ha cometido un error?' (equivale a 'todos han cometido errores'). '¿Acaso la puntuación no es fundamental?' (afirma que lo es).",
+      "ejercicio": "Convierte la afirmación 'La gramática es importante' en una interrogación retórica.",
+      "respuesta": "'¿Acaso alguien puede dudar de la importancia de la gramática?'"
+    },
+    {
+      "id": 43,
+      "nombre": "Figuras de diálogo: corrección o epanortosis",
+      "teoria": "La epanortosis (o corrección) consiste en rectificar lo que se acaba de decir, sustituyéndolo por una expresión más fuerte o más precisa. A menudo se usa 'más bien', 'mejor dicho', 'digo', 'es decir'. Refuerza el argumento.",
+      "ejemplo": "Ejemplo: 'Él era un hombre bueno, mejor dicho, un santo.' 'No quiero molestarte, sino pedirte ayuda.'",
+      "ejercicio": "Añade una corrección (epanortosis) a la frase: 'El trabajo fue difícil...'",
+      "respuesta": "'El trabajo fue difícil, mejor dicho, fue el más complejo de mi carrera.'"
+    },
+    {
+      "id": 44,
+      "nombre": "Figuras de diálogo: concesión",
+      "teoria": "La concesión es una figura retórica en la que el orador admite un punto del adversario para después refutarlo o contrarrestarlo. Fortalece la argumentación al mostrar imparcialidad y honestidad intelectual. Suele ir seguida de 'pero', 'sin embargo', 'aunque'.",
+      "ejemplo": "Ejemplo: 'Es cierto que el rival tiene experiencia, pero nosotros tenemos juventud y entusiasmo.' 'Reconozco que el método es costoso; sin embargo, sus resultados son superiores.'",
+      "ejercicio": "Escribe una concesión seguida de una refutación sobre un tema de actualidad.",
+      "respuesta": "'Acepto que las energías renovables requieren una inversión inicial alta, pero a largo plazo son más baratas y sostenibles que los combustibles fósiles.'"
+    },
+    {
+      "id": 45,
+      "nombre": "Figuras de diálogo: dubitación",
+      "teoria": "La dubitación es una figura en la que el orador finge duda o vacilación sobre qué decir o cómo decirlo, para ganar la simpatía del auditorio o dar mayor peso a lo que finalmente elige. Puede usar preguntas retóricas sobre la elección.",
+      "ejemplo": "Ejemplo: '¿Por dónde empezar? ¿Por los ejemplos o por la teoría? Comencemos, pues, por lo más sencillo.' 'No sé si llamarlo error o lección.'",
+      "ejercicio": "Escribe una frase con dubitación para introducir un argumento importante.",
+      "respuesta": "'No sé si decir la verdad cruda o suavizarla; prefiero decirla tal cual, para que no haya dudas.'"
+    },
+    {
+      "id": 46,
+      "nombre": "Figuras de diálogo: licencia poética",
+      "teoria": "La licencia poética es la libertad del poeta para alterar las reglas gramaticales, métricas o léxicas en busca de un efecto estético. Incluye el hipérbaton extremo, la creación de neologismos, el uso de arcaísmos, la sinalefa violenta, y la ruptura de la sintaxis. Es una figura que prioriza la expresión sobre la norma.",
+      "ejemplo": "Ejemplo: 'Del salón en el ángulo oscuro' (Bécquer, hipérbaton). 'Lloraba la ninfa, lloraba el poeta' (arcaísmo en la repetición). 'Infinita, eterna, sola' (adjetivación extrema).",
+      "ejercicio": "Escribe un verso con licencia poética (palabra inventada o sintaxis alterada).",
+      "respuesta": "'Azulea el cielo en mi pecho sin fondo.' (neologismo 'azulea' por 'se pone azul', hipérbaton)."
+    },
+    {
+      "id": 47,
+      "nombre": "Figuras de repetición: gradación o climax",
+      "teoria": "La gradación (o clímax) es una serie de palabras o ideas ordenadas en intensidad creciente (climax) o decreciente (anticlímax). Crea un efecto de acumulación y énfasis. Es común en la oratoria y la literatura.",
+      "ejemplo": "Ejemplo de clímax: 'Llegó, vio, venció.' 'Es pequeño, luego mediano, luego grande.' 'La quiero, la adoro, la venero.' Anticlímax: 'Vino, luchó, se rindió.'",
+      "ejercicio": "Escribe una gradación ascendente de tres pasos sobre el esfuerzo.",
+      "respuesta": "'Inténtalo, lucha, triunfa.' o 'Estudia, domina, trasciende.'"
+    },
+    {
+      "id": 48,
+      "nombre": "Figuras de repetición: epanadiplosis",
+      "teoria": "La epanadiplosis consiste en repetir la misma palabra (o palabras) al inicio y al final de una cláusula o verso. Crea un efecto circular y de énfasis. Es una figura elegante y contundente.",
+      "ejemplo": "Ejemplo: 'Verde que te quiero verde.' (Lorca). 'Roma a los romanos, Roma.' 'Pura, encendida rosa, eminente, / que en mano de una ninfa peregrina / te ostentas pura, encendida, rosa, divina...'",
+      "ejercicio": "Crea una oración con epanadiplosis usando la palabra 'libertad'.",
+      "respuesta": "'Libertad, anhelo de todos, libertad.'"
+    },
+    {
+      "id": 49,
+      "nombre": "Figuras de repetición: anadiplosis",
+      "teoria": "La anadiplosis es la repetición de la última palabra de una cláusula al inicio de la siguiente, creando un encadenamiento. Es común en poesía y prosa rítmica.",
+      "ejemplo": "Ejemplo: 'Todo lo vence el amor, el amor vence todo.' 'El sueño es vida, la vida es sueño.'",
+      "ejercicio": "Construye una anadiplosis con tres eslabones.",
+      "respuesta": "'El conocimiento da poder, el poder da responsabilidad, la responsabilidad da sabiduría.'"
+    },
+    {
+      "id": 50,
+      "nombre": "Figuras de repetición: epanalepsis",
+      "teoria": "La epanalepsis consiste en repetir la misma palabra después de un paréntesis o inciso. A veces se confunde con la epanadiplosis, pero la epanalepsis no requiere que la repetición sea al inicio y final de la misma cláusula, sino que puede haber otras palabras en medio.",
+      "ejemplo": "Ejemplo: 'Él, y solo él, puede decidir.' 'La verdad, siempre la verdad, nos hará libres.'",
+      "ejercicio": "Escribe una oración con epanalepsis usando la palabra 'ella'.",
+      "respuesta": "'Ella, y nadie más que ella, tiene la respuesta.'"
+    },
+    {
+      "id": 51,
+      "nombre": "Figuras de pensamiento: la reticencia o aposiopesis",
+      "teoria": "La reticencia (o aposiopesis) consiste en dejar la frase incompleta, dando a entender más de lo que se dice. Su efecto es sugerente, creando suspense o insinuación. Se marca con puntos suspensivos. Es típica de amenazas veladas, suspiros, o reflexiones inacabadas.",
+      "ejemplo": "Ejemplo: 'Si vuelves a hacer eso... ya sabes.' 'No sé si decirlo...' 'Era tan... no encuentro palabras.'",
+      "ejercicio": "Escribe una frase con reticencia que exprese una amenaza implícita.",
+      "respuesta": "'Si vuelves a llegar tarde...' (la amenaza se sobreentiende)."
+    },
+    {
+      "id": 52,
+      "nombre": "Figuras de pensamiento: la expolición o interpretación",
+      "teoria": "La expolición consiste en repetir una misma idea con diferentes palabras (paráfrasis) para darle mayor énfasis o claridad. Es útil en discursos didácticos o persuasivos.",
+      "ejemplo": "Ejemplo: 'La puntuación es clave, es decir, sin ella el texto es caótico, en otras palabras, la puntuación organiza el discurso.'",
+      "ejercicio": "Aplica la expolición a la idea: 'La lectura es beneficiosa.'",
+      "respuesta": "'La lectura es beneficiosa. Leer nos enriquece, nos abre la mente, nos hace más sabios. En definitiva, leer es crecer.'"
+    },
+    {
+      "id": 53,
+      "nombre": "Figuras de pensamiento: la preterición",
+      "teoria": "La preterición consiste en decir que se va a omitir algo, pero precisamente mencionándolo. Es una forma de llamar la atención sobre algo sin parecer que se le da importancia. 'No quiero hablar de...', 'Dejemos de lado...'.",
+      "ejemplo": "Ejemplo: 'No mencionaré sus errores pasados, pero...' 'Dejemos de lado su inexperiencia, y centrémonos en...'",
+      "ejercicio": "Usa la preterición para mencionar un defecto de alguien sin parecer crítico.",
+      "respuesta": "'No voy a hablar de su impuntualidad, pero su trabajo es excelente.'"
+    },
+    {
+      "id": 54,
+      "nombre": "Figuras de pensamiento: la paradiástole",
+      "teoria": "La paradiástole (o distinción) consiste en distinguir términos que suelen confundirse, para precisar conceptos. Es útil en debates y ensayos. 'No es lo mismo... que...', 'Hay que distinguir entre... y...'.",
+      "ejemplo": "Ejemplo: 'No es lo mismo libertad que libertinaje.' 'Hay que distinguir entre corrupción y error administrativo.'",
+      "ejercicio": "Usa la paradiástole para distinguir entre 'información' y 'conocimiento'.",
+      "respuesta": "'No es lo mismo tener información que poseer conocimiento: la información son datos, el conocimiento es comprensión.'"
+    },
+    {
+      "id": 55,
+      "nombre": "Tropos: alegoría",
+      "teoria": "La alegoría es una metáfora continuada que recorre todo un discurso o una obra, en la que cada elemento representa una idea abstracta. Se diferencia de la metáfora en su extensión. Ejemplos clásicos: 'La república de Platón', 'El árbol de la ciencia', 'La nave de la iglesia'.",
+      "ejemplo": "Ejemplo de alegoría breve: 'El viaje de la vida: nacemos, caminamos por senderos, nos encontramos con obstáculos, llegamos a cruces, y finalmente morimos.'",
+      "ejercicio": "Interpreta la alegoría de 'el barco' como representación del gobierno.",
+      "respuesta": "El barco es el estado; el capitán, el gobernante; la tormenta, la crisis; los pasajeros, los ciudadanos; el naufragio, el colapso. La dirección del barco depende del capitán."
+    },
+    {
+      "id": 56,
+      "nombre": "Tropos: ironía",
+      "teoria": "La ironía es un tropo (figura de significado) que dice lo contrario de lo que se quiere expresar. Se basa en la contradicción entre lo literal y lo intencionado. Es frecuente en la literatura y en la conversación coloquial.",
+      "ejemplo": "Ejemplo: 'Qué bien has limpiado' (cuando la habitación está sucia). 'Qué puntual eres' (a alguien que llega tarde).",
+      "ejercicio": "Escribe una oración irónica sobre alguien que rompió un jarrón valioso.",
+      "respuesta": "'Qué habilidad, has logrado romper la única pieza que no debías tocar.'"
+    },
+    {
+      "id": 57,
+      "nombre": "Tropos: sarcasmo",
+      "teoria": "El sarcasmo es una ironía con intención hiriente o burlona explícita. A diferencia de la ironía que puede ser lúdica, el sarcasmo busca lastimar o ridiculizar.",
+      "ejemplo": "Ejemplo: 'Tu inteligencia me abruma' (tras un error bobo). 'Por supuesto, llegaste temprano' (sarcasmo por tardanza).",
+      "ejercicio": "Diferencia entre ironía y sarcasmo con un ejemplo.",
+      "respuesta": "Ironía lúdica: 'Qué bien escribes' (a un amigo que está aprendiendo, con tono de broma). Sarcasmo: 'Eres el mejor escritor del mundo' (a alguien que escribió mal, con tono hiriente)."
+    },
+    {
+      "id": 58,
+      "nombre": "Tropos: énfasis o significación",
+      "teoria": "El énfasis (o significación) expresa más de lo que literalmente se dice, a menudo mediante la atenuación irónica o la hipérbole implícita. Es un tropo difícil de clasificar, cercano a la ironía.",
+      "ejemplo": "Ejemplo: 'Eso es bastante caro' (en realidad es carísimo). 'Tiene sus cosas' (en realidad tiene muchos defectos).",
+      "ejercicio": "Reescribe 'Es muy difícil' con énfasis (expresando más de lo literal).",
+      "respuesta": "'No es tarea sencilla.' (implica que es muy difícil)."
+    },
+    {
+      "id": 59,
+      "nombre": "Figuras patéticas: pathos y conmiseración",
+      "teoria": "Las figuras patéticas apelan a las emociones del auditorio: conmiseración (despertar compasión), indignación, miedo, alegría. Son recursos de la peroratio (conclusión) en la retórica judicial y deliberativa.",
+      "ejemplo": "Ejemplo de conmiseración: 'Imaginen a esos niños sin hogar, en la lluvia, sin abrigo.'",
+      "ejercicio": "Escribe una frase que despierte compasión hacia los animales abandonados.",
+      "respuesta": "'En cada frío invierno, miles de perros y gatos esperan sin esperanza una caricia que nunca llega.'"
+    },
+    {
+      "id": 60,
+      "nombre": "Figuras de amplificación: acumulación",
+      "teoria": "La acumulación es la enumeración de términos relacionados para reforzar una idea. Puede ser mediante asíndeton (sin conjunciones) o polisíndeton (con conjunciones). Crea sensación de abundancia.",
+      "ejemplo": "Ejemplo: 'Llora, sufre, gime, desespera.' 'Y el viento, y la lluvia, y el trueno, y el relámpago.'",
+      "ejercicio": "Crea una acumulación de adjetivos para describir a un héroe.",
+      "respuesta": "'Valiente, audaz, generoso, fuerte, sabio, compasivo: así era el héroe.'"
+    },
+    {
+      "id": 61,
+      "nombre": "Figuras de pensamiento: la paronomasia",
+      "teoria": "La paronomasia (o paranomasia) es el juego de palabras entre parónimos (palabras de sonido similar pero significado diferente). Crea un efecto de sorpresa y humor.",
+      "ejemplo": "Ejemplo: 'De la rosa a la cosa, de la cosa a la risa.' 'Tanto tienes, tanto vales.' 'Vino el vino.'",
+      "ejercicio": "Crea una paronomasia con 'sano' y 'zano' (o 'mano' y 'mano').",
+      "respuesta": "'Entre lo sano y lo insano, prefiero lo sano.'"
+    },
+    {
+      "id": 62,
+      "nombre": "Figuras lógicas: la definición",
+      "teoria": "La definición es una figura argumentativa que establece el significado de un término para guiar el debate. Puede ser nominal (explicación de la palabra) o real (esencia del concepto). Es fundamental en la inventio.",
+      "ejemplo": "Ejemplo: 'Por justicia entendemos dar a cada uno lo suyo.' 'La democracia es el gobierno del pueblo, por el pueblo y para el pueblo.'",
+      "ejercicio": "Define 'retórica' con una definición nominal y otra real.",
+      "respuesta": "Nominal: 'Retórica proviene del griego 'rhetorike', arte de hablar bien.' Real: 'La retórica es la facultad de descubrir lo que es adecuado para persuadir en cada caso.'"
+    },
+    {
+      "id": 63,
+      "nombre": "Figuras lógicas: la división o partición",
+      "teoria": "La división es una figura que descompone un todo en sus partes para organizar el discurso o para argumentar. Es útil en la dispositio (organización). Ejemplo: 'Las causas de la pobreza son tres: económicas, sociales y educativas.'",
+      "ejemplo": "Ejemplo: 'Analizaremos el problema desde tres perspectivas: histórica, sociológica y económica.'",
+      "ejercicio": "Divide el concepto 'inteligencia' en tres tipos según una teoría conocida.",
+      "respuesta": "'La inteligencia se divide en: inteligencia lingüística, lógico-matemática y espacial, según Gardner.'"
+    },
+    {
+      "id": 64,
+      "nombre": "Figuras lógicas: la argumentación por analogía",
+      "teoria": "La analogía es un argumento que compara dos situaciones o dominios diferentes para inferir que lo que es válido en uno lo es en el otro. Es una figura de pensamiento muy persuasiva. Debe usarse con cuidado para no caer en falsa analogía.",
+      "ejemplo": "Ejemplo: 'Así como el arquitecto necesita planos sólidos para construir un edificio, el escritor necesita una sintaxis firme para construir un texto coherente.'",
+      "ejercicio": "Construye una analogía entre el gobierno y la dirección de un barco.",
+      "respuesta": "'Así como el capitán debe navegar con prudencia para evitar tormentas y llevar el barco a puerto, el gobernante debe dirigir el país con sabiduría para superar las crisis.'"
+    },
+    {
+      "id": 65,
+      "nombre": "Figuras lógicas: el ejemplo o paradigma",
+      "teoria": "El ejemplo (paradigma) es un caso concreto que ilustra una regla general o una tesis. Es la base de la argumentación inductiva. En retórica clásica, se considera una forma de entimema. Ejemplo: 'Así como los atenienses defendieron su libertad contra los persas, nosotros debemos defender la nuestra.'",
+      "ejemplo": "Ejemplo: 'Hay muchos casos de éxito: por ejemplo, el programa de alfabetización de Cuba redujo el analfabetismo al 3% en un año.'",
+      "ejercicio": "Da un ejemplo histórico que sirva para argumentar a favor de la perseverancia.",
+      "respuesta": "'Thomas Edison falló mil veces antes de inventar la bombilla; su perseverancia demuestra que el fracaso es parte del éxito.'"
+    },
+    {
+      "id": 66,
+      "nombre": "Figuras lógicas: la inducción",
+      "teoria": "La inducción es el razonamiento que va de casos particulares a una conclusión general. En retórica, se refuerza con ejemplos. Es una figura argumentativa fundamental en la ciencia y en la deliberación.",
+      "ejemplo": "Ejemplo: 'El mercurio se dilata con el calor, el agua también, el alcohol también; por lo tanto, todos los líquidos se dilatan con el calor.'",
+      "ejercicio": "Construye una inducción a partir de tres casos particulares sobre la relación entre estudio y éxito.",
+      "respuesta": "'Einstein estudió incansablemente. Marie Curie también. Newton también. Por lo tanto, el estudio constante es clave para el éxito científico.'"
+    },
+    {
+      "id": 67,
+      "nombre": "Figuras lógicas: la deducción o silogismo",
+      "teoria": "La deducción es el razonamiento que va de lo general a lo particular. El silogismo (premisa mayor, premisa menor, conclusión) es su forma canónica. En retórica, se usa el entimema (silogismo abreviado).",
+      "ejemplo": "Ejemplo: 'Todos los seres humanos son mortales. Sócrates es humano. Luego Sócrates es mortal.'",
+      "ejercicio": "Completa el silogismo: 'Todos los mamíferos tienen sangre caliente. El delfín es un mamífero. Por lo tanto, ...'",
+      "respuesta": "'Por lo tanto, el delfín tiene sangre caliente.'"
+    },
+    {
+      "id": 68,
+      "nombre": "Figuras de atenuación: la mitigación",
+      "teoria": "La mitigación (o atenuación) es una figura que reduce la fuerza de una afirmación para ser más cortés o para evitar una confrontación. Se usa con adverbios ('quizás', 'tal vez'), condicionales, o perífrasis. Es lo opuesto a la hipérbole.",
+      "ejemplo": "Ejemplo: 'Quizás deberías reconsiderar tu decisión.' 'Tal vez no sea la mejor opción.' 'Podría haber un error.'",
+      "ejercicio": "Reescribe la orden 'Debes corregir esto' de manera atenuada.",
+      "respuesta": "'Sería conveniente que revisaras esto, si no es mucha molestia.'"
+    },
+    {
+      "id": 69,
+      "nombre": "Figuras de intensificación: la reiteración",
+      "teoria": "La reiteración es la repetición enfática de una misma idea con diferentes palabras o con la misma palabra, para reforzar un argumento. Puede ser sinónima o anafórica.",
+      "ejemplo": "Ejemplo: 'Es verdad, es cierto, es indudable: la educación cambia vidas.'",
+      "ejercicio": "Reitera la idea 'La puntuación es importante' de tres maneras.",
+      "respuesta": "'La puntuación es importante; es fundamental; es la columna vertebral del texto.'"
+    },
+    {
+      "id": 70,
+      "nombre": "Figuras de diálogo: la objeción y refutación",
+      "teoria": "La objeción y refutación es una figura que anticipa una posible crítica y la rebate. Muestra que el orador ha considerado puntos de vista contrarios y los ha superado. Fortalece la argumentación.",
+      "ejemplo": "Ejemplo: 'Algunos podrían objetar que es muy caro. Sin embargo, a largo plazo resulta más económico.'",
+      "ejercicio": "Anticipa y refuta una objeción a la propuesta de aumentar los impuestos a los ricos.",
+      "respuesta": "'Dirán que los ricos generarían menos empleo. Pero la historia demuestra que con una tributación justa, la economía puede crecer sin desigualdad extrema.'"
+    },
+    {
+      "id": 71,
+      "nombre": "Figuras de diálogo: la conciliación",
+      "teoria": "La conciliación es una figura en la que el orador busca un punto de acuerdo con el adversario antes de presentar su propio argumento. Crea un ambiente de cooperación. Ejemplo: 'En esto estamos de acuerdo: la educación es importante. Pero difiero en los medios.'",
+      "ejemplo": "Ejemplo: 'Comparto su preocupación por la seguridad. Sin embargo, creo que las medidas propuestas son desproporcionadas.'",
+      "ejercicio": "Escribe una frase de conciliación antes de presentar una opinión contraria sobre un tema polémico.",
+      "respuesta": "'Coincido en que la libertad de expresión es un derecho fundamental. No obstante, creo que debe tener límites cuando incita al odio.'"
+    },
+    {
+      "id": 72,
+      "nombre": "Figuras de amplificación: la digresión",
+      "teoria": "La digresión es una desviación temporal del tema principal para introducir una anécdota, un ejemplo o una reflexión. Puede ser un recurso para captar la atención o para preparar el terreno. Debe tener una conexión con el tema central.",
+      "ejemplo": "Ejemplo: 'Permítanme una breve digresión para contarles una anécdota de mi abuelo, que ilustra lo que quiero decir... Volviendo al tema...'",
+      "ejercicio": "Escribe una digresión de una oración sobre un tema de interés general dentro de un discurso sobre educación.",
+      "respuesta": "'Hablando de educación, recuerdo que el gran filósofo Sócrates decía que solo sé que no sé nada; esa humildad es el primer paso del conocimiento.'"
+    },
+    {
+      "id": 73,
+      "nombre": "Figuras de pensamiento: la admonición",
+      "teoria": "La admonición es una figura que advierte o aconseja al auditorio sobre las consecuencias de sus actos. Es común en sermones, discursos políticos y consejos morales. Busca mover a la acción.",
+      "ejemplo": "Ejemplo: 'Cuidado con la indiferencia, porque la injusticia se nutre de ella.' 'Recuerda: cada pequeño gesto cuenta.'",
+      "ejercicio": "Escribe una admonición sobre el cuidado del medio ambiente.",
+      "respuesta": "'Advierto: si no cuidamos hoy nuestros bosques, mañana nuestros hijos heredarán un desierto.'"
+    },
+    {
+      "id": 74,
+      "nombre": "Figuras de pensamiento: la exclamación",
+      "teoria": "La exclamación es una figura que expresa emoción intensa (alegría, dolor, sorpresa, indignación) mediante signos de exclamación. Es muy efectiva en la peroratio para mover los ánimos.",
+      "ejemplo": "Ejemplo: '¡Cuánto sufrimiento ha causado la guerra!' '¡Qué maravilloso es nuestro país!'",
+      "ejercicio": "Convierte la frase 'La situación es terrible' en una exclamación.",
+      "respuesta": "'¡Qué terrible es esta situación!'"
+    },
+    {
+      "id": 75,
+      "nombre": "Figuras de pensamiento: la deprecación",
+      "teoria": "La deprecación es una figura que implora o ruega a los oyentes, a los jueces o a los dioses. Es propia de la peroratio judicial, donde se pide clemencia. También aparece en la oratoria religiosa.",
+      "ejemplo": "Ejemplo: 'Os lo ruego, señores jueces, tened clemencia con este pobre hombre.'",
+      "ejercicio": "Escribe una deprecación pidiendo a los ciudadanos que voten en una elección.",
+      "respuesta": "'Les ruego, por el futuro de nuestros hijos, que acudan a votar.'"
+    },
+    {
+      "id": 76,
+      "nombre": "Figuras de pensamiento: la imprecación",
+      "teoria": "La imprecación es una figura que invoca un mal contra alguien o algo (maldición). Es propia de discursos airados, tragedias y contextos religiosos. En retórica moderna, es poco usada fuera de contextos literarios.",
+      "ejemplo": "Ejemplo: '¡Maldita sea la guerra que destruyó mi hogar!' 'Que la tierra te trague, tirano.'",
+      "ejercicio": "Escribe una imprecación literaria contra la injusticia (sin violencia real).",
+      "respuesta": "'¡Maldita sea la injusticia que condena a los inocentes y premia a los culpables!'"
+    },
+    {
+      "id": 77,
+      "nombre": "Figuras de pensamiento: la prosopografía",
+      "teoria": "La prosopografía es la descripción de una persona, generalmente física o moral, que puede ser real o ficticia. Su objetivo es crear una imagen vívida en la mente del auditorio.",
+      "ejemplo": "Ejemplo: 'Era un hombre alto, de pelo cano, mirada penetrante y voz grave, que infundía respeto.'",
+      "ejercicio": "Describe brevemente a un sabio idealizado mediante prosopografía.",
+      "respuesta": "'Tenía la frente amplia, los ojos brillantes de curiosidad, y las manos callosas de tanto escribir; su voz era pausada, sus gestos mesurados, como si cada movimiento hubiera sido pensado.'"
+    },
+    {
+      "id": 78,
+      "nombre": "Figuras de pensamiento: la etopeya",
+      "teoria": "La etopeya es la descripción de las costumbres, el carácter y las cualidades morales de una persona. Se diferencia de la prosopografía (que describe lo físico). Ambas son recursos de la inventio para retratar a un personaje.",
+      "ejemplo": "Ejemplo: 'Era un hombre justo, honesto, generoso, aunque un poco irascible.' 'De carácter afable, siempre dispuesto a ayudar.'",
+      "ejercicio": "Describe la etopeya de un líder justo y compasivo.",
+      "respuesta": "'Era un líder que escuchaba antes de decidir, que castigaba con moderación y premiaba con generosidad, y cuyo principal interés era el bien común.'"
+    },
+    {
+      "id": 79,
+      "nombre": "Figuras de pensamiento: la cronografía",
+      "teoria": "La cronografía es la descripción de un tiempo o época. Es útil en la narratio para situar los hechos en un marco temporal y crear atmósfera.",
+      "ejemplo": "Ejemplo: 'Era el invierno de 1943, el frío más intenso que se recordaba, cuando el ejército sitiado resistía.'",
+      "ejercicio": "Describe con cronografía la época de la primavera en tu ciudad.",
+      "respuesta": "'Era la primavera de 2025, cuando los cerezos florecían en las calles y el olor a jazmín invadía las noches.'"
+    },
+    {
+      "id": 80,
+      "nombre": "Figuras de pensamiento: la topografía",
+      "teoria": "La topografía es la descripción de un lugar. Ayuda a la narratio a situar la acción y a crear realismo. Es común en novelas, crónicas y discursos descriptivos.",
+      "ejemplo": "Ejemplo: 'El valle se extendía verde y fértil, regado por un río de aguas cristalinas, flanqueado por montañas nevadas.'",
+      "ejercicio": "Describe con topografía una biblioteca antigua.",
+      "respuesta": "'La biblioteca era un laberinto de estantes de madera oscura, iluminado por ventanales góticos que dejaban pasar rayos de polvo danzante, con olor a papel añejo y silencio espeso.'"
+    },
+    {
+      "id": 81,
+      "nombre": "Figuras de pensamiento: la semblanza",
+      "teoria": "La semblanza es una descripción integral (física y moral) de una persona, combinando prosopografía y etopeya. Es típica de biografías breves, elogios fúnebres y retratos literarios.",
+      "ejemplo": "Ejemplo: 'Fue un hombre de baja estatura pero de inmensa bondad, de mirada dulce y carácter firme.'",
+      "ejercicio": "Escribe una semblanza de dos oraciones de una persona admirada.",
+      "respuesta": "'María era una mujer menuda, de manos siempre ocupadas, y de una energía contagiosa. Su risa llenaba la sala y su generosidad no conocía límites.'"
+    },
+    {
+      "id": 82,
+      "nombre": "Figuras de pensamiento: la caricatura",
+      "teoria": "La caricatura es la descripción exagerada de los rasgos físicos o morales de una persona, con fines humorísticos o satíricos. Es una forma de amplificación reductiva.",
+      "ejemplo": "Ejemplo: 'El político era tan alto y delgado que parecía una antena de televisión con corbata.'",
+      "ejercicio": "Caricaturiza a un personaje público (ficticio) que habla mucho y dice poco.",
+      "respuesta": "'El orador tenía una boca tan grande que cuando abría la boca, no se sabía si iba a hablar o a tragarse el micrófono; y cuando hablaba, las palabras se disolvían en un mar de lugares comunes.'"
+    },
+    {
+      "id": 83,
+      "nombre": "Figuras de pensamiento: la sentencia",
+      "teoria": "La sentencia (o máxima) es una afirmación breve y profunda que encierra una enseñanza moral o una verdad universal. Es típica de aforismos, refranes y proverbios. Tiene gran poder de convicción por su carácter sapiencial.",
+      "ejemplo": "Ejemplo: 'Más vale pájaro en mano que ciento volando.' 'No hay mal que por bien no venga.' 'La verdad os hará libres.'",
+      "ejercicio": "Inventa una sentencia sobre la paciencia.",
+      "respuesta": "'La paciencia no es esperar, sino seguir caminando mientras se espera.'"
+    },
+    {
+      "id": 84,
+      "nombre": "Figuras de pensamiento: la adivinanza",
+      "teoria": "La adivinanza es una figura que plantea un enigma para que el receptor lo resuelva. Es un juego retórico que agiliza la mente y entretiene. En retórica clásica, se consideraba una forma de argumentación indirecta.",
+      "ejemplo": "Ejemplo: 'Oro parece, plata no es, el que no lo adivine, bien tonto es. (El plátano).' 'Blancas son, mi señora, más que la nieve; si no me adivinas, tonta te quedas. (Las perlas/lasperlas).'",
+      "ejercicio": "Inventa una adivinanza sencilla sobre la luna.",
+      "respuesta": "'Una dama blanca que baila en el cielo, que cambia de vestido sin tener consuelo. ¿Qué es?' (La luna)."
+    },
+    {
+      "id": 85,
+      "nombre": "Retórica publicitaria: eslogan",
+      "teoria": "El eslogan es una frase breve, memorable y persuasiva utilizada en publicidad y política. Emplea recursos retóricos como la rima, la aliteración, la anáfora, la metáfora, el imperativo, y la segunda persona.",
+      "ejemplo": "Ejemplo: 'Just do it.' (Nike). 'Porque tú lo vales.' (L'Oréal). 'El sabor del hogar.' (Cola Cao).",
+      "ejercicio": "Crea un eslogan para una campaña de fomento de la lectura usando aliteración.",
+      "respuesta": "'Leer te lleva lejos, leer te libera.'"
+    },
+    {
+      "id": 86,
+      "nombre": "Retórica política: discurso de investidura",
+      "teoria": "El discurso de investidura sigue la dispositio clásica: exordio (agradecimiento y humildad), narratio (diagnóstico de la situación), argumentatio (propuestas y promesas), peroratio (llamado a la unidad y esperanza). Emplea figuras como la anáfora, la metáfora, y el pathos.",
+      "ejemplo": "Ejemplo de fragmento: 'No les traigo soluciones mágicas, sino trabajo honrado. No les prometo un paraíso, sino un camino de justicia.'",
+      "ejercicio": "Escribe el exordio de un discurso de investidura imaginario.",
+      "respuesta": "'Queridos conciudadanos: Asumo este cargo con humildad y con la firme promesa de servirles con lealtad. Juntos, sacaremos adelante nuestra nación.'"
+    },
+    {
+      "id": 87,
+      "nombre": "Retórica judicial: el alegato",
+      "teoria": "El alegato judicial (acusación o defensa) sigue la dispositio: exordio (captar benevolencia), narratio (exposición de hechos), argumentatio (pruebas y razonamientos), refutatio (respuesta a la parte contraria), y peroratio (resumen y apelación emocional).",
+      "ejemplo": "Ejemplo de peroratio: 'Señores del jurado, en sus manos está la justicia. No permitan que el crimen quede impune.'",
+      "ejercicio": "Escribe una breve argumentatio (un argumento) para un abogado defensor.",
+      "respuesta": "'Mis clientes no estaban en la escena del crimen. Diez testigos lo corroboran. ¿Cómo podrían haber cometido el delito si estaban a 50 kilómetros?'"
+    },
+    {
+      "id": 88,
+      "nombre": "Retórica deliberativa: discurso parlamentario",
+      "teoria": "La retórica deliberativa (asambleas, parlamentos) busca aconsejar sobre acciones futuras, persuadiendo de que algo es conveniente o perjudicial. Usa tópicos de lo posible/imposible, útil/dañino, justo/injusto. El orador debe proyectar autoridad (ethos).",
+      "ejemplo": "Ejemplo: 'Esta ley traerá más empleo y reducirá la pobreza; votar en contra es votar por el statu quo de la desigualdad.'",
+      "ejercicio": "Argumenta en contra de una propuesta de aumento de impuestos usando la retórica deliberativa.",
+      "respuesta": "'Aumentar los impuestos ahora sería contraproducente. Mataría el consumo, frenaría la inversión y hundiría la economía. En lugar de eso, deberíamos reducir el gasto innecesario.'"
+    },
+    {
+      "id": 89,
+      "nombre": "Retórica epidíctica: el elogio fúnebre",
+      "teoria": "La retórica epidíctica (ceremonial) elogia o censura. El elogio fúnebre (oración fúnebre) celebra las virtudes del difunto, consuela a los vivos y exalta los valores de la comunidad. Se basa en el pathos y en la amplificación de las cualidades positivas.",
+      "ejemplo": "Ejemplo: 'Hoy despedimos a un hombre bueno, un padre amoroso, un ciudadano ejemplar. Su legado perdura en cada vida que tocó.'",
+      "ejercicio": "Escribe una oración de elogio para un maestro jubilado (sin mencionar nombre).",
+      "respuesta": "'Despedimos a una maestra que sembró conocimiento en generaciones enteras. Su paciencia y sabiduría dejaron huella en cada alumno. Que su ejemplo nos inspire.'"
+    },
+    {
+      "id": 90,
+      "nombre": "Análisis retórico de discursos famosos en español",
+      "teoria": "El análisis retórico identifica las partes del discurso (dispositio), los argumentos (inventio), las figuras (elocutio), el ethos, pathos, logos, y los recursos de memoria y actio. Se aplica a discursos históricos (Cicerón, Fidel Castro, Churchill, Obama, etc.) o literarios.",
+      "ejemplo": "Ejemplo de análisis: 'El discurso 'No pasarán' de Dolores Ibárruri usa anáforas ('No pasarán, no pasarán'), pathos (apelación al miedo y la rabia), y una peroración enfática.'",
+      "ejercicio": "Analiza un fragmento de un discurso político conocido (puede ser ficticio) identificando una figura retórica.",
+      "respuesta": "'En el discurso 'Tengo un sueño' de Martin Luther King, la anáfora 'I have a dream' (en inglés) crea ritmo y énfasis, repitiéndose ocho veces. En español, 'Tengo un sueño' cumple la misma función.'"
+    },
+    {
+      "id": 91,
+      "nombre": "Retórica y propaganda política",
+      "teoria": "La propaganda política utiliza recursos retóricos para manipular emociones y simplificar mensajes: eslóganes repetitivos, metáforas bélicas (lucha, batalla), eufemismos (reestructuración por despido), demonización del adversario, y apelación al miedo.",
+      "ejemplo": "Ejemplo: 'Juntos venceremos la crisis' (metáfora bélica). 'Los traidores de la patria' (demonización).",
+      "ejercicio": "Identifica un recurso retórico en un eslogan político conocido o inventa uno.",
+      "respuesta": "Eslogan: 'Primero las personas' (antítesis implícita con 'primero el capital'). Recurso: metonimia ('las personas' por sus necesidades)."
+    },
+    {
+      "id": 92,
+      "nombre": "Retórica y discurso religioso",
+      "teoria": "El discurso religioso (sermón, homilía) emplea la retórica para instruir, exhortar y conmover. Usa ejemplos (parábolas), metáforas (Dios como pastor), repeticiones (letanías), y una estructura de exordio, narratio (lectura bíblica), argumentatio (explicación), peroratio (exhortación moral).",
+      "ejemplo": "Ejemplo: 'Como el pastor cuida de sus ovejas, así Dios cuida de nosotros.' (símil). 'Amad a vuestros enemigos' (paradoja).",
+      "ejercicio": "Escribe una frase con símil para un discurso religioso sobre la fe.",
+      "respuesta": "'La fe es como una semilla; aunque pequeña, puede mover montañas si se riega con esperanza.'"
+    },
+    {
+      "id": 93,
+      "nombre": "Retórica y publicidad: análisis de anuncios",
+      "teoria": "Los anuncios publicitarios utilizan la retórica para persuadir: apelación a la emoción (pathos), a la credibilidad (ethos, con testimonios de famosos), a la lógica (logos, con datos). Figuras comunes: metáfora ('la chispa de la vida'), hipérbole ('el mejor'), interrogación retórica ('¿no lo mereces?'), imperativo ('cómpralo').",
+      "ejemplo": "Ejemplo de anuncio: '¿Cansado de las manchas? Nuestro detergente las elimina al instante. Confía en la marca líder.' (interrogación retórica + logos + ethos).",
+      "ejercicio": "Analiza un eslogan publicitario conocido identificando su tropo o figura.",
+      "respuesta": "Eslogan: 'Ponle el acento español.' (Instituto Cervantes). Figura: metonimia ('acento español' por cultura española, idioma)."
+    },
+    {
+      "id": 94,
+      "nombre": "Retórica visual y multimodal",
+      "teoria": "La retórica visual estudia cómo las imágenes, colores, tipografías y diseño persuaden. La multimodalidad combina lenguaje verbal y visual. Figuras visuales: metáfora visual (una bombilla encendida como idea), hipérbole visual (un coche más grande que un edificio), antítesis visual (blanco/negro).",
+      "ejemplo": "Ejemplo: En un anuncio de una ONG, una imagen de un niño desnutrido y otra del mismo niño sano después de la ayuda crea una antítesis visual y pathos.",
+      "ejercicio": "Describe una metáfora visual para una campaña sobre el cambio climático.",
+      "respuesta": "'Un termómetro gigante que marca 45°C con la Tierra dentro, como si estuviera hirviendo. La metáfora visual es: 'la Tierra tiene fiebre por el calentamiento global'.'"
+    },
+    {
+      "id": 95,
+      "nombre": "Retórica digital y redes sociales",
+      "teoria": "En redes sociales, la retórica se adapta a la brevedad, el hashtag (#) como tópico, la inmediatez, y el engagement. Figuras comunes: hipérbole ('el mejor día de mi vida'), ironía, memes (imagen + texto con parodia), y el # como herramienta argumentativa de pertenencia.",
+      "ejemplo": "Ejemplo de tweet persuasivo: 'Si no vacunas a tus hijos, estás poniendo en riesgo a los demás. #SaludPública' (argumentación + llamado a la acción).",
+      "ejercicio": "Escribe un tweet (máx 280 caracteres) persuasivo sobre la importancia de leer, usando una figura retórica.",
+      "respuesta": "'¿Quieres ser libre? Lee. ¿Quieres ser sabio? Lee. ¿Quieres ser feliz? Lee. 📚✨ #LecturaQueTransforma'"
+    },
+    {
+      "id": 96,
+      "nombre": "Retórica conversacional: técnicas de persuasión cotidiana",
+      "teoria": "La retórica no solo es académica: en conversaciones diarias usamos técnicas como el cumplido (cortesía positiva), la pregunta retórica, la concesión, la analogía, y la narración de ejemplos. También se usan falacias (ad hominem, falsa dicotomía) no intencionadas.",
+      "ejemplo": "Ejemplo: 'Entiendo tu punto, pero ¿has considerado esto?' (concesión + pregunta).",
+      "ejercicio": "Aplica la técnica de la concesión para convencer a un amigo de ir al cine en lugar de al teatro.",
+      "respuesta": "'Tienes razón, el teatro tiene un encanto especial. Pero hoy estamos cansados, y el cine nos permitirá relajarnos más.'"
+    },
+    {
+      "id": 97,
+      "nombre": "Falacias retóricas más comunes",
+      "teoria": "Las falacias son razonamientos erróneos que parecen válidos. Ejemplos: ad hominem (atacar a la persona), falsa dicotomía (solo dos opciones), pendiente resbaladiza (exageración de consecuencias), petición de principio (círculo vicioso), generalización apresurada, y falacia de autoridad.",
+      "ejemplo": "Ejemplo de ad hominem: 'No puedes confiar en su propuesta porque es un mentiroso.' Ejemplo de falsa dicotomía: 'O estás conmigo o contra mí.'",
+      "ejercicio": "Identifica la falacia en: 'Si permitimos el matrimonio igualitario, después permitirán el matrimonio con animales.'",
+      "respuesta": "Pendiente resbaladiza (slippery slope): asume sin evidencia consecuencias extremas."
+    },
+    {
+      "id": 98,
+      "nombre": "Retórica de la ciencia: ethos del investigador",
+      "teoria": "En la comunicación científica, el ethos se construye mediante la objetividad, la precisión y la transparencia. El uso de la primera persona del plural ('nosotros') o de la voz pasiva ('se observó') establece una postura de humildad epistémica. El artículo científico sigue una dispositio rígida (IMRYD).",
+      "ejemplo": "Ejemplo de ethos científico: 'Los autores declaramos no tener conflictos de interés. Los datos están disponibles para su verificación.'",
+      "ejercicio": "Escribe una frase que refuerce el ethos de un investigador en el resumen de un artículo.",
+      "respuesta": "'Este estudio sigue las guías éticas de la Declaración de Helsinki y fue aprobado por el comité institucional. Los datos crudos están depositados en un repositorio público.'"
+    },
+    {
+      "id": 99,
+      "nombre": "Retórica del humor y la ironía",
+      "teoria": "El humor retórico explota la ambigüedad (polisemia, homonimia), la violación de máximas conversacionales, la exageración (hipérbole), la sorpresa, y la incongruencia. La ironía, el sarcasmo y el absurdo son técnicas comunes.",
+      "ejemplo": "Ejemplo de chiste retórico: '¿Qué le dice un techo a otro techo? Te echo de menos.' (calambur). Ironía: 'Me encanta madrugar los domingos.' (dicho por alguien que odia madrugar).",
+      "ejercicio": "Crea una frase humorística usando una paronomasia con 'pollo' y 'poyo'.",
+      "respuesta": "'El pollo se sentó en el poyo y el poyo se cayó con el pollo.'"
+    },
+    {
+      "id": 100,
+      "nombre": "Análisis retórico de un texto literario",
+      "teoria": "El análisis retórico de un texto literario (poema, cuento, novela) identifica las figuras utilizadas, la estructura argumentativa si la hay, el ethos del narrador, el pathos evocado, y los tópicos. Ejemplo: en 'Cien años de soledad', la metáfora de Macondo como paraíso perdido y la hipérbole de la peste del insomnio crean el realismo mágico.",
+      "ejemplo": "Ejemplo de análisis del soneto de Quevedo: 'Miré los muros de la patria mía...' usa la anáfora ('si un tiempo') y la metáfora ('los muros' como la patria) para expresar la decadencia.",
+      "ejercicio": "Analiza una figura retórica en un texto breve de tu elección (poema, fragmento de novela, canción).",
+      "respuesta": "En el poema 'Volverán las oscuras golondrinas' de Bécquer, la anáfora 'volverán' crea expectativa, el hipérbaton 'en tu balcón sus nidos a colgar' altera el orden sintáctico para dar musicalidad, y la personificación de las golondrinas (que vuelven) expresa el anhelo del amor perdido."
+    }
+  ]
+}

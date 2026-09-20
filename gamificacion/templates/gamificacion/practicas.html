@@ -1,0 +1,17 @@
+{% extends "gamificacion/_base_estudiante.html" %}
+{% block contenido %}
+<h2 class="mb-4">✏️ Prácticas pendientes ({{ pendientes|length }})</h2>
+<ul class="list-group">
+  {% for p in pendientes %}
+    <li class="list-group-item d-flex justify-content-between">
+      <div>
+        <strong>{{ p.leccion.titulo }}</strong>
+        <br><small class="text-muted">{{ p.curso.titulo|truncatechars:50 }}</small>
+      </div>
+      <a href="{% url 'academia:lesson_detail' p.leccion.pk %}" class="btn btn-primary btn-sm">Practicar</a>
+    </li>
+  {% empty %}
+    <li class="list-group-item text-muted">¡No hay prácticas pendientes!</li>
+  {% endfor %}
+</ul>
+{% endblock %}

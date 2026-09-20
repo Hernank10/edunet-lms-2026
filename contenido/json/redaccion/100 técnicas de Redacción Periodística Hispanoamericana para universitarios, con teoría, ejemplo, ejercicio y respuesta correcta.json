@@ -1,0 +1,766 @@
+{
+  "titulo": "Redacción Periodística Hispanoamericana",
+  "subtitulo": "Géneros, estructura y estilo en el periodismo en español",
+  "total_tecnicas": 100,
+  "categorias": [
+    "Fundamentos del periodismo (01-12)",
+    "Géneros periodísticos (13-24)",
+    "Estructura de la noticia (25-36)",
+    "Redacción y estilo periodístico (37-48)",
+    "Titulación y leads (49-60)",
+    "Fuentes, verificación y ética (61-70)",
+    "Periodismo digital y redes sociales (71-85)",
+    "Edición, corrección y normas de estilo (86-100)"
+  ],
+  "tecnicas": [
+    {
+      "id": 1,
+      "nombre": "La pirámide invertida: estructura clásica",
+      "teoria": "La pirámide invertida es la estructura tradicional de la noticia periodística. Coloca la información más importante al principio (lead) y luego desarrolla los detalles en orden descendente de importancia. Responde a las 5W (qué, quién, cuándo, dónde, por qué). Permite al lector obtener lo esencial rápidamente y al editor recortar desde el final sin pérdida de información clave.",
+      "ejemplo": "Ejemplo: 'El Congreso aprobó hoy (qué, cuándo) la nueva ley de educación (qué) por amplia mayoría (cómo). La medida, que fue impulsada por el Ministerio de Educación (quién), entrará en vigor el próximo mes (cuándo).' Luego se desarrollan los detalles: declaraciones de los ministros, reacciones de la oposición, análisis de los artículos más polémicos.",
+      "ejercicio": "Escribe un lead de noticia sobre la inauguración de un hospital en tu ciudad aplicando la estructura de pirámide invertida (responde a las 5W). Luego, enumera tres datos secundarios que irían en párrafos posteriores.",
+      "respuesta": "Lead: 'El nuevo hospital San Rafael fue inaugurado ayer en el barrio Las Américas por el alcalde de la ciudad, en un acto que contó con la presencia de 500 vecinos.' 5W: qué (inauguración del hospital), quién (alcalde), cuándo (ayer), dónde (barrio Las Américas), cómo (acto con 500 vecinos). Datos secundarios: 1) El hospital cuenta con 120 camas y servicios de emergencia. 2) La inversión total fue de 15 millones de pesos. 3) Atenderá a una población de 50,000 habitantes de la zona."
+    },
+    {
+      "id": 2,
+      "nombre": "Las 5W y 1H en el periodismo",
+      "teoria": "Las 5W (What, Who, When, Where, Why) y 1H (How) son las preguntas esenciales que toda noticia debe responder en su lead o primeros párrafos: qué sucedió, quién lo hizo, cuándo ocurrió, dónde, por qué y cómo. Este esquema garantiza que el lector obtenga la información fundamental de inmediato.",
+      "ejemplo": "Ejemplo: 'El presidente López (quién) anunció ayer (cuándo) durante una conferencia de prensa (cómo) la reducción del 10% en el impuesto a las gasolinas (qué) en todo el país (dónde), como parte de su plan de alivio económico (por qué).'",
+      "ejercicio": "Identifica las 6W en el siguiente lead: 'El equipo de fútbol Millonarios, dirigido por el técnico argentino Juan Pérez, se coronó campeón anoche en el estadio El Campín tras vencer 2-1 a Santa Fe en la final de la liga, en un partido que mantuvo la tensión hasta el último minuto.'",
+      "respuesta": "What (qué): se coronó campeón. Who (quién): Millonarios (dirigido por Juan Pérez). When (cuándo): anoche. Where (dónde): estadio El Campín. Why (por qué): venció 2-1 a Santa Fe en la final. How (cómo): partido con tensión hasta el último minuto."
+    },
+    {
+      "id": 3,
+      "nombre": "Pirámide normal (estructura cronológica)",
+      "teoria": "La pirámide normal o estructura cronológica ordena los hechos en secuencia temporal, desde el principio hasta el final. Es propia de crónicas, reportajes y noticias de sucesos donde el suspenso o el orden temporal es relevante. No prioriza la información más importante al inicio, sino que respeta el desarrollo de los eventos.",
+      "ejemplo": "Ejemplo crónica de un incendio: 'El incendio comenzó a las 3:00 AM en un galón de productos químicos. A las 3:15, se activó la alarma y los bomberos llegaron al lugar. A las 4:00, las llamas se extendieron a los depósitos vecinos. Finalmente, a las 6:00, los bomberos lograron controlar el fuego.'",
+      "ejercicio": "Convierte la siguiente noticia (pirámide invertida) a estructura cronológica: 'Dos personas murieron en un accidente de tránsito ocurrido anoche en la autopista Norte. El siniestro se produjo cuando un camión embistió a un automóvil que se había detenido por una avería.'",
+      "respuesta": "Versión cronológica: 'Un automóvil se detuvo por una avería anoche en la autopista Norte. Minutos después, un camión que circulaba a alta velocidad no alcanzó a frenar y embistió al vehículo detenido. Como resultado del impacto, dos personas que viajaban en el automóvil murieron en el lugar.'"
+    },
+    {
+      "id": 4,
+      "nombre": "Lead o entradilla: tipos y funciones",
+      "teoria": "El lead (entradilla) es el primer párrafo de una noticia. Contiene la información más relevante (5W) y busca captar la atención del lector. Tipos de lead: directo (responde a todas las 5W), de contraste (opone dos hechos), de pregunta, de cita, descriptivo, narrativo, entre otros. Su extensión ideal es de 25-30 palabras.",
+      "ejemplo": "Ejemplo lead directo: 'El gobierno nacional anunció hoy una inversión de 50 millones de dólares para la construcción de tres hospitales en zonas rurales del departamento de Antioquia.' Lead de pregunta: '¿Qué pasaría si los estudiantes pudieran elegir sus propias materias? Una nueva propuesta educativa lo plantea.' Lead de cita: '“La paz es el camino”, afirmó el presidente durante la cumbre.'",
+      "ejercicio": "Escribe tres leads diferentes (directo, de pregunta y de cita) para una misma noticia sobre el lanzamiento de un satélite argentino.",
+      "respuesta": "Directo: 'Argentina lanzó hoy exitosamente el satélite SAOCOM-1B desde el Centro Espacial de la provincia de Buenos Aires, con el objetivo de monitorear la humedad del suelo y prevenir inundaciones.' De pregunta: '¿Puede un satélite ayudar a prevenir inundaciones? Argentina acaba de lanzar el SAOCOM-1B para precisamente eso.' De cita: '“Hoy la tecnología argentina llega al espacio”, exclamó el ministro de Ciencia tras el lanzamiento del satélite SAOCOM-1B.'"
+    },
+    {
+      "id": 5,
+      "nombre": "Lead directo o resumen",
+      "teoria": "El lead directo, también llamado lead resumen, es el más utilizado en periodismo. Resume la información esencial de la noticia (5W) en uno o dos párrafos, generalmente de 25 a 30 palabras. Su objetivo es que el lector comprenda el hecho principal sin necesidad de leer el resto. Es propio de la pirámide invertida.",
+      "ejemplo": "Ejemplo: 'El Banco Central subió ayer la tasa de interés del 5% al 6% para frenar la inflación, que alcanzó el 8% en el último trimestre.'",
+      "ejercicio": "Escribe un lead directo de 30 palabras máximo para la siguiente información: un terremoto de magnitud 6.5 sacudió la ciudad de Lima esta madrugada; no se reportan víctimas fatales; hubo daños estructurales en edificios antiguos del centro histórico; el presidente declaró estado de emergencia en tres distritos.",
+      "respuesta": "'Un terremoto de magnitud 6.5 sacudió Lima esta madrugada. El presidente declaró estado de emergencia en tres distritos tras daños en edificios antiguos, sin víctimas fatales hasta el momento.'"
+    },
+    {
+      "id": 6,
+      "nombre": "Lead de contraste",
+      "teoria": "El lead de contraste enfrenta dos hechos o ideas opuestas para generar interés. Puede contraponer expectativa vs realidad, ayer vs hoy, promesa vs cumplimiento, o dos fuentes con posiciones antagónicas. Es útil cuando la noticia se basa en una contradicción o cambio drástico.",
+      "ejemplo": "Ejemplo: 'Hace un año prometió construir 100 escuelas; hoy, el gobernador inaugura la número 10. Los plazos se cumplieron solo parcialmente.' Otro: 'Mientras los empresarios celebraron el acuerdo comercial, los sindicatos anunciaron un paro nacional en protesta.'",
+      "ejercicio": "Redacta un lead de contraste para una noticia sobre la promesa electoral de reducir la delincuencia en un 50% y los resultados actuales (reducción del 5%).",
+      "respuesta": "'Prometió reducir la delincuencia a la mitad; dos años después, la baja apenas alcanza el 5%. El gobernador enfrenta críticas de la oposición por el incumplimiento de su promesa de campaña.'"
+    },
+    {
+      "id": 7,
+      "nombre": "Lead de pregunta",
+      "teoria": "El lead de pregunta inicia con una interrogante que atrapa la curiosidad del lector. La pregunta debe ser relevante, directa y responder a un interés del público. Después, la noticia responde esa pregunta en los párrafos siguientes. Es eficaz para temas que generan incertidumbre o debates sociales.",
+      "ejemplo": "Ejemplo: '¿Sabes cuánta agua consumes al día? Un nuevo estudio revela que los bogotanos gastan hasta 150 litros diarios por persona, muy por encima de lo recomendado.'",
+      "ejercicio": "Crea un lead de pregunta para una noticia sobre el aumento de los casos de dengue en tu región y la campaña de fumigación.",
+      "respuesta": "'¿Estamos haciendo lo suficiente para frenar el dengue? A pesar de la campaña de fumigación iniciada hace un mes, los casos han aumentado un 30% en las últimas dos semanas, según el boletín epidemiológico.'"
+    },
+    {
+      "id": 8,
+      "nombre": "Lead de cita",
+      "teoria": "El lead de cita utiliza una frase textual de una fuente relevante (protagonista, testigo, experto, autoridad) como gancho inicial. La cita debe ser impactante, reveladora o polémica. Se escribe entre comillas y se atribuye inmediatamente. Después se contextualiza la declaración.",
+      "ejemplo": "Ejemplo: '“Nunca imaginé que el agua del grifo pudiera enfermarme”, declaró María López, vecina de la Comuna 4, tras ser hospitalizada por una infección gastrointestinal. Un informe municipal detectó la presencia de bacterias en el acueducto local.'",
+      "ejercicio": "Escribe un lead de cita para una entrevista con un atleta que acaba de ganar una medalla olímpica.",
+      "respuesta": "'“Todavía no lo creo, esto es un sueño”, dijo emocionado el nadador argentino Juan Pérez tras ganar la medalla de oro en los 100 metros estilo libre, la primera para su país en la disciplina.'"
+    },
+    {
+      "id": 9,
+      "nombre": "Lead descriptivo",
+      "teoria": "El lead descriptivo pinta una escena o imagen para sumergir al lector en la atmósfera de la noticia. Es común en crónicas y reportajes. Describe el ambiente, los sonidos, los olores, las emociones, antes de entrar en los datos concretos. Busca generar empatía y cercanía.",
+      "ejemplo": "Ejemplo: 'El humo aún flotaba entre los escombros cuando los bomberos sacaban entre vítores los cuerpos de los últimos atrapados. La explosión en la fábrica textil, ocurrida ayer a las 10 AM, dejó un saldo de 12 heridos.'",
+      "ejercicio": "Redacta un lead descriptivo para una crónica de una protesta ciudadana frente al Congreso.",
+      "respuesta": "'El olor a gas lacrimógeno y el estruendo de los cacerolazos llenaban la Plaza de Bolívar. Miles de personas, con banderas y pancartas, exigían frente al Congreso la renuncia del ministro de Educación, mientras el escudo antidisturbios custodiaba las puertas.'"
+    },
+    {
+      "id": 10,
+      "nombre": "Lead narrativo",
+      "teoria": "El lead narrativo cuenta una breve historia o anécdota que ilustra el tema central de la noticia. Es similar al lead descriptivo pero con énfasis en la secuencia de acciones o en un personaje. Funciona bien para reportajes de interés humano o temas complejos que requieren ejemplificación.",
+      "ejemplo": "Ejemplo: 'Cuando María López perdió su empleo en marzo, nunca pensó que terminaría haciendo fila en un comedor comunitario. Sin embargo, hoy es una de las 500 personas que reciben diariamente un plato de comida en el barrio La Cava, donde la desocupación alcanza el 40%.'",
+      "ejercicio": "Escribe un lead narrativo para un reportaje sobre la migración venezolana en Colombia.",
+      "respuesta": "'Carlos Ruiz empacó una mochila con ropa y algo de comida, despidió a su familia y emprendió un viaje de siete días a pie desde Caracas hasta Cúcuta. Hoy, seis meses después, atiende un puesto de arepas en el centro de Bogotá y envía dinero a sus hijos. Su historia es una de las miles que se repiten entre los 2.5 millones de migrantes venezolanos en el país.'"
+    },
+    {
+      "id": 11,
+      "nombre": "Lead de suspenso",
+      "teoria": "El lead de suspenso retiene información clave para generar intriga y que el lector continúe leyendo. Es común en crónicas policiales, judiciales o de sucesos. Plantea un misterio o una situación enigmática que se resuelve más adelante. Debe usarse con cuidado para no frustrar al lector.",
+      "ejemplo": "Ejemplo: 'Todo empezó con una llamada anónima a la comisaría. Una hora después, cinco allanamientos simultáneos desarticularon una banda dedicada a la venta de medicamentos adulterados. El cabecilla, un farmacéutico de 45 años, fue detenido cuando intentaba huir por la terraza.'",
+      "ejercicio": "Redacta un lead de suspenso para una noticia sobre el hallazgo de un tesoro arqueológico en una obra de construcción.",
+      "respuesta": "'Los obreros cavaban los cimientos para un nuevo edificio cuando sus palas chocaron contra algo sólido. No era una roca. Era una vasija de barro sellada. Dentro, monedas de oro del siglo XVII. El hallazgo podría reescribir la historia de la ciudad.'"
+    },
+    {
+      "id": 12,
+      "nombre": "El párrafo de contexto o segundo párrafo",
+      "teoria": "El segundo párrafo de la noticia (o párrafo de contexto) amplía la información del lead, añade datos de respaldo, antecedentes, citas o fuentes. Su función es enriquecer la información principal sin repetirla. A menudo incluye el 'cómo' y 'por qué' que no cupieron en el lead. Es fundamental para la credibilidad.",
+      "ejemplo": "Ejemplo: Lead: 'El presidente sancionó la ley de educación que establece la enseñanza obligatoria de programación en secundaria.' Segundo párrafo: 'La norma, aprobada por el Senado la semana pasada con 45 votos a favor y 10 en contra, fue impulsada por el ministerio de Educación con el objetivo de reducir la brecha digital. Comenzará a regir en el ciclo lectivo 2026.'",
+      "ejercicio": "Redacta el segundo párrafo para el lead: 'Un deslizamiento de tierra sepultó ayer tres viviendas en el municipio de Quetame, Cundinamarca, dejando un saldo de 5 desaparecidos.' Incluye datos sobre el clima, las labores de rescate y declaraciones de una autoridad.",
+      "respuesta": "'Las intensas lluvias de las últimas 48 horas habrían provocado la remoción de la ladera. Al cierre de esta edición, 20 rescatistas de la Unidad de Gestión del Riesgo trabajaban en el lugar con perros entrenados. “El terreno es inestable, pero no cesaremos en la búsqueda”, declaró el director de la oficina local de emergencias.'"
+    },
+    {
+      "id": 13,
+      "nombre": "Noticia: definición y características",
+      "teoria": "La noticia es el género periodístico fundamental. Es el relato objetivo y veraz de un hecho reciente de interés público. Se caracteriza por actualidad, novedad, veracidad, objetividad, claridad, brevedad, interés general, y estructura de pirámide invertida. No admite opinión del periodista (a diferencia del editorial o columna).",
+      "ejemplo": "Ejemplo de noticia: 'El ministerio de Salud confirmó hoy 120 nuevos casos de COVID-19 en la última semana, lo que eleva el total a 15,000 contagios desde el inicio de la pandemia. Las autoridades sanitarias recomendaron retomar el uso de tapabocas en espacios cerrados y extremar la ventilación.'",
+      "ejercicio": "Escribe una noticia de 3 párrafos sobre el anuncio de un nuevo impuesto a las bebidas azucaradas en tu país. Recuerda objetividad y ausencia de opinión.",
+      "respuesta": "'El gobierno nacional anunció hoy la creación de un impuesto del 15% a las bebidas azucaradas, que comenzará a regir el próximo 1 de enero. La medida busca reducir el consumo de azúcar y financiar el sistema de salud. El Ministerio de Hacienda estima una recaudación adicional de 200 millones de pesos anuales. La industria de alimentos y bebidas expresó su preocupación por el impacto en el empleo del sector. 'El impuesto es desproporcionado y afectará a los trabajadores', declaró el presidente de la Cámara de la Industria. Sin embargo, la Organización Panamericana de la Salud respaldó la iniciativa como 'un paso necesario para combatir la obesidad infantil'.'"
+    },
+    {
+      "id": 14,
+      "nombre": "Reportaje: definición y tipos",
+      "teoria": "El reportaje es un género más extenso y profundo que la noticia. Investiga un tema en profundidad, con datos, testimonios, descripciones, contexto y análisis. Admite mayor libertad estilística. Tipos: reportaje objetivo (informativo), interpretativo (con análisis), de interés humano (centrado en personas), de investigación (denuncia), científico, cultural, de viajes, etc.",
+      "ejemplo": "Ejemplo de reportaje de investigación: 'Los expedientes judiciales del caso Odebrecht en Perú suman 15,000 páginas. Esta investigación reconstructiva recorre los sobornos, los intermediarios y las obras fantasmas que aún hoy permanecen inconclusas. Entrevistamos a fiscales, imputados y testigos para desentrañar la trama de corrupción.'",
+      "ejercicio": "Propón un tema para un reportaje de interés humano en tu ciudad y describe qué elementos incluirías (testimonios, datos, descripciones, contexto).",
+      "respuesta": "Tema: 'Los recicladores de base en la ciudad de Medellín: entre la informalidad y la sostenibilidad'. Elementos: testimonios de 3 recicladores con sus historias de vida; datos sobre toneladas recicladas; visita a un centro de acopio; descripción de las condiciones laborales; contexto sobre la ley de residuos; entrevista con un funcionario ambiental; comparación con otros países; fotografías del barrio y del trabajo."
+    },
+    {
+      "id": 15,
+      "nombre": "Crónica: definición y características",
+      "teoria": "La crónica es un género que narra los hechos en orden cronológico, con un estilo literario y una mirada subjetiva. El cronista es testigo y narrador; puede opinar y usar recursos literarios (metáforas, diálogos, descripciones). Combina información y entretenimiento. La crónica deportiva, taurina, de sucesos o de viajes son ejemplos típicos.",
+      "ejemplo": "Ejemplo crónica deportiva: 'El estadio Monumental tembló. Lautaro Martínez recibió el balón en el borde del área, amagó un remate y enganchó hacia su pierna hábil. El arquero rival voló, pero la pelota se coló junto al palo. Gol. Y con él, la clasificación. Así fue la noche mágica del Inter en Milán.'",
+      "ejercicio": "Escribe un párrafo de crónica sobre la final de un torneo local (fútbol, básquet, etc.) usando recursos literarios (metáforas, adjetivos valorativos, descripciones emotivas).",
+      "respuesta": "'El sudor mezclado con el barro dibujaba mapas en los rostros de los jugadores. El árbitro miró el reloj. Faltaba un minuto para el infarto. El delantero centro, ese muchacho de 20 años que nadie miraba hasta hoy, recibió de espaldas al arco. Se giró como un bailarín y fusiló al arquero. El griterío de la hinchada hizo temblar las tribunas de madera. El campeón había nacido.'"
+    },
+    {
+      "id": 16,
+      "nombre": "Entrevista periodística: tipos y estructura",
+      "teoria": "La entrevista es un diálogo con una fuente para obtener información. Tipos: de declaraciones (breve, centrada en un tema puntual), de personalidad (perfil en profundidad), cuestionario fijo, grupal. La estructura incluye: título (con frase impactante), presentación (contexto del entrevistado), preguntas y respuestas (transcripción o estilo indirecto), y cierre. Debe prepararse con investigación previa.",
+      "ejemplo": "Ejemplo de entrevista de personalidad: 'Juan Pérez, el músico detrás del éxito: “Nunca imaginé que mi acordeón llegaría al Luna Park”. Pérez charló con este diario sobre sus 30 años de carrera, sus influencias y el disco que prepara para fin de año.'",
+      "ejercicio": "Enumera 5 preguntas para una entrevista a un artista plástico local sobre su primera exposición individual.",
+      "respuesta": "1) ¿Cómo surgió la idea de esta exposición? 2) ¿Qué técnica o materiales utilizaste? 3) ¿Hay algún cuadro al que le tengas un cariño especial? 4) ¿Qué mensaje esperas transmitir al público? 5) ¿Cuáles son tus influencias artísticas o artistas referentes? (También: ¿Cuánto tiempo te llevó preparar la muestra?)"
+    },
+    {
+      "id": 17,
+      "nombre": "Entrevista de personalidad (perfil)",
+      "teoria": "La entrevista de personalidad o perfil busca retratar la vida, la personalidad y las ideas del entrevistado más allá de la actualidad. Se interesa por anécdotas, experiencias, valores, motivaciones. El estilo puede ser narrativo, intercalando las declaraciones con descripciones del entorno, el aspecto físico y el lenguaje no verbal. El periodista puede opinar.",
+      "ejemplo": "Ejemplo perfil: 'Cuenta la leyenda que a María Sánchez le regalaron su primera cámara a los 7 años. Desde entonces, no la ha soltado. Hoy, a los 50, es la fotógrafa latinoamericana más premiada. Nos recibió en su estudio de Botafogo, entre negativos y paredes llenas de imágenes en blanco y negro.'",
+      "ejercicio": "Escribe el primer párrafo de un perfil de un(a) científico(a) destacado(a) de tu región, describiendo su laboratorio, su tono de voz y alguna anécdota inicial.",
+      "respuesta": "'La taza de café humeaba sobre la mesa repleta de papeles. El doctor Ramírez, de 58 años, lleva puesta la misma bata blanca desde que empezó su doctorado. 'El secreto no está en el microscopio, sino en la paciencia', dice mientras acerca la silla al visitante. Así trabaja este bioquímico argentino que acaba de descubrir una proteína clave contra el Alzheimer.'"
+    },
+    {
+      "id": 18,
+      "nombre": "Editorial: definición y estructura",
+      "teoria": "El editorial es un artículo de opinión no firmado que representa la postura institucional del periódico sobre un tema de actualidad. Su estructura: título, tesis (postura del medio), argumentos (2 o 3), conclusiones (propuestas o llamado). Busca influir en la opinión pública y orientar el debate. No es noticia, sino análisis valorativo.",
+      "ejemplo": "Ejemplo editorial: 'A ocho meses de la firma del acuerdo de paz, los índices de violencia en las regiones más afectadas siguen siendo alarmantes. El gobierno debe priorizar la implementación de los programas de reintegración económica, so pena de que la ilusión de paz se desvanezca. Es hora de pasar de los discursos a los hechos concretos.'",
+      "ejercicio": "Redacta la tesis de un editorial sobre la necesidad de aumentar el presupuesto para la educación pública en tu país.",
+      "respuesta": "'Es urgente que el Congreso apruebe un aumento del 15% en el presupuesto educativo para el próximo año; de lo contrario, la brecha entre la educación pública y privada se ensanchará irreversiblemente, condenando a miles de jóvenes a la desigualdad de oportunidades.'"
+    },
+    {
+      "id": 19,
+      "nombre": "Columna de opinión",
+      "teoria": "La columna de opinión es un artículo firmado por un columnista que expresa su punto de vista personal sobre temas de actualidad. Se caracteriza por un estilo propio (irónico, humorístico, ácido, reflexivo). El columnista no representa al periódico. Puede abordar cualquier tema (política, cultura, deportes, sociedad). Tiene periodicidad regular.",
+      "ejemplo": "Ejemplo columna: 'Confieso que cada vez que veo a un político prometer en campaña lo que nunca cumplió, recuerdo a mi abuela: 'Más vale pájaro en mano que ciento volando'. La política argentina parece un zoológico de promesas voladoras. Pero el electorado, esta vez, parece haber aprendido.'",
+      "ejercicio": "Escribe la primera oración de una columna de opinión sobre el uso excesivo del celular en la vida cotidiana, con tono irónico o reflexivo.",
+      "respuesta": "'El otro día vi a una pareja cenando en un restaurante: cada uno miraba su pantalla, y la única conversación fue '¿pedimos postre?' por WhatsApp. El siglo XXI nos prometió robots voladores y nos entregó esclavitud digital.'"
+    },
+    {
+      "id": 20,
+      "nombre": "Artículo de análisis o interpretativo",
+      "teoria": "El artículo de análisis o interpretativo explica las causas, consecuencias y contexto de un hecho noticioso más allá de lo superficial. El periodista selecciona datos, establece relaciones y ofrece claves de interpretación. Es frecuente en política, economía, relaciones internacionales. Requiere fuentes especializadas y rigor.",
+      "ejemplo": "Ejemplo: 'Más allá de la victoria electoral del candidato X, hay tres factores que explican el vuelco en el mapa de votos: el descontento con la gestión económica en las provincias del sur, la alianza tácita con los partidos pequeños y la abstención de los votantes jóvenes. Analizamos cada uno.'",
+      "ejercicio": "Escribe un párrafo de análisis sobre el impacto de las redes sociales en las elecciones presidenciales de tu país.",
+      "respuesta": "'Las redes sociales no solo difundieron propaganda política; se convirtieron en el termómetro de la polarización. Un análisis de 500,000 tuits durante la campaña muestra que los mensajes de odio aumentaron un 300% hacia el final de la contienda. Esto sugiere que las plataformas digitales exacerbaron la fragmentación social más que informar al elector.'"
+    },
+    {
+      "id": 21,
+      "nombre": "Crítica periodística (cine, teatro, música, libros)",
+      "teoria": "La crítica es un género que evalúa una obra cultural (película, obra de teatro, concierto, libro, exposición). Combina información (sinopsis, ficha técnica) y juicio de valor (argumentado). El crítico debe tener conocimiento del campo, coherencia y honestidad. Estructura: título, introducción (contexto de la obra), análisis (argumento, técnica, actuaciones), juicio y valoración (recomendación o no).",
+      "ejemplo": "Ejemplo crítica de cine: 'La última película de Almodóvar es un despliegue de colores y emociones contenidas. La fotografía es impecable, y la actuación de Penélope Cruz, candidata al Goya. Sin embargo, el guion se enreda en subtramas que no terminan de cerrar. A pesar de eso, es una obra recomendable para los amantes del cine de autor.'",
+      "ejercicio": "Escribe la introducción de una crítica de un concierto al que asististe recientemente (real o ficticio).",
+      "respuesta": "'El pasado sábado, el estadio Movistar Arena vibró con el regreso de la legendaria banda de rock Los Zurdos, después de 10 años de silencio. Las expectativas eran altas, y la banda no defraudó: tres horas de show impecable que repasaron sus clásicos y presentaron dos canciones nuevas.'"
+    },
+    {
+      "id": 22,
+      "nombre": "Reseña periodística",
+      "teoria": "La reseña es un texto breve que informa sobre una obra (libro, película, disco) y la evalúa sucintamente. Es menos extensa que la crítica. Su estructura: encabezamiento (datos de la obra), resumen argumental (sin spoilers), juicio de valor fundamentado (destacar lo mejor y lo peor), y conclusión (recomendación).",
+      "ejemplo": "Ejemplo reseña de libro: 'Cien años de soledad, de Gabriel García Márquez (Editorial Sudamericana, 1967). La novela narra la historia de la familia Buendía a lo largo de siete generaciones, en el mítico pueblo de Macondo. Realismo mágico en estado puro. Quizás el único defecto es la abundancia de personajes con el mismo nombre, que puede confundir al lector ocasional. Imprescindible.'",
+      "ejercicio": "Escribe una reseña de un libro o película reciente que hayas visto, con datos de publicación, resumen (sin arruinar el final) y valoración.",
+      "respuesta": "'El país de las últimas cosas, de Paul Auster (Editorial Anagrama, 1988). Narra la búsqueda de un hermano en una ciudad distópica donde el hambre y la violencia son moneda corriente. La prosa es seca y precisa, pero el final abierto puede decepcionar a lectores que buscan respuestas. Sin embargo, es una lectura recomendable para amantes de la ciencia ficción social.'"
+    },
+    {
+      "id": 23,
+      "nombre": "Crónica roja o de sucesos",
+      "teoria": "La crónica roja o de sucesos narra hechos violentos (crimenes, accidentes, catástrofes) con un estilo que combina información, dramatismo y respeto a las víctimas. Se enfatizan detalles sensoriales (olores, sonidos, imágenes), testimonios de testigos, y el trabajo de las fuerzas de seguridad. El periodista debe evitar el sensacionalismo y respetar el dolor ajeno.",
+      "ejemplo": "Ejemplo: 'El cuerpo sin vida de un hombre de unos 40 años fue hallado esta mañana en un descampado del barrio Las Flores. Vestía una campera azul y presentaba una herida de bala en la cabeza. Vecinos alertaron a la policía tras escuchar detonaciones cerca de las 3 AM. La División Homicidios investiga.'",
+      "ejercicio": "Redacta un párrafo de crónica roja sobre un robo a una joyería, incluyendo declaración de un testigo y descripción de la escena.",
+      "respuesta": "'El vidrio de la puerta principal yacía hecho añicos sobre la alfombra roja de la joyería 'Luxor'. 'Escuché un estruendo y luego dos tipos encapuchados salieron corriendo con bolsos negros', declaró a este diario el dueño del local vecino, que pidió reserva de identidad. Los delincuentes habrían huido en un automóvil gris sin patente.'"
+    },
+    {
+      "id": 24,
+      "nombre": "Crónica deportiva",
+      "teoria": "La crónica deportiva narra el desarrollo de un evento deportivo con pasión, recursos literarios y datos estadísticos. El cronista suele ser aficionado al deporte que cubre y puede opinar (justicia del resultado, desempeño de los jugadores, errores arbitrales). Es uno de los géneros más leídos y con mayor libertad estilística.",
+      "ejemplo": "Ejemplo: 'El partido empezó trabado, con más pierna fuerte que fútbol. River avisó primero con un remate de De la Cruz que se estrelló en el travesaño. Boca respondió con una contra letal: Merentiel definió cruzado para el 1-0. El segundo tiempo fue un monólogo del Millonario, pero el arquero Romero se vistió de héroe.'",
+      "ejercicio": "Escribe la apertura de una crónica de un partido de tu equipo favorito (real o ficticio), usando al menos una metáfora.",
+      "respuesta": "'La lluvia no arruinó la fiesta. El estadio era un hervidero de banderas celestes cuando el árbitro pitó el inicio. El local salió como una aplanadora, y a los 15 minutos, el delantero recibió un pase filtrado, giró como una bailarina y fusiló al arquero. Era el primer gol, y el público rugió.'"
+    },
+    {
+      "id": 25,
+      "nombre": "Titular: funciones y tipos",
+      "teoria": "El titular es la frase principal que encabeza una noticia. Debe ser claro, conciso, preciso y atractivo para captar la atención. Funciones: informar lo esencial, jerarquizar la importancia, seducir al lector. Tipos de titulares: informativo (responde 5W), de frase nominal (sintaxis reducida, 'Aprobado el presupuesto'), de pregunta, de declaración textual (entre comillas), expresivo (con adjetivos valorativos), apelativo (imperativo).",
+      "ejemplo": "Ejemplo titular informativo: 'El gobierno aumentó el salario mínimo un 15%'. Frase nominal: 'Aumento del 15% en el salario mínimo'. De pregunta: '¿Subirá el salario mínimo?'. De declaración: '“Es un aumento histórico”, dijo el ministro'. Expresivo: 'Histórico aumento del salario mínimo'. Apelativo: 'Conocé el nuevo salario mínimo'.",
+      "ejercicio": "Escribe cuatro titulares diferentes (informativo, frase nominal, pregunta, declaración) para la noticia del lanzamiento de un nuevo satélite mexicano.",
+      "respuesta": "Informativo: 'México lanzó hoy el satélite 'Águila' para monitorear sus selvas'. Frase nominal: 'Lanzamiento del satélite 'Águila' para monitoreo de selvas'. Pregunta: '¿Podrá el nuevo satélite 'Águila' frenar la deforestación?'. Declaración: '“Es un orgullo nacional”, dijo el presidente tras el lanzamiento del satélite 'Águila'.'"
+    },
+    {
+      "id": 26,
+      "nombre": "Antetítulo y subtítulo",
+      "teoria": "El antetítulo (o sobre título) va encima del título principal y contextualiza o anticipa un dato general. El subtítulo (o bajada) va debajo del título y amplía la información, a menudo detallando alguna de las 5W que no quedaron claras en el titular. Ambos complementan al titular sin repetirlo.",
+      "ejemplo": "Ejemplo: Antetítulo: 'Frente a la crisis energética'. Título: 'El gobierno anunció un plan de ahorro eléctrico'. Subtítulo: 'La medida incluye reducción del alumbrado público y horarios escalonados en oficinas estatales.'",
+      "ejercicio": "Redacta un antetítulo, título y subtítulo para una noticia sobre la clausura de un vertedero ilegal en tu ciudad.",
+      "respuesta": "Antetítulo: 'Tras décadas de reclamos vecinales'. Título: 'Clausuran definitivamente el vertedero El Tunal'. Subtítulo: 'El predio recibía 500 toneladas diarias de basura sin control sanitario; será convertido en un parque lineal.'"
+    },
+    {
+      "id": 27,
+      "nombre": "Titular en pirámide invertida",
+      "teoria": "En la pirámide invertida, el titular debe priorizar el dato más relevante y novedoso. Debe ser autosuficiente (entendible sin leer el lead) y veraz (no exagerar). Evita la ambigüedad y el sensacionalismo. La sintaxis es activa: 'El congreso aprobó la ley' (no 'la ley fue aprobada').",
+      "ejemplo": "Ejemplo: 'El huracán 'Mario' dejó 10 muertos en la costa de Veracruz' (mejor que 'Huracán en Veracruz: hay víctimas').",
+      "ejercicio": "Corrige el siguiente titular para hacerlo más directo y activo: 'El partido de fútbol entre los dos equipos más importantes de la ciudad fue suspendido por la lluvia.'",
+      "respuesta": "'La lluvia suspendió el clásico entre River y Boca' o 'Suspendido por lluvia el clásico de la ciudad'."
+    },
+    {
+      "id": 28,
+      "nombre": "Titular de frase nominal",
+      "teoria": "El titular de frase nominal elimina verbos y artículos para lograr mayor impacto, brevedad y dinamismo. Es propio de la prensa escrita y digital. Estructura típica: sustantivo + adjetivo + complemento. A veces usa el verbo en participio o infinitivo. Es frecuente en secciones como deportes, economía, política.",
+      "ejemplo": "Ejemplos: 'Aprobado el presupuesto 2025'. 'Bajón en la Bolsa de Valores'. 'Tres heridos en accidente de tránsito'. 'Histórico triunfo de la selección'. 'Protestas frente al congreso'.",
+      "ejercicio": "Convierte la siguiente oración en titular de frase nominal: 'La selección de Colombia ganó el partido contra Brasil por un marcador de 2 a 1.'",
+      "respuesta": "'Histórico triunfo de Colombia ante Brasil: 2 a 1' o 'Colombia 2 - Brasil 1: triunfo de infarto'."
+    },
+    {
+      "id": 29,
+      "nombre": "Titular de pregunta",
+      "teoria": "El titular de pregunta busca la complicidad del lector al plantearle una interrogante que el artículo responderá. Es útil para temas de interés público o cuando el dato principal aún es incierto. Debe ser relevante y no una pregunta vacía. Se recomienda usarlo con moderación porque puede ser percibido como engañoso si no se responde claramente.",
+      "ejemplo": "Ejemplo: '¿Estamos preparados para el próximo terremoto? Un informe revela que solo el 30% de las escuelas de la capital cumplen las normas antisísmicas.' Otro: '¿Qué hay detrás del aumento de precios de la leche?', '¿Quién ganó el debate presidencial?', '¿Por qué sube el dólar?'",
+      "ejercicio": "Redacta un titular de pregunta para una noticia sobre la escasez de agua en tu región.",
+      "respuesta": "'¿Hasta cuándo tendremos agua? Expertos advierten que los embalses podrían secarse en tres meses si no llueve.'"
+    },
+    {
+      "id": 30,
+      "nombre": "Titular de declaración textual",
+      "teoria": "El titular de declaración textual entrecomilla una frase dicha por una fuente (protagonista, testigo, experto, autoridad). La cita debe ser impactante, polémica o reveladora. Se atribuye rápidamente. Es eficaz cuando la declaración es más noticiable que el hecho en sí. Debe ser fiel a lo dicho, sin manipulación.",
+      "ejemplo": "Ejemplo: '“La educación pública está en coma”, disparó el gremio docente tras el veto al aumento salarial.' '“Nunca vi tanta indiferencia”, relató el rescatista.' '“No me arrepiento de nada”, dijo el acusado.'",
+      "ejercicio": "Crea un titular de declaración textual para una entrevista a un científico que advierte sobre el cambio climático.",
+      "respuesta": "'“El calentamiento global es irreversible en este punto”, advirtió el climatólogo Juan Torres.'"
+    },
+    {
+      "id": 31,
+      "nombre": "El lead de 5W en noticias breves",
+      "teoria": "En noticias muy breves (teletipos, secciones de 'breves'), el lead debe contener de manera concisa las 5W esenciales en una o dos oraciones, sin desarrollos posteriores. Prioriza qué, quién y cuándo; dónde y por qué pueden ir después. La extensión máxima es de 300 caracteres (estilo agencia de noticias).",
+      "ejemplo": "Ejemplo: 'Al menos tres personas murieron y 15 resultaron heridas anoche en un accidente de autobús en la ruta 40, entre las provincias de Mendoza y San Juan, cuando el vehículo volcó por causas que se investigan.'",
+      "ejercicio": "Redacta un lead breve (máx 300 caracteres) con las 5W sobre el hallazgo de un perro que rescató a su dueño atrapado bajo escombros en un derrumbe.",
+      "respuesta": "'Un perro salvó anoche a su dueño de 65 años, que quedó atrapado bajo los escombros de su casa derrumbada en barrio Alberdi, al ladrar durante horas hasta alertar a los vecinos, informaron los bomberos.'"
+    },
+    {
+      "id": 32,
+      "nombre": "El párrafo de remate o cierre",
+      "teoria": "El párrafo de remate cierra la noticia, a menudo con una declaración, un dato proyectivo o un detalle curioso que redondea el relato. No debe introducir información nueva importante (eso iría antes). Puede ser una cita final, una anécdota, un resumen o una prospectiva. Ayuda a evitar que la nota termine abruptamente.",
+      "ejemplo": "Ejemplo: 'El ministro prometió que antes de fin de año el hospital estará funcionando. Los vecinos, que llevan una década esperando, no ocultan su escepticismo.' Otro: 'El acusado se negó a declarar. La fiscalía pedirá prisión preventiva.'",
+      "ejercicio": "Escribe un párrafo de cierre para una noticia sobre la inauguración de un nuevo puente, usando una declaración de un vecino y un dato sobre el tráfico.",
+      "respuesta": "''Era un sueño atravesar el río en cinco minutos y no en dos horas', dijo doña Rosa, vecina del barrio. Las autoridades estiman que el nuevo puente beneficiará a 200,000 conductores diarios y reducirá los atascos en un 40% desde su apertura el próximo lunes.'"
+    },
+    {
+      "id": 33,
+      "nombre": "El párrafo de antecedentes (background)",
+      "teoria": "El párrafo de antecedentes (background) contextualiza la noticia con información de base: hechos previos, causas, estadísticas, contexto histórico, político o social. No debe ser demasiado extenso, pero sí proporcionar al lector los elementos necesarios para comprender la relevancia de lo que se informa. Se ubica después del lead y antes de los detalles secundarios.",
+      "ejemplo": "Ejemplo: 'El conflicto docente se extiende desde hace dos semanas. El gobierno ofrece un aumento del 10%, mientras los gremios reclaman el 25% y advierten con medidas de fuerza. El año pasado, una huelga similar duró 45 días y dejó sin clases a 2 millones de estudiantes.'",
+      "ejercicio": "Redacta un párrafo de antecedentes para una noticia sobre un nuevo brote de dengue, incluyendo datos de años anteriores y campañas previas.",
+      "respuesta": "'El dengue no es nuevo en la región. En 2023 se registraron 5,000 casos y 12 muertes, la peor epidemia de la década. La campaña de fumigación lanzada en enero se suspendió por falta de insumos. Ahora, con 300 nuevos contagios en dos semanas, las autoridades temen que se repita la historia.'"
+    },
+    {
+      "id": 34,
+      "nombre": "El párrafo de reacción o testimonios",
+      "teoria": "El párrafo de reacción incluye declaraciones, testimonios o reacciones de los involucrados, testigos, expertos o autoridades. Aporta diversidad de voces y credibilidad. Las citas textuales deben ir entre comillas. Se atribuye la fuente claramente. Pueden ser reacciones positivas (alegría, alivio), negativas (indignación, tristeza) o neutras.",
+      "ejemplo": "Ejemplo: '“Es un día histórico”, celebró la directora del hospital tras la inauguración. Los vecinos, sin embargo, no ocultaron su escepticismo: “Ya nos prometieron antes y nunca funcionó”, dijo una vecina.'",
+      "ejercicio": "Redacta un párrafo de reacción para una noticia sobre la aprobación de una ley de protección animal, con declaraciones de un legislador y de un activista.",
+      "respuesta": "'“Es un avance para los derechos de los animales”, declaró el diputado autor de la ley. Sin embargo, el activista Pablo Méndez fue más crítico: “La ley es insuficiente; no prohíbe las peleas de gallos ni las carreras de galgos”. La norma deberá reglamentarse en 90 días.'"
+    },
+    {
+      "id": 35,
+      "nombre": "El párrafo de proyección o prospectiva",
+      "teoria": "El párrafo de proyección (o prospectiva) anticipa consecuencias futuras del hecho noticioso: qué pasará después, plazos, próximos pasos, escenarios posibles. Es frecuente en noticias políticas, judiciales o económicas. Utiliza verbos en futuro, condicional o expresiones como 'se espera que', 'está previsto', 'probablemente', 'el próximo paso será'.",
+      "ejemplo": "Ejemplo: 'Tras la sanción de la ley, el gobierno tiene 60 días para reglamentarla. Los beneficiarios podrán acceder al subsidio a partir de julio. Las organizaciones sociales prevén presentar recursos judiciales si no se cumplen los plazos.'",
+      "ejercicio": "Escribe un párrafo de proyección para una noticia sobre la detención de un líder sindical acusado de corrupción.",
+      "respuesta": "'El líder sindical permanecerá detenido mientras dure la investigación, que podría extenderse hasta seis meses. La fiscalía solicitará en las próximas horas la prisión preventiva. De ser condenado, enfrentaría una pena de 5 a 10 años de prisión. Su reemplazo será elegido en una asamblea extraordinaria el próximo viernes.'"
+    },
+    {
+      "id": 36,
+      "nombre": "El párrafo de contraste o balance",
+      "teoria": "El párrafo de contraste o balance enfrenta dos visiones, datos o situaciones opuestas para dar equilibrio a la noticia. Es esencial en periodismo para reflejar la complejidad de los hechos, especialmente en temas polémicos. Incluye puntos de vista de diferentes fuentes, generalmente después de exponer una posición mayoritaria.",
+      "ejemplo": "Ejemplo: 'Mientras el gobierno celebra la reducción de la pobreza al 20%, los economistas opositores señalan que la cifra no considera la inflación real. En tanto, los organismos internacionales advierten que los avances son frágiles.'",
+      "ejercicio": "Redacta un párrafo de contraste para una noticia sobre el aumento del salario mínimo, con la visión del gobierno y de los empresarios.",
+      "respuesta": "'El gobierno calificó el aumento como 'histórico' y aseguró que beneficiará a 2 millones de trabajadores. Sin embargo, la cámara de comercio advirtió que muchas pequeñas empresas no podrán afrontar el incremento y que se verán forzadas a despedir personal. El debate quedó abierto de cara a la reglamentación.'"
+    },
+    {
+      "id": 37,
+      "nombre": "Uso del estilo directo e indirecto en periodismo",
+      "teoria": "El estilo directo reproduce textualmente las palabras de la fuente entre comillas ('El presidente afirmó: 'No subiremos los impuestos''). Da mayor fidelidad y credibilidad. El estilo indirecto parafrasea, sin comillas ('El presidente afirmó que no subiría los impuestos'), es más fluido pero menos exacto. Se prefiere el directo para declaraciones polémicas o emotivas.",
+      "ejemplo": "Directo: '“Jamás cederé ante las presiones”, declaró el gobernador.' Indirecto: 'El gobernador declaró que jamás cedería ante las presiones.'",
+      "ejercicio": "Convierte la siguiente declaración directa a indirecta: 'El ministro de Economía afirmó: 'El ajuste es inevitable para salvar el país'.'",
+      "respuesta": "'El ministro de Economía afirmó que el ajuste es inevitable para salvar el país.' o '... afirmó que el ajuste era inevitable para salvar el país.' (se puede mantener el presente porque es una declaración de validez general)."
+    },
+    {
+      "id": 38,
+      "nombre": "Elipsis y claridad en redacción periodística",
+      "teoria": "La elipsis (omisión de palabras sobreentendidas) es útil para evitar repeticiones y agilizar el texto, pero no debe sacrificar la claridad. En periodismo se prefiere la economía de palabras, siempre que no se genere ambigüedad. Ejemplo: 'El equipo azul ganó; el rojo, perdió' (elipsis del verbo 'perdió' en la segunda oración).",
+      "ejemplo": "Correcto: 'El precio del petróleo subió un 5% y el del gas, un 3%.' (elipsis de 'subió'). Incorrecto: 'El presidente, ayer; el ministro, mañana.' (ambigüedad).",
+      "ejercicio": "Reescribe la siguiente oración eliminando repeticiones mediante elipsis: 'El gobierno nacional anunció una reducción de impuestos; el gobierno provincial también anunció una reducción de impuestos.'",
+      "respuesta": "'El gobierno nacional anunció una reducción de impuestos; el provincial, también.'"
+    },
+    {
+      "id": 39,
+      "nombre": "Oraciones cortas vs largas en noticias",
+      "teoria": "La redacción periodística prefiere oraciones cortas (20-25 palabras) y párrafos breves (2-3 oraciones), para facilitar la lectura rápida. Las oraciones largas pueden usarse en crónicas o reportajes, pero con moderación. Cada oración debe transmitir una idea clara. Se recomienda verbo de acción en lugar de nominalizaciones ('el gobierno aumentó' en lugar de 'el gobierno hizo un aumento').",
+      "ejemplo": "Largo: 'El ministro de Hacienda, en una conferencia de prensa que se extendió por más de dos horas, finalmente anunció que el gobierno, tras largas deliberaciones internas, había decidido postergar la suba del impuesto a las ganancias hasta el próximo año.' Corto: 'El ministro de Hacienda anunció ayer la postergación de la suba del impuesto a las ganancias. La medida regirá desde el año próximo.'",
+      "ejercicio": "Reescribe la siguiente oración larga en dos oraciones cortas: 'El club Boca Juniors, que había quedado eliminado de la copa la semana pasada, anunció hoy la contratación del entrenador uruguayo Diego Pérez, quien dirigió al equipo colombiano Medellín el año pasado.'",
+      "respuesta": "'El club Boca Juniors anunció hoy la contratación del entrenador uruguayo Diego Pérez. El técnico, que dirigió al Medellín el año pasado, reemplaza al DT saliente tras la eliminación en la copa la semana pasada.'"
+    },
+    {
+      "id": 40,
+      "nombre": "Nominalización vs verbos activos",
+      "teoria": "La nominalización convierte verbos en sustantivos ('realización', 'aprobación', 'eliminación'). En periodismo se desaconseja porque alarga las frases y resta dinamismo. Se recomienda usar verbos activos: 'el congreso aprobó' (no 'se produjo la aprobación'), 'los bomberos rescataron' (no 'tuvo lugar el rescate').",
+      "ejemplo": "Nominalización: 'Se produjo el hallazgo del cuerpo por parte de los buzos.' Activo: 'Los buzos hallaron el cuerpo.' Nominalización: 'El gobierno hizo el anuncio de las nuevas medidas.' Activo: 'El gobierno anunció nuevas medidas.'",
+      "ejercicio": "Reescribe la frase evitando nominalizaciones: 'La realización del operativo por parte de la policía tuvo lugar durante la madrugada.'",
+      "respuesta": "'La policía realizó el operativo durante la madrugada.'"
+    },
+    {
+      "id": 41,
+      "nombre": "Uso de adjetivos y adverbios en la noticia",
+      "teoria": "Los adjetivos y adverbios deben usarse con moderación en la noticia pura, porque introducen subjetividad (valoración). Se prefieren hechos, no calificaciones. Está bien usar adjetivos objetivos: 'un edificio de cinco pisos' (no 'un enorme edificio'). Para opinión, existen géneros como la columna o el editorial.",
+      "ejemplo": "Subjetivo: 'El incompetente funcionario gestionó la crisis pésimamente.' Objetivo: 'El funcionario gestionó la crisis; hubo tres renuncias en su gabinete.'",
+      "ejercicio": "Reescribe la siguiente oración eliminando los adjetivos valorativos: 'El brillante jugador hizo un golazo espectacular.'",
+      "respuesta": "'El jugador convirtió un gol.' (o 'El jugador marcó un gol desde fuera del área' si se quiere precisión)."
+    },
+    {
+      "id": 42,
+      "nombre": "Uso de cifras y estadísticas",
+      "teoria": "Las cifras deben ser precisas y contextualizadas. Se redondean para facilitar la lectura: 'unos 200 mil' en lugar de '198,743', salvo que la precisión sea clave. Se comparan con datos anteriores o con metas. Se evita abrumar al lector con muchas cifras seguidas. Se usan recursos gráficos (infografías) para datos complejos.",
+      "ejemplo": "Mal: 'El PIB creció un 0.75% en el primer trimestre, frente al 0.68% del trimestre anterior y al 0.82% proyectado.' Mejor: 'El PIB creció 0,8% en el primer trimestre, levemente por debajo de lo proyectado, pero por encima del trimestre previo.'",
+      "ejercicio": "Reescribe la siguiente oración redondeando las cifras: 'En el accidente fallecieron 23 personas y resultaron heridas 47, de las cuales 12 fueron trasladadas al hospital más cercano con fracturas múltiples.'",
+      "respuesta": "'En el accidente fallecieron 23 personas y más de 40 resultaron heridas. Una docena fue trasladada al hospital con fracturas.'"
+    },
+    {
+      "id": 43,
+      "nombre": "Orden de la información: de lo general a lo particular",
+      "teoria": "En periodismo, se ordena la información de lo más general a lo más particular (pirámide invertida). Primero el dato principal, luego detalles específicos, después antecedentes, y finalmente reacciones o prospectivas. Este orden facilita la lectura y permite recortar por el final sin pérdida de información esencial.",
+      "ejemplo": "Orden correcto: 1) 'El gobierno anunció un aumento del salario mínimo.' 2) 'El incremento será del 10% y regirá desde enero.' 3) 'El año pasado, el salario había subido solo un 5%.' 4) 'Los sindicatos criticaron la medida por insuficiente.'",
+      "ejercicio": "Reordena los siguientes datos en orden de importancia (general a particular) para una noticia: a) El incendio afectó a 50 viviendas. b) El fuego comenzó a las 3 AM en una fábrica textil. c) Los vecinos fueron evacuados a un centro comunitario. d) No se reportaron víctimas fatales.",
+      "respuesta": "1) 'El incendio afectó a 50 viviendas (dato principal). 2) No se reportaron víctimas fatales. 3) El fuego comenzó a las 3 AM en una fábrica textil. 4) Los vecinos fueron evacuados a un centro comunitario.' (se puede intercambiar 3 y 4 según énfasis)."
+    },
+    {
+      "id": 44,
+      "nombre": "Redacción inclusiva en periodismo",
+      "teoria": "El periodismo hispanoamericano promueve un lenguaje inclusivo no sexista: usar términos genéricos ('la ciudadanía', 'la población'), desdoblamientos ('los y las', 'ciudadanos y ciudadanas'), o formas neutras ('estudiantado', 'personas'). Se evita el masculino genérico cuando se refiere a colectivos mixtos. Se respetan las identidades de género.",
+      "ejemplo": "No inclusivo: 'Los argentinos votaron a sus representantes.' Inclusivo: 'La ciudadanía argentina votó a sus representantes.' o 'Los y las argentinas votaron.'",
+      "ejercicio": "Reescribe la siguiente frase en lenguaje inclusivo: 'Los médicos del hospital atenderán a los pacientes desde las 8 de la mañana.'",
+      "respuesta": "'El equipo médico del hospital atenderá a los pacientes desde las 8 de la mañana.' o 'Las y los médicos del hospital atenderán a las y los pacientes desde las 8.'"
+    },
+    {
+      "id": 45,
+      "nombre": "Uso de siglas y acrónimos",
+      "teoria": "Las siglas y acrónimos deben escribirse completos en la primera mención, seguidos de la abreviatura entre paréntesis: 'Organización de las Naciones Unidas (ONU)'. Luego puede usarse solo la sigla. Evite abusar de siglas poco conocidas. No se usan puntos entre letras ('ONU', no 'O.N.U.'). Se adaptan al español ('láser', 'OVNI').",
+      "ejemplo": "Correcto: 'La Real Academia Española (RAE) presentó la nueva edición. La RAE también actualizó el diccionario digital.' Incorrecto: 'La RAE presentó...' sin desarrollo previo.",
+      "ejercicio": "Escribe la primera mención de las siguientes siglas en un texto: OEA, UNESCO, FIFA, PIB.",
+      "respuesta": "'La Organización de los Estados Americanos (OEA) aprobó una resolución. La Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) respaldó la iniciativa. La Federación Internacional de Fútbol Asociación (FIFA) sancionó al club. El Producto Interno Bruto (PIB) creció un 3%.'"
+    },
+    {
+      "id": 46,
+      "nombre": "Verbos de atribución: 'afirmar', 'declarar', 'señalar'",
+      "teoria": "Los verbos de atribución introducen declaraciones de las fuentes. No deben ser neutrales si la fuente expresa certeza, duda, o emoción. 'Afirmar' o 'declarar' son neutrales. 'Asegurar' implica confianza. 'Advertir' implica peligro. 'Señalar' es preciso. 'Sugerir' es especulativo. 'Revelar' implica novedad. Se evita el verbo 'decir' por pobreza léxica.",
+      "ejemplo": "Neutro: 'El ministro afirmó que no hay riesgo de default.' Con matiz: 'El ministro advirtió que si no se aprueba el presupuesto, habrá ajustes.'",
+      "ejercicio": "Elige el verbo de atribución más adecuado para cada contexto: a) un científico presenta un descubrimiento; b) un testigo describe un accidente; c) un político critica a la oposición.",
+      "respuesta": "a) 'El científico reveló que hallaron una nueva especie.' b) 'El testigo relató cómo ocurrió el accidente.' c) 'El político arremetió contra la oposición por no apoyar la ley.' También: 'aseguró', 'dijo', 'señaló' según el matiz deseado."
+    },
+    {
+      "id": 47,
+      "nombre": "Evitar la voz pasiva en la redacción",
+      "teoria": "La voz pasiva (ser + participio) es menos directa y alarga las oraciones. Se prefiere la voz activa porque identifica al sujeto que realiza la acción. Ejemplo: 'El ladrón robó el banco' (activo) es mejor que 'El banco fue robado por el ladrón' (pasivo). La pasiva se justifica si el agente es desconocido o irrelevante: 'El banco fue robado anoche'.",
+      "ejemplo": "Pasiva: 'El proyecto fue aprobado por el comité.' Activa: 'El comité aprobó el proyecto.' Pasiva justificada: 'El documento fue sustraído de la oficina.' (no se sabe quién).",
+      "ejercicio": "Reescribe en voz activa: 'La ley fue sancionada por el presidente la semana pasada.'",
+      "respuesta": "'El presidente sancionó la ley la semana pasada.'"
+    },
+    {
+      "id": 48,
+      "nombre": "Manejo de la temporalidad ('ayer', 'hoy', 'mañana')",
+      "teoria": "En periodismo se recomienda evitar adverbios temporales relativos ('ayer', 'hoy', 'mañana') porque envejecen rápido la noticia. Se prefiere el día concreto: 'el jueves pasado', 'el 15 de marzo'. En ediciones digitales, puede actualizarse. En crónicas, se acepta porque el lector asume la fecha de publicación.",
+      "ejemplo": "En vez de 'Ayer se inauguró el hospital', escribir: 'El miércoles 12 de marzo se inauguró el hospital.'",
+      "ejercicio": "Reescribe la siguiente oración eliminando adverbios temporales relativos y añadiendo fecha concreta (inventa una): 'Hoy, el presidente anunciará el nuevo gabinete. Mañana asumirán los ministros.'",
+      "respuesta": "'El presidente anunciará el nuevo gabinete este viernes 20 de mayo. Los ministros asumirán el sábado 21.'"
+    },
+    {
+      "id": 49,
+      "nombre": "El titular informativo: ejemplos y práctica",
+      "teoria": "El titular informativo responde a las 5W básicas (qué, quién, cuándo) en una estructura activa, concisa, con verbo conjugado. Debe ser verificable y no engañoso. Extensión recomendada: máximo 12 palabras. Ejemplo: 'La NASA descubrió agua en Marte'. Evita adjetivos valorativos ('histórico', 'impresionante') a menos que sean parte del hecho.",
+      "ejercicio": "Escribe un titular informativo para la noticia: 'Un grupo de investigadores de la Universidad de Buenos Aires anunció que desarrollaron una vacuna contra el dengue, que comenzará a probarse en humanos el próximo año.'",
+      "respuesta": "'Científicos argentinos desarrollan vacuna contra el dengue' o 'UBA anuncia vacuna contra el dengue: pruebas en humanos en 2026'."
+    },
+    {
+      "id": 50,
+      "nombre": "Extensión recomendada de titulares",
+      "teoria": "En prensa escrita: hasta 12 palabras; en digital: hasta 8 palabras para móviles, hasta 12 para escritorio. En redes sociales: hasta 80 caracteres (ideal). Los titulares muy largos se cortan en las interfaces. Se priorizan palabras clave al inicio. Ejemplo: 'Dolar blue: récord histórico a $1.200' (corto y claro).",
+      "ejercicio": "Acorta el siguiente titular a 8 palabras: 'El gobierno nacional anunció ayer un nuevo aumento del 15% en las jubilaciones para los próximos tres meses.'",
+      "respuesta": "'Anuncian aumento del 15% en jubilaciones' o 'Suben 15% las jubilaciones por tres meses'."
+    },
+    {
+      "id": 51,
+      "nombre": "Titular en redes sociales (engagement)",
+      "teoria": "En redes sociales, los titulares buscan interacción: usan preguntas, imperativos, emojis, curiosidad. Deben ser breves (80 caracteres) y atractivos. Ejemplos: '¿Sabías que...' 'No te pierdas:...' '🔥 Increíble lo que pasó en...' Se acompañan de imagen o video. El tono puede ser más conversacional.",
+      "ejercicio": "Escribe un titular para Twitter (máx 80 caracteres) sobre el lanzamiento de un cohete espacial, con emoji incluido.",
+      "respuesta": "'🚀 Despegue exitoso: el cohete 'Fénix' partió rumbo a la Estación Espacial. ¡Mirá el video!' (75 caracteres)."
+    },
+    {
+      "id": 52,
+      "nombre": "SEO y titulares para web",
+      "teoria": "Los titulares web deben ser SEO amigables: incluir palabra clave al inicio, ser legibles para humanos y máquinas, tener entre 50-60 caracteres para que no se corten en resultados de búsqueda. Evitar números romanos y fechas innecesarias. Ejemplo: 'Cómo solicitar el bono escolar 2025: paso a paso'.",
+      "ejercicio": "Reescribe el siguiente titular optimizándolo para SEO: 'Ayer el gobierno anunció una nueva ayuda económica. Conocé los requisitos.'",
+      "respuesta": "'Ayuda económica 2025: requisitos para solicitarla | Gobierno nacional'."
+    },
+    {
+      "id": 53,
+      "nombre": "Lead de interés humano",
+      "teoria": "El lead de interés humano comienza con una anécdota personal o un caso individual para conectar emocionalmente con el lector. Luego se amplía al tema general. Es común en reportajes y crónicas sociales. Debe ser veraz y no explotar el sufrimiento ajeno. Ejemplo: 'Ana Pérez, madre de tres hijos, perdió su empleo en marzo. Hoy, hace fila en un comedor comunitario.'",
+      "ejercicio": "Escribe un lead de interés humano para un reportaje sobre el desempleo juvenil en tu ciudad.",
+      "respuesta": "'Martín tiene 22 años y envió 150 currículums en los últimos seis meses. Solo lo llamaron de dos lugares. Hoy sigue desempleado, como otros 30 jóvenes de su barrio, según un informe del observatorio social.'"
+    },
+    {
+      "id": 54,
+      "nombre": "Lead de contexto histórico",
+      "teoria": "El lead de contexto histórico comienza con una referencia a hechos pasados o tendencias para explicar la noticia actual. Es útil para temas de larga data (conflictos políticos, crisis económicas, procesos judiciales). Ejemplo: 'Veinte años después del atentado a la AMIA, la justicia aún no tiene condenados.'",
+      "ejercicio": "Redacta un lead de contexto histórico para una noticia sobre la reapertura del juicio por un crimen ocurrido en 1995.",
+      "respuesta": "'Treinta años después del crimen de la modelo Jimena Pérez, la justicia reabrió la causa con nuevas pruebas de ADN. El caso, que había sido cerrado por falta de evidencias, podría tener ahora un desenlace.'"
+    },
+    {
+      "id": 55,
+      "nombre": "Lead de contraste geográfico",
+      "teoria": "El lead de contraste geográfico compara situaciones en dos lugares diferentes (ciudades, países, regiones) para resaltar desigualdades o similitudes. Ejemplo: 'Mientras en Buenos Aires el transporte público funciona con normalidad, en el conurbano los colectivos se toman cada dos horas y los pasajeros denuncian abandono.'",
+      "ejercicio": "Escribe un lead de contraste geográfico sobre la distribución de vacunas entre zonas urbanas y rurales.",
+      "respuesta": "'En la capital, el 90% de la población ya recibió la segunda dosis de la vacuna. En las comunidades rurales del interior, apenas el 30%. La brecha sanitaria se profundiza.'"
+    },
+    {
+      "id": 56,
+      "nombre": "Lead de estadística impactante",
+      "teoria": "El lead de estadística impactante comienza con un dato numérico sorprendente que resume la noticia. El número debe ser relevante, verificable y contextualizado. Ejemplo: 'Uno de cada tres niños argentinos vive en la pobreza, según el último informe del INDEC.'",
+      "ejercicio": "Redacta un lead de estadística impactante sobre el consumo de plásticos de un solo uso en tu país.",
+      "respuesta": "'Cada minuto, 2.000 botellas de plástico terminan en el océano. Argentina es el segundo país de la región que más residuos plásticos genera, según Greenpeace.'"
+    },
+    {
+      "id": 57,
+      "nombre": "Lead de declaración textual",
+      "teoria": "El lead de declaración textual comienza con una cita textual de una fuente, entrecomillada, que condensa la esencia de la noticia. La frase debe ser breve e impactante. Ejemplo: '“No nos rendiremos hasta encontrar a nuestros hijos”, dijo la madre de uno de los 43 normalistas desaparecidos en Ayotzinapa.'",
+      "ejercicio": "Escribe un lead de declaración textual para una noticia sobre el lanzamiento de un libro de un escritor local, usando una frase del autor.",
+      "respuesta": "'“Escribir esta novela fue como exorcizar mis demonios”, confesó el escritor Jorge Pérez durante la presentación de su obra 'El silencio del agua', que ya lleva 5.000 ejemplares vendidos.'"
+    },
+    {
+      "id": 58,
+      "nombre": "Lead de ubicación temporal (fecha próxima)",
+      "teoria": "El lead de ubicación temporal es útil para eventos que ocurrirán en el futuro próximo o han ocurrido recientemente. Comienza con la fecha o el plazo. Ejemplo: 'El próximo martes 20 de agosto, los vecinos de La Plata podrán vacunarse sin turno previo.'",
+      "ejercicio": "Redacta un lead de ubicación temporal para la inauguración de una feria del libro en tu ciudad el próximo fin de semana.",
+      "respuesta": "'Este sábado 10 y domingo 11 de junio, el predio ferial recibirá la 25ª edición de la Feria del Libro con más de 200 expositores y actividades gratuitas para niños.'"
+    },
+    {
+      "id": 59,
+      "nombre": "Lead de pregunta retórica",
+      "teoria": "El lead de pregunta retórica formula una interrogación cuya respuesta es obvia o el artículo la responde. Genera reflexión en el lector. Ejemplo: '¿Hasta cuándo seguiremos tolerando la impunidad? Un nuevo escándalo de corrupción sacude al Poder Judicial.'",
+      "ejercicio": "Escribe un lead de pregunta retórica sobre la falta de espacios verdes en tu ciudad.",
+      "respuesta": "'¿Acaso los árboles son un lujo? En el barrio porteño de Villa Lugano, solo hay un parque cada 50 cuadras, mientras la contaminación del aire supera los niveles recomendados.'"
+    },
+    {
+      "id": 60,
+      "nombre": "Lead de apelación directa al lector",
+      "teoria": "El lead de apelación directa se dirige al lector con 'usted' o 'tú', creando complicidad. Es común en medios digitales, revistas de interés general, o columnas. Ejemplo: 'Imagínese despertar sin agua potable. Así viven cada día 3 millones de mexicanos, según la Conagua.'",
+      "ejercicio": "Redacta un lead de apelación directa para una campaña de prevención de accidentes domésticos.",
+      "respuesta": "'¿Sabías que el 70% de las quemaduras en niños ocurren dentro del hogar? Hoy te contamos cómo prevenir accidentes en la cocina.'"
+    },
+    {
+      "id": 61,
+      "nombre": "Tipos de fuentes periodísticas",
+      "teoria": "Fuentes primarias (directas): protagonistas, testigos, documentos originales. Fuentes secundarias: interpretaciones, análisis, resúmenes. Fuentes oficiales: gobierno, instituciones, autoridades. Fuentes oficiosas: filtraciones, anónimas (con reserva). Se priorizan las fuentes primarias. Se verifican los datos con al menos dos fuentes independientes.",
+      "ejemplo": "Primaria: 'El propio acusado declaró...'; secundaria: 'El abogado del acusado interpretó...'; oficial: 'El ministerio informó...'; oficiosa: 'Fuentes del palacio de justicia revelaron...'",
+      "ejercicio": "Clasifica cada fuente: a) un sobreviviente de un accidente; b) el informe de la comisión investigadora; c) un filtrador anónimo.",
+      "respuesta": "a) fuente primaria directa; b) fuente secundaria oficial; c) fuente oficiosa (anónima)."
+    },
+    {
+      "id": 62,
+      "nombre": "Verificación de datos (fact-checking)",
+      "teoria": "El fact-checking es la verificación de la veracidad de declaraciones, datos o noticias. Incluye contrastar con fuentes oficiales, documentos, bases de datos, expertos. Se usa en contextos de desinformación. Se publica un artículo verificando con evidencia, señalando si es verdadero, falso, engañoso o no comprobable. Ejemplo: 'El presidente afirmó que la inflación bajó al 2%. Verificación: falso, fue del 5%.'",
+      "ejercicio": "Imagina que una autoridad afirma que 'el desempleo bajó al 5%'. ¿Qué pasos seguirías para verificarlo?",
+      "respuesta": "1) Buscar el dato oficial del INDEC u organismo equivalente. 2) Comparar con informes de meses anteriores. 3) Consultar a economistas o analistas. 4) Revisar si la cifra corresponde a desempleo abierto o incluye subempleo. 5) Publicar: 'El INDEC reporta un desempleo del 7,2%: la afirmación del funcionario es falsa.'"
+    },
+    {
+      "id": 63,
+      "nombre": "Ética periodística: on y off the record",
+      "teoria": "On the record: la fuente acepta ser citada con nombre y cargo. Off the record: la información no puede publicarse, solo sirve para orientar al periodista. No se debe publicar. Background: se puede publicar sin citar a la fuente. Deep background: se puede publicar sin ninguna atribución. Estas reglas deben acordarse explícitamente.",
+      "ejercicio": "Define las diferencias entre on the record, off the record, background y deep background.",
+      "respuesta": "On the record: la fuente permite ser citada textualmente y nombrada. Off the record: la información es confidencial, no puede publicarse. Background: la información puede publicarse, pero la fuente no es nombrada (ej. 'fuentes oficiales'). Deep background: la información puede publicarse sin atribución alguna (no se menciona ni la fuente ni su calidad)."
+    },
+    {
+      "id": 64,
+      "nombre": "Derecho a la rectificación",
+      "teoria": "El derecho a la rectificación permite a una persona o institución solicitar la corrección de información inexacta publicada sobre ella. Los medios están obligados a publicar la rectificación de manera gratuita y destacada, en un plazo breve. Es un derecho constitucional en muchos países hispanoamericanos.",
+      "ejercicio": "Imagina que publicaste por error que una empresa tenía pérdidas millonarias. ¿Qué pasos debes seguir para rectificar?",
+      "respuesta": "1) Recibir la solicitud de rectificación. 2) Verificar el error. 3) Publicar la rectificación en el mismo espacio y con similar relevancia. 4) Explicar el error y dar la información correcta. 5) Disculparse si corresponde. 6) Notificar al afectado."
+    },
+    {
+      "id": 65,
+      "nombre": "Protección de fuentes periodísticas",
+      "teoria": "La protección de fuentes es un derecho fundamental del periodista en muchos países hispanoamericanos. Permite no revelar la identidad de un informante para no ponerlo en riesgo. La ley de protección de fuentes exime al periodista de declarar en juicios sobre la identidad de sus fuentes. Es esencial para el periodismo de investigación.",
+      "ejercicio": "¿Por qué es importante la protección de fuentes para denunciar corrupción?",
+      "respuesta": "Permite que personas con información sensible (denunciantes internos) puedan revelar irregularidades sin temor a represalias (despido, persecución, violencia). Así se destapan casos de corrupción que de otro modo quedarían ocultos. Ejemplo: caso Odebrecht destapado por filtraciones de empleados anónimos."
+    },
+    {
+      "id": 66,
+      "nombre": "Códigos de ética periodística en Hispanoamérica",
+      "teoria": "La mayoría de los países hispanoamericanos tienen códigos de ética para periodistas: veracidad, independencia, respeto a la privacidad, no discriminación, rectificación, protección de fuentes, honestidad, no aceptar sobornos. Ejemplo: Código de Ética de la Sociedad Interamericana de Prensa (SIP), códigos de colegios de periodistas.",
+      "ejercicio": "Enumera al menos cinco principios del código de ética periodística.",
+      "respuesta": "1) Veracidad y exactitud. 2) Independencia de intereses políticos o económicos. 3) Respeto a la privacidad y a las víctimas. 4) Rectificación de errores. 5) No discriminación por raza, género, religión. 6) Protección de fuentes confidenciales. 7) No aceptar sobornos o prebendas."
+    },
+    {
+      "id": 67,
+      "nombre": "Diferencia entre periodismo y opinión",
+      "teoria": "El periodismo informativo debe ser objetivo (presentar hechos, contrastar fuentes, no emitir juicios). La opinión es valorativa y está claramente etiquetada (editorial, columna, crítica). Los géneros se separan para no confundir al lector. Un medio serio distingue secciones informativas de las de opinión.",
+      "ejercicio": "Clasifica cada texto como información u opinión: a) 'El gobierno anunció un aumento del 10% en las jubilaciones.' b) 'El gobierno debería aumentar las jubilaciones porque los adultos mayores no llegan a fin de mes.'",
+      "respuesta": "a) Información (hecho verificable). b) Opinión (juicio de valor y recomendación)."
+    },
+    {
+      "id": 68,
+      "nombre": "Sensacionalismo: definición y consecuencias",
+      "teoria": "El sensacionalismo exagera o dramatiza la noticia para generar impacto emocional, a costa de la precisión y el respeto. Usa titulares alarmistas, adjetivos exagerados, detalles morbosos. Puede dañar la credibilidad del medio y causar alarma injustificada. Es común en prensa amarilla o programas de chimentos.",
+      "ejercicio": "Reescribe el siguiente titular sensacionalista en uno informativo: '¡Horror en la ruta! Camión destrozó auto y volcó causando una matanza indiscriminada de inocentes.'",
+      "respuesta": "'Un camión volcó en la ruta 3: dos muertos y tres heridos tras chocar con un auto.'"
+    },
+    {
+      "id": 69,
+      "nombre": "Periodismo de investigación",
+      "teoria": "El periodismo de investigación profundiza en temas ocultos o complejos, revelando información que alguien intenta mantener en secreto (corrupción, delitos, abusos de poder). Requiere paciencia, fuentes confidenciales, cruce de datos, documentación, y recursos (tiempo, dinero). Ejemplos: Panama Papers, Lava Jato, Caso Odebrecht.",
+      "ejercicio": "Describe las etapas de una investigación periodística sobre un posible desvío de fondos en una municipalidad.",
+      "respuesta": "1) Hipótesis inicial. 2) Búsqueda de fuentes (denunciantes, empleados municipales). 3) Solicitud de documentos (acceso a la información pública). 4) Cruce de datos (licitaciones, contratos, facturas). 5) Verificación con peritos. 6) Entrevistas con imputados y autoridades. 7) Publicación de la investigación. 8) Seguimiento y posibles rectificaciones."
+    },
+    {
+      "id": 70,
+      "nombre": "Periodismo de datos",
+      "teoria": "El periodismo de datos utiliza grandes volúmenes de información (bases de datos, estadísticas, documentos digitales) para descubrir patrones y noticias. Se usan herramientas de limpieza, análisis y visualización. Es clave para temas como presupuestos públicos, salud, educación, corrupción. Ejemplo: analizar 10,000 facturas de contrataciones públicas para hallar sobreprecios.",
+      "ejercicio": "¿Qué tipo de noticias puede revelar el análisis de datos de evasión tributaria?",
+      "respuesta": "Puede identificar empresas que declaran pérdidas consistentes pero tienen alta facturación; patrones de facturación falsa; sectores con mayor evasión; diferencias entre lo declarado y lo registrado en otras bases; y nombres de responsables. Así se pueden generar informes sobre 'los mayores evasores'."
+    },
+    {
+      "id": 71,
+      "nombre": "Periodismo digital: características",
+      "teoria": "El periodismo digital se caracteriza por inmediatez (actualización constante), hipertextualidad (enlaces), multimedialidad (texto, audio, video, fotos), interactividad (comentarios, encuestas), personalización (suscripciones), y memoria (archivo accesible). Requiere titulares SEO y formatos adaptados a móviles.",
+      "ejercicio": "Enumera al menos tres diferencias entre la prensa escrita y el periodismo digital.",
+      "respuesta": "1) Inmediatez: digital publica al instante; papel tiene periodicidad fija. 2) Espacio: digital ilimitado, papel limitado. 3) Interactividad: digital permite comentarios y compartir; papel es unidireccional. 4) Actualización: digital puede corregir errores al instante; papel no. 5) Multimedia: digital integra videos; papel solo texto e imágenes estáticas."
+    },
+    {
+      "id": 72,
+      "nombre": "Escritura para web y móviles",
+      "teoria": "La escritura para web y móviles debe ser escaneable: párrafos cortos, subtítulos, listas, negritas para palabras clave. La información principal debe estar arriba (pirámide invertida). Los enlaces (hipervínculos) deben ser descriptivos ('ver informe completo', no 'clic aquí'). Las imágenes deben tener texto alternativo (alt). Se evita el texto muy denso.",
+      "ejercicio": "Reescribe el siguiente párrafo para web, dividiéndolo en subtítulos y listas: 'El nuevo impuesto afectará a las empresas que facturen más de 10 millones de pesos. También a las que tengan más de 50 empleados. Las excepciones son las empresas del sector tecnológico y las cooperativas.'",
+      "respuesta": "'**¿A quiénes afecta el nuevo impuesto?** - Empresas con facturación mayor a $10M. - Empresas con más de 50 empleados. **Excepciones:** sector tecnológico y cooperativas.'"
+    },
+    {
+      "id": 73,
+      "nombre": "Redes sociales como canal periodístico",
+      "teoria": "Las redes sociales (Twitter, Facebook, Instagram, TikTok) se usan para difundir noticias, interactuar con la audiencia, y monitorear tendencias. Cada red tiene su lenguaje: Twitter (breve, hashtags, hilos), Instagram (visual, stories), TikTok (videos cortos, tendencias). Se debe verificar la información antes de compartir (evitar desinformación).",
+      "ejercicio": "Propón una estrategia para cubrir en vivo una manifestación usando redes sociales.",
+      "respuesta": "1) Twitter: hilo en tiempo real con fotos y videos cortos, hashtag del evento. 2) Instagram: stories con actualizaciones rápidas, encuestas a la audiencia. 3) Facebook: transmisión en vivo en momentos clave. 4) TikTok: resumen de 30 segundos con lo más impactante. 5) Verificar fuentes y cruzar información antes de publicar."
+    },
+    {
+      "id": 74,
+      "nombre": "Periodismo de soluciones",
+      "teoria": "El periodismo de soluciones no solo denuncia problemas, sino que investiga y difunde respuestas efectivas. Busca 'qué funciona' en lugar de solo 'qué anda mal'. Informa sobre iniciativas exitosas (sociales, ambientales, económicas) y explica cómo se implementaron. Aporta esperanza y aprendizaje.",
+      "ejercicio": "Propón un tema para un reportaje de periodismo de soluciones sobre educación en zonas rurales.",
+      "respuesta": "'Cómo una escuela rural en Jujuy logró reducir la deserción escolar del 40% al 5% gracias a un programa de conectividad y huerta orgánica. Entrevistas a docentes, alumnos y especialistas; replicabilidad en otras provincias.'"
+    },
+    {
+      "id": 75,
+      "nombre": "Clickbait: definición y ética",
+      "teoria": "Clickbait son titulares engañosos o exagerados que buscan que el usuario haga clic, a menudo ocultando información o generando falsa expectativa. Ejemplo: 'No vas a creer lo que dijo el presidente'. Daña la credibilidad del medio y frustra al lector. El buen periodismo evita el clickbait, priorizando la honestidad.",
+      "ejercicio": "Reescribe el siguiente titular clickbait en uno honesto: 'El increíble truco que usan los millonarios para pagar menos impuestos (y que el fisco no quiere que sepas).'",
+      "respuesta": "'Los fideicomisos offshore: cómo algunas empresas reducen su carga tributaria.'"
+    },
+    {
+      "id": 76,
+      "nombre": "Posverdad y fake news",
+      "teoria": "La posverdad es la distorsión deliberada de la realidad donde los hechos importan menos que las emociones. Las fake news son noticias falsas difundidas como verdaderas, a menudo con fines políticos o económicos. El periodismo debe combatirlas con verificación (fact-checking), transparencia y educación mediática.",
+      "ejercicio": "¿Qué harías si una noticia falsa sobre tu medio se vuelve viral en redes?",
+      "respuesta": "1) Desmentir inmediatamente con una nota aclaratoria. 2) Verificar el origen de la fake news. 3) Contactar a la plataforma para denunciar contenido falso. 4) Educar a la audiencia sobre cómo identificar noticias falsas. 5) Publicar la versión correcta con evidencia."
+    },
+    {
+      "id": 77,
+      "nombre": "Actualización de noticias (breaking news)",
+      "teoria": "En breaking news, se publica primero un mínimo de información confirmada (lead de 5W), luego se actualiza constantemente a medida que se reciben más datos. Cada actualización se marca con la hora. Se evita especular. Se verifica antes de ampliar. Los títulos se modifican para reflejar la información más reciente.",
+      "ejercicio": "Escribe la primera actualización (15 minutos después del hecho) de un incendio en un edificio, sin especular sobre víctimas.",
+      "respuesta": "'[Actualización 15:30] Los bomberos trabajan en el lugar del incendio en el edificio de la calle Corrientes 2000. No se reportan heridos hasta el momento. El fuego habría comenzado en el quinto piso. Más información en breve.'"
+    },
+    {
+      "id": 78,
+      "nombre": "Newsletter por correo electrónico",
+      "teoria": "El newsletter (boletín) es un resumen periódico de noticias enviado por correo electrónico a suscriptores. Debe tener asunto atractivo (no clickbait), estructura clara (titulares + leads), llamado a la acción (leer más, compartir, suscribirse). La periodicidad puede ser diaria, semanal. Es una herramienta de fidelización de audiencia.",
+      "ejercicio": "Redacta el asunto y el primer párrafo de un newsletter matutino con tres noticias principales.",
+      "respuesta": "Asunto: '💡 Tu resumen del lunes: acuerdo salarial, lluvias, y Boca en la final'. Primer párrafo: 'Buenos días. El gobierno llegó a un acuerdo con los gremios y aumentará el salario mínimo un 12%. Además, las lluvias no dan tregua en el sur. Y Boca se clasificó a la final de la copa. Todo eso y más en tu resumen diario.'"
+    },
+    {
+      "id": 79,
+      "nombre": "Podcast periodístico",
+      "teoria": "El podcast periodístico es un formato de audio que permite contar historias en profundidad, con ritmo narrativo, entrevistas, música, efectos. Requiere guion, locución clara, edición cuidadosa. Puede ser noticioso (diario), de investigación (serie), de entrevistas, o de análisis. Se distribuye en plataformas (Spotify, Apple Podcasts).",
+      "ejercicio": "Describe la estructura de un podcast de 15 minutos sobre un escándalo político local.",
+      "respuesta": "1) Intro (30 seg): música y presentación. 2) Lead (1 min): resumen del escándalo. 3) Contexto (2 min): antecedentes y protagonistas. 4) Entrevista a un analista o testigo (5 min). 5) Datos y documentos (3 min). 6) Reacciones (2 min): declaraciones de involucrados. 7) Cierre (1 min): conclusión y adelanto del próximo episodio. 8) Outro (30 seg)."
+    },
+    {
+      "id": 80,
+      "nombre": "Visualización de datos en periodismo",
+      "teoria": "Las visualizaciones de datos (gráficos, mapas, líneas de tiempo, barras) ayudan a entender información compleja. Se usan para mostrar tendencias, comparaciones, distribuciones, evolución temporal. Deben ser claras, con fuentes, escalas adecuadas, diseño accesible. Ejemplo: evolución del desempleo en los últimos 10 años en gráfico de líneas.",
+      "ejercicio": "¿Qué tipo de visualización usarías para comparar la población de tres ciudades diferentes?",
+      "respuesta": "Un gráfico de barras (comparativo) o un gráfico de columnas. También podría ser un mapa con círculos proporcionales a la población (burbujas)."
+    },
+    {
+      "id": 81,
+      "nombre": "Comunidad y comentarios en medios digitales",
+      "teoria": "Los comentarios de los lectores son una oportunidad para el diálogo, pero requieren moderación para evitar trolls, insultos o desinformación. Se establecen normas de convivencia. Los periodistas pueden interactuar con la comunidad para enriquecer el contenido. La moderación puede ser humana o automática (filtros).",
+      "ejercicio": "Redacta tres normas para la sección de comentarios de un diario digital.",
+      "respuesta": "1) Respeto: no se permiten insultos ni discriminación. 2) Relevancia: comentarios que no se relacionen con la nota serán eliminados. 3) Veracidad: no se permite difundir información falsa o noticias sin fuente. El medio se reserva el derecho de moderación."
+    },
+    {
+      "id": 82,
+      "nombre": "Periodismo de proximidad (local)",
+      "teoria": "El periodismo de proximidad se enfoca en noticias locales (barriales, municipales) con un enfoque cercano a la audiencia. Trata temas como seguridad, obras, transporte, educación, salud, cultura local. Es esencial para medios comunitarios, digitales pequeños, y diarios regionales. Construye confianza y lealtad.",
+      "ejercicio": "Escribe el lead de una noticia local sobre la instalación de una nueva luminaria LED en una plaza del barrio.",
+      "respuesta": "'El barrio Las Flores estrenó anoche nueva iluminación LED en la plaza principal. Los vecinos destacaron la mejora en seguridad, tras años de reclamos a la Municipalidad. La obra demandó una inversión de $5 millones.'"
+    },
+    {
+      "id": 83,
+      "nombre": "Periodismo de servicio público",
+      "teoria": "El periodismo de servicio público informa sobre temas que afectan la vida cotidiana de los ciudadanos y les ayuda a tomar decisiones: trámites, salud, educación, transporte, derechos del consumidor. Es práctico y útil. Incluye guías, tutoriales, calendarios, directorios. No es necesariamente noticioso, sino orientativo.",
+      "ejercicio": "Escribe un titular y el primer párrafo de una nota de servicio público sobre cómo solicitar el pasaporte por primera vez.",
+      "respuesta": "Titular: 'Pasaporte argentino 2025: requisitos, turnos y costos'. Primer párrafo: '¿Necesitas sacar tu pasaporte por primera vez? Te explicamos paso a paso los requisitos, dónde pedir el turno, cuánto cuesta y los plazos de entrega, según la información oficial del Renaper.'"
+    },
+    {
+      "id": 84,
+      "nombre": "Periodismo de datos en tiempo real",
+      "teoria": "El periodismo de datos en tiempo real utiliza actualizaciones automáticas de fuentes de datos (API) para mostrar información dinámica: conteo de casos de COVID-19, resultados electorales, precios de acciones, clima. Requiere programación y visualizaciones interactivas. Los datos se actualizan sin intervención manual.",
+      "ejercicio": "¿Qué tipo de datos se podrían mostrar en tiempo real durante una elección presidencial?",
+      "respuesta": "Porcentaje de mesas escrutadas, tendencia de votos, comparación con elecciones anteriores, participación electoral, mapa de resultados por provincia, actualización cada 5 minutos. Incluir fuentes oficiales (cámara electoral)."
+    },
+    {
+      "id": 85,
+      "nombre": "Móviles como herramienta periodística",
+      "teoria": "El teléfono móvil permite a periodistas grabar audio, video, tomar fotos, transmitir en vivo, editar y publicar desde cualquier lugar. Apps útiles: grabadoras de voz, editor de fotos (Snapseed), editor de video (CapCut), transmisión en vivo (Streamlabs), notas de voz, WhatsApp para reporteo rápido. Calidad aceptable para breaking news.",
+      "ejercicio": "Enumera tres ventajas del uso del móvil en periodismo de calle.",
+      "respuesta": "1) Portabilidad: permite reportear en cualquier lugar. 2) Inmediatez: se puede publicar al instante (fotos, videos, textos). 3) Discreción: menos intimidante que una cámara profesional para entrevistar a testigos. 4) Batería: dura varias horas. 5) Aplicaciones integradas (grabación, geolocalización)."
+    },
+    {
+      "id": 86,
+      "nombre": "Edición de textos periodísticos",
+      "teoria": "La edición revisa ortografía, gramática, estilo, claridad, exactitud, extensión, adecuación al género, y verificación de datos. El editor corta información redundante, corrige errores, asegura pirámide invertida, ajusta titulares y copete, verifica fuentes. Respeta la voz del periodista pero mejora la calidad. La edición digital puede ser más ágil.",
+      "ejercicio": "Imagina que eres editor: corrige los siguientes errores del texto: 'El gobernador, junto a su comitiva, viajaron a la provincia de Catamarca para inaugurarán el hospital.'",
+      "respuesta": "'El gobernador, junto a su comitiva, viajó a la provincia de Catamarca para inaugurar el hospital.' (concordancia singular, eliminar 'án' del verbo)."
+    },
+    {
+      "id": 87,
+      "nombre": "Libro de estilo: normas internas",
+      "teoria": "El libro de estilo es un manual interno del medio que unifica criterios: grafías (solo o sólo), uso de mayúsculas (presidente, Papa), tratamiento de siglas (ONU sin puntos), extranjerismos (software en cursiva), fechas (12 de enero, no 'Enero 12'), denominación de cargos (ministro/a), etc. Garantiza coherencia.",
+      "ejercicio": "Consulta tu libro de estilo imaginario: ¿cómo se escribe la palabra 'ONU' y 'presidente' en mayúsculas?",
+      "respuesta": "Según el estilo: 'ONU' en mayúsculas sin puntos; 'presidente' en minúscula cuando no se refiere a un titular específico ( 'el presidente', pero 'el Presidente Alberto Fernández' con mayúscula como tratamiento honorífico según el manual)."
+    },
+    {
+      "id": 88,
+      "nombre": "Corrección de estilo (copyediting)",
+      "teoria": "La corrección de estilo (copyediting) va más allá de la ortografía: mejora la claridad, elimina repeticiones, adecua el registro al género, verifica la lógica argumentativa, ajusta la extensión, respeta la voz del autor, y unifica criterios tipográficos. No altera el sentido. Es esencial antes de la publicación.",
+      "ejercicio": "Reescribe esta frase para mayor claridad: 'El mismo, después de ser detenido, dijo que no, que él no había estado allí.'",
+      "respuesta": "'Tras ser detenido, el acusado negó haber estado en el lugar.'"
+    },
+    {
+      "id": 89,
+      "nombre": "Normas de puntuación en periodismo",
+      "teoria": "Las normas de puntuación en periodismo priorizan claridad y economía: uso de comas para enumeraciones y aposiciones, punto y coma para oraciones relacionadas, dos puntos para citas o enumeraciones, puntos seguidos para separar ideas, y comillas para citas textuales. Evitan abusar de incisos largos o paréntesis.",
+      "ejercicio": "Puntúa el siguiente texto: 'El ministro afirmó que la economía creció un 3% en el primer trimestre y que la inflación se desaceleró al 2% y que las exportaciones aumentaron un 10%.'",
+      "respuesta": "'El ministro afirmó que la economía creció un 3% en el primer trimestre, que la inflación se desaceleró al 2% y que las exportaciones aumentaron un 10%.' (comas para separar los elementos de la enumeración)."
+    },
+    {
+      "id": 90,
+      "nombre": "Uso de mayúsculas en cargos y títulos",
+      "teoria": "Se escriben con mayúscula inicial los cargos de alta jerarquía (Presidente, Gobernador, Papa, Rey) cuando se refieren a una persona específica y se usa el tratamiento honorífico. En caso genérico, minúscula: 'El presidente anunció...' pero 'Espero que el presidente lo resuelva'. Los títulos de obras (libros, películas, canciones) en cursiva o comillas según el libro de estilo.",
+      "ejercicio": "Corrige: 'El Papa Francisco visitará Argentina. El Papa es muy querido.'",
+      "respuesta": "'El papa Francisco visitará Argentina. El Papa es muy querido.' (En la primera mención 'papa' minúscula porque es parte del nombre propio; luego 'Papa' por tratamiento honorífico). Según algunas normas, 'el Papa' siempre mayúscula cuando se refiere al Sumo Pontífice."
+    },
+    {
+      "id": 91,
+      "nombre": "Uso de extranjerismos y comillas",
+      "teoria": "Los extranjerismos no adaptados al español se escriben en cursiva o entre comillas: 'software', 'marketing', 'email'. Si están adaptados, se escriben sin resalte: 'fútbol', 'champú'. Las comillas también se usan para ironía, apodos, o términos vulgares.",
+      "ejercicio": "Escribe la frase reemplazando el extranjerismo por una adaptación o explicación: 'El 'marketing' digital es clave para el 'business'.'",
+      "respuesta": "'El mercadeo digital es clave para los negocios.' (se puede usar 'marketing' en cursiva si no está adaptado, o 'mercadotecnia')."
+    },
+    {
+      "id": 92,
+      "nombre": "Normas de numeración y cifras",
+      "teoria": "Los números del 0 al 10 se escriben con letra (uno, dos, tres), los superiores en cifras (11, 12, 100). Las cifras grandes se redondean (2 millones, 3.500). Las fracciones se escriben con letra (un tercio). Los porcentajes en cifras más símbolo (5%). Las monedas con símbolo o abreviatura (USD 100, $100).",
+      "ejercicio": "Reescribe: 'Había 9 autos estacionados en la calle y doce motos. El 50% de los vehículos eran de alta gama.'",
+      "respuesta": "'Había nueve autos estacionados en la calle y 12 motos. El 50% de los vehículos eran de alta gama.'"
+    },
+    {
+      "id": 93,
+      "nombre": "Uso de fechas y horas",
+      "teoria": "Las fechas se escriben: día + mes + año (12 de enero de 2025). No se usa el formato inglés (enero 12, 2025). Las horas: 10:00 AM, 3:30 PM o 10.00, 15.30 según estilo. Se evitan los años recortados ('el 2025', no 'el 25'). En textos digitales se puede usar 'ayer', 'mañana' pero se recomienda fecha concreta.",
+      "ejercicio": "Convierte al formato español: 'On January 15th, 2025, the meeting started at 2:30 PM.'",
+      "respuesta": "'El 15 de enero de 2025, la reunión comenzó a las 14:30 (o a las 2:30 PM).'"
+    },
+    {
+      "id": 94,
+      "nombre": "Corrección de errores comunes (dequeísmo, queísmo)",
+      "teoria": "Dequeísmo: uso erróneo de 'de' antes de 'que' cuando no corresponde: 'Pienso de que vendrá' (error). Queísmo: omisión errónea de 'de' cuando es necesaria: 'Estoy seguro que aprobarás' (error; correcto: 'seguro de que'). En periodismo, se cuida esta corrección.",
+      "ejercicio": "Corrige: 'El ministro aseguró de que no habrá aumentos.'",
+      "respuesta": "'El ministro aseguró que no habrá aumentos.' (se elimina 'de')."
+    },
+    {
+      "id": 95,
+      "nombre": "Corrección de errores comunes (leísmo, laísmo, loísmo)",
+      "teoria": "Leísmo: usar 'le' como complemento directo (CD) masculino en lugar de 'lo' (aceptado por la RAE solo para personas). Laísmo: usar 'la' como complemento indirecto (CI) femenino (incorrecto: 'la dije'). Loísmo: usar 'lo' como CI (incorrecto: 'lo dije a él'). En periodismo, se prefiere la norma estándar: 'lo vi' (leísmo solo en regiones con esa variante).",
+      "ejercicio": "Corrige: 'La dije que viniera a mi oficina.'",
+      "respuesta": "'Le dije que viniera a mi oficina.' (laísmo incorrecto, debe ser 'le' para CI femenino)."
+    },
+    {
+      "id": 96,
+      "nombre": "Corrección de errores comunes (concordancia)",
+      "teoria": "Errores de concordancia: sujeto singular con verbo plural ('La mayoría de los estudiantes aprobaron' es aceptable por atracción, pero 'La mayoría aprobó' es más formal). 'Habían muchos problemas' (incorrecto: 'había muchos problemas'). 'Se alquila habitaciones' (incorrecto: 'se alquilan habitaciones').",
+      "ejercicio": "Corrige: 'Se vende departamentos en el centro.'",
+      "respuesta": "'Se venden departamentos en el centro.' (concordancia en plural con el sujeto paciente 'departamentos')."
+    },
+    {
+      "id": 97,
+      "nombre": "Corrección de errores comunes (muletillas)",
+      "teoria": "Muletillas periodísticas: 'en relación a' (evitar; usar 'sobre', 'respecto de'), 'a nivel de' (evitar; usar 'en'), 'en base a' (preferir 'basado en'), 'en virtud de' (demasiado formal). Se busca claridad y concisión.",
+      "ejercicio": "Reescribe: 'El proyecto fue aprobado en base a los informes técnicos.'",
+      "respuesta": "'El proyecto fue aprobado basado en los informes técnicos.' o 'El proyecto fue aprobado según los informes técnicos.'"
+    },
+    {
+      "id": 98,
+      "nombre": "Corrección de errores comunes (cacofonías)",
+      "teoria": "Las cacofonías son repeticiones de sonidos que suenan mal: 'el ágil águila ávida'. Se evitan reordenando frases o cambiando sinónimos. También se evitan rimas involuntarias en titulares.",
+      "ejercicio": "Corrige: 'El nuevo alumno no usaba los útiles usuales.'",
+      "respuesta": "'El nuevo estudiante no usaba los útiles habituales.' (se evita la repetición de 'u')."
+    },
+    {
+      "id": 99,
+      "nombre": "Revisión final antes de publicar",
+      "teoria": "Checklist de revisión final: ¿el título es claro y preciso? ¿el lead responde 5W? ¿las fuentes están verificadas? ¿las citas son textuales? ¿hay errores ortográficos o gramaticales? ¿la extensión es adecuada? ¿el género está correcto? ¿se respetó el libro de estilo? ¿los enlaces funcionan? ¿las imágenes tienen créditos?",
+      "ejercicio": "Enumera cinco pasos de tu rutina de revisión antes de publicar una nota digital.",
+      "respuesta": "1) Leer en voz alta para detectar errores de ritmo o sintaxis. 2) Verificar nombres propios, fechas y cifras. 3) Confirmar que las declaraciones textuales estén bien atribuidas. 4) Revisar ortografía con corrector (Word, Google Docs) y manualmente. 5) Probar los enlaces (si los hay) y la visualización en móvil."
+    },
+    {
+      "id": 100,
+      "nombre": "Actualización y fe de erratas",
+      "teoria": "La fe de erratas es una nota que publica el medio para corregir errores graves (fechas, cifras, nombres, informaciones falsas). Debe indicarse el error y la corrección, con disculpas si corresponde. Se publica en el mismo lugar (digital) o en la edición siguiente (papel). La transparencia fortalece la confianza.",
+      "ejercicio": "Redacta una fe de erratas por haber publicado la cifra incorrecta de víctimas de un accidente (10 en lugar de 5).",
+      "respuesta": "'**Fe de erratas**: En la nota 'Tragedia en la ruta' publicada ayer, informamos por error que el accidente dejó 10 víctimas fatales. La cifra correcta es 5. Lamentamos el error y ofrecemos disculpas a los familiares y lectores.'"
+    }
+  ]
+}

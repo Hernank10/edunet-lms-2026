@@ -1,0 +1,420 @@
+{
+  "tecnicas_49_a_100": [
+    {
+      "id": 49,
+      "nombre": "Transferencia lingüística e interferencia",
+      "teoria": "La transferencia es la influencia de la primera lengua (L1) sobre la segunda (L2). Puede ser positiva (cuando facilita el aprendizaje, cognados) o negativa (interferencia, errores). Los errores más comunes incluyen falsos amigos, calcos sintácticos y errores de pronunciación. La interferencia disminuye con el nivel de competencia en L2.",
+      "ejemplo": "Ejemplo de interferencia: un hispanohablante dice en inglés 'I have 20 years' (calco de 'tengo 20 años') en lugar de 'I am 20 years old'. Falso amigo: 'embarazada' no es 'embarrassed' sino 'pregnant'.",
+      "ejercicio": "Explica qué es la transferencia negativa y pon tres ejemplos de errores típicos de hispanohablantes aprendiendo inglés.",
+      "respuesta": "Transferencia negativa (interferencia): aplicación de reglas de L1 a L2 causando errores. Ejemplos: 1) 'I make a mistake' (hacer en lugar de cometer). 2) 'People is happy' (omisión de concordancia de número). 3) 'I have hunger' (calco de 'tengo hambre')."
+    },
+    {
+      "id": 50,
+      "nombre": "Interlengua y fosilización",
+      "teoria": "La interlengua es el sistema lingüístico dinámico que construye el aprendiz de L2, con reglas propias intermedias entre L1 y L2. La fosilización es el cese del aprendizaje, donde errores se estabilizan y se vuelven permanentes, a pesar de la exposición continua.",
+      "ejemplo": "Un estudiante de español puede decir 'Yo sabo' (en lugar de 'sé') durante mucho tiempo, incluso tras años de estudio. Si no se corrige, puede fosilizarse.",
+      "ejercicio": "¿Qué es la fosilización en la adquisición de segundas lenguas? ¿Qué causas puede tener?",
+      "respuesta": "Es la detención del aprendizaje antes de alcanzar niveles nativos, con errores persistentes. Causas: edad (período crítico), falta de input correctivo, automatización de patrones erróneos, baja motivación, y necesidad comunicativa (si el hablante se hace entender, no hay presión para mejorar)."
+    },
+    {
+      "id": 51,
+      "nombre": "Input y Output en la adquisición de L2",
+      "teoria": "El input comprensible (Krashen) es la lengua que el aprendiz escucha/lee y entiende, necesaria para la adquisición. La hipótesis del output (Swain) sostiene que la producción (hablar/escribir) es también necesaria para consolidar y pulir el conocimiento lingüístico, porque fuerza al aprendiz a procesar sintaxis.",
+      "ejemplo": "Leer novelas graduadas (input comprensible) vs escribir redacciones (output) que fuerzan a usar estructuras gramaticales complejas.",
+      "ejercicio": "¿Qué crítica recibió la hipótesis del input comprensible de Krashen?",
+      "respuesta": "Krashen subestimó la importancia de la producción; el input por sí solo no es suficiente para adquirir la gramática completa. La hipótesis del output argumenta que al producir, el aprendiz nota vacíos en su conocimiento, formula hipótesis y las prueba, y recibe retroalimentación. Ambos son necesarios."
+    },
+    {
+      "id": 52,
+      "nombre": "Corrección de errores en el aula de L2",
+      "teoria": "La corrección de errores puede ser explícita (señalar el error) o implícita (reformular). La retroalimentación correctiva puede ser efectiva si es oportuna, específica, y si el aprendiz está en condiciones de notar la corrección (noticing). La corrección excesiva puede desmotivar.",
+      "ejemplo": "Estudiante: 'Yo sabo español'. Profesor: 'Se dice sé, ¿recuerdas?' (explícito). O: 'Yo sé español' (reformulación implícita).",
+      "ejercicio": "¿Qué tipo de retroalimentación es más efectiva para errores gramaticales en L2?",
+      "respuesta": "Depende del error y del estudiante. Reformulación (implícita) mantiene la fluidez y es menos intrusiva. Corrección metalingüística (explícita) es útil para errores fosilizados y estudiantes analíticos. Lo efectivo es que el estudiante note el error y la forma correcta (noticing)."
+    },
+    {
+      "id": 53,
+      "nombre": "Período crítico para la adquisición de L2",
+      "teoria": "El período crítico (Lenneberg, 1967) es una ventana biológica óptima para la adquisición del lenguaje, desde el nacimiento hasta la pubertad. Después de la pubertad, la plasticidad cerebral disminuye, y la adquisición fonológica (acento) es casi imposible de alcanzar niveles nativos. Sintaxis y vocabulario aún pueden lograrse.",
+      "ejemplo": "Inmigrantes que llegan antes de los 7 años tienden a hablar sin acento extranjero; los que llegan después de los 12 años, casi nunca lo pierden completamente.",
+      "ejercicio": "¿Cuál es la evidencia a favor de un período crítico para la adquisición del acento en L2?",
+      "respuesta": "Estudios con inmigrantes: correlación entre edad de llegada y acento nativo. Quienes llegaron antes de los 6-7 años tienen acento indistinguible de nativos; después de los 12-13, casi siempre perceptible extranjero. Explicación: lateralización cerebral y pérdida de plasticidad sináptica. La sintaxis es menos sensible al período crítico."
+    },
+    {
+      "id": 54,
+      "nombre": "Motivación y actitud en el aprendizaje de L2",
+      "teoria": "La motivación es un factor individual crucial en el éxito de la adquisición de L2. Se distingue entre motivación integradora (interés en la cultura y comunidad de la L2) e instrumental (beneficios prácticos). También se considera la motivación intrínseca (disfrute) y extrínseca (recompensas).",
+      "ejemplo": "Un estudiante que aprende español para viajar a España tiene motivación integradora. Otro que lo aprende por requisito laboral tiene motivación instrumental.",
+      "ejercicio": "¿Cómo influye la motivación en el éxito de la adquisición de una segunda lengua?",
+      "respuesta": "Altos niveles de motivación predicen mayor esfuerzo, persistencia, y búsqueda de input (mirar series, conversar). Motiva la interacción y reduce el filtro afectivo (ansiedad). Estudiantes con motivación integradora tienden a lograr mayor competencia comunicativa."
+    },
+    {
+      "id": 55,
+      "nombre": "Estrategias de aprendizaje de L2",
+      "teoria": "Las estrategias de aprendizaje son procedimientos conscientes que usan los estudiantes para adquirir L2. Clasificación (Oxford): estrategias directas (memoria, cognitivas, compensación) e indirectas (metacognitivas, afectivas, sociales). Ejemplos: repetición, asociación, inferencia, autoevaluación.",
+      "ejemplo": "Estrategias de memoria: usar acrónimos. Cognitivas: resumir texto. Compensación: adivinar por contexto. Metacognitivas: planificar estudio. Afectivas: reducir ansiedad.",
+      "ejercicio": "Describe tres estrategias de aprendizaje de L2 que puedas usar para mejorar tu español.",
+      "respuesta": "1) Cognitiva: tomar notas de nuevas palabras con ejemplos. 2) Memoria: usar tarjetas (flashcards) con imágenes. 3) Social: practicar con hablantes nativos en tandem. También metacognitiva: establecer metas semanales."
+    },
+    {
+      "id": 56,
+      "nombre": "Aprendizaje implícito vs explícito de L2",
+      "teoria": "El aprendizaje implícito es incidental, sin conciencia de las reglas (niños adquiriendo L1). El aprendizaje explícito es intencional, con reglas estudiadas formalmente. En adultos, la instrucción explícita beneficia la adquisición de reglas complejas (subjuntivo), mientras que la práctica implícita (input) ayuda a automatizar.",
+      "ejemplo": "Explicar reglas del subjuntivo (explícito) vs escuchar muchos ejemplos en contexto (implícito). Lo óptimo combinar: explicación + input + práctica.",
+      "ejercicio": "¿Qué evidencia hay de que el aprendizaje explícito beneficia la adquisición de L2?",
+      "respuesta": "Estudios con grupos que reciben instrucción explícita de reglas gramaticales vs grupos con input solo. Los grupos explícitos muestran mejor desempeño en tareas de juicio gramatical y producción controlada. La instrucción explícita ayuda a 'notar' (noticing) las formas en el input."
+    },
+    {
+      "id": 57,
+      "nombre": "Instrucción basada en tareas",
+      "teoria": "El enfoque por tareas (Nunan, Willis) organiza la enseñanza de L2 en torno a tareas comunicativas significativas (resolver un problema, planear un viaje) más que en la enseñanza de gramática aislada. La tarea genera interacción auténtica, negociación de significado, y exposición a input relevante.",
+      "ejemplo": "Tarea: planear un itinerario turístico en grupo. Los estudiantes usan el idioma para negociar, consultar horarios, reservar hoteles. La gramática necesaria emerge de la actividad.",
+      "ejercicio": "¿Qué ventajas tiene la instrucción basada en tareas sobre la enseñanza tradicional?",
+      "respuesta": "Motiva, promueve interacción auténtica, integra las cuatro habilidades, reduce la ansiedad. Desventaja: puede descuidar formas gramaticales complejas que no emergen naturalmente en tareas."
+    },
+    {
+      "id": 58,
+      "nombre": "Filtro afectivo y ansiedad en L2",
+      "teoria": "El filtro afectivo (Krashen) es una barrera emocional que impide el procesamiento del input. Altos niveles de ansiedad, baja autoestima y desmotivación elevan el filtro, bloqueando la adquisición. Un ambiente relajado reduce el filtro, facilitando el aprendizaje.",
+      "ejemplo": "Un estudiante que teme cometer errores no participa oralmente, por lo que no practica ni recibe retroalimentación. Ansiedad elevada afecta la memoria y la atención.",
+      "ejercicio": "¿Qué factores afectivos influyen en la adquisición de una segunda lengua?",
+      "respuesta": "Ansiedad, baja autoestima, desmotivación, inhibición. Estrategias: crear ambiente de confianza, usar juegos, dar retroalimentación positiva, trabajar en grupos pequeños, usar técnicas de relajación."
+    },
+    {
+      "id": 59,
+      "nombre": "Neuroanatomía del lenguaje: áreas de Broca y Wernicke",
+      "teoria": "El lenguaje se sustenta en áreas cerebrales específicas. El área de Broca (lóbulo frontal izquierdo, área 44-45) se asocia a la producción y gramática. El área de Wernicke (lóbulo temporal superior, área 22) se asocia a la comprensión. Ambas se conectan por el fascículo arqueado.",
+      "ejemplo": "Lesión en Broca: afasia no fluida (agramatismo). Lesión en Wernicke: afasia fluida (jerga, comprensión pobre).",
+      "ejercicio": "¿Qué funciones específicas se atribuyen al área de Broca?",
+      "respuesta": "Tradicionalmente asociada a producción y gramática (sintaxis, morfología). Estudios actuales muestran que también participa en procesamiento sintáctico durante la comprensión, y en tareas de memoria de trabajo para lenguaje."
+    },
+    {
+      "id": 60,
+      "nombre": "Hemispherización y lateralización del lenguaje",
+      "teoria": "El lenguaje está lateralizado en el hemisferio izquierdo en la mayoría de los diestros (95%) y en muchos zurdos (70%). El hemisferio derecho participa en aspectos prosódicos (entonación), discurso y pragmática. La lateralización se completa alrededor de la pubertad.",
+      "ejemplo": "Pacientes con lesión derecha pueden tener aprosodia (voz monótona) pero lenguaje normal. Lesión izquierda causa afasia.",
+      "ejercicio": "¿Qué funciones del lenguaje dependen del hemisferio derecho?",
+      "respuesta": "Prosodia (entonación, acento emocional), comprensión de metáforas y humor, procesamiento del discurso (coherencia), interpretación de intenciones no literales (ironía), y aspectos pragmáticos (turno de habla)."
+    },
+    {
+      "id": 61,
+      "nombre": "Plasticidad cerebral y recuperación del lenguaje",
+      "teoria": "La plasticidad cerebral permite la reorganización del lenguaje tras una lesión (afasia). En niños, el hemisferio derecho puede asumir funciones lingüísticas tras una lesión izquierda temprana. En adultos, la recuperación es más limitada, por plasticidad peri-lesional y compensación del hemisferio derecho.",
+      "ejemplo": "Un niño con lesión izquierda antes de los 5 años puede recuperar el lenguaje casi normal. Un adulto con accidente cerebrovascular izquierdo puede recuperar parte con terapia.",
+      "ejercicio": "¿Cómo se produce la reorganización cerebral del lenguaje tras una lesión?",
+      "respuesta": "Activación de áreas peri-lesionales (circundantes) y reclutamiento del hemisferio derecho homólogo. La terapia de lenguaje promueve esta neuroplasticidad. La recuperación es más lenta y menos completa que en niños."
+    },
+    {
+      "id": 62,
+      "nombre": "Afasia: clasificación y síntomas",
+      "teoria": "Las afasias son trastornos del lenguaje adquiridos por lesión cerebral. Clasificación: afasia de Broca (no fluida, agramática), de Wernicke (fluida, jerga, pobre comprensión), global, de conducción, anómica, y transcorticales.",
+      "ejemplo": "Broca: 'casa... niño... comer...' (telegráfico). Wernicke: 'Bueno, la cosa esa, usted sabe...' (jerga).",
+      "ejercicio": "Describe las características de la afasia de Broca y la de Wernicke.",
+      "respuesta": "Broca: área 44-45; habla no fluida, agramatismo, omisión de palabras función, esfuerzo articulatorio; comprensión relativamente buena. Wernicke: área 22; habla fluida pero vacía (jerga), parafasias, comprensión pobre."
+    },
+    {
+      "id": 63,
+      "nombre": "Afasia de conducción y anomia",
+      "teoria": "La afasia de conducción (lesión en fascículo arqueado) se caracteriza por dificultad para repetir palabras con preservación de fluidez y comprensión. La anomia es la dificultad para encontrar palabras, común en todas las afasias y en envejecimiento normal.",
+      "ejemplo": "Afasia de conducción: paciente repite mal 'pala' como 'pala', 'pata'. Anomia: 'dame el... el... (señala la sal)'. No logra encontrar 'sal'.",
+      "ejercicio": "¿En qué se diferencia la anomia de la afasia de conducción?",
+      "respuesta": "Anomia: déficit léxico en producción espontánea, repetición y comprensión intactas. Afasia de conducción: déficit específico de repetición, con parafasias fonológicas. La anomia es común en ambas."
+    },
+    {
+      "id": 64,
+      "nombre": "Bases cerebrales de la lectura",
+      "teoria": "La lectura implica una red cerebral que integra áreas visuales (giro fusiforme, 'caja de letras'), áreas de procesamiento fonológico (circunvolución supramarginal) y áreas semánticas (lóbulo temporal anterior). El aprendizaje de la lectura recicla el sistema visual.",
+      "ejemplo": "Dislexia: hipoactividad en el giro fusiforme izquierdo y áreas temporales izquierdas durante tareas de lectura.",
+      "ejercicio": "¿Qué región cerebral se conoce como 'caja de letras'?",
+      "respuesta": "El área de la forma visual de la palabra (caja de letras) se ubica en el giro fusiforme izquierdo. Especializada en el reconocimiento rápido de palabras escritas, independientemente de la fuente o mayúsculas/minúsculas."
+    },
+    {
+      "id": 65,
+      "nombre": "Bases cerebrales del bilingüismo",
+      "teoria": "El bilingüismo modifica la estructura cerebral (mayor densidad de materia gris, mayor conectividad). Las dos lenguas se activan simultáneamente; el bilingüe debe inhibir la no deseada. Esto entrena la red fronto-parietal (control inhibitorio).",
+      "ejemplo": "Bilingües muestran mayor activación en la corteza prefrontal dorsolateral y cingulado anterior en tareas de cambio de idioma.",
+      "ejercicio": "¿Cómo afecta el bilingüismo a la estructura y función cerebral?",
+      "respuesta": "Mayor densidad de materia gris en lóbulos parietales inferiores (bilingüismo temprano), mayor conectividad, y mayor eficiencia en tareas de control ejecutivo. Puede retrasar síntomas de demencia (reserva cognitiva)."
+    },
+    {
+      "id": 66,
+      "nombre": "Neurociencia de la adquisición de L2",
+      "teoria": "La adquisición de L2 en adultos recluta redes cerebrales similares a la L1, pero con mayor activación en áreas frontales (esfuerzo). Los aprendices tardíos muestran representaciones cerebrales menos superpuestas, especialmente en fonología.",
+      "ejemplo": "Aprendices tempranos: activación de Broca superpuesta para L1 y L2. Aprendices tardíos: activan áreas adicionales en hemisferio derecho y lóbulo frontal.",
+      "ejercicio": "¿Qué diferencias cerebrales hay entre adquisición temprana y tardía de L2?",
+      "respuesta": "Adquisición temprana: representaciones más nativas y superposición con L1. Adquisición tardía: mayor activación fronto-parietal (esfuerzo), menos automatización, representaciones menos solapadas, especialmente fonología."
+    },
+    {
+      "id": 67,
+      "nombre": "Potenciales relacionados con eventos (ERP)",
+      "teoria": "Los ERP miden actividad eléctrica cerebral con alta resolución temporal. Componentes relevantes: N400 (procesamiento semántico), LAN (sintaxis morfológica), P600 (reanálisis sintáctico y anomalías gramaticales).",
+      "ejemplo": "Anomalía semántica: 'El desayuno está muy cansado' → N400 grande. Anomalía sintáctica: 'Yo sabo' → LAN y P600.",
+      "ejercicio": "¿Qué diferencia hay entre el N400 y el P600 en procesamiento lingüístico?",
+      "respuesta": "N400: integración semántica; dificultad para integrar significado. P600: procesamiento sintáctico y reanálisis; detección de anomalías gramaticales y revisión de estructura."
+    },
+    {
+      "id": 68,
+      "nombre": "Resonancia magnética funcional (fMRI) en lenguaje",
+      "teoria": "La fMRI mide cambios en flujo sanguíneo (señal BOLD) relacionados con actividad neuronal. Permite localizar funciones lingüísticas con resolución espacial milimétrica, usada para mapas de lenguaje prequirúrgico y estudio de procesamiento de oraciones.",
+      "ejemplo": "Activación de áreas de Broca y Wernicke durante tareas de lectura o producción. Patrón diferente en dislexia.",
+      "ejercicio": "¿Qué ventajas e inconvenientes tiene la fMRI frente a los ERP?",
+      "respuesta": "fMRI: excelente resolución espacial (dónde), resolución temporal pobre (2-6 segundos). ERP: excelente resolución temporal (milisegundos), resolución espacial limitada. Se complementan."
+    },
+    {
+      "id": 69,
+      "nombre": "Magnetoencefalografía (MEG) en psicolingüística",
+      "teoria": "La MEG mide campos magnéticos producidos por actividad neuronal. Combina buena resolución temporal y espacial. Permite rastrear dinámica del procesamiento lingüístico en milisegundos, desde percepción hasta integración semántica y sintáctica.",
+      "ejemplo": "Estudio MEG de procesamiento de metáforas: activación temporal izquierda seguida de activación derecha y prefrontal.",
+      "ejercicio": "¿Qué aporta la MEG al estudio del lenguaje que no dan EEG/fMRI por separado?",
+      "respuesta": "MEG combina buena resolución temporal (como EEG) y espacial (como fMRI). Permite rastrear la cascada temporal del procesamiento lingüístico con localización precisa (ej. occipital 100ms, temporal 200ms, frontal 400ms)."
+    },
+    {
+      "id": 70,
+      "nombre": "Estimulación magnética transcraneal (TMS)",
+      "teoria": "TMS aplica pulsos magnéticos para estimular o inhibir áreas corticales temporalmente. Permite estudiar relaciones causales entre áreas cerebrales y funciones lingüísticas. Se usa para cartografía de lenguaje prequirúrgica.",
+      "ejemplo": "Aplicar TMS sobre área de Broca durante tareas de denominación produce más errores y mayor latencia.",
+      "ejercicio": "¿Para qué se utiliza la TMS en investigación psicolingüística?",
+      "respuesta": "Para establecer causalidad: si al interferir un área la función se altera, esa área es necesaria. Cartografía prequirúrgica. Estudiar plasticidad y reorganización. TMS repetitivo (rTMS) puede modular excitabilidad cortical."
+    },
+    {
+      "id": 71,
+      "nombre": "Dislexia evolutiva y adquirida",
+      "teoria": "La dislexia evolutiva es un trastorno del neurodesarrollo que afecta fluidez y precisión lectora. La dislexia adquirida es pérdida de lectura por lesión cerebral. Subtipos: fonológico (dificultad con pseudopalabras), superficial (errores en palabras irregulares), y mixto.",
+      "ejemplo": "Dislexia fonológica: dificultad para leer pseudopalabras ('blin'). Dislexia superficial: errores en palabras irregulares ('mujer' vs 'mujer').",
+      "ejercicio": "¿Qué diferencias hay entre dislexia fonológica y superficial?",
+      "respuesta": "Fonológica: déficit en ruta subléxica; leen palabras familiares, fallan en pseudopalabras. Superficial: déficit en ruta léxica; leen pseudopalabras bien, fallan en palabras irregulares y homófonos."
+    },
+    {
+      "id": 72,
+      "nombre": "Trastorno Específico del Lenguaje (TEL)",
+      "teoria": "El TEL (o trastorno del desarrollo del lenguaje) es una dificultad persistente en adquisición del lenguaje (gramática, vocabulario, discurso) sin causa intelectual, neurológica, sensorial o ambiental evidente. Afecta más a morfosintaxis.",
+      "ejemplo": "Un niño de 4 años con TEL dice 'niño comer manzana' (omisión de artículos, flexión verbal). Tiene inteligencia normal.",
+      "ejercicio": "¿Qué criterios definen el TEL?",
+      "respuesta": "CI no verbal normal (>85), audición normal, ausencia de trastorno neurológico, ausencia de autismo, y déficit significativo en pruebas de lenguaje."
+    },
+    {
+      "id": 73,
+      "nombre": "Trastorno del espectro autista y lenguaje",
+      "teoria": "En el TEA, el lenguaje puede estar afectado: retraso en adquisición, ecolalia, prosodia anómala, dificultades pragmáticas, y lenguaje literal. Algunos tienen lenguaje formalmente normal pero dificultad comunicativa.",
+      "ejemplo": "Un niño con TEA puede tener vocabulario avanzado, pero no entiende '¡Qué fresco!' como ironía.",
+      "ejercicio": "¿Qué aspectos del lenguaje son más afectados en el TEA?",
+      "respuesta": "Pragmática (uso social del lenguaje), prosodia (entonación monótona), comprensión de lenguaje no literal (metáforas, sarcasmo, chistes), y reciprocidad conversacional. Sintaxis y vocabulario pueden ser normales."
+    },
+    {
+      "id": 74,
+      "nombre": "Trastornos fonológicos infantiles",
+      "teoria": "Los trastornos fonológicos implican dificultades en producción de sonidos del habla: sustituciones, omisiones, distorsiones. Los procesos fonológicos (reducción de sílabas, asimilación) son más inmaduros de lo esperado para la edad.",
+      "ejemplo": "Un niño de 5 años que dice 'tato' por 'gato' (sustitución), 'pepe' por 'pescado' (omisión).",
+      "ejercicio": "¿Qué diferencia hay entre retraso fonológico y trastorno fonológico?",
+      "respuesta": "Retraso fonológico: procesos esperables a menor edad, se abandonan con tiempo. Trastorno fonológico: procesos atípicos, persistentes (más allá de 6 años), requieren terapia."
+    },
+    {
+      "id": 75,
+      "nombre": "Mutismo selectivo y ansiedad",
+      "teoria": "El mutismo selectivo es un trastorno de ansiedad donde el niño no habla en contextos sociales específicos (escuela) pero sí habla en otros (casa). No es un trastorno del lenguaje sino de comunicación.",
+      "ejemplo": "Niño que habla normalmente en casa, pero en la escuela no dice palabra, aunque gesticula.",
+      "ejercicio": "¿Cómo se diferencia el mutismo selectivo de un trastorno del lenguaje?",
+      "respuesta": "En mutismo selectivo, el lenguaje es normal en contextos familiares; el problema es falta de habla por ansiedad. En trastornos del lenguaje, las dificultades se manifiestan en todos los contextos."
+    },
+    {
+      "id": 76,
+      "nombre": "Tartamudez o disfluencia",
+      "teoria": "La tartamudez es un trastorno de fluidez con repeticiones, prolongaciones y bloqueos. Tiene base neurofisiológica (genética, alteración en conexiones motoras-auditivas). Afecta a niños (5%) y puede persistir en adultos (1%).",
+      "ejemplo": "Niño: 'mm-mamá, quiero... agua'. Prolongación: 'ssssol'. Bloqueo: pausa silenciosa antes de palabra.",
+      "ejercicio": "¿Qué tratamientos existen para la tartamudez?",
+      "respuesta": "Terapia del habla (fluidez modulada), dispositivos de retroalimentación auditiva. Terapia cognitiva para ansiedad. La eficacia es moderada; tratamiento temprano previene cronicidad."
+    },
+    {
+      "id": 77,
+      "nombre": "Trastorno del lenguaje por deterioro cognitivo",
+      "teoria": "En demencias como Alzheimer, el lenguaje se deteriora progresivamente: anomia, discurso vacío, pérdida de comprensión. En demencias frontotemporales (variante semántica o no fluida) los déficits son más focales.",
+      "ejemplo": "Alzheimer: 'La cosa... la que usamos para comer... (cuchara) no me sale la palabra'.",
+      "ejercicio": "¿Qué diferencias lingüísticas hay entre Alzheimer y demencia frontotemporal semántica?",
+      "respuesta": "Alzheimer: anomia, discurso vacío, preservación inicial de gramática. Variante semántica: pérdida de conocimiento semántico (¿qué es un perro?), habla fluida sin contenido, anomia severa."
+    },
+    {
+      "id": 78,
+      "nombre": "Afasia progresiva primaria",
+      "teoria": "La APP es un síndrome neurodegenerativo que afecta el lenguaje como síntoma principal durante al menos dos años. Subtipos: APP no fluida/agramática (similar a Broca), APP semántica (pérdida de significado), APP logopénica (anomia).",
+      "ejemplo": "APP no fluida: habla esforzada, agramatismo. APP semántica: olvida qué significa 'mesa'.",
+      "ejercicio": "¿Cómo se diferencia la APP de la enfermedad de Alzheimer?",
+      "respuesta": "APP afecta predominantemente el lenguaje durante al menos 2 años sin demencia global. En Alzheimer, la memoria episódica es el síntoma temprano, el lenguaje se afecta más tarde."
+    },
+    {
+      "id": 79,
+      "nombre": "Modelos de lectura: ruta léxica y subléxica",
+      "teoria": "El modelo de doble ruta (Coltheart) propone ruta léxica (reconocimiento directo de palabras familiares) y ruta subléxica (conversión grafema-fonema, para pseudopalabras).",
+      "ejemplo": "Leer 'casa' (frecuente) por ruta léxica. Leer 'criptozoología' por ruta subléxica.",
+      "ejercicio": "¿Qué sucede en la dislexia fonológica? ¿Qué ruta está afectada?",
+      "respuesta": "En dislexia fonológica, la ruta subléxica está dañada. El paciente lee palabras familiares, pero no pseudopalabras ('blin'). Cometen errores semánticos ('león' por 'tigre')."
+    },
+    {
+      "id": 80,
+      "nombre": "Procesamiento de palabras escritas: efecto de frecuencia",
+      "teoria": "Palabras más frecuentes se leen más rápido y con menor fijación ocular. Refleja que la ruta léxica se beneficia de la experiencia. También hay efecto de vecindad ortográfica (palabras similares compiten).",
+      "ejemplo": "Frecuencia alta: 'agua', 'casa'. Baja: 'aljibe', 'zaguán'. Tiempos de lectura más largos para las infrecuentes.",
+      "ejercicio": "¿Cómo se explica el efecto de frecuencia léxica?",
+      "respuesta": "Palabras frecuentes tienen umbrales de activación más bajos y mayor fuerza de conexión en la memoria. Se activan más rápido. En tareas de decisión léxica, producen tiempos de reacción más cortos."
+    },
+    {
+      "id": 81,
+      "nombre": "Lectura y movimientos oculares",
+      "teoria": "La lectura implica movimientos sacádicos (saltos entre palabras) y fijaciones (200-250 ms por palabra). Se procesan varias palabras por fijación (span perceptual). Las palabras largas o infrecuentes reciben más fijaciones.",
+      "ejemplo": "Un lector fija 'palabra' 220 ms, salta a 'siguiente' 30 ms, fija 200 ms. Regresiones cuando hay dificultad.",
+      "ejercicio": "¿Qué información aporta el registro de movimientos oculares?",
+      "respuesta": "Revela cuándo y dónde hay dificultad: más fijaciones o regresiones indican procesamiento costoso. Permite estudiar efecto de ambigüedad, frecuencia, longitud en tiempo real."
+    },
+    {
+      "id": 82,
+      "nombre": "Modelos de producción escrita",
+      "teoria": "La escritura implica planificación, traducción (concepto a lenguaje), y revisión (Hayes, Flower). El procesamiento ortográfico puede ser por ruta léxica (palabras familiares) o subléxica (por sonido).",
+      "ejemplo": "Al escribir una carta, se planifica contenido y estructura, luego se redacta, y después se revisa ortografía y estilo.",
+      "ejercicio": "¿Qué diferencia hay entre ruta léxica y subléxica en escritura?",
+      "respuesta": "Ruta léxica: recupera forma ortográfica completa de palabras conocidas del léxico ortográfico. Ruta subléxica: construye escritura a partir de sonidos (conversión fonema-grafema)."
+    },
+    {
+      "id": 83,
+      "nombre": "Disgrafía y trastornos de la escritura",
+      "teoria": "La disgrafía es un trastorno en adquisición de la escritura (caligrafía, ortografía, composición). Puede ser disgráfica (problemas motores), disortográfica (errores ortográficos), y disgráfica espacial (organización).",
+      "ejemplo": "Disortografía: escribe 'bida' por 'vida'. Disgrafía motora: letra ilegible, mal trazo.",
+      "ejercicio": "¿Qué diferencias hay entre disgrafía y disortografía?",
+      "respuesta": "Disgrafía: problemas motores y de caligrafía (letra ilegible, velocidad). Disortografía: problemas ortográficos (errores en reglas, omisiones, sustituciones de letras). Pueden coincidir."
+    },
+    {
+      "id": 84,
+      "nombre": "Evaluación psicolingüística del lenguaje",
+      "teoria": "La evaluación psicolingüística usa pruebas estandarizadas para medir componentes lingüísticos: vocabulario (Peabody), morfosintaxis, discurso, pragmática. También tareas experimentales: decisión léxica, priming, repetición de pseudopalabras.",
+      "ejemplo": "Prueba de vocabulario: mostrar imágenes y nombrar. Repetición de pseudopalabras: 'blintastro' (mide fonología).",
+      "ejercicio": "¿Para qué sirve la tarea de repetición de pseudopalabras?",
+      "respuesta": "Evalúa memoria fonológica a corto plazo y capacidad de decodificación fonológica. Bajo rendimiento predice dificultades en adquisición de vocabulario y lectura. Marcador temprano de dislexia y TEL."
+    },
+    {
+      "id": 85,
+      "nombre": "Intervención psicolingüística en afasias",
+      "teoria": "La terapia del lenguaje en afasias se basa en neuroplasticidad: práctica masiva, estrategias compensatorias, terapia semántica/fonológica. Técnicas: terapia de restricción inducida, entonación melódica, estimulación semántica.",
+      "ejemplo": "Terapia de entonación melódica (MIT): usar melodía para facilitar producción de frases en afasia no fluida.",
+      "ejercicio": "¿En qué consiste la terapia de restricción inducida en afasia?",
+      "respuesta": "Limita el uso de estrategias compensatorias (gestos, dibujos) para forzar uso del habla verbal. Se usa en afasia crónica no fluida. Los pacientes solo comunican con palabras, mejorando fluidez con práctica."
+    },
+    {
+      "id": 86,
+      "nombre": "Intervención en dislexia",
+      "teoria": "El tratamiento se centra en entrenamiento fonológico (conciencia fonémica, correspondencia grafema-fonema) y práctica de lectura fluida. Enfoques multisensoriales. Intervención temprana es más efectiva.",
+      "ejemplo": "Juego: identificar sonido inicial de palabras, segmentar en sílabas, asociar letras con sonidos.",
+      "ejercicio": "¿Por qué es efectivo el entrenamiento fonológico en dislexia?",
+      "respuesta": "La dislexia se caracteriza por déficit fonológico. Entrenar conciencia fonológica fortalece la ruta subléxica de lectura, mejorando decodificación. Es el tratamiento con mayor evidencia empírica."
+    },
+    {
+      "id": 87,
+      "nombre": "Intervención en TEL",
+      "teoria": "La intervención en TEL se centra en objetivos gramaticales (flexión verbal, concordancia, longitud de enunciados). Usa modelado, imitación, expansión, andamiaje. Frecuencia (2-3 sesiones/semana) e intensidad importantes.",
+      "ejemplo": "El terapeuta juega modelando frases: 'Yo hago una bola, tú haces una serpiente'.",
+      "ejercicio": "¿Qué estrategia de 'expansión' se usa en terapia del lenguaje?",
+      "respuesta": "El adulto toma un enunciado incompleto del niño y lo expande a forma gramatical completa. Niño: 'perro correr'. Adulto: 'Sí, el perro corre rápido'. Modela sintaxis sin corrección explícita."
+    },
+    {
+      "id": 88,
+      "nombre": "Tecnología asistiva para trastornos del lenguaje",
+      "teoria": "La tecnología asistiva incluye dispositivos de comunicación aumentativa (pictogramas, voz sintetizada), software de reconocimiento de voz, y programas de entrenamiento cognitivo-lingüístico.",
+      "ejemplo": "Aplicación para iPad con pictogramas y voz: usuario toca 'beber' → dispositivo dice 'quiero beber'.",
+      "ejercicio": "¿Qué tipos de tecnología asistiva existen para personas con afasia?",
+      "respuesta": "Tableros de comunicación, aplicaciones de predicción de palabras, software texto-voz, terapias basadas en computadora, herramientas de apoyo a escritura (correctores ortográficos específicos)."
+    },
+    {
+      "id": 89,
+      "nombre": "Lenguaje de señas y psicolingüística",
+      "teoria": "Las lenguas de señas son lenguas naturales con estructura fonológica (configuraciones manuales, ubicación, movimiento), morfosintaxis y semántica. Procesadas por hemisferio izquierdo, similar a lenguas orales, pero también implican procesamiento viso-espacial.",
+      "ejemplo": "Estructura fonológica de LSE: parámetros como forma de mano, orientación, ubicación, movimiento. 'Madre' y 'padre' se diferencian por ubicación (mentón vs frente).",
+      "ejercicio": "¿En qué se parecen y diferencian procesamiento cerebral de lenguas orales y señas?",
+      "respuesta": "Similitudes: lateralización izquierda, áreas de Broca y Wernicke activadas. Diferencias: lenguas de señas activan regiones viso-espaciales (lóbulo parietal) y corteza motora de manos."
+    },
+    {
+      "id": 90,
+      "nombre": "Aprendizaje de la lectura en español",
+      "teoria": "El español tiene ortografía transparente, facilitando adquisición de lectura comparado con lenguas opacas (inglés). La ruta subléxica es muy eficiente. La dislexia en español es menos frecuente y más leve, pero existe.",
+      "ejemplo": "Aprender a leer en español: 'c' se lee /k/ o /θ/, pero con consistencia. Un niño español puede leer pseudopalabras con alta precisión antes que uno inglés.",
+      "ejercicio": "¿Por qué la lectura en español es más fácil de adquirir que en inglés?",
+      "respuesta": "Por transparencia ortográfica: casi siempre la misma letra corresponde al mismo sonido. En inglés, la misma letra puede tener múltiples pronunciaciones ('ough', 'ea'). La transparencia permite dominar rápidamente decodificación."
+    },
+    {
+      "id": 91,
+      "nombre": "Procesamiento de errores tipográficos",
+      "teoria": "Los lectores expertos pueden leer palabras con transposiciones de letras si primera y última letra están en su lugar (efecto de posición de letras). El cerebro procesa letras en paralelo, sensible al orden.",
+      "ejemplo": "'casa' vs 'caas' causa más dificultad que 'casa' vs 'casaa'. Transposición de letras internas es más disruptiva.",
+      "ejercicio": "¿Qué es el 'efecto de transposición de letras' en lectura?",
+      "respuesta": "Capacidad de reconocer palabras con dos letras intercambiadas ('canario' vs 'canaior'). Los lectores leen 'canaior' casi tan rápido como 'canario' por procesamiento en código de posición relativa. No funciona con intercambio de primera y última letra."
+    },
+    {
+      "id": 92,
+      "nombre": "Carga cognitiva y comprensión lectora",
+      "teoria": "La comprensión lectora requiere memoria de trabajo (mantener información, integrar con conocimiento previo). Si decodificación es costosa, memoria de trabajo se sobrecarga y perjudica comprensión (modelo de carga cognitiva).",
+      "ejemplo": "Texto con palabras poco frecuentes y sintaxis compleja fatiga al lector y olvida lo leído. Lenguaje claro facilita comprensión.",
+      "ejercicio": "¿Cómo influye la memoria de trabajo en comprensión lectora?",
+      "respuesta": "Permite almacenar información mientras se procesa oración siguiente y se integra con lo anterior. Si decodificación consume recursos (palabras difíciles), menos recursos para integración. Lectores con baja memoria de trabajo tienen más dificultad con oraciones complejas."
+    },
+    {
+      "id": 93,
+      "nombre": "Comprensión de textos y estructura narrativa",
+      "teoria": "Los textos narrativos tienen estructura universal: situación inicial, evento desencadenante, acción, resolución. Los lectores construyen modelos mentales (personajes, espacio, tiempo, causalidad). Inferencias causales son cruciales.",
+      "ejemplo": "Al leer 'Juan fue a la cocina. Abrió el frigorífico.' se infiere que quería algo de comer/beber.",
+      "ejercicio": "¿Qué tipos de inferencias realiza un lector durante comprensión narrativa?",
+      "respuesta": "Inferencias causales (por qué), temporales (orden), espaciales, de objetivos (qué quiere personaje), predictivas (qué pasará). Algunas automáticas, otras controladas."
+    },
+    {
+      "id": 94,
+      "nombre": "Discurso y coherencia",
+      "teoria": "La coherencia del discurso se basa en relaciones: causa-efecto, adición, contraste, secuencia temporal. Los marcadores discursivos ('sin embargo', 'porque') ayudan a señalar estas relaciones.",
+      "ejemplo": "Texto: 'Llovió. La calle se inundó.' → relación causal. 'Llovió, sin embargo salí.' → concesión.",
+      "ejercicio": "¿Qué papel tienen los marcadores discursivos en comprensión del texto?",
+      "respuesta": "Indican explícitamente relaciones lógicas entre oraciones o párrafos. Facilitan comprensión al reducir esfuerzo inferencial. Ayudan a construir representación coherente del discurso."
+    },
+    {
+      "id": 95,
+      "nombre": "Modelos de envejecimiento y lenguaje",
+      "teoria": "El envejecimiento afecta velocidad de procesamiento léxico, memoria de trabajo verbal, producción de nombres propios (TOT). Se preserva semántica (vocabulario) y sintaxis básica. El bilingüismo puede retrasar deterioro cognitivo.",
+      "ejemplo": "Persona mayor puede tener dificultad para recordar 'paraguas' (anomia), pero comprende significado y usa gramática correcta.",
+      "ejercicio": "¿Qué aspectos del lenguaje se conservan mejor en envejecimiento normal?",
+      "respuesta": "Semántica (conocimiento de palabras), gramática básica, pragmática. Se deterioran: velocidad de acceso léxico, denominación (nombres propios), comprensión de oraciones complejas (por memoria de trabajo), fluidez verbal."
+    },
+    {
+      "id": 96,
+      "nombre": "Reserva cognitiva y deterioro lingüístico",
+      "teoria": "La reserva cognitiva (educación, estimulación intelectual, bilingüismo) protege contra deterioro lingüístico en demencias. Personas con alta reserva muestran síntomas más tarde a pesar de patología cerebral similar.",
+      "ejemplo": "Dos personas con Alzheimer similar pueden tener diferente desempeño lingüístico: el bilingüe con alta educación puede mantener el lenguaje más tiempo.",
+      "ejercicio": "¿Cómo se relaciona la reserva cognitiva con el lenguaje?",
+      "respuesta": "A mayor reserva, mayor capacidad para compensar daño cerebral, manteniendo habilidades lingüísticas por más tiempo. La estimulación cognitiva fortalece redes neuronales."
+    },
+    {
+      "id": 97,
+      "nombre": "Evaluación neuropsicolingüística de demencias",
+      "teoria": "Pruebas lingüísticas ayudan al diagnóstico diferencial: denominación (Boston Naming Test), fluidez verbal (categorías, letras), repetición de frases, comprensión de órdenes complejas, escritura.",
+      "ejemplo": "Fluidez categorial: decir animales en 1 minuto. Normal >15-20. Alzheimer temprano <10. Demencia frontotemporal <5.",
+      "ejercicio": "¿Qué prueba diferencia Alzheimer de demencia frontotemporal variante semántica?",
+      "respuesta": "Boston Naming Test: en Alzheimer, anomia pero concepto preservado. En demencia semántica, no sabe qué es el objeto ni su significado. También pruebas de emparejamiento palabra-dibujo."
+    },
+    {
+      "id": 98,
+      "nombre": "Ética en la investigación psicolingüística",
+      "teoria": "La investigación con humanos requiere consentimiento informado, confidencialidad, minimización de riesgos, especial cuidado con poblaciones vulnerables (niños, pacientes neurológicos).",
+      "ejemplo": "Estudio ERP con pacientes afásicos: se explica procedimiento, sin riesgos, se permite retiro, se protegen datos.",
+      "ejercicio": "¿Qué consideraciones éticas específicas hay con niños?",
+      "respuesta": "Consentimiento parental y asentimiento del niño. Minimizar duración por fatiga. Usar tareas lúdicas. Evitar reforzamiento negativo. Confidencialidad. Derecho a retiro. Ambiente seguro."
+    },
+    {
+      "id": 99,
+      "nombre": "Nuevas tecnologías en evaluación psicolingüística",
+      "teoria": "Las nuevas tecnologías (eye-tracking, EEG móvil, aplicaciones gamificadas) permiten evaluar lenguaje de manera más ecológica y accesible. Permiten evaluación remota y seguimiento longitudinal.",
+      "ejemplo": "Aplicación móvil que mide tiempos de reacción en decisión léxica. Eye-tracker que registra movimientos oculares durante lectura de textos naturales.",
+      "ejercicio": "¿Qué ventajas ofrecen las nuevas tecnologías en evaluación psicolingüística?",
+      "respuesta": "Evaluación más ecológica (contextos naturales), recolección de datos masivos, seguimiento remoto, gamificación para niños, menor costo, accesibilidad para poblaciones rurales."
+    },
+    {
+      "id": 100,
+      "nombre": "Psicolingüística y educación: aplicaciones",
+      "teoria": "Los hallazgos psicolingüísticos tienen aplicaciones educativas: enseñanza de lectura basada en conciencia fonológica, intervención temprana en TEL, diseño de materiales adaptados al procesamiento cognitivo, y estrategias para aprendizaje de L2.",
+      "ejemplo": "Programas de lectura que enseñan primero correspondencia letra-sonido (ruta subléxica) antes que palabras completas. Uso de priming semántico para ampliar vocabulario.",
+      "ejercicio": "¿Cómo pueden aplicarse los hallazgos psicolingüísticos en el aula?",
+      "respuesta": "Diseñar materiales que reduzcan carga cognitiva, enseñar estrategias de segmentación fonológica, usar input comprensible con andamiaje, proporcionar retroalimentación explícita, adaptar instrucción a perfiles de aprendizaje (dislexia, TEL)."
+    }
+  ]
+}

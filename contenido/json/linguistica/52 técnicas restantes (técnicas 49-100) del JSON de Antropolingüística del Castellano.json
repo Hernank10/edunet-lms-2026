@@ -1,0 +1,420 @@
+{
+  "tecnicas_49_a_100": [
+    {
+      "id": 49,
+      "nombre": "Contacto de lenguas en el mundo hispano",
+      "teoria": "El contacto de lenguas ocurre cuando hablantes de diferentes lenguas interactúan. En el mundo hispano, hay contacto del español con lenguas indígenas (quechua, guaraní, náhuatl, maya), con lenguas cooficiales (catalán, gallego, euskera), y con lenguas inmigradas (italiano, inglés, alemán). El contacto produce préstamos, interferencias, bilingüismo y cambio lingüístico.",
+      "ejemplo": "Ejemplo de contacto español-quechua en los Andes: 'choclo' (maíz), 'cancha' (terreno), 'papa' (patata), 'cuy' (conejillo de indias). También hay influencia en la fonética (entonación) y sintaxis (uso de '-pues' como marcador).",
+      "ejercicio": "Describe una situación de contacto lingüístico en tu comunidad. ¿Qué efectos lingüísticos observas?",
+      "respuesta": "Ejemplo: contacto español-catalán en Cataluña: préstamos ('chao' del español), interferencias sintácticas (orden de palabras), bilingüismo generalizado, alternancia de códigos (catalán con español). En algunos hablantes, uso de 'ser' en lugar de 'estar' por influencia catalana ('es contento' en lugar de 'está contento')."
+    },
+    {
+      "id": 50,
+      "nombre": "Bilingüismo social en España",
+      "teoria": "España es multilingüe: coexisten español (castellano), catalán, gallego y euskera como lenguas oficiales en sus territorios. El bilingüismo social es generalizado en Cataluña, Galicia, País Vasco, Baleares y Comunidad Valenciana. Existen situaciones de diglosia (español como lengua alta en algunos contextos).",
+      "ejemplo": "En Cataluña, el catalán es lengua vehicular en educación, pero el español domina en ciertos ámbitos urbanos. La mayoría de la población es bilingüe. En Galicia, el gallego predomina en zonas rurales y el español en urbanas.",
+      "ejercicio": "Describe la situación sociolingüística de las lenguas cooficiales de España. ¿Hay diglosia?",
+      "respuesta": "En Cataluña: catalán en educación y administración, pero el español domina en inmigración y ciertos sectores. Hay tensión política. En Galicia: gallego en declive en ciudades, pero fuerte en áreas rurales. En País Vasco: euskera revitalizado con ikastolas, pero minoritario. La diglosia persiste (español como lengua de prestigio en ámbitos formales y urbanos)."
+    },
+    {
+      "id": 51,
+      "nombre": "Bilingüismo social en América Latina",
+      "teoria": "En América Latina coexisten el español con lenguas indígenas (quechua, guaraní, náhuatl, maya, aimara, mapuche) en varios países. Paraguay es oficialmente bilingüe (español-guaraní). En Perú, Bolivia, México, Guatemala, hay regiones con alta concentración de hablantes indígenas bilingües.",
+      "ejemplo": "En Paraguay, aproximadamente el 80% de la población habla guaraní, y el 90% es bilingüe (guaraní-español). En Bolivia, el quechua y aimara son cooficiales con el español.",
+      "ejercicio": "¿Cuál es la situación del bilingüismo español-lengua indígena en tu país?",
+      "respuesta": "Depende del país. En México: náhuatl, maya, mixteco, zapoteco, con bilingüismo en zonas rurales; presión del español. En Perú: quechua, aimara, bilingüismo en la sierra; migración a ciudades incrementa uso del español. En Paraguay: bilingüismo generalizado guaraní-español con diglosia (guaraní prestigio encubierto, español prestigio abierto)."
+    },
+    {
+      "id": 52,
+      "nombre": "Diglosia: definición y ejemplos",
+      "teoria": "La diglosia (Ferguson) es una situación sociolingüística donde dos variedades de una misma lengua o dos lenguas coexisten con distribución funcional: una variedad alta (H) usada en contextos formales (educación, administración, religión) y otra variedad baja (L) usada en contextos informales (familia, amigos).",
+      "ejemplo": "Ejemplo de diglosia: en Paraguay, el guaraní (L) se usa en lo informal, el español (H) en lo formal. En Cataluña, históricamente el catalán fue L y el español H. En el mundo árabe, árabe clásico (H) vs árabe dialectal (L).",
+      "ejercicio": "¿Qué es la diglosia? Da un ejemplo en el mundo hispano.",
+      "respuesta": "Diglosia: distribución funcional de dos lenguas o variedades, una alta (formal) y otra baja (informal). Ejemplo: en regiones de habla quechua (Perú, Bolivia), el quechua es L (familiar, informal), el español es H (educación, administración). Otro ejemplo: el español andaluz podría considerarse L frente al castellano estándar (H) en contextos formales, aunque es la misma lengua."
+    },
+    {
+      "id": 53,
+      "nombre": "Alternancia de código (code-switching)",
+      "teoria": "La alternancia de código (code-switching) es el cambio entre dos lenguas dentro de una misma conversación o enunciado. Puede ser intraoracional (dentro de la oración) o interoracional (entre oraciones). En el mundo hispano, es común entre español e inglés (spanglish), español y catalán, español y euskera, español y quechua.",
+      "ejemplo": "Ejemplo de spanglish: 'Voy a pick up a los kids de la school.' (Voy a recoger a los niños de la escuela). Español-catalán: 'Me'n vaig a casa porque estoy cansat.' (Me voy a casa porque estoy cansado).",
+      "ejercicio": "¿Qué es la alternancia de código? Pon un ejemplo en español y otra lengua.",
+      "respuesta": "Es el cambio entre dos lenguas en una misma interacción. Ejemplo español-inglés: 'Hoy voy a trabajar desde home porque no tengo meeting presencial.' Ejemplo español-quechua: 'Mamá, ayúdame a preparar el mikhuna (comida) para la fiesta.' Las alternancias pueden tener funciones pragmáticas (citar, marcar identidad, llenar vacíos léxicos)."
+    },
+    {
+      "id": 54,
+      "nombre": "Préstamos lingüísticos en español",
+      "teoria": "Los préstamos son palabras adoptadas de otra lengua. Pueden ser adaptados (fútbol < football) o no adaptados (software, marketing). El español ha recibido préstamos del latín, árabe, lenguas indígenas americanas, italiano, francés, inglés, entre otros. También ha cedido préstamos a otras lenguas.",
+      "ejemplo": "Ejemplos de préstamos: del árabe: 'aceite', 'alcalde', 'almohada'. Del náhuatl: 'chocolate', 'tomate', 'aguacate'. Del inglés: 'computadora' (adaptado), 'email' (no adaptado).",
+      "ejercicio": "Enumera cinco préstamos del inglés al español y cinco del español al inglés.",
+      "respuesta": "Inglés → español: 'chat', 'clic', 'software', 'marketing', 'smartphone'. Español → inglés: 'canyon' (cañón), 'patio', 'taco', 'salsa', 'siesta', 'mosquito', 'hurricane' (huracán), 'chocolate', 'potato' (patata). Algunos hispanismos en inglés provienen del español americano."
+    },
+    {
+      "id": 55,
+      "nombre": "Calcos lingüísticos en español",
+      "teoria": "El calco es la traducción literal de una palabra o expresión extranjera, adaptando sus componentes al español. Ejemplo: 'rascacielos' (del inglés 'skyscraper'), 'guerra fría' (del inglés 'cold war'), 'luna de miel' (del inglés 'honeymoon'). El calco revela influencia interlingüística sin adoptar la forma fonética.",
+      "ejemplo": "Ejemplo de calco: 'balance de poder' (del inglés 'balance of power'), 'economía de mercado' (del inglés 'market economy'), 'día laborable' (del inglés 'workday'), 'alta costura' (del francés 'haute couture').",
+      "ejercicio": "¿Qué diferencia hay entre préstamo y calco? Da ejemplos de cada uno.",
+      "respuesta": "Préstamo: adopta la forma fonética de otra lengua (posiblemente adaptada). Ejemplo: 'fútbol' (del inglés 'football'). Calco: traduce literalmente los componentes. Ejemplo: 'rascacielos' (del inglés 'skyscraper', sky -> cielo, scraper -> rascador). El calco usa palabras españolas existentes; el préstamo introduce nuevas formas. Algunos préstamos se adaptan gráficamente; los calcos no."
+    },
+    {
+      "id": 56,
+      "nombre": "Español en Estados Unidos: situación sociolingüística",
+      "teoria": "Estados Unidos tiene más de 40 millones de hispanohablantes nativos, la segunda comunidad hispanohablante del mundo después de México. El español se concentra en California, Texas, Florida, Nueva York, Illinois. El mantenimiento del español varía por generación: la primera generación es hispanohablante dominante, la segunda bilingüe, la tercera tiende al monolingüismo inglés.",
+      "ejemplo": "El 'spanglish' (alternancia español-inglés) es común en comunidades hispanas. Hay ciudades con alta visibilidad del español: Miami, Los Ángeles, San Antonio, El Paso, Nueva York. Se emiten cadenas de TV en español (Univisión, Telemundo).",
+      "ejercicio": "Describe la situación del español en Estados Unidos. ¿Qué factores afectan su mantenimiento?",
+      "respuesta": "El español es la segunda lengua más hablada. Factores de mantenimiento: inmigración continua, proximidad a México, medios en español, orgullo cultural. Factores de pérdida: presión asimilativa, educación en inglés, discriminación lingüística. Hay variación regional: se mantiene más en el suroeste y en Florida que en el medio oeste. El spanglish y la alternancia de códigos son comunes."
+    },
+    {
+      "id": 57,
+      "nombre": "Spanglish: características y debate",
+      "teoria": "El spanglish es la variedad lingüística resultante del contacto intenso entre español e inglés en Estados Unidos. Incluye préstamos, calcos, alternancia de código, y adaptaciones morfológicas. Genera debate: algunos lo ven como una variedad legítima, otros como una forma degradada de español.",
+      "ejemplo": "Ejemplos de spanglish: 'parquear' (park), 'wachar' (watch), 'lonche' (lunch), 'troca' (truck), 'puchar' (push), 'el browser', 'hacer una call' (hacer una llamada). También calcos: 'te llamo para atrás' (I'll call you back).",
+      "ejercicio": "¿Qué es el spanglish? ¿Cuáles son sus rasgos característicos?",
+      "respuesta": "Es la variedad de contacto hispano-inglés en EE. UU. Rasgos: préstamos léxicos adaptados ('parquear'), calcos semánticos ('llamar para atrás'), alternancia de código intraoracional, préstamos no adaptados ('el email'), innovaciones morfológicas ('wachando'), y fonética influenciada por inglés. Hay hablantes que lo ven como identidad; otros lo rechazan por no ser español normativo."
+    },
+    {
+      "id": 58,
+      "nombre": "Desplazamiento y muerte de lenguas",
+      "teoria": "El desplazamiento lingüístico ocurre cuando una lengua es reemplazada por otra en una comunidad. Las lenguas indígenas americanas están en riesgo por el avance del español. El proceso comienza con bilingüismo, luego los niños no aprenden la lengua materna, y finalmente la lengua se extingue (lengua muerta).",
+      "ejemplo": "Ejemplo de lenguas en peligro en México: el cuitlateco (extinto), el kiliwa (muy pocos hablantes). En América del Sur, muchas lenguas amazónicas tienen menos de 100 hablantes. El euskera en España sobrevivió tras revitalización.",
+      "ejercicio": "¿Qué factores causan la muerte de una lengua? ¿Cómo se puede revitalizar?",
+      "respuesta": "Factores: presión cultural y económica de la lengua dominante, migración, educación en otra lengua, estigmatización, exogamia, falta de transmisión intergeneracional. Revitalización: educación bilingüe, inmersión, documentación, promoción en medios, valoración social, y políticas lingüísticas de protección. Ejemplos exitosos: euskera (España), maorí (Nueva Zelanda), guaraní (Paraguay)."
+    },
+    {
+      "id": 59,
+      "nombre": "Revitalización lingüística de lenguas indígenas",
+      "teoria": "La revitalización lingüística busca revertir el desplazamiento de lenguas minorizadas. Estrategias: documentación (grabar hablantes), desarrollo de materiales educativos, inmersión, neología, promoción en medios, y enseñanza en escuelas. Ejemplos en el mundo hispano: revitalización del euskera, quechua, guaraní, mapudungún.",
+      "ejemplo": "Ejemplo: el euskera (España) se revitalizó con las ikastolas (escuelas de inmersión en euskera), producción editorial, y normalización en la administración. El guaraní en Paraguay se mantuvo gracias a su uso cotidiano y reconocimiento oficial.",
+      "ejercicio": "Investiga un caso de revitalización lingüística en el mundo hispano y describe sus estrategias.",
+      "respuesta": "Quechua en Perú: políticas de educación intercultural bilingüe, normalización ortográfica, producción de materiales, radio en quechua, y promoción de literatura. Aún enfrenta desafíos: estigmatización, falta de hablantes jóvenes, y predominio del español en áreas urbanas. Otro caso: mapudungún en Chile: programas de revitalización en comunidades mapuche, pero con avances limitados."
+    },
+    {
+      "id": 60,
+      "nombre": "Planificación lingüística y políticas lingüísticas",
+      "teoria": "La planificación lingüística incluye: planificación del corpus (normalización ortográfica, gramática, léxico), planificación del estatus (oficialidad, dominios de uso), y planificación de la adquisición (enseñanza de lenguas). Las políticas lingüísticas pueden ser de promoción (favorecer una lengua) o de restricción.",
+      "ejemplo": "Ejemplo de planificación del corpus: las academias de la lengua (RAE, ASALE) normativizan el español. Planificación del estatus: el reconocimiento del catalán como oficial en Cataluña. Planificación de adquisición: leyes de inmersión lingüística en educación.",
+      "ejercicio": "¿Qué tipos de planificación lingüística existen? Da ejemplos.",
+      "respuesta": "1) Planificación del corpus: crear diccionarios, gramáticas, normalizar grafías (ej. RAE). 2) Planificación del estatus: establecer lenguas oficiales, dominios de uso (ej. catalán en administración). 3) Planificación de adquisición: educación bilingüe, programas de inmersión (ej. ikastolas en euskera). Las políticas pueden ser asimilacionistas (promover una lengua dominante) o pluralistas (promover diversidad)."
+    },
+    {
+      "id": 61,
+      "nombre": "Lengua e identidad étnica",
+      "teoria": "La lengua es un marcador central de identidad étnica. Hablar una lengua minorizada puede reforzar la pertenencia a un grupo étnico. El abandono de la lengua puede sentirse como pérdida de identidad. Existe una correlación entre lengua y etnicidad, pero no determinista: hay hablantes de lenguas minorizadas que no se identifican étnicamente.",
+      "ejemplo": "Ejemplo: el euskera es un símbolo central de identidad vasca (ser 'euskaldun' significa 'tener euskera'). En Galicia, el gallego está asociado a la identidad gallega. En México, el náhuatl marca identidad indígena, aunque muchos hablantes también se identifican como mexicanos.",
+      "ejercicio": "¿Cómo se relaciona la lengua con la identidad étnica en el mundo hispano?",
+      "respuesta": "La lengua es un marcador de identidad para grupos minoritarios. Ejemplos: el quechua para los pueblos andinos, el mapudungún para los mapuche, el guaraní para los paraguayos (identidad nacional). La pérdida de lengua puede percibirse como asimilación o pérdida de cultura. Sin embargo, también hay casos donde la identidad se mantiene sin el dominio lingüístico (por conocimiento pasivo o símbolos)."
+    },
+    {
+      "id": 62,
+      "nombre": "Lengua y construcción de la nación",
+      "teoria": "Los estados nacionales del siglo XIX y XX promovieron una lengua común (el español) como parte de la construcción nacional. Se marginaron las lenguas regionales o indígenas. En España, el nacionalismo español promovió el castellano como 'lengua de la nación'. En América Latina, el español se impuso en educación y administración.",
+      "ejemplo": "Ejemplo: en México, el español se promovió como lengua nacional después de la Independencia, marginando el náhuatl y otras lenguas indígenas. En Argentina, el español rioplatense se convirtió en símbolo nacional, con políticas de inmigración que fomentaron su expansión.",
+      "ejercicio": "¿Cómo se usó el lenguaje en la construcción de naciones en América Latina?",
+      "respuesta": "La élite criolla promovió el español como lengua unificadora para construir identidad nacional, en contraste con lenguas indígenas vistas como 'atrasadas'. Las escuelas y la administración castellanizaron a poblaciones indígenas. El español se asocia a modernidad, progreso, unidad. Lenguas indígenas quedaron relegadas a ámbitos privados. Actualmente, hay políticas multiculturalistas que buscan revertir esta marginación."
+    },
+    {
+      "id": 63,
+      "nombre": "Nacionalismo lingüístico en España",
+      "teoria": "En España, los nacionalismos periféricos (catalán, vasco, gallego) utilizan la lengua como símbolo de identidad nacional. El catalán es central en el catalanismo; el euskera en el nacionalismo vasco; el gallego en el galleguismo. La lengua se convierte en bandera política y en herramienta de reivindicación territorial.",
+      "ejemplo": "Ejemplo: la 'normalización lingüística' en Cataluña (Ley de Normalización Lingüística, 1983) estableció el catalán como lengua vehicular en educación, buscando revertir la castellanización histórica. El uso del catalán se ha politizado intensamente.",
+      "ejercicio": "¿Qué papel juegan las lenguas cooficiales en los nacionalismos periféricos de España?",
+      "respuesta": "Son emblemas identitarios centrales. En Cataluña, ser 'catalanoparlante' se asocia a catalanismo; el uso de español puede verse como señal de 'españolismo' en ciertos contextos. En País Vasco, el euskera es símbolo de identidad vasca (no hispana). En Galicia, el gallego es menos politizado pero importante para el galleguismo. Las políticas lingüísticas generan tensiones con el nacionalismo español."
+    },
+    {
+      "id": 64,
+      "nombre": "Actitudes hacia el español en el mundo",
+      "teoria": "Las actitudes hacia el español varían según la región. En Estados Unidos, el español puede estar estigmatizado en contextos anti-inmigrantes, pero también tener prestigio en ámbitos comerciales y culturales. En Europa, se valora como lengua de cultura (Cervantes, García Márquez). En Brasil, hay actitudes mixtas: cercanía por frontera vs rivalidad.",
+      "ejemplo": "Ejemplo: en EE. UU., hispanohablantes pueden sufrir discriminación lingüística ('speak English'). Por otro lado, aprender español es visto como ventaja económica. En Francia, el español es la segunda lengua extranjera más estudiada, con prestigio.",
+      "ejercicio": "Describe las actitudes hacia el español en un país donde no es lengua oficial.",
+      "respuesta": "En Estados Unidos: actitudes polarizadas: positivo para negocios, cultura, comunicación; negativo en algunos sectores (asociado a inmigración). En Brasil: el español es valorado por relaciones comerciales (Mercosur), turismo, cultura. En Filipinas: el español perdió estatus, pero hay interés por herencia histórica. En Japón: prestigio cultural (literatura, arte). En Marruecos: por cercanía geográfica y Ceuta/Melilla."
+    },
+    {
+      "id": 65,
+      "nombre": "Prestigio del español en el mundo",
+      "teoria": "El español es la segunda lengua materna más hablada del mundo (después del chino), y la cuarta en total de hablantes. Tiene gran prestigio cultural (literatura, cine, música) y económico (potencia comercial en América Latina y España). Es idioma oficial de la ONU, UE, UNESCO, y otras organizaciones internacionales.",
+      "ejemplo": "Ejemplo de prestigio: el Instituto Cervantes promueve el español internacionalmente. Autores como García Márquez, Vargas Llosa, Borges, Cervantes son canon universal. El español es cada vez más estudiado en Estados Unidos, Brasil, Europa y Asia.",
+      "ejercicio": "¿Qué factores contribuyen al prestigio internacional del español?",
+      "respuesta": "Factores demográficos: 500 millones de hablantes nativos, crecimiento en EE. UU. Factores culturales: literatura universal, cine (Almodóvar, Iñárritu), música (reggaetón, salsa). Factores económicos: peso de economías hispanas (México, España, Argentina, Colombia). Factores institucionales: presencia en organismos internacionales, difusión (Instituto Cervantes). Vitalidad demográfica: crecimiento poblacional en América Latina."
+    },
+    {
+      "id": 66,
+      "nombre": "Lengua y variedades diatópicas (geográficas)",
+      "teoria": "La variación diatópica son las diferencias lingüísticas según la región geográfica. El español tiene múltiples variedades: español septentrional (España), meridional (Andalucía, Canarias), caribeño, andino, rioplatense, mexicano, chileno, centroamericano. Cada variedad tiene rasgos fonéticos, morfosintácticos y léxicos distintivos.",
+      "ejemplo": "Ejemplo léxico: 'autobús' (España), 'bus' (Chile, Perú), 'camión' (México), 'colectivo' (Argentina), 'guagua' (Canarias, Cuba), 'micro' (Chile). 'Fresa' (España), 'frutilla' (Argentina, Chile), 'fresilla' (México).",
+      "ejercicio": "Describe las diferencias léxicas entre dos variedades del español que conozcas.",
+      "respuesta": "Ejemplo: España vs México. España: 'coche', 'piso', 'ordenador', 'móvil', 'vale'. México: 'carro', 'departamento', 'computadora', 'celular', 'bueno'. También diferencias de pronunciación: distinción s/θ en España, seseo en México. En morfosintaxis: 'vosotros' (España) vs 'ustedes' (México). Estas variedades son mutuamente inteligibles, pero con ajustes pragmáticos."
+    },
+    {
+      "id": 67,
+      "nombre": "Lengua y variedades diastráticas (sociales)",
+      "teoria": "La variación diastrática son las diferencias lingüísticas según el estrato social, nivel educativo, edad o género. Los sociolectos altos usan formas más prestigiosas, cercanas a la norma estándar; los sociolectos bajos usan formas vernáculas (aspiración de 's', omisiones, dequeísmo, laísmo).",
+      "ejemplo": "Ejemplo: 'los coches' (sociolecto alto) vs 'lo' coche' (sociolecto bajo, aspiración y pérdida de 's'). 'Dime lo que piensas' vs 'Dime de lo que piensas' (dequeísmo, sociolecto bajo). 'Vinieron' vs 'vinieron' (aspiración).",
+      "ejercicio": "¿Qué rasgos caracterizan un sociolecto alto y uno bajo en español?",
+      "respuesta": "Sociolecto alto: pronunciación cuidada, distinción s/θ (en España), uso de subjuntivo correcto, concordancia, tiempos compuestos, léxico formal, evitación de dequeísmo y laísmo. Sociolecto bajo: aspiración o pérdida de -s, -d, relajación consonántica, dequeísmo, laísmo, loísmo, leísmo, uso de 'habemos', 'hubieron', léxico restringido, muletillas. La variación es continua, no dicotómica."
+    },
+    {
+      "id": 68,
+      "nombre": "Lengua y variedades diafásicas (registros)",
+      "teoria": "La variación diafásica (registro) es la adecuación del lenguaje al contexto comunicativo: registro formal (académico, profesional), coloquial (conversación cotidiana), familiar, íntimo, y vulgar. El hablante competente varía su registro según la situación, el interlocutor y la intencionalidad.",
+      "ejemplo": "Ejemplo de registro formal: 'Le agradecería que me proporcionara la información solicitada.' Registro coloquial: '¿Me podrías pasar los datos?' Registro vulgar: 'Dame los papeles, ¿ya?'.",
+      "ejercicio": "¿Qué diferencias hay entre registro formal y coloquial en español?",
+      "respuesta": "Formal: vocabulario culto, oraciones complejas, subjuntivo, condicional de cortesía, tratamiento de 'usted', evitación de muletillas y contracciones. Coloquial: vocabulario cotidiano, oraciones cortas, elipsis, muletillas ('bueno', 'pues', 'o sea'), uso de 'tú', preguntas retóricas, lenguaje emotivo. El registro coloquial admite más variación y creatividad."
+    },
+    {
+      "id": 69,
+      "nombre": "Lengua juvenil y contracultura",
+      "teoria": "El lenguaje juvenil se asocia a la contracultura, rebeldía, innovación y diferenciación generacional. A menudo usa jerga, abreviaturas, neologismos, anglicismos, y expresiones que cambian rápidamente. Puede ser un marcador de identidad grupal frente a generaciones adultas y normas establecidas.",
+      "ejemplo": "Ejemplos de lenguaje juvenil español (varían rápidamente): 'mola', 'guay', 'flipar', 'un poco' (como muletilla), 'en plan', 'bro', 'crush', 'random', 'cringe', 'trolear', 'stalkear', 'wasapear'. En México: 'chido', 'padre', 'güey', 'neta', 'chale'.",
+      "ejercicio": "¿Cómo cambia el lenguaje juvenil en el mundo hispano? Da ejemplos.",
+      "respuesta": "El lenguaje juvenil es efímero y cambia rápido, influido por redes sociales y música urbana (reggaetón, trap). Ejemplos actuales: 'dar cringe', 'pov', 'lit', 'factos', 'XD', 'jsjsjs', 'crush', 'shippear'. Varía por país: en Argentina 're', 'posta', 'flaco'; en Chile 'weón', 'cachai'; en España 'tío', 'chaval', 'guay'; en México 'güey', 'neta'. Refleja contracultura y se renueva constantemente."
+    },
+    {
+      "id": 70,
+      "nombre": "Lenguaje inclusivo en español",
+      "teoria": "El lenguaje inclusivo busca visibilizar a mujeres y disidencias sexuales, evitando el masculino genérico. Estrategias: desdoblamiento ('niños y niñas'), sustantivos colectivos ('la ciudadanía'), uso de 'e' ('todes'), 'x' ('latinx'), '@' ('l@s'), o '·' ('l·as'). Es un tema de debate lingüístico y político.",
+      "ejemplo": "Ejemplo: 'Los estudiantes' → 'los y las estudiantes', 'el estudiantado', 'les estudiantes', 'l@s estudiantes'. 'Todos bienvenidos' → 'todos y todas bienvenidas', 'todes bienvenides', 'todxs bienvenidxs'.",
+      "ejercicio": "¿Qué estrategias de lenguaje inclusivo se usan en español? ¿Cuáles son las críticas?",
+      "respuesta": "Estrategias: desdoblamiento (aceptado normativamente), colectivos, 'e', 'x', '@', '·'. Críticas: falta de naturalidad, artificialidad, violación de reglas fonológicas y morfológicas, invisibilización de otras disidencias, rechazo de la RAE y hablantes tradicionales. Los defensores argumentan que visibiliza a grupos marginados y que el lenguaje evoluciona. El desdoblamiento es la forma más aceptada en contextos formales."
+    },
+    {
+      "id": 71,
+      "nombre": "Lengua y redes sociales: neologismos",
+      "teoria": "Las redes sociales generan neologismos constantemente: 'tuitear', 'trolear', 'stalkear', 'like', 'etiquetar', 'postear', 'wasapear', 'feisbuquear', 'influencer', 'youtuber', 'streamer', 'blogger', 'podcaster'. Muchos son anglicismos adaptados o no adaptados.",
+      "ejemplo": "Ejemplos de neologismos de redes: 'hacer un spoiler', 'spoilear', 'dar share', 'retuitear', 'dar like', 'enviar un DM', 'hacer una live', 'subir un story', 'postear', 'comentar', 'taguear'.",
+      "ejercicio": "Enumera cinco neologismos del español originados en redes sociales y explica su significado.",
+      "respuesta": "1) 'Tuitear': publicar en Twitter. 2) 'Trolear': provocar con comentarios ofensivos. 3) 'Stalkear': investigar perfiles ajenos sigilosamente. 4) 'Wasapear': enviar mensajes por WhatsApp. 5) 'Like': acción de dar 'me gusta' (se usa como sustantivo: 'dar like'). Otros: 'post', 'feed', 'hashtag', 'trending topic', 'viralizar'."
+    },
+    {
+      "id": 72,
+      "nombre": "Lengua y marketing: persuasión",
+      "teoria": "El lenguaje publicitario y de marketing utiliza recursos persuasivos: imperativos ('cómpralo'), segunda persona ('tú lo necesitas'), exclamaciones, comparativos ('mejor'), superlativos ('el mejor'), metáforas, hipérboles, juegos de palabras, anglicismos ('look', 'style'), y neologismos.",
+      "ejemplo": "Ejemplo: '¿Tienes hambre? ¡Come Mahou!' (interrogación + imperativo + exclamación). 'Porque tú lo vales' (apelación a autoestima). 'El sabor del hogar' (apelación a nostalgia). 'La chispa de la vida' (metáfora).",
+      "ejercicio": "Analiza un eslogan publicitario en español identificando sus recursos lingüísticos.",
+      "respuesta": "Eslogan: 'Red Bull te da alas'. Recursos: metáfora ('alas' como energía/fuerza), segunda persona ('te'), verbo 'dar' (acción positiva), brevedad, rima interna (no explícita), asociación de producto con libertad/movilidad. También 'te da' implica generosidad. El eslogan es fácil de recordar, impactante, y crea imagen positiva del producto."
+    },
+    {
+      "id": 73,
+      "nombre": "Lengua y discurso político: manipulación",
+      "teoria": "El discurso político puede manipular mediante: eufemismos ('daños colaterales'), nominalización ('los ajustes necesarios'), metáforas ('la lucha'), pronombres inclusivos ('nosotros'), vacíos semánticos ('cambio', 'futuro'), y repetición de slogans.",
+      "ejemplo": "Ejemplo: 'Estamos trabajando para sacar adelante el país' (no especifica quiénes, acción en gerundio sin compromiso). 'Vamos a ganar el futuro' (futuro vago). 'La batalla contra la corrupción' (metáfora bélica).",
+      "ejercicio": "Identifica recursos de manipulación lingüística en un discurso político.",
+      "respuesta": "Recursos: 1) Uso de 'nosotros' inclusivo (identificación con audiencia). 2) Nominalizaciones ocultan agentes ('la crisis' en lugar de 'la crisis causada por...'). 3) Eufemismos ('recesión' en lugar de 'depresión'). 4) Palabras comodín ('valores', 'cambio', 'futuro'). 5) Metáforas. 6) Preguntas retóricas. 7) Polarización ('nosotros' vs 'ellos'). 8) Slogans repetitivos. El análisis crítico del discurso desentraña estos mecanismos."
+    },
+    {
+      "id": 74,
+      "nombre": "Lengua y medios de comunicación",
+      "teoria": "Los medios de comunicación (prensa, radio, TV, digitales) influyen en la lengua mediante la difusión de neologismos, extranjerismos, coloquialismos y formas estandarizadas. El lenguaje periodístico tiene rasgos propios: titulares abreviados, nominalizaciones, voz pasiva, y recursos para captar atención.",
+      "ejemplo": "Ejemplo: titular 'El gobierno anuncia subida de impuestos' (activa). 'Fue anunciado un aumento' (pasiva). 'Cae el dólar' (metáfora). 'Se desploma la bolsa' (hipérbole). También uso de anglicismos: 'briefing', 'spot', 'pódcast'.",
+      "ejercicio": "¿Qué rasgos caracterizan el lenguaje periodístico en español?",
+      "respuesta": "Titulares: oraciones breves, omiten artículos y verbos copulativos ('Crisis en el gobierno'). Uso de metáforas, hipérboles, nominalizaciones, y voz pasiva. Léxico: tecnicismos en prensa especializada, anglicismos, neologismos. Frases hechas. También hay diferencias de registro según el medio (tabloide vs prensa seria). Los medios influyen en la difusión de neologismos y en la normalización de extranjerismos."
+    },
+    {
+      "id": 75,
+      "nombre": "Lengua y traducción: retos culturales",
+      "teoria": "La traducción enfrenta desafíos culturales: equivalencias culturales (términos sin equivalente), realia (elementos únicos de una cultura), modismos, humor, referencias culturales, y diferencias de cortesía. La traducción no es solo transferencia lingüística sino adaptación cultural.",
+      "ejemplo": "Ejemplo: traducir 'tapas' al inglés: no hay equivalente, se mantiene 'tapas' o se describe. 'Quijote' no tiene equivalencia cultural. 'Fiesta' puede traducirse como 'party' perdiendo connotaciones de celebración hispana.",
+      "ejercicio": "Pon un ejemplo de un término culturalmente específico del español difícil de traducir.",
+      "respuesta": "'Sobremesa' (conversación después de comer): no tiene equivalente en inglés ('after-dinner chat' no es lo mismo). 'Duende' (emoción estética flamenca): difícil de traducir (no es 'ghost' ni 'elf', es sentimiento profundo). 'Vergüenza' (honor social más fuerte que 'shame'). 'Morriña' (nostalgia de Galicia). Estos reflejan singularidad cultural y requieren traducción adaptativa o notas explicativas."
+    },
+    {
+      "id": 76,
+      "nombre": "Lengua y literatura: uso estilístico",
+      "teoria": "La literatura explota el lenguaje con fines estéticos: recursos fónicos (aliteración, rima), morfosintácticos (hipérbaton, anáfora, epífora, asíndeton), semánticos (metáfora, metonimia, ironía), y pragmáticos (estilo indirecto libre, polifonía). Cada autor crea su idiolecto.",
+      "ejemplo": "Ejemplo de hipérbaton: 'Del tiempo y sus mudanzas tratará este capítulo' (orden inverso). Ejemplo de anáfora: 'El tiempo... el tiempo... el tiempo...'. Ejemplo de asíndeton: 'Llegué, vi, vencí'.",
+      "ejercicio": "Identifica un recurso estilístico en un fragmento literario conocido en español.",
+      "respuesta": "En 'Cien años de soledad' de García Márquez: 'Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.' Recursos: hipérbaton ('había de recordar' en lugar de 'recordaría'), anacronía, yuxtaposición temporal, voz pasiva semántica. Estilo característico del realismo mágico."
+    },
+    {
+      "id": 77,
+      "nombre": "Lengua y música: reggaetón, trap, salsa",
+      "teoria": "Los géneros musicales hispanos (reggaetón, trap, salsa, bachata, flamenco, corridos) utilizan lenguaje coloquial, jerga juvenil, lunfardo, mexicanismos, callejismos, y dobles sentidos. La música urbana ha difundido puertorriqueñismos, colombianismos, mexicanismos, y modismos de barrio.",
+      "ejemplo": "Ejemplo reggaetón: 'perrear' (bailar), 'dembow' (ritmo), 'flow' (estilo), 'corona', 'booty'. Ejemplo corridos tumbados: 'belicón', 'alucín', 'chorro', 'plebes'. Ejemplo salsa: 'azúcar', 'rumbón', 'sonero'.",
+      "ejercicio": "¿Qué influencia tiene la música urbana en el léxico juvenil hispano?",
+      "respuesta": "La música reggaetón y trap ha difundido puertorriqueñismos ('perrear', 'dembow', 'corona', 'pichear', 'bicho'), y modismos ('el flow', 'la nota', 'una movie', 'chavos' por dinero). El trap ha popularizado expresiones de la calle, drogas, violencia, y jerga carcelaria. El corrido tumbado mexicano ha difundido mexicanismos. La música urbana afecta el habla juvenil en todo el mundo hispano, creando una especie de koiné juvenil supranacional."
+    },
+    {
+      "id": 78,
+      "nombre": "Lengua y cine: doblaje vs subtitulado",
+      "teoria": "El doblaje (traducción oral) y el subtitulado (traducción escrita) tienen efectos diferentes: el doblaje adapta localmente (neutralización de acentos, traducción de chistes, modismos); el subtitulado respeta más la versión original, pero requiere lectura. En España, el doblaje es mayoritario; en América Latina hay ambos.",
+      "ejemplo": "Ejemplo: doblaje de 'Friends' al español (España vs América Latina). Traducción de chistes, modismos, referencias culturales. Los nombres se adaptan o no según la convención.",
+      "ejercicio": "¿Qué diferencias hay entre doblaje y subtitulado en términos lingüísticos y culturales?",
+      "respuesta": "Doblaje: adaptación cultural (cambiar referencias locales), neutralización de acentos, sincronía labial, pérdida de matices originales, accesible para público infantil. Subtitulado: preservación del original, pero requiere lectura y puede omitir información por espacio; más fiel. También hay 'subtitulado para sordos' (describe sonidos). Hispanoamérica usa doblaje neutral (acento 'neutro' sin marcas regionales); España usa doblaje con español peninsular."
+    },
+    {
+      "id": 79,
+      "nombre": "Lengua y turismo: comunicación intercultural",
+      "teoria": "El turismo en el mundo hispano requiere estrategias de comunicación intercultural: uso de lenguas extranjeras (inglés, alemán, francés), simplificación lingüística, adaptación cultural, y uso de lenguaje gestual. Los trabajadores turísticos desarrollan un 'registro turístico' con léxico específico.",
+      "ejemplo": "Ejemplo: personal de hotel usa inglés para extranjeros; guías explican cultura, historia, y adaptan información a los turistas. Señales bilingües español-inglés (o francés, alemán) en destinos turísticos.",
+      "ejercicio": "Describe cómo se adapta el lenguaje en el sector turístico hispano.",
+      "respuesta": "Se usan lenguas extranjeras (inglés), simplificación léxica, evitación de modismos regionales complejos, explicaciones de realia (tapas, siesta, corrida de toros). En zonas turísticas, el español tiende a neutralizarse (eliminar regionalismos). También hay 'falso español' para extranjeros: traducciones literales, errores. Los trabajadores bilingües alternan códigos según turista. El lenguaje promocional usa hipérboles ('paraíso', 'único', 'mágico')."
+    },
+    {
+      "id": 80,
+      "nombre": "Lengua y diplomacia: español en organismos internacionales",
+      "teoria": "El español es idioma oficial de la ONU, UE, UNESCO, OEA, OEI, entre otros. Su uso diplomático requiere precisión, cortesía, formas protocolares, y neutralidad geográfica (español estándar internacional, evitando regionalismos). El lenguaje diplomático tiende a la nominalización, voz pasiva, y eufemismos.",
+      "ejemplo": "Ejemplo de lenguaje diplomático: 'El gobierno expresa su profunda preocupación por los últimos acontecimientos' (en lugar de 'condena'). 'Se insta a las partes a reanudar el diálogo' (evita 'ordenar').",
+      "ejercicio": "¿Qué características tiene el lenguaje diplomático en español?",
+      "respuesta": "Precisión, neutralidad, cortesía formal, eufemismos, nominalización ('la realización de' en lugar de 'realizar'), voz pasiva ('se acuerda'), impersonalidad ('se informa'), léxico jurídico, construcciones con 'se', perífrasis de cortesía ('sería deseable'), vocabulario abstracto, y evitar regionalismos. El español diplomático busca evitar fricciones y ser interpretable en todas las variedades del español."
+    },
+    {
+      "id": 81,
+      "nombre": "Lengua y derecho: lenguaje jurídico español",
+      "teoria": "El lenguaje jurídico español es arcaico, formal, con latinismos, tecnicismos, construcciones pasivas, y perífrasis nominales. Criticado por inaccesible, está experimentando reformas para simplificarlo (lenguaje claro). Incluye términos como 'compareciente', 'subsistente', 'precedente', 'promulgar', 'en virtud de', 'a saber'.",
+      "ejemplo": "Ejemplo jurídico: 'El compareciente, mayor de edad, con domicilio en... ante Vd. comparece y manifiesta...' (fórmulas fijas). 'En virtud de lo dispuesto en el artículo...'",
+      "ejercicio": "¿Qué críticas recibe el lenguaje jurídico español? ¿Cómo se está simplificando?",
+      "respuesta": "Críticas: arcaísmo, inaccesibilidad para ciudadanos, abuso de pasivas, latinismos, perífrasis innecesarias, oraciones interminables. Se promueve el 'lenguaje claro' (plain language): oraciones cortas, voz activa, vocabulario cotidiano, evitar dobles negaciones, uso de ejemplos, y estructura lógica. Varios países hispanos han aprobado leyes de lenguaje claro (México, Chile, España)."
+    },
+    {
+      "id": 82,
+      "nombre": "Lengua y ciencia: tecnolectos",
+      "teoria": "Los tecnolectos (jergas profesionales) son variedades del español en dominios científicos: medicina, ingeniería, biología, física, química. Se caracterizan por tecnicismos (a menudo de origen griego o latino), neologismos, precisión léxica, y uso de términos internacionales.",
+      "ejemplo": "Ejemplo tecnolecto médico: 'anemia', 'hipertensión', 'taquicardia', 'endoscopia', 'laparoscopia', 'isquemia', 'metástasis', 'neoplasia'. 'Diagnóstico', 'pronóstico', 'terapia', 'farmacología'.",
+      "ejercicio": "¿Qué características tiene el lenguaje científico en español?",
+      "respuesta": "Precisión, univocidad (evitar ambigüedad), uso de neologismos (formados con prefijos y sufijos grecolatinos: -itis, -osis, -logía, -grafía), préstamos internacionales, voz pasiva, impersonalidad ('se observa'), nominalización, y oraciones complejas. Hay tensión entre usar términos latinos/griegos o neologismos hispanos. La RAE y academias de ciencia promueven neologismos en español. El lenguaje científico tiende a ser formal y objetivo."
+    },
+    {
+      "id": 83,
+      "nombre": "Lengua y tecnología: neologismos informáticos",
+      "teoria": "La informática y la tecnología han introducido numerosos neologismos en español: algunos adaptados ('computadora', 'ordenador', 'correo electrónico', 'sitio web'), otros préstamos no adaptados ('software', 'hardware', 'click'), y otros híbridos ('like', 'clicar', 'tuitear'). La RAE tiene criterios variables.",
+      "ejemplo": "Ejemplos: 'internet', 'web', 'navegador', 'enlace', 'ratón' (mouse), 'pantalla', 'aplicación' (app), 'descargar', 'subir' (upload), 'archivo' (file), 'directorio' (folder), 'carpeta', 'icono', 'escritorio'.",
+      "ejercicio": "Enumera cinco neologismos informáticos en español y su adaptación.",
+      "respuesta": "1) 'Ratón' (del inglés 'mouse', adaptación semántica). 2) 'Correo electrónico' (del inglés 'e-mail', calco). 3) 'Navegador' (del inglés 'browser', adaptación funcional). 4) 'Aplicación' (acortamiento de 'aplicación informática', del inglés 'app' no se ha adaptado directamente). 5) 'Disco duro' (del inglés 'hard disk', calco). Algunos se prefieren en España ('ordenador') vs América ('computadora')."
+    },
+    {
+      "id": 84,
+      "nombre": "Futuro del español: desafíos y oportunidades",
+      "teoria": "El español enfrenta desafíos: fragmentación política, influencia del inglés, descenso de natalidad en España, pérdida de hablantes en EE. UU. por asimilación (aunque inmigración compensa). Oportunidades: crecimiento demográfico en América Latina, demanda de estudio, digitalización, y presencia en organismos internacionales.",
+      "ejemplo": "Ejemplo de oportunidad: más de 20 millones de estudiantes de español en el mundo. El 'boom' de series en español (Netflix) difunde la lengua. El español es la segunda lengua más usada en Twitter, Facebook.",
+      "ejercicio": "¿Cuál es el futuro del español como lengua global? ¿Qué factores influirán?",
+      "respuesta": "El español crecerá moderadamente en número de hablantes, pero disminuirá su porcentaje respecto a población mundial. Factores positivos: demanda educativa, crecimiento en América Latina (México, Colombia, Perú), comunidad hispana en EE. UU., globalización cultural (música, cine, series), y digitalización. Factores negativos: fragmentación, influencia del inglés, asimilación en EE. UU., y falta de unidad normativa. El español se mantendrá entre las 3-4 lenguas más habladas globalmente."
+    },
+    {
+      "id": 85,
+      "nombre": "Normativa y prescripción lingüística",
+      "teoria": "La normativa lingüística establece las formas consideradas 'correctas' (prescripción). La RAE y las academias americanas dictan la norma estándar. La prescripción puede reflejar ideologías y clases sociales (la norma culta vs populares). Hay tensiones entre descriptivismo (cómo se habla realmente) y prescriptivismo (cómo se debería hablar).",
+      "ejemplo": "Ejemplo de prescripción: la RAE desaconseja el dequeísmo ('pienso de que') y laísmo ('la dije'). Sin embargo, muchas personas lo usan en el habla coloquial. La Academia adapta sus recomendaciones ('solo' sin tilde, 'sólo' recomendable si hay ambigüedad).",
+      "ejercicio": "¿Qué es la prescripción lingüística? ¿Cuál es el papel de la RAE?",
+      "respuesta": "Prescripción: dictar normas de corrección. La RAE 'limpia, fija y da esplendor' a la lengua, pero su enfoque es ahora más descriptivista (reconocer variedades). El problema: la norma puede estigmatizar variedades no estándar (andaluz, canario, indígena). La prescripción es útil para la enseñanza y la comunicación formal, pero no debe despreciar variación natural. Actualmente, la RAE promueve el 'panhispanismo' (reconocimiento de variedades americanas)."
+    },
+    {
+      "id": 86,
+      "nombre": "Panhispanismo y unidad del español",
+      "teoria": "El panhispanismo es la idea de unidad del español, reconociendo su diversidad. La ASALE (Asociación de Academias de la Lengua Española) agrupa 23 academias. Se promueve una normativa panhispánica que integre variedades americanas y española. El 'español neutro' usado en doblajes es un ejemplo de variedad supranacional.",
+      "ejemplo": "Ejemplo panhispanismo: la 'Ortografía de la lengua española' (2010) es panhispánica. El 'Diccionario de la lengua española' incluye americanismos. El 'Diccionario panhispánico de dudas' resuelve variaciones. El 'español neutro' de doblaje evoca unidad.",
+      "ejercicio": "¿Qué es el panhispanismo? ¿Cómo se manifiesta en las políticas de la RAE?",
+      "respuesta": "Panhispanismo: reconocimiento de la unidad del español en su diversidad, sin jerarquizar una variedad sobre otras. La RAE ahora trabaja con academias americanas en obras conjuntas, incluye americanismos, evita eurocentrismo, y fomenta panhispanismo en lemas ('la lengua de todos', 'los hispanohablantes'). El 'español neutro' es una variedad artificial de consenso que busca evitar regionalismos marcados. Críticas: puede ser una forma de estandarización dominante aún europea."
+    },
+    {
+      "id": 87,
+      "nombre": "Lengua y enseñanza: métodos de alfabetización",
+      "teoria": "La alfabetización en español se enseña con métodos: fonético (asociación letra-sonido), global (palabras completas), o mixtos. El español, por su ortografía transparente, facilita el método fonético. La conciencia fonológica es clave. Los métodos deben adaptarse a contextos bilingües.",
+      "ejemplo": "Ejemplo método fonético: enseñar la 'a', luego 'm', luego 'ma', luego 'mamá'. Método global: enseñar 'mamá' como palabra completa. El fonético es más efectivo en español por su transparencia.",
+      "ejercicio": "¿Qué método de alfabetización es más adecuado para español y por qué?",
+      "respuesta": "El método fonético (fónico) es más adecuado por la transparencia ortográfica: una letra representa normalmente un sonido. Permite decodificar rápidamente. El método global es más útil para palabras irregulares y en lenguas opacas como inglés. En español, combinaciones funcionan: fonético para decodificación, global para palabras muy frecuentes y comprensión lectora. La conciencia fonológica es esencial."
+    },
+    {
+      "id": 88,
+      "nombre": "Lengua y educación bilingüe",
+      "teoria": "La educación bilingüe puede ser: inmersión (aprender en L2), mantenimiento (L1 como soporte), transicional (L2 progresiva), o bilingüe dual (ambas lenguas). En España, educación bilingüe español-catalán, euskera, gallego; en América, español-lengua indígena o español-inglés. Los modelos varían en efectividad.",
+      "ejemplo": "Ejemplo: ikastolas en País Vasco (inmersión en euskera). Cataluña: inmersión en catalán con español como asignatura. Paraguay: educación bilingüe español-guaraní. Chile: programas de inmersión en inglés.",
+      "ejercicio": "¿Qué modelos de educación bilingüe existen en el mundo hispano?",
+      "respuesta": "1) Inmersión total (Cataluña, euskera). 2) Bilingüe dual (Paraguay: español-guaraní). 3) Mantenimiento de lengua indígena con español progresivo (Perú, Bolivia, México). 4) Bilingüe de élite (colegios privados español-inglés). 5) Transicional (castellanización de indígenas). La efectividad depende de estatus de las lenguas, formación docente, materiales, y apoyo familiar. Los programas de inmersión han revitalizado catalán y euskera."
+    },
+    {
+      "id": 89,
+      "nombre": "Lengua y diversidad en el aula",
+      "teoria": "En aulas multilingües hispanas, se hablan español, lenguas indígenas, lenguas cooficiales, lenguas inmigradas, y variedades dialectales. La diversidad lingüística es un reto y una riqueza. Los docentes deben valorar todas las variedades, evitar la estigmatización de dialectos no estándar, y promover el respeto.",
+      "ejemplo": "Ejemplo: aula en Cataluña con alumnos de habla catalana, española, rumana, marroquí, china. El maestro debe integrar todas las lenguas, usar el catalán como lengua vehicular pero respetar otras. En Andalucía, evitar que el andaluz sea estigmatizado.",
+      "ejercicio": "¿Cómo debe gestionar un docente la diversidad lingüística en el aula hispana?",
+      "respuesta": "Valorar todas las variedades como legítimas, promover el respeto, usar la norma estándar para escritura formal pero no despreciar dialectos, integrar lenguas de los alumnos en actividades, crear materiales inclusivos, y evitar comparaciones jerárquicas. La diversidad es recurso didáctico: comparar dialectos, estudiar variación, fomentar reflexión metalingüística. El docente debe ser modelo de actitud positiva hacia la diversidad."
+    },
+    {
+      "id": 90,
+      "nombre": "Lengua y política educativa en España",
+      "teoria": "La política educativa en España sobre lenguas es competencia autonómica. Cada comunidad establece su modelo de lengua vehicular. Cataluña: inmersión en catalán; País Vasco: modelos A (español con euskera asignatura), B (bilingüe), D (inmersión euskera); Galicia: gallego en educación. Existe debate sobre la inmersión.",
+      "ejemplo": "Ejemplo: en Cataluña, la ley establece que el catalán es lengua vehicular y el español es asignatura. El Tribunal Constitucional ha avalado la inmersión pero exigido que el español sea lengua vehicular en un 25% de las horas.",
+      "ejercicio": "Describe los modelos educativos en las comunidades bilingües de España.",
+      "respuesta": "Cataluña: inmersión lingüística en catalán (excepto asignatura de español). Baleares: similar. Comunidad Valenciana: valenciano y español, con distribución variable. Galicia: programas de inmersión en gallego (más en zonas rurales) o bilingüe. País Vasco: Modelo A (castellano con euskera asignatura), Modelo B (bilingüe), Modelo D (inmersión euskera). Navarra: zonas vascófonas y no vascófonas. La elección de modelo es política y educativa."
+    },
+    {
+      "id": 91,
+      "nombre": "Lengua y política educativa en América Latina",
+      "teoria": "En América Latina, las políticas educativas sobre lengua indígena varían: algunos países tienen educación bilingüe intercultural (Bolivia, Perú, Ecuador, México, Guatemala, Paraguay), otros han sido asimilacionistas. La EIB busca enseñar en lengua materna indígena y español progresivamente.",
+      "ejemplo": "Ejemplo: Bolivia (Ley Educativa Avelino Siñani-Elizardo Pérez): educación bilingüe intercultural, con lenguas originarias como vehiculares en zonas indígenas. Paraguay: educación bilingüe español-guaraní, con resultados variables. México: programas de educación indígena.",
+      "ejercicio": "¿Qué es la educación bilingüe intercultural (EIB) en América Latina?",
+      "respuesta": "Es un modelo que integra lengua materna indígena y español, valorando la cultura indígena. Objetivos: alfabetización en lengua materna, mantenimiento de lengua y cultura, aprendizaje progresivo del español para integración social, sin desmedro de la lengua originaria. Desafíos: falta de materiales, formación docente, estatus de lenguas, y financiamiento. Países con EIB: Bolivia, Perú, Ecuador, Guatemala, México, Paraguay (guaraní). La EIB es más política que práctica en muchos casos."
+    },
+    {
+      "id": 92,
+      "nombre": "Lengua y materiales didácticos",
+      "teoria": "Los materiales didácticos para español deben considerar la diversidad de variedades. Los textos escolares suelen usar una norma estándar (peninsular o americana según el país). Hay tensiones entre enseñar la norma culta y respetar dialectos. Los materiales deben incluir variación y evitar estereotipos regionales.",
+      "ejemplo": "Ejemplo: un libro de texto en México usará 'ustedes', 'carro', 'computadora'; en España usará 'vosotros', 'coche', 'ordenador'. Los materiales para ELE (español lengua extranjera) a veces adoptan 'español neutro' (con mezcla).",
+      "ejercicio": "¿Cómo deben abordar los materiales didácticos la variación dialectal del español?",
+      "respuesta": "Los materiales deben: 1) enseñar una norma estándar como referencia, 2) presentar variación dialectal como enriquecimiento, no como error, 3) evitar estereotipos, 4) incluir ejemplos de distintas variedades, 5) fomentar reflexión sobre variación, 6) adaptarse al contexto geográfico. En ELE, el 'español neutro' es una simplificación, pero se recomienda exposición a variedades reales. Los materiales deben evitar jerarquizar variedades."
+    },
+    {
+      "id": 93,
+      "nombre": "Lengua y formación de docentes",
+      "teoria": "La formación de docentes de español debe incluir: conocimiento de la norma estándar, sensibilidad hacia la variación dialectal, estrategias para gestionar la diversidad lingüística en el aula, y competencia para enseñar a hablantes no nativos (ELE). Muchos docentes tienen actitudes prescriptivistas excesivas.",
+      "ejemplo": "Ejemplo: un docente andaluz puede corregir rasgos andaluces (como aspiración de 's') en nombre de la norma, estigmatizando a sus alumnos. Debería distinguir entre registro formal (pulir la 's') y aceptación de la variedad dialectal.",
+      "ejercicio": "¿Qué competencias lingüísticas y actitudinales debe tener un docente de español?",
+      "respuesta": "Competencias: conocimiento de gramática normativa y descriptiva, capacidad de análisis dialectal, manejo de diversidad lingüística, diseño de materiales inclusivos, evaluación no discriminatoria. Actitudes: respeto por todas las variedades, conciencia de que la norma es convención, no superioridad, capacidad de motivar a estudiantes de todas las procedencias, fomento de actitudes positivas hacia la diversidad lingüística, y autorreflexión sobre sus propios prejuicios lingüísticos."
+    },
+    {
+      "id": 94,
+      "nombre": "Lengua y evaluación en contextos multilingües",
+      "teoria": "La evaluación del lenguaje en contextos multilingües debe considerar la diversidad de variedades. No se debe penalizar rasgos dialectales no estándar si no afectan la comunicación. La evaluación debe distinguir entre errores (violaciones de la norma) y variación dialectal legítima. La EIB evalúa competencia en lengua indígena y español.",
+      "ejemplo": "Ejemplo: evaluar un texto escrito en andaluz con aspiraciones ('loh niño'): puede penalizarse si se exige norma estándar, o aceptarse si se valora la variedad. La evaluación de lengua extranjera debe diferenciar interferencia de error.",
+      "ejercicio": "¿Qué consideraciones debe tener la evaluación lingüística en contextos de diversidad?",
+      "respuesta": "1) Distinguir error de variación dialectal legítima. 2) Evaluar comprensión y comunicación, no solo forma. 3) Usar criterios explícitos sobre qué se evalúa. 4) Ser sensible a la procedencia del estudiante. 5) En ELE, aceptar rasgos de variedades. 6) En EIB, evaluar ambas lenguas por separado. 7) Formar evaluadores en conciencia dialectal. 8) Usar múltiples instrumentos. 9) Evitar estigmatización. Las pruebas estandarizadas deben ser justas para hablantes de diferentes variedades."
+    },
+    {
+      "id": 95,
+      "nombre": "Lengua y tecnología educativa",
+      "teoria": "La tecnología educativa (plataformas, apps, MOOCs) ofrece recursos para aprender y enseñar español. Incluyen diccionarios en línea (RAE, ASALE), corpus (CREA, CORPES, CORDE), aplicaciones de aprendizaje (Duolingo, Babbel), y herramientas de análisis lingüístico. La tecnología puede democratizar el acceso.",
+      "ejemplo": "Ejemplo: Duolingo enseña español con ejercicios gamificados. El corpus CREA (RAE) permite buscar ejemplos reales. Los MOOC de español en línea (Universidad Autónoma de Barcelona, Instituto Cervantes) ofrecen cursos gratuitos.",
+      "ejercicio": "¿Qué recursos tecnológicos existen para el estudio del español?",
+      "respuesta": "Diccionarios en línea (DLE, ASALE, Clave, María Moliner). Corpus (CREA, CORPES siglo XXI, CORDE, Corpus del Español, CCM). Aplicaciones de enseñanza (Duolingo, Babbel, Rosetta Stone, Busuu). Plataformas de cursos (Coursera, EdX, Miríadax). Herramientas de análisis (TreeTagger, Freeling, Sketch Engine). Redes sociales y foros. La tecnología facilita aprendizaje autónomo y exposición a variedades."
+    },
+    {
+      "id": 96,
+      "nombre": "Lengua y corpus lingüísticos",
+      "teoria": "Los corpus lingüísticos son colecciones electrónicas de textos reales (orales y escritos) que permiten estudiar el uso auténtico del español. Ejemplos: CREA (corpus de referencia del español actual), CORDE (corpus diacrónico), CORPES XXI (corpus del siglo XXI), y corpus regionales. Son herramientas de investigación.",
+      "ejemplo": "Ejemplo: el CREA tiene 160 millones de formas, equilibrado por geografía y medio. Permite buscar frecuencias, colocaciones, y contextos. Se usa para lexicografía, gramática, enseñanza.",
+      "ejercicio": "¿Para qué sirven los corpus lingüísticos del español?",
+      "respuesta": "Para: estudiar el uso real, no solo la intuición. Analizar frecuencias, colocaciones, preferencias dialectales, evolución histórica. Crear diccionarios basados en evidencia. Validar reglas gramaticales. Enseñar con ejemplos reales. Investigar variación diatópica, diacrónica, diastrática. Ejemplos: RAE usa corpus para actualizar diccionario. Los corpus permiten 'lingüística de corpus' con métodos cuantitativos. Son herramientas esenciales para la investigación actual."
+    },
+    {
+      "id": 97,
+      "nombre": "Lengua y estudios de percepción",
+      "teoria": "Los estudios de percepción lingüística indagan cómo los hablantes evalúan variedades dialectales. Técnicas: matched guise (una misma persona habla dos variedades), encuestas de actitudes. Se ha estudiado la percepción del andaluz, mexicano, rioplatense, caribeño, etc., mostrando estereotipos (prestigio, amabilidad, inteligencia).",
+      "ejemplo": "Ejemplo: estudio muestra que el español de Madrid se percibe como 'correcto' pero 'frío'; el andaluz como 'gracioso' pero 'inculto'; el mexicano como 'dulce', 'educado'; el rioplatense como 'agradable', 'melódico'.",
+      "ejercicio": "¿Qué métodos se usan para estudiar las actitudes hacia variedades del español?",
+      "respuesta": "Matched guise técnica (un hablante bilingüe simula dos variedades, se pide evaluación). Encuestas de actitudes (preguntas explícitas). Tareas de asociación implícita (IAT). Test de inteligencia lingüística. Los estudios revelan estereotipos y prejuicios (estigmatización de andaluz, caribeño; prestigio de castellano norteño). También se estudia la percepción de acentos extranjeros. Los métodos mixtos combinan cuantitativos y cualitativos."
+    },
+    {
+      "id": 98,
+      "nombre": "Lengua y cambio lingüístico en curso",
+      "teoria": "El español está cambiando actualmente: pérdida de 'vosotros', expansión del seseo, yeísmo, leísmo/laísmo, dequeísmo, voseo, extensión del pretérito perfecto simple en zonas donde se usaba compuesto, anglicismos, lenguaje inclusivo, y cambios en la cortesía digital. Los jóvenes son agentes de cambio.",
+      "ejemplo": "Ejemplo: en España, el pretérito perfecto compuesto ('he ido') retrocede en favor del simple ('fui') en ciertas áreas. En América, el voseo se expande. El leísmo está variando. Los adolescentes innovan en léxico.",
+      "ejercicio": "¿Qué cambios lingüísticos se están produciendo en el español contemporáneo?",
+      "respuesta": "Cambios en curso: 1) Pérdida de distinción s/θ en áreas de España por influencia americana. 2) Expansión del voseo. 3) Aumento del leísmo de persona. 4) Dequeísmo (aún estigmatizado). 5) Anglicismos léxicos masivos. 6) Simplificación del subjuntivo en algunas áreas. 7) Lenguaje inclusivo (artificial, de debate). 8) Cambios en la cortesía digital (punto final como enfado). 9) Regionalización del léxico. Los jóvenes son innovadores. Cambio es normal y no 'decadencia'."
+    },
+    {
+      "id": 99,
+      "nombre": "Lengua y globalización",
+      "teoria": "La globalización afecta al español: expansión internacional, influencia del inglés (anglicismos), homogenización de variedades (lenguaje de medios), y mayor contacto entre dialectos. El español se fortalece en EE. UU., pero con riesgo de spanglish. Surgen nuevas variedades (español global).",
+      "ejemplo": "Ejemplo: el español de los medios (CNN en español) es un estándar supranacional que tiende a neutralizar regionalismos. Las series y películas difunden variedades (colombiana, mexicana, española) y crean un 'español audiovisual' mixto.",
+      "ejercicio": "¿Cómo influye la globalización en la evolución del español?",
+      "respuesta": "Globalización: 1) Expansión del español (enseñanza, cultura, economía). 2) Anglicismos masivos (tecnología, negocios, música). 3) Homogenización mediática (reducción de dialectalismo extremo). 4) Spanglish en zonas de contacto. 5) Emergencia de nuevas variedades (español global, neutro). 6) Desplazamiento de lenguas indígenas. 7) Debilitamiento de tradiciones dialectales. 8) Aumento de conciencia panhispánica. La globalización crea tensión entre unidad y diversidad. Las nuevas generaciones adoptan rasgos supranacionales."
+    },
+    {
+      "id": 100,
+      "nombre": "Lengua y derechos lingüísticos",
+      "teoria": "Los derechos lingüísticos incluyen el derecho a usar la propia lengua en privado y público, a recibir educación en ella, a servicios públicos en lenguas minoritarias, a no ser discriminado por la lengua, y a la conservación del patrimonio lingüístico. En España y América Latina, existen leyes que protegen lenguas indígenas y cooficiales.",
+      "ejemplo": "Ejemplo: la Constitución española (1978) reconoce lenguas cooficiales. Declaración Universal de Derechos Lingüísticos (1996). Ley de derechos lingüísticos de Bolivia (2009).",
+      "ejercicio": "¿Cuáles son los derechos lingüísticos fundamentales según la UNESCO?",
+      "respuesta": "Derechos: a ser reconocido como miembro de una comunidad lingüística; al uso de la lengua en privado y público; a la educación en la lengua materna; a servicios públicos en la lengua propia; a que la lengua sea enseñada en escuelas; a la no discriminación por la lengua; a la representación en instituciones; a la producción cultural; a la transmisión intergeneracional. Las lenguas minoritarias tienen derecho a protección y promoción. La violación de derechos lingüísticos es forma de discriminación."
+    }
+  ]
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Flashback (analepsis)",
+    "category": "Manejo del tiempo",
+    "teoria": "Salto atrás en el tiempo narrativo para mostrar eventos ocurridos antes del momento actual de la historia.",
+    "ejemplo": "En 'El beso de la mujer araña', Molina recuerda su vida antes de la cárcel mediante analepsis.",
+    "ejercicio": "Escribe un breve párrafo que comience con un recuerdo inesperado.",
+    "suggestedAnswer": "Mientras miraba el mar, recordó aquella tarde de lluvia cuando su padre le enseñó a pescar."
+  },
+  {
+    "id": 2,
+    "name": "Racconto",
+    "category": "Manejo del tiempo",
+    "teoria": "Relato retrospectivo extenso donde un personaje narra un suceso pasado, a menudo en estilo oral o testimonial.",
+    "ejemplo": "En 'Pedro Páramo', Juan Preciado escucha la historia del pueblo a través de voces del pasado.",
+    "ejercicio": "Comienza un racconto con las palabras 'Nunca le había contado esto a nadie, pero...'",
+    "suggestedAnswer": "Nunca le había contado esto a nadie, pero aquella noche en la selva, los árboles empezaron a susurrar nombres de muertos."
+  },
+  {
+    "id": 3,
+    "name": "Flashforward (prolepsis)",
+    "category": "Manejo del tiempo",
+    "teoria": "Anticipación de un evento futuro dentro de la narración, rompiendo la linealidad temporal.",
+    "ejemplo": "Años después, al pie del pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde.",
+    "ejercicio": "Escribe una oración con flashforward al estilo de Cien años de soledad.",
+    "suggestedAnswer": "Muchos años después, cuando ya nada quedara del pueblo, ella seguiría esperando junto a la ventana."
+  },
+  {
+    "id": 4,
+    "name": "Elipsis narrativa",
+    "category": "Manejo del tiempo",
+    "teoria": "Omisión de un período temporal que no se considera relevante, creando un salto temporal.",
+    "ejemplo": "En 'Doña Bárbara', se omiten años enteros de la vida de Santos Luzardo.",
+    "ejercicio": "Crea una elipsis de cinco años en una frase.",
+    "suggestedAnswer": "Pasaron cinco años. Cuando regresó, el pueblo ya no era el mismo."
+  },
+  {
+    "id": 5,
+    "name": "Tiempo circular",
+    "category": "Manejo del tiempo",
+    "teoria": "La narración no avanza linealmente sino que vuelve al punto de inicio, creando una sensación de ciclo o destino.",
+    "ejemplo": "En 'Pedro Páramo', el tiempo parece detenido y repetirse; en 'Rayuela', la lectura circular.",
+    "ejercicio": "Diseña un final que remita al comienzo de la historia.",
+    "suggestedAnswer": "Y así, sin saberlo, había vuelto al mismo banco del parque donde todo empezó."
+  },
+  {
+    "id": 6,
+    "name": "Tiempo detenido (cronotopo estático)",
+    "category": "Manejo del tiempo",
+    "teoria": "El tiempo parece no avanzar; los personajes viven en un presente eterno, como en los purgatorios literarios.",
+    "ejemplo": "Comala en 'Pedro Páramo' es un pueblo de muertos donde el tiempo no transcurre.",
+    "ejercicio": "Describe un lugar donde el tiempo parezca haberse detenido.",
+    "suggestedAnswer": "El reloj de la plaza marcaba siempre las tres y cuarto; nadie recordaba cuándo se había parado."
+  },
+  {
+    "id": 7,
+    "name": "Multiperspectivismo",
+    "category": "Punto de vista",
+    "teoria": "Una misma historia contada desde múltiples puntos de vista, ofreciendo versiones contradictorias o complementarias.",
+    "ejemplo": "La muerte de Artemio Cruz (Fuentes) alterna voces en primera, segunda y tercera persona.",
+    "ejercicio": "Cuenta un mismo suceso desde la perspectiva de dos personajes opuestos.",
+    "suggestedAnswer": "Ella recordó el beso como un gesto de pasión; él, como una despedida."
+  },
+  {
+    "id": 8,
+    "name": "Narrador múltiple",
+    "category": "Punto de vista",
+    "teoria": "Varios narradores se turnan para contar la historia, a veces sin identificarse explícitamente.",
+    "ejemplo": "La villa de las telas (novela), pero en hispanoamérica, 'El obsceno pájaro de la noche' de Donoso.",
+    "ejercicio": "Escribe dos frases: la primera con un narrador adulto, la segunda con un narrador niño.",
+    "suggestedAnswer": "El amor es una trampa. Los grandes siempre dicen esas cosas raras."
+  },
+  {
+    "id": 9,
+    "name": "Narrador testigo",
+    "category": "Punto de vista",
+    "teoria": "Narrador en primera persona que no es el protagonista, sino un observador que cuenta lo que ve.",
+    "ejemplo": "En 'El ojo del amo', no es el caso; mejor 'La señora Muñoz' de Saer.",
+    "ejercicio": "Escribe un párrafo con narrador testigo de una pelea.",
+    "suggestedAnswer": "Desde la esquina lo vi todo: él gritaba, ella lloraba, y yo no pude moverme."
+  },
+  {
+    "id": 10,
+    "name": "Narrador en segunda persona",
+    "category": "Punto de vista",
+    "teoria": "El narrador se dirige a un 'tú' que puede ser el lector, un personaje o el propio protagonista desdoblado.",
+    "ejemplo": "En 'La ciudad ausente' de Piglia, y en Rayuela se usa el 'tú'.",
+    "ejercicio": "Inicia un cuento en segunda persona.",
+    "suggestedAnswer": "Entras al café, sabes que ella no vendrá, pero igual esperas."
+  },
+  {
+    "id": 11,
+    "name": "Narrador equívoco (no confiable)",
+    "category": "Punto de vista",
+    "teoria": "Narrador que miente, olvida o distorsiona los hechos, dejando al lector la tarea de descubrir la verdad.",
+    "ejemplo": "El narrador de 'El túnel' (Sábato) es un asesino que justifica su crimen.",
+    "ejercicio": "Escribe una frase donde el narrador admita que no es confiable.",
+    "suggestedAnswer": "Podría jurar que vi un fantasma, pero esa noche había bebido demasiado."
+  },
+  {
+    "id": 12,
+    "name": "Monólogo interior",
+    "category": "Flujo de conciencia",
+    "teoria": "Representación directa del pensamiento del personaje, sin orden lógico ni puntuación convencional.",
+    "ejemplo": "Fragmentos de 'Rayuela' de Cortázar.",
+    "ejercicio": "Escribe tres líneas de monólogo interior.",
+    "suggestedAnswer": "La puerta... ese ruido... el teléfono no suena... y ella... ya no volverá."
+  },
+  {
+    "id": 13,
+    "name": "Flujo de conciencia (stream of consciousness)",
+    "category": "Flujo de conciencia",
+    "teoria": "Técnica que intenta reproducir el fluir del pensamiento humano, con asociaciones libres y saltos temporales.",
+    "ejemplo": "En 'Rayuela' y en 'La casa verde' de Vargas Llosa (menos). Joyce es el referente.",
+    "ejercicio": "Redacta una oración que imite el flujo de pensamiento.",
+    "suggestedAnswer": "La lluvia que caía sobre el zinc como tambores lejanos y ella que decía no me esperes y el café se enfriaba en la mesa como el tiempo."
+  },
+  {
+    "id": 14,
+    "name": "Discurso indirecto libre",
+    "category": "Estilo",
+    "teoria": "Mezcla la voz del narrador con los pensamientos del personaje, sin verbos introductorios ni comillas.",
+    "ejemplo": "En 'Cien años de soledad': 'Amaranta recordaba entonces... pero era tarde'.",
+    "ejercicio": "Convierte 'Pensó que ya era tarde' a estilo indirecto libre.",
+    "suggestedAnswer": "Ya era tarde. Las sombras se alargaban en el patio."
+  },
+  {
+    "id": 15,
+    "name": "Estilo telegráfico",
+    "category": "Estilo",
+    "teoria": "Oraciones muy cortas, eliminación de conectores, predominio delipsis, genera ritmo rápido y tensión.",
+    "ejemplo": "Cuentos de Quiroga y de Juan Rulfo.",
+    "ejercicio": "Escribe un párrafo telegráfico de 3 oraciones muy breves.",
+    "suggestedAnswer": "Sonó el teléfono. Nadie contestó. Silencio."
+  },
+  {
+    "id": 16,
+    "name": "Estructura fragmentaria",
+    "category": "Estructura",
+    "teoria": "La obra se compone de fragmentos, viñetas o capítulos prescindibles que pueden leerse en desorden.",
+    "ejemplo": "Rayuela de Cortázar, con su 'tablero de dirección'.",
+    "ejercicio": "Describe cómo organizarías una novela fragmentaria.",
+    "suggestedAnswer": "Capítulos numerados, pero con un índice que propone dos recorridos posibles: uno lineal y otro saltando del 1 al 73."
+  },
+  {
+    "id": 17,
+    "name": "Estructura de caja china (relato dentro del relato)",
+    "category": "Estructura",
+    "teoria": "Narración que contiene otra narración, y ésta a veces otra más, como muñecas rusas.",
+    "ejemplo": "En 'El zahir' de Borges, o en 'Cien años de soledad' con el manuscrito de Melquíades.",
+    "ejercicio": "Escribe dos niveles de relato: un narrador que cuenta cómo otro personaje le contó una historia.",
+    "suggestedAnswer": "Juan me dijo que una vez su abuela le había susurrado: 'Los muertos no se van del todo mientras haya quien los recuerde'."
+  },
+  {
+    "id": 18,
+    "name": "Metalepsis narrativa",
+    "category": "Metaficción",
+    "teoria": "Transgresión de los niveles narrativos: el narrador interactúa con los personajes o el personaje cruza al mundo real.",
+    "ejemplo": "En 'Rayuela', el narrador habla del lector. En 'El Quijote' (pero no es hispanoamericana). Ejemplo: Cortázar.",
+    "ejercicio": "Escribe una frase metaléptica donde un personaje hable al autor.",
+    "suggestedAnswer": "El personaje cerró el libro y me dijo: '¿tú crees que existo?'."
+  },
+  {
+    "id": 19,
+    "name": "Metaficción",
+    "category": "Metaficción",
+    "teoria": "La obra reflexiona sobre su propia condición de ficción, haciendo evidente el artificio literario.",
+    "ejemplo": "En 'El otoño del patriarca' (García Márquez), el narrador parodia la escritura de una biografía.",
+    "ejercicio": "Escribe una frase metaficticia.",
+    "suggestedAnswer": "El escritor dudó: si ponía aquí un beso, tal vez el lector sonreiría, pero eso sería demasiado fácil."
+  },
+  {
+    "id": 20,
+    "name": "Parodia de géneros",
+    "category": "Metaficción",
+    "teoria": "Imitación burlona de un género literario (novela policial, romántica, de aventuras) subvirtiendo sus convenciones.",
+    "ejemplo": "La tía Julia y el escribidor (Vargas Llosa) parodia los folletines radiofónicos.",
+    "ejercicio": "Parodia un cliché de la novela romántica.",
+    "suggestedAnswer": "La luna, testigo de su amor imposible, se ocultó tras una nube (y al lector le dio vergüenza ajena)."
+  },
+  {
+    "id": 21,
+    "name": "Intertextualidad",
+    "category": "Recursos",
+    "teoria": "Presencia de otros textos dentro de una obra (citas, alusiones, pastiches).",
+    "ejemplo": "La ciudad de los espejos de Piglia cita a Borges.",
+    "ejercicio": "Escribe una frase que aluda a la Odisea.",
+    "suggestedAnswer": "Vagó tantos años que sus hijos crecieron sin conocer su rostro."
+  },
+  {
+    "id": 22,
+    "name": "Palimpsesto",
+    "category": "Recursos",
+    "teoria": "Texto que reescribe o borra otro texto anterior, dejando huellas.",
+    "ejemplo": "El Quijote es un palimpsesto de los libros de caballerías, pero en Hispanoamérica, 'El secreto de la noche' de...",
+    "ejercicio": "Imagina una novela que reescribe un clásico desde la perspectiva de un personaje secundario.",
+    "suggestedAnswer": "Yo, la hermana olvidada de Cien años de soledad: memorias de Amaranta."
+  },
+  {
+    "id": 23,
+    "name": "El narrador infantil",
+    "category": "Punto de vista",
+    "teoria": "La voz narrativa es la de un niño, con su lenguaje limitado y su mirada ingenua o extrañada.",
+    "ejemplo": "El niño que enloqueció de amor (Eduardo Barrios, chileno).",
+    "ejercicio": "Escribe una frase desde la perspectiva de un niño en un velorio.",
+    "suggestedAnswer": "El abuelo estaba quieto, pero yo pensaba que solo dormía una siesta larga y que despertaría."
+  },
+  {
+    "id": 24,
+    "name": "Narrador omnisciente equisciente (Sábato)",
+    "category": "Punto de vista",
+    "teoria": "Narrador en tercera persona que solo conoce los pensamientos de un personaje (perspectiva limitada).",
+    "ejemplo": "El túnel de Sábato: el narrador conoce la mente del protagonista, pero no los pensamientos de los demás.",
+    "ejercicio": "Narra desde una tercera persona que solo sabe lo que siente el protagonista.",
+    "suggestedAnswer": "Él la observaba desde la ventana. No podía saber si ella también lo miraba."
+  },
+  {
+    "id": 25,
+    "name": "Narrador omnisciente tradicional",
+    "category": "Punto de vista",
+    "teoria": "Narrador que lo sabe todo: pensamientos de todos los personajes, pasado, futuro y juicios de valor.",
+    "ejemplo": "Cien años de soledad (aunque a veces se limita).",
+    "ejercicio": "Escribe una frase omnisciente que revele el pensamiento de dos personajes en conflicto.",
+    "suggestedAnswer": "Él planeaba abandonarla, mientras ella soñaba con la boda."
+  },
+  {
+    "id": 26,
+    "name": "Punto de vista cambiante",
+    "category": "Punto de vista",
+    "teoria": "La perspectiva narrativa cambia a lo largo de la obra, alternando entre distintos personajes o tipos de narrador.",
+    "ejemplo": "La casa de los espíritus (Allende) alterna narradores.",
+    "ejercicio": "Plantea un cambio de narrador en medio de una escena.",
+    "suggestedAnswer": "Él creyó que era el momento perfecto. Para ella, era el peor de su vida."
+  },
+  {
+    "id": 27,
+    "name": "Estructura circular (cíclica)",
+    "category": "Estructura",
+    "teoria": "La historia termina donde empezó, o se repite un mismo suceso, reforzando la idea de destino.",
+    "ejemplo": "Cien años de soledad: la historia de Macondo termina cuando se lee la profecía que anunciaba su destrucción.",
+    "ejercicio": "Escribe un final que retome la primera línea de la historia.",
+    "suggestedAnswer": "Y así, sin saber cómo, se encontró otra vez frente a la puerta del café de la esquina, como al principio."
+  },
+  {
+    "id": 28,
+    "name": "Viaje iniciático (bildungsroman)",
+    "category": "Trama",
+    "teoria": "Narrativa que sigue la formación moral, psicológica o social de un protagonista desde la juventud hasta la madurez.",
+    "ejemplo": "Los ríos profundos (Arguedas), El mundo es ancho y ajeno (Alegría).",
+    "ejercicio": "Describe una escena de aprendizaje clave en la vida de un personaje.",
+    "suggestedAnswer": "Esa noche, solo frente al mar, entendió que la valentía no era no tener miedo, sino seguir a pesar de él."
+  },
+  {
+    "id": 29,
+    "name": "Novela epistolar",
+    "category": "Formato",
+    "teoria": "Relato construido a partir de cartas, diarios o documentos escritos por los personajes.",
+    "ejemplo": "Querido Diego, te abraza Quiela (Poniatowska).",
+    "ejercicio": "Escribe la primera frase de una carta que inicie una novela epistolar.",
+    "suggestedAnswer": "Querida Elena: Desde que te fuiste, he guardado todas las cartas que no te atreviste a leer."
+  },
+  {
+    "id": 30,
+    "name": "Diario íntimo como estructura",
+    "category": "Formato",
+    "teoria": "La obra se presenta como la transcripción de un diario personal, a menudo con fechas y reflexiones subjetivas.",
+    "ejemplo": "El diario de Helena Moro (Silvina Ocampo).",
+    "ejercicio": "Escribe una entrada de diario ficticia que revele un secreto.",
+    "suggestedAnswer": "29 de mayo. Nunca se lo dije a nadie, pero aquella noche yo también estaba en el muelle."
+  },
+  {
+    "id": 31,
+    "name": "Documento encontrado",
+    "category": "Recursos",
+    "teoria": "La historia es presentada como un manuscrito hallado por azar, creando una distancia narrativa.",
+    "ejemplo": "El manuscrito de Melquíades en Cien años de soledad.",
+    "ejercicio": "Empieza un cuento con 'Al abrir el viejo baúl, encontró...'",
+    "suggestedAnswer": "Al abrir el viejo baúl, encontró un cuaderno con la letra de su abuelo. La primera línea decía: 'Esta es la historia que nunca te conté'."
+  },
+  {
+    "id": 32,
+    "name": "Epígrafe como pista narrativa",
+    "category": "Recursos",
+    "teoria": "El epígrafe anticipa el tema o la estructura de la obra, y puede ser una clave de lectura.",
+    "ejemplo": "Rayuela tiene epígrafes que dialogan con el contenido.",
+    "ejercicio": "Inventa un epígrafe para una historia sobre la memoria.",
+    "suggestedAnswer": "'Recordar es volver a herir. Quien olvida es un traidor.' — Anónimo."
+  },
+  {
+    "id": 33,
+    "name": "Final abierto",
+    "category": "Estructura",
+    "teoria": "La historia no resuelve todos los conflictos, dejando preguntas al lector.",
+    "ejemplo": "El final de 'Rayuela' es abierto (capítulo 56).",
+    "ejercicio": "Escribe una última frase abierta para una novela policial.",
+    "suggestedAnswer": "El detective guardó el revólver, miró el expediente y pensó que quizás nunca se sabría la verdad."
+  },
+  {
+    "id": 34,
+    "name": "Final anticipado (prolepsis trágica)",
+    "category": "Estructura",
+    "teoria": "Se anuncia el desenlace al principio para luego desarrollar cómo se llega a él.",
+    "ejemplo": "Inicio de Cien años de soledad: 'Muchos años después, frente al pelotón...'.",
+    "ejercicio": "Comienza un cuento con 'Años más tarde, ya viejo, él recordaría aquel día...'",
+    "suggestedAnswer": "Años más tarde, ya viejo, él recordaría aquel día de verano en que conoció al amor de su vida."
+  },
+  {
+    "id": 35,
+    "name": "Reducción de distancia entre narrador y lector",
+    "category": "Recursos",
+    "teoria": "Uso de la segunda persona, apelaciones directas, confidencias para acercar al lector.",
+    "ejemplo": "En 'Rayuela', el narrador le habla al lector: 'usted que lee'.",
+    "ejercicio": "Escribe una frase apelando directamente al lector.",
+    "suggestedAnswer": "¿Y usted, querido lector, qué habría hecho en su lugar?"
+  },
+  {
+    "id": 36,
+    "name": "Efecto de extrañamiento (defamiliarización)",
+    "category": "Recursos",
+    "teoria": "Presentar algo cotidiano como extraño o sorprendente, mediante descripciones insólitas.",
+    "ejemplo": "El extrañamiento en 'El perseguidor' de Cortázar, al narrar la genialidad del músico.",
+    "ejercicio": "Describe una cuchara como si la vieras por primera vez.",
+    "suggestedAnswer": "Un objeto convexo, frío al tacto, con un mango que parece esperar ser sostenido por una mano."
+  },
+  {
+    "id": 37,
+    "name": "Suspenso y tensión",
+    "category": "Trama",
+    "teoria": "Mecanismo para mantener la incertidumbre y retrasar la resolución mediante cortes, pistas falsas, etc.",
+    "ejemplo": "En 'La invención de Morel', el enigma sobre la naturaleza de los personajes.",
+    "ejercicio": "Escribe una frase que genere suspenso.",
+    "suggestedAnswer": "Cuando por fin abrió la puerta, el pasillo estaba vacío; pero las huellas en el polvo eran recientes."
+  },
+  {
+    "id": 38,
+    "name": "Clímax y anticlímax",
+    "category": "Trama",
+    "teoria": "El clímax es el momento de mayor tensión; el anticlímax es la resolución decepcionante o cómica.",
+    "ejemplo": "El anticlímax en 'El perseguidor' cuando Johnny no logra lo esperado.",
+    "ejercicio": "Crea un anticlímax humorístico para una situación de peligro.",
+    "suggestedAnswer": "El león rugió, se lanzó sobre él... y le lamió la cara con ternura."
+  },
+  {
+    "id": 39,
+    "name": "Flashback colectivo",
+    "category": "Manejo del tiempo",
+    "teoria": "Varios personajes recuerdan simultáneamente un mismo evento desde perspectivas diferentes.",
+    "ejemplo": "En 'La muerte de Artemio Cruz', los recuerdos se entrecruzan.",
+    "ejercicio": "Describe un recuerdo familiar desde los ojos de dos hermanos distintos.",
+    "suggestedAnswer": "Marta recordaba la cena de Navidad como un momento feliz; para Pablo, fue el principio del fin."
+  },
+  {
+    "id": 40,
+    "name": "Saltos temporales frecuentes",
+    "category": "Manejo del tiempo",
+    "teoria": "La narración no sigue una línea cronológica, sino que avanza y retrocede constantemente.",
+    "ejemplo": "La muerte de Artemio Cruz (Fuentes) alterna pasado, presente y futuro.",
+    "ejercicio": "Escribe una secuencia que vaya del presente a la infancia y luego al futuro.",
+    "suggestedAnswer": "Hoy fuma en la terraza. A los doce años robaba caramelos. Cuando sea viejo, quizás nadie lo recuerde."
+  },
+  {
+    "id": 41,
+    "name": "Uso del presente histórico",
+    "category": "Tiempo verbal",
+    "teoria": "El narrador usa el presente para evocar hechos pasados con mayor inmediatez.",
+    "ejemplo": "En 'El llano en llamas', Rulfo narra a veces en presente: 'Aparece el caballo...'.",
+    "ejercicio": "Reescribe 'Caminó hasta la puerta y la abrió' en presente histórico.",
+    "suggestedAnswer": "Camina hasta la puerta y la abre."
+  },
+  {
+    "id": 42,
+    "name": "Uso del pretérito perfecto compuesto en narrativa",
+    "category": "Tiempo verbal",
+    "teoria": "El pretérito perfecto (he llegado) se usa en el español de España para pasado reciente; en Hispanoamérica a veces se sustituye por pretérito simple.",
+    "ejemplo": "En Cortázar, a veces usa el perfecto: 'No he entendido nada'.",
+    "ejercicio": "Cambia 'Llegó tarde' a pretérito perfecto compuesto.",
+    "suggestedAnswer": "Ha llegado tarde."
+  },
+  {
+    "id": 43,
+    "name": "Uso del pluscuamperfecto para retrocesos",
+    "category": "Tiempo verbal",
+    "teoria": "El pluscuamperfecto (había llegado) marca una acción anterior a otra pasada, útil para analepsis.",
+    "ejemplo": "Cuando llegué, ella ya se había ido.",
+    "ejercicio": "Construye una oración con dos niveles de pasado usando pluscuamperfecto.",
+    "suggestedAnswer": "Ella pensaba que él la había olvidado, pero él nunca dejó de buscarla."
+  },
+  {
+    "id": 44,
+    "name": "Simultaneidad de acciones",
+    "category": "Trama",
+    "teoria": "Dos o más líneas argumentales suceden al mismo tiempo, y el narrador alterna entre ellas.",
+    "ejemplo": "En 'La ciudad y los perros', se cruzan las historias de los cadetes.",
+    "ejercicio": "Escribe dos oraciones que muestren dos acciones simultáneas.",
+    "suggestedAnswer": "Mientras él discutía con su jefe, ella firmaba los papeles del divorcio."
+  },
+  {
+    "id": 45,
+    "name": "Trama en abismo (mise en abyme)",
+    "category": "Estructura",
+    "teoria": "Una historia refleja a otra dentro de la misma obra, como un espejo que se repite al infinito.",
+    "ejemplo": "En 'Rayuela', el capítulo 'El club de la serpiente' y la novela dentro de la novela.",
+    "ejercicio": "Propón una historia dentro de otra historia que la reproduzca a menor escala.",
+    "suggestedAnswer": "El escritor escribe una novela sobre un escritor que escribe una novela sobre un escritor..."
+  },
+  {
+    "id": 46,
+    "name": "Monólogo dramático",
+    "category": "Voz narrativa",
+    "teoria": "Un personaje habla en primera persona, a menudo dirigiéndose a un interlocutor silencioso, revelando su psicología.",
+    "ejemplo": "El monólogo de Artemio Cruz en su lecho de muerte.",
+    "ejercicio": "Escribe una oración que inicie un monólogo dramático.",
+    "suggestedAnswer": "Usted, que nunca entendió mis silencios, ahora tendrá que escucharme."
+  },
+  {
+    "id": 47,
+    "name": "Estilo indirecto",
+    "category": "Estilo",
+    "teoria": "Se reproducen las palabras o pensamientos de un personaje mediante subordinación, con verbo introductorio.",
+    "ejemplo": "Dijo que vendría tarde.",
+    "ejercicio": "Transforma 'Vendré mañana' a estilo indirecto.",
+    "suggestedAnswer": "Dijo que vendría mañana."
+  },
+  {
+    "id": 48,
+    "name": "Estilo directo",
+    "category": "Estilo",
+    "teoria": "Se reproducen las palabras exactas del personaje entre comillas o raya de diálogo.",
+    "ejemplo": "—No voy —dijo él.",
+    "ejercicio": "Escribe un diálogo breve con estilo directo.",
+    "suggestedAnswer": "—¿Te vas? —Sí. —Entonces, adiós."
+  },
+  {
+    "id": 49,
+    "name": "Estilo indirecto libre (repaso)",
+    "category": "Estilo",
+    "teoria": "Fusión de voz narrativa y pensamientos del personaje sin marcas introductorias.",
+    "ejemplo": "Era tarde. No debía haber venido. Pero allí estaba.",
+    "ejercicio": "Transforma 'Pensó que nunca volvería' a indirecto libre.",
+    "suggestedAnswer": "Nunca volvería. El tren se alejaba y con él todas las promesas."
+  },
+  {
+    "id": 50,
+    "name": "Ritmo narrativo (parataxis)",
+    "category": "Estilo",
+    "teoria": "Coordinación de oraciones breves yuxtapuestas, sin subordinaciones, que acelera el ritmo.",
+    "ejemplo": "En Rulfo: 'Llegué a Comala. No había nadie. Las calles estaban vacías.'",
+    "ejercicio": "Escribe un párrafo paratáctico.",
+    "suggestedAnswer": "Abrí los ojos. No vi nada. Escuché un ruido. Me quedé quieto."
+  },
+  {
+    "id": 51,
+    "name": "Ritmo narrativo (hipotaxis)",
+    "category": "Estilo",
+    "teoria": "Uso de oraciones subordinadas y largas, que ralentiza el ritmo y da densidad.",
+    "ejemplo": "Párrafos de Lezama Lima en 'Paradiso'.",
+    "ejercicio": "Escribe una frase hipotáctica larga.",
+    "suggestedAnswer": "Como ya estaba oscureciendo y no había nadie en la calle, decidió que era mejor esperar hasta que su hermano regresara del trabajo."
+  },
+  {
+    "id": 52,
+    "name": "Enumeración caótica",
+    "category": "Estilo",
+    "teoria": "Acumulación desordenada de elementos para crear efecto de saturación o exceso.",
+    "ejemplo": "En 'Paradiso' y en algunos textos de Sarduy.",
+    "ejercicio": "Escribe una enumeración caótica de objetos de una habitación.",
+    "suggestedAnswer": "Una taza quebrada, el reloj sin manecillas, tres calcetines sin par, un paraguas roto, periódicos viejos, una muñeca manchada."
+  },
+  {
+    "id": 53,
+    "name": "Repetición anafórica en narrativa",
+    "category": "Estilo",
+    "teoria": "Repetir una palabra o estructura al comienzo de oraciones consecutivas para enfatizar.",
+    "ejemplo": "En 'El llano en llamas': 'Los perros se fueron. Los perros ladraban. Los perros morían.'",
+    "ejercicio": "Escribe una anáfora narrativa con 'Nadie'.",
+    "suggestedAnswer": "Nadie llegó. Nadie llamó. Nadie recordaba que era su cumpleaños."
+  },
+  {
+    "id": 54,
+    "name": "Analogía y comparación",
+    "category": "Estilo",
+    "teoria": "Establecer semejanzas entre dos elementos para enriquecer la descripción.",
+    "ejemplo": "En 'Cien años de soledad': 'El mundo era tan reciente que muchas cosas carecían de nombre'.",
+    "ejercicio": "Crea una comparación entre la noche y un animal.",
+    "suggestedAnswer": "La noche se extendía como un felino negro sobre el pueblo dormido."
+  },
+  {
+    "id": 55,
+    "name": "Hipérbole narrativa",
+    "category": "Estilo",
+    "teoria": "Exageración para crear un efecto cómico, trágico o maravilloso.",
+    "ejemplo": "En Cien años de soledad: la peste del insomnio que hace olvidar los nombres de las cosas.",
+    "ejercicio": "Exagera la espera de alguien en una estación de tren.",
+    "suggestedAnswer": "Esperó tanto que los rieles se oxidaron, los andenes se llenaron de hierba y las golondrinas cambiaron de ruta."
+  },
+  {
+    "id": 56,
+    "name": "Ironía narrativa",
+    "category": "Estilo",
+    "teoria": "Contraste entre lo que se dice y lo que se quiere dar a entender, a menudo con complicidad con el lector.",
+    "ejemplo": "La ironía en la descripción de los juegos de poder en 'El otoño del patriarca'.",
+    "ejercicio": "Escribe una frase irónica sobre un político corrupto.",
+    "suggestedAnswer": "Don Fulgencio prometió construir un puente y, efectivamente, construyó un lujoso chalet."
+  },
+  {
+    "id": 57,
+    "name": "Sarcasmo en el diálogo",
+    "category": "Estilo",
+    "teoria": "Ironía más agresiva, a menudo en boca de un personaje.",
+    "ejemplo": "En 'La virgen de los sicarios', el personaje principal hace comentarios sarcásticos.",
+    "ejercicio": "Escribe un diálogo con sarcasmo.",
+    "suggestedAnswer": "—Eres un genio. —Gracias, justo lo que quería oír después de perder el tren."
+  },
+  {
+    "id": 58,
+    "name": "Elipsis de pensamiento",
+    "category": "Estilo",
+    "teoria": "Omisión de palabras para que el lector complete el sentido, típico del estilo telegráfico.",
+    "ejemplo": "En Rulfo: '...Pero no; nunca podría contarlo.'",
+    "ejercicio": "Crea una frase con elipsis de pensamiento.",
+    "suggestedAnswer": "Si supiera... pero no, mejor no seguir."
+  },
+  {
+    "id": 59,
+    "name": "Personificación (prosopopeya)",
+    "category": "Estilo",
+    "teoria": "Atribuir cualidades humanas a animales, objetos o ideas abstractas.",
+    "ejemplo": "En 'Alturas de Macchu Picchu', Neruda personifica la piedra.",
+    "ejercicio": "Personifica el viento.",
+    "suggestedAnswer": "El viento susurraba nombres de ausentes entre las rendijas."
+  },
+  {
+    "id": 60,
+    "name": "Sinestesia",
+    "category": "Estilo",
+    "teoria": "Mezcla de sensaciones de distintos sentidos: 'color cálido', 'sonido dulce'.",
+    "ejemplo": "En Lezama Lima: 'El olor de la luz'.",
+    "ejercicio": "Crea una sinestesia con gusto y vista.",
+    "suggestedAnswer": "El atardecer sabía a mango maduro."
+  },
+  {
+    "id": 61,
+    "name": "Oxímoron narrativo",
+    "category": "Estilo",
+    "teoria": "Unión de dos términos de significado opuesto en una misma frase.",
+    "ejemplo": "En 'Cien años de soledad': 'tristeza alegre' (no textual). Ejemplo: 'un silencio atronador'.",
+    "ejercicio": "Construye un oxímoron con 'vida' y 'muerte'.",
+    "suggestedAnswer": "Una vida muerta entre las páginas de un álbum de fotos."
+  },
+  {
+    "id": 62,
+    "name": "Paradoja narrativa",
+    "category": "Estilo",
+    "teoria": "Afirmación aparentemente contradictoria que contiene una verdad profunda.",
+    "ejemplo": "En Borges: 'El tiempo es la sustancia de que estoy hecho'.",
+    "ejercicio": "Escribe una frase paradójica sobre la memoria.",
+    "suggestedAnswer": "Recordar es volver a perder aquello que ya se fue."
+  },
+  {
+    "id": 63,
+    "name": "Metonimia (narrativa)",
+    "category": "Estilo",
+    "teoria": "Designar un concepto por otro con el que guarda relación de contigüidad: 'la corona' por el rey.",
+    "ejemplo": "En los cuentos de Borges: 'La espada' por la autoridad.",
+    "ejercicio": "Usa metonimia para referirte al poder militar.",
+    "suggestedAnswer": "Las botas desfilaron por la avenida."
+  },
+  {
+    "id": 64,
+    "name": "Sinécdoque narrativa",
+    "category": "Estilo",
+    "teoria": "Usar la parte por el todo: 'El pueblo' por sus habitantes.",
+    "ejemplo": "En 'Doña Bárbara': 'El llano' por la vida llanera.",
+    "ejercicio": "Aplica sinécdoque para describir una fábrica.",
+    "suggestedAnswer": "Las chimeneas escupían humo al amanecer."
+  },
+  {
+    "id": 65,
+    "name": "Aliteración narrativa",
+    "category": "Estilo",
+    "teoria": "Repetición de sonidos para crear musicalidad o énfasis.",
+    "ejemplo": "En 'Los ríos profundos': 'el rumor del río'.",
+    "ejercicio": "Crea una aliteración con el sonido /r/ para describir un trueno.",
+    "suggestedAnswer": "El trueno rugía ronco entre las rocas."
+  },
+  {
+    "id": 66,
+    "name": "Onomatopeya",
+    "category": "Estilo",
+    "teoria": "Palabra que imita un sonido real: 'tic tac', 'pum', 'zas'.",
+    "ejemplo": "En cuentos de Quiroga: '... y el hacha resonó: tuc, tuc'.",
+    "ejercicio": "Escribe una onomatopeya para una puerta que cruje.",
+    "suggestedAnswer": "La puerta se abrió con un chirrido: 'iiiiiiii'."
+  },
+  {
+    "id": 67,
+    "name": "Lenguaje coloquial (registro coloquial)",
+    "category": "Estilo",
+    "teoria": "Uso de modismos, frases hechas y expresiones populares para dar realismo.",
+    "ejemplo": "El lenguaje de los personajes en 'La virgen de los sicarios' (Vallejo).",
+    "ejercicio": "Escribe una frase coloquial de un personaje de barrio.",
+    "suggestedAnswer": "Che, loco, ¿viste lo que pasó? Se armó un quilombo bárbaro."
+  },
+  {
+    "id": 68,
+    "name": "Regionalismo lingüístico",
+    "category": "Estilo",
+    "teoria": "Uso de voces propias de una región para ambientar la historia.",
+    "ejemplo": "Argentinismos en la obra de Borges: 'bondi', 'colectivo', 'pibe'.",
+    "ejercicio": "Escribe una frase con un regionalismo de tu país o región.",
+    "suggestedAnswer": "Voy en la micro (autobús) al trabajo."
+  },
+  {
+    "id": 69,
+    "name": "Arcaísmo (léxico arcaico)",
+    "category": "Estilo",
+    "teoria": "Uso de palabras antiguas o en desuso para ambientar una época.",
+    "ejemplo": "En 'El otoño del patriarca' se usan arcaísmos coloniales.",
+    "ejercicio": "Escribe una frase con un arcaísmo como 'cuita' (pena) o 'fuero'.",
+    "suggestedAnswer": "Contaba sus cuitas al cura del pueblo."
+  },
+  {
+    "id": 70,
+    "name": "Neologismo literario",
+    "category": "Estilo",
+    "teoria": "Creación de palabras nuevas para expresar realidades inéditas.",
+    "ejemplo": "En 'Paradiso', Lezama Lima acuña términos como 'ensoñación', 'erótica'.",
+    "ejercicio": "Inventa una palabra nueva para la sensación de mareo por felicidad.",
+    "suggestedAnswer": "Eufonámbulo (del griego eu-phonos y ambulare)."
+  },
+  {
+    "id": 71,
+    "name": "Prosopografía (descripción física)",
+    "category": "Descripción",
+    "teoria": "Descripción detallada de los rasgos físicos de un personaje.",
+    "ejemplo": "Borges describe al gaucho: 'barba crecida, poncho colorado'.",
+    "ejercicio": "Describe físicamente a un personaje misterioso.",
+    "suggestedAnswer": "Llevaba un sombrero negro calado hasta las cejas, y de su chaqueta asomaban dedos largos y huesudos."
+  },
+  {
+    "id": 72,
+    "name": "Etopeia (descripción moral)",
+    "category": "Descripción",
+    "teoria": "Descripción de la personalidad, carácter y costumbres de un personaje.",
+    "ejemplo": "En 'Doña Bárbara', se describe su carácter violento y dominante.",
+    "ejercicio": "Describe la personalidad de un personaje en tres líneas.",
+    "suggestedAnswer": "Era un hombre de pocas palabras, pero sus silencios pesaban más que los discursos de otros."
+  },
+  {
+    "id": 73,
+    "name": "Retrato completo (prosopografía + etopeya)",
+    "category": "Descripción",
+    "teoria": "Combinación de descripción física y moral para crear un personaje completo.",
+    "ejemplo": "El retrato del coronel Aureliano Buendía en Cien años de soledad.",
+    "ejercicio": "Escribe un retrato rápido de un profesor.",
+    "suggestedAnswer": "Flaco, con gafas de culo de botella, pero su mirada revelaba una paciencia infinita."
+  },
+  {
+    "id": 74,
+    "name": "Topografía literaria",
+    "category": "Descripción",
+    "teoria": "Descripción de un paisaje real o imaginario que influye en la trama.",
+    "ejemplo": "La descripción de Macondo, la selva, la pampa.",
+    "ejercicio": "Describe un paisaje desolado.",
+    "suggestedAnswer": "La llanura se extendía sin fin, calcinada por el sol, sin un árbol, sin un pájaro, sin nada."
+  },
+  {
+    "id": 75,
+    "name": "Cronografía (descripción de época)",
+    "category": "Descripción",
+    "teoria": "Descripción de una época histórica o de una época del año.",
+    "ejemplo": "La descripción de los años veinte en 'La señorita' de...",
+    "ejercicio": "Describe cómo era un domingo en la ciudad en los años 1950.",
+    "suggestedAnswer": "Los domingos, la ciudad se vestía de domingo: carros destartalados, familias en misa, helados de fresa."
+  },
+  {
+    "id": 76,
+    "name": "Catálogo (epopeya)",
+    "category": "Descripción",
+    "teoria": "Lista detallada de elementos, personajes o lugares, al estilo de la épica.",
+    "ejemplo": "Catálogo de los buques en la Odisea (pero en hispanoamérica, en 'El otoño del patriarca' hay enumeraciones.",
+    "ejercicio": "Haz un catálogo de las mascotas perdidas de un barrio.",
+    "suggestedAnswer": "El loro que hablaba groserías, la perra chihuahua que usaba moño rojo, el gato siamés que robaba pescado."
+  },
+  {
+    "id": 77,
+    "name": "Escena costumbrista",
+    "category": "Descripción",
+    "teoria": "Fragmento que muestra las costumbres, tradiciones o modos de vida de una comunidad.",
+    "ejemplo": "Las escenas de matanza en 'Doña Bárbara'.",
+    "ejercicio": "Describe una escena costumbrista de una fiesta patronal.",
+    "suggestedAnswer": "Los cohetes anunciaban la llegada del santo, y las vendedoras ofrecían tamales y atole bajo la lluvia de papel picado."
+  },
+  {
+    "id": 78,
+    "name": "Diálogo dramático",
+    "category": "Diálogo",
+    "teoria": "Diálogo que revela la psicología de los personajes y avanza la trama, sin narración intermedia.",
+    "ejemplo": "Diálogos en 'La casa de los espíritus'.",
+    "ejercicio": "Escribe un diálogo de dos líneas entre un jefe y un empleado.",
+    "suggestedAnswer": "—Llegas tarde todos los días. —Es que el tren nunca perdona."
+  },
+  {
+    "id": 79,
+    "name": "Diálogo socrático (mayéutica)",
+    "category": "Diálogo",
+    "teoria": "Diálogo en el que un personaje guía a otro hacia la verdad mediante preguntas.",
+    "ejemplo": "En 'Rayuela', los diálogos de Oliveira con Traveler.",
+    "ejercicio": "Escribe una pregunta que lleve a una revelación.",
+    "suggestedAnswer": "—¿Y si la felicidad no es lo que buscamos, sino un modo de buscar?"
+  },
+  {
+    "id": 80,
+    "name": "Monólogo deliberativo",
+    "category": "Monólogo",
+    "teoria": "Monólogo en el que un personaje reflexiona en voz alta para tomar una decisión.",
+    "ejemplo": "El monólogo de Hamlet, pero en 'El túnel', Castel reflexiona.",
+    "ejercicio": "Escribe una frase de un personaje dudando entre dos opciones.",
+    "suggestedAnswer": "Irme o quedarme... si me voy, ella nunca lo sabrá; si me quedo, quizás todo sea peor."
+  },
+  {
+    "id": 81,
+    "name": "Apóstrofe narrativo",
+    "category": "Monólogo",
+    "teoria": "El narrador se dirige a un personaje ausente o a un ser inanimado.",
+    "ejemplo": "En 'Cien años de soledad': 'Oh, Aureliano...'",
+    "ejercicio": "Escribe un apóstrofe a la lluvia.",
+    "suggestedAnswer": "Lluvia obstinada, ¿cuándo cesarás de golpear mi ventana?"
+  },
+  {
+    "id": 82,
+    "name": "Silencio narrativo (pausa)",
+    "category": "Recursos",
+    "teoria": "Espacio en blanco, puntos suspensivos o descripción de un silencio significativo.",
+    "ejemplo": "En 'Pedro Páramo', los silencios de los muertos.",
+    "ejercicio": "Describe un silencio incómodo entre dos personas.",
+    "suggestedAnswer": "El tic tac del reloj era el único sonido, y él miraba al techo mientras ella jugaba con la servilleta."
+  },
+  {
+    "id": 83,
+    "name": "Acotación escénica (como en teatro)",
+    "category": "Formato",
+    "teoria": "Inserción de acotaciones al estilo teatral dentro de una novela.",
+    "ejemplo": "En 'El perseguidor', Cortázar usa acotaciones.",
+    "ejercicio": "Escribe una acotación para indicar que un personaje suspira.",
+    "suggestedAnswer": "(Suspira. Mira el reloj. Se levanta.)"
+  },
+  {
+    "id": 84,
+    "name": "Collage narrativo",
+    "category": "Estructura",
+    "teoria": "Inserción de recortes de periódico, cartas, documentos oficiales en la ficción.",
+    "ejemplo": "En 'Respiración artificial' de Piglia, hay inclusiones de textos históricos.",
+    "ejercicio": "Añade un titular falso de diario a una historia.",
+    "suggestedAnswer": "El periódico del día siguiente anunciaba: 'DESAPARECIDO EN CIRCUNSTANCIAS EXTRAÑAS'."
+  },
+  {
+    "id": 85,
+    "name": "Contrapunto narrativo",
+    "category": "Estructura",
+    "teoria": "Alternancia de dos o más historias que se complementan o contrastan, como en música.",
+    "ejemplo": "En 'La tía Julia y el escribidor', se alternan los capítulos de la tía Julia con los folletines de Pedro Camacho.",
+    "ejercicio": "Plantea dos historias paralelas: una sobre una tortuga, otra sobre un cohete.",
+    "suggestedAnswer": "La tortuga avanzaba un metro por día; el cohete despegaba al atardecer. Ambos buscaban lo mismo."
+  },
+  {
+    "id": 86,
+    "name": "Novela de tesis",
+    "category": "Género",
+    "teoria": "Novela que busca demostrar una idea o tesis, a menudo social o política.",
+    "ejemplo": "Doña Bárbara: civilización vs barbarie.",
+    "ejercicio": "Escribe la tesis central de una novela sobre el amor.",
+    "suggestedAnswer": "El amor no es un sentimiento, sino una decisión que se renueva cada día."
+  },
+  {
+    "id": 87,
+    "name": "Novela de aprendizaje (Bildungsroman)",
+    "category": "Género",
+    "teoria": "Ya visto (viaje iniciático).",
+    "ejemplo": "Los ríos profundos.",
+    "ejercicio": "Menciona una obra de Arguedas como ejemplo.",
+    "suggestedAnswer": "Los ríos profundos."
+  },
+  {
+    "id": 88,
+    "name": "Novela existencialista",
+    "category": "Género",
+    "teoria": "Obra que explora el sinsentido, la libertad y la angustia humanas.",
+    "ejemplo": "El túnel de Sábato.",
+    "ejercicio": "Escribe una frase existencialista.",
+    "suggestedAnswer": "Nadie nos pidió nacer, y sin embargo debemos elegir qué hacer con este tiempo prestado."
+  },
+  {
+    "id": 89,
+    "name": "Novela de la memoria",
+    "category": "Tema",
+    "teoria": "La narración gira en torno a los recuerdos, la nostalgia y la construcción de la identidad.",
+    "ejemplo": "Los recuerdos del porvenir de Elena Garro.",
+    "ejercicio": "Comienza una novela de la memoria con 'Lo que más recuerdo de aquel verano...'",
+    "suggestedAnswer": "Lo que más recuerdo de aquel verano es el olor a jazmines y la certeza de que todo iba a cambiar."
+  },
+  {
+    "id": 90,
+    "name": "Novela policial hispanoamericana",
+    "category": "Género",
+    "teoria": "Fusión del género negro con crítica social y contexto latinoamericano.",
+    "ejemplo": "El complot mongol (Rafael Bernal), serie del detective Heredia (Leonardo Padura).",
+    "ejercicio": "Crea un detective latinoamericano y su eslogan.",
+    "suggestedAnswer": "José Filomeno, ex policía, solitario y descreído. 'En este país, la verdad es tan cara como la gasolina'."
+  },
+  {
+    "id": 91,
+    "name": "Novela fantástica",
+    "category": "Género",
+    "teoria": "Presencia de elementos sobrenaturales que pueden tener explicación natural o maravillosa.",
+    "ejemplo": "Las cosas que perdimos en el fuego de Mariana Enríquez (cuentos).",
+    "ejercicio": "Escribe una frase de una novela fantástica.",
+    "suggestedAnswer": "La casa respiraba por la noche, y sus muros se abrían para que los muertos pudieran pasear."
+  },
+  {
+    "id": 92,
+    "name": "Nuevo realismo (realismo sucio)",
+    "category": "Movimiento",
+    "teoria": "Tendencia a retratar la crudeza de la vida urbana con lenguaje directo, violencia y marginalidad.",
+    "ejemplo": "La virgen de los sicarios (Vallejo), obras de Pedro Juan Gutiérrez.",
+    "ejercicio": "Escribe una frase realista sucia.",
+    "suggestedAnswer": "El suelo del apartamento estaba cubierto de colillas y de promesas rotas."
+  },
+  {
+    "id": 93,
+    "name": "Ficción especulativa (ciencia ficción)",
+    "category": "Género",
+    "teoria": "Literatura que explora futuros posibles, tecnología y mundos alternativos.",
+    "ejemplo": "Angélica Gorodischer, La invención de Morel (Bioy Casares).",
+    "ejercicio": "Inventa un invento futurista y su función.",
+    "suggestedAnswer": "La memoria sólida: una pastilla que permite recordar cualquier libro después de ingerirla."
+  },
+  {
+    "id": 94,
+    "name": "Crónica periodístico-literaria",
+    "category": "Género",
+    "teoria": "Híbrido entre crónica y reportaje, con recursos literarios, que narra hechos reales.",
+    "ejemplo": "Los de González Rodríguez sobre feminicidios.",
+    "ejercicio": "Escribe la primera línea de una crónica sobre una manifestación.",
+    "suggestedAnswer": "Las consignas se perdían en el eco de los adoquines, pero la marea humana avanzaba indetenible."
+  },
+  {
+    "id": 95,
+    "name": "Testimonio",
+    "category": "Género",
+    "teoria": "Relato en primera persona de un testigo (a menudo víctima) con valor documental y literario.",
+    "ejemplo": "Me llamo Rigoberta Menchú.",
+    "ejercicio": "Escribe una frase testimonial sobre un suceso colectivo.",
+    "suggestedAnswer": "Esa noche, todos los vecinos salieron a la calle con linternas, pero ninguno volvió a ver a su hijo."
+  },
+  {
+    "id": 96,
+    "name": "Autoficción",
+    "category": "Género",
+    "teoria": "Narración donde autor, narrador y protagonista comparten identidad, pero se introducen elementos ficticios.",
+    "ejemplo": "No habrá más penas ni olvido (Soriano) no es autoficción. Mejor 'El año del desierto' de... no. 'La autoficción hispanoamericana' de Piglia.",
+    "ejercicio": "Comienza una autoficción: 'Nunca fui un buen escritor, pero esta historia me pasó de verdad...'.",
+    "suggestedAnswer": "Nunca fui un buen escritor, pero esta historia me pasó de verdad, o casi."
+  },
+  {
+    "id": 97,
+    "name": "Relato de viaje",
+    "category": "Género",
+    "teoria": "Narrativa centrada en el desplazamiento geográfico y la experiencia del viaje.",
+    "ejemplo": "Los pasos perdidos de Carpentier.",
+    "ejercicio": "Describe la llegada a una ciudad extranjera.",
+    "suggestedAnswer": "El idioma era el mismo, pero las calles tenían otro olor, otra prisa."
+  },
+  {
+    "id": 98,
+    "name": "Novela de la tierra (regionalista)",
+    "category": "Género",
+    "teoria": "Narrativa que pone el énfasis en el paisaje, las costumbres y los conflictos de una región específica.",
+    "ejemplo": "La vorágine (Amazonas), Doña Bárbara (llanos).",
+    "ejercicio": "Cita una obra regionalista venezolana.",
+    "suggestedAnswer": "Doña Bárbara (Rómulo Gallegos)."
+  },
+  {
+    "id": 99,
+    "name": "Narrativa del exilio",
+    "category": "Tema",
+    "teoria": "Obra que refleja el desarraigo, la nostalgia y la búsqueda de identidad de los exiliados.",
+    "ejemplo": "El exilio en la obra de Cortázar, Luisa Valenzuela.",
+    "ejercicio": "Escribe una frase sobre el exilio.",
+    "suggestedAnswer": "Llevaba el país en la maleta, pero al abrirla solo encontró pañuelos vacíos."
+  },
+  {
+    "id": 100,
+    "name": "Narrativa de la violencia política",
+    "category": "Tema",
+    "teoria": "Representación del terrorismo de Estado, desapariciones, tortura y dictaduras.",
+    "ejemplo": "Respiración artificial de Piglia, La fiesta del chivo de Vargas Llosa.",
+    "ejercicio": "Escribe una frase que evoque la desaparición forzada.",
+    "suggestedAnswer": "En el paredón de la comisaría, su nombre se borró como si nunca hubiera existido."
+  }
+]

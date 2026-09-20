@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container mt-4">
+  <h2>📊 Mi Progreso</h2>
+
+  {% for item in data %}
+    <div class="card my-4">
+      <div class="card-body">
+        <h5 class="card-title">
+          {{ item.curso.titulo }} — Nivel {{ item.nivel.codigo }}
+        </h5>
+
+        <div class="progress mb-3">
+          <div class="progress-bar"
+               role="progressbar"
+               style="width: {{ item.progreso }}%;">
+            {{ item.progreso }}%
+          </div>
+        </div>
+
+        <ul class="list-group">
+          {% for l in item.lecciones %}
+            <li class="list-group-item d-flex justify-content-between">
+              {{ l.obj.titulo }}
+
+              {% if l.completada %}
+                <span class="badge bg-success">✔ Completada</span>
+              {% elif l.disponible %}
+                <a href="{% url 'leccion_detail' l.obj.slug %}"
+                   class="btn btn-sm btn-primary">
+                   Continuar
+                </a>
+              {% else %}
+                <span class="badge bg-secondary">🔒 Bloqueada</span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="mb-4">🎓 Mi Academia de Castellano</h1>
+
+<div class="row">
+  {% for curso in cursos %}
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5>{{ curso.nombre }}</h5>
+          <p>
+            {{ curso.idioma.nombre }} ·
+            {{ curso.nivel.nombre }}
+          </p>
+          <a href="{% url 'academia:curso_detail' curso.slug %}"
+             class="btn btn-primary btn-sm">
+             Entrar
+          </a>
+            Entrar
+          </a>
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p>No hay cursos aún.</p>
+  {% endfor %}
+</div>
+{% endblock %}
+

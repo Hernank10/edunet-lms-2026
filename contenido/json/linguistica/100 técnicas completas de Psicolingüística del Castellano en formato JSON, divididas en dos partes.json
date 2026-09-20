@@ -1,0 +1,417 @@
+{
+  "titulo": "Psicolingüística del Castellano",
+  "subtitulo": "Procesos cognitivos, adquisición y producción del lenguaje",
+  "total_tecnicas": 100,
+  "categorias": [
+    "Fundamentos de psicolingüística (01-12)",
+    "Percepción y comprensión del lenguaje (13-24)",
+    "Producción del lenguaje (25-36)",
+    "Adquisición del lenguaje infantil (37-48)",
+    "Bilingüismo y aprendizaje de segundas lenguas (49-60)",
+    "Neuropsicolingüística (61-72)",
+    "Trastornos del lenguaje (73-84)",
+    "Lectura, escritura y procesamiento (85-100)"
+  ],
+  "tecnicas": [
+    {
+      "id": 1,
+      "nombre": "Definición y alcance de la psicolingüística",
+      "teoria": "La psicolingüística estudia los procesos cognitivos implicados en la comprensión, producción y adquisición del lenguaje. Integra lingüística y psicología cognitiva. Investiga cómo generamos y entendemos oraciones, cómo almacenamos el léxico mental y cómo procesamos el lenguaje en tiempo real.",
+      "ejemplo": "Al escuchar 'El perro persigue al gato', activamos representaciones mentales, construimos estructura sintáctica y generamos una imagen mental. Todo en fracciones de segundo.",
+      "ejercicio": "Explica la diferencia entre psicolingüística, lingüística general y neurolingüística.",
+      "respuesta": "Lingüística: estudia estructura abstracta de la lengua. Psicolingüística: estudia procesos cognitivos del uso del lenguaje. Neurolingüística: estudia bases cerebrales del lenguaje y lesiones."
+    },
+    {
+      "id": 2,
+      "nombre": "Léxico mental o diccionario interno",
+      "teoria": "El léxico mental almacena palabras con información fonológica, ortográfica, morfológica, sintáctica y semántica. Un hablante nativo conoce entre 20,000 y 50,000 palabras. El acceso es muy rápido (200-400 ms por palabra).",
+      "ejemplo": "La palabra 'correr' está almacenada con: /koˈreɾ/, 'moverse rápidamente', categoría verbal, conjugación, sinónimos y antónimos.",
+      "ejercicio": "Describe qué información estaría almacenada en el léxico mental para la palabra 'flor'.",
+      "respuesta": "Fonológico: /floɾ/; Ortográfico: 'f-l-o-r'; Morfológico: 'flor', 'flores', 'florecita'; Sintáctico: sustantivo femenino; Semántico: 'órgano reproductivo de las plantas'."
+    },
+    {
+      "id": 3,
+      "nombre": "Procesamiento léxico: reconocimiento de palabras",
+      "teoria": "El reconocimiento de palabras implica acceso al léxico mental. Factores que influyen: frecuencia de uso (palabras frecuentes se reconocen más rápido), vecindad fonológica/ortográfica y priming (facilitación por palabras relacionadas).",
+      "ejemplo": "'pan' se reconoce más rápido que 'páncreas'. Al escuchar /kasa/, se activan 'casa', 'caza', 'casa', 'caza'. Si antes se presentó 'hogar', 'casa' se reconoce más rápido.",
+      "ejercicio": "¿Qué es el efecto de frecuencia léxica? Explica con un ejemplo.",
+      "respuesta": "Palabras más frecuentes se procesan más rápido. Ejemplo: 'agua' se reconoce más rápido que 'aljibe' por su mayor frecuencia en el input lingüístico."
+    },
+    {
+      "id": 4,
+      "nombre": "Priming o facilitación semántica",
+      "teoria": "La presentación previa de una palabra (prime) facilita el reconocimiento de otra (target) relacionada semánticamente. El léxico mental está organizado en redes semánticas. Existe también priming fonológico ('lobo' facilita 'loco') y morfológico ('cantar' facilita 'canto').",
+      "ejemplo": "Si se presenta 'perro' (prime) y luego 'gato' (target), la respuesta es más rápida que si el prime fuera 'mesa'. 'Perro' y 'gato' están relacionados (animales domésticos).",
+      "ejercicio": "Diseña un experimento hipotético de priming semántico. ¿Qué resultados esperarías?",
+      "respuesta": "Pares relacionados: 'sol-luna', 'verde-rojo', 'cuchillo-tenedor'. Pares no relacionados: 'sol-lápiz', 'verde-casa'. Resultados: tiempos más rápidos y menos errores en pares relacionados por propagación de activación."
+    },
+    {
+      "id": 5,
+      "nombre": "Ambigüedad léxica y resolución",
+      "teoria": "La ambigüedad léxica ocurre cuando una palabra tiene múltiples significados (polisemia, homonimia). El procesador debe seleccionar el significado apropiado según el contexto. Las palabras tienen significados dominantes (más frecuentes) y subordinados.",
+      "ejemplo": "'Fui al banco a cobrar un cheque' → entidad financiera. 'Me senté en un banco del parque' → asiento. Sin contexto, el significado más frecuente (financiero) se activa primero.",
+      "ejercicio": "Analiza la palabra 'cura' en 'El cura bendijo a los fieles' y en 'La herida comenzó a curar'.",
+      "respuesta": "Primera: sacerdote (sustantivo). Segunda: sanar (verbo). El contexto (bendijo/fieles vs herida) selecciona la interpretación correcta."
+    },
+    {
+      "id": 6,
+      "nombre": "Procesamiento sintáctico: estructuras y estrategias",
+      "teoria": "El procesamiento sintáctico construye la estructura de la oración en tiempo real. Estrategias: cierre temprano (adjuntar al sintagma más cercano), ruta mínima (estructura con menos nodos), conexión (adjuntar al constituyente más reciente).",
+      "ejemplo": "'El policía vio al ladrón con los prismáticos' es ambigua: ¿el policía usó prismáticos o el ladrón los llevaba?",
+      "ejercicio": "Explica por qué 'El hombre pescó el pez con la caña' es ambigua. ¿Qué estrategia se aplica?",
+      "respuesta": "Ambigüedad: 'con la caña' modifica a 'pescó' (instrumento) o a 'pez'. La estrategia de ruta mínima prefiere adjuntar directamente al verbo 'pescó'."
+    },
+    {
+      "id": 7,
+      "nombre": "Garden path sentences y reanálisis",
+      "teoria": "Las oraciones de sendero equivocado (garden path) se interpretan inicialmente de manera incorrecta, requiriendo reanálisis. Ejemplo: 'El anciano empujó al enfermo el carrito.' El reanálisis cuesta tiempo de procesamiento.",
+      "ejemplo": "'La niña dejó el libro en la mochila que encontró' → inicialmente 'que encontró' se adjunta a 'mochila', luego debe reanalizarse como adjunto a 'libro'.",
+      "ejercicio": "Construye una oración garden path en español y explica cómo se produce la interpretación errónea inicial.",
+      "respuesta": "Ejemplo: 'El profesor recomendó al estudiante el libro de gramática.' Inicial: 'recomendó al estudiante' (verbo+OI). Al aparecer 'el libro', debe reanalizarse: 'recomendó X a Y' no funciona, es 'recomendó a Y Z'."
+    },
+    {
+      "id": 8,
+      "nombre": "Procesamiento de oraciones ambiguas",
+      "teoria": "La ambigüedad sintáctica puede ser de adjunción o de alcance. Se resuelve mediante contexto, prosodia (pausas, entonación) y conocimientos pragmáticos. Las oraciones con ambigüedad sostenida generan costos de procesamiento.",
+      "ejemplo": "'Juan ve a María con su hermana.' Ambigüedad: ¿'su' se refiere a Juan o a María? ¿'con su hermana' modifica a 've' o a 'María'?",
+      "ejercicio": "Analiza las interpretaciones de 'El hombre golpeó al ladrón con la pistola'. ¿Qué factores ayudan a desambiguar?",
+      "respuesta": "Interpretaciones: 1) El hombre usó pistola para golpear. 2) El ladrón tenía pistola. Factores: contexto previo, plausibilidad, prosodia (pausa), conocimiento del mundo."
+    },
+    {
+      "id": 9,
+      "nombre": "Modelos de procesamiento del lenguaje",
+      "teoria": "Modelos modulares (Fodor): procesador sintáctico encapsulado, sin acceso a información semántica inicial. Modelos interactivos (McClelland, Rumelhart): la información sintáctica, semántica y contextual interactúa desde el principio.",
+      "ejemplo": "En 'El ladrón confesó su delito ante el juez', modular: primero estructura sintáctica. Interactivo: usa significado desde el inicio.",
+      "ejercicio": "Compara modelos modulares e interactivos. ¿Qué evidencia apoya cada uno?",
+      "respuesta": "Modulares: garden path sentences (el procesador se deja engañar por estructura). Interactivos: información semántica influye en procesamiento sintáctico temprano."
+    },
+    {
+      "id": 10,
+      "nombre": "Procesamiento del lenguaje figurado: metáfora",
+      "teoria": "Las metáforas son mecanismos cognitivos. Procesarlas requiere activar dominio fuente (concreto) para entender dominio meta (abstracto). Las metáforas convencionalizadas se procesan casi tan rápido como el lenguaje literal.",
+      "ejemplo": "'La teoría es un edificio sólido.' Dominio fuente: edificio (cimientos, paredes). Dominio meta: teoría (argumentos como cimientos, ideas como paredes).",
+      "ejercicio": "Explica el procesamiento de 'Esa noticia fue una daga en el corazón'.",
+      "respuesta": "Dominio fuente: daga (apuñalar, dolor físico). Dominio meta: noticia que causa dolor emocional. Proyección: 'apuñalar' → 'herir emocionalmente', 'dolor físico' → 'tristeza intensa'."
+    },
+    {
+      "id": 11,
+      "nombre": "Procesamiento de la ironía",
+      "teoria": "La ironía consiste en decir lo contrario de lo que se quiere expresar. Requiere detectar discrepancia entre lo dicho y la realidad, inferir la actitud crítica del hablante, y activar teoría de la mente.",
+      "ejemplo": "En lluvia torrencial, '¡Qué hermoso día!' → el significado literal es falso, el hablante critica el mal tiempo.",
+      "ejercicio": "Analiza el procesamiento de 'Eres todo un genio' dicho a alguien que cometió un error grave.",
+      "respuesta": "Etapas: 1) literal inicial, 2) detección de incongruencia, 3) inferencia de actitud crítica, 4) interpretación irónica (el error fue muy tonto)."
+    },
+    {
+      "id": 12,
+      "nombre": "Teoría de la mente y lenguaje",
+      "teoria": "La teoría de la mente es la capacidad de atribuir estados mentales a otros. Fundamental para interpretar intenciones comunicativas, detectar ironía, mentiras, presuposiciones. Se desarrolla entre 3-5 años.",
+      "ejemplo": "'¿Podrías abrir la ventana?' → inferir que el hablante no pregunta por habilidad física, sino que quiere que se abra la ventana.",
+      "ejercicio": "¿Qué papel juega la teoría de la mente en la comprensión de actos de habla indirectos?",
+      "respuesta": "Permite inferir que el hablante quiere comunicar algo diferente de lo literal. Ejemplo: '¿Tienes hora?' no es pregunta sobre posesión, sino petición de información."
+    },
+    {
+      "id": 13,
+      "nombre": "Percepción del habla: categorización fonética",
+      "teoria": "La percepción del habla implica la categorización de sonidos continuos en fonemas discretos. El oído humano es sensible a diferencias fonéticas (como /p/ vs /b/). Existe percepción categórica: variaciones dentro de una categoría no se perciben, pero variaciones en el límite entre categorías sí.",
+      "ejemplo": "Un continuum VOT (voice onset time) entre 'ba' y 'pa' se percibe como 'ba' hasta un punto y luego como 'pa' abruptamente, no como una mezcla.",
+      "ejercicio": "¿Qué es la percepción categórica en el habla? Pon un ejemplo en español.",
+      "respuesta": "Es la tendencia a percibir sonidos continuos como categorías discretas. Ejemplo: el contraste /p/ (sorda) y /b/ (sonora). Cambios acústicos graduales se perciben como cambios abruptos de categoría en el punto de cruce."
+    },
+    {
+      "id": 14,
+      "nombre": "El efecto McGurk",
+      "teoria": "El efecto McGurk es una ilusión audiovisual donde la percepción de un fonema está influenciada por la información visual de los movimientos labiales. Cuando el sonido y la imagen labial son incongruentes, el cerebro fusiona ambas en una tercera percepción.",
+      "ejemplo": "Presentación auditiva de 'ba' con imagen visual de 'ga' produce percepción de 'da'. Demuestra la integración multisensorial del habla.",
+      "ejercicio": "¿Qué demuestra el efecto McGurk sobre el procesamiento del lenguaje?",
+      "respuesta": "Demuestra que la percepción del habla es multimodal: integra información auditiva y visual. El cerebro combina ambas fuentes y produce una percepción que puede ser diferente de ambas."
+    },
+    {
+      "id": 15,
+      "nombre": "Segmentación del habla continua",
+      "teoria": "En el habla continua no hay pausas claras entre palabras (coarticulación). Los oyentes segmentan usando: probabilidades de transición entre fonemas, conocimiento de palabras del léxico, prosodia (acentos, entonación) y contexto semántico.",
+      "ejemplo": "La secuencia /laskasas/ puede ser 'las casas' o 'las casas'. El contexto ayuda: 'Compré las casas' vs 'Lavé las casas' (improbable).",
+      "ejercicio": "¿Cómo resuelve el oyente la ambigüedad de segmentación en 'delimón'? ¿Puede ser 'de limón' o 'delimón'?",
+      "respuesta": "'delimón' podría ser 'de limón' (preposición+sustantivo) o una palabra inventada. El léxico mental favorece 'limón' como palabra conocida. El contexto ('jugo de limón' vs 'jugo delimón' inexistente) resuelve."
+    },
+    {
+      "id": 16,
+      "nombre": "El papel de la prosodia en la comprensión",
+      "teoria": "La prosodia (entonación, acento, ritmo, pausas) proporciona información crucial para la comprensión: delimita constituyentes sintácticos (pausas), desambigua estructuras, indica modalidad (pregunta vs afirmación), y expresa actitudes del hablante.",
+      "ejemplo": "'Juan llegó tarde, dijo María' vs 'Juan llegó tarde dijo María' (sin coma, 'llegó tarde dijo' como discurso directo). La prosodia desambigua.",
+      "ejercicio": "¿Cómo ayuda la prosodia a entender la diferencia entre '¿Vienes?' y 'Vienes.'?",
+      "respuesta": "Entonación ascendente al final indica pregunta; descendente indica afirmación. También la velocidad y la intensidad: pregunta suele ser más aguda y con aumento final."
+    },
+    {
+      "id": 17,
+      "nombre": "Procesamiento de oraciones negativas",
+      "teoria": "Las oraciones negativas son más difíciles de procesar que las afirmativas. Requieren más tiempo de lectura y generan más errores. La negación obliga a representar primero el escenario afirmativo y luego negarlo (teoría de los dos pasos). En contexto adecuado, la dificultad se reduce.",
+      "ejemplo": "'El avión no aterrizó' → primero se imagina el aterrizaje, luego se niega. 'El avión despegó' es más directo.",
+      "ejercicio": "¿Por qué 'El elefante no es pequeño' es más difícil de procesar que 'El elefante es grande'?",
+      "respuesta": "Porque 'no es pequeño' requiere activar la representación de 'pequeño' y luego negarla; 'es grande' activa directamente la propiedad relevante. La negación añade un paso cognitivo."
+    },
+    {
+      "id": 18,
+      "nombre": "Procesamiento de oraciones pasivas",
+      "teoria": "Las oraciones pasivas ('El libro fue leído por Juan') son más difíciles de procesar que las activas ('Juan leyó el libro') porque invierten el orden canónico agente-paciente. Requieren más tiempo de reacción y generan más errores, especialmente en niños y en procesamiento de oraciones complejas.",
+      "ejemplo": "'El perro fue perseguido por el gato' es más costosa que 'El gato persiguió al perro' porque altera la expectativa de que el sujeto sea agente.",
+      "ejercicio": "¿Por qué las pasivas son más difíciles que las activas? Explica en términos de procesamiento.",
+      "respuesta": "Porque violan la estrategia de asignación canónica (primer sintagma = agente). El procesador debe reanalizar la estructura, costando más recursos. También las pasivas cortas ('fue construida') pueden ser más fáciles si el agente no se menciona."
+    },
+    {
+      "id": 19,
+      "nombre": "Procesamiento de oraciones subordinadas",
+      "teoria": "Las oraciones subordinadas (complejas) requieren más recursos cognitivos que las simples. La subordinación obliga a mantener en memoria la oración principal mientras se procesa la subordinada. Las subordinadas al inicio (catafóricas) son más costosas que las pospuestas (anafóricas) porque retrasan la resolución.",
+      "ejemplo": "'Cuando llegue, avísame' (subordinada al inicio) vs 'Avísame cuando llegue' (subordinada al final). La primera es más costosa.",
+      "ejercicio": "¿Qué diferencia de procesamiento hay entre 'Que vengas me alegra' y 'Me alegra que vengas'?",
+      "respuesta": "En 'Que vengas me alegra', el procesador debe mantener la subordinada en memoria mientras espera el verbo principal. En 'Me alegra que vengas', primero procesa el verbo y luego la subordinada. La segunda es más fácil."
+    },
+    {
+      "id": 20,
+      "nombre": "Comprensión de oraciones relativas",
+      "teoria": "Las oraciones de relativo pueden ser de sujeto ('el perro que ladró') o de objeto ('el perro que vi'). Las relativas de objeto son más difíciles porque el relativo tiene que ser interpretado como objeto desplazado. Hay diferencias entre relativas especificativas (sin comas) y explicativas (con comas).",
+      "ejemplo": "'La niña que saludó al niño es mi prima' (relativa de sujeto, fácil). 'La niña a la que saludó el niño es mi prima' (relativa de objeto, más difícil por la preposición y el orden invertido).",
+      "ejercicio": "¿Por qué es más difícil 'El perro que mordió el gato' que 'El perro que mordió al gato'? Ambas son ambiguas.",
+      "respuesta": "Son difíciles por ambigüedad: ¿quién mordió a quién? En 'El perro que mordió el gato', 'el gato' puede ser sujeto o objeto. La presencia de la preposición 'a' ('mordió al gato') desambigua: el perro es el sujeto que mordió. La ambigüedad inicial requiere reanálisis."
+    },
+    {
+      "id": 21,
+      "nombre": "Influencia del contexto en la comprensión",
+      "teoria": "El contexto (lingüístico, situacional, cultural) influye en la comprensión desde etapas tempranas. Facilita la resolución de ambigüedades, predice palabras probables (predicción), y activa conocimientos previos (esquemas, frames). La comprensión es un proceso interactivo entre input y conocimiento del mundo.",
+      "ejemplo": "En un contexto de restaurante, 'La carta' se interpreta como menú, no como papel para escribir.",
+      "ejercicio": "¿Cómo influye el contexto en la comprensión de 'El banco estaba lleno de gente'?",
+      "respuesta": "Depende: si el contexto es financiero, 'banco' es entidad. Si es un parque, 'banco' es asiento. El contexto activa la representación semántica apropiada y acelera el procesamiento."
+    },
+    {
+      "id": 22,
+      "nombre": "Predicción en el procesamiento del lenguaje",
+      "teoria": "Los oyentes/lectores predicen palabras futuras basándose en el contexto y su conocimiento lingüístico. La predicción acelera el procesamiento cuando es correcta, pero causa costos cuando es incorrecta (efecto de sorpresa). Se refleja en potenciales relacionados con eventos (N400, P300).",
+      "ejemplo": "En 'El pan está muy caliente, no lo toques sin...' se predice 'guantes' o 'cuidado'. Si aparece 'alegría', hay sorpresa.",
+      "ejercicio": "¿Qué evidencia neurocientífica respalda la predicción en el lenguaje?",
+      "respuesta": "El componente N400 (negativo a 400ms) es menor cuando la palabra esperada aparece, y mayor cuando es inesperada. El P300 (positivo a 300ms) se asocia a sorpresa. También la preactivación de áreas cerebrales relacionadas con la palabra esperada."
+    },
+    {
+      "id": 23,
+      "nombre": "Teoría de la relevancia y comprensión",
+      "teoria": "La teoría de la relevancia (Sperber, Wilson) explica que la comprensión busca la interpretación más relevante con el menor esfuerzo cognitivo. Los enunciados comunican relevancia óptima: suficientes efectos cognitivos por el mínimo esfuerzo de procesamiento.",
+      "ejemplo": "'Hay humo' en una habitación → interpretación relevante: peligro de incendio, no 'el humo existe'.",
+      "ejercicio": "Aplica la teoría de la relevancia a 'Llegó tarde a la reunión, había tráfico'.",
+      "respuesta": "El oyente busca la interpretación más relevante: el tráfico es la causa de la tardanza. No interpreta 'había tráfico' como información independiente. La relación causa-efecto es la más relevante contextualmente."
+    },
+    {
+      "id": 24,
+      "nombre": "Comprensión de inferencias",
+      "teoria": "Los textos no lo dicen todo; el lector/oyente debe inferir conexiones causales, espaciales, temporales, y estados mentales de los personajes. Hay inferencias puente (conectan oraciones) y elaborativas (agregan información no necesaria). Las inferencias necesarias para la coherencia se generan automáticamente; las elaborativas requieren más esfuerzo.",
+      "ejemplo": "'María fue a la cocina. Abrió el frigorífico. Sacó una botella.' Inferencia puente: el frigorífico está en la cocina. Inferencia elaborativa: probablemente sacó algo para beber.",
+      "ejercicio": "¿Qué inferencia es necesaria para entender 'Se fue la luz. Buscó las velas.'?",
+      "respuesta": "Inferencia puente: con la luz apagada no se ve, por eso busca velas para iluminar. También inferencia causal: la falta de luz motiva la búsqueda de velas."
+    },
+    {
+      "id": 25,
+      "nombre": "Modelos de producción del lenguaje",
+      "teoria": "La producción del lenguaje implica varios niveles: conceptualización (planificación del mensaje), formulación (selección de palabras y estructura sintáctica), articulación (producción motora del habla). El modelo de Levelt (1989) distingue niveles de codificación semántica, sintáctica, morfológica y fonológica.",
+      "ejemplo": "Para decir 'El perro corre', se concibe la idea (perro moviéndose), se selecciona 'perro' (sustantivo) y 'correr' (verbo), se asigna estructura (sujeto-verbo), se recuperan formas fonológicas /pe.ro/ y /ko.re/, y se articula.",
+      "ejercicio": "Describe las etapas del modelo de producción de Levelt con un ejemplo propio.",
+      "respuesta": "1) Conceptualización: quiero decir que mi hermana mayor estudia medicina. 2) Formulación: selecciono 'mi hermana mayor' (sujeto), 'estudia' (verbo), 'medicina' (objeto). 3) Codificación fonológica: /mi erˈmana maˈʝoɾ esˈtuðja meðiˈsina/. 4) Articulación: producción motora del habla."
+    },
+    {
+      "id": 26,
+      "nombre": "Errores del habla y lapsus linguae",
+      "teoria": "Los lapsus linguae son errores espontáneos en la producción del habla que revelan los mecanismos de procesamiento. Tipos: anticipaciones ('un poco de loción' en lugar de 'un poco de leche'), perseveraciones, sustituciones, mezclas ('champú' + 'jabón' = 'chabón'), intercambios de sonidos ('cocadrilo' por 'cocodrilo').",
+      "ejemplo": "Anticipación: 'un poco de loción' (quería 'leche'). Intercambio: 'los clietes petan' (por 'los pies limpios'?). Sustitución semántica: 'me duele la rodilla' en lugar de 'codo' (relación semántica).",
+      "ejercicio": "Clasifica este error: 'Estoy harto de trabajar, necesito unas vacacione... digo tranquilidad'.",
+      "respuesta": "Es un error de anticipación? Más bien de sustitución o corrección autoconsciente. 'Vacaciones' fue activada, pero el hablante se corrige a 'tranquilidad' (cambio semántico). Demuestra monitorización del habla."
+    },
+    {
+      "id": 27,
+      "nombre": "La punta de la lengua (TOT)",
+      "teoria": "El estado de punta de la lengua (TOT, tip-of-the-tongue) es la sensación de saber una palabra pero no poder recuperarla. Afecta especialmente a nombres propios y palabras poco frecuentes. El hablante suele recordar características: primera letra, número de sílabas, acento, categoría gramatical.",
+      "ejemplo": "Querer decir 'esternocleidomastoideo' y saber que empieza con 'e', tiene muchas sílabas, es un músculo, pero no acceder a la forma completa.",
+      "ejercicio": "¿Qué información se preserva en un estado TOT y qué indica sobre la organización del léxico mental?",
+      "respuesta": "Se preserva información fonológica parcial (primera letra, sílabas, acento) y semántica (categoría, significado). Indica que el acceso al léxico es separado: primero se activa el significado (lemma) y luego la forma fonológica (lexema). En TOT, el lemma está activado pero el lexema no se recupera completamente."
+    },
+    {
+      "id": 28,
+      "nombre": "Fluidez verbal y producción",
+      "teoria": "La fluidez verbal es la capacidad de producir lenguaje de manera continua y rápida. Incluye fluidez fonológica (producir palabras que comienzan con una letra) y semántica (producir palabras de una categoría). Las tareas de fluidez verbal se usan para evaluar función ejecutiva y acceso al léxico.",
+      "ejemplo": "Fluidez semántica: decir animales en 1 minuto (perro, gato, caballo, vaca...). Fluidez fonológica: palabras que empiezan con 'p' (pato, pan, padre...).",
+      "ejercicio": "¿Qué diferencias hay entre fluidez fonológica y semántica? ¿Qué áreas cerebrales las sustentan?",
+      "respuesta": "Fluidez semántica depende más del lóbulo temporal (organización conceptual), fluidez fonológica más del lóbulo frontal (búsqueda estratégica). En daño temporal, deterioro semántico; en daño frontal, dificultad en fluidez fonológica y organización de la búsqueda."
+    },
+    {
+      "id": 29,
+      "nombre": "Planeamiento sintáctico en la producción",
+      "teoria": "Antes de articular, el hablante planifica la estructura sintáctica de la oración. Esto incluye determinar el orden de palabras, la concordancia, y la elección de la voz (activa/pasiva). La planificación puede abarcar varios constituyentes antes de producir el primero.",
+      "ejemplo": "Para decir 'El gato persiguió al ratón', se planifica el sujeto ('el gato'), luego el verbo ('persiguió'), luego el objeto ('al ratón').",
+      "ejercicio": "¿Qué evidencias experimentales apoyan la planificación sintáctica anticipatoria?",
+      "respuesta": "Estudios de producción con priming sintáctico: producir una oración con una estructura facilita la producción de otra con la misma estructura. También estudios de producción con registro de movimientos oculares (en escritura) muestran que los ojos miran más allá de la palabra actual para planificar sintaxis."
+    },
+    {
+      "id": 30,
+      "nombre": "Concordancia en la producción",
+      "teoria": "La concordancia (número, género, persona) se procesa durante la producción. Errores de concordancia como 'los puerta' revelan que el número del sujeto y verbo se planifican por separado. La concordancia atrae (agreement attraction) ocurre cuando un nombre cercano (pero no núcleo) induce un error.",
+      "ejemplo": "Error de concordancia atraída: 'La etiqueta de los libros son...' (debería ser 'es', pero el plural 'libros' atrae el verbo en plural).",
+      "ejercicio": "Explica el error: 'El color de las cortinas combinan bien'. ¿Por qué ocurre?",
+      "respuesta": "El núcleo del sujeto es 'color' (singular), pero 'cortinas' (plural) es un nombre cercano al verbo. La proximidad atrae la concordancia en plural (agreement attraction). Demuestra que la planificación de concordancia es susceptible a interferencia local."
+    },
+    {
+      "id": 31,
+      "nombre": "Producción de palabras complejas",
+      "teoria": "Las palabras morfológicamente complejas (derivadas, compuestas, flexiones) se pueden producir como unidades completas (acceso directo) o descomponiéndolas en sus partes ('cantar' + '-é' = 'cantaré'). La frecuencia de la palabra completa y de sus partes influye en el procesamiento.",
+      "ejemplo": "'rehacer' puede procesarse como 're' + 'hacer' (descomposición) o como unidad. Los errores como 'incanjeable' (por 'incanjeable'?) revelan descomposición.",
+      "ejercicio": "¿Cómo se produce la flexión verbal ('cantamos')? ¿Se accede a la raíz y el sufijo por separado?",
+      "respuesta": "Hay evidencia para ambos modelos. En verbos regulares frecuentes, se accede a la forma completa (léxico). En verbos regulares poco frecuentes, se aplica una regla (raíz + sufijo). Verbos irregulares se almacenan completos. Ejemplo: 'cantamos' es regular y frecuente; 'volvemos' irregular (cambio vocálico) se almacena completo."
+    },
+    {
+      "id": 32,
+      "nombre": "Corrección y monitoreo del habla",
+      "teoria": "Los hablantes monitorean su propia producción, detectan errores y se autocorrigen. El monitoreo puede ser interno (antes de articular) o externo (después de oírse). Las correcciones pueden ser inmediatas (interrupciones) o diferidas (repeticiones con corrección).",
+      "ejemplo": "'Voy a la... a la biblioteca, digo, a la escuela.' La pausa y la reformulación indican monitoreo.",
+      "ejercicio": "¿Qué tipos de autocorrección existen y qué revelan sobre el procesamiento?",
+      "respuesta": "Correcciones inmediatas: 'Voy a... a la biblioteca.' (pausa). Correcciones diferidas: 'Voy al banco. Quiero decir, al supermercado.' Las inmediatas indican monitoreo prearticulatorio; las diferidas, postarticulatorio. También correcciones fonéticas ('pero... berro'), léxicas ('gato... perro'), sintácticas."
+    },
+    {
+      "id": 33,
+      "nombre": "Producción de nombres propios",
+      "teoria": "Los nombres propios son especialmente propensos a dificultades de recuperación (más TOT, más errores en envejecimiento). Son más difíciles que los nombres comunes porque tienen menos conexiones semánticas y más vínculos con identidades específicas.",
+      "ejemplo": "Es más fácil recordar 'manzana' que 'Juan Pérez' si no se tiene contexto. Los nombres propios son arbitrarios.",
+      "ejercicio": "¿Por qué los nombres propios son más difíciles de recordar que los nombres comunes?",
+      "respuesta": "Los nombres comunes tienen redes semánticas ricas (sinónimos, categorías, atributos). Los nombres propios tienen pocas conexiones semánticas y son arbitrarios (no hay razón para que alguien se llame 'Juan'). También el sistema de recuperación de nombres propios puede ser distinto (lóbulo temporal izquierdo) y más vulnerable."
+    },
+    {
+      "id": 34,
+      "nombre": "Producción del lenguaje en diálogo",
+      "teoria": "En diálogo, los hablantes adaptan su producción al interlocutor: alineación de estructuras sintácticas, léxico, ritmo. Existen fenómenos como el priming sintáctico en diálogo, la acomodación prosódica, y la simulación del modelo mental del oyente.",
+      "ejemplo": "Si un interlocutor usa pasiva ('El libro fue leído por Juan'), el otro tiende a usar pasiva en su respuesta ('La carta fue escrita por María').",
+      "ejercicio": "¿Qué es el priming sintáctico en diálogo? Pon un ejemplo.",
+      "respuesta": "Es la tendencia a repetir la estructura sintáctica usada por el interlocutor. Ejemplo: A: 'La niña le dio un regalo al niño' (estructura dativo). B: 'El profesor le explicó la lección al estudiante' (misma estructura). A: 'El niño dio un regalo a la niña' (otra variante). B: 'El estudiante explicó la lección al profesor' (alineación)."
+    },
+    {
+      "id": 35,
+      "nombre": "Procesamiento de pausas y vacilaciones",
+      "teoria": "Las pausas y vacilaciones ('eh', 'mmm') cumplen funciones comunicativas: señalan dificultad de planificación, permiten al hablante mantener el turno, facilitan la comprensión al segmentar el discurso, e indican duda o reformulación.",
+      "ejemplo": "'Entonces... eh... vamos a... digamos... comenzar.' Las pausas indican planificación en curso.",
+      "ejercicio": "¿Qué información transmiten las vacilaciones en el habla espontánea?",
+      "respuesta": "Transmiten que el hablante está procesando, buscando palabras o estructurando el discurso. Permiten al oyente anticipar que puede haber demora. También pueden indicar duda, inseguridad, o ser estrategias para mantener el turno ('eh', 'este', 'bueno')."
+    },
+    {
+      "id": 36,
+      "nombre": "Producción de narrativas y discurso",
+      "teoria": "La producción de discurso extenso (narrativas, descripciones, argumentaciones) requiere habilidades de macroplanificación (organización global), coherencia y cohesión. Se utilizan marcadores discursivos ('entonces', 'porque', 'sin embargo') y se mantiene la referencia a personajes y eventos.",
+      "ejemplo": "Contar una película requiere establecer personajes, secuencia de eventos, conexiones causales, y mantener la referencia (usar pronombres adecuadamente).",
+      "ejercicio": "¿Qué habilidades cognitivas están implicadas en la producción de narrativas?",
+      "respuesta": "Memoria de trabajo (mantener la trama), planificación (organizar eventos), teoría de la mente (anticipar lo que el oyente sabe y necesita), acceso al léxico y sintaxis, y control ejecutivo (monitorear coherencia y corrección)."
+    },
+    {
+      "id": 37,
+      "nombre": "Etapas de la adquisición del lenguaje",
+      "teoria": "El desarrollo del lenguaje sigue etapas universales: balbuceo (6-10 meses), primeras palabras (12-18 meses), combinación de dos palabras (18-24 meses), frases complejas (2-3 años), habla adulta (a partir de 5 años). Cada etapa muestra hitos fonológicos, morfosintácticos y semánticos.",
+      "ejemplo": "Balbuceo: 'bababa' (6-9 meses). Primeras palabras: 'mamá', 'agua' (12 meses). Dos palabras: 'mamá agua' (18 meses). Frases: 'mamá bebe agua' (2 años).",
+      "ejercicio": "Describe las características de cada etapa de adquisición del lenguaje infantil.",
+      "respuesta": "Balbuceo: sílabas reduplicadas. Holofrases: una palabra expresa oración completa. Dos palabras: relaciones semánticas (agente-acción, poseedor-posesión). Telegráfico: palabras funcionales omitidas. Oraciones simples (3-4 años): aparecen artículos, preposiciones, plurales. Oraciones complejas (5+ años): subordinación, pasiva, discurso narrativo."
+    },
+    {
+      "id": 38,
+      "nombre": "Teorías de adquisición: innatismo (Chomsky)",
+      "teoria": "Chomsky propuso el Dispositivo de Adquisición del Lenguaje (LAD) y la Gramática Universal: los niños nacen con conocimiento lingüístico innato que les permite aprender cualquier lengua con input limitado y a partir de datos empobrecidos. Argumentos: rapidez, uniformidad, creatividad y pobreza del estímulo.",
+      "ejemplo": "Un niño aprende reglas complejas de concordancia sin instrucción explícita. Sobreregularización ('rompido' en lugar de 'roto') muestra aplicación de reglas innatas.",
+      "ejercicio": "¿Qué es el argumento de la pobreza del estímulo de Chomsky?",
+      "respuesta": "El input que reciben los niños es incompleto (ruido, frases mal formadas) y no contiene información negativa (qué no es gramatical). Aun así, los niños adquieren conocimiento complejo y abstracto. La única explicación es que parte del conocimiento gramatical es innato."
+    },
+    {
+      "id": 39,
+      "nombre": "Teorías de adquisición: interaccionismo (Piaget, Vygotsky)",
+      "teoria": "El interaccionismo sostiene que el lenguaje se adquiere a través de la interacción social y el desarrollo cognitivo general. Vygotsky enfatizó la zona de desarrollo próximo y el habla privada. Piaget relacionó etapas cognitivas con hitos lingüísticos. El input social (andamiaje) es crucial.",
+      "ejemplo": "Un adulto expande lo que dice el niño: niño: 'agua'. Adulto: '¿Quieres agua?'. Proporciona modelos más complejos.",
+      "ejercicio": "Compara la visión de Chomsky y Vygotsky sobre la adquisición del lenguaje.",
+      "respuesta": "Chomsky: innatista, el lenguaje es modular y autónomo, la interacción social no es necesaria para la gramática básica. Vygotsky: el lenguaje se adquiere en la interacción social, el habla privada (egocéntrica) se internaliza en pensamiento verbal. Para Vygotsky, el lenguaje es una herramienta cultural, no un módulo innato aislado."
+    },
+    {
+      "id": 40,
+      "nombre": "Adquisición fonológica",
+      "teoria": "Los niños adquieren los fonemas de su lengua en un orden universal: vocales primero, luego consonantes (oclusivas, nasales, fricativas). Procesos fonológicos de simplificación: reducción de sílabas, asimilación, sustitución ('papa' por 'pala'), omisión de consonantes finales.",
+      "ejemplo": "Niño de 2 años: 'tato' por 'gato' (sustitución de oclusiva velar por dental), 'pepe' por 'pescado' (omisión).",
+      "ejercicio": "¿Qué son los procesos fonológicos de simplificación infantil? Ejemplos en español.",
+      "respuesta": "Son estrategias para simplificar palabras difíciles: reducción de sílabas ('pia' por 'pizza'), asimilación ('pape' por 'pato'), omisión de consonantes finales ('ca' por 'casa'), sustitución de líquidas ('pala' por 'plaza'), y 'papa' por 'pala'."
+    },
+    {
+      "id": 41,
+      "nombre": "Adquisición de la morfosintaxis: sobregeneralización",
+      "teoria": "Los niños aplican reglas regulares a formas irregulares, produciendo errores de sobregeneralización ('rompido' en lugar de 'roto', 'sabo' en lugar de 'sé'). Esto demuestra que han internalizado reglas productivas, incluso antes de aprender las excepciones.",
+      "ejemplo": "Niño: 'Yo hací esto' (en lugar de 'hice'), 'No lo sabo' (por 'sé'), 'Los pieses' (plural de 'pie').",
+      "ejercicio": "¿Por qué los niños dicen 'rompido' en lugar de 'roto'? ¿Qué indica sobre su conocimiento gramatical?",
+      "respuesta": "Han aprendido la regla regular de formación de participio pasado (infinitivo + -ido/-ado) y la aplican productivamente incluso al verbo irregular 'romper' (que es 'roto'). Indica que el niño tiene una regla gramatical operativa, no solo memorización. Con la edad aprenden las excepciones."
+    },
+    {
+      "id": 42,
+      "nombre": "Adquisición de la negación",
+      "teoria": "La adquisición de la negación sigue etapas: 1) negación externa con 'no' al inicio ('no agua'), 2) 'no' interno ('yo no agua'), 3) negación con auxiliares y verbos modales ('no puedo', 'no he visto'), 4) negación adulta plena.",
+      "ejemplo": "Etapa 1: 'No mía' (no es mío). Etapa 2: 'Yo no quiero'. Etapa 3: 'No puedo comer'. Etapa 4: 'No he comido todavía'.",
+      "ejercicio": "Describe las etapas de adquisición de la negación en español con ejemplos.",
+      "respuesta": "1: 'No agua' (negación externa). 2: 'Yo no agua' (negación interna antes del verbo). 3: 'No puedo beber agua' (uso de modales). 4: 'No he bebido agua' (negación con tiempos compuestos, con pronombres, etc.)."
+    },
+    {
+      "id": 43,
+      "nombre": "Adquisición del léxico y deícticos",
+      "teoria": "La adquisición del vocabulario implica estrategias: restricción de la forma (suponer que las palabras se refieren a objetos completos), supuesto del objeto completo, supuesto de la categoría taxonómica, y contexto pragmático. Los deícticos (yo, tú, aquí, ahora) son difíciles porque cambian de referencia según el hablante.",
+      "ejemplo": "Un niño aprende 'yo' al oír a otros usarlo pero aplicado a sí mismo, requiere inversión deíctica. 'Aquí' es ambiguo si el niño está en un lugar y el adulto en otro.",
+      "ejercicio": "¿Por qué los niños confunden 'yo' y 'tú' inicialmente? ¿Cómo resuelven la inversión deíctica?",
+      "respuesta": "Confunden porque el adulto llama 'yo' a sí mismo y 'tú' al niño. El niño debe entender que 'yo' se refiere al hablante de cada turno, y 'tú' al oyente. La resolución ocurre alrededor de los 2.5-3 años cuando desarrollan teoría de la mente y comprenden perspectivas alternativas."
+    },
+    {
+      "id": 44,
+      "nombre": "Adquisición de preguntas",
+      "teoria": "Las preguntas se adquieren en etapas: 1) entonación ascendente en enunciados afirmativos ('¿Agua?'), 2) uso de partículas interrogativas sin inversión ('¿Qué mamá hace?'), 3) inversión sujeto-verbo y uso completo de interrogativos (¿Qué hace mamá?), 4) preguntas subordinadas y más complejas.",
+      "ejemplo": "Etapa 1: '¿Mamá?' (preguntando por mamá). Etapa 2: '¿Qué mamá hace?' Etapa 3: '¿Qué hace mamá?'",
+      "ejercicio": "¿Qué diferencias hay en la adquisición de preguntas totales (sí/no) y parciales (quién, qué)?",
+      "respuesta": "Totales (sí/no) aparecen primero: entonación ascendente en afirmativas (¿Agua?). Parciales (qué, dónde) aparecen después, con la partícula al inicio pero a menudo sin inversión verbal ('¿Qué mamá hace?'). La inversión ('¿Qué hace mamá?') llega más tarde, alrededor de los 3 años."
+    },
+    {
+      "id": 45,
+      "nombre": "Adquisición de la relatividad lingüística",
+      "teoria": "La hipótesis de Sapir-Whorf (relativismo lingüístico) propone que la lengua que hablamos influye en nuestro pensamiento y percepción. Evidencia en adquisición: niños adquieren categorías semánticas de su lengua (colores, orientación espacial, género gramatical) y esto afecta su cognición.",
+      "ejemplo": "Niños que hablan español (género gramatical) pueden asociar características de género a objetos inanimados ('la luna' es femenino, 'el sol' es masculino).",
+      "ejercicio": "¿Qué evidencia experimental hay a favor y en contra de la hipótesis de Sapir-Whorf?",
+      "respuesta": "A favor: diferencias en categorización de colores entre hablantes de lenguas con distintos términos (azul vs. 'light blue'/'dark blue'). En contra: existe pensamiento universal (concepto del tiempo, espacio) incluso sin palabras específicas. Versión débil (relativismo) aceptada: la lengua facilita ciertas distinciones, pero no determina completamente el pensamiento."
+    },
+    {
+      "id": 46,
+      "nombre": "Adquisición del lenguaje en entornos bilingües",
+      "teoria": "Los niños bilingües pueden adquirir dos lenguas simultáneamente desde el nacimiento (bilingüismo simultáneo) o secuencialmente (una después de la otra). Pasan por etapas similares a los monolingües. Pueden distinguir los sistemas lingüísticos desde temprano (aproximadamente 2 años) aunque puedan mezclar códigos (code-switching).",
+      "ejemplo": "Niño bilingüe español-inglés: 'Mami, give me la pelota' (mezcla de códigos). A los 3 años, diferencia los idiomas según el interlocutor.",
+      "ejercicio": "¿Los niños bilingües se retrasan en el desarrollo del lenguaje? ¿Por qué?",
+      "respuesta": "No, el desarrollo general es equivalente a los monolingües si se mide cada lengua por separado. Puede haber ligera desventaja en vocabulario en cada lengua (porque dividen el input), pero el vocabulario total sumado es mayor o igual. Además, ventajas en control ejecutivo (funciones cognitivas)."
+    },
+    {
+      "id": 47,
+      "nombre": "Pobreza del estímulo y gramática universal",
+      "teoria": "El argumento de la pobreza del estímulo sostiene que el input lingüístico es insuficiente para adquirir la gramática completa. Los niños escuchan frases mal formadas, no reciben información negativa explícita, y aun así adquieren reglas abstractas y complejas que no están en el input. La Gramática Universal (GU) proporciona principios innatos que guían la adquisición.",
+      "ejemplo": "Un niño aprende que en español el sujeto puede omitirse ('canto') pero no en inglés ('I sing'). Sin instrucción explícita, infiere la propiedad paramétrica. La GU ofrece la opción de parámetro pro-drop.",
+      "ejercicio": "¿Cómo explica la Gramática Universal la adquisición del orden de palabras en español (SVO flexible) vs inglés (SVO rígido)?",
+      "respuesta": "La GU establece principios (ej. la oración tiene un sintagma de complementante) y parámetros (ej. núcleo-inicial vs núcleo-final). El niño, al oír input, fija los parámetros. Español: parámetro pro-drop = sí, orden más flexible. Inglés: pro-drop = no, orden rígido SVO. La GU permite esta variación parametrica."
+    },
+    {
+      "id": 48,
+      "nombre": "Habilidades metalingüísticas en niños",
+      "teoria": "Las habilidades metalingüísticas son la capacidad de reflexionar sobre el lenguaje como objeto, más allá de su uso comunicativo. Incluyen conciencia fonológica (segmentar palabras en sonidos), conciencia sintáctica (juicio de gramaticalidad), y conciencia pragmática (detectar ambigüedades). Se desarrollan entre los 4 y 7 años y son fundamentales para la lectura.",
+      "ejemplo": "Un niño de 4 años puede decir 'casa' empieza con 'c'. A los 6 años puede decir 'si digo perro sin la primera letra es 'erro'. Esta conciencia fonológica facilita la lectura.",
+      "ejercicio": "¿Qué relación hay entre conciencia fonológica y aprendizaje de la lectura?",
+      "respuesta": "La conciencia fonológica (segmentar palabras en fonemas, identificar rimas) es el mejor predictor del éxito en la lectura inicial. Permite entender que las letras representan sonidos. Niños con baja conciencia fonológica tienen riesgo de dificultades lectoras (dislexia)."
+    },
+    {
+      "id": 49,
+      "nombre": "Bilingüismo: tipos y beneficios cognitivos",
+      "teoria": "El bilingüismo puede ser simultáneo (dos lenguas desde el nacimiento) o secuencial (segunda lengua después de la primera). Se ha documentado la ventaja bilingüe en control ejecutivo (inhibición, flexibilidad cognitiva, atención selectiva). También se habla de desventaja en fluidez léxica por menor frecuencia en cada lengua.",
+      "ejemplo": "Un bilingüe español-catalán puede tener mejor desempeño en tareas de cambiar de reglas (Wisconsin Card Sorting Test) que un monolingüe.",
+      "ejercicio": "¿En qué consiste la 'ventaja bilingüe'? ¿Qué habilidades cognitivas mejora?",
+      "respuesta": "Es la superioridad de bilingües en tareas de control ejecutivo que requieren inhibición de respuestas irrelevantes, cambio de tareas, y monitoreo de conflictos. Mejora: atención selectiva, memoria de trabajo, flexibilidad cognitiva. La causa sería la necesidad de inhibir una lengua mientras se usa la otra, entrenando el control."
+    },
+    {
+      "id": 50,
+      "nombre": "Adquisición de segundas lenguas (L2)",
+      "teoria": "La adquisición de una L2 se diferencia de la L1 por: edad de inicio (efecto del período crítico), input (cantidad y calidad), conocimiento previo de la L1 (transferencia), y motivación. Etapas: silenciosa, producción temprana, emergencia del habla, fluidez. El hablante puede fosilizar errores.",
+      "ejemplo": "Un adulto angloparlante aprendiendo español puede transferir el orden SVO (correcto) pero también puede tener acento extranjero por no adquirir la /r/ vibrante.",
+      "ejercicio": "¿Qué es el período crítico en la adquisición de segundas lenguas?",
+      "respuesta": "Es un período (hasta la pubertad) en el que la adquisición de una L2 puede alcanzar niveles nativos, especialmente en fonología. Después de los 12-13 años, casi siempre se mantiene acento extranjero y errores gramaticales sutiles. La sintaxis y semántica pueden alcanzar niveles casi nativos con suficiente exposición."
+    }
+  ]
+}

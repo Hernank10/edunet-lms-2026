@@ -1,0 +1,25 @@
+{% extends "gamificacion/_base_estudiante.html" %}
+{% block contenido %}
+<h2 class="mb-4">🏆 Evaluaciones ({{ evaluaciones|length }})</h2>
+<div class="row">
+  {% for e in evaluaciones %}
+    <div class="col-md-6 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <h6>{{ e.evaluacion.titulo|truncatechars:60 }}</h6>
+          <p class="small mb-2">Intentos: {{ e.intentos }}</p>
+          {% if e.mejor_nota is not None %}
+            <span class="badge bg-{% if e.aprobado %}success{% else %}danger{% endif %}">
+              Mejor nota: {{ e.mejor_nota }}%
+            </span>
+          {% else %}
+            <span class="badge bg-secondary">Sin intentos</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p class="text-muted">No hay evaluaciones disponibles.</p>
+  {% endfor %}
+</div>
+{% endblock %}

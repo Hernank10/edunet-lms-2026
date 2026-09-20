@@ -1,0 +1,178 @@
+{
+  "titulo": "100 Técnicas Narrativas de la Novela Española",
+  "version": "1.0",
+  "descripcion": "Recursos literarios de Cervantes, Unamuno, Cela, Delibes, Marías, Zafón y más",
+  "total_tecnicas": 100,
+  "autores_destacados": [
+    "Miguel de Cervantes",
+    "Benito Pérez Galdós",
+    "Miguel de Unamuno",
+    "Azorín",
+    "Camilo José Cela",
+    "Miguel Delibes",
+    "Javier Marías",
+    "Carlos Ruiz Zafón"
+  ],
+  "categorias": {
+    "siglo_oro": {
+      "nombre": "Siglo de Oro",
+      "rango": [
+        1,
+        15
+      ],
+      "descripcion": "Cervantes, novela picaresca, narradores múltiples"
+    },
+    "realismo": {
+      "nombre": "Realismo y Naturalismo",
+      "rango": [
+        16,
+        30
+      ],
+      "descripcion": "Galdós, Clarín, descripción minuciosa"
+    },
+    "generacion_98": {
+      "nombre": "Generación del 98",
+      "rango": [
+        31,
+        45
+      ],
+      "descripcion": "Unamuno, Azorín, intrahistoria"
+    },
+    "siglo_xx": {
+      "nombre": "Novela del siglo XX",
+      "rango": [
+        46,
+        65
+      ],
+      "descripcion": "Cela, Delibes, realismo social"
+    },
+    "contemporanea": {
+      "nombre": "Narrativa contemporánea",
+      "rango": [
+        66,
+        85
+      ],
+      "descripcion": "Marías, Zafón, metaficción"
+    },
+    "experimentales": {
+      "nombre": "Técnicas experimentales",
+      "rango": [
+        86,
+        100
+      ],
+      "descripcion": "Vanguardia, metaliteratura"
+    }
+  },
+  "tecnicas": [
+    {
+      "id": 1,
+      "numero": 1,
+      "categoria": "siglo_oro",
+      "titulo_es": "El narrador múltiple cervantino",
+      "titulo_en": "Cervantine multiple narrator",
+      "descripcion_es": "Cervantes introduce varios narradores que se turnan para contar la historia, incluyendo al propio autor como personaje.",
+      "ejemplo_es": "En el Quijote, Cide Hamete Benengeli es el supuesto autor árabe, Cervantes el traductor, y Sancho un narrador oral. Tres voces para una misma historia.",
+      "autor_referencia": "Miguel de Cervantes",
+      "dificultad": "avanzado"
+    },
+    {
+      "id": 2,
+      "numero": 2,
+      "categoria": "siglo_oro",
+      "titulo_es": "La picaresca: narrador pícaro",
+      "titulo_en": "Picaresque: rogue narrator",
+      "descripcion_es": "El protagonista narra su vida en primera persona, desde su nacimiento humilde hasta su situación actual. El tono es irónico y crítico.",
+      "ejemplo_es": "Yo, Lázaro de Tormes, hijo de Tomé González y de Antona Pérez, natural de Tejares, cuento mi vida para que sepan de mis amos y mis hambres.",
+      "autor_referencia": "Anónimo (Lazarillo de Tormes)",
+      "dificultad": "intermedio"
+    },
+    {
+      "id": 3,
+      "numero": 3,
+      "categoria": "siglo_oro",
+      "titulo_es": "El diálogo cervantino",
+      "titulo_en": "Cervantine dialogue",
+      "descripcion_es": "Diálogos extensos donde los personajes muestran su personalidad y filosofía de vida. Las palabras revelan más que las acciones.",
+      "ejemplo_es": "—Dígame, señor caballero, ¿por qué lucha? —Por la justicia, Sancho. —Y la justicia, ¿dónde está? —En los libros, amigo. —Pues entonces, lea más y pelee menos.",
+      "autor_referencia": "Miguel de Cervantes",
+      "dificultad": "intermedio"
+    },
+    {
+      "id": 4,
+      "numero": 4,
+      "categoria": "siglo_oro",
+      "titulo_es": "La parodia de géneros",
+      "titulo_en": "Genre parody",
+      "descripcion_es": "Imitación burlesca de otros géneros literarios (novelas de caballerías, pastoriles) para criticarlos con humor.",
+      "ejemplo_es": "No eran molinos de viento, sino gigantes. Y no eran rebaños, sino ejércitos. Y no era una bacía, sino el yelmo de Mambrino. Así veía el Quijote el mundo.",
+      "autor_referencia": "Miguel de Cervantes",
+      "dificultad": "avanzado"
+    },
+    {
+      "id": 5,
+      "numero": 5,
+      "categoria": "siglo_oro",
+      "titulo_es": "La novela ejemplar",
+      "titulo_en": "Exemplary novel",
+      "descripcion_es": "El narrador incluye moralejas explícitas o implícitas al final de cada episodio. La historia enseña una lección.",
+      "ejemplo_es": "Y así, el joven aprendió que la honradez vale más que el oro. Quien la pierde, lo pierde todo. Quien la guarda, tiene tesoro asegurado.",
+      "autor_referencia": "Miguel de Cervantes",
+      "dificultad": "intermedio"
+    },
+    {
+      "id": 6,
+      "numero": 6,
+      "categoria": "realismo",
+      "titulo_es": "El narrador omnisciente galdosiano",
+      "titulo_en": "Galdosian omniscient narrator",
+      "descripcion_es": "El narrador conoce todos los pensamientos, entra en la conciencia de los personajes y comenta la acción como un cronista.",
+      "ejemplo_es": "Fortunata no sabía que, mientras ella lloraba, él la observaba desde la ventana. Tampoco sabía que el narrador lo sabía todo. Ella solo sabía su dolor.",
+      "autor_referencia": "Benito Pérez Galdós",
+      "dificultad": "intermedio"
+    },
+    {
+      "id": 7,
+      "numero": 7,
+      "categoria": "realismo",
+      "titulo_es": "La novela dialogada",
+      "titulo_en": "Dialogued novel",
+      "descripcion_es": "La acción avanza casi exclusivamente a través del diálogo. El narrador apenas interviene. Técnica teatral aplicada a la novela.",
+      "ejemplo_es": "—¿Dónde vas? —A la calle. —¿A qué? —A vivir. —¿Vivir es ir a la calle? —Para mí, sí. El narrador calló y dejó que ellos hablaran.",
+      "autor_referencia": "Benito Pérez Galdós",
+      "dificultad": "intermedio"
+    },
+    {
+      "id": 8,
+      "numero": 8,
+      "categoria": "realismo",
+      "titulo_es": "El narrador testigo",
+      "titulo_en": "Witness narrator",
+      "descripcion_es": "Un personaje secundario cuenta lo que ve, sin saber lo que pasa en la mente de los demás. La visión es limitada.",
+      "ejemplo_es": "Yo solo era el criado, pero lo vi todo. Las mentiras, los amores, las traiciones. Ellos creían que yo no entendía. Yo entendía demasiado.",
+      "autor_referencia": "Benito Pérez Galdós",
+      "dificultad": "intermedio"
+    },
+    {
+      "id": 9,
+      "numero": 9,
+      "categoria": "realismo",
+      "titulo_es": "La descripción minuciosa de ambientes",
+      "titulo_en": "Detailed description of environments",
+      "descripcion_es": "El narrador dedica páginas a describir salones, calles, casas, como si los objetos fueran personajes.",
+      "ejemplo_es": "La casa olía a naftalina y a siglos. Los muebles esperaban sentados. Las cortinas suspiraban. El salón era un museo de nostalgias.",
+      "autor_referencia": "Benito Pérez Galdós",
+      "dificultad": "intermedio"
+    },
+    {
+      "id": 10,
+      "numero": 10,
+      "categoria": "realismo",
+      "titulo_es": "El monólogo interior naturalista",
+      "titulo_en": "Naturalist interior monologue",
+      "descripcion_es": "El narrador reproduce los pensamientos del personaje sin filtrarlos, tal como fluyen, con repeticiones y asociaciones libres.",
+      "ejemplo_es": "Pensó: ¿iré, no iré? Si voy, la veo. Si no voy, no la veo. La veo, la veo. Iré. No, mejor no. Sí, voy. La veo. Ay, qué miedo. Iré.",
+      "autor_referencia": "Benito Pérez Galdós",
+      "dificultad": "avanzado"
+    }
+  ]
+}

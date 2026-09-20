@@ -1,0 +1,816 @@
+{
+  "titulo": "Textolingüística del Castellano",
+  "subtitulo": "Estructura, cohesión, coherencia y análisis del discurso",
+  "total_tecnicas": 100,
+  "categorias": [
+    "Fundamentos de la textolingüística (01-12)",
+    "Cohesión textual (13-24)",
+    "Coherencia y estructura textual (25-36)",
+    "Mecanismos de referencia y deixis (37-48)",
+    "Progresión temática y organización de la información (49-60)",
+    "Tipología textual: narración, descripción, argumentación (61-72)",
+    "Géneros discursivos y registros (73-84)",
+    "Análisis del discurso y pragmática textual (85-100)"
+  ],
+  "tecnicas": [
+    {
+      "id": 1,
+      "nombre": "Definición y objeto de la textolingüística",
+      "teoria": "La textolingüística (o lingüística del texto) es la disciplina que estudia el texto como unidad comunicativa superior a la oración. Analiza las propiedades que hacen que un conjunto de enunciados sea un texto (cohesión, coherencia, intencionalidad, aceptabilidad, informatividad, situacionalidad e intertextualidad). Supera el enfoque oracional para considerar el discurso en contexto.",
+      "ejemplo": "Ejemplo: Un conjunto de oraciones como 'Juan llegó tarde. Abrió la puerta. Se sentó.' forma un texto porque hay cohesión (pronombres, tiempos verbales) y coherencia (secuencia lógica de acciones).",
+      "ejercicio": "Explica la diferencia entre texto, oración y discurso. ¿Qué propiedades definen un texto?",
+      "respuesta": "Oración: unidad gramatical con sentido completo. Texto: unidad comunicativa formada por varias oraciones con cohesión y coherencia. Discurso: texto en contexto situacional, considerando los participantes y la intención comunicativa. Propiedades del texto: cohesión (conexiones lingüísticas), coherencia (estructura lógica), intencionalidad (propósito del emisor), aceptabilidad (receptor), informatividad (grado de información nueva), situacionalidad (contexto), intertextualidad (relación con otros textos)."
+    },
+    {
+      "id": 2,
+      "nombre": "Textualidad y siete estándares (Beaugrande & Dressler)",
+      "teoria": "Beaugrande y Dressler (1981) definieron siete estándares de textualidad: cohesión (relaciones gramaticales y léxicas), coherencia (relaciones conceptuales), intencionalidad (actitud del productor), aceptabilidad (actitud del receptor), informatividad (grado de información nueva o esperada), situacionalidad (relevancia en la situación), e intertextualidad (dependencia de otros textos).",
+      "ejemplo": "Ejemplo: Un anuncio publicitario: cohesión (uso de conectores), coherencia (mensaje lógico), intencionalidad (persuadir), aceptabilidad (el público lo entiende), informatividad (información sobre el producto), situacionalidad (contexto de venta), intertextualidad (referencia a otros anuncios).",
+      "ejercicio": "Define los siete estándares de textualidad de Beaugrande y Dressler y pon un ejemplo de cada uno.",
+      "respuesta": "1. Cohesión: relaciones gramaticales ('El perro ladraba. Estaba furioso.'). 2. Coherencia: sentido global. 3. Intencionalidad: propósito del autor. 4. Aceptabilidad: el receptor acepta el texto como comunicativo. 5. Informatividad: información nueva vs esperada. 6. Situacionalidad: adecuación al contexto. 7. Intertextualidad: referencias a otros textos. Ejemplo de intertextualidad: 'Ser o no ser, esa es la cuestión' (alusión a Shakespeare)."
+    },
+    {
+      "id": 3,
+      "nombre": "Cohesión textual: concepto y mecanismos",
+      "teoria": "La cohesión es la propiedad del texto que se manifiesta en las marcas lingüísticas que conectan las diferentes partes. Incluye mecanismos como la referencia (anáfora, catáfora), la elipsis, la sustitución léxica, la recurrencia (repetición), los conectores discursivos (adición, contraste, causa, consecuencia, orden), y los tiempos verbales.",
+      "ejemplo": "Ejemplo de cohesión: 'María compró un libro. Lo leyó en una tarde. Estaba muy interesante.' (referencia anafórica con 'lo'), 'Unos estudian; otros, trabajan' (elipsis verbal), 'Primero, prepara los ingredientes; luego, mézclalos.' (conectores de orden).",
+      "ejercicio": "Identifica los mecanismos de cohesión en el siguiente texto: 'Juan llegó tarde. Eso no le importó a nadie. Sin embargo, su jefe le llamó la atención. Estaba muy enfadado.'",
+      "respuesta": "- Anáfora: 'Eso' refiere a 'Juan llegó tarde'. - Conector adversativo: 'Sin embargo' indica contraste. - Referencia pronominal: 'su jefe' (posesivo). - Elipsis del sujeto en 'Estaba muy enfadado' (el sujeto omitido es 'su jefe')."
+    },
+    {
+      "id": 4,
+      "nombre": "Coherencia textual: estructura y sentido global",
+      "teoria": "La coherencia es la propiedad semántica del texto que permite que sea interpretado como una unidad de sentido global. Se basa en la organización lógica de las ideas, la progresión temática, la ausencia de contradicciones, la relación causa-efecto, y la adecuación al tópico. Un texto incoherente tiene saltos temáticos o ideas inconexas.",
+      "ejemplo": "Ejemplo de texto coherente: 'Me desperté tarde. Perdí el autobús. Llegué tarde al trabajo. Mi jefe me regañó.' Secuencia causal lógica. Texto incoherente: 'Me desperté tarde. El cielo es azul. Los zapatos son negros. Llegué al trabajo.' No hay relación entre las ideas.",
+      "ejercicio": "Evalúa la coherencia del siguiente texto: 'Aprobé el examen. Estudié mucho. La gramática es difícil. Compré un coche nuevo.' ¿Es coherente? ¿Por qué?",
+      "respuesta": "No es completamente coherente porque la oración 'Compré un coche nuevo' no tiene relación con las anteriores (aprobar examen, estudiar, gramática). Hay un salto temático. Para ser coherente, debería haber una conexión lógica o eliminarse la frase intrusa. La coherencia se rompe."
+    },
+    {
+      "id": 5,
+      "nombre": "Intencionalidad y aceptabilidad textual",
+      "teoria": "La intencionalidad es la actitud del productor del texto para lograr un propósito (informar, persuadir, entretener, etc.). La aceptabilidad es la disposición del receptor para aceptar el texto como comunicativo, relevante y coherente, asumiendo que el emisor tiene un propósito y que vale la pena interpretarlo.",
+      "ejemplo": "Ejemplo de intencionalidad: una carta de solicitud de empleo busca persuadir al seleccionador. Ejemplo de aceptabilidad: el seleccionador lee la carta asumiendo que es seria y merece atención.",
+      "ejercicio": "¿Cómo se relacionan la intencionalidad y la aceptabilidad en un debate político?",
+      "respuesta": "El político (emisor) tiene intencionalidad persuasiva: convencer al electorado. El público (receptor) muestra aceptabilidad al escuchar, pero puede rechazar si el discurso es muy manipulador o incoherente. La aceptabilidad no significa acuerdo, sino disposición a interpretar como texto comunicativo."
+    },
+    {
+      "id": 6,
+      "nombre": "Informatividad y niveles de información",
+      "teoria": "La informatividad es el grado de información nueva o inesperada que contiene un texto. Puede ser de primer grado (información esperable), segundo grado (información algo novedosa) o tercer grado (información muy sorprendente o compleja). El equilibrio es clave: texto demasiado predecible aburre; demasiado novedoso confunde.",
+      "ejemplo": "Primer grado: 'El agua moja' (muy predecible). Segundo: 'El agua puede disolver ciertos metales' (algo novedoso). Tercer grado: 'Un nuevo material moja al agua' (sorprendente, requiere explicación).",
+      "ejercicio": "Clasifica la informatividad de estas dos oraciones en un texto científico: a) 'El agua hierve a 100 grados Celsius' b) 'Se ha descubierto una bacteria que oxida el oro a temperatura ambiente'.",
+      "respuesta": "a) Primer grado: información esperada, básica de ciencias. b) Tercer grado: descubrimiento novedoso, inesperado, que contradice el conocimiento común (el oro es inerte). Requiere contexto explicativo para ser aceptable."
+    },
+    {
+      "id": 7,
+      "nombre": "Situacionalidad y contexto",
+      "teoria": "La situacionalidad es la adecuación del texto a la situación comunicativa: lugar, tiempo, participantes, propósito, y medio (oral/escrito, formal/informal). Un texto puede ser coherente en sí mismo pero inapropiado para la situación (ejemplo: lenguaje coloquial en un informe oficial).",
+      "ejemplo": "Ejemplo: decir '¡Qué calor!' en un correo formal a un cliente es inapropiado. En un chat con amigos es adecuado. La situacionalidad exige ajustar registro, léxico, y extensión.",
+      "ejercicio": "¿Qué problemas de situacionalidad tendría usar la jerga juvenil en una tesis doctoral?",
+      "respuesta": "La tesis doctoral es un género académico formal, espera lenguaje técnico y objetivo. La jerga juvenil sería inapropiada, restaría seriedad, y podría no ser entendida por los evaluadores, violando la situacionalidad (contexto institucional, audiencia especializada)."
+    },
+    {
+      "id": 8,
+      "nombre": "Intertextualidad implícita y explícita",
+      "teoria": "La intertextualidad es la relación de un texto con otros textos previos, ya sea mediante citas explícitas (comillas, referencias bibliográficas) o alusiones implícitas (referencias sin marcar, parodias, estilos). Es fundamental en géneros académicos, literarios y periodísticos.",
+      "ejemplo": "Ejemplo explícito: 'Como dijo Cervantes: «En un lugar de la Mancha...»'. Implícito: 'Su quijotismo lo llevó a luchar contra molinos' (alusión a Don Quijote).",
+      "ejercicio": "Identifica la intertextualidad en 'Nuevo amanecer de la libertad, después de la larga noche de opresión'.",
+      "respuesta": "Alusión implícita a metáforas románticas y revolucionarias ('amanecer de la libertad', 'noche de opresión') que remiten a discursos políticos y literarios del siglo XIX (Hugo, Marx, etc.). No es cita directa pero el lector reconoce el eco textual."
+    },
+    {
+      "id": 9,
+      "nombre": "Macroestructura y microestructura textual",
+      "teoria": "La macroestructura es la organización global del texto (introducción, desarrollo, conclusión; tesis, argumentos; secuencia narrativa). La microestructura son las relaciones entre oraciones y párrafos (cohesión, conectores). Ambas deben ser coherentes. El análisis textual distingue estos niveles.",
+      "ejemplo": "Macroestructura de un ensayo: introducción (plantea tesis), desarrollo (argumentos), conclusión (síntesis). Microestructura: uso de conectores ('además', 'por tanto', 'sin embargo') dentro de los párrafos.",
+      "ejercicio": "Analiza la macroestructura de un cuento breve conocido (ej. 'La cenicienta'): ¿cuáles son sus partes?",
+      "respuesta": "Macroestructura narrativa: situación inicial (Cenicienta maltratada), complicación (llegada del príncipe, baile), resolución (zapatilla, matrimonio), moraleja implícita. Microestructura: conectores temporales (entonces, después), pronombres anafóricos, descripciones."
+    },
+    {
+      "id": 10,
+      "nombre": "Superestructura y tipos textuales",
+      "teoria": "La superestructura es el esquema formal que organiza un texto según su tipo (narrativa, descriptiva, argumentativa, explicativa, dialogal). Cada tipo tiene una estructura canónica: narrativa (situación inicial, complicación, resolución), argumentativa (tesis, argumentos, conclusión), descriptiva (presentación de rasgos), explicativa (problema, causas, consecuencias).",
+      "ejemplo": "Superestructura argumentativa: introducción (presenta el tema y la tesis), cuerpo (argumentos ordenados), conclusión (refuerza la tesis).",
+      "ejercicio": "Identifica la superestructura de un artículo de opinión en un periódico.",
+      "respuesta": "Superestructura argumentativa: título (tesis sugerida), primer párrafo (contexto y tesis explícita), párrafos intermedios (argumentos con ejemplos o datos), conclusión (reitera opinión o llamada a la acción). También puede incluir refutación de contraargumentos."
+    },
+    {
+      "id": 11,
+      "nombre": "Tópico y rema en la progresión textual",
+      "teoria": "El tópico (o tema) es la información conocida o el punto de partida de un enunciado. El rema (o foco) es la información nueva que se aporta. La progresión temática es la forma en que se organizan tópicos y remas a lo largo del texto para lograr coherencia y cohesión.",
+      "ejemplo": "En 'La casa (tópico) es antigua (rema). Esa antigüedad (nuevo tópico) se nota en los muros (nuevo rema).' Hay progresión lineal.",
+      "ejercicio": "Identifica tópico y rema en: 'El español (tópico) es la segunda lengua materna del mundo (rema). Su expansión (nuevo tópico) se debe al crecimiento demográfico (nuevo rema).'",
+      "respuesta": "Primera oración: tópico 'El español', rema 'es la segunda lengua materna del mundo'. Segunda oración: tópico 'Su expansión' (retoma parte del rema anterior), rema 'se debe al crecimiento demográfico'. Progresión lineal."
+    },
+    {
+      "id": 12,
+      "nombre": "Progresión temática lineal y constante",
+      "teoria": "Tipos de progresión temática: lineal (el rema de una oración se convierte en tópico de la siguiente), constante (el mismo tópico se mantiene con diferentes remas), derivada (los remas derivan de un hiper-tópico), y mixta. La progresión adecuada evita saltos incoherentes y facilita la comprensión.",
+      "ejemplo": "Progresión lineal: 'La semántica (T) estudia el significado (R). Ese significado (T2=R) se organiza en campos léxicos (R2).' Progresión constante: 'El lenguaje (T) es fascinante (R1). El lenguaje (T) nos define (R2). El lenguaje (T) nos conecta (R3).'",
+      "ejercicio": "Clasifica la progresión en: 'La gramática es el estudio de las reglas. Esas reglas permiten construir oraciones. Las oraciones forman textos.'",
+      "respuesta": "Progresión lineal: T1 = 'La gramática', R1 = 'el estudio de las reglas'. T2 = 'Esas reglas' (retoma R1), R2 = 'permiten construir oraciones'. T3 = 'Las oraciones' (retoma R2), R3 = 'forman textos'. Hay cadena de remas convertidos en temas."
+    },
+    {
+      "id": 13,
+      "nombre": "Recurrencia y repetición léxica",
+      "teoria": "La recurrencia léxica es un mecanismo de cohesión que consiste en repetir palabras clave (repetición exacta) o usar sinónimos, hiperónimos, o palabras de la misma familia (recorrencia semántica). Evita la monotonía si es variada, pero mantiene la unidad temática.",
+      "ejemplo": "Repetición exacta: 'El agua es vital. El agua permite la vida.' Recurrencia semántica: 'El automóvil es rápido. Ese vehículo consume mucha gasolina.' (automóvil → vehículo).",
+      "ejercicio": "Reescribe el siguiente texto evitando la repetición exacta de 'coche': 'Compré un coche. El coche es rojo. El coche tiene cuatro puertas. El coche es muy rápido.'",
+      "respuesta": "Compré un coche rojo. Este vehículo tiene cuatro puertas y es muy rápido. (sustitución: 'coche' → 'vehículo', pronombre 'este', omisión)."
+    },
+    {
+      "id": 14,
+      "nombre": "Sustitución por proformas (pronombres, adverbios)",
+      "teoria": "La sustitución es el reemplazo de una palabra o sintagma por una proforma: pronombres personales (él, ella, lo, le), demostrativos (este, ese, aquel), posesivos (su, suyo), indefinidos (uno, otro), y adverbios pronominales (allí, entonces). Es un mecanismo cohesivo fundamental para evitar repeticiones.",
+      "ejemplo": "Ejemplo: 'María estudia lingüística. Ella es muy aplicada.' (Ella sustituye a María). 'No tengo bolígrafo, ¿me prestas uno?' (uno sustituye a bolígrafo).",
+      "ejercicio": "Identifica las proformas en: 'Juan llegó tarde. Eso enfadó a su jefe. Le llamó la atención y le pidió una explicación.'",
+      "respuesta": "'Eso' (proforma oracional: 'que Juan llegara tarde'), 'su' (posesivo: de Juan), 'Le' (pronombre que sustituye a Juan como CI), 'le' (pronombre que sustituye a Juan)."
+    },
+    {
+      "id": 15,
+      "nombre": "Elipsis como recurso cohesivo",
+      "teoria": "La elipsis es la omisión de elementos lingüísticos que se sobreentienden por el contexto. Puede ser nominal (omisión del sustantivo), verbal (omisión del verbo), u oracional (omisión de toda una oración). La elipsis evita repeticiones y agiliza el discurso.",
+      "ejemplo": "Elipsis nominal: 'Compré manzanas y peras. Las primeras son más dulces; las segundas, más jugosas.' (se omite 'manzanas' y 'peras'). Elipsis verbal: 'Unos estudian; otros, trabajan.' (se omite 'trabajan').",
+      "ejercicio": "Reescribe la siguiente oración usando elipsis: 'María estudia lingüística y Juan estudia literatura. María es aplicada y Juan es talentoso.'",
+      "respuesta": "María estudia lingüística y Juan, literatura. María es aplicada y Juan, talentoso. (elipsis de 'estudia' y del verbo 'es')."
+    },
+    {
+      "id": 16,
+      "nombre": "Conectores discursivos: adición y contraste",
+      "teoria": "Los conectores discursivos son palabras o locuciones que señalan relaciones lógicas entre enunciados. De adición: y, además, también, asimismo, encima. De contraste: pero, sino, sin embargo, no obstante, aunque, al contrario. Su uso adecuado garantiza la cohesión.",
+      "ejemplo": "Adición: 'Estudió mucho. Además, repasó antes del examen.' Contraste: 'Estudió mucho, pero no aprobó.'",
+      "ejercicio": "Completa con el conector adecuado: 'Quería viajar a París, ___ no tenía dinero. ___, decidió ahorrar durante un año.'",
+      "respuesta": "'Quería viajar a París, **pero** no tenía dinero. **Por eso**, decidió ahorrar durante un año.' (primero contraste, luego consecuencia)."
+    },
+    {
+      "id": 17,
+      "nombre": "Conectores causales, consecutivos y finales",
+      "teoria": "Conectores causales (porque, ya que, puesto que, debido a que) expresan la causa. Consecutivos (por tanto, por consiguiente, así que, de modo que) expresan consecuencia. Finales (para que, a fin de que) expresan propósito. La correcta selección es clave para la argumentación.",
+      "ejemplo": "Causa: 'No salí porque llovía.' Consecuencia: 'Llovía, así que no salí.' Finalidad: 'Ahorro para viajar.'",
+      "ejercicio": "Reescribe la oración usando un conector consecutivo: 'Estudió mucho. Aprobó el examen.'",
+      "respuesta": "'Estudió mucho, **por tanto** aprobó el examen.' O 'Estudió mucho, **así que** aprobó el examen.'"
+    },
+    {
+      "id": 18,
+      "nombre": "Conectores temporales y de orden",
+      "teoria": "Los conectores temporales sitúan los eventos en el tiempo (cuando, mientras, después, antes, luego, entonces, finalmente). Los de orden estructuran el discurso (en primer lugar, por un lado, por otro lado, a continuación, para concluir). Son esenciales en narraciones y exposiciones.",
+      "ejemplo": "Temporales: 'Primero llegó, luego se sentó, después habló.' Orden: 'En primer lugar, analizaremos la cohesión; en segundo lugar, la coherencia.'",
+      "ejercicio": "Añade conectores temporales y de orden al siguiente texto: 'Analizaremos la cohesión. Veremos los conectores. Estudiaremos la elipsis. Concluiremos.'",
+      "respuesta": "'**Primero**, analizaremos la cohesión; **a continuación**, veremos los conectores; **después**, estudiaremos la elipsis; **finalmente**, concluiremos.'"
+    },
+    {
+      "id": 19,
+      "nombre": "Marcadores de reformulación y ejemplificación",
+      "teoria": "Los marcadores de reformulación (es decir, o sea, esto es, en otras palabras, dicho de otro modo) introducen una nueva formulación del mismo contenido, a menudo más clara. Los de ejemplificación (por ejemplo, así, en concreto, verbigracia, pongamos por caso) introducen casos que ilustran una idea general.",
+      "ejemplo": "Reformulación: 'La deixis, es decir, el anclaje contextual, es fundamental.' Ejemplificación: 'Hay varias figuras semánticas, por ejemplo, la metáfora, la metonimia, la sinécdoque.'",
+      "ejercicio": "Reformula la siguiente oración usando 'en otras palabras' y luego añade un ejemplo: 'La coherencia textual es la propiedad que hace que un texto sea interpretable como una unidad.'",
+      "respuesta": "'La coherencia textual es la propiedad que hace que un texto sea interpretable como una unidad. **En otras palabras**, un texto coherente tiene sentido global. **Por ejemplo**, en una narración, la secuencia de eventos debe ser lógica: introducción, desarrollo, desenlace.'"
+    },
+    {
+      "id": 20,
+      "nombre": "Marcadores de ordenación y secuencia",
+      "teoria": "Los marcadores de ordenación (primero, segundo, tercero; por una parte, por otra parte; para empezar, para continuar, para finalizar) organizan la estructura del texto y facilitan la lectura. Son frecuentes en textos expositivos y argumentativos.",
+      "ejemplo": "'Para empezar, definiremos el concepto. Por otra parte, analizaremos ejemplos. Finalmente, extraeremos conclusiones.'",
+      "ejercicio": "Escribe un párrafo con tres argumentos usando marcadores de ordenación (primero, segundo, tercero).",
+      "respuesta": "'**Primero**, la gramática es esencial para la claridad. **Segundo**, el dominio del vocabulario enriquece la expresión. **Tercero**, la puntuación organiza el discurso. Por tanto, es necesario estudiar todos estos aspectos.'"
+    },
+    {
+      "id": 21,
+      "nombre": "Tiempos verbales como mecanismo cohesivo",
+      "teoria": "La secuencia de tiempos verbales cohesiona un texto al situar los eventos en una línea temporal coherente. En narración, el pretérito perfecto simple marca acciones puntuales, el imperfecto describe o expresa hábitos, el pluscuamperfecto indica anterioridad. El cambio de tiempo puede señalar cambio de perspectiva o de tipo textual.",
+      "ejemplo": "'Cuando llegó (pretérito), todos dormían (imperfecto). Ya habían cenado (pluscuamperfecto).' La secuencia temporal es clara.",
+      "ejercicio": "Corrige la secuencia temporal en: 'Cuando llegó, todos duermen. Ya cenaron antes.'",
+      "respuesta": "'Cuando llegó, todos **dormían**. Ya **habían cenado** antes.' El presente 'duermen' y el pretérito 'cenaron' rompen la cohesión temporal con el pasado 'llegó'. Se requiere imperfecto y pluscuamperfecto."
+    },
+    {
+      "id": 22,
+      "nombre": "Mantenimiento del registro y estilo",
+      "teoria": "La cohesión también implica mantener un registro (formal, informal, técnico) y un estilo (objetivo, subjetivo) consistentes a lo largo del texto. Cambios abruptos (ej. pasar de 'usted' a 'tú') sin justificación afectan la cohesión y la adecuación.",
+      "ejemplo": "Incohesión: 'Agradezco a los presentes. Vosotros sois muy amables.' (mezcla de 'ustedes' y 'vosotros'). Cohesión: 'Agradezco a los presentes. Ustedes son muy amables.'",
+      "ejercicio": "¿Qué problema de registro hay en: 'El proyecto fue aprobado por unanimidad. Además, chévere, ¿no?'",
+      "respuesta": "Mezcla de registro formal ('aprobado por unanimidad') con coloquialismo juvenil ('chévere, ¿no?'). La cohesión estilística se rompe. En un texto formal, debe mantenerse el tono objetivo sin expresiones coloquiales."
+    },
+    {
+      "id": 23,
+      "nombre": "Cohesión por isotopía semántica",
+      "teoria": "La isotopía es la recurrencia de rasgos semánticos que crean una línea temática homogénea. Por ejemplo, un texto sobre el mar usará términos como 'olas', 'marea', 'navegante', 'sal', 'azul', 'profundidad', creando una isotopía marina. La ruptura de isotopía (por ejemplo, hablar de 'computadoras' en medio) distrae.",
+      "ejemplo": "Texto con isotopía de justicia: 'El juez dictó sentencia. El abogado defendió a su cliente. El jurado deliberó. La ley fue aplicada.'",
+      "ejercicio": "Crea un texto de tres oraciones con isotopía de 'medicina' (hospital, doctor, paciente, enfermedad, curación).",
+      "respuesta": "'El doctor examinó al paciente en el hospital. La enfermedad fue diagnosticada rápidamente. La curación requirió un tratamiento intensivo.' (isotopía de vocabulario médico)."
+    },
+    {
+      "id": 24,
+      "nombre": "Figuras de repetición como recurso cohesivo: anáfora",
+      "teoria": "La anáfora (repetición de palabras al inicio de frases o versos) y otras figuras de repetición (epífora, anadiplosis, quiasmo) no solo tienen valor estético, sino que cohesionan el texto al crear paralelismos y ritmo.",
+      "ejemplo": "Anáfora: 'El mar, el mar, el mar. Siempre el mar.' (repetición de 'el mar'). Epífora: 'Estudia para aprender, trabaja para aprender, vive para aprender.'",
+      "ejercicio": "Crea un ejemplo de anáfora con la palabra 'lengua' en un texto argumentativo breve.",
+      "respuesta": "'**La lengua** nos define como comunidad. **La lengua** nos permite transmitir cultura. **La lengua** es nuestra identidad. Por eso debemos protegerla.'"
+    },
+    {
+      "id": 25,
+      "nombre": "Puntuación como recurso cohesivo",
+      "teoria": "La puntuación (coma, punto, punto y coma, dos puntos) estructura el texto y cohesiona las oraciones. La coma separa elementos de una enumeración; el punto y seguido, oraciones relacionadas; el punto y aparte, cambios de párrafo; los dos puntos, explicaciones o enumeraciones. Una puntuación adecuada mejora la legibilidad.",
+      "ejemplo": "Ejemplo de cohesión por puntuación: 'Tres cosas necesita el viajero: agua, comida y descanso. Con ellas, puede seguir.' (dos puntos introducen enumeración, punto seguido separa oraciones).",
+      "ejercicio": "Puntúa correctamente el siguiente texto para mejorar su cohesión: 'Llegué tarde al examen no había estudiado lo suficiente el profesor me miró con desaprobación reprobé.'",
+      "respuesta": "'Llegué tarde al examen. No había estudiado lo suficiente. El profesor me miró con desaprobación. Reprobé.' (punto y seguido). O más cohesionado: 'Llegué tarde al examen; no había estudiado lo suficiente. El profesor me miró con desaprobación y reprobé.'"
+    },
+    {
+      "id": 26,
+      "nombre": "Título y subtítulos como organizadores textuales",
+      "teoria": "Los títulos y subtítulos son macroestructuras que anuncian el contenido y organizan el texto en secciones. Facilitan la lectura y orientan al receptor. En textos académicos, los subtítulos crean una jerarquía de información (1, 1.1, 1.2, etc.). Deben ser informativos y atractivos.",
+      "ejemplo": "Estructura de un artículo: '1. Introducción. 1.1 Antecedentes. 2. Metodología. 3. Resultados. 4. Conclusiones.'",
+      "ejercicio": "Diseña los títulos y subtítulos para un ensayo sobre 'La evolución del español' (tres secciones principales, cada una con dos subsecciones).",
+      "respuesta": "'**Evolución del español**. 1. Orígenes: 1.1 Latín vulgar; 1.2 Influencias prerromanas. 2. Formación del castellano: 2.1 El condado de Castilla; 2.2 La Reconquista. 3. Expansión global: 3.1 América; 3.2 El español en el mundo actual.'"
+    },
+    {
+      "id": 27,
+      "nombre": "Párrafo como unidad de organización",
+      "teoria": "El párrafo es una unidad visual y conceptual que desarrolla una idea principal. Suele comenzar con una oración temática (topic sentence) que anuncia el contenido, seguida de oraciones de apoyo (ejemplos, detalles, argumentos) y a veces una oración de cierre. El cambio de párrafo indica cambio de subtema.",
+      "ejemplo": "Párrafo bien estructurado: 'La cohesión textual es esencial para la claridad. (oración temática) Por ejemplo, los conectores como 'sin embargo' o 'por tanto' señalan relaciones lógicas. Además, la referencia pronominal evita repeticiones. En conclusión, dominar la cohesión mejora la escritura.'",
+      "ejercicio": "Escribe un párrafo de cinco líneas sobre la importancia de la coherencia, con oración temática, ejemplos y cierre.",
+      "respuesta": "'**La coherencia textual es la propiedad que da sentido global al discurso.** Sin ella, un texto sería un conjunto de oraciones inconexas. **Por ejemplo**, si escribo 'Me levanté temprano. Las nubes son blancas. Aprobé el examen.', no hay relación lógica. **Por tanto**, todo escritor debe revisar la coherencia antes de publicar.'"
+    },
+    {
+      "id": 28,
+      "nombre": "Estructura narrativa: planteamiento, nudo, desenlace",
+      "teoria": "La estructura narrativa canónica incluye tres partes: planteamiento (presentación de personajes, contexto, situación inicial), nudo (conflicto, complicaciones, eventos centrales), y desenlace (resolución, final). Esta macroestructura es típica de cuentos, novelas, películas, y también aparece en textos de divulgación.",
+      "ejemplo": "Planteamiento: 'Había una vez un lobo feroz.' Nudo: 'El lobo atacó a Caperucita.' Desenlace: 'Un leñador mató al lobo y salvó a Caperucita.'",
+      "ejercicio": "Identifica planteamiento, nudo y desenlace en un cuento corto que conozcas (ej. 'Los tres cerditos').",
+      "respuesta": "Planteamiento: tres cerditos construyen casas de paja, madera y ladrillo. Nudo: el lobo sopla y derriba las dos primeras, pero no la de ladrillo. Desenlace: el lobo cae por la chimenea y los cerditos lo ahuyentan."
+    },
+    {
+      "id": 29,
+      "nombre": "Estructura argumentativa: tesis, argumentos, conclusión",
+      "teoria": "La estructura argumentativa se organiza en: introducción (presenta tema y tesis), desarrollo (argumentos con ejemplos, datos, razonamientos, y a veces refutación de contraargumentos), y conclusión (síntesis y reafirmación de la tesis). Es propia de ensayos, editoriales, reseñas críticas.",
+      "ejemplo": "Tesis: 'El español debe ser lengua vehicular en la educación.' Argumentos: unidad, movilidad, acceso a la cultura. Conclusión: 'Por tanto, es imprescindible reforzar su enseñanza.'",
+      "ejercicio": "Construye un mini ensayo argumentativo de tres párrafos (tesis, argumento, conclusión) sobre 'La importancia de leer clásicos'.",
+      "respuesta": "Tesis: 'Leer clásicos es esencial para la formación cultural.' Argumento: 'Los clásicos transmiten valores universales, amplían el vocabulario y ejercitan el pensamiento crítico. Por ejemplo, Cervantes, Shakespeare o Dostoyevski ofrecen perspectivas atemporales.' Conclusión: 'Por tanto, el sistema educativo debe incluir la lectura de clásicos como obligatoria.'"
+    },
+    {
+      "id": 30,
+      "nombre": "Estructura descriptiva: orden espacial y enumeración",
+      "teoria": "La descripción organiza el espacio o la apariencia de objetos, personas o lugares. Puede seguir un orden espacial (de arriba abajo, de cerca a lejos, de izquierda a derecha) o temático (cualidades, partes). Usa adjetivos, comparaciones y enumeraciones. Es común en textos literarios, guías turísticas, manuales.",
+      "ejemplo": "Descripción orden espacial: 'La casa tenía un jardín delantero. A la izquierda, una fuente; a la derecha, un árbol añoso.'",
+      "ejercicio": "Describe tu habitación ordenando los elementos de cerca a lejos desde la puerta.",
+      "respuesta": "'Al entrar, a la izquierda hay un escritorio con una lámpara. Más adelante, la cama con una colcha azul. Al fondo, la ventana que da al jardín. A la derecha, un armario de madera.'"
+    },
+    {
+      "id": 31,
+      "nombre": "Estructura explicativa: problema, causas, consecuencias",
+      "teoria": "El texto explicativo busca que el receptor comprenda un fenómeno o concepto. Su macroestructura incluye: presentación del problema o tema, explicación de causas o mecanismos, y descripción de consecuencias. Es frecuente en libros de texto, divulgación científica, y manuales.",
+      "ejemplo": "Problema: '¿Por qué llueve?' Causas: 'El agua se evapora, forma nubes, se enfría y precipita.' Consecuencias: 'La lluvia riega cultivos, llena ríos y puede causar inundaciones.'",
+      "ejercicio": "Escribe un texto explicativo breve sobre 'el cambio climático', con problema, causas y consecuencias.",
+      "respuesta": "'**Problema**: el cambio climático es el aumento de la temperatura global. **Causas**: la quema de combustibles fósiles emite gases de efecto invernadero. **Consecuencias**: deshielo de los polos, aumento del nivel del mar y fenómenos extremos como sequías e inundaciones.'"
+    },
+    {
+      "id": 32,
+      "nombre": "Estructura dialogal: turnos y actos de habla",
+      "teoria": "El diálogo textual (en narrativa, teatro, entrevistas) se organiza en turnos de palabra, que pueden marcarse con guiones, nombres de personajes, o verbos de habla (dijo, preguntó). Los actos de habla (asertivos, directivos, comisivos, expresivos, declarativos) dan cohesión al intercambio.",
+      "ejemplo": "Diálogo en novela: '—¿Vienes? —preguntó Ana. —Sí, ahora mismo —respondió Luis—. Espérame.'",
+      "ejercicio": "Escribe un diálogo de 4 turnos entre dos amigos discutiendo sobre leer un libro vs ver la película.",
+      "respuesta": "'—Prefiero ver la película, es más rápido. —dijo Ana. —Pero el libro tiene más detalles y matices. —respondió Luis. —Es que leer me da pereza. —Solo son 200 páginas, lo terminas en una semana.'"
+    },
+    {
+      "id": 33,
+      "nombre": "Géneros discursivos (Bajtín)",
+      "teoria": "Bajtín define los géneros discursivos como tipos relativamente estables de enunciados, determinados por la esfera de comunicación (cotidiana, científica, periodística, literaria, jurídica). Cada género tiene tema, estilo y composición específicos (ej. una receta de cocina, un informe policial, un soneto).",
+      "ejemplo": "Género receta de cocina: instrucciones imperativas, lista de ingredientes, orden temporal. Género noticia: titular, lead, cuerpo, declaraciones. Género carta comercial: fórmulas de cortesía, estructura de petición/respuesta.",
+      "ejercicio": "Enumera tres géneros discursivos del ámbito académico y describe sus rasgos.",
+      "respuesta": "1. **Artículo científico**: resumen, introducción, metodología, resultados, discusión; lenguaje formal, citas. 2. **Reseña crítica**: encabezamiento (datos de la obra), resumen, comentario crítico, conclusión. 3. **Tesis doctoral**: portada, índice, agradecimientos, resumen, capítulos, bibliografía; lenguaje técnico, extenso."
+    },
+    {
+      "id": 34,
+      "nombre": "Registros de habla (formal, coloquial, técnico)",
+      "teoria": "El registro es la variedad lingüística determinada por la situación comunicativa: registro formal (académico, profesional) con lenguaje cuidado, vocabulario preciso, subjuntivo, cortesía; registro coloquial (familiar, conversación) con relajación fonética, muletillas, frases cortas; registro técnico (jerga profesional) con tecnicismos, precisión.",
+      "ejemplo": "Formal: 'Le agradecería que me proporcionara la información solicitada.' Coloquial: 'Oye, ¿me puedes pasar los datos?' Técnico: 'El cómputo de datos se efectúa mediante algoritmos recursivos.'",
+      "ejercicio": "Transforma la siguiente frase al registro coloquial: 'Sería conveniente que usted reconsiderara su decisión.'",
+      "respuesta": "'Más te vale que te lo pienses otra vez, ¿eh?' o 'Sería bueno que reconsideraras tu decisión, ¿no?' (uso de 'tú', interrogación, coloquialismo 'más te vale', muletillas)."
+    },
+    {
+      "id": 35,
+      "nombre": "Adecuación textual al contexto y destinatario",
+      "teoria": "La adecuación es la propiedad del texto que se ajusta a la situación comunicativa: nivel de conocimiento del destinatario, relación emisor-receptor, canal (oral/escrito, físico/digital), y propósito. Un texto inadecuado, aunque sea coherente y cohesivo, fracasa en su objetivo.",
+      "ejemplo": "Ejemplo de inadecuación: explicar la teoría de la relatividad a un niño de 5 años usando lenguaje técnico. Adecuado: usar analogías sencillas (tren, pelota).",
+      "ejercicio": "Escribe dos versiones de un mismo mensaje ('Necesito que entregues el informe') para un compañero de trabajo y para tu jefe. ¿Qué cambios harías?",
+      "respuesta": "Para compañero: 'Oye, necesito que entregues el informe, ¿vale?' (coloquial, confianza). Para jefe: 'Por favor, ¿podría entregar el informe? Se lo agradecería.' (usted, cortesía, condicional)."
+    },
+    {
+      "id": 36,
+      "nombre": "Resumen y paráfrasis como transformaciones textuales",
+      "teoria": "El resumen es una reducción del texto original conservando las ideas principales y la estructura lógica, sin incluir opiniones personales. La paráfrasis es la reformulación del texto con otras palabras, manteniendo el sentido pero cambiando el léxico y la sintaxis. Ambas requieren comprensión profunda.",
+      "ejemplo": "Original: 'El calentamiento global, causado por la emisión de gases de efecto invernadero, provoca el deshielo de los polos.' Resumen: 'El calentamiento global derrite los polos.' Paráfrasis: 'El derretimiento de los polos se debe al calentamiento global provocado por gases invernadero.'",
+      "ejercicio": "Resume y parafrasea el siguiente texto: 'La puntuación organiza el discurso, evita ambigüedades y permite al lector interpretar correctamente las intenciones del autor.'",
+      "respuesta": "Resumen: 'La puntuación evita ambigüedades y organiza el discurso.' Paráfrasis: 'La función de los signos de puntuación es ordenar el texto, eliminar ambigüedades y facilitar la interpretación de la intención del escritor.'"
+    },
+    {
+      "id": 37,
+      "nombre": "Anáfora pronominal (pronombre personal y demostrativo)",
+      "teoria": "La anáfora pronominal es una relación de correferencia donde un pronombre (él, ella, ellos, lo, le, la, los, las, los demostrativos este, ese, aquel) remite a un elemento previo (antecedente). Es uno de los mecanismos cohesivos más frecuentes en español.",
+      "ejemplo": "'Juan llegó tarde. **Él** se disculpó. **Su** jefe **le** llamó la atención.' (Él = Juan; su = de Juan; le = a Juan).",
+      "ejercicio": "Identifica los antecedentes de los pronombres en: 'María compró un coche. **Lo** usaba a diario. **Su** hermano **le** pidió que **lo** dejara.'",
+      "respuesta": "'**Lo**' (pronombre CD) = el coche. '**Su**' (posesivo) = de María. '**le**' (CI) = a María. '**lo**' (CD) = el coche."
+    },
+    {
+      "id": 38,
+      "nombre": "Catáfora (anticipación referencial)",
+      "teoria": "La catáfora es la relación en la que una expresión (pronombre, adverbio, demostrativo) anticipa un elemento que aparecerá después. Es menos frecuente que la anáfora, pero tiene valor enfático. Ejemplo: '**Esto** te digo: **no vuelvas más**. '**Lo** siguiente es clave: **estudia todos los días**.'",
+      "ejemplo": "Ejemplo catafórico: '**Te lo** advierto: **no llegarás tarde**.' (Lo anticipa 'no llegarás tarde'). '**Aquellos** fueron los días: **cuando viajábamos sin preocupaciones**.'",
+      "ejercicio": "Convierte la siguiente oración anafórica en catafórica: 'Juan es inteligente. **Eso** se nota en sus notas.'",
+      "respuesta": "'**Eso** se nota en sus notas: **que Juan es inteligente**.' El demostrativo 'eso' anticipa la explicación."
+    },
+    {
+      "id": 39,
+      "nombre": "Deixis personal (yo, tú, él) y su función textual",
+      "teoria": "La deixis personal remite a los participantes del discurso: primera persona (yo, nosotros) = hablante; segunda persona (tú, vos, usted, ustedes) = oyente; tercera persona (él, ella, ellos, ellas) = referencia a entidades externas. En textos, la elección de persona y tratamiento cohesiona la relación autor-lector.",
+      "ejemplo": "En un ensayo, el autor usa 'nosotros' para incluir al lector ('Como podemos ver'). En una carta formal, 'usted' establece distancia y respeto.",
+      "ejercicio": "¿Por qué en los textos científicos se evita la primera persona singular ('yo') y se usa la tercera o el 'se' impersonal?",
+      "respuesta": "Porque la ciencia busca objetividad y universalidad. 'Yo creo' es subjetivo; 'se observa' o 'los resultados muestran' despersonalizan el enunciado, dándole aparente mayor validez. También es una convención del género académico."
+    },
+    {
+      "id": 40,
+      "nombre": "Deixis espacial (aquí, allí) y temporal (ahora, entonces)",
+      "teoria": "La deixis espacial sitúa el texto en relación con el hablante: 'aquí' (cerca), 'ahí' (cerca del oyente), 'allí' (lejos). La deixis temporal ancla en el momento del habla: 'ahora', 'hoy', 'mañana', 'ayer', 'entonces'. En textos literarios, los deícticos pueden cambiar según el punto de vista narrativo.",
+      "ejemplo": "'**Aquí** y **ahora** estamos reunidos para celebrar. **Allí** en el pasado, las cosas eran diferentes.'",
+      "ejercicio": "Reescribe el siguiente texto cambiando los deícticos para que el narrador hable desde un futuro: 'Hoy estamos aquí en esta ciudad. Mañana viajaremos al sur.'",
+      "respuesta": "'**Entonces** estábamos **allí** en esa ciudad. Al día siguiente viajaríamos al sur.' ('hoy' → 'entonces', 'aquí' → 'allí', 'mañana' → 'al día siguiente', 'viajaremos' → 'viajaríamos')."
+    },
+    {
+      "id": 41,
+      "nombre": "Deixis discursiva (anafórica y catafórica)",
+      "teoria": "La deixis discursiva es la referencia a partes del propio texto. Puede ser anafórica: 'como vimos anteriormente', 'esto último'; o catafórica: 'a continuación veremos', 'el siguiente ejemplo'. Ayuda a la cohesión y estructuración del discurso.",
+      "ejemplo": "Anafórico: '**Lo anterior** demuestra nuestra tesis.' Catafórico: '**Ahora veremos** lo más importante: la conclusión.'",
+      "ejercicio": "Escribe un párrafo que contenga una deixis discursiva anafórica y una catafórica.",
+      "respuesta": "'**Como señalamos en el párrafo anterior**, la cohesión es fundamental. **A continuación**, presentamos ejemplos de conectores.' (Anáfora: 'como señalamos...'; catáfora: 'a continuación')."
+    },
+    {
+      "id": 42,
+      "nombre": "Mantenimiento de la referencia a lo largo del texto",
+      "teoria": "El mantenimiento de la referencia consiste en usar un mismo referente con expresiones variadas (nombre, pronombre, sinónimo, descripción definida) sin perder claridad. Un cambio brusco de referente o una ambigüedad pronominal (dos posibles antecedentes) rompe la cohesión.",
+      "ejemplo": "Ambigüedad: 'Juan habló con Pedro. **Él** llegó tarde.' ¿Quién llegó tarde? Para evitarlo: 'Juan habló con Pedro. Este llegó tarde' (este = el último mencionado).",
+      "ejercicio": "Corrige la ambigüedad en: 'El perro persiguió al gato. **Él** se escondió debajo del coche.'",
+      "respuesta": "'El perro persiguió al gato. **Este** se escondió debajo del coche.' (Este = el último mencionado, el gato). O: 'El perro persiguió al gato. El felino se escondió debajo del coche.'"
+    },
+    {
+      "id": 43,
+      "nombre": "Elipsis referencial y recuperación del antecedente",
+      "teoria": "La elipsis referencial omite el sujeto u otro constituyente porque es recuperable del contexto: 'María llegó. **Ø** Se sentó. **Ø** Abrió el libro.' (el sujeto elidido es María). La recuperación es posible gracias a la concordancia verbal y el contexto.",
+      "ejemplo": "'**Ø** Llegamos tarde. **Ø** Perdimos el tren. **Ø** Tuvimos que esperar.' (sujeto 'nosotros' elidido).",
+      "ejercicio": "Restaura los elementos elididos en: 'Juan entró. Ø Saludó a todos. Ø Se sentó en su sitio.'",
+      "respuesta": "'Juan entró. **Juan** saludó a todos. **Juan** se sentó en su sitio.' El sujeto de 'saludó' y 'se sentó' es Juan, recuperable por contexto."
+    },
+    {
+      "id": 44,
+      "nombre": "Sustitución por proformas oracionales (ello, eso)",
+      "teoria": "Las proformas oracionales (eso, ello, lo, esto, aquello) sustituyen a oraciones completas o eventos previos. Son muy útiles para evitar repeticiones y para cohesionar párrafos.",
+      "ejemplo": "'Aprobé el examen con nota. **Eso** me motivó a seguir estudiando.' (Eso = 'aprobar el examen con nota').",
+      "ejercicio": "Sustituye la oración subrayada por una proforma en: 'El equipo ganó el campeonato. **El hecho de que el equipo ganara el campeonato** fue inesperado.'",
+      "respuesta": "'El equipo ganó el campeonato. **Eso** fue inesperado.'"
+    },
+    {
+      "id": 45,
+      "nombre": "Uso de sinónimos para variación léxica",
+      "teoria": "El uso de sinónimos evita la repetición tediosa y enriquece el estilo, pero debe hacerse con cuidado para no introducir cambios semánticos no deseados. La sinonimia contextual es preferible a la sinonimia absoluta.",
+      "ejemplo": "Repetición monótona: 'El libro es largo. El libro es aburrido. El libro tiene errores.' Con sinónimos: 'El tomo es extenso, la obra resulta tediosa y el volumen contiene erratas.'",
+      "ejercicio": "Reescribe el siguiente texto sustituyendo 'coche' por sinónimos (automóvil, vehículo, etc.): 'Compré un coche. El coche es rápido. El coche es rojo. El coche me costó mucho.'",
+      "respuesta": "'Compré un coche. El **automóvil** es rápido, el **vehículo** es rojo y me costó mucho dinero.'"
+    },
+    {
+      "id": 46,
+      "nombre": "Hiperónimos como recursos cohesivos",
+      "teoria": "Los hiperónimos (palabras de significado más general) pueden reemplazar a hipónimos para evitar repeticiones y para subir en la escala de abstracción. Ejemplo: 'Compré manzanas, peras y plátanos. **Las frutas** estaban maduras.' (fruta es hiperónimo de manzana, pera, plátano).",
+      "ejemplo": "'El roble y el pino son árboles comunes. **Estas especies** se adaptan bien al clima.'",
+      "ejercicio": "Sustituye la enumeración por un hiperónimo: 'En la tienda venden leche, queso, mantequilla y yogurt. **Todo eso** es lácteo.'",
+      "respuesta": "'En la tienda venden leche, queso, mantequilla y yogurt. **Los lácteos** se conservan en frío.'"
+    },
+    {
+      "id": 47,
+      "nombre": "Marcadores de comentario y valoración",
+      "teoria": "Los marcadores de comentario (afortunadamente, lamentablemente, curiosamente, por supuesto, desde mi punto de vista) expresan la actitud del hablante hacia lo dicho. Aportan subjetividad y cohesión pragmática.",
+      "ejemplo": "'**Afortunadamente**, no hubo heridos. **Por desgracia**, los daños materiales fueron cuantiosos.'",
+      "ejercicio": "Añade un marcador de comentario a: 'El examen fue difícil. Todos aprobaron.'",
+      "respuesta": "'El examen fue difícil; **sin embargo**, todos aprobaron.' o '**Sorprendentemente**, el examen fue difícil y todos aprobaron.'"
+    },
+    {
+      "id": 48,
+      "nombre": "Metadiscursividad y comentarios sobre el propio texto",
+      "teoria": "La metadiscursividad es la capacidad del emisor de comentar la organización, la intención o la evaluación de su propio texto (ej. 'como veremos más adelante', 'esto es importante', 'resumiendo'). Ayuda al lector a navegar y a interpretar.",
+      "ejemplo": "'**Como ya señalamos en la introducción**, la cohesión es clave. **Ahora pasaremos a los ejemplos**. **Finalmente**, **cabe destacar** que...'",
+      "ejercicio": "Incorpora tres marcadores metadiscursivos a un párrafo sobre la importancia de la coherencia textual.",
+      "respuesta": "'**En primer lugar**, la coherencia textual es la propiedad que da sentido global al texto. **Conviene recordar** que sin coherencia, el mensaje se fragmenta. **Como veremos**, los textos incoherentes confunden al lector. **En conclusión**, es indispensable revisar la coherencia al escribir.'"
+    },
+    {
+      "id": 49,
+      "nombre": "Progresión temática lineal",
+      "teoria": "En la progresión temática lineal, el rema (información nueva) de una oración se convierte en el tema (información conocida) de la oración siguiente. Este patrón crea una cadena de información que avanza. Es típico de textos expositivos y argumentativos.",
+      "ejemplo": "T1: 'El español (T) es una lengua romance (R).' T2: 'Esa lengua romance (T2=R) se originó del latín vulgar (R2).' T3: 'El latín vulgar (T3=R2) se hablaba en el Imperio Romano (R3).'",
+      "ejercicio": "Continúa la progresión lineal: 'La cohesión textual (T) se logra mediante conectores (R). Los conectores (T2=R) pueden ser aditivos, adversativos, causales (R2).'",
+      "respuesta": "'Los conectores adversativos (T3=R2) indican contraste, por ejemplo 'pero' y 'sin embargo' (R3).'"
+    },
+    {
+      "id": 50,
+      "nombre": "Progresión temática constante",
+      "teoria": "En la progresión constante, el mismo tema se mantiene en varias oraciones, mientras que los remas son diferentes. Es útil para desarrollar un concepto desde múltiples perspectivas sin cambiar de tema.",
+      "ejemplo": "'La gramática (T) es el estudio de las reglas lingüísticas (R1). La gramática (T) permite construir oraciones correctas (R2). La gramática (T) también se ocupa de la morfología y la sintaxis (R3).'",
+      "ejercicio": "Desarrolla tres oraciones con progresión constante sobre el tema 'la puntuación'.",
+      "respuesta": "'La puntuación (T) organiza el discurso (R1). La puntuación (T) evita ambigüedades (R2). La puntuación (T) es esencial en la escritura académica (R3).'"
+    },
+    {
+      "id": 51,
+      "nombre": "Progresión temática derivada (hiper-tema)",
+      "teoria": "En la progresión derivada, las oraciones parten de un hiper-tema (macro-tópico) y cada una desarrolla un aspecto diferente, sin que necesariamente haya relación lineal entre ellas. Es común en textos descriptivos y expositivos.",
+      "ejemplo": "Hiper-tema: 'El español es una lengua global.' Oraciones: 'Tiene 500 millones de hablantes nativos.' 'Es oficial en 21 países.' 'Es la tercera lengua más usada en internet.'",
+      "ejercicio": "Construye cuatro oraciones con progresión derivada a partir del hiper-tema 'Los beneficios de la lectura'.",
+      "respuesta": "'**Los beneficios de la lectura** son múltiples. **Primero**, mejora el vocabulario. **Segundo**, ejercita la memoria. **Tercero**, reduce el estrés. **Cuarto**, fomenta la empatía.'"
+    },
+    {
+      "id": 52,
+      "nombre": "Progresión mixta y rupturas de progresión",
+      "teoria": "La progresión mixta combina lineal, constante y derivada. Las rupturas de progresión (cambio brusco de tema sin conector, tema irrelevante) provocan incoherencia. Ejemplo de ruptura: 'El español es una lengua romance. El cielo está azul. Tiene 500 millones de hablantes.' La segunda oración no se relaciona.",
+      "ejercicio": "Identifica la ruptura de progresión en: 'La cohesión se logra con conectores. También es importante la coherencia. Compré pan para la cena. Los conectores aditivos suman información.'",
+      "respuesta": "La ruptura es 'Compré pan para la cena', que no guarda relación con el tema principal (cohesión y coherencia). El texto recupera luego 'conectores aditivos', pero la ruptura afecta la coherencia."
+    },
+    {
+      "id": 53,
+      "nombre": "Foco contrastivo y estructuras enfáticas",
+      "teoria": "El foco contrastivo destaca un elemento frente a otro, a menudo mediante estructuras hendidas (ser + foco + que/lo que), anteposición, o marcadores como 'precisamente', 'justamente', 'ni siquiera'. Ayuda a organizar la información relevante.",
+      "ejemplo": "Estructura hendida: '**Fue Juan quien** llegó tarde, no Pedro.' Anteposición: '**A María** le di el regalo, no a Juana.' Marcador: '**Precisamente eso** quería decir.'",
+      "ejercicio": "Reescribe la oración 'Juan compró el coche' para enfocar que fue el coche lo que compró (no la moto).",
+      "respuesta": "'**Fue el coche lo que** compró Juan, no la moto.' o '**Un coche** compró Juan, no una moto.'"
+    },
+    {
+      "id": 54,
+      "nombre": "Tematización y rematización (jerarquía informativa)",
+      "teoria": "La tematización consiste en colocar en posición inicial (tema) el elemento sobre el que se quiere hablar; la rematización coloca en posición final (rema) la información nueva más importante. El orden no marcado es tema → rema. La inversión indica énfasis.",
+      "ejemplo": "Orden no marcado: '**Juan** (tema) compró el coche (rema).' Orden marcado (tematización del complemento): '**El coche** (tema) lo compró Juan (rema).'",
+      "ejercicio": "Cambia el orden para tematizar el complemento en: 'Aprobé el examen con esfuerzo.'",
+      "respuesta": "'**El examen** lo aprobé con esfuerzo.' o '**Con esfuerzo** aprobé el examen.'"
+    },
+    {
+      "id": 55,
+      "nombre": "Tema y rema en textos dialógicos",
+      "teoria": "En el diálogo, el tema puede ser establecido por una pregunta, y el rema por la respuesta. Las preguntas suelen tener un tema presupuesto y un rema solicitado. La progresión temática en diálogo es colaborativa.",
+      "ejemplo": "A: '¿**Dónde** (rema solicitado) compraste **el libro** (tema presupuesto)?' B: '**Lo compré en la librería del centro** (rema)'.",
+      "ejercicio": "Analiza la estructura temática en: '—¿Quién llamó? —Llamó María.'",
+      "respuesta": "Tema presupuesto en la pregunta: 'alguien llamó'. Rema solicitado: 'quién'. Respuesta: 'María' es el rema que completa el tema. La progresión es constante (el tema 'llamada' se mantiene)."
+    },
+    {
+      "id": 56,
+      "nombre": "Organización de la información en párrafos",
+      "teoria": "Un párrafo efectivo presenta la información siguiendo un orden lógico: de general a particular (deductivo), de particular a general (inductivo), o cronológico. La oración temática puede estar al inicio (más común) o al final. El desarrollo incluye ejemplos, detalles, argumentos.",
+      "ejemplo": "Párrafo deductivo: 'La contaminación afecta la salud. (general) Las partículas finas irritan los pulmones, el smog empeora el asma, y los metales pesados dañan el sistema nervioso. (particular)'.",
+      "ejercicio": "Escribe un párrafo inductivo (particular → general) sobre 'la tecnología y la comunicación'.",
+      "respuesta": "'Hoy enviamos mensajes instantáneos, hacemos videollamadas y compartimos fotos en redes. Antes, las cartas tardaban semanas en llegar. **Por tanto, la tecnología ha acelerado la comunicación**.'"
+    },
+    {
+      "id": 57,
+      "nombre": "Continuidad temática y cambio de tópico",
+      "teoria": "La continuidad temática se mantiene cuando el tópico se repite (con variaciones) o progresa linealmente. El cambio de tópico debe señalarse con marcadores ('cambiando de tema', 'pasando a otro asunto') o con un nuevo párrafo. Cambios abruptos confunden al lector.",
+      "ejemplo": "Cambio marcado: '**Hasta aquí hemos tratado la cohesión. Ahora pasaremos a la coherencia textual**.'",
+      "ejercicio": "Señala el cambio de tópico y el marcador utilizado en: 'La economía ha mejorado. **Por otro lado**, la educación sigue siendo un desafío.'",
+      "respuesta": "El tópico pasa de 'economía' a 'educación'. Marcador: 'Por otro lado'. El cambio es suave y está señalado."
+    },
+    {
+      "id": 58,
+      "nombre": "Información dada y nueva (principio de economía)",
+      "teoria": "El principio de economía comunicativa establece que la información nueva se introduce gradualmente, basándose en la información dada (conocida o presupuesta). Si se introduce demasiada información nueva sin anclaje, el texto se vuelve confuso.",
+      "ejemplo": "Inadecuado: 'El quokka es un marsupial australiano. El quokka tiene una población reducida. El quokka es herbívoro.' (demasiado información nueva sin anclaje). Adecuado: 'El quokka es un marsupial australiano. **Este animal** tiene una población reducida y es herbívoro.'",
+      "ejercicio": "Reescribe el siguiente texto para mejorar la relación dado-nuevo: 'La deixis es un concepto pragmático. La deixis personal incluye 'yo', 'tú', 'él'. La deixis espacial incluye 'aquí', 'allí'.'",
+      "respuesta": "'La deixis es un concepto pragmático. **Este concepto** se divide en personal ('yo', 'tú', 'él') y espacial ('aquí', 'allí').' (la información nueva se basa en la dada)."
+    },
+    {
+      "id": 59,
+      "nombre": "Estructura temática en textos académicos",
+      "teoria": "Los textos académicos suelen tener una estructura temática fija: introducción (presenta el tema y objetivo), desarrollo (organizado en secciones con subtítulos), conclusiones (síntesis y aportes). La progresión temática es lineal (cada sección retoma ideas de la anterior) y jerarquizada (ideas principales y secundarias).",
+      "ejemplo": "Estructura de un artículo: '1. Introducción: planteamiento del problema. 2. Marco teórico: revisión de conceptos. 3. Metodología: descripción del estudio. 4. Resultados: hallazgos. 5. Discusión: interpretación. 6. Conclusiones.'",
+      "ejercicio": "Diseña el esquema temático de un trabajo final sobre 'La influencia del español en el inglés'.",
+      "respuesta": "1. Introducción: contexto y pregunta de investigación. 2. Antecedentes: historia del contacto. 3. Préstamos léxicos (español→inglés). 4. Préstamos léxicos (inglés→español). 5. Calcos y falsos amigos. 6. Conclusiones. Subtítulos: 3.1. Siglo XIX, 3.2. Siglo XX, 3.3. Actualidad."
+    },
+    {
+      "id": 60,
+      "nombre": "Recapitulación y reformulación en textos argumentativos",
+      "teoria": "La recapitulación (resumen periódico) y la reformulación (expresión con otras palabras) son estrategias para reforzar la comprensión y mantener la cohesión en textos largos. Ayudan al lector a seguir el hilo.",
+      "ejemplo": "Recapitulación: '**En resumen**, hemos visto que la cohesión se logra mediante conectores, referencias y elipsis.' Reformulación: '**Dicho de otro modo**, un texto cohesionado es como un rompecabezas bien ensamblado.'",
+      "ejercicio": "Añade una recapitulación después de explicar tres tipos de conectores.",
+      "respuesta": "'**En definitiva**, los conectores aditivos suman ideas, los adversativos las contrastan y los causales explican las razones. **Recapitulando**, dominar los conectores es clave para la cohesión.'"
+    },
+    {
+      "id": 61,
+      "nombre": "Tipos de textos según el propósito: narración",
+      "teoria": "La narración cuenta eventos en secuencia temporal, reales o ficticios. Su propósito es entretener, informar o transmitir experiencias. Elementos: narrador, personajes, acciones, tiempo, espacio. Estructura: planteamiento, nudo, desenlace.",
+      "ejemplo": "Ejemplo de narración: 'Ayer fui al cine. Compré palomitas. La película era emocionante. Al salir, llovía.'",
+      "ejercicio": "Escribe una breve narración (4-5 oraciones) sobre 'el día que aprendí algo nuevo'.",
+      "respuesta": "'El año pasado, me inscribí en un curso de cerámica. El primer día, no podía centrar el barro. Mi profesora me guió paciente. Después de varios intentos, logré hacer una taza. Fue una sensación de logro enorme.'"
+    },
+    {
+      "id": 62,
+      "nombre": "Tipos de textos según el propósito: descripción",
+      "teoria": "La descripción representa objetos, personas, lugares o procesos mediante la enumeración de cualidades y rasgos. Puede ser objetiva (técnica, científica) o subjetiva (literaria, emotiva). Se organiza según un orden espacial o lógico.",
+      "ejemplo": "Descripción objetiva: 'El átomo tiene núcleo (protones, neutrones) y electrones en órbitas.' Descripción subjetiva: 'El atardecer pintaba el cielo de naranja y morado, como un sueño.'",
+      "ejercicio": "Describe tu habitación de forma objetiva (muebles, distribución) y luego de forma subjetiva (sensaciones, colores).",
+      "respuesta": "Objetiva: 'La habitación mide 4x3 metros. Hay una cama individual contra la pared izquierda, un escritorio junto a la ventana y un armario empotrado.' Subjetiva: 'Es un espacio acogedor, con paredes azul claro que transmiten calma. La luz natural de la ventana crea sombras suaves.'"
+    },
+    {
+      "id": 63,
+      "nombre": "Tipos de textos según el propósito: argumentación",
+      "teoria": "La argumentación persuade al receptor de una tesis mediante razones (argumentos) y evidencia. Puede ser deductiva (de lo general a lo particular) o inductiva (de lo particular a lo general). Estructura: tesis, argumentos (y contraargumentos), conclusión.",
+      "ejemplo": "Tesis: 'El español debería ser lengua oficial en la ONU.' Argumentos: 'Lo hablan 500 millones de personas. Es lengua de cultura. Es de trabajo en organismos regionales.' Conclusión: 'Por tanto, es justo y práctico.'",
+      "ejercicio": "Escribe un breve argumento a favor de leer un libro al mes, con dos razones y una conclusión.",
+      "respuesta": "Tesis: 'Leer un libro al mes es beneficioso.' Argumentos: 'Mejora la concentración y reduce el estrés. Además, amplía el vocabulario.' Conclusión: 'Por tanto, deberíamos adoptar este hábito.'"
+    },
+    {
+      "id": 64,
+      "nombre": "Tipos de textos según el propósito: exposición",
+      "teoria": "La exposición explica conceptos, procesos o fenómenos de manera clara y ordenada, sin persuadir. Su propósito es informar o enseñar. Puede ser divulgativa (para público general) o especializada (para expertos).",
+      "ejemplo": "Exposición divulgativa: 'El agua hierve a 100 grados Celsius porque las moléculas ganan energía y se separan.' Exposición especializada: 'La ebullición es un cambio de fase de líquido a gas que ocurre a la temperatura de vaporización.'",
+      "ejercicio": "Explica el proceso de fotosíntesis en tres oraciones (texto expositivo).",
+      "respuesta": "'La fotosíntesis es el proceso por el cual las plantas producen su alimento. Usan la luz solar, el agua y el dióxido de carbono para fabricar glucosa y oxígeno. El oxígeno se libera a la atmósfera, y la glucosa sirve como energía.'"
+    },
+    {
+      "id": 65,
+      "nombre": "Tipos de textos según el propósito: diálogo",
+      "teoria": "El diálogo reproduce una conversación entre dos o más interlocutores, con alternancia de turnos. Puede ser oral o escrito (teatro, entrevista, conversación literaria). Su propósito es mostrar interacción, caracterizar personajes, o transmitir información coloquial.",
+      "ejemplo": "Diálogo en novela: '—¿Vamos al cine? —propuse. —Mejor vamos al teatro —respondió Ana.'",
+      "ejercicio": "Escribe un diálogo de 6 turnos entre un cliente y un vendedor de libros.",
+      "respuesta": "'—Buenos días, busco una novela de ciencia ficción. —dijo el cliente. —Tenemos 'Dune' y 'Fundación', ¿las conoce? —respondió el vendedor. —Me han hablado bien de 'Fundación'. —Es un clásico, muy recomendable. —Pues la llevo. —Estupendo, pase por caja.'"
+    },
+    {
+      "id": 66,
+      "nombre": "Textos prescriptivos e instructivos",
+      "teoria": "Los textos prescriptivos (normas, leyes, reglamentos) indican lo que se debe o no hacer, con verbos en imperativo o perífrasis de obligación. Los instructivos (manuales, recetas) guían para realizar una tarea. Ambos son secuenciales y usan un lenguaje claro.",
+      "ejemplo": "Prescriptivo: 'Los ciudadanos deben respetar el semáforo.' Instructivo: 'Ponga el agua a hervir. Añada la pasta. Cocine por 10 minutos.'",
+      "ejercicio": "Escribe una instrucción simple para preparar un té (5 pasos).",
+      "respuesta": "'1. Hervir agua. 2. Colocar la bolsita de té en la taza. 3. Verter el agua caliente. 4. Dejar reposar 3 minutos. 5. Retirar la bolsita y añadir azúcar al gusto.'"
+    },
+    {
+      "id": 67,
+      "nombre": "Textos predictivos y prospectivos",
+      "teoria": "Los textos predictivos (pronósticos, previsiones) anticipan eventos futuros basados en datos o tendencias. Los prospectivos planifican escenarios. Usan futuro, condicional y marcadores modales (probablemente, es posible).",
+      "ejemplo": "Predicción: 'El precio del petróleo subirá un 5% el próximo mes.' Prospectivo: 'En 2050, se espera que la población mundial alcance los 9 mil millones.'",
+      "ejercicio": "Escribe una predicción sobre el uso del español en internet dentro de 10 años.",
+      "respuesta": "'En la próxima década, el español podría convertirse en la segunda lengua más usada en internet, impulsado por el crecimiento demográfico en América Latina y la migración a plataformas digitales.'"
+    },
+    {
+      "id": 68,
+      "nombre": "Textos retóricos y persuasivos",
+      "teoria": "La retórica (Aristóteles) estudia las técnicas de persuasión: ethos (credibilidad del emisor), pathos (apelación a las emociones), logos (razonamiento lógico). Los textos persuasivos (discursos políticos, publicidad) combinan estos recursos para convencer.",
+      "ejemplo": "Ethos: 'Como experto en lingüística, afirmo que...' Pathos: 'Imagina un futuro sin acceso a la educación...' Logos: 'Los datos muestran que el 80% de la población...'",
+      "ejercicio": "Analiza el ethos, pathos y logos en un eslogan publicitario conocido.",
+      "respuesta": "Eslogan: 'Porque tú lo vales' (L'Oréal). Ethos: la marca se presenta como conocedora de la autoestima femenina. Pathos: apela a la autoestima y al deseo de sentirse valiosa. Logos: no hay argumentación lógica explícita, es principalmente emocional."
+    },
+    {
+      "id": 69,
+      "nombre": "Textos poéticos y función poética del lenguaje",
+      "teoria": "La función poética (Jakobson) se centra en el mensaje mismo, con recursos fónicos (rima, aliteración), sintácticos (hipérbaton, anáfora), y semánticos (metáfora, imagen). El texto poético crea belleza y evoca sensaciones, más allá del contenido informativo.",
+      "ejemplo": "Verso de Bécquer: 'Volverán las oscuras golondrinas en tu balcón sus nidos a colgar.' (hipérbaton, ritmo, imagen).",
+      "ejercicio": "Escribe un pareado (dos versos que rimen) sobre la lengua castellana.",
+      "respuesta": "'La lengua que hablo es mi hogar, / con sus palabras puedo soñar.'"
+    },
+    {
+      "id": 70,
+      "nombre": "Textos humorísticos y paródicos",
+      "teoria": "El humor lingüístico explota la ambigüedad (polisemia, homonimia), la violación de máximas pragmáticas, y la exageración (hipérbole). La parodia imita el estilo de un género o autor para ridiculizarlo. La cohesión puede ser deliberadamente rota para crear comicidad.",
+      "ejemplo": "Chiste: '¿Qué hace una abeja en el gimnasio? ¡Zum-ba!' (juego de palabras). Parodia de un texto académico: 'Según estudios no muy rigurosos, la procrastinación es el arte de hacer nada con mucho esfuerzo.'",
+      "ejercicio": "Crea una parodia de un anuncio publicitario de champú (frase breve).",
+      "respuesta": "'¿Tu cabello se cae? Nuestro champú no lo evitará, pero al menos olerás bien.' (parodia del tono prometedor exagerado)."
+    },
+    {
+      "id": 71,
+      "nombre": "Textos periodísticos: noticia, reportaje, editorial",
+      "teoria": "La noticia responde a las 6W (qué, quién, cuándo, dónde, por qué, cómo), con estructura de pirámide invertida (lo más importante al inicio). El reportaje es más extenso y contextualizado. El editorial opina sobre un tema de actualidad (argumentativo).",
+      "ejemplo": "Noticia: 'El gobierno anunció hoy una subida de impuestos...' Reportaje: 'Entrevista con los afectados por la subida...' Editorial: 'La subida de impuestos es necesaria para equilibrar las cuentas...'",
+      "ejercicio": "Escribe el lead (primer párrafo) de una noticia ficticia sobre un descubrimiento científico.",
+      "respuesta": "'Un equipo de investigadores de la Universidad de Barcelona descubrió una nueva especie de bacteria capaz de degradar plástico en 48 horas, según un estudio publicado hoy en la revista 'Nature'. El hallazgo podría revolucionar el reciclaje.'"
+    },
+    {
+      "id": 72,
+      "nombre": "Textos digitales: correo, chat, foro",
+      "teoria": "Los textos digitales tienen características propias: el correo formal sigue las pautas de la carta; el chat es coloquial, con abreviaturas y emoticonos; el foro combina comentarios breves con citas y respuestas anidadas. La cohesión puede ser más laxa, apoyada en el contexto digital.",
+      "ejemplo": "Chat: 'Hola, cmo estás? xq no contestas?' Correo formal: 'Estimado Sr. López: Le escribo para solicitar información sobre...'",
+      "ejercicio": "Escribe un correo electrónico breve (saludo, cuerpo, despedida) para pedir una prórroga a un profesor.",
+      "respuesta": "'Estimado profesor: Le solicito una prórroga de 3 días para entregar el trabajo final debido a problemas técnicos. Quedo a la espera de su respuesta. Atentamente, Ana.'"
+    },
+    {
+      "id": 73,
+      "nombre": "Géneros académicos: resumen, reseña, ensayo",
+      "teoria": "El resumen académico condensa un texto original. La reseña crítica describe y evalúa una obra. El ensayo presenta una reflexión personal sobre un tema, con argumentos y estilo literario. Cada género tiene estructura y registro particulares.",
+      "ejemplo": "Reseña: 'En 'Cien años de soledad', García Márquez narra la historia de los Buendía. La novela es magistral por su realismo mágico y su lenguaje.'",
+      "ejercicio": "Escribe una oración de resumen de 'El Quijote' y una opinión para una reseña.",
+      "respuesta": "Resumen: 'El Quijote narra las aventuras de un hidalgo que, tras leer muchos libros de caballería, decide convertirse en caballero andante.' Reseña: 'La obra es una sátira de los libros de caballería, pero también una profunda reflexión sobre la locura y la realidad. Recomiendo su lectura.'"
+    },
+    {
+      "id": 74,
+      "nombre": "Géneros laborales: currículum, carta de presentación, informe",
+      "teoria": "El currículum es un texto breve y esquemático (datos personales, formación, experiencia). La carta de presentación complementa al CV, explicando motivación y adecuación al puesto. El informe describe actividades, resultados o recomendaciones, con estructura objetiva.",
+      "ejemplo": "Carta de presentación: 'Me dirijo a usted para postular al cargo de... Adjunto mi CV. Mi experiencia en... me ha proporcionado las habilidades necesarias...'",
+      "ejercicio": "Escribe una frase para un currículum describiendo tu experiencia en atención al cliente.",
+      "respuesta": "'Tres años de experiencia en atención al cliente en el sector bancario, con habilidades en resolución de quejas y comunicación efectiva.'"
+    },
+    {
+      "id": 75,
+      "nombre": "Géneros literarios: lírica, narrativa, drama",
+      "teoria": "La lírica (poesía) expresa sentimientos con métrica, ritmo, imágenes. La narrativa (cuento, novela) cuenta historias con personajes, tiempo, espacio. El drama (teatro) representa acciones mediante diálogos y acotaciones. Cada género tiene convenciones textuales propias.",
+      "ejemplo": "Lírica (poema): 'Rima XI' de Bécquer. Narrativa (cuento): 'El aleph' de Borges. Drama: 'La casa de Bernarda Alba' de Lorca.",
+      "ejercicio": "Clasifica el siguiente texto y justifica: 'Juan abrió la puerta. Un escalofrío recorrió su espalda. Al fondo, una sombra se movía.'",
+      "respuesta": "Es narrativo (cuento o novela): hay un narrador, acciones ('abrió'), personaje (Juan), descripción de sensación ('escalofrío'), y suspense ('sombra'). No hay diálogo ni verso."
+    },
+    {
+      "id": 76,
+      "nombre": "Géneros publicitarios: eslogan, anuncio, cuña",
+      "teoria": "El eslogan es una frase breve, memorable y persuasiva. El anuncio desarrolla el mensaje publicitario en diversos medios (prensa, TV, redes). La cuña es un anuncio radiofónico breve. Usan recursos como rima, aliteración, imperativos, y lenguaje emocional.",
+      "ejemplo": "Eslogan: 'Just do it' (Nike). Anuncio: imagen de un atleta con el eslogan y detalles del producto. Cuña: 'Pruebe el nuevo sabor de Coca-Cola, ¡en su supermercado habitual!'",
+      "ejercicio": "Crea un eslogan para una campaña de fomento de la lectura.",
+      "respuesta": "'Leer te da alas. ¡Vuela con un libro!' (rimas, metáfora, imperativo)."
+    },
+    {
+      "id": 77,
+      "nombre": "Géneros epistolares: carta formal, correo electrónico",
+      "teoria": "La carta formal sigue una estructura: lugar y fecha, saludo (estimado/a), cuerpo, despedida (atentamente, cordialmente), firma. El correo electrónico puede ser más ágil pero mantiene elementos similares. El tono debe ser cortés y claro.",
+      "ejemplo": "Carta formal: 'Madrid, 15 de mayo de 2025. Estimado Sr. García: Me dirijo a usted para... Atentamente, Juan Pérez.'",
+      "ejercicio": "Escribe el cuerpo de una carta formal solicitando información sobre un curso universitario.",
+      "respuesta": "'Le agradecería me informara sobre los requisitos de admisión, el plan de estudios y las fechas de inscripción del Máster en Lingüística. Adjunto mi CV. Quedo a la espera de su respuesta.'"
+    },
+    {
+      "id": 78,
+      "nombre": "Géneros digitales: blog, tweet, hilo",
+      "teoria": "El blog permite entradas extensas con comentarios. El tweet tiene límite de caracteres (280), favoreciendo la brevedad y el uso de hashtags. El hilo de tweets enlaza varios mensajes para narrar o explicar. La cohesión en hilos se logra mediante números (1/5) o referencias internas.",
+      "ejemplo": "Tweet: 'Acabo de leer 'Cien años de soledad'. Obra maestra #literatura'. Hilo: '1/5 La novela comienza con la fundación de Macondo...'",
+      "ejercicio": "Escribe un tweet (máximo 280 caracteres) sobre la importancia de la gramática.",
+      "respuesta": "'La gramática no es solo reglas aburridas, es la arquitectura del pensamiento. ¡Comunica mejor! #gramática #lenguaje'"
+    },
+    {
+      "id": 79,
+      "nombre": "Géneros jurídicos: ley, sentencia, contrato",
+      "teoria": "Los textos jurídicos son altamente formalizados, con estructuras fijas, lenguaje arcaico, latinismos, y precisión extrema. La ley tiene artículos y capítulos. La sentencia incluye antecedentes, fundamentos y fallo. El contrato tiene cláusulas y condiciones.",
+      "ejemplo": "Artículo de ley: 'Artículo 1. El presente reglamento tiene por objeto...' Contrato: 'Cláusula primera. El arrendatario se compromete a pagar una renta mensual de...'",
+      "ejercicio": "Escribe una cláusula simple de un contrato de préstamo de un libro (partes: prestamista, prestatario, plazo).",
+      "respuesta": "'Cláusula primera: El prestamista entrega al prestatario el libro 'El Quijote' para su lectura. El prestatario se compromete a devolverlo en un plazo máximo de 30 días.'"
+    },
+    {
+      "id": 80,
+      "nombre": "Géneros religiosos: oración, sermón, homilía",
+      "teoria": "La oración es un texto dirigido a la divinidad, con lenguaje reverente y a menudo repetitivo (letanías). El sermón es un discurso persuasivo con base bíblica, estructura argumentativa y exhortación moral. La homilía explica pasajes de la Escritura.",
+      "ejemplo": "Oración: 'Padre nuestro que estás en los cielos...' Sermón: 'Hermanos, hoy reflexionaremos sobre la parábola del hijo pródigo...'",
+      "ejercicio": "Escribe una oración breve de agradecimiento (2-3 líneas).",
+      "respuesta": "'Gracias, Señor, por la salud, la familia y el pan de cada día. Guía mis pasos por el camino del bien. Amén.'"
+    },
+    {
+      "id": 81,
+      "nombre": "Géneros periodísticos de opinión: columna, editorial, crítica",
+      "teoria": "La columna es un artículo de opinión firmado, con estilo personal y subjetivo. El editorial representa la postura del periódico, sin firma. La crítica evalúa obras artísticas (cine, música, literatura), con argumentos y valoración estética.",
+      "ejemplo": "Columna: 'Desde mi ventana, observo cómo la ciudad cambia...' Editorial: 'El gobierno debe priorizar la educación.' Crítica: 'La película tiene una fotografía impecable, pero el guion es predecible.'",
+      "ejercicio": "Escribe una frase de crítica de una novela que acabas de leer (opinión + razón).",
+      "respuesta": "'La novela me decepcionó; el final es apresurado y deja muchas preguntas sin respuesta.'"
+    },
+    {
+      "id": 82,
+      "nombre": "Géneros audiovisuales: guion, storyboard, voice-over",
+      "teoria": "El guion cinematográfico o teatral describe diálogos, acciones y escenas. El storyboard es una secuencia de viñetas para planificar rodaje. El voice-over es el texto que se escucha mientras se ven imágenes. La cohesión en el guion se logra mediante la continuidad narrativa.",
+      "ejemplo": "Guion: 'INT. CAFÉ - DÍA. JUAN y ANA están sentados. JUAN: (tenso) Necesito decirte algo.' Storyboard: viñetas con planos.",
+      "ejercicio": "Escribe una acotación y un diálogo breve para una escena de dos amigos discutiendo.",
+      "respuesta": "'INT. HABITACIÓN - NOCHE. Pedro entra furioso. Luis está sentado leyendo. PEDRO: ¿Por qué no me avisaste? LUIS: (sin levantar la vista) Lo olvidé.'"
+    },
+    {
+      "id": 83,
+      "nombre": "Géneros divulgativos: artículo de divulgación, conferencia",
+      "teoria": "El artículo de divulgación científica explica conceptos complejos en lenguaje accesible, con ejemplos y analogías. La conferencia oral tiene un guion con introducción, desarrollo (apoyado en diapositivas), conclusión y turno de preguntas.",
+      "ejemplo": "Artículo de divulgación: '¿Qué es el ADN? Imagina un libro de instrucciones dentro de tus células...' Conferencia: 'Hoy hablaremos de los agujeros negros. Primero, qué son; segundo, cómo se forman; tercero, cómo se detectan.'",
+      "ejercicio": "Escribe la introducción de un artículo de divulgación sobre 'cómo funciona la memoria'.",
+      "respuesta": "'¿Alguna vez has olvidado dónde dejaste las llaves? La memoria no es un archivo perfecto, sino un proceso reconstructivo. En este artículo, exploraremos cómo el cerebro almacena y recupera recuerdos.'"
+    },
+    {
+      "id": 84,
+      "nombre": "Géneros empresariales: memoria anual, acta de reunión, plan de negocio",
+      "teoria": "La memoria anual resume la actividad y resultados de una empresa. El acta registra acuerdos y decisiones de una reunión. El plan de negocio describe objetivos, estrategias y previsiones. Son textos formales, con estructura jerarquizada y uso de tablas.",
+      "ejemplo": "Acta: 'En la ciudad de Madrid, siendo las 10:00 del día 15 de mayo, se reúnen los socios...' Memoria anual: 'El ejercicio 2024 cerró con un incremento del 5% en ventas.'",
+      "ejercicio": "Escribe un punto del acta de una reunión de estudiantes para organizar una actividad cultural.",
+      "respuesta": "'Tercero: Se acordó realizar una 'Semana del Libro' del 10 al 14 de junio. Se designó a Ana como coordinadora y se asignó un presupuesto de 200 euros.'"
+    },
+    {
+      "id": 85,
+      "nombre": "Análisis del discurso: ideología y poder",
+      "teoria": "El análisis crítico del discurso (Van Dijk, Fairclough) estudia cómo los textos reflejan, construyen o reproducen ideologías y relaciones de poder. Examina la elección léxica (positiva para 'nosotros', negativa para 'ellos'), la nominalización (oculta agentes), la presuposición, y los temas silenciados.",
+      "ejemplo": "Discurso político: 'debemos luchar contra la invasión de inmigrantes' (metáfora belica, términos negativos). Análisis: construcción del inmigrante como amenaza.",
+      "ejercicio": "Analiza la ideología implícita en: 'Los trabajadores deben ser flexibles y adaptarse a las necesidades del mercado.'",
+      "respuesta": "Presupone que el trabajador es quien debe adaptarse (no el mercado). Ideología neoliberal: el mercado es una entidad inamovible que exige sacrificios al trabajador. Se oculta que las condiciones laborales podrían ser cuestionables."
+    },
+    {
+      "id": 86,
+      "nombre": "Análisis del discurso: ethos, pathos, logos",
+      "teoria": "El análisis retórico (Aristóteles) de un discurso identifica: ethos (autoridad, honestidad del hablante), pathos (emociones evocadas), logos (argumentos lógicos, datos). Estos tres pilares persuaden a la audiencia.",
+      "ejemplo": "Discurso ambientalista: Ethos: 'Como científico del clima...' Pathos: 'Nuestros hijos heredarán un planeta destruido.' Logos: 'Las emisiones de CO2 han aumentado un 50% en 30 años.'",
+      "ejercicio": "Identifica ethos, pathos y logos en un discurso político conocido (por ejemplo, un mitin).",
+      "respuesta": "Ejemplo mitin: 'Como presidente (ethos), he trabajado por ustedes. (pathos) Sufren por el alto costo de vida, lo sé. (logos) Los datos muestran que la economía creció un 2% este año.'"
+    },
+    {
+      "id": 87,
+      "nombre": "Análisis del discurso: presuposiciones y topic control",
+      "teoria": "Las presuposiciones son ideas dadas por supuestas (ej. 'deja de fumar' presupone que fumas). El control del tópico (topic control) es la capacidad de imponer el tema de conversación. Analizarlos revela estrategias de dominación discursiva.",
+      "ejemplo": "Entrevista política: Periodista: '¿Cree que su gestión ha sido un fracaso?' (presupone que ha sido un fracaso). El político puede rechazar la presuposición o contraargumentar.",
+      "ejercicio": "Identifica la presuposición en: '¿Por qué llegaste tarde otra vez?'",
+      "respuesta": "Presupone que el destinatario llegó tarde en esa ocasión y que es un comportamiento habitual ('otra vez')."
+    },
+    {
+      "id": 88,
+      "nombre": "Análisis del discurso: modalidad y evidencialidad",
+      "teoria": "La modalidad expresa la actitud del hablante (certeza, duda, obligación). La evidencialidad indica la fuente de la información (si la vio, le dijo, infirió). Analizar estos recursos muestra cómo el hablante construye su postura.",
+      "ejemplo": "Cerido: 'Seguramente ganaremos' (certeza). Dudoso: 'Quizás ganemos'. Evidencial: 'Según el informe, ganamos.'",
+      "ejercicio": "Clasifica la modalidad en: 'Debes estudiar más. Podría llover. Es posible que venga.'",
+      "respuesta": "'Debes estudiar más' (deóntico: obligación). 'Podría llover' (epistémico: posibilidad). 'Es posible que venga' (epistémico: posibilidad)."
+    },
+    {
+      "id": 89,
+      "nombre": "Análisis del discurso: polifonía y voces",
+      "teoria": "La polifonía (Bajtín) reconoce múltiples voces en un texto: discurso directo (citas), indirecto (paráfrasis), estilo indirecto libre (mezcla de narrador y personaje). Analizar las voces revela la intertextualidad y la posición ideológica.",
+      "ejemplo": "Discurso directo: 'Juan dijo: 'Voy a ganar'.' Indirecto: 'Juan dijo que iba a ganar.' Indirecto libre: 'Ganaría. No había duda.'",
+      "ejercicio": "Convierte al estilo indirecto libre: 'Ana pensó: «Es demasiado tarde. Nunca llegaré a tiempo».'",
+      "respuesta": "'Era demasiado tarde. Nunca llegaría a tiempo.' (integra la voz de Ana en la narración, sin comillas ni verbo introductorio)."
+    },
+    {
+      "id": 90,
+      "nombre": "Análisis del discurso: estrategias de cortesía",
+      "teoria": "La cortesía lingüística (Brown, Levinson) usa estrategias para proteger la imagen pública (face) del interlocutor: cortesía positiva (elogios, cercanía) y negativa (distancia, atenuación). Analizarlas revela relaciones de poder y solidaridad.",
+      "ejemplo": "Cortesía positiva: 'Qué bien escribes, ¿me podrías ayudar?' Cortesía negativa: 'Disculpe la molestia, ¿podría revisar mi texto?'",
+      "ejercicio": "Identifica la estrategia de cortesía en: '¿Serías tan amable de cerrar la ventana?'",
+      "respuesta": "Cortesía negativa: se usa condicional de cortesía ('serías tan amable'), pregunta indirecta para no imponer, y atenuadores ('tan amable'). Respeta la libertad del interlocutor."
+    },
+    {
+      "id": 91,
+      "nombre": "Análisis del discurso: marcadores de identidad grupal",
+      "teoria": "El uso de ciertas palabras, pronunciación o estructuras gramaticales puede marcar pertenencia a un grupo (generacional, regional, social). Los marcadores 'che' (rioplatense), 'pues' (mexicano), 'vale' (español) son identitarios.",
+      "ejemplo": "Un hablante argentino usa 'che' y 'vos'; un español usa 'vale' y 'tío'. El análisis detecta dialectos y actitudes.",
+      "ejercicio": "Identifica el marcador dialectal en: 'Güey, ¿qué onda? Está bien padre.'",
+      "respuesta": "Mexicanismos: 'güey' (amigo), 'qué onda' (qué pasa), 'padre' (genial). Marcadores de identidad mexicana."
+    },
+    {
+      "id": 92,
+      "nombre": "Análisis del discurso: metáforas conceptuales",
+      "teoria": "Las metáforas conceptuales (Lakoff, Johnson) estructuran el pensamiento: 'el amor es un viaje', 'el tiempo es dinero'. Analizarlas en el discurso muestra cómo se conceptualizan ideas abstractas.",
+      "ejemplo": "Discurso político: 'luchar contra la pobreza', 'batalla electoral', 'guerra contra el crimen' (metáfora bélica).",
+      "ejercicio": "Identifica la metáfora conceptual en: 'El argumento de Juan es débil, no tiene fundamentos sólidos.'",
+      "respuesta": "Metáfora conceptual 'ARGUMENTAR ES CONSTRUIR': un argumento 'débil' es como un edificio frágil; 'fundamentos sólidos' son como cimientos firmes."
+    },
+    {
+      "id": 93,
+      "nombre": "Análisis del discurso: violencia simbólica",
+      "teoria": "La violencia simbólica (Bourdieu) se ejerce mediante el lenguaje: discriminación por acento, uso de términos despectivos, imposición de la norma estándar como superior. Analizarla desvela desigualdades.",
+      "ejemplo": "Estigmatizar el andaluz como 'inculto' o el caribeño como 'vulgar' es violencia simbólica contra esos dialectos.",
+      "ejercicio": "¿Qué violencia simbólica puede haber en la frase: 'Tienes que hablar bien, no como los de barrio'?",
+      "respuesta": "Asume que el habla de barrio es 'mal' (incorrecta, vulgar) y la norma estándar como 'bien'. Deslegitima una variante dialectal (estigmatización). Es un acto de dominación simbólica del estándar."
+    },
+    {
+      "id": 94,
+      "nombre": "Análisis del discurso: manipulación mediática",
+      "teoria": "Los medios manipulan mediante: selección de noticias (agenda setting), encuadre (framing), nominalización para ocultar agentes ('los precios subieron' vs 'el gobierno subió los precios'), eufemismos ('daños colaterales'), y repetición.",
+      "ejemplo": "Titular: 'El paro subió al 20%' (oculta agentes). Otro: 'La política del gobierno provocó que el paro subiera al 20%' (responsabilidad explícita). El encuadre condiciona la interpretación.",
+      "ejercicio": "¿Cómo manipula el titular 'Se produjeron manifestaciones violentas' en comparación con 'La policía reprimió manifestaciones pacíficas'?",
+      "respuesta": "El primero usa voz pasiva ('se produjeron') y adjetivo 'violentas' atribuyendo la violencia a los manifestantes, sin agente (¿quién produjo?). El segundo explicita agente (policía) y califica las manifestaciones de 'pacíficas'. Cambia completamente la responsabilidad y el juicio ético."
+    },
+    {
+      "id": 95,
+      "nombre": "Análisis del discurso: silencios y elipsis estratégicas",
+      "teoria": "Lo que no se dice (silencios, elipsis de información) es tan relevante como lo dicho. El análisis de silencios revela temas tabú, información oculta, o estrategias para no comprometerse.",
+      "ejemplo": "Respuesta evasiva a '¿Crees que el gobierno actuó bien?': 'No tengo todos los datos para opinar.' (silencia la opinión).",
+      "ejercicio": "¿Qué silencia la frase 'El ministerio estudiará el problema'?",
+      "respuesta": "Silencia cuándo, cómo, con qué recursos, y si habrá solución. 'Estudiará' es una acción vaga que no compromete resultados. Evita decir 'no hará nada' o 'no puede solucionarlo'."
+    },
+    {
+      "id": 96,
+      "nombre": "Análisis del discurso: ironía y doble voz",
+      "teoria": "La ironía se detecta por incongruencia entre lo dicho y la realidad, o por eco burlón. El análisis requiere considerar el contexto y las marcas prosódicas (en oral) o gráficas (en escrito, a veces comillas).",
+      "ejemplo": "En una tormenta: '¡Qué hermoso día!' (ironía: el significado literal es falso, el verdadero es crítica).",
+      "ejercicio": "Detecta la ironía en: 'Eres todo un genio, has roto el jarrón más caro.'",
+      "respuesta": "'Eres todo un genio' es irónico porque romper el jarrón es un error, no una genialidad. El hablante expresa enfado o sarcasmo."
+    },
+    {
+      "id": 97,
+      "nombre": "Análisis del discurso: argumentación falaz",
+      "teoria": "Las falacias son errores de razonamiento que parecen válidos pero no lo son: ad hominem (atacar a la persona), falsa dicotomía (solo dos opciones), pendiente resbaladiza, petición de principio, generalización apresurada, etc.",
+      "ejemplo": "Ad hominem: 'No le hagas caso, es un ignorante.' (ataca a la persona, no al argumento). Falsa dicotomía: 'O eres patriota o eres traidor.'",
+      "ejercicio": "Identifica la falacia en: 'Si permitimos que los estudiantes usen calculadora, después querrán usarla en todos los exámenes y ya no aprenderán matemáticas.'",
+      "respuesta": "Pendiente resbaladiza (slippery slope): se asume sin evidencia que un paso pequeño llevará a consecuencias extremas negativas."
+    },
+    {
+      "id": 98,
+      "nombre": "Análisis del discurso: recursos de persuasión en publicidad",
+      "teoria": "La publicidad usa el imperativo ('cómpralo'), la segunda persona ('tú lo necesitas'), la hipérbole ('el mejor'), el testimonio de famosos (ethos), la repetición, la rima, y las preguntas retóricas ('¿no lo mereces?').",
+      "ejemplo": "Anuncio de perfume: '¿Te atreves? Siente la pasión.' (pregunta retórica + imperativo + apelación emocional).",
+      "ejercicio": "Analiza los recursos persuasivos en: 'Nuevo champú ProV, con biotina, para un cabello más fuerte. ¡Pruébalo ahora!'",
+      "respuesta": "Imperativo ('¡Pruébalo ahora!'), argumento de autoridad? no, pero 'ProV' suena técnico (ethos). Apelación directa ('para tu cabello'), exclamación, urgencia ('ahora')."
+    },
+    {
+      "id": 99,
+      "nombre": "Análisis del discurso multimodal",
+      "teoria": "El discurso multimodal combina lenguaje verbal con imágenes, sonidos, gestos, tipografía, etc. El análisis estudia cómo estos modos crean significado conjunto (ej. memes, publicidad, videos, redes sociales).",
+      "ejemplo": "Un meme con imagen de persona confundida y texto 'cuando explican la sintaxis'. La imagen aporta el tono humorístico.",
+      "ejercicio": "Analiza un meme conocido: describe la imagen y el texto, y cómo se complementan para crear el significado.",
+      "respuesta": "Ejemplo: meme 'Distracted Boyfriend': imagen de hombre mirando a otra mujer mientras su novia lo mira indignado. Texto: 'yo' (mirando a 'gramática generativa' y 'sintaxis' como novia). El texto etiqueta a los personajes, y la imagen representa la 'infidelidad' académica. El humor viene de la analogía entre infidelidad y cambio de interés lingüístico."
+    },
+    {
+      "id": 100,
+      "nombre": "Aplicaciones de la textolingüística: didáctica de la lengua",
+      "teoria": "La textolingüística tiene aplicaciones en educación: enseñar a escribir textos coherentes y cohesivos, analizar errores de progresión temática, diseñar secuencias didácticas basadas en géneros discursivos, y evaluar la adecuación textual. Ayuda a formar escritores competentes.",
+      "ejemplo": "Ejercicio didáctico: identificar conectores inadecuados en un texto y reemplazarlos. Secuencia: leer, analizar, reescribir.",
+      "ejercicio": "Diseña una actividad de aula para enseñar el uso de conectores causales a estudiantes de secundaria.",
+      "respuesta": "Actividad: entregar un texto con causas y consecuencias desordenadas. Los estudiantes deben ordenarlo y añadir conectores causales (porque, ya que, por lo tanto) y consecutivos (así que, por consiguiente). Luego, escribir un párrafo propio explicando la relación entre estudiar y aprobar, usando al menos tres conectores."
+    }
+  ]
+}

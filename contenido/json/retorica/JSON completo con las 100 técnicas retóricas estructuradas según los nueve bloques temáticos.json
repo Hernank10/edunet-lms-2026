@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "name": "Inventio (hallazgo)",
+    "category": "Raíces clásicas · operaciones del orador",
+    "teoria": "Primera operación retórica: búsqueda y selección de argumentos, pruebas y recursos persuasivos adecuados al tema.",
+    "ejemplo": "Para defender la paz, el orador reúne testimonios, estadísticas y ejemplos históricos.",
+    "ejercicio": "Elige un tema polémico y enumera tres argumentos posibles para una inventio.",
+    "suggestedAnswer": "Tema: prohibición de plásticos. Argumentos: 1) impacto ambiental, 2) alternativas biodegradables, 3) costo-beneficio a largo plazo."
+  },
+  {
+    "id": 2,
+    "name": "Dispositio (ordenación)",
+    "category": "Raíces clásicas · operaciones del orador",
+    "teoria": "Organización estratégica de las partes del discurso: exordio, narración, argumentación, refutación, epílogo.",
+    "ejemplo": "En un juicio, primero se capta la atención, luego se narran los hechos, se argumenta y se concluye.",
+    "ejercicio": "Describe brevemente cómo ordenarías un discurso para convencer de donar sangre.",
+    "suggestedAnswer": "Exordio emotivo, narración de necesidad, argumentos médicos, refutación de mitos, epílogo solidario."
+  },
+  {
+    "id": 3,
+    "name": "Elocutio (estilo)",
+    "category": "Raíces clásicas · operaciones del orador",
+    "teoria": "Vestir las ideas con palabras adecuadas: claridad, corrección, ornamentación y decoro.",
+    "ejemplo": "No es lo mismo decir 'el perro murió' que 'el fiel compañero exhaló su último aliento'.",
+    "ejercicio": "Transforma la frase 'hace mucho frío' usando una elocución más vívida.",
+    "suggestedAnswer": "El hielo muerde los huesos y el viento afila cuchillos invisibles."
+  },
+  {
+    "id": 4,
+    "name": "Memoria (mnemotecnia)",
+    "category": "Raíces clásicas · operaciones del orador",
+    "teoria": "Técnicas para recordar el discurso sin leerlo: lugares y imágenes mentales, repetición, asociación.",
+    "ejemplo": "Asociar cada punto del discurso con una habitación de la casa.",
+    "ejercicio": "Propón un método sencillo para recordar los cinco puntos de un discurso breve.",
+    "suggestedAnswer": "Usar la primera sílaba de cada punto para formar una palabra inventada: PAISA (problema, análisis, impacto, solución, acción)."
+  },
+  {
+    "id": 5,
+    "name": "Actio (pronunciación y gestualidad)",
+    "category": "Raíces clásicas · operaciones del orador",
+    "teoria": "Uso de la voz, el gesto, la mirada y el cuerpo para transmitir el mensaje con eficacia.",
+    "ejemplo": "Cicerón decía que la acción es elocuencia del cuerpo.",
+    "ejercicio": "Señala un gesto no verbal que refuerce la idea de 'unidad'.",
+    "suggestedAnswer": "Juntar las palmas de las manos y elevarlas ligeramente, o poner una mano sobre el corazón y extender la otra al público."
+  },
+  {
+    "id": 6,
+    "name": "Aliteración",
+    "category": "Figuras de sonido",
+    "teoria": "Repetición de sonidos consonánticos para crear ritmo o musicalidad.",
+    "ejemplo": "El ruido con que rueda la ronca tempestad.",
+    "ejercicio": "Crea una frase corta con aliteración de /p/.",
+    "suggestedAnswer": "Pepe pela papas para la pícara Paula."
+  },
+  {
+    "id": 7,
+    "name": "Anáfora",
+    "category": "Figuras de sintaxis · repetición",
+    "teoria": "Repetición de una o varias palabras al inicio de enunciados sucesivos.",
+    "ejemplo": "¡Qué será de mí! ¡Qué será de mi casa! ¡Qué será de mi esperanza!",
+    "ejercicio": "Escribe una anáfora con 'Mañana...'",
+    "suggestedAnswer": "Mañana cantaré, mañana bailaré, mañana reiré sin miedo."
+  },
+  {
+    "id": 8,
+    "name": "Epífora",
+    "category": "Figuras de sintaxis · repetición",
+    "teoria": "Repetición de una misma palabra o grupo al final de frases o versos consecutivos.",
+    "ejemplo": "Tu juventud es pasajera, tu belleza es pasajera, tu alegría es pasajera.",
+    "ejercicio": "Construye una epífora con '...en el alma'.",
+    "suggestedAnswer": "Llevo tu risa en el alma, llevo tu llanto en el alma, llevo tu nombre en el alma."
+  },
+  {
+    "id": 9,
+    "name": "Epanadiplosis",
+    "category": "Figuras de sintaxis",
+    "teoria": "Figura que consiste en comenzar y terminar un verso o frase con la misma palabra.",
+    "ejemplo": "Verde que te quiero verde.",
+    "ejercicio": "Crea una epanadiplosis breve.",
+    "suggestedAnswer": "Frío el amanecer, amanecer frío."
+  },
+  {
+    "id": 10,
+    "name": "Hipérbaton",
+    "category": "Figuras de sintaxis",
+    "teoria": "Alteración del orden lógico de las palabras en la oración.",
+    "ejemplo": "Del salón en el ángulo oscuro, de su dueña tal vez olvidada.",
+    "ejercicio": "Reordena la frase 'El niño duerme plácidamente en su cuna' con hipérbaton.",
+    "suggestedAnswer": "En su cuna duerme plácidamente el niño."
+  },
+  {
+    "id": 11,
+    "name": "Quiasmo",
+    "category": "Figuras de sintaxis",
+    "teoria": "Estructura cruzada (AB/BA) que produce paralelismo invertido.",
+    "ejemplo": "Cuando quiero llorar no lloro, y a veces lloro sin querer.",
+    "ejercicio": "Escribe un quiasmo con los pares 'amor/odio' y 'vida/muerte'.",
+    "suggestedAnswer": "El amor da vida, la muerte da odio."
+  },
+  {
+    "id": 12,
+    "name": "Asíndeton",
+    "category": "Figuras de sintaxis",
+    "teoria": "Omisión de conjunciones para dar agilidad y dinamismo.",
+    "ejemplo": "Llegué, vi, vencí.",
+    "ejercicio": "Redacta una oración con asíndeton de tres verbos.",
+    "suggestedAnswer": "Corro, salto, grito."
+  },
+  {
+    "id": 13,
+    "name": "Polisíndeton",
+    "category": "Figuras de sintaxis",
+    "teoria": "Uso abundante y reiterativo de conjunciones para crear solemnidad o lentitud.",
+    "ejemplo": "Y corre y vuela y grita y arde.",
+    "ejercicio": "Escribe un polisíndeton con 'ni' para expresar negación enfática.",
+    "suggestedAnswer": "Ni el sol ni la luna ni las estrellas ni el mar podrán separarnos."
+  },
+  {
+    "id": 14,
+    "name": "Elipsis",
+    "category": "Figuras de sintaxis",
+    "teoria": "Supresión de un elemento lingüístico que se sobrentiende por el contexto.",
+    "ejemplo": "Él llegó tarde; ella, puntual.",
+    "ejercicio": "Construye una frase con elipsis del verbo.",
+    "suggestedAnswer": "Unos lloraban la derrota; otros, la victoria."
+  },
+  {
+    "id": 15,
+    "name": "Anacoluto",
+    "category": "Figuras de sintaxis",
+    "teoria": "Ruptura de la concordancia sintáctica; cambio brusco de construcción.",
+    "ejemplo": "A mí, que me castiguen si no cumplo.",
+    "ejercicio": "Escribe un anacoluto cotidiano.",
+    "suggestedAnswer": "A los jóvenes, hay que darles oportunidades, es el futuro."
+  },
+  {
+    "id": 16,
+    "name": "Paralelismo",
+    "category": "Figuras de sintaxis",
+    "teoria": "Repetición de una misma estructura gramatical en dos o más segmentos.",
+    "ejemplo": "Tu risa es primavera, tu mirada es fuente.",
+    "ejercicio": "Escribe un paralelismo con 'bello como...'",
+    "suggestedAnswer": "Bello como el alba, bello como el jazmín."
+  },
+  {
+    "id": 17,
+    "name": "Metáfora",
+    "category": "Tropos",
+    "teoria": "Identificación de un término real con otro imaginario basado en una semejanza.",
+    "ejemplo": "Tus ojos son dos luceros.",
+    "ejercicio": "Inventa una metáfora para describir 'esperanza'.",
+    "suggestedAnswer": "La esperanza es un árbol que florece en invierno."
+  },
+  {
+    "id": 18,
+    "name": "Metonimia",
+    "category": "Tropos",
+    "teoria": "Designar una cosa con el nombre de otra con la que mantiene una relación de causa, procedencia, contenido, etc.",
+    "ejemplo": "Tomar una copa (el contenido por el continente).",
+    "ejercicio": "Crea una metonimia usando 'Cervantes'.",
+    "suggestedAnswer": "Leer a Cervantes es un placer eterno."
+  },
+  {
+    "id": 19,
+    "name": "Sinécdoque",
+    "category": "Tropos",
+    "teoria": "Tipo de metonimia donde se designa el todo por la parte o la parte por el todo.",
+    "ejemplo": "Diez velas en el mar (barcos).",
+    "ejercicio": "Escribe una sinécdoque con 'manos' para referirte a trabajadores.",
+    "suggestedAnswer": "La fábrica necesita manos nuevas."
+  },
+  {
+    "id": 20,
+    "name": "Ironía",
+    "category": "Tropos",
+    "teoria": "Expresar lo contrario de lo que se piensa, con un tono que permite interpretar la intención.",
+    "ejemplo": "¡Qué día tan hermoso! (dicho durante un diluvio).",
+    "ejercicio": "Escribe una ironía ante una noticia decepcionante.",
+    "suggestedAnswer": "Genial, justo lo que necesitaba: otro problema."
+  },
+  {
+    "id": 21,
+    "name": "Hipérbole",
+    "category": "Tropos",
+    "teoria": "Exageración desmedida para enfatizar una cualidad o sentimiento.",
+    "ejemplo": "Te lo he dicho un millón de veces.",
+    "ejercicio": "Usa una hipérbole para expresar hambre.",
+    "suggestedAnswer": "Me comería un elefante entero."
+  },
+  {
+    "id": 22,
+    "name": "Oxímoron",
+    "category": "Tropos",
+    "teoria": "Unión de dos palabras de significado opuesto que generan un efecto paradójico.",
+    "ejemplo": "Silencio atronador.",
+    "ejercicio": "Crea un oxímoron original.",
+    "suggestedAnswer": "Luz oscura."
+  },
+  {
+    "id": 23,
+    "name": "Sinestesia",
+    "category": "Tropos",
+    "teoria": "Atribución de una sensación a un sentido que no le corresponde (mezcla de percepciones).",
+    "ejemplo": "Color áspero, sonido dulce.",
+    "ejercicio": "Escribe una sinestesia que mezcle vista y oído.",
+    "suggestedAnswer": "El azul de la música."
+  },
+  {
+    "id": 24,
+    "name": "Perífrasis",
+    "category": "Tropos",
+    "teoria": "Expresar una idea por medio de un rodeo de palabras, evitando el término directo.",
+    "ejemplo": "El autor de El Quijote (en lugar de Cervantes).",
+    "ejercicio": "Sustituye 'muerte' por una perífrasis.",
+    "suggestedAnswer": "El viaje sin retorno."
+  },
+  {
+    "id": 25,
+    "name": "Símbolo",
+    "category": "Tropos",
+    "teoria": "Objeto, imagen o palabra que representa una idea abstracta por convención cultural.",
+    "ejemplo": "La paloma blanca como símbolo de paz.",
+    "ejercicio": "Menciona un símbolo de libertad.",
+    "suggestedAnswer": "El pájaro volando libre."
+  },
+  {
+    "id": 26,
+    "name": "Alegoría",
+    "category": "Tropos",
+    "teoria": "Metáfora continuada donde conceptos abstractos se representan mediante imágenes concretas.",
+    "ejemplo": "El mito de la caverna de Platón.",
+    "ejercicio": "Propón una alegoría breve para el 'paso del tiempo'.",
+    "suggestedAnswer": "Un río que arrastra hojas y nunca se detiene."
+  },
+  {
+    "id": 27,
+    "name": "Antítesis",
+    "category": "Figuras de pensamiento",
+    "teoria": "Contraposición de dos ideas o términos de significado contrario.",
+    "ejemplo": "Ir y quedarse, y con quedar partirse.",
+    "ejercicio": "Crea una antítesis con 'fuego' y 'hielo'.",
+    "suggestedAnswer": "Su mirada era fuego, sus palabras hielo."
+  },
+  {
+    "id": 28,
+    "name": "Paradoja",
+    "category": "Figuras de pensamiento",
+    "teoria": "Afirmación aparentemente contradictoria que encierra una verdad profunda.",
+    "ejemplo": "Vivo sin vivir en mí.",
+    "ejercicio": "Formula una paradoja sobre el amor.",
+    "suggestedAnswer": "El amor es una herida que duele y da vida."
+  },
+  {
+    "id": 29,
+    "name": "Gradación (Clímax)",
+    "category": "Figuras de pensamiento",
+    "teoria": "Serie de términos ordenados de menor a mayor intensidad (o viceversa).",
+    "ejemplo": "Al principio fue una chispa, luego llama, después incendio.",
+    "ejercicio": "Escribe una gradación ascendente sobre el enojo.",
+    "suggestedAnswer": "Molestia, ira, furia, explosión."
+  },
+  {
+    "id": 30,
+    "name": "Preterición",
+    "category": "Figuras de pensamiento",
+    "teoria": "Mencionar algo diciendo que no se va a mencionar (falsa omisión).",
+    "ejemplo": "No diré nada de su traición, mejor lo olvido.",
+    "ejercicio": "Usa la preterición para insinuar un secreto.",
+    "suggestedAnswer": "Prefiero callar lo que vi aquella noche, no voy a hablar de eso."
+  },
+  {
+    "id": 31,
+    "name": "Interrogación retórica",
+    "category": "Figuras dialógicas",
+    "teoria": "Pregunta que no espera respuesta, sino que afirma o niega con fuerza.",
+    "ejemplo": "¿Acaso no es obvio que debemos actuar?",
+    "ejercicio": "Escribe una interrogación retórica para motivar a estudiar.",
+    "suggestedAnswer": "¿Quién no quiere un futuro mejor?"
+  },
+  {
+    "id": 32,
+    "name": "Exclamación (Ecfonesis)",
+    "category": "Figuras dialógicas",
+    "teoria": "Expresión vehemente de una emoción mediante una oración exclamativa.",
+    "ejemplo": "¡Oh, tiempos! ¡Oh, costumbres!",
+    "ejercicio": "Crea una exclamación de asombro ante un paisaje.",
+    "suggestedAnswer": "¡Qué maravilla de horizontes!"
+  },
+  {
+    "id": 33,
+    "name": "Imprecación",
+    "category": "Figuras dialógicas",
+    "teoria": "Expresión de un deseo de mal o castigo contra alguien o algo.",
+    "ejemplo": "¡Maldita sea tu suerte!",
+    "ejercicio": "Escribe una imprecación suave contra el tráfico.",
+    "suggestedAnswer": "¡Ojalá todos los semáforos se pongan verdes!"
+  },
+  {
+    "id": 34,
+    "name": "Apóstrofe",
+    "category": "Figuras dialógicas",
+    "teoria": "Dirigirse a un interlocutor ausente, a un ser inanimado o abstracto como si estuviera presente.",
+    "ejemplo": "¡Oh muerte, ven callada!",
+    "ejercicio": "Escribe un apóstrofe al silencio.",
+    "suggestedAnswer": "Silencio, amigo mío, acompáñame esta noche."
+  },
+  {
+    "id": 35,
+    "name": "Entimema",
+    "category": "Argumentación",
+    "teoria": "Silogismo retórico incompleto donde se omite una premisa por obvia.",
+    "ejemplo": "Es mortal, porque es hombre (se omite 'todos los hombres son mortales').",
+    "ejercicio": "Formula un entimema sobre el esfuerzo y el éxito.",
+    "suggestedAnswer": "Trabaja duro, porque el éxito no llega solo."
+  },
+  {
+    "id": 36,
+    "name": "Sorites",
+    "category": "Argumentación",
+    "teoria": "Cadena de razonamientos encadenados donde el predicado de uno es sujeto del siguiente.",
+    "ejemplo": "Quien estudia, aprende; quien aprende, mejora; quien mejora, triunfa.",
+    "ejercicio": "Construye un sorites de tres pasos sobre la paciencia.",
+    "suggestedAnswer": "Quien tiene paciencia, sabe esperar; quien sabe esperar, halla oportunidad; quien halla oportunidad, logra su meta."
+  },
+  {
+    "id": 37,
+    "name": "Dilema",
+    "category": "Argumentación",
+    "teoria": "Planteamiento de dos opciones igualmente desfavorables (cuernos del dilema).",
+    "ejemplo": "Si aceptas, pierdes tu libertad; si rechazas, pierdes tu oportunidad.",
+    "ejercicio": "Crea un dilema moral sencillo sobre decidir entre dos trabajos.",
+    "suggestedAnswer": "Si tomas el empleo estable, no tienes tiempo; si tomas el flexible, no tienes dinero."
+  },
+  {
+    "id": 38,
+    "name": "Argumento a fortiori",
+    "category": "Argumentación",
+    "teoria": "Razonamiento que va de lo más evidente a lo menos evidente: si ocurre en lo menor, con mayor razón ocurre en lo mayor (o viceversa).",
+    "ejemplo": "Si cuidas una planta, con mayor razón cuidarás a un hijo.",
+    "ejercicio": "Escribe un argumento a fortiori sobre el estudio diario.",
+    "suggestedAnswer": "Si estudiar una hora mejora tus notas, con mayor razón estudiando dos horas serás excelente."
+  },
+  {
+    "id": 39,
+    "name": "Exordio",
+    "category": "Dispositio clásica",
+    "teoria": "Parte inicial del discurso cuyo fin es captar la atención y la benevolencia del auditorio.",
+    "ejemplo": "Comenzar con una cita impactante o una pregunta retórica.",
+    "ejercicio": "Redacta un exordio breve para un discurso sobre reciclaje.",
+    "suggestedAnswer": "¿Sabías que cada minuto se vierte un camión de basura al mar? No es un dato más, es un grito de auxilio."
+  },
+  {
+    "id": 40,
+    "name": "Narratio",
+    "category": "Dispositio clásica",
+    "teoria": "Exposición clara y concisa de los hechos relevantes del caso.",
+    "ejemplo": "En un juicio, se narra cronológicamente lo sucedido.",
+    "ejercicio": "Escribe una narratio de tres líneas sobre un accidente de tráfico.",
+    "suggestedAnswer": "El coche circulaba por la avenida cuando un peatón cruzó indebidamente. El conductor frenó pero impactó levemente."
+  },
+  {
+    "id": 41,
+    "name": "Confirmatio",
+    "category": "Dispositio clásica",
+    "teoria": "Parte argumentativa donde se presentan las pruebas y razones que apoyan la tesis.",
+    "ejemplo": "Citar estadísticas, testimonios, ejemplos y entimemas.",
+    "ejercicio": "Propón una confirmatio simple para defender el teletrabajo.",
+    "suggestedAnswer": "El teletrabajo reduce el estrés del tráfico, mejora la concentración y disminuye la huella de carbono."
+  },
+  {
+    "id": 42,
+    "name": "Refutatio",
+    "category": "Dispositio clásica",
+    "teoria": "Anticipación y respuesta a los posibles argumentos contrarios.",
+    "ejemplo": "Alguien podría decir que el teletrabajo aísla, pero las videollamadas fomentan la comunicación.",
+    "ejercicio": "Refuta el argumento 'los jóvenes no leen libros'.",
+    "suggestedAnswer": "Es falso, muchos jóvenes leen en formato digital y participan en clubes literarios."
+  },
+  {
+    "id": 43,
+    "name": "Peroratio (Epílogo)",
+    "category": "Dispositio clásica",
+    "teoria": "Conclusión del discurso que resume los puntos clave y mueve a la acción o emoción.",
+    "ejemplo": "Por todo ello, os pido que votéis sí a la propuesta.",
+    "ejercicio": "Redacta un epílogo breve para un discurso de despedida.",
+    "suggestedAnswer": "Me llevo su amistad y les dejo mi gratitud. No digo adiós, digo hasta siempre."
+  },
+  {
+    "id": 44,
+    "name": "Refrán (entimema popular)",
+    "category": "Tradición castellana",
+    "teoria": "Enunciado breve y sentencioso que condensa una enseñanza o experiencia colectiva, funcionando como entimema.",
+    "ejemplo": "A quien madruga, Dios le ayuda.",
+    "ejercicio": "Explica el entimema detrás del refrán 'No dejes para mañana lo que puedas hacer hoy'.",
+    "suggestedAnswer": "Premisa omitida: el mañana puede traer imprevistos; por tanto, actuar hoy es más seguro."
+  },
+  {
+    "id": 45,
+    "name": "Conceptismo (Quevedo)",
+    "category": "Tradición castellana · Barroco",
+    "teoria": "Estilo basado en la asociación ingeniosa de conceptos, juegos de palabras y significados múltiples, priorizando el sentido sobre la forma.",
+    "ejemplo": "Poderoso caballero es don Dinero.",
+    "ejercicio": "Crea un conceptismo breve sobre el 'tiempo'.",
+    "suggestedAnswer": "El tiempo es un reloj que siempre da la hora de la verdad."
+  },
+  {
+    "id": 46,
+    "name": "Culteranismo (Góngora)",
+    "category": "Tradición castellana · Barroco",
+    "teoria": "Estilo que embellece el lenguaje mediante latinismos, hipérbatos extremos, metáforas puras y cultismos, priorizando la forma.",
+    "ejemplo": "Infame turba de nocturnas aves (por murciélagos).",
+    "ejercicio": "Reescribe 'el atardecer en el campo' con un giro culterano.",
+    "suggestedAnswer": "En occidente el sol, purpúreo jazmín, exhalaba su ocaso entre espigas de oro."
+  },
+  {
+    "id": 47,
+    "name": "Tópico: Ubi sunt",
+    "category": "Tradición castellana · tópicos",
+    "teoria": "Pregunta retórica sobre el paradero de personas, cosas o glorias pasadas, con tono elegíaco.",
+    "ejemplo": "¿Qué se hicieron las damas, sus tocados, sus olores?",
+    "ejercicio": "Escribe un ubi sunt nostálgico sobre los amigos de la infancia.",
+    "suggestedAnswer": "¿Dónde están aquellos juegos de la tarde, las risas y los secretos compartidos?"
+  },
+  {
+    "id": 48,
+    "name": "Tópico: Locus amoenus",
+    "category": "Tradición castellana · tópicos",
+    "teoria": "Descripción idealizada de un paisaje placentero, con árboles, agua, prado y brisa.",
+    "ejemplo": "Prado de verdor sin par, fuente de clara agua, árboles que dan sombra.",
+    "ejercicio": "Describe un locus amoenus breve.",
+    "suggestedAnswer": "Un arroyo cantarín, césped suave y un sauce que abraza la orilla."
+  },
+  {
+    "id": 49,
+    "name": "Tópico: Contemptus mundi",
+    "category": "Tradición castellana · tópicos",
+    "teoria": "Desprecio del mundo y sus vanidades, invitación a lo espiritual o ascético.",
+    "ejemplo": "Vanidad de vanidades, todo es vanidad.",
+    "ejercicio": "Escribe una frase con contemptus mundi sobre el dinero.",
+    "suggestedAnswer": "El oro brilla pero no calienta el alma."
+  },
+  {
+    "id": 50,
+    "name": "Agudeza (Gracián)",
+    "category": "Tradición castellana · Baltasar Gracián",
+    "teoria": "Capacidad de establecer relaciones ingeniosas entre conceptos, propia del ingenio (agudeza de concepto).",
+    "ejemplo": "Lo bueno, si breve, dos veces bueno.",
+    "ejercicio": "Crea una agudeza sobre la paciencia.",
+    "suggestedAnswer": "La paciencia es el arte de esperar sin desesperar."
+  },
+  {
+    "id": 51,
+    "name": "Imagen surrealista",
+    "category": "Siglo XX · Vanguardias",
+    "teoria": "Asociación libre de realidades distantes, ilógica, onírica, que rompe la razón.",
+    "ejemplo": "El teléfono con langosta de Dalí.",
+    "ejercicio": "Escribe una imagen surrealista (textual).",
+    "suggestedAnswer": "El reloj derretido goteaba minutos de miel sobre una sombrilla."
+  },
+  {
+    "id": 52,
+    "name": "Monólogo interior",
+    "category": "Siglo XX · Joyce, Woolf",
+    "teoria": "Flujo de pensamientos, sensaciones y recuerdos sin estructura lógica ni puntuación convencional.",
+    "ejemplo": "Frío... la ventana... las once... ese ruido otra vez... tendré que irme...",
+    "ejercicio": "Redacta tres líneas de monólogo interior sobre la espera en una sala.",
+    "suggestedAnswer": "Miro la puerta... minuto diez... ese cuadro torcido... y si no viene... no, vendrá."
+  },
+  {
+    "id": 53,
+    "name": "Intertextualidad",
+    "category": "Siglo XX · teoría literaria",
+    "teoria": "Relación explícita o implícita de un texto con otros textos (citas, alusiones, plagio creativo).",
+    "ejemplo": "Comenzar una novela con 'En un lugar de la Mancha...' sabiendo que es Cervantes.",
+    "ejercicio": "Escribe una frase intertextual que aluda a Hamlet.",
+    "suggestedAnswer": "Ser o no ser, esa es la cuestión, aunque aquí el dilema sea otro."
+  },
+  {
+    "id": 54,
+    "name": "Metaficción",
+    "category": "Siglo XX · narrativa autorreflexiva",
+    "teoria": "Obra que se autorrefiere y expone sus propios mecanismos de creación, rompiendo la ilusión realista.",
+    "ejemplo": "Un narrador que dice 'en este capítulo inventaré un final'.",
+    "ejercicio": "Escribe una oración metaficticia.",
+    "suggestedAnswer": "El escritor dudó: si ponía aquí un beso, tal vez el lector sonreiría."
+  },
+  {
+    "id": 55,
+    "name": "Esperpento (Valle-Inclán)",
+    "category": "Siglo XX · esperpento",
+    "teoria": "Deformación grotesca y sistemática de la realidad, mezclando lo trágico con lo ridículo, como reflejo en espejos cóncavos.",
+    "ejemplo": "Los héroes clásicos se convierten en muñecos patéticos.",
+    "ejercicio": "Describe un entierro con rasgos esperpénticos.",
+    "suggestedAnswer": "El coche fúnebre parecía una berenjena gigante, y las coronas de flores bailaban al son de una chicharra."
+  },
+  {
+    "id": 56,
+    "name": "Silencio retórico",
+    "category": "Siglo XX · figura final",
+    "teoria": "Omisión deliberada del discurso que comunica por ausencia; un silencio cargado de significado.",
+    "ejemplo": "En un debate, callar después de una acusación puede ser más elocuente que responder.",
+    "ejercicio": "Propón una situación donde el silencio sea una respuesta retórica poderosa.",
+    "suggestedAnswer": "Ante una mentira evidente, el silencio sostenido y la mirada fija pueden desmontarla sin palabras."
+  },
+  {
+    "id": 57,
+    "name": "Analogía",
+    "category": "Operaciones mentales",
+    "teoria": "Figura base del pensamiento retórico: establecer similitudes entre dominios diferentes.",
+    "ejemplo": "El cerebro es como un ordenador que procesa información.",
+    "ejercicio": "Crea una analogía entre 'educación' y 'jardinería'.",
+    "suggestedAnswer": "La educación es como la jardinería: requiere paciencia, abono (conocimiento) y riego constante."
+  },
+  {
+    "id": 58,
+    "name": "Inversión",
+    "category": "Operaciones mentales",
+    "teoria": "Dar la vuelta a un orden esperado (sintaxis, lógica o jerarquía) para producir extrañeza o énfasis.",
+    "ejemplo": "De pronto, del cielo, cayó una estrella.",
+    "ejercicio": "Invierte la frase 'El perro persigue al gato' cambiando el orden lógico de los sujetos.",
+    "suggestedAnswer": "Al gato persigue el perro."
+  },
+  {
+    "id": 59,
+    "name": "Omisión (Elipsis estratégica)",
+    "category": "Operaciones mentales",
+    "teoria": "Suprimir información que el receptor puede completar, creando participación y brevedad.",
+    "ejemplo": "A grandes males, (faltan) grandes remedios.",
+    "ejercicio": "Construye una oración con omisión del verbo principal.",
+    "suggestedAnswer": "Ella, el premio; él, la gloria."
+  },
+  {
+    "id": 60,
+    "name": "Exageración (amplificación)",
+    "category": "Operaciones mentales",
+    "teoria": "Aumentar desmesuradamente las cualidades de algo para causar impresión.",
+    "ejemplo": "Me muero de hambre.",
+    "ejercicio": "Exagera la belleza de una puesta de sol.",
+    "suggestedAnswer": "El sol se incendió y pintó el cielo con mil lenguas de fuego."
+  },
+  {
+    "id": 61,
+    "name": "Símil (comparación)",
+    "category": "Tropos",
+    "teoria": "Comparación explícita entre dos elementos usando 'como', 'cual' o 'parece'.",
+    "ejemplo": "Blanca como la nieve.",
+    "ejercicio": "Escribe un símil para la tristeza.",
+    "suggestedAnswer": "Triste como un tren que se aleja sin pasajeros."
+  },
+  {
+    "id": 62,
+    "name": "Prosopopeya (personificación)",
+    "category": "Figuras de pensamiento",
+    "teoria": "Atribuir cualidades humanas a animales, objetos o ideas abstractas.",
+    "ejemplo": "La noche vestía su manto de estrellas.",
+    "ejercicio": "Personifica la 'soledad'.",
+    "suggestedAnswer": "La soledad me susurra al oído canciones viejas."
+  },
+  {
+    "id": 63,
+    "name": "Sinécdoque temporal",
+    "category": "Tropos",
+    "teoria": "Tipo de sinécdoque que usa una parte temporal por el todo (ej. 'un siglo' por larga duración).",
+    "ejemplo": "Llevo años sin verte (aunque fueron meses).",
+    "ejercicio": "Usa 'siempre' en sentido sinécdoquico para una situación frecuente.",
+    "suggestedAnswer": "Siempre llegas tarde (cuando a menudo llega tarde)."
+  },
+  {
+    "id": 64,
+    "name": "Eufemismo",
+    "category": "Tropos",
+    "teoria": "Sustitución de una expresión malsonante o tabú por una más suave o ambigua.",
+    "ejemplo": "Pasar a mejor vida (por morir).",
+    "ejercicio": "Escribe un eufemismo para 'despedir a un empleado'.",
+    "suggestedAnswer": "Reestructurar el personal."
+  },
+  {
+    "id": 65,
+    "name": "Disonancia",
+    "category": "Figuras de sonido",
+    "teoria": "Combinación de sonidos ásperos o desagradables (cacofonía buscada).",
+    "ejemplo": "El crótalo craso crascita.",
+    "ejercicio": "Crea una disonancia intencionada con 'p' y 't'.",
+    "suggestedAnswer": "Trepando por tapias, topé con un títere tieso."
+  },
+  {
+    "id": 66,
+    "name": "Calambur",
+    "category": "Figuras de sonido",
+    "teoria": "Juego de palabras que reagrupa sílabas para crear doble sentido.",
+    "ejemplo": "Entre el clavel blanco y la rosa roja, su majestad escoja (escogía).",
+    "ejercicio": "Inventa un calambur simple.",
+    "suggestedAnswer": "A este paso, ¿paso o no paso?"
+  },
+  {
+    "id": 67,
+    "name": "Paronomasia",
+    "category": "Figuras de sonido",
+    "teoria": "Empleo de palabras de sonido parecido pero significado diferente.",
+    "ejemplo": "Por los altos tejados, tantos tejados de teja.",
+    "ejercicio": "Escribe una paronomasia con 'casa' y 'caza'.",
+    "suggestedAnswer": "Mi casa es mi caza diaria."
+  },
+  {
+    "id": 68,
+    "name": "Reduplicación",
+    "category": "Figuras de sonido",
+    "teoria": "Repetición inmediata de una palabra o sílaba.",
+    "ejemplo": "Ríe, ríe, que la vida es breve.",
+    "ejercicio": "Crea una reduplicación con 'bajo'.",
+    "suggestedAnswer": "Bajo, bajo, que el ruido no nos oiga."
+  },
+  {
+    "id": 69,
+    "name": "Derivación (Policapta)",
+    "category": "Figuras de sintaxis",
+    "teoria": "Repetición de palabras de la misma familia léxica.",
+    "ejemplo": "Temprano madrugó la madrugadora.",
+    "ejercicio": "Redacta una derivación con 'luz'.",
+    "suggestedAnswer": "La luz alumbra al lucero luminoso."
+  },
+  {
+    "id": 70,
+    "name": "Diástole",
+    "category": "Figuras de métrica",
+    "teoria": "Alargamiento artificial de una sílaba por razones rítmicas.",
+    "ejemplo": "Herido está mi corazón de amor.",
+    "ejercicio": "No aplicable en prosa breve, pero menciona un ejemplo poético.",
+    "suggestedAnswer": "En poesía: 'aún' se alarga para contar sílabas."
+  },
+  {
+    "id": 71,
+    "name": "Sinalefa forzada",
+    "category": "Figuras de métrica",
+    "teoria": "Unión de vocales que normalmente no formarían sinalefa para ajustar el verso.",
+    "ejemplo": "De augusta a augusta más armonía.",
+    "ejercicio": "Propón un verso con sinalefa entre 'a' y 'a'.",
+    "suggestedAnswer": "Caminaba a Antonia."
+  },
+  {
+    "id": 72,
+    "name": "Zeugma",
+    "category": "Figuras de sintaxis",
+    "teoria": "Elipsis de un verbo o palabra que se aplica a varios miembros de la oración.",
+    "ejemplo": "Unos lloraban, otros reían (se omite 'hacían').",
+    "ejercicio": "Escribe un zeugma con un solo verbo para dos sujetos.",
+    "suggestedAnswer": "Él estudia medicina; ella, derecho."
+  },
+  {
+    "id": 73,
+    "name": "Silepsis",
+    "category": "Figuras de sintaxis",
+    "teoria": "Concordancia gramatical que se hace por el sentido, no por la norma.",
+    "ejemplo": "La mayoría están de acuerdo (en lugar de 'está').",
+    "ejercicio": "Crea una silepsis numérica con 'el grupo'.",
+    "suggestedAnswer": "El grupo de personas se fueron contentas."
+  },
+  {
+    "id": 74,
+    "name": "Hendíadis",
+    "category": "Figuras de sintaxis",
+    "teoria": "Expresión de una idea mediante dos términos unidos por 'y', donde uno modifica al otro.",
+    "ejemplo": "Noche y lobreguez (por noche lobregueciente).",
+    "ejercicio": "Transforma 'larga espera' en hendíadis.",
+    "suggestedAnswer": "Espera y largura."
+  },
+  {
+    "id": 75,
+    "name": "Retruécano",
+    "category": "Figuras de pensamiento",
+    "teoria": "Repetición de una frase invirtiendo el orden de sus elementos (quiasmo semántico).",
+    "ejemplo": "No estudias para vivir, sino que vives para estudiar.",
+    "ejercicio": "Crea un retruécano con 'comer' y 'vivir'.",
+    "suggestedAnswer": "No comemos para vivir, vivimos para comer."
+  },
+  {
+    "id": 76,
+    "name": "Concatenación (Gradación)",
+    "category": "Figuras de pensamiento",
+    "teoria": "Serie donde la última palabra de un segmento es la primera del siguiente.",
+    "ejemplo": "Todo pasa, todo llega, llega la calma, la calma olvida.",
+    "ejercicio": "Escribe una concatenación de tres eslabones.",
+    "suggestedAnswer": "Corre el río, río que canta, canta la noche."
+  },
+  {
+    "id": 77,
+    "name": "Epanalepsis",
+    "category": "Figuras de sintaxis",
+    "teoria": "Repetir al final de una frase la misma palabra del principio.",
+    "ejemplo": "Verde que te quiero verde.",
+    "ejercicio": "Construye una epanalepsis con 'silencioso'.",
+    "suggestedAnswer": "Silencioso como el humo, el humo silencioso."
+  },
+  {
+    "id": 78,
+    "name": "Pleonasmo",
+    "category": "Figuras de sintaxis",
+    "teoria": "Empleo de palabras redundantes que refuerzan el significado.",
+    "ejemplo": "Lo vi con mis propios ojos.",
+    "ejercicio": "Escribe un pleonasmo intencionado.",
+    "suggestedAnswer": "Sube arriba y baja abajo."
+  },
+  {
+    "id": 79,
+    "name": "Enálage",
+    "category": "Figuras de sintaxis",
+    "teoria": "Cambio de una categoría gramatical por otra (ej. usar un adverbio como adjetivo).",
+    "ejemplo": "El ayer presente.",
+    "ejercicio": "Usa un sustantivo como adjetivo ('metal' por 'metálico').",
+    "suggestedAnswer": "Una mirada metal."
+  },
+  {
+    "id": 80,
+    "name": "Antonomasia",
+    "category": "Tropos",
+    "teoria": "Sustitución de un nombre propio por un epíteto o apelativo (o viceversa).",
+    "ejemplo": "El ruiseñor de Sevilla (por Bécquer).",
+    "ejercicio": "Llama a un amigo muy fuerte 'El Hércules'.",
+    "suggestedAnswer": "Ven aquí, Hércules, levanta esta mesa."
+  },
+  {
+    "id": 81,
+    "name": "Perífrasis conceptista",
+    "category": "Tradición castellana",
+    "teoria": "Rodeo de palabras propio del conceptismo, con doble sentido e ingenio.",
+    "ejemplo": "El que tiene el padre corchete, hijo fiel de la soguilla (por ahorcado).",
+    "ejercicio": "Inventa una perífrasis conceptista para 'mentiroso'.",
+    "suggestedAnswer": "Aquel que vende nubes en la feria del asfalto."
+  },
+  {
+    "id": 82,
+    "name": "Cultismo semántico (Góngora)",
+    "category": "Tradición castellana",
+    "teoria": "Uso de una palabra con su significado etimológico latino y no el actual.",
+    "ejemplo": "Suspender (por 'elevar' o 'sostener' en alto, no por 'detener').",
+    "ejercicio": "Usa 'revolver' con sentido etimológico (volver a girar).",
+    "suggestedAnswer": "La rueda revuelve su eje sin cesar."
+  },
+  {
+    "id": 83,
+    "name": "Lítote",
+    "category": "Figuras de pensamiento",
+    "teoria": "Atenuación por negación de lo contrario: afirmar negando lo opuesto.",
+    "ejemplo": "No está mal (por 'está bien').",
+    "ejercicio": "Usa lítote para decir que algo es muy bueno.",
+    "suggestedAnswer": "No es nada despreciable."
+  },
+  {
+    "id": 84,
+    "name": "Préterito imperfecto de cortesía",
+    "category": "Figuras pragmáticas",
+    "teoria": "Uso del pretérito imperfecto para atenuar peticiones o deseos.",
+    "ejemplo": "Quería pedirte un favor.",
+    "ejercicio": "Pide un favor de manera cortés usando este recurso.",
+    "suggestedAnswer": "Necesitaba que me prestaras tu coche."
+  },
+  {
+    "id": 85,
+    "name": "Hipocorístico retórico",
+    "category": "Figuras afectivas",
+    "teoria": "Uso de diminutivos o formas cariñosas para crear cercanía o ternura.",
+    "ejemplo": "Ven aquí, hijito.",
+    "ejercicio": "Añade un hipocorístico a un sustantivo abstracto.",
+    "suggestedAnswer": "El problemita se resolvió solito."
+  },
+  {
+    "id": 86,
+    "name": "Prosografía",
+    "category": "Figuras de pensamiento",
+    "teoria": "Descripción física de una persona o personaje.",
+    "ejemplo": "Era de mediana estatura, barba entrecanosa.",
+    "ejercicio": "Describe prosográficamente a un sabio.",
+    "suggestedAnswer": "Frente amplia, gafas de concha, dedos manchados de tinta."
+  },
+  {
+    "id": 87,
+    "name": "Etopeia",
+    "category": "Figuras de pensamiento",
+    "teoria": "Descripción de las cualidades morales o psicológicas de una persona.",
+    "ejemplo": "Valiente y generoso, siempre dispuesto a ayudar.",
+    "ejercicio": "Escribe una etopeia de un líder optimista.",
+    "suggestedAnswer": "De sonrisa fácil, nunca pierde la esperanza y contagia su fe."
+  },
+  {
+    "id": 88,
+    "name": "Sermocinatio (diálogo ficticio)",
+    "category": "Figuras dialógicas",
+    "teoria": "Atribuir palabras a un personaje ausente o inventado como si hablara.",
+    "ejemplo": "Imagina que digo: 'yo nunca fallaría'.",
+    "ejercicio": "Introduce un sermocinatio de un escéptico.",
+    "suggestedAnswer": "Y entonces el crítico dirá: 'todo esto no sirve de nada'."
+  },
+  {
+    "id": 89,
+    "name": "Chiasmus conceptual",
+    "category": "Figuras de pensamiento",
+    "teoria": "Cruce de conceptos abstractos en lugar de palabras (AB/BA semántico).",
+    "ejemplo": "El amor sin fe no es amor, la fe sin amor no es fe.",
+    "ejercicio": "Crea un quiasmo conceptual con 'poder' y 'saber'.",
+    "suggestedAnswer": "No basta saber para poder, hay que poder para saber."
+  },
+  {
+    "id": 90,
+    "name": "Analepsis (retrospección)",
+    "category": "Figuras narrativas",
+    "teoria": "Salto atrás en el tiempo del relato para contar algo anterior.",
+    "ejemplo": "Recordó aquella tarde de lluvia cuando todo comenzó.",
+    "ejercicio": "Escribe una analepsis en dos líneas.",
+    "suggestedAnswer": "Mientras caminaba, volvió a pensar en la noche que conoció a Lucía. Fue en un teatro vacío."
+  },
+  {
+    "id": 91,
+    "name": "Prolepsis (anticipación)",
+    "category": "Figuras narrativas",
+    "teoria": "Anuncio de un suceso futuro antes de que ocurra en el relato.",
+    "ejemplo": "Lo que sucedería después cambiaría su vida para siempre.",
+    "ejercicio": "Usa una prolepsis en una historia breve.",
+    "suggestedAnswer": "Aún no lo sabía, pero aquella carta sería su perdición."
+  },
+  {
+    "id": 92,
+    "name": "Metalepsis",
+    "category": "Figuras narrativas · metaficción",
+    "teoria": "Transgresión de los niveles narrativos (el narrador salta a la historia o viceversa).",
+    "ejemplo": "El héroe levantó la espada y yo, el autor, sentí miedo.",
+    "ejercicio": "Escribe una metalepsis sencilla.",
+    "suggestedAnswer": "El personaje cerró el libro y me dijo: '¿tú crees que existo?'."
+  },
+  {
+    "id": 93,
+    "name": "Écfrasis",
+    "category": "Figuras de pensamiento",
+    "teoria": "Descripción literaria de una obra de arte visual.",
+    "ejemplo": "Describir un cuadro de Velázquez con palabras.",
+    "ejercicio": "Describe brevemente una fotografía ficticia.",
+    "suggestedAnswer": "La foto mostraba un niño descalzo sobre el barro, el cielo gris, y una pelota rota a su lado."
+  },
+  {
+    "id": 94,
+    "name": "Anástrofe",
+    "category": "Figuras de sintaxis",
+    "teoria": "Inversión del orden habitual de dos palabras (tipo hipérbaton menor).",
+    "ejemplo": "De corazón sincero (en vez de 'sincero corazón').",
+    "ejercicio": "Escribe una anástrofe con 'tierra' y 'madre'.",
+    "suggestedAnswer": "De tierra madre."
+  },
+  {
+    "id": 95,
+    "name": "Hirmos",
+    "category": "Figuras de argumentación",
+    "teoria": "Flujo continuo de frases de igual longitud y estructura, sin pausas marcadas.",
+    "ejemplo": "Llegó, miró, venció y partió triunfante.",
+    "ejercicio": "Crea un hirmos con cuatro verbos breves.",
+    "suggestedAnswer": "Corrió, saltó, cayó, rió."
+  },
+  {
+    "id": 96,
+    "name": "Exclamación irónica",
+    "category": "Figuras dialógicas",
+    "teoria": "Exclamación que expresa ironía mediante un tono enfático.",
+    "ejemplo": "¡Qué inteligente! (cuando alguien comete un error tonto).",
+    "ejercicio": "Exclama irónicamente ante un retraso.",
+    "suggestedAnswer": "¡Qué puntualidad, no faltaba más!"
+  },
+  {
+    "id": 97,
+    "name": "Apódosis enfática",
+    "category": "Figuras sintácticas",
+    "teoria": "Anteponer la conclusión a la condición para darle fuerza.",
+    "ejemplo": "Cantaré, si tú me escuchas.",
+    "ejercicio": "Reescribe 'Si estudias, aprobarás' como apódosis enfática.",
+    "suggestedAnswer": "Aprobarás, si estudias."
+  },
+  {
+    "id": 98,
+    "name": "Suspensión (período)",
+    "category": "Figuras sintácticas",
+    "teoria": "Construcción sintáctica larga donde el sentido se completa al final.",
+    "ejemplo": "Aunque llueva, truene o nieve, yo iré.",
+    "ejercicio": "Escribe una oración con suspensión.",
+    "suggestedAnswer": "Después de tanto correr, saltar y esquivar obstáculos, llegó por fin."
+  },
+  {
+    "id": 99,
+    "name": "Bdelygmia (vituperio)",
+    "category": "Figuras de pensamiento",
+    "teoria": "Serie de invectivas o insultos contra alguien o algo.",
+    "ejemplo": "Traidor, mentiroso, cobarde, indigno.",
+    "ejercicio": "Escribe una bdelygmia breve contra la pereza.",
+    "suggestedAnswer": "Perezoso, indolente, parásito, eterno insatisfecho."
+  },
+  {
+    "id": 100,
+    "name": "Operación retórica fundamental: analogía",
+    "category": "Cierre teórico",
+    "teoria": "Base de todo pensamiento retórico: trasladar estructuras de un campo a otro para crear comprensión.",
+    "ejemplo": "Así como la espada es al guerrero, la pluma es al escritor.",
+    "ejercicio": "Crea una analogía que relacione 'retórica' con 'arquitectura'.",
+    "suggestedAnswer": "La retórica es a las ideas lo que la arquitectura es a los espacios: orden, belleza y función."
+  }
+]

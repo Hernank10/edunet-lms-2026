@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "element": "bio",
+    "origin": "griego",
+    "meaning": "vida",
+    "examples": "biología, biografía, biopsia, biodiversidad",
+    "exercise": "Forma una palabra que signifique 'estudio de la vida' usando esta raíz.",
+    "self_evaluation": "¿Qué estudia la 'biología'? (Respuesta: la vida)"
+  },
+  {
+    "id": 2,
+    "element": "logos",
+    "origin": "griego",
+    "meaning": "estudio, palabra, razón",
+    "examples": "biología, psicología, logotipo, monólogo",
+    "exercise": "Crea una palabra que signifique 'estudio del alma o mente'.",
+    "self_evaluation": "¿Qué sufijo griego indica 'estudio o tratado'? (Respuesta: -logía)"
+  },
+  {
+    "id": 3,
+    "element": "graph",
+    "origin": "griego",
+    "meaning": "escribir, grabar",
+    "examples": "grafiti, autógrafo, geografía, fotografía",
+    "exercise": "Inventa una palabra que signifique 'escritura sobre la tierra'.",
+    "self_evaluation": "¿Qué significa 'autógrafo'? (Respuesta: escrito por uno mismo)"
+  },
+  {
+    "id": 4,
+    "element": "phone",
+    "origin": "griego",
+    "meaning": "sonido, voz",
+    "examples": "teléfono, micrófono, fonética, sinfonía",
+    "exercise": "Forma una palabra que signifique 'aparato que transmite sonidos a distancia'.",
+    "self_evaluation": "¿Qué raíz griega significa 'sonido'? (Respuesta: phone)"
+  },
+  {
+    "id": 5,
+    "element": "chron",
+    "origin": "griego",
+    "meaning": "tiempo",
+    "examples": "cronología, crónico, sincronía, cronómetro",
+    "exercise": "Crea una palabra que signifique 'medida del tiempo'.",
+    "self_evaluation": "¿Qué significa 'crónico'? (Respuesta: relacionado con el tiempo, de larga duración)"
+  },
+  {
+    "id": 6,
+    "element": "geo",
+    "origin": "griego",
+    "meaning": "tierra",
+    "examples": "geografía, geología, geometría, geotermia",
+    "exercise": "Forma una palabra que signifique 'ciencia que estudia la Tierra'.",
+    "self_evaluation": "¿Qué estudia la 'geología'? (Respuesta: la composición y estructura de la Tierra)"
+  },
+  {
+    "id": 7,
+    "element": "aqua",
+    "origin": "latín",
+    "meaning": "agua",
+    "examples": "acuario, acuático, acueducto, acuífero",
+    "exercise": "Inventa una palabra que signifique 'cultivo en agua' (como plantas).",
+    "self_evaluation": "¿Qué significa 'acuífero'? (Respuesta: capa subterránea que contiene agua)"
+  },
+  {
+    "id": 8,
+    "element": "terra",
+    "origin": "latín",
+    "meaning": "tierra",
+    "examples": "terrestre, territorio, terraza, subterráneo",
+    "exercise": "Forma una palabra que signifique 'debajo de la tierra'.",
+    "self_evaluation": "¿Qué significa 'territorio'? (Respuesta: porción de tierra bajo una jurisdicción)"
+  },
+  {
+    "id": 9,
+    "element": "mare",
+    "origin": "latín",
+    "meaning": "mar",
+    "examples": "marítimo, marinero, submarino, maremoto",
+    "exercise": "Crea una palabra que signifique 'bajo el mar'.",
+    "self_evaluation": "¿Qué significa 'maremoto'? (Respuesta: ola gigante causada por un movimiento en el mar)"
+  },
+  {
+    "id": 10,
+    "element": "astr",
+    "origin": "griego",
+    "meaning": "astro, estrella",
+    "examples": "astronomía, asteroide, astronauta, astrología",
+    "exercise": "Forma una palabra que signifique 'estudio de los astros'.",
+    "self_evaluation": "¿Qué diferencia hay entre 'astronomía' y 'astrología'? (Respuesta: astronomía es ciencia; astrología es pseudociencia)"
+  },
+  {
+    "id": 11,
+    "element": "anthrop",
+    "origin": "griego",
+    "meaning": "ser humano",
+    "examples": "antropología, antropomorfo, misantropía, filantropía",
+    "exercise": "Crea una palabra que signifique 'amor al ser humano'.",
+    "self_evaluation": "¿Qué significa 'filantropía'? (Respuesta: amor a la humanidad, ayuda desinteresada)"
+  },
+  {
+    "id": 12,
+    "element": "path",
+    "origin": "griego",
+    "meaning": "sentimiento, enfermedad",
+    "examples": "patología, empatía, simpatía, apatía",
+    "exercise": "Forma una palabra que signifique 'estudio de las enfermedades'.",
+    "self_evaluation": "¿Qué significa 'empatía'? (Respuesta: capacidad de ponerse en el lugar del otro)"
+  },
+  {
+    "id": 13,
+    "element": "phil",
+    "origin": "griego",
+    "meaning": "amor, amigo",
+    "examples": "filósofo (amor a la sabiduría), bibliófilo, filantropía, hidrófilo",
+    "exercise": "Inventa una palabra que signifique 'amor a los libros'.",
+    "self_evaluation": "¿Qué significa 'bibliófilo'? (Respuesta: amante de los libros)"
+  },
+  {
+    "id": 14,
+    "element": "phob",
+    "origin": "griego",
+    "meaning": "miedo",
+    "examples": "fobia, claustrofobia, agorafobia, hidrofobia",
+    "exercise": "Forma una palabra que signifique 'miedo a los espacios cerrados'.",
+    "self_evaluation": "¿Qué significa 'agorafobia'? (Respuesta: miedo a los espacios abiertos o multitudes)"
+  },
+  {
+    "id": 15,
+    "element": "theos",
+    "origin": "griego",
+    "meaning": "dios",
+    "examples": "teología, ateo, monoteísmo, politeísmo",
+    "exercise": "Crea una palabra que signifique 'estudio de Dios o de los dioses'.",
+    "self_evaluation": "¿Qué significa 'ateo'? (Respuesta: persona que no cree en dioses)"
+  },
+  {
+    "id": 16,
+    "element": "demos",
+    "origin": "griego",
+    "meaning": "pueblo",
+    "examples": "democracia, demografía, epidemia, endemia",
+    "exercise": "Forma una palabra que signifique 'gobierno del pueblo'.",
+    "self_evaluation": "¿Qué estudia la 'demografía'? (Respuesta: las poblaciones humanas)"
+  },
+  {
+    "id": 17,
+    "element": "cracy",
+    "origin": "griego",
+    "meaning": "gobierno, poder",
+    "examples": "democracia, aristocracia, plutocracia, meritocracia",
+    "exercise": "Crea una palabra que signifique 'gobierno de los pocos' (los mejores).",
+    "self_evaluation": "¿Qué significa 'plutocracia'? (Respuesta: gobierno de los ricos)"
+  },
+  {
+    "id": 18,
+    "element": "arch",
+    "origin": "griego",
+    "meaning": "primero, jefe, gobernar",
+    "examples": "arquitecto, monarquía, arzobispo, anarquía",
+    "exercise": "Forma una palabra que signifique 'sin gobierno'.",
+    "self_evaluation": "¿Qué significa 'monarquía'? (Respuesta: gobierno de uno solo)"
+  },
+  {
+    "id": 19,
+    "element": "gen",
+    "origin": "griego/latín",
+    "meaning": "nacer, origen, raza",
+    "examples": "génesis, genética, indígena, generoso",
+    "exercise": "Inventa una palabra que signifique 'que nace dentro' (autóctono).",
+    "self_evaluation": "¿Qué significa 'indígena'? (Respuesta: originario del lugar)"
+  },
+  {
+    "id": 20,
+    "element": "dict",
+    "origin": "latín",
+    "meaning": "decir, hablar",
+    "examples": "dictador, diccionario, predecir, bendecir",
+    "exercise": "Forma una palabra que signifique 'lo que se dice antes' (pronóstico).",
+    "self_evaluation": "¿Qué significa 'dictamen'? (Respuesta: opinión o juicio emitido)"
+  },
+  {
+    "id": 21,
+    "element": "scrib/script",
+    "origin": "latín",
+    "meaning": "escribir",
+    "examples": "escribir, manuscrito, inscripción, descripción",
+    "exercise": "Crea una palabra que signifique 'escrito a mano'.",
+    "self_evaluation": "¿Qué es un 'manuscrito'? (Respuesta: documento escrito a mano)"
+  },
+  {
+    "id": 22,
+    "element": "spec",
+    "origin": "latín",
+    "meaning": "mirar, observar",
+    "examples": "espectáculo, especular, inspeccionar, retrospectiva",
+    "exercise": "Forma una palabra que signifique 'mirar hacia atrás' (revisión del pasado).",
+    "self_evaluation": "¿Qué significa 'inspeccionar'? (Respuesta: examinar cuidadosamente)"
+  },
+  {
+    "id": 23,
+    "element": "aud",
+    "origin": "latín",
+    "meaning": "oír",
+    "examples": "auditorio, audio, audífono, audiencia",
+    "exercise": "Inventa una palabra que signifique 'aparato para oír mejor'.",
+    "self_evaluation": "¿Qué es un 'auditorio'? (Respuesta: lugar para escuchar conferencias o conciertos)"
+  },
+  {
+    "id": 24,
+    "element": "vid/vis",
+    "origin": "latín",
+    "meaning": "ver",
+    "examples": "vídeo, evidencia, visión, televisión, visible",
+    "exercise": "Forma una palabra que signifique 'ver a través de' (aparato médico).",
+    "self_evaluation": "¿Qué significa 'evidencia'? (Respuesta: algo que se ve claramente, prueba)"
+  },
+  {
+    "id": 25,
+    "element": "ped",
+    "origin": "latín",
+    "meaning": "pie",
+    "examples": "pedal, pedestre, bípedo, cuadrúpedo",
+    "exercise": "Crea una palabra que signifique 'que camina con dos pies'.",
+    "self_evaluation": "¿Qué significa 'pedestre'? (Respuesta: relativo al caminar o al peatón)"
+  },
+  {
+    "id": 26,
+    "element": "man",
+    "origin": "latín",
+    "meaning": "mano",
+    "examples": "manual, manufactura, manicura, manuscrito",
+    "exercise": "Forma una palabra que signifique 'hecho a mano'.",
+    "self_evaluation": "¿Qué es una 'manicura'? (Respuesta: cuidado de las manos y uñas)"
+  },
+  {
+    "id": 27,
+    "element": "cap",
+    "origin": "latín",
+    "meaning": "cabeza",
+    "examples": "capital, capitán, capítulo, cápsula",
+    "exercise": "Inventa una palabra que signifique 'principal, lo más importante' (relacionado con cabeza).",
+    "self_evaluation": "¿Qué significa 'capital'? (Respuesta: cabeza principal, ciudad principal o dinero principal)"
+  },
+  {
+    "id": 28,
+    "element": "corp",
+    "origin": "latín",
+    "meaning": "cuerpo",
+    "examples": "corporal, corpulento, incorporar, cadáver",
+    "exercise": "Forma una palabra que signifique 'unir en un solo cuerpo'.",
+    "self_evaluation": "¿Qué significa 'corporación'? (Respuesta: entidad legal formada por un cuerpo de personas)"
+  },
+  {
+    "id": 29,
+    "element": "mort",
+    "origin": "latín",
+    "meaning": "muerte",
+    "examples": "mortal, inmortal, mortífero, mortaja",
+    "exercise": "Crea una palabra que signifique 'que no muere'.",
+    "self_evaluation": "¿Qué significa 'mortífero'? (Respuesta: que causa muerte)"
+  },
+  {
+    "id": 30,
+    "element": "viv",
+    "origin": "latín",
+    "meaning": "vivir",
+    "examples": "vivo, vívido, sobrevivir, vivaz",
+    "exercise": "Forma una palabra que signifique 'vivir más allá de' (seguir con vida después).",
+    "self_evaluation": "¿Qué significa 'vívido'? (Respuesta: intenso, lleno de vida)"
+  },
+  {
+    "id": 31,
+    "element": "ann",
+    "origin": "latín",
+    "meaning": "año",
+    "examples": "anual, aniversario, perenne (por per-annus), anualidad",
+    "exercise": "Inventa una palabra que signifique 'que sucede cada año'.",
+    "self_evaluation": "¿Qué es un 'aniversario'? (Respuesta: celebración anual de un suceso)"
+  },
+  {
+    "id": 32,
+    "element": "cent",
+    "origin": "latín",
+    "meaning": "cien",
+    "examples": "centímetro, porcentaje, centenario, siglo (de centum)",
+    "exercise": "Crea una palabra que signifique 'que tiene cien años'.",
+    "self_evaluation": "¿Cuántos centímetros tiene un metro? (Respuesta: 100)"
+  },
+  {
+    "id": 33,
+    "element": "mill",
+    "origin": "latín",
+    "meaning": "mil",
+    "examples": "milímetro, millón, milenio, millar",
+    "exercise": "Forma una palabra que signifique 'medida de mil metros'.",
+    "self_evaluation": "¿Cuántos mililitros tiene un litro? (Respuesta: 1000)"
+  },
+  {
+    "id": 34,
+    "element": "magn",
+    "origin": "latín",
+    "meaning": "grande",
+    "examples": "magnífico, magnitud, magnate, magnánimo",
+    "exercise": "Inventa una palabra que signifique 'alma grande' (generoso).",
+    "self_evaluation": "¿Qué significa 'magnánimo'? (Respuesta: de gran espíritu, generoso)"
+  },
+  {
+    "id": 35,
+    "element": "parv",
+    "origin": "latín",
+    "meaning": "pequeño",
+    "examples": "párvulo, parvidad, parvovirus",
+    "exercise": "Crea una palabra que signifique 'niño pequeño'.",
+    "self_evaluation": "¿Qué significa 'párvulo'? (Respuesta: niño pequeño)"
+  },
+  {
+    "id": 36,
+    "element": "prim",
+    "origin": "latín",
+    "meaning": "primero",
+    "examples": "primer, primario, primitivo, primordial",
+    "exercise": "Forma una palabra que signifique 'lo primero y más importante'.",
+    "self_evaluation": "¿Qué significa 'primordial'? (Respuesta: de primer orden, fundamental)"
+  },
+  {
+    "id": 37,
+    "element": "post",
+    "origin": "latín",
+    "meaning": "después",
+    "examples": "posterior, posponer, posdata, postguerra",
+    "exercise": "Crea una palabra que signifique 'después de la guerra'.",
+    "self_evaluation": "¿Qué significa 'posdata'? (Respuesta: después de lo escrito)"
+  },
+  {
+    "id": 38,
+    "element": "pre",
+    "origin": "latín",
+    "meaning": "antes",
+    "examples": "prever, prefijo, prehistoria, predecir",
+    "exercise": "Inventa una palabra que signifique 'ver antes'.",
+    "self_evaluation": "¿Qué significa 'prehistoria'? (Respuesta: periodo anterior a la historia escrita)"
+  },
+  {
+    "id": 39,
+    "element": "sub",
+    "origin": "latín",
+    "meaning": "debajo",
+    "examples": "submarino, subterráneo, subir (hacia arriba? cuidado, sub- = bajo, pero subir viene de sub+ire), sustituto, subrayar",
+    "exercise": "Forma una palabra que signifique 'debajo de la tierra'.",
+    "self_evaluation": "¿Qué significa 'submarino'? (Respuesta: bajo el mar)"
+  },
+  {
+    "id": 40,
+    "element": "super",
+    "origin": "latín",
+    "meaning": "sobre, por encima",
+    "examples": "supermercado, superhéroe, superficial, superfluo",
+    "exercise": "Crea una palabra que signifique 'que está sobre la superficie'.",
+    "self_evaluation": "¿Qué significa 'superfluo'? (Respuesta: que sobra, por encima de lo necesario)"
+  },
+  {
+    "id": 41,
+    "element": "trans",
+    "origin": "latín",
+    "meaning": "a través de, más allá",
+    "examples": "transporte, transatlántico, transparente, transformar",
+    "exercise": "Inventa una palabra que signifique 'llevar a través de'.",
+    "self_evaluation": "¿Qué significa 'transparente'? (Respuesta: que se deja ver a través)"
+  },
+  {
+    "id": 42,
+    "element": "anti",
+    "origin": "griego",
+    "meaning": "contra",
+    "examples": "antibiótico, anticuerpo, antisocial, antídoto",
+    "exercise": "Forma una palabra que signifique 'contra los virus'.",
+    "self_evaluation": "¿Qué es un 'antídoto'? (Respuesta: sustancia que combate un veneno)"
+  },
+  {
+    "id": 43,
+    "element": "pro",
+    "origin": "latín/griego",
+    "meaning": "a favor, hacia adelante",
+    "examples": "progreso, promover, proactivo, pronombre",
+    "exercise": "Crea una palabra que signifique 'ir hacia adelante'.",
+    "self_evaluation": "¿Qué significa 'progreso'? (Respuesta: avance hacia adelante)"
+  },
+  {
+    "id": 44,
+    "element": "syn (sin-)",
+    "origin": "griego",
+    "meaning": "con, junto",
+    "examples": "síntesis, sinfonía, sincronía, sinónimo",
+    "exercise": "Forma una palabra que signifique 'sonido junto' (música).",
+    "self_evaluation": "¿Qué significa 'sinónimo'? (Respuesta: palabra con mismo significado que otra)"
+  },
+  {
+    "id": 45,
+    "element": "dia",
+    "origin": "griego",
+    "meaning": "a través de, entre",
+    "examples": "diálogo, diagonal, diagrama, diámetro",
+    "exercise": "Inventa una palabra que signifique 'medida a través del círculo'.",
+    "self_evaluation": "¿Qué es un 'diagrama'? (Respuesta: dibujo que muestra información a través de líneas)"
+  },
+  {
+    "id": 46,
+    "element": "meta",
+    "origin": "griego",
+    "meaning": "más allá, cambio",
+    "examples": "metamorfosis, metáfora, metafísica, metabolismo",
+    "exercise": "Crea una palabra que signifique 'cambio de forma'.",
+    "self_evaluation": "¿Qué significa 'metáfora'? (Respuesta: traslación de significado más allá del sentido literal)"
+  },
+  {
+    "id": 47,
+    "element": "para",
+    "origin": "griego",
+    "meaning": "junto a, al lado",
+    "examples": "paralelo, parámetro, paraguas (junto al agua), párrafo",
+    "exercise": "Forma una palabra que signifique 'líneas que van juntas sin tocarse'.",
+    "self_evaluation": "¿Qué significa 'parámetro'? (Respuesta: medida junto a, variable de referencia)"
+  },
+  {
+    "id": 48,
+    "element": "peri",
+    "origin": "griego",
+    "meaning": "alrededor de",
+    "examples": "perímetro, pericardio, periscopio, período",
+    "exercise": "Inventa una palabra que signifique 'medida alrededor'.",
+    "self_evaluation": "¿Qué es el 'perímetro'? (Respuesta: contorno, medida alrededor de una figura)"
+  },
+  {
+    "id": 49,
+    "element": "ana",
+    "origin": "griego",
+    "meaning": "hacia arriba, de nuevo",
+    "examples": "análisis, anabólico, anatema, anacronismo",
+    "exercise": "Forma una palabra que signifique 'descomposición hacia arriba' (estudio detallado).",
+    "self_evaluation": "¿Qué significa 'anacronismo'? (Respuesta: algo fuera de su tiempo, hacia atrás)"
+  },
+  {
+    "id": 50,
+    "element": "cata",
+    "origin": "griego",
+    "meaning": "hacia abajo, contra",
+    "examples": "catástrofe, catálogo, catarata, catálisis",
+    "exercise": "Crea una palabra que signifique 'caída violenta hacia abajo'.",
+    "self_evaluation": "¿Qué es una 'catástrofe'? (Respuesta: suceso desastroso que viene hacia abajo)"
+  },
+  {
+    "id": 51,
+    "element": "hyper",
+    "origin": "griego",
+    "meaning": "sobre, exceso",
+    "examples": "hiperactivo, hipermercado, hipertensión, hipérbole",
+    "exercise": "Forma una palabra que signifique 'exceso de tensión arterial'.",
+    "self_evaluation": "¿Qué significa 'hipérbole'? (Respuesta: exageración retórica)"
+  },
+  {
+    "id": 52,
+    "element": "hypo",
+    "origin": "griego",
+    "meaning": "debajo, insuficiencia",
+    "examples": "hipotensión, hipodérmico, hipótesis, hipocampo",
+    "exercise": "Inventa una palabra que signifique 'debajo de la piel' (inyección).",
+    "self_evaluation": "¿Qué significa 'hipotensión'? (Respuesta: presión arterial baja)"
+  },
+  {
+    "id": 53,
+    "element": "eu",
+    "origin": "griego",
+    "meaning": "bueno, bien",
+    "examples": "eutanasia, eucalipto, eufonía, euforia",
+    "exercise": "Crea una palabra que signifique 'buena muerte' (muerte digna).",
+    "self_evaluation": "¿Qué significa 'euforia'? (Respuesta: sensación de bienestar)"
+  },
+  {
+    "id": 54,
+    "element": "dys",
+    "origin": "griego",
+    "meaning": "mal, difícil",
+    "examples": "dislexia, disfunción, distopía, dispepsia",
+    "exercise": "Forma una palabra que signifique 'dificultad para leer'.",
+    "self_evaluation": "¿Qué significa 'distopía'? (Respuesta: sociedad ficticia negativa o mala)"
+  },
+  {
+    "id": 55,
+    "element": "mono",
+    "origin": "griego",
+    "meaning": "uno, solo",
+    "examples": "monólogo, monóculo, monoplaza, monotonía",
+    "exercise": "Inventa una palabra que signifique 'un solo sonido' (tono único).",
+    "self_evaluation": "¿Qué significa 'monólogo'? (Respuesta: habla de una sola persona)"
+  },
+  {
+    "id": 56,
+    "element": "bi",
+    "origin": "latín/griego",
+    "meaning": "dos",
+    "examples": "bíceps, bilingüe, bicicleta, binario",
+    "exercise": "Forma una palabra que signifique 'dos idiomas'.",
+    "self_evaluation": "¿Qué significa 'bicicleta'? (Respuesta: vehículo de dos ruedas)"
+  },
+  {
+    "id": 57,
+    "element": "tri",
+    "origin": "griego/latín",
+    "meaning": "tres",
+    "examples": "tríada, tridente, trípode, trilingüe",
+    "exercise": "Crea una palabra que signifique 'tres dientes' (arma).",
+    "self_evaluation": "¿Qué es un 'trípode'? (Respuesta: soporte de tres patas)"
+  },
+  {
+    "id": 58,
+    "element": "quadr (quadru-)",
+    "origin": "latín",
+    "meaning": "cuatro",
+    "examples": "cuadrilátero, cuadrúpedo, cuadrante, cuatrimestre",
+    "exercise": "Inventa una palabra que signifique 'cuatro patas'.",
+    "self_evaluation": "¿Qué significa 'cuadrilátero'? (Respuesta: figura de cuatro lados)"
+  },
+  {
+    "id": 59,
+    "element": "penta",
+    "origin": "griego",
+    "meaning": "cinco",
+    "examples": "pentágono, pentatlón, pentagrama, pentecostés",
+    "exercise": "Forma una palabra que signifique 'cinco ángulos' (figura).",
+    "self_evaluation": "¿Qué es un 'pentagrama'? (Respuesta: cinco líneas para la música)"
+  },
+  {
+    "id": 60,
+    "element": "hexa",
+    "origin": "griego",
+    "meaning": "seis",
+    "examples": "hexágono, hexaedro, hexámetro, hexápodo",
+    "exercise": "Crea una palabra que signifique 'seis patas' (insecto).",
+    "self_evaluation": "¿Qué significa 'hexágono'? (Respuesta: figura de seis lados)"
+  },
+  {
+    "id": 61,
+    "element": "hept (sept-)",
+    "origin": "griego (hepta) / latín (septem)",
+    "meaning": "siete",
+    "examples": "heptágono, septiembre (séptimo mes romano), septenario",
+    "exercise": "Inventa una palabra que signifique 'siete ángulos'.",
+    "self_evaluation": "¿Qué mes era originalmente 'septiembre'? (Respuesta: el séptimo mes en el calendario romano)"
+  },
+  {
+    "id": 62,
+    "element": "octo",
+    "origin": "griego/latín",
+    "meaning": "ocho",
+    "examples": "octágono, octópodo, octubre, octava",
+    "exercise": "Forma una palabra que signifique 'ocho patas' (pulpo).",
+    "self_evaluation": "¿Qué significa 'octava'? (Respuesta: conjunto de ocho)"
+  },
+  {
+    "id": 63,
+    "element": "deca",
+    "origin": "griego",
+    "meaning": "diez",
+    "examples": "decágono, decatlón, decena, decálogo",
+    "exercise": "Crea una palabra que signifique 'diez mandamientos'.",
+    "self_evaluation": "¿Qué es un 'decatlón'? (Respuesta: competencia de diez pruebas)"
+  },
+  {
+    "id": 64,
+    "element": "cent",
+    "origin": "latín",
+    "meaning": "cien",
+    "examples": "centímetro, centenario, centavo, centuria",
+    "exercise": "Inventa una palabra que signifique 'cien años'.",
+    "self_evaluation": "¿Qué es un 'centenario'? (Respuesta: período de cien años o celebración)"
+  },
+  {
+    "id": 65,
+    "element": "milli",
+    "origin": "latín",
+    "meaning": "mil",
+    "examples": "milenio, milímetro, millón (aumentativo), milenarismo",
+    "exercise": "Forma una palabra que signifique 'mil años'.",
+    "self_evaluation": "¿Qué es un 'milenio'? (Respuesta: período de mil años)"
+  },
+  {
+    "id": 66,
+    "element": "poly",
+    "origin": "griego",
+    "meaning": "muchos",
+    "examples": "polígono, poliglota, polisémico, politeísta",
+    "exercise": "Crea una palabra que signifique 'muchos dioses'.",
+    "self_evaluation": "¿Qué significa 'poliglota'? (Respuesta: persona que habla muchos idiomas)"
+  },
+  {
+    "id": 67,
+    "element": "olig",
+    "origin": "griego",
+    "meaning": "pocos",
+    "examples": "oligarquía, oligopolio, oligoelemento, oligofrenia",
+    "exercise": "Inventa una palabra que signifique 'gobierno de pocos'.",
+    "self_evaluation": "¿Qué es un 'oligopolio'? (Respuesta: mercado dominado por pocos vendedores)"
+  },
+  {
+    "id": 68,
+    "element": "pan",
+    "origin": "griego",
+    "meaning": "todo",
+    "examples": "panorama, pandemia, panteón, panacea",
+    "exercise": "Forma una palabra que signifique 'epidemia que afecta a todo'.",
+    "self_evaluation": "¿Qué es una 'panacea'? (Respuesta: remedio para todos los males)"
+  },
+  {
+    "id": 69,
+    "element": "omni",
+    "origin": "latín",
+    "meaning": "todo",
+    "examples": "omnipotente, omnisciente, omnívoro, omnipresente",
+    "exercise": "Crea una palabra que signifique 'que come de todo'.",
+    "self_evaluation": "¿Qué significa 'omnisciente'? (Respuesta: que todo lo sabe)"
+  },
+  {
+    "id": 70,
+    "element": "homo",
+    "origin": "griego",
+    "meaning": "igual, mismo",
+    "examples": "homónimo, homogéneo, homófono, homosexual",
+    "exercise": "Inventa una palabra que signifique 'mismo sonido'.",
+    "self_evaluation": "¿Qué significa 'homogéneo'? (Respuesta: de igual naturaleza)"
+  },
+  {
+    "id": 71,
+    "element": "hetero",
+    "origin": "griego",
+    "meaning": "diferente, otro",
+    "examples": "heterogéneo, heterosexual, heterodoxo, heterónimo",
+    "exercise": "Forma una palabra que signifique 'diferente en naturaleza'.",
+    "self_evaluation": "¿Qué significa 'heterodoxo'? (Respuesta: contrario a la doctrina establecida)"
+  },
+  {
+    "id": 72,
+    "element": "auto",
+    "origin": "griego",
+    "meaning": "uno mismo, por sí",
+    "examples": "autobiografía, automóvil, autónomo, autodidacta",
+    "exercise": "Crea una palabra que signifique 'escritura de la propia vida'.",
+    "self_evaluation": "¿Qué es un 'automóvil'? (Respuesta: vehículo que se mueve por sí mismo)"
+  },
+  {
+    "id": 73,
+    "element": "allo",
+    "origin": "griego",
+    "meaning": "otro, diferente",
+    "examples": "alotropía, alófono, alomorfia, alógeno",
+    "exercise": "Inventa una palabra que signifique 'sonido diferente' (variante fonética).",
+    "self_evaluation": "¿Qué significa 'alógeno'? (Respuesta: originario de otro lugar)"
+  },
+  {
+    "id": 74,
+    "element": "pseudo",
+    "origin": "griego",
+    "meaning": "falso",
+    "examples": "pseudónimo, pseudociencia, pseudópodo, pseudoartrosis",
+    "exercise": "Forma una palabra que signifique 'nombre falso'.",
+    "self_evaluation": "¿Qué es un 'pseudónimo'? (Respuesta: nombre falso usado por un autor)"
+  },
+  {
+    "id": 75,
+    "element": "neo",
+    "origin": "griego",
+    "meaning": "nuevo",
+    "examples": "neologismo, neón, neoclásico, neófito",
+    "exercise": "Crea una palabra que signifique 'nueva palabra'.",
+    "self_evaluation": "¿Qué significa 'neófito'? (Respuesta: principiante, nuevo en algo)"
+  },
+  {
+    "id": 76,
+    "element": "paleo",
+    "origin": "griego",
+    "meaning": "antiguo",
+    "examples": "paleontología, paleolítico, paleografía, paleocristiano",
+    "exercise": "Inventa una palabra que signifique 'estudio de los seres antiguos' (fósiles).",
+    "self_evaluation": "¿Qué estudia la 'paleontología'? (Respuesta: los seres vivos del pasado)"
+  },
+  {
+    "id": 77,
+    "element": "proto",
+    "origin": "griego",
+    "meaning": "primero, original",
+    "examples": "prototipo, protomártir, protohistoria, protozoo",
+    "exercise": "Forma una palabra que signifique 'primer tipo o modelo'.",
+    "self_evaluation": "¿Qué es un 'prototipo'? (Respuesta: primer modelo o ejemplar original)"
+  },
+  {
+    "id": 78,
+    "element": "deutero",
+    "origin": "griego",
+    "meaning": "segundo",
+    "examples": "Deuteronomio, deuteronomista, deuterocanónico",
+    "exercise": "Crea una palabra que signifique 'segundo libro de la ley' (bíblico).",
+    "self_evaluation": "¿Qué significa 'deuterocanónico'? (Respuesta: del segundo canon)"
+  },
+  {
+    "id": 79,
+    "element": "trito",
+    "origin": "griego",
+    "meaning": "tercero",
+    "examples": "tritonomio (raro), tritón (tercer dios marino), tritio (isótopo)",
+    "exercise": "Busca una palabra con 'trito' (investigación).",
+    "self_evaluation": "¿Qué es el 'tritio'? (Respuesta: isótopo del hidrógeno con un protón y dos neutrones)"
+  },
+  {
+    "id": 80,
+    "element": "hemi",
+    "origin": "griego",
+    "meaning": "medio, mitad",
+    "examples": "hemisferio, hemistiquio, hemiplejia, hemiciclo",
+    "exercise": "Inventa una palabra que signifique 'mitad de una esfera'.",
+    "self_evaluation": "¿Qué es un 'hemisferio'? (Respuesta: mitad de la Tierra o de una esfera)"
+  },
+  {
+    "id": 81,
+    "element": "semi",
+    "origin": "latín",
+    "meaning": "medio, mitad",
+    "examples": "semicírculo, semidiós, semanal, semitono",
+    "exercise": "Forma una palabra que signifique 'mitad de un círculo'.",
+    "self_evaluation": "¿Qué significa 'semidiós'? (Respuesta: ser mitad dios, mitad humano)"
+  },
+  {
+    "id": 82,
+    "element": "equi",
+    "origin": "latín",
+    "meaning": "igual",
+    "examples": "equilibrio, equidistante, equivalente, ecuánime",
+    "exercise": "Crea una palabra que signifique 'igual distancia'.",
+    "self_evaluation": "¿Qué significa 'ecuánime'? (Respuesta: de ánimo igual, justo)"
+  },
+  {
+    "id": 83,
+    "element": "multi",
+    "origin": "latín",
+    "meaning": "muchos",
+    "examples": "multicolor, multifuncional, multitud, multiplicar",
+    "exercise": "Inventa una palabra que signifique 'muchos colores'.",
+    "self_evaluation": "¿Qué significa 'multitud'? (Respuesta: gran cantidad de personas)"
+  },
+  {
+    "id": 84,
+    "element": "uni",
+    "origin": "latín",
+    "meaning": "uno",
+    "examples": "unívoco, unifamiliar, unificar, unicelular",
+    "exercise": "Forma una palabra que signifique 'una sola célula'.",
+    "self_evaluation": "¿Qué significa 'unívoco'? (Respuesta: que tiene un solo significado)"
+  },
+  {
+    "id": 85,
+    "element": "sol",
+    "origin": "latín",
+    "meaning": "solo, único",
+    "examples": "solo, soledad, solitario, soliloquio",
+    "exercise": "Crea una palabra que signifique 'hablar solo'.",
+    "self_evaluation": "¿Qué es un 'soliloquio'? (Respuesta: discurso que uno se dirige a sí mismo)"
+  },
+  {
+    "id": 86,
+    "element": "du",
+    "origin": "latín",
+    "meaning": "dos",
+    "examples": "dúo, duplicar, dualidad, duelo (de duo)",
+    "exercise": "Inventa una palabra que signifique 'que consta de dos partes'.",
+    "self_evaluation": "¿Qué significa 'duplicar'? (Respuesta: hacer dos veces algo)"
+  },
+  {
+    "id": 87,
+    "element": "ambi",
+    "origin": "latín",
+    "meaning": "ambos, alrededor",
+    "examples": "ambidiestro, ambiguo, ambiente, ambivalente",
+    "exercise": "Forma una palabra que signifique 'ambas manos hábiles'.",
+    "self_evaluation": "¿Qué significa 'ambiguo'? (Respuesta: que puede entenderse de dos maneras)"
+  },
+  {
+    "id": 88,
+    "element": "circum",
+    "origin": "latín",
+    "meaning": "alrededor",
+    "examples": "circunferencia, circunnavegar, circunspecto, circunstancia",
+    "exercise": "Crea una palabra que signifique 'navegar alrededor del mundo'.",
+    "self_evaluation": "¿Qué es la 'circunferencia'? (Respuesta: línea curva alrededor del centro)"
+  },
+  {
+    "id": 89,
+    "element": "contra",
+    "origin": "latín",
+    "meaning": "contra",
+    "examples": "contraargumento, contradecir, contrapunto, contrapeso",
+    "exercise": "Inventa una palabra que signifique 'decir en contra'.",
+    "self_evaluation": "¿Qué significa 'contradecir'? (Respuesta: decir lo contrario)"
+  },
+  {
+    "id": 90,
+    "element": "inter",
+    "origin": "latín",
+    "meaning": "entre",
+    "examples": "internacional, intermedio, intercalar, interrumpir",
+    "exercise": "Forma una palabra que signifique 'entre naciones'.",
+    "self_evaluation": "¿Qué significa 'intermedio'? (Respuesta: que está entre medio)"
+  },
+  {
+    "id": 91,
+    "element": "intra",
+    "origin": "latín",
+    "meaning": "dentro de",
+    "examples": "intramuros, intrapersonal, intravenoso, intrauterino",
+    "exercise": "Crea una palabra que signifique 'dentro de las venas'.",
+    "self_evaluation": "¿Qué es una 'inyección intravenosa'? (Respuesta: dentro de la vena)"
+  },
+  {
+    "id": 92,
+    "element": "extra",
+    "origin": "latín",
+    "meaning": "fuera de",
+    "examples": "extraordinario, extraterrestre, extranjero, extraoficial",
+    "exercise": "Inventa una palabra que signifique 'fuera de la Tierra'.",
+    "self_evaluation": "¿Qué significa 'extraordinario'? (Respuesta: fuera de lo común)"
+  },
+  {
+    "id": 93,
+    "element": "intro",
+    "origin": "latín",
+    "meaning": "hacia dentro",
+    "examples": "introducir, introspectivo, introvertido, introito",
+    "exercise": "Forma una palabra que signifique 'mirar hacia dentro de uno mismo'.",
+    "self_evaluation": "¿Qué significa 'introvertido'? (Respuesta: persona que dirige su interés hacia adentro)"
+  },
+  {
+    "id": 94,
+    "element": "retro",
+    "origin": "latín",
+    "meaning": "hacia atrás",
+    "examples": "retroceder, retrovisor, retrospectivo, retrógrado",
+    "exercise": "Crea una palabra que signifique 'mirar hacia atrás' (revisión del pasado).",
+    "self_evaluation": "¿Qué es un 'retrovisor'? (Respuesta: espejo que permite ver hacia atrás)"
+  },
+  {
+    "id": 95,
+    "element": "se",
+    "origin": "latín",
+    "meaning": "apartar, separar",
+    "examples": "separar, seducir (llevar aparte), segregar, secesión",
+    "exercise": "Forma una palabra que signifique 'apartar del grupo'.",
+    "self_evaluation": "¿Qué significa 'secesión'? (Respuesta: separación política)"
+  },
+  {
+    "id": 96,
+    "element": "bene",
+    "origin": "latín",
+    "meaning": "bien",
+    "examples": "beneficio, benévolo, bendecir (bene+decir), benigno",
+    "exercise": "Inventa una palabra que signifique 'buena voluntad' (que desea el bien).",
+    "self_evaluation": "¿Qué significa 'benévolo'? (Respuesta: que tiene buena voluntad)"
+  },
+  {
+    "id": 97,
+    "element": "male",
+    "origin": "latín",
+    "meaning": "mal",
+    "examples": "malestar, maldecir, malévolo, maltrato",
+    "exercise": "Forma una palabra que signifique 'hablar mal' (insultar).",
+    "self_evaluation": "¿Qué significa 'malévolo'? (Respuesta: que desea el mal)"
+  },
+  {
+    "id": 98,
+    "element": "nov",
+    "origin": "latín",
+    "meaning": "nuevo",
+    "examples": "novato, novedad, innovar, noveno (nueve y nuevo son diferentes, pero noveno viene de novem)",
+    "exercise": "Crea una palabra que signifique 'hacer nuevo' o 'introducir novedad'.",
+    "self_evaluation": "¿Qué significa 'innovar'? (Respuesta: introducir algo nuevo)"
+  },
+  {
+    "id": 99,
+    "element": "veter",
+    "origin": "latín",
+    "meaning": "viejo",
+    "examples": "veterano, vejez, inveterado, veterinar (relativo a animales viejos o de carga)",
+    "exercise": "Inventa una palabra que signifique 'que se ha vuelto viejo con el tiempo' (arraigado).",
+    "self_evaluation": "¿Qué significa 'veterano'? (Respuesta: persona con experiencia, vieja en el oficio)"
+  },
+  {
+    "id": 100,
+    "element": "ver",
+    "origin": "latín",
+    "meaning": "verdad",
+    "examples": "verdad, veraz, verificar, verosímil",
+    "exercise": "Forma una palabra que signifique 'que parece verdadero'.",
+    "self_evaluation": "¿Qué significa 'verificar'? (Respuesta: comprobar la verdad)"
+  }
+]

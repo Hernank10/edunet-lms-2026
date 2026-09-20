@@ -1,0 +1,110 @@
+{
+  "titulo": "100 Técnicas de Redacción Científica en Inglés",
+  "version": "2.0",
+  "descripcion": "Técnicas completas para escribir ciencia en inglés: narrativo, descriptivo, expositivo, argumentativo. Instrucciones en castellano.",
+  "total_tecnicas": 100,
+  "categorias": {
+    "narrativo": {
+      "nombre": "Narrativo Científico",
+      "rango": [
+        1,
+        25
+      ]
+    },
+    "descriptivo": {
+      "nombre": "Descriptivo Científico",
+      "rango": [
+        26,
+        50
+      ]
+    },
+    "expositivo": {
+      "nombre": "Expositivo Científico",
+      "rango": [
+        51,
+        75
+      ]
+    },
+    "argumentativo": {
+      "nombre": "Argumentativo Científico",
+      "rango": [
+        76,
+        100
+      ]
+    }
+  },
+  "tecnicas": [
+    {
+      "id": 1,
+      "numero": 1,
+      "tipo": "narrativo",
+      "titulo_es": "Técnica 1: Narrativa científica · secuencia de experimentos",
+      "titulo_en": "Technique 1: Scientific narrative · experiment sequence",
+      "explicacion_es": "La narrativa científica organiza eventos de investigación en orden cronológico: hipótesis, metodología, resultados y conclusiones. Usa conectores como 'first', 'subsequently', 'finally'.",
+      "explicacion_en": "Scientific narrative organizes research events chronologically: hypothesis, methodology, results, conclusions. Use connectors like 'first', 'subsequently', 'finally'.",
+      "ejemplo_es": "First, we formulated the hypothesis that temperature affects enzyme activity. Subsequently, we designed an experiment with controlled variables. Finally, we analyzed the data and confirmed our hypothesis.",
+      "ejemplo_en": "Primero, formulamos la hipótesis de que la temperatura afecta la actividad enzimática. Posteriormente, diseñamos un experimento con variables controladas. Finalmente, analizamos los datos y confirmamos nuestra hipótesis.",
+      "ejercicio_correcto": "first subsequently finally hypothesis"
+    },
+    {
+      "id": 2,
+      "numero": 2,
+      "tipo": "narrativo",
+      "titulo_es": "Técnica 2: Descripción del método científico",
+      "titulo_en": "Technique 2: Scientific method description",
+      "explicacion_es": "El método científico se narra como una historia de descubrimiento: observación, pregunta, hipótesis, experimentación, análisis y conclusión.",
+      "explicacion_en": "The scientific method is narrated as a discovery story: observation, question, hypothesis, experimentation, analysis and conclusion.",
+      "ejemplo_es": "We observed that plants grew faster near the window. This led to the question: does sunlight affect growth rate? We hypothesized that increased light accelerates photosynthesis. Our experiment confirmed this hypothesis.",
+      "ejemplo_en": "Observamos que las plantas crecían más rápido cerca de la ventana. Esto llevó a la pregunta: ¿la luz solar afecta la tasa de crecimiento? Hipotetizamos que el aumento de luz acelera la fotosíntesis. Nuestro experimento confirmó esta hipótesis.",
+      "ejercicio_correcto": "observed question hypothesized confirmed"
+    },
+    {
+      "id": 3,
+      "numero": 3,
+      "tipo": "narrativo",
+      "titulo_es": "Técnica 3: Historia del descubrimiento científico",
+      "titulo_en": "Technique 3: Scientific discovery story",
+      "explicacion_es": "Narra el proceso histórico de un descubrimiento científico, incluyendo los errores y aciertos de los investigadores.",
+      "explicacion_en": "Narrate the historical process of a scientific discovery, including the successes and failures of researchers.",
+      "ejemplo_es": "In 1928, Alexander Fleming noticed that mold had contaminated his bacterial cultures. Instead of discarding them, he observed that bacteria died near the mold. This accidental discovery led to penicillin, the first antibiotic.",
+      "ejemplo_en": "En 1928, Alexander Fleming notó que un moho había contaminado sus cultivos bacterianos. En lugar de desecharlos, observó que las bacterias morían cerca del moho. Este descubrimiento accidental llevó a la penicilina, el primer antibiótico.",
+      "ejercicio_correcto": "noticed observed accidental discovery"
+    },
+    {
+      "id": 4,
+      "numero": 4,
+      "tipo": "narrativo",
+      "titulo_es": "Técnica 4: Progresión de experimentos",
+      "titulo_en": "Technique 4: Experiment progression",
+      "explicacion_es": "Describe la evolución de una serie de experimentos, mostrando cómo cada resultado lleva al siguiente paso de investigación.",
+      "explicacion_en": "Describe the evolution of a series of experiments, showing how each result leads to the next research step.",
+      "ejemplo_es": "Experiment 1 established a correlation between sleep and memory. Experiment 2 investigated the neural mechanisms involved. Experiment 3 tested a potential intervention to enhance memory during sleep.",
+      "ejemplo_en": "El experimento 1 estableció una correlación entre el sueño y la memoria. El experimento 2 investigó los mecanismos neuronales involucrados. El experimento 3 probó una posible intervención para mejorar la memoria durante el sueño.",
+      "ejercicio_correcto": "established investigated tested intervention"
+    },
+    {
+      "id": 5,
+      "numero": 5,
+      "tipo": "narrativo",
+      "titulo_es": "Técnica 5: Línea temporal de investigación",
+      "titulo_en": "Technique 5: Research timeline",
+      "explicacion_es": "Organiza los hallazgos científicos en una línea temporal clara, usando marcadores temporales precisos.",
+      "explicacion_en": "Organize scientific findings on a clear timeline, using precise temporal markers.",
+      "ejemplo_es": "Initially, the team proposed a theoretical model. After six months of data collection, preliminary results emerged. By the end of year one, the hypothesis was confirmed. Subsequently, the findings were published in a peer-reviewed journal.",
+      "ejemplo_en": "Inicialmente, el equipo propuso un modelo teórico. Después de seis meses de recolección de datos, surgieron resultados preliminares. Al final del primer año, la hipótesis fue confirmada. Posteriormente, los hallazgos se publicaron en una revista revisada por pares.",
+      "ejercicio_correcto": "initially emerged confirmed published"
+    },
+    {
+      "id": 6,
+      "numero": 6,
+      "tipo": "narrativo",
+      "titulo_es": "Técnica 6: Caso de estudio narrativo",
+      "titulo_en": "Technique 6: Narrative case study",
+      "explicacion_es": "Presenta un caso de estudio como una historia, desde la presentación del problema hasta la resolución.",
+      "explicacion_en": "Present a case study as a story, from problem presentation to resolution.",
+      "ejemplo_es": "Patient X presented with unusual symptoms. After extensive testing, doctors diagnosed a rare genetic disorder. Treatment began immediately. Within three months, the patient showed significant improvement.",
+      "ejemplo_en": "El paciente X presentaba síntomas inusuales. Después de pruebas exhaustivas, los médicos diagnosticaron un trastorno genético raro. El tratamiento comenzó de inmediato. En tres meses, el paciente mostró una mejora significativa.",
+      "ejercicio_correcto": "presented diagnosed treatment improvement"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "titulo": "Antropolingüística del Castellano",
+  "subtitulo": "Lengua, cultura, sociedad e identidad",
+  "total_tecnicas": 100,
+  "categorias": [
+    "Fundamentos de antropolingüística (01-12)",
+    "Lengua y pensamiento (13-24)",
+    "Lengua y sociedad (25-36)",
+    "Variación lingüística y dialectología (37-48)",
+    "Contacto de lenguas y bilingüismo social (49-60)",
+    "Lengua e identidad (61-72)",
+    "Lengua, poder e ideología (73-84)",
+    "Antropolingüística aplicada (85-100)"
+  ],
+  "tecnicas": [
+    {
+      "id": 1,
+      "nombre": "Definición y alcance de la antropolingüística",
+      "teoria": "La antropolingüística (o antropología lingüística) es la disciplina que estudia las relaciones entre el lenguaje, la cultura y la sociedad. Investiga cómo el lenguaje influye en la cosmovisión, cómo las prácticas culturales se reflejan en la lengua, y cómo la identidad social se construye discursivamente. Integra métodos de la lingüística y la antropología.",
+      "ejemplo": "Ejemplo: El estudio de los términos de parentesco en español ('padre', 'madre', 'abuelo', 'tío') revela una organización familiar bilateral y la importancia de la familia extensa en las culturas hispanas.",
+      "ejercicio": "Explica la diferencia entre antropolingüística, sociolingüística y etnografía de la comunicación.",
+      "respuesta": "Antropolingüística: relaciones entre lenguaje y cultura en sentido amplio. Sociolingüística: variación lingüística en relación con factores sociales (clase, género, edad). Etnografía de la comunicación: estudio del uso del lenguaje en comunidades concretas, incluyendo normas y patrones comunicativos."
+    },
+    {
+      "id": 2,
+      "nombre": "Hipótesis de Sapir-Whorf",
+      "teoria": "La hipótesis de Sapir-Whorf (relativismo lingüístico) sostiene que la lengua que hablamos influye en nuestra percepción y pensamiento. La versión fuerte (determinismo lingüístico) afirma que la lengua determina el pensamiento; la versión débil (relativismo) sostiene que la lengua influye y facilita ciertas distinciones cognitivas.",
+      "ejemplo": "Ejemplo: El español distingue 'ser' y 'estar' para atributos permanentes vs temporales. Esto podría influir en cómo los hispanohablantes conceptualizan la permanencia de las propiedades.",
+      "ejercicio": "¿Qué evidencia hay a favor de la hipótesis de Sapir-Whorf? Menciona estudios sobre categorización de colores o orientación espacial.",
+      "respuesta": "Estudios con la lengua zuñi (un solo término para amarillo y naranja) muestran que sus hablantes tienen más dificultad para distinguir esos colores. Estudios con el guugu yimithirr (lengua australiana que usa puntos cardinales en lugar de izquierda/derecha) muestran que sus hablantes tienen una orientación espacial absoluta excepcional."
+    },
+    {
+      "id": 3,
+      "nombre": "Determinismo lingüístico vs relativismo",
+      "teoria": "El determinismo lingüístico (versión fuerte de Sapir-Whorf) propone que la lengua determina categóricamente el pensamiento, imposibilitando concebir lo que la lengua no codifica. El relativismo (versión débil) sostiene que la lengua influye y facilita ciertos pensamientos, pero no los determina de manera absoluta.",
+      "ejemplo": "Ejemplo de relativismo: hablantes de lenguas que distinguen 'azul claro' y 'azul oscuro' son más rápidos en discriminar esos tonos, pero los hablantes de español también pueden aprender a distinguirlos.",
+      "ejercicio": "¿Qué críticas ha recibido la hipótesis de Sapir-Whorf?",
+      "respuesta": "Críticas: falta de evidencia empírica sólida, circularidad metodológica, subestimación de la plasticidad cognitiva. El universalismo sostiene que existe una Gramática Universal innata."
+    },
+    {
+      "id": 4,
+      "nombre": "Categorización lingüística y cultura",
+      "teoria": "Las lenguas categorizan la realidad de maneras diferentes: sistemas de colores, sistemas de parentesco, sistemas numerales, clasificadores nominales, y taxonomías populares (clasificación de plantas, animales, enfermedades).",
+      "ejemplo": "Ejemplo: El español tiene términos específicos para 'tío paterno' y 'tío materno'? No, usa 'tío' y especifica si es necesario. Otras lenguas tienen términos distintos.",
+      "ejercicio": "Describe cómo el español categoriza el parentesco y compáralo con otro sistema.",
+      "respuesta": "Español: bilateral y descriptivo (términos analizables: 'abuelo', 'tío', 'primo'). No distingue linaje materno/paterno en la terminología básica. El inglés es similar. El sistema omaha fusiona algunas categorías (llama 'padre' a tíos paternos)."
+    },
+    {
+      "id": 5,
+      "nombre": "Lenguaje, cultura y pensamiento",
+      "teoria": "La cultura influye en el léxico (palabras para conceptos culturalmente relevantes), en los patrones de uso (cortesía, silencio), y en la organización del discurso (narración, argumentación). El pensamiento es mediado por el lenguaje, pero también hay pensamiento prelingüístico.",
+      "ejemplo": "Ejemplo: el español tiene un rico vocabulario para emociones ('vergüenza', 'duende', 'morriña', 'soledad') que refleja valores culturales específicos del mundo hispano.",
+      "ejercicio": "Explica cómo la cultura influye en el léxico emocional del español.",
+      "respuesta": "El español tiene 'vergüenza' (honor social), 'morriña' (nostalgia de Galicia), 'duende' (emoción estética), 'soledad', 'sentimiento'. El léxico emocional refleja valores de colectivismo, honor y expresividad cultural."
+    },
+    {
+      "id": 6,
+      "nombre": "Etnografía de la comunicación",
+      "teoria": "La etnografía de la comunicación (Hymes) analiza los patrones de uso lingüístico en comunidades concretas, considerando el contexto situacional, los participantes, los propósitos, la forma del mensaje, el tono, el canal y las normas de interacción.",
+      "ejemplo": "Ejemplo: estudio de las formas de saludo en el mundo andino: 'p'unchay' (buen día) puede ir acompañado de rituales de ofrenda. El acto de saludo puede durar varios minutos.",
+      "ejercicio": "¿Qué componentes del evento comunicativo analiza el modelo SPEAKING de Hymes?",
+      "respuesta": "S - Situation, P - Participants, E - Ends, A - Act sequence, K - Key, I - Instrumentalities, N - Norms, G - Genre."
+    },
+    {
+      "id": 7,
+      "nombre": "Sociolingüística y antropolingüística: diferencias",
+      "teoria": "La sociolingüística se centra en la variación lingüística condicionada por factores sociales. La antropolingüística tiene un enfoque más cultural y etnográfico, estudiando la lengua como parte del sistema cultural y la identidad étnica.",
+      "ejemplo": "Ejemplo sociolingüístico: estudio de la variación de 's' final según nivel socioeconómico. Ejemplo antropolingüístico: estudio de cómo los términos de colores reflejan la clasificación del mundo natural.",
+      "ejercicio": "Compara los objetos de estudio y métodos de la sociolingüística y la antropolingüística.",
+      "respuesta": "Sociolingüística: variables sociodemográficas, métodos cuantitativos. Antropolingüística: cosmovisión, rituales, métodos cualitativos (observación participante)."
+    },
+    {
+      "id": 8,
+      "nombre": "Lengua y cosmovisión en el mundo hispano",
+      "teoria": "La cosmovisión hispana está influenciada por la herencia latina, árabe, judía y amerindia. Conceptos como 'honor', 'vergüenza', 'destino', 'familia', 'confianza' están codificados en el léxico y en las estructuras discursivas.",
+      "ejemplo": "Ejemplo: el uso del subjuntivo español distingue entre hechos (indicativo) y eventualidades, deseos, valoraciones (subjuntivo), reflejando una categorización particular de la realidad.",
+      "ejercicio": "¿Cómo refleja el español la cosmovisión hispana a través de sus categorías gramaticales?",
+      "respuesta": "Subjuntivo: distingue realidad de irrealidad. Ser/estar: distingue esencia de estado. Formas de tratamiento (tú/usted/vos): distingue jerarquía, distancia, solidaridad."
+    },
+    {
+      "id": 9,
+      "nombre": "Etnografías del habla en comunidades hispanohablantes",
+      "teoria": "Las etnografías del habla documentan la diversidad de prácticas comunicativas en el mundo hispano: rituales de habla (piropos, albures), formas de cortesía, normas de conversación, estilos narrativos, y géneros discursivos tradicionales (romances, décimas, corridos).",
+      "ejemplo": "Ejemplo: el 'albur' mexicano es un género de habla lúdica basado en la doble connotación sexual, que requiere habilidad lingüística, rapidez mental y conocimiento cultural.",
+      "ejercicio": "Describe un género discursivo tradicional del mundo hispano y sus características socioculturales.",
+      "respuesta": "El romance: composición poética épico-lírica, versos octosílabos con rima asonante, transmitido oralmente. Funciones: narrar historias, preservar memoria histórica. El corrido mexicano narra historias de héroes y bandidos."
+    },
+    {
+      "id": 10,
+      "nombre": "Lengua y ritualidad en el mundo hispano",
+      "teoria": "El lenguaje ritual (fórmulas religiosas, juramentos, bendiciones, rezos) tiene características específicas: fijación, repetición, formalidad, función performativa (el decir realiza el acto).",
+      "ejemplo": "Ejemplo: la bendición 'Dios te bendiga' después de un estornudo tiene origen en la creencia de que el estornudo podía expulsar el alma. La fórmula es fija y su emisión tiene función protectora.",
+      "ejercicio": "Analiza un acto de habla ritual en español desde la perspectiva antropolingüística.",
+      "respuesta": "Juramento: '¿Juras decir la verdad...?' Fórmula fija, respuesta ritual ('sí, juro'), contexto institucional (tribunal), función performativa (crea obligación). La forma es altamente convencionalizada."
+    },
+    {
+      "id": 11,
+      "nombre": "Pragmática intercultural en español",
+      "teoria": "La pragmática intercultural estudia las diferencias en el uso del lenguaje entre culturas: actos de habla (cortesía, cumplidos, peticiones), estrategias de atenuación, normas conversacionales (turnos, silencios), y la gestión de la imagen pública (face).",
+      "ejemplo": "Ejemplo: la petición '¿Me prestas un lápiz?' en España es directa pero aceptable. En Colombia: '¿Me regala un lápiz, por favor?'.",
+      "ejercicio": "Compara las estrategias de cortesía para pedir un favor en español y en otra lengua.",
+      "respuesta": "Español: preguntas indirectas ('¿Podrías...?'), condicional de cortesía, 'por favor', tratamiento de 'usted'. Inglés: 'Could you please...?', 'Would you mind...?'. Japonés: formas honoríficas, mayor atenuación."
+    },
+    {
+      "id": 12,
+      "nombre": "Tabú lingüístico en las culturas hispanas",
+      "teoria": "Los tabúes lingüísticos son palabras o temas evitados por convención social. En el mundo hispano, existen tabúes religiosos, sexuales, escatológicos, de muerte y políticos. El tabú genera eufemismos y disfemismos.",
+      "ejemplo": "Ejemplos de eufemismos: 'falleció' por 'murió', 'tercera edad' por 'vejez'. Disfemismos: 'estiró la pata', 'colgar los tenis'.",
+      "ejercicio": "Explica el fenómeno del tabú lingüístico en español y da ejemplos de eufemismos.",
+      "respuesta": "Muerte: 'fallecer', 'descansar en paz', 'irse al otro barrio'. Sexo: 'hacer el amor', 'tener relaciones'. Enfermedad: 'padecer', 'tener un problemita de salud'. El tabú refleja lo que culturalmente se considera peligroso o vergonzoso."
+    },
+    {
+      "id": 13,
+      "nombre": "Lengua y género en el mundo hispano",
+      "teoria": "El género gramatical influye en la percepción de objetos (efectos Whorfianos). El uso del masculino genérico ('los ciudadanos') ha sido cuestionado por movimientos feministas, impulsando formas inclusivas.",
+      "ejemplo": "Ejemplo: estudios muestran que hispanohablantes tienden a asociar cualidades femeninas a objetos gramaticalmente femeninos ('luna', 'casa') y masculinas a masculinos ('sol', 'puente').",
+      "ejercicio": "¿Cómo se relaciona el género gramatical del español con la percepción de objetos?",
+      "respuesta": "El género gramatical influye en la percepción: hispanohablantes asignan más cualidades femeninas a objetos de género femenino. El lenguaje inclusivo busca visibilizar a mujeres usando desdoblamiento ('niños y niñas'), la 'e' ('todes') o la 'x' ('latinx')."
+    },
+    {
+      "id": 14,
+      "nombre": "Marcadores de discurso y cultura",
+      "teoria": "Los marcadores de discurso ('bueno', 'o sea', 'entonces', 'pues', 'vale', 'che', 'tipo') tienen funciones pragmáticas y varían dialectalmente. Su frecuencia y uso reflejan valores culturales.",
+      "ejemplo": "Ejemplo regional: 'che' (Argentina) expresa confianza y solidaridad. 'Vale' (España) expresa acuerdo. 'Pues' (España y América) expresa consecuencia o vacilación.",
+      "ejercicio": "Explica las diferencias en el uso de marcadores discursivos entre España y América Latina.",
+      "respuesta": "España: 'vale' (acuerdo), 'vamos', 'bueno'. México: 'pues', 'este', 'o sea'. Argentina: 'che', 'tipo', 'viste', 'dale'. Los marcadores reflejan identidad regional y valores pragmáticos (directividad vs indirectividad)."
+    },
+    {
+      "id": 15,
+      "nombre": "Cortesía y cultura hispana",
+      "teoria": "La cortesía verbal en español incluye estrategias para mitigar actos amenazadores de la imagen (FTA), como el uso de condicional, tratamiento de 'usted', atenuadores, y preguntas indirectas.",
+      "ejemplo": "Ejemplo: invitar a alguien: '¿Te gustaría venir a cenar?' (directo). 'Si no estás muy ocupado, quizás podrías venir...' (más atenuado, cortesía negativa).",
+      "ejercicio": "Analiza las estrategias de cortesía para rechazar una invitación en español.",
+      "respuesta": "Español: agradecer ('¡Qué amable!'), dar excusa ('es que tengo otro compromiso'), ofrecer alternativa ('otro día será'), atenuar ('lo siento mucho'). El tratamiento de 'usted' eleva la formalidad."
+    },
+    {
+      "id": 16,
+      "nombre": "Formas de tratamiento: tú, usted, vos",
+      "teoria": "El español tiene un sistema de formas de tratamiento que codifica relaciones de poder, solidaridad y distancia: 'tú' (confianza), 'usted' (respeto), 'vos' (voseo, característico de áreas americanas).",
+      "ejemplo": "Ejemplo España: 'tú' entre iguales, 'usted' para ancianos. Argentina: 'vos' para confianza, 'usted' para respeto. Colombia: 'usted' también entre familiares.",
+      "ejercicio": "Describe el sistema de tratamientos en tu variedad de español.",
+      "respuesta": "Según la variedad. En España: tú (amigos), usted (profesores). En Argentina: vos (confianza). En Colombia: usted puede usarse entre esposos (distancia cortés). El voseo es dominante en Argentina, Uruguay, Paraguay y Centroamérica."
+    },
+    {
+      "id": 17,
+      "nombre": "Lenguaje e identidad cultural",
+      "teoria": "El lenguaje es un marcador central de identidad cultural. Hablar una variedad dialectal o una lengua minorizada marca pertenencia a un grupo. Las actitudes lingüísticas reflejan valores culturales, prejuicios y relaciones de poder.",
+      "ejemplo": "Ejemplo: el uso del catalán en Cataluña marca identidad catalanista; el uso del español puede ser percibido como 'no catalán' según el contexto.",
+      "ejercicio": "¿Cómo se usa el lenguaje para marcar identidad en tu comunidad?",
+      "respuesta": "Ejemplos: el gallego marca identidad gallega; el euskera es emblema de identidad vasca; el catalán es símbolo de identidad propia. En América, el quechua marca identidad indígena; el guaraní en Paraguay es símbolo nacional."
+    },
+    {
+      "id": 18,
+      "nombre": "Actitudes lingüísticas en el mundo hispano",
+      "teoria": "Las actitudes lingüísticas son valoraciones sobre la propia lengua o variedad y sobre otras. Pueden ser positivas (prestigio) o negativas (estigma). Influyen en el mantenimiento o abandono de lenguas.",
+      "ejemplo": "Ejemplo: actitud negativa hacia el andaluz en España (asociado a falta de educación). Actitud positiva hacia el 'castellano de Valladolid' como 'español puro'.",
+      "ejercicio": "Explica qué son las actitudes lingüísticas y da ejemplos hacia variedades del español.",
+      "respuesta": "Actitudes hacia el andaluz: estereotipos de 'gracia' pero también de 'descuido'. Hacia el rioplatense: 'italianizado', 'cantarín'. Hacia el mexicano: 'dulzura', 'educación'. Hacia el caribeño: rapidez, 'comeletras', a veces desprestigiado."
+    },
+    {
+      "id": 19,
+      "nombre": "Prestigio lingüístico y variación",
+      "teoria": "El prestigio abierto es el reconocido por la comunidad (norma culta, variedad estándar). El prestigio encubierto es el valor positivo de rasgos no estándar asociados a la identidad de grupo (solidaridad, autenticidad).",
+      "ejemplo": "Ejemplo prestigio abierto: el 'seseo' en España no tiene prestigio, pero en América es la norma. Prestigio encubierto: el voseo en Argentina es marca de identidad nacional.",
+      "ejercicio": "Diferencia entre prestigio abierto y prestigio encubierto.",
+      "respuesta": "Prestigio abierto: variedad estándar asociada a educación y poder. Prestigio encubierto: formas no estándar que marcan identidad, solidaridad. Ejemplo: el voseo argentino es prestigio encubierto (marca nacionalidad)."
+    },
+    {
+      "id": 20,
+      "nombre": "Lengua y poder simbólico (Bourdieu)",
+      "teoria": "Bourdieu propuso que el lenguaje es una forma de poder simbólico. El mercado lingüístico valora ciertas variedades (el estándar) y desvaloriza otras. Las instituciones (escuela, academia) consagran la variedad legítima.",
+      "ejemplo": "Ejemplo: un hablante con acento andaluz puede ser discriminado en una entrevista en Madrid por no ajustarse al estándar castellanizado.",
+      "ejercicio": "Explica el concepto de 'mercado lingüístico' de Bourdieu.",
+      "respuesta": "El mercado lingüístico es el contexto social donde se intercambian bienes lingüísticos. En España, la variedad de prestigio es el castellano del norte. En América, cada país tiene su mercado. Quien habla la variedad legítima tiene mayor poder simbólico."
+    },
+    {
+      "id": 21,
+      "nombre": "Ideologías lingüísticas",
+      "teoria": "Las ideologías lingüísticas son conjuntos de creencias sobre el lenguaje que justifican estructuras de poder. Incluyen la creencia en la 'pureza' de la lengua, el 'estándar' como superior, y la estigmatización de variantes no estándar.",
+      "ejemplo": "Ejemplo: ideología de que la RAE 'limpia, fija y da esplendor' a la lengua, legitimando su poder y deslegitimando usos populares.",
+      "ejercicio": "¿Qué son las ideologías lingüísticas? Da un ejemplo.",
+      "respuesta": "Son creencias naturalizadas sobre el lenguaje que ocultan relaciones de poder. Ejemplo: la idea de que el 'español de Castilla' es más 'puro' o 'correcto' que el de América, legitima la hegemonía cultural española."
+    },
+    {
+      "id": 22,
+      "nombre": "Lengua y nación en la historia de España",
+      "teoria": "El español se impuso como lengua nacional a partir de la unificación de los Reyes Católicos (1492). Se marginaron otras lenguas (catalán, gallego, euskera) durante siglos. El nacionalismo español promovió 'una nación, una lengua'.",
+      "ejemplo": "Ejemplo: Decreto de Nueva Planta (1715) impuso el castellano como única lengua oficial en la administración catalana.",
+      "ejercicio": "Explica la relación entre lengua y nación en la formación del estado español.",
+      "respuesta": "El estado nación se construyó sobre el castellano. Otras lenguas fueron reprimidas (dictadura franquista). La Constitución de 1978 reconoce la diversidad lingüística y otorga cooficialidad al catalán, gallego y euskera, pero el español sigue siendo la única oficial en todo el estado."
+    },
+    {
+      "id": 23,
+      "nombre": "Lenguas cooficiales de España",
+      "teoria": "Además del español, España tiene lenguas cooficiales: catalán (Cataluña, Baleares, Valencia), gallego (Galicia), y euskera (País Vasco, Navarra). Cada una tiene historia, estatus y vitalidad diferentes.",
+      "ejemplo": "Ejemplo: el euskera es una lengua aislada, no romance, preindoeuropea. Su supervivencia es un caso excepcional de revitalización lingüística.",
+      "ejercicio": "Describe la situación sociolingüística de las lenguas cooficiales de España.",
+      "respuesta": "Catalán: alta vitalidad, educación inmersiva. Gallego: hablado en zonas rurales, menor uso urbano. Euskera: revitalización exitosa, pero minoritario. El español es dominante en ámbitos urbanos y formales en todas."
+    },
+    {
+      "id": 24,
+      "nombre": "Políticas lingüísticas en España y América",
+      "teoria": "Las políticas lingüísticas regulan el uso de las lenguas: planificación del corpus (normativización), del estatus (oficialidad), y de la adquisición (enseñanza). En América, muchos países reconocen lenguas indígenas como oficiales regionalmente.",
+      "ejemplo": "Ejemplo España: Ley de Normalización Lingüística en Cataluña (1983). Paraguay: el guaraní es lengua oficial junto al español.",
+      "ejercicio": "Compara las políticas lingüísticas de España y un país latinoamericano.",
+      "respuesta": "España: cooficialidad de lenguas regionales, educación bilingüe. Bolivia: Constitución de 2009 reconoce 36 lenguas indígenas como oficiales. Paraguay: guaraní es oficial junto al español, mayoría bilingüe."
+    },
+    {
+      "id": 25,
+      "nombre": "Variedades sociales del español: sociolectos",
+      "teoria": "El español varía según el estrato socioeconómico, la educación y la ocupación. Los sociolectos altos se acercan a la norma estándar; los bajos presentan rasgos como aspiración de 's', relajación de consonantes, 'laísmo', 'dequeísmo'.",
+      "ejemplo": "Ejemplo: sociolecto alto: 'los coches'; bajo: 'lo' coche' (aspiración y pérdida de 's').",
+      "ejercicio": "¿Qué rasgos caracterizan un sociolecto alto y uno bajo en español?",
+      "respuesta": "Sociolecto alto: uso de tiempos compuestos, subjuntivo correcto, léxico preciso, distinción s/θ. Sociolecto bajo: relajación de consonantes, pérdida de 'd', aspiraciones, dequeísmo, laísmo."
+    },
+    {
+      "id": 26,
+      "nombre": "Jergas y argot en el mundo hispano",
+      "teoria": "Las jergas son variedades propias de grupos sociales (jóvenes, profesionales, delincuentes). El argot es lenguaje críptico o de especialidad. Existen jergas juveniles, profesionales, y argot marginal (lunfardo, germanía).",
+      "ejemplo": "Ejemplo lunfardo (Argentina): 'laburar' (trabajar), 'mina' (mujer), 'guita' (dinero), 'fiaca' (pereza).",
+      "ejercicio": "Describe una jerga juvenil de tu región y da ejemplos.",
+      "respuesta": "España: 'chaval', 'guay', 'molar', 'currar', 'pasta', 'tío/tía'. México: 'chido', 'padre', 'güey', 'neta'. Argentina: 'boludo', 're', 'posta'. Las jergas juveniles cambian rápidamente y marcan identidad grupal."
+    },
+    {
+      "id": 27,
+      "nombre": "Lengua y género: variación sociolingüística",
+      "teoria": "Mujeres tienden a usar formas más prestigiosas, más corteses, más atenuadores; hombres usan formas más vernáculas, más lenguaje directo. Estas diferencias son culturales, no biológicas.",
+      "ejemplo": "Ejemplo: mujeres usan menos dequeísmo y laísmo que hombres, y más condicional de cortesía.",
+      "ejercicio": "¿Qué diferencias de género en el uso del español ha documentado la sociolingüística?",
+      "respuesta": "Mujeres: más prestigio abierto, más cortesía, más atenuadores, más preguntas modales. Hombres: más formas vernáculas, más lenguaje directo, más disfemismos, más interrupciones. Reflejan socialización de género."
+    },
+    {
+      "id": 28,
+      "nombre": "Lenguaje juvenil en el mundo hispano",
+      "teoria": "El lenguaje juvenil se caracteriza por innovación léxica (neologismos, préstamos), cambio semántico, abreviación, y uso de muletillas. Es un marcador de identidad generacional.",
+      "ejemplo": "Ejemplo España: 'está chulo', 'mola', 'en plan', 'flipar'. México: 'está chido', 'padrísimo', 'wey'.",
+      "ejercicio": "¿Qué características tiene el lenguaje juvenil del español?",
+      "respuesta": "Innovación rápida, anglicismos ('like', 'random'), abreviaturas ('x' por 'por'), expresiones emocionales, ironía. Ejemplos: 'dar cringe', 'crush', 'stalkear', 'spoilear'."
+    },
+    {
+      "id": 29,
+      "nombre": "Comunicación mediada por tecnología en español",
+      "teoria": "La comunicación digital ha generado un registro informal con abreviaturas ('x', 'pq'), emoticonos, prescindencia de mayúsculas y acentos, y usos pragmáticos específicos (el punto final como signo de enfado).",
+      "ejemplo": "Ejemplo: 'Hola cmo estas? q haces?' (sin acentos, abreviado). 'Estoy bn.' (punto final cortante).",
+      "ejercicio": "¿Cómo influye la comunicación digital en el español escrito?",
+      "respuesta": "Se relajan las reglas ortográficas, se usan abreviaturas y anglicismos, se crean neologismos. Genera ansiedad normativa, pero también creatividad. La RAE ya acepta algunos usos digitales (ej. @, emoticonos)."
+    },
+    {
+      "id": 30,
+      "nombre": "Lenguaje y discurso político en español",
+      "teoria": "El discurso político utiliza recursos específicos: primera persona del plural ('nosotros'), nominalización para ocultar agentes, metáforas ('batalla'), eufemismos ('daños colaterales'), y slogans.",
+      "ejemplo": "Ejemplo: 'Estamos trabajando para sacar adelante el país' (uso de 'estamos' sin especificar quiénes).",
+      "ejercicio": "Analiza un discurso político identificando recursos retóricos y lingüísticos.",
+      "respuesta": "Recursos: 'nosotros' inclusivo, deícticos ('este gobierno'), metáforas bélicas ('luchar'), eufemismos, nominalizaciones, preguntas retóricas, marcadores de evaluación ('lamentablemente'), repeticiones."
+    },
+    {
+      "id": 31,
+      "nombre": "Lenguaje publicitario en español",
+      "teoria": "El lenguaje publicitario busca persuadir mediante imperativo ('cómpralo'), segunda persona ('tú lo mereces'), exclamación, rima, aliteración, ironía, hipérbole, neologismos y préstamos.",
+      "ejemplo": "Ejemplo: '¿Tienes hambre? ¡Come Mahou!' (interrogación + imperativo + exclamación).",
+      "ejercicio": "Explica las estrategias lingüísticas de la publicidad en español.",
+      "respuesta": "Apelación directa (tú/usted), imperativos, comparativos y superlativos, anglicismos, neologismos, metáforas, rima, simplificación sintáctica. Slogans: 'Porque tú lo vales', '¿Te gusta conducir?'."
+    },
+    {
+      "id": 32,
+      "nombre": "Lengua y humor en español",
+      "teoria": "El humor lingüístico explota la ambigüedad (polisemia), dobles sentidos, metáforas, ironía, hipérbole, juegos de palabras (calambur, paronomasia), y violación de máximas pragmáticas.",
+      "ejemplo": "Ejemplo chiste: '¿Qué hace una abeja en el gimnasio? ¡Zum-ba!' (juego con 'zumba'). Calambur: 'Entre el clavel y la rosa, su majestad escoja' (escoja/es coja).",
+      "ejercicio": "Analiza un chiste o juego de palabras en español.",
+      "respuesta": "Chiste: '¿Cómo se llama el campeón de buceo japonés? Tokofondo.' (juego con 'Tokio' + 'fondo'). Se basa en la ambigüedad y violación de expectativa, explotando similitud fonética entre lenguas."
+    },
+    {
+      "id": 33,
+      "nombre": "Lengua y religión en el mundo hispano",
+      "teoria": "El español ha sido influido por el cristianismo: léxico religioso ('Navidad', 'bautizar'), expresiones ('Dios mediante'), nombres propios (María, Jesús). También influencias del judaísmo (judeoespañol) y el islam (arabismos).",
+      "ejemplo": "Ejemplo: 'Ojalá' (del árabe 'insha' Allah', 'si Dios quiere'). 'Adiós' (a Dios).",
+      "ejercicio": "¿Qué huellas lingüísticas del cristianismo y del islam se encuentran en el español?",
+      "respuesta": "Cristianismo: léxico ('iglesia', 'ángel'), expresiones ('Dios te bendiga'), nombres (Jesús, María). Islam: 'ojalá', 'azúcar', 'alcalde', 'alcohol' y numerosos arabismos. También hebraísmos ('cábala', 'rabino')."
+    },
+    {
+      "id": 34,
+      "nombre": "Lengua y medicina tradicional en español",
+      "teoria": "El léxico de medicina tradicional incluye términos de herbolaria ('manzanilla', 'ruda'), prácticas curativas ('curandero'), y concepciones del cuerpo ('empacho', 'mal de ojo', 'susto'). Refleja interacción de saberes indígenas, africanos y europeos.",
+      "ejemplo": "Ejemplo: 'empacho' (indigestión), 'susto' (enfermedad por susto), 'mal de ojo' (por envidia).",
+      "ejercicio": "Investiga un término de medicina tradicional en español y explica su significado cultural.",
+      "respuesta": "'Susto' es una enfermedad psicosomática indígena americana atribuida a un evento traumático que separa el alma del cuerpo. El tratamiento implica rituales de limpieza. Muestra cómo concepciones culturales de enfermedad se lexicalizan."
+    },
+    {
+      "id": 35,
+      "nombre": "Etnobotánica y etnolingüística en español",
+      "teoria": "La etnobotánica estudia relaciones entre pueblos y plantas. Existen sistemas de clasificación popular de plantas (taxonomías folk) con términos específicos para especies útiles, reflejando conocimiento ecológico tradicional.",
+      "ejemplo": "Ejemplo: en México, clasificación de maíces ('cacahuazintle', 'olotón'). En los Andes, nombres de papas ('lisa', 'papa amarilla').",
+      "ejercicio": "¿Cómo refleja el léxico etnobotánico el conocimiento cultural hispano?",
+      "respuesta": "La riqueza léxica en un dominio (ej. 'maíz' con decenas de nombres en México) refleja centralidad cultural. Los términos a menudo son de origen indígena (náhuatl, quechua). Ejemplos: 'chamán', 'ayahuasca', 'coca', 'agave', 'maguey'."
+    },
+    {
+      "id": 36,
+      "nombre": "Toponimia del mundo hispano",
+      "teoria": "La toponimia revela historia de asentamiento, lenguas sustrato, y cambios políticos. En España: topónimos prerromanos (Compostela), latinos (Valencia), árabes (Guadalajara). En América: topónimos indígenas (México, Cuzco) y españoles (Buenos Aires).",
+      "ejemplo": "Ejemplo: 'Guadalajara' (árabe 'Wādī al-Ḥijāra', 'río de piedras'), 'Popocatépetl' (náhuatl 'cerro que humea').",
+      "ejercicio": "Analiza la toponimia de tu región: ¿qué capas históricas refleja?",
+      "respuesta": "Según región. México: topónimos náhuatl (Cuauhtémoc), purépecha (Michoacán), españoles (Nueva España). Andalucía: topónimos árabes (Almería), latinos (Córdoba), prerromanos (Cádiz). La toponimia es un mapa de la historia lingüística y política."
+    },
+    {
+      "id": 37,
+      "nombre": "Dialectología del español: zonas dialectales",
+      "teoria": "El español se divide en zonas dialectales principales: español septentrional (norte de España), meridional (Andalucía, Canarias), y variedades americanas (caribeña, andina, rioplatense, mexicana, chilena, centroamericana). Cada zona tiene rasgos fonéticos, morfosintácticos y léxicos distintivos.",
+      "ejemplo": "Ejemplo: distinción s/θ (norte de España) vs seseo (América, Canarias, Andalucía baja). Voseo (rioplatense) vs tuteo.",
+      "ejercicio": "Describe las principales zonas dialectales del español y sus rasgos distintivos.",
+      "respuesta": "España septentrional: distinción s/θ, vosotros. Andalucía: seseo/ceceo, aspiración de -s, pérdida de -d. Canarias: seseo, similitud con caribeño. Caribe: aspiración de -s, omisión de -r final, ritmo rápido. Andino: conservación de -s, entonación lenta. Rioplatense: voseo, yeísmo rehilado ('sh'). México: seseo, entonación nasal."
+    },
+    {
+      "id": 38,
+      "nombre": "El español de América: formación y diversidad",
+      "teoria": "El español americano se formó por la superposición del español sobre lenguas indígenas. Las variedades americanas se diversificaron según la época de colonización, el origen de los colonos (andaluces, extremeños, castellanos) y el contacto con lenguas sustrato (náhuatl, quechua, guaraní, taíno).",
+      "ejemplo": "Ejemplo: el voseo (uso de 'vos') en el Río de la Plata se debe a la conservación de formas antiguas del español. El seseo general en América se debe al predominio de colonos andaluces y canarios.",
+      "ejercicio": "¿Cómo se formó el español de América? ¿Qué factores influyeron en su diversidad?",
+      "respuesta": "Se formó por la colonización (1492). Factores: origen de colonos (andaluces, extremeños, castellanos), época de colonización, sustrato indígena (taíno, náhuatl, quechua, guaraní), aislamiento geográfico, y contacto con lenguas africanas. Esto generó diversidad: seseo general, voseo regional, indigenismos."
+    },
+    {
+      "id": 39,
+      "nombre": "Indigenismos en el español de América",
+      "teoria": "Los indigenismos son palabras de origen indígena incorporadas al español americano. Proceden principalmente del taíno ('hamaca', 'canoa'), náhuatl ('tomate', 'chocolate', 'aguacate'), quechua ('papa', 'cóndor', 'llama'), guaraní ('tapioca', 'carpincho'), y otras lenguas.",
+      "ejemplo": "Ejemplo taíno: 'hamaca', 'canoa', 'huracán', 'tabaco'. Náhuatl: 'chocolate', 'tomate', 'aguacate', 'coyote'. Quechua: 'papa', 'cóndor', 'llama', 'quinua'.",
+      "ejercicio": "Enumera diez indigenismos del español americano y su lengua de origen.",
+      "respuesta": "Taíno: hamaca, canoa, huracán, tabaco. Náhuatl: chocolate, tomate, aguacate, coyote, chile, elote, papalote, petaca. Quechua: papa, cóndor, llama, quinua, cancha, choclo. Guaraní: tapioca, carpincho, piranha."
+    },
+    {
+      "id": 40,
+      "nombre": "Africanismos en el español",
+      "teoria": "Los africanismos son palabras de origen africano (lenguas bantúes, yoruba, kikongo) incorporadas al español, principalmente a través del comercio de esclavos. Se encuentran en el español caribeño, rioplatense y costero. Ejemplos: 'candombe', 'tango', 'chévere', 'bemba', 'ñame', 'conga'.",
+      "ejemplo": "Ejemplo: 'candombe' (danza uruguaya, origen bantú), 'tango' (origen africano o bantú), 'chévere' (genial, del yoruba 'chévere', jefe), 'bemba' (labio grueso).",
+      "ejercicio": "¿Qué influencia africana hay en el léxico del español? Da ejemplos.",
+      "respuesta": "Africanismos en América: 'candombe', 'tango', 'chévere', 'bemba', 'ñame', 'conga', 'mambo', 'rumba', 'quilombo', 'macumba', 'samba', 'marimba', 'chacra' (origen incierto). También hay influencia en fonética (caribeño) y en ritmo del habla."
+    },
+    {
+      "id": 41,
+      "nombre": "El voseo en el español americano",
+      "teoria": "El voseo es el uso de 'vos' como pronombre de segunda persona singular en lugar de 'tú'. Es característico del Río de la Plata (Argentina, Uruguay, Paraguay), Centroamérica, y zonas de Colombia, Venezuela, Ecuador, Chile y Perú. Tiene conjugaciones verbales propias (vos tenés, comés, vivís).",
+      "ejemplo": "Ejemplo voseo argentino: 'Vos tenés razón', 'Vos comés bien', 'Vos vivís cerca'. En contraste, tuteo: 'tú tienes razón'.",
+      "ejercicio": "¿En qué regiones de América se usa el voseo y qué formas verbales tiene?",
+      "respuesta": "Voseo pleno: Argentina, Uruguay, Paraguay, Costa Rica, Nicaragua, Guatemala, El Salvador. Voseo mixto: Chile (alterna con tuteo), Colombia (zona andina y suroeste), Venezuela (estado Zulia), Ecuador (sierra sur), Perú (algunas zonas). Formas: tenés (presente), tuviste (pretérito), tendrás (futuro), tené (imperativo)."
+    },
+    {
+      "id": 42,
+      "nombre": "Seseo, ceceo y distinción",
+      "teoria": "La distinción es la pronunciación diferente de 's' (/s/) y 'z/c' (/θ/), propia del norte de España. El seseo es la pronunciación de 'z/c' como /s/, general en América, Canarias y Andalucía occidental. El ceceo es la pronunciación de 's' como /θ/, propio de zonas de Andalucía.",
+      "ejemplo": "Ejemplo distinción: 'casa' (/kasa/) vs 'caza' (/kaθa/). Seseo: 'casa' y 'caza' suenan igual (/kasa/). Ceceo: ambos suenan /kaθa/.",
+      "ejercicio": "Explica las diferencias entre seseo, ceceo y distinción en el español.",
+      "respuesta": "Distinción: norte de España, diferencia fonológica s/θ. Seseo: América, Canarias, Andalucía occidental; neutralización en /s/. Ceceo: zonas de Andalucía (Granada, Sevilla rural); neutralización en /θ/. El seseo es la variante mayoritaria y prestigiosa en América; la distinción es prestigiosa en España."
+    },
+    {
+      "id": 43,
+      "nombre": "Yeísmo y lleísmo",
+      "teoria": "El yeísmo es la pronunciación del dígrafo 'll' como /ʝ/ (igual que 'y'), fenómeno mayoritario en gran parte del mundo hispano. El lleísmo es la distinción entre 'll' (/ʎ/) y 'y' (/ʝ/), conservado en zonas de España (norte) y Andes (Perú, Bolivia, Ecuador).",
+      "ejemplo": "Ejemplo yeísta: 'calle' y 'caye' suenan igual. Ejemplo lleísta: 'calle' (/kaʎe/) vs 'caye' (/kaʝe/) son distintos.",
+      "ejercicio": "¿En qué zonas se conserva el lleísmo y dónde predomina el yeísmo?",
+      "respuesta": "Yeísmo mayoritario: España (excepto norte), América (excepto zonas andinas). Lleísmo: norte de España (Cataluña, País Vasco, zonas rurales de Castilla), Andes (Perú, Bolivia, Ecuador, suroeste de Colombia), Paraguay, áreas aisladas. El yeísmo se expande por prestigio."
+    },
+    {
+      "id": 44,
+      "nombre": "Aspiración y pérdida de 's' final en español",
+      "teoria": "En muchas variedades (Andalucía, Canarias, Caribe, Chile, Argentina, costas), la 's' final de sílaba se aspira (/h/) o se pierde. Ejemplo: 'los coches' > 'lo' coche' /loh koche/. Este rasgo es un marcador sociolectal y dialectal.",
+      "ejemplo": "Ejemplo: 'los amigos' > 'lo amigo' (pérdida total) o 'loh amigoh' (aspiración). En el Caribe: 'dos botellas' > 'do' botella'.",
+      "ejercicio": "¿En qué variedades del español se aspira o se pierde la 's' final?",
+      "respuesta": "Aspiración/pérdida: Andalucía occidental, Canarias, Caribe (Cuba, Puerto Rico, República Dominicana, costas de Colombia y Venezuela), Chile, Argentina (zonas), Panamá, costa peruana. Es un rasgo de prestigio encubierto en el Caribe y Andalucía, pero estigmatizado en contextos formales."
+    },
+    {
+      "id": 45,
+      "nombre": "El español canario: rasgos distintivos",
+      "teoria": "El español de Canarias (islas Canarias) tiene rasgos que lo asemejan al caribeño (seseo, aspiración de 's', uso de 'ustedes' en lugar de 'vosotros'), con influencias del portugués y del guanche (lengua aborigen).",
+      "ejemplo": "Ejemplo: 'ustedes' para segunda persona del plural (no 'vosotros'), 'voy a hacerlo ahora' (uso del presente como futuro), léxico guanche: 'gofio' (harina de cereal tostado).",
+      "ejercicio": "¿Qué rasgos diferencian el español canario del peninsular?",
+      "respuesta": "Seseo general (no distinción s/θ), aspiración/pérdida de -s, ustedeo (no vosotros), uso del pretérito perfecto simple ('hice') donde el peninsular usaría compuesto ('he hecho'), influencias portuguesas ('dar con' = encontrar), y guanches ('mago' = campesino, 'gofio' = harina)."
+    },
+    {
+      "id": 46,
+      "nombre": "El español andaluz: variedades",
+      "teoria": "El español andaluz es muy diverso. Rasgos: seseo/ceceo, aspiración de 's', pérdida de 'd' intervocálica, uso de 'ustedes' por 'vosotros', diminutivos en '-illo', y léxico andaluz. Se divide en andaluz occidental (Sevilla, Huelva) y oriental (Granada, Málaga).",
+      "ejemplo": "Ejemplo: 'ustedes venís' (singular) y 'ustedes vienen' (plural). 'Anda pa' casa' (pérdida de 'r' y 'a' en 'para'). 'Chacho' (muchacho).",
+      "ejercicio": "Describe los rasgos del español andaluz y su clasificación dialectal.",
+      "respuesta": "Andaluz occidental: seseo, aspiración de -s, pérdida de -d. Andaluz oriental: ceceo en zonas, mayor tendencia a la pérdida de consonantes. Rasgos comunes: ustedeo en lugar de vosotros, uso de 'illo' (diminutivo), confusión de 'l' y 'r' en zonas, léxico ('chaval', 'currar', 'pisha'). Estigmatización social."
+    },
+    {
+      "id": 47,
+      "nombre": "El español rioplatense: rasgos distintivos",
+      "teoria": "El español rioplatense (Argentina, Uruguay) se caracteriza por el voseo (vos tenés), el yeísmo rehilado ('calle' /kaʒe/ o /kaʃe/), el léxico del lunfardo, y la influencia del italiano (por inmigración). La entonación es muy distintiva (música italiana).",
+      "ejemplo": "Ejemplo: 'Vos tenés' (no 'tú tienes'), 'lluvia' /ʒuvia/ (sonido 'zh'), 'laburar' (trabajar), 'chamuyo' (mentira).",
+      "ejercicio": "¿Qué rasgos distinguen al español rioplatense de otras variedades?",
+      "respuesta": "Voseo con conjugaciones propias (tenés, comés, salís). Yeísmo rehilado (sonido /ʃ/ o /ʒ/). Uso del pretérito perfecto simple donde otros usarían compuesto ('llegué' no 'he llegado'). Léxico lunfardo ('guita', 'mina', 'fiaca', 'chamuyo'). Entonación influida por italiano. Uso de 'che' como apelativo."
+    },
+    {
+      "id": 48,
+      "nombre": "El español mexicano: rasgos distintivos",
+      "teoria": "El español mexicano se caracteriza por el seseo, el uso frecuente del diminutivo '-ito' (ahorita), el 'ustedeo' frecuente (incluyendo entre familiares), entonación nasal, y rico léxico de indigenismos náhuatl. Hay variación regional entre centro, norte, sur, y península de Yucatán.",
+      "ejemplo": "Ejemplo: 'Ahorita lo hago' (en un momento). '¿Cómo está usted?' (incluso a familiares). 'Chocolate', 'aguacate', 'coyote', 'petate' (indigenismos).",
+      "ejercicio": "¿Qué rasgos distinguen al español mexicano?",
+      "respuesta": "Seseo general. Uso de 'ustedes' para segunda persona del plural (no 'vosotros'). Ustedeo frecuente en singular (hasta entre familiares, como 'usted de confianza'). Entonación nasal. Diminutivos muy productivos ('ito/ita'). Léxico indigenista (náhuatl). Variación regional: norte (influencia americana, yeísmo), centro (normativo), sur (caribeño), Yucatán (mayismos)."
+    }
+  ]
+}

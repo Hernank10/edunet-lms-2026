@@ -1,0 +1,113 @@
+{
+  "titulo": "Psicolingüística del Castellano",
+  "subtitulo": "Procesos cognitivos, adquisición y producción del lenguaje",
+  "total_tecnicas": 100,
+  "categorias": [
+    "Fundamentos de psicolingüística (01-12)",
+    "Percepción y comprensión del lenguaje (13-24)",
+    "Producción del lenguaje (25-36)",
+    "Adquisición del lenguaje infantil (37-48)",
+    "Bilingüismo y aprendizaje de segundas lenguas (49-60)",
+    "Neuropsicolingüística (61-72)",
+    "Trastornos del lenguaje (73-84)",
+    "Lectura, escritura y procesamiento (85-100)"
+  ],
+  "tecnicas": [
+    {
+      "id": 1,
+      "nombre": "Definición y alcance de la psicolingüística",
+      "teoria": "La psicolingüística es la disciplina que estudia los procesos cognitivos implicados en la comprensión, producción y adquisición del lenguaje. Integra conocimientos de la lingüística (estructura de la lengua) y la psicología (procesos mentales). Investiga cómo los hablantes generan y entienden oraciones, cómo almacenan el léxico mental, cómo adquieren su lengua materna y cómo procesan el lenguaje en tiempo real.",
+      "ejemplo": "Ejemplo: Cuando alguien escucha la frase 'El perro persigue al gato', su mente activa representaciones mentales de 'perro', 'persigue' y 'gato', construye una estructura sintáctica (sujeto-verbo-objeto) y genera una imagen mental de la escena. Todo esto ocurre en fracciones de segundo.",
+      "ejercicio": "Explica la diferencia entre psicolingüística, lingüística general y neurolingüística. ¿Qué aspectos específicos estudia cada una?",
+      "respuesta": "Lingüística general: estudia la estructura de la lengua (fonología, morfología, sintaxis, semántica) como sistema abstracto. Psicolingüística: estudia los procesos cognitivos que permiten usar esa lengua (comprensión, producción, adquisición). Neurolingüística: estudia las bases cerebrales del lenguaje, qué áreas se activan y cómo se dañan en lesiones (afasias)."
+    },
+    {
+      "id": 2,
+      "nombre": "Léxico mental o diccionario interno",
+      "teoria": "El léxico mental es el almacén de palabras que posee un hablante en su memoria. Contiene información fonológica (cómo suena la palabra), ortográfica (cómo se escribe), morfológica (su estructura interna), sintáctica (categoría gramatical, régimen preposicional) y semántica (su significado). Se estima que un hablante nativo conoce entre 20,000 y 50,000 palabras. El acceso al léxico mental es muy rápido (200-400 milisegundos por palabra).",
+      "ejemplo": "Ejemplo: La palabra 'correr' está almacenada con: su forma fonética /koˈreɾ/, su significado 'moverse rápidamente', su categoría verbal, su conjugación (corro, corres, corre), sus relaciones semánticas (sinónimo: 'tro tar', antónimo: 'parar'), y su estructura morfológica (raíz 'corr-' + sufijo '-er').",
+      "ejercicio": "Describe qué información estaría almacenada en el léxico mental para la palabra 'flor'. Incluye aspectos fonológicos, ortográficos, morfológicos, sintácticos y semánticos.",
+      "respuesta": "Fonológico: /floɾ/; Ortográfico: 'f-l-o-r'; Morfológico: raíz 'flor-', plural 'flores', diminutivo 'florecita'; Sintáctico: sustantivo femenino (la flor, las flores), puede ser sujeto ('la flor es roja') u objeto ('corté la flor'); Semántico: 'órgano reproductivo de las plantas, generalmente colorido y vistoso'. Relaciones: hiperónimo 'planta', hipónimos 'rosa', 'margarita', 'clavel'."
+    },
+    {
+      "id": 3,
+      "nombre": "Procesamiento léxico: reconocimiento de palabras",
+      "teoria": "El reconocimiento de palabras es el proceso por el cual identificamos una palabra en el flujo del habla o en el texto escrito. Implica acceso al léxico mental y selección de la entrada correcta entre múltiples candidatas. Factores que influyen: frecuencia de uso (palabras más frecuentes se reconocen más rápido), vecindad fonológica/ortográfica (palabras similares compiten: 'casa', 'caza', 'cara'), y priming (facilitación por presentación previa de una palabra relacionada).",
+      "ejemplo": "Ejemplo: La palabra 'pan' es de alta frecuencia y se reconoce más rápido que 'páncreas'. Al escuchar /kasa/, el sistema activa candidatas como 'casa', 'caza', 'casa', 'caza', hasta seleccionar la correcta por contexto. Si antes se presentó 'hogar', el reconocimiento de 'casa' es más rápido (priming semántico).",
+      "ejercicio": "¿Qué es el efecto de frecuencia léxica? ¿Por qué las palabras más frecuentes se procesan más rápido? Explica con un ejemplo.",
+      "respuesta": "El efecto de frecuencia léxica es la mayor rapidez y precisión en el reconocimiento de palabras de alta frecuencia (comunes) frente a palabras de baja frecuencia (raras). Ejemplo: 'agua' se reconoce más rápido que 'aljibe' porque la primera es mucho más frecuente en el input lingüístico. Esto se debe a que las representaciones de palabras frecuentes tienen umbrales de activación más bajos por su uso repetido."
+    },
+    {
+      "id": 4,
+      "nombre": "Priming o facilitación semántica",
+      "teoria": "El priming semántico es el fenómeno por el cual la presentación previa de una palabra (prime) facilita el reconocimiento de otra palabra (target) relacionada semánticamente. Por ejemplo, ver 'médico' acelera el reconocimiento de 'enfermero' o 'hospital'. Este efecto demuestra que el léxico mental está organizado en redes semánticas donde conceptos relacionados están conectados. El priming también puede ser fonológico ('lobo' facilita 'loco') o morfológico ('cantar' facilita 'canto').",
+      "ejemplo": "Ejemplo: En un experimento, si se presenta la palabra 'perro' (prime) y luego se pide decidir si 'gato' es una palabra real, la respuesta es más rápida que si el prime fuera 'mesa'. Esto ocurre porque 'perro' y 'gato' están relacionados en la red semántica (animales domésticos).",
+      "ejercicio": "Diseña un experimento hipotético de priming semántico. ¿Qué pares de palabras usarías? ¿Qué resultados esperarías? Explica el fundamento.",
+      "respuesta": "Pares relacionados: 'sol-luna', 'verde-rojo', 'cuchillo-tenedor'. Pares no relacionados: 'sol-lápiz', 'verde-casa'. Tarea: decisión léxica (¿es palabra real?). Resultados esperados: tiempos de reacción más rápidos y menos errores para pares relacionados (priming) debido a la propagación de activación entre nodos semánticos conectados. El prime activa el concepto, y esa activación se extiende a conceptos relacionados, facilitando su reconocimiento."
+    },
+    {
+      "id": 5,
+      "nombre": "Ambigüedad léxica y resolución",
+      "teoria": "La ambigüedad léxica ocurre cuando una palabra tiene múltiples significados (polisemia, homonimia). El procesador lingüístico debe resolver qué significado es el apropiado según el contexto. Las palabras ambiguas pueden tener significados dominantes (más frecuentes) y subordinados. Ejemplo: 'banco' puede ser entidad financiera o asiento. El contexto (oracional o discursivo) ayuda a seleccionar el significado correcto. En ausencia de contexto, el significado dominante se activa primero.",
+      "ejemplo": "Ejemplo: En la oración 'Fui al banco a cobrar un cheque', el contexto (cobrar un cheque) sesga hacia 'entidad financiera'. En 'Me senté en un banco del parque', el contexto (sentarse, parque) sesga hacia 'asiento'. Si no hay contexto ('Vi un banco'), el significado más frecuente (financiero en zonas urbanas) suele activarse primero.",
+      "ejercicio": "Analiza la palabra 'cura' en: 'El cura bendijo a los fieles' y 'La medicina hizo efecto y la herida comenzó a curar'. Explica cómo resuelve el procesador la ambigüedad.",
+      "respuesta": "En 'El cura bendijo...', 'cura' significa sacerdote (sustantivo masculino). El contexto ('bendijo', 'fieles') activa el significado religioso. En 'la herida comenzó a curar', 'curar' es verbo (sanar). El contexto ('herida', 'medicina') activa el significado verbal. El procesador usa la información contextual (sintáctica: presencia de artículo 'el' vs verbo 'a curar'; semántica: 'bendijo' y 'herida') para seleccionar la interpretación correcta. En caso de ambigüedad no resuelta, el significado más frecuente del castellano (probablemente 'sacerdote' para el sustantivo) se activa por defecto."
+    },
+    {
+      "id": 6,
+      "nombre": "Procesamiento sintáctico: estructuras y estrategias",
+      "teoria": "El procesamiento sintáctico es el mecanismo mediante el cual el hablante/oyente construye la estructura de la oración en tiempo real. Se han propuesto estrategias como: la estrategia del cierre temprano (preferir adjuntar un constituyente al sintagma más cercano), la estrategia de la ruta mínima (preferir la estructura sintáctica con menos nodos) y el principio de conexión (preferir adjuntar al constituyente más reciente). Estas estrategias guían el análisis sintáctico inicial, aunque pueden llevar a errores en oraciones ambiguas ('garden path sentences').",
+      "ejemplo": "Ejemplo de garden path: 'El policía vio al ladrón con los prismáticos.' El procesador tiende a adjuntar 'con los prismáticos' al sintagma verbal más cercano ('vio'), interpretando que el policía usó prismáticos. Pero luego puede reinterpretarse como que el ladrón llevaba prismáticos. La ambigüedad se resuelve con información contextual o prosódica.",
+      "ejercicio": "Explica por qué la oración 'El hombre pescó el pez con la caña' es ambigua. ¿Qué interpretaciones posibles tiene? ¿Qué estrategia de procesamiento se aplica en la primera interpretación preferida?",
+      "respuesta": "Ambigüedad: 'con la caña' puede modificar a 'pescó' (instrumento con el que pescó) o a 'pez' (el pez que tenía la caña, interpretación extraña). La estrategia de cierre temprano (adjuntar al constituyente más cercano, 'pez') daría la interpretación extraña. La estrategia de ruta mínima preferiría adjuntar directamente al verbo 'pescó' (menos nodos). La mayoría de los hablantes interpretan 'con la caña' como instrumento de la acción de pescar. La prosodia (pausa) podría desambiguar."
+    },
+    {
+      "id": 7,
+      "nombre": "Garden path sentences y reanálisis",
+      "teoria": "Las 'garden path sentences' (oraciones de sendero equivocado) son oraciones que inicialmente se interpretan de una manera incorrecta porque el procesador aplica estrategias que resultan erróneas, y luego debe reanalizar. Ejemplo clásico: 'El anciano empujó al enfermo el carrito.' La primera interpretación (sujeto-verbo-objeto) lleva a un callejón sin salida cuando aparece 'el carrito' (sujeto de la oración subordinada). El procesador debe reanalizar la estructura. Este fenómeno muestra que el análisis sintáctico es incremental y puede revisarse.",
+      "ejemplo": "Ejemplo: 'La niña dejó el libro en la mochila que encontró.' Inicialmente, 'que encontró' se adjunta a 'la mochila', pero luego puede resultar ilógico (una mochila que encontró?) y debe reanalizarse como adjunto a 'el libro'. El reanálisis cuesta tiempo de procesamiento y se refleja en mayores tiempos de lectura en la zona de desambiguación.",
+      "ejercicio": "Construye una oración garden path en español. Explícasela a un compañero hipotético y muestra cómo se produce la interpretación errónea inicial y el reanálisis posterior.",
+      "respuesta": "Ejemplo: 'El profesor recomendó al estudiante el libro de gramática que estaba en la biblioteca.' Interpretación inicial: 'El profesor recomendó al estudiante' (verbo + objeto indirecto). Cuando aparece 'el libro', se requiere reanálisis: 'recomendó X a Y' no funciona, debe ser 'recomendó a Y Z' (recomendó al estudiante el libro). Otro ejemplo clásico: 'La joven caminaba por la calle con su madre que llevaba un paraguas.' Al principio, 'con su madre' se adjunta al verbo ('caminaba con su madre'), pero 'que llevaba un paraguas' fuerza a reinterpretar 'su madre' como el antecedente de la relativa, manteniendo la interpretación inicial pero ajustando."
+    },
+    {
+      "id": 8,
+      "nombre": "Procesamiento de oraciones ambiguas",
+      "teoria": "La ambigüedad sintáctica puede ser de adjunción (como en los ejemplos anteriores) o de alcance (ej. 'Todos los estudiantes no aprobaron' puede significar que ninguno aprobó o que no todos aprobaron). El procesador suele preferir la interpretación de alcance superficial o la adjunción más temprana. La ambigüedad se resuelve mediante contexto, prosodia (pausas, entonación), y conocimientos pragmáticos. Las oraciones con ambigüedad sostenida (no resuelta por contexto) generan costos de procesamiento.",
+      "ejemplo": "Ejemplo: 'Juan ve a María con su hermana.' Ambigüedad: ¿'su' se refiere a Juan o a María? ¿'con su hermana' modifica a 've' (Juan ve con su hermana) o a 'María' (María está con su hermana)? El contexto (¿quién tiene hermana?) o la prosodia (pausa antes de 'con su hermana') puede desambiguar.",
+      "ejercicio": "Analiza las posibles interpretaciones de 'El hombre golpeó al ladrón con la pistola'. ¿Qué factores ayudan a desambiguar?",
+      "respuesta": "Interpretaciones: 1) El hombre usó una pistola para golpear al ladrón (instrumento). 2) El hombre golpeó al ladrón que tenía una pistola (el ladrón tenía la pistola). Factores de desambiguación: contexto previo (si se mencionó que el ladrón estaba armado), plausibilidad (golpear a alguien con una pistola es extraño, se usa más como amenaza), prosodia (pausa después de 'ladrón' favorece adjunción a 'ladrón'), conocimiento del mundo (normalmente se golpea con objetos contundentes, no con pistolas; una pistola se usa para disparar)."
+    },
+    {
+      "id": 9,
+      "nombre": "Modelos de procesamiento del lenguaje",
+      "teoria": "Existen dos grandes modelos de procesamiento: modulares vs interactivos. Los modelos modulares (Fodor) postulan que el procesador sintáctico opera de manera encapsulada, sin acceso a información semántica o contextual en las etapas iniciales. Los modelos interactivos (McClelland, Rumelhart) sostienen que la información sintáctica, semántica y contextual interactúa desde el principio. También hay modelos de ruta dual para la lectura (ruta léxica para palabras familiares, ruta fonológica para palabras nuevas) y modelos conexionistas (redes neuronales).",
+      "ejemplo": "Ejemplo: En la oración 'El ladrón confesó su delito ante el juez', un modelo modular primero asignaría estructura sintáctica (sujeto-verbo-objeto) sin usar significado. Un modelo interactivo usaría desde el inicio la información de que los ladrones confiesan delitos y los jueces son autoridades, facilitando el procesamiento.",
+      "ejercicio": "Compara los modelos modulares y los interactivos de procesamiento del lenguaje. ¿Qué evidencia apoya cada uno?",
+      "respuesta": "Modulares: evidencia de garden path sentences (el procesador se deja engañar por la estructura, sin usar significado), efectos de frecuencia sintáctica. Interactivos: evidencia de que la información semántica influye en el procesamiento sintáctico temprano (ej. 'El policía vio al ladrón con los prismáticos' se interpreta más rápido con el contexto adecuado), y de que la plausibilidad afecta las decisiones de adjunción. Actualmente se favorecen modelos interactivos con cierto grado de encapsulamiento inicial modulado por la experiencia."
+    },
+    {
+      "id": 10,
+      "nombre": "Procesamiento del lenguaje figurado: metáfora",
+      "teoria": "Las metáforas no son solo recursos literarios sino mecanismos cognitivos (Lakoff, Johnson). Procesarlas requiere activar el dominio fuente (concreto) para entender el dominio meta (abstracto). La comprensión metafórica es más lenta que la literal y puede activar áreas cerebrales adicionales (hemisferio derecho). Las metáforas convencionalizadas ('tiempo es dinero') se procesan casi tan rápido como el lenguaje literal; las metáforas novedosas requieren más tiempo y creatividad.",
+      "ejemplo": "Ejemplo: 'La teoría es un edificio sólido.' Para entender, activamos el dominio fuente (edificio: cimientos, paredes, estructura) y lo proyectamos al dominio meta (teoría: argumentos como cimientos, ideas como paredes). La frase 'la teoría se derrumba' extiende la metáfora.",
+      "ejercicio": "Explica el procesamiento de la metáfora 'Esa noticia fue una daga en el corazón'. ¿Qué dominios se activan? ¿Por qué es más efectiva que decir 'Esa noticia me entristeció mucho'?",
+      "respuesta": "Dominio fuente: daga (arma punzante, acción de apuñalar, dolor físico). Dominio meta: noticia que causa dolor emocional. Se activa la proyección: 'apuñalar' → 'herir emocionalmente', 'dolor físico' → 'tristeza intensa'. Es más efectiva porque crea una imagen vívida, conecta emoción con sensación corporal, y sugiere un dolor repentino y punzante, no solo tristeza. El procesamiento metafórico involucra áreas sensoriomotoras (corteza somatosensorial) que simulan la experiencia del apuñalamiento."
+    },
+    {
+      "id": 11,
+      "nombre": "Procesamiento de la ironía",
+      "teoria": "La ironía consiste en decir lo contrario de lo que se quiere expresar (o una valoración diferente). Para procesarla, el oyente debe detectar la discrepancia entre lo dicho y la realidad, inferir la actitud crítica del hablante, y a menudo activar una representación del eco o simulación. La ironía se procesa más lentamente que el lenguaje literal, requiere teoría de la mente (entender las intenciones del hablante) y activa áreas cerebrales relacionadas con la detección de incongruencias.",
+      "ejemplo": "Ejemplo: En una situación de lluvia torrencial, alguien dice '¡Qué hermoso día!'. El oyente procesa: el significado literal (día hermoso) es falso, el hablante no puede creerlo realmente, por lo tanto está siendo irónico y en realidad critica el mal tiempo. La entonación (exclamativa descendente) ayuda a detectar la ironía.",
+      "ejercicio": "Analiza el procesamiento de la frase 'Eres todo un genio' dicha a alguien que acaba de cometer un error grave. ¿Qué etapas cognitivas se suceden?",
+      "respuesta": "Etapas: 1) Procesamiento literal inicial: 'genio' = persona muy inteligente, el hablante afirma que el interlocutor es un genio. 2) Detección de incongruencia: el interlocutor sabe que cometió un error grave, no puede ser un genio en ese contexto; la situación contradice lo dicho. 3) Búsqueda de interpretación alternativa: el hablante podría estar siendo irónico. 4) Inferencia de la actitud del hablante: crítica, burla, sarcasmo. 5) Integración del significado irónico: el hablante en realidad sugiere que el error fue muy tonto. Todo esto ocurre en menos de un segundo."
+    },
+    {
+      "id": 12,
+      "nombre": "Teoría de la mente y lenguaje",
+      "teoria": "La teoría de la mente es la capacidad de atribuir estados mentales (creencias, deseos, intenciones) a uno mismo y a los demás. Es fundamental para la comunicación, ya que permite interpretar intenciones comunicativas, detectar ironía, mentiras, presuposiciones, e inferir lo que el hablante quiere decir más allá de las palabras. Se desarrolla entre los 3 y 5 años en niños neurotípicos. Está alterada en el autismo y en algunas afasias.",
+      "ejemplo": "Ejemplo: Si alguien dice '¿Podrías abrir la ventana?', la teoría de la mente permite inferir que el hablante no pregunta por la habilidad física, sino que quiere que se abra la ventana porque probablemente tiene calor o quiere ventilación.",
+      "ejercicio": "¿Qué papel juega la teoría de la mente en la comprensión de actos de habla indirectos? Pon un ejemplo de un acto indirecto que requiera inferir la intención del hablante.",
+      "respuesta": "La teoría de la mente es esencial para entender que el hablante quiere comunicar algo diferente de lo que dice literalmente. Ejemplo: '¿Tienes hora?' no es una pregunta sobre posesión, sino una petición de información sobre la hora. El oyente infiere que el hablante quiere saber la hora, porque asume que el hablante cree que el oyente puede tener un reloj y que está en condiciones de contestar, y que la intención comunicativa es pedir la hora. Sin teoría de la mente, se interpretaría literalmente: 'sí tengo' pero no se daría la hora."
+    }
+  ]
+}

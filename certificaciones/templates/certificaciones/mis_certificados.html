@@ -1,0 +1,78 @@
+{% extends "gamificacion/_base_estudiante.html" %}
+
+{% block contenido %}
+<h2 class="mb-4">🎓 Mis Certificados</h2>
+
+<!-- Obtenidos -->
+<h4>✅ Obtenidos ({{ obtenidos|length }})</h4>
+<div class="row mb-4">
+  {% for cert in obtenidos %}
+    <div class="col-md-6 mb-3">
+      <div class="card border-success h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h5>{{ cert.curso.titulo }}</h5>
+            <span class="badge bg-success">✅ Emitido</span>
+          </div>
+          <p class="text-muted small mb-1">
+            📅 {{ cert.fecha_emision|date:"d M Y" }} · 📝 Nota: {{ cert.nota_final }}/100
+          </p>
+          <p class="text-muted small">
+            🔑 Código: <code>{{ cert.codigo_corto }}</code>
+          </p>
+          <a href="{% url 'certificaciones:ver_certificado' cert.codigo %}" class="btn btn-outline-success btn-sm">
+            Ver certificado
+          </a>
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <div class="col-12">
+      <div class="alert alert-info">
+        Aún no has obtenido certificados. ¡Completa un curso para conseguir el tuyo!
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<!-- En progreso -->
+<h4>⏳ En progreso ({{ en_progreso|length }})</h4>
+<div class="row">
+  {% for item in en_progreso %}
+    <div class="col-md-6 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5>{{ item.curso.titulo }}</h5>
+          <div class="progress mb-2" style="height: 15px;">
+            <div class="progress-bar {% if item.listo %}bg-success{% endif %}" style="width: {{ item.pct }}%;">
+              {{ item.pct }}%
+            </div>
+          </div>
+          <p class="small mb-2">
+            {{ item.completadas }} / {{ item.total }} lecciones
+            (necesitas {{ item.pct_min }}%)
+          </p>
+          {% if item.listo %}
+            <span class="badge bg-success">🎉 ¡Listo para certificado!</span>
+          {% else %}
+            <span class="badge bg-secondary">Faltan {{ item.pct_min|add:"-100"|add:item.pct|default:item.pct }}%</span>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p class="text-muted">No hay cursos en progreso.</p>
+  {% endfor %}
+</div>
+
+<!-- Verificar código -->
+<div class="card mt-4">
+  <div class="card-body">
+    <h5>🔍 Verificar un certificado</h5>
+    <p class="text-muted small">Introduce el código único para verificar la autenticidad.</p>
+    <a href="{% url 'certificaciones:verificar' %}" class="btn btn-outline-primary btn-sm">
+      Ir al verificador
+    </a>
+  </div>
+</div>
+{% endblock %}

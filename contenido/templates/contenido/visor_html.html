@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid mt-3">
+  <div class="d-flex justify-content-between align-items-center mb-2">
+    <div>
+      <h4 class="mb-0">{{ obj.titulo }}</h4>
+      <small class="text-muted">
+        <span class="badge bg-warning text-dark">{{ obj.get_tipo_display }}</span>
+        <span class="badge bg-secondary">{{ obj.get_categoria_display }}</span>
+      </small>
+    </div>
+    <div>
+      <a href="{{ obj.url_static }}" target="_blank" class="btn btn-outline-secondary btn-sm">
+        🔗 Abrir en pestaña nueva
+      </a>
+      <a href="{% url 'contenido:lista_htmls' %}" class="btn btn-outline-primary btn-sm">
+        ← Volver
+      </a>
+    </div>
+  </div>
+
+  <div class="border rounded" style="height: 85vh; overflow: hidden;">
+    <iframe src="{{ obj.url_static }}"
+            style="width: 100%; height: 100%; border: none;"
+            allowfullscreen></iframe>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,910 @@
+[
+  {
+    "id": 1,
+    "name": "Punto y seguido",
+    "category": "Punto",
+    "teoria": "Marca el final de un enunciado dentro del mismo párrafo. Después del punto se escribe mayúscula.",
+    "ejemplo": "Llegó tarde. No avisó. Se disculpó después.",
+    "ejercicio": "Separa con punto y seguido: 'Ella estudia mucho saca buenas notas'.",
+    "suggestedAnswer": "Ella estudia mucho. Saca buenas notas."
+  },
+  {
+    "id": 2,
+    "name": "Punto y aparte",
+    "category": "Punto",
+    "teoria": "Indica el final de un párrafo. Después se inicia un nuevo párrafo con mayúscula y sangría o espacio.",
+    "ejemplo": "Terminó la introducción. \n\nEl siguiente párrafo desarrolla otro punto.",
+    "ejercicio": "Divide el texto 'El clima es templado. La ciudad es hermosa. Tiene muchos parques' en dos párrafos.",
+    "suggestedAnswer": "El clima es templado. La ciudad es hermosa. \n\nTiene muchos parques."
+  },
+  {
+    "id": 3,
+    "name": "Punto final",
+    "category": "Punto",
+    "teoria": "Cierra definitivamente un texto. Solo aparece al final del último párrafo.",
+    "ejemplo": "Y así termina la historia.",
+    "ejercicio": "¿Dónde se coloca el punto final en un texto?",
+    "suggestedAnswer": "Al final del último párrafo, después de la última palabra."
+  },
+  {
+    "id": 4,
+    "name": "Coma enumerativa",
+    "category": "Coma",
+    "teoria": "Separa elementos de una enumeración, excepto antes de 'y', 'o', 'ni' (salvo para evitar ambigüedad).",
+    "ejemplo": "Compré leche, pan, huevos y queso.",
+    "ejercicio": "Corrige: 'Necesito papel tijeras pegamento y cartulina'.",
+    "suggestedAnswer": "Necesito papel, tijeras, pegamento y cartulina."
+  },
+  {
+    "id": 5,
+    "name": "Coma vocativa",
+    "category": "Coma",
+    "teoria": "Separa el vocativo del resto de la oración.",
+    "ejemplo": "Juan, ven aquí. Ven aquí, Juan.",
+    "ejercicio": "Corrige: 'Señor López puede pasar'.",
+    "suggestedAnswer": "Señor López, puede pasar."
+  },
+  {
+    "id": 6,
+    "name": "Coma explicativa (incisos)",
+    "category": "Coma",
+    "teoria": "Encierra aposiciones o incisos que añaden información no esencial.",
+    "ejemplo": "Mi amigo, el arquitecto, vendrá a cenar.",
+    "ejercicio": "Pon comas donde corresponda: 'Mi vecino Juan es simpático' (si es el único vecino).",
+    "suggestedAnswer": "Mi vecino, Juan, es simpático."
+  },
+  {
+    "id": 7,
+    "name": "Coma entre sujeto y verbo (incorrecta)",
+    "category": "Coma",
+    "teoria": "No se escribe coma entre el sujeto y el verbo, salvo incisos.",
+    "ejemplo": "Incorrecto: 'Mi hermano, llegó tarde'. Correcto: 'Mi hermano llegó tarde'.",
+    "ejercicio": "Corrige: 'Los estudiantes, aprobaron el examen'.",
+    "suggestedAnswer": "Los estudiantes aprobaron el examen."
+  },
+  {
+    "id": 8,
+    "name": "Coma con conectores adversativos",
+    "category": "Coma",
+    "teoria": "Se escribe coma antes de pero, aunque, sino, mas, sin embargo, no obstante.",
+    "ejemplo": "Quería venir, pero se cansó.",
+    "ejercicio": "Corrige: 'Llegó tarde sin embargo nadie se enfadó'.",
+    "suggestedAnswer": "Llegó tarde, sin embargo nadie se enfadó."
+  },
+  {
+    "id": 9,
+    "name": "Coma hiperbática",
+    "category": "Coma",
+    "teoria": "Se coloca después de un complemento oracional largo que se antepone al verbo.",
+    "ejemplo": "A quien madruga, Dios le ayuda.",
+    "ejercicio": "Pon coma en 'A los niños hay que cuidarlos'.",
+    "suggestedAnswer": "A los niños, hay que cuidarlos."
+  },
+  {
+    "id": 10,
+    "name": "Coma en oraciones condicionales antepuestas",
+    "category": "Coma",
+    "teoria": "Cuando la oración condicional (si...) va al inicio, se escribe coma.",
+    "ejemplo": "Si estudias, apruebas.",
+    "ejercicio": "Pon coma en 'Cuando llegues avísame'.",
+    "suggestedAnswer": "Cuando llegues, avísame."
+  },
+  {
+    "id": 11,
+    "name": "Coma en aposiciones explicativas con 'que'",
+    "category": "Coma",
+    "teoria": "La conjunción 'que' puede llevar coma cuando introduce una explicación.",
+    "ejemplo": "La verdad, que no me interesa, es esta.",
+    "ejercicio": "Pon coma en 'La razón que es obvia no la vieron'.",
+    "suggestedAnswer": "La razón, que es obvia, no la vieron."
+  },
+  {
+    "id": 12,
+    "name": "Punto y coma en enumeraciones complejas",
+    "category": "Punto y coma",
+    "teoria": "Separa elementos que ya contienen comas internas.",
+    "ejemplo": "Llegaron los invitados; los niños, emocionados; los adultos, cansados.",
+    "ejercicio": "Separa con punto y coma: 'Compré pan, leche y huevos; mi hermana, frutas; mi padre, vino'.",
+    "suggestedAnswer": "La frase ya está bien puntuada."
+  },
+  {
+    "id": 13,
+    "name": "Punto y coma antes de conectores adversativos",
+    "category": "Punto y coma",
+    "teoria": "Se usa punto y coma antes de sin embargo, no obstante, por tanto, etc., en oraciones largas.",
+    "ejemplo": "El proyecto era complejo; sin embargo, el equipo lo logró.",
+    "ejercicio": "Reemplaza la coma por punto y coma en 'Llegué tarde, sin embargo no perdí el examen'.",
+    "suggestedAnswer": "Llegué tarde; sin embargo no perdí el examen."
+  },
+  {
+    "id": 14,
+    "name": "Punto y coma para separar oraciones relacionadas",
+    "category": "Punto y coma",
+    "teoria": "Une dos oraciones con sentido cercano, sin conjunción.",
+    "ejemplo": "El sol brillaba; el viento soplaba suave.",
+    "ejercicio": "Une con punto y coma 'El día estaba nublado. No llovió'.",
+    "suggestedAnswer": "El día estaba nublado; no llovió."
+  },
+  {
+    "id": 15,
+    "name": "Dos puntos para introducir enumeración",
+    "category": "Dos puntos",
+    "teoria": "Anuncian una lista de elementos.",
+    "ejemplo": "Necesitas tres cosas: paciencia, esfuerzo y constancia.",
+    "ejercicio": "Añade dos puntos en 'Lleva lo siguiente fruta y agua'.",
+    "suggestedAnswer": "Lleva lo siguiente: fruta y agua."
+  },
+  {
+    "id": 16,
+    "name": "Dos puntos antes de una cita textual",
+    "category": "Dos puntos",
+    "teoria": "Introducen las palabras literales de alguien.",
+    "ejemplo": "El presidente dijo: 'No habrá impuestos nuevos'.",
+    "ejercicio": "Añade dos puntos en 'Me dijo vendré mañana'.",
+    "suggestedAnswer": "Me dijo: 'Vendré mañana'."
+  },
+  {
+    "id": 17,
+    "name": "Dos puntos para explicación o consecuencia",
+    "category": "Dos puntos",
+    "teoria": "Separan la causa de la consecuencia o la premisa de la conclusión.",
+    "ejemplo": "No estudió: suspendió.",
+    "ejercicio": "Pon dos puntos en 'No habló con nadie se fue'.",
+    "suggestedAnswer": "No habló con nadie: se fue."
+  },
+  {
+    "id": 18,
+    "name": "Dos puntos en encabezados de cartas",
+    "category": "Dos puntos",
+    "teoria": "Tras el saludo en cartas formales.",
+    "ejemplo": "Estimado señor: Le escribo para...",
+    "ejercicio": "Corrige 'Querido amigo, Te cuento...'.",
+    "suggestedAnswer": "Querido amigo: Te cuento..."
+  },
+  {
+    "id": 19,
+    "name": "Puntos suspensivos para suspensión del discurso",
+    "category": "Puntos suspensivos",
+    "teoria": "Indican una pausa que deja el enunciado incompleto por duda, emoción, o sorpresa.",
+    "ejemplo": "No sé si decirle la verdad...",
+    "ejercicio": "Añade puntos suspensivos para expresar duda.",
+    "suggestedAnswer": "Quizás... no sé... mejor no."
+  },
+  {
+    "id": 20,
+    "name": "Puntos suspensivos para final abierto",
+    "category": "Puntos suspensivos",
+    "teoria": "Dejan la historia inconclusa, invitando a la reflexión.",
+    "ejemplo": "Y así, todo cambió...",
+    "ejercicio": "Escribe un final abierto con puntos suspensivos.",
+    "suggestedAnswer": "El detective miró el expediente y pensó que quizás nunca se sabría la verdad..."
+  },
+  {
+    "id": 21,
+    "name": "Puntos suspensivos con otros signos",
+    "category": "Puntos suspensivos",
+    "teoria": "No se añade punto adicional después de puntos suspensivos, pero sí coma, punto y coma, dos puntos si corresponde.",
+    "ejemplo": "Pensé en irme... pero me quedé.",
+    "ejercicio": "Corrige: 'No me gusta... .'",
+    "suggestedAnswer": "No me gusta..."
+  },
+  {
+    "id": 22,
+    "name": "Signos de interrogación (apertura y cierre)",
+    "category": "Interrogación",
+    "teoria": "En español, se usan signos de apertura (¿) y cierre (?) al inicio y final de la pregunta.",
+    "ejemplo": "¿Cómo estás?",
+    "ejercicio": "Corrige: 'Cómo te llamas?'.",
+    "suggestedAnswer": "¿Cómo te llamas?"
+  },
+  {
+    "id": 23,
+    "name": "Interrogación parcial",
+    "category": "Interrogación",
+    "teoria": "Pregunta que usa pronombres interrogativos (qué, quién, cómo, dónde, cuándo, por qué).",
+    "ejemplo": "¿Qué quieres?",
+    "ejercicio": "Escribe una interrogación parcial con 'dónde'.",
+    "suggestedAnswer": "¿Dónde dejaste las llaves?"
+  },
+  {
+    "id": 24,
+    "name": "Interrogación total",
+    "category": "Interrogación",
+    "teoria": "Pregunta que se responde con sí o no.",
+    "ejemplo": "¿Vienes a la fiesta?",
+    "ejercicio": "Convierte 'Ella vendrá mañana' en interrogación total.",
+    "suggestedAnswer": "¿Vendrá ella mañana?"
+  },
+  {
+    "id": 25,
+    "name": "Signos de exclamación (apertura y cierre)",
+    "category": "Exclamación",
+    "teoria": "Se usan signos de apertura (¡) y cierre (!) al inicio y final de la exclamación.",
+    "ejemplo": "¡Qué bonito!",
+    "ejercicio": "Corrige: 'Viva el rey!'.",
+    "suggestedAnswer": "¡Viva el rey!"
+  },
+  {
+    "id": 26,
+    "name": "Exclamación con qué, cuánto, cómo",
+    "category": "Exclamación",
+    "teoria": "Las exclamativas suelen comenzar con qué, cuánto, cómo.",
+    "ejemplo": "¡Qué calor! ¡Cuánto tiempo!",
+    "ejercicio": "Escribe una exclamación de sorpresa con 'qué'.",
+    "suggestedAnswer": "¡Qué sorpresa verte!"
+  },
+  {
+    "id": 27,
+    "name": "Interrogación y exclamación combinadas",
+    "category": "Interrogación y exclamación",
+    "teoria": "Cuando una oración es interrogativa y exclamativa, se escribe ¿? y ¡! simultáneamente.",
+    "ejemplo": "¿¡Cómo has podido hacer eso!?",
+    "ejercicio": "Reescribe 'Cómo te atreves' como interrogativa-exclamativa.",
+    "suggestedAnswer": "¿¡Cómo te atreves!?"
+  },
+  {
+    "id": 28,
+    "name": "Paréntesis para incisos",
+    "category": "Paréntesis",
+    "teoria": "Encierran información complementaria o aclaratoria.",
+    "ejemplo": "El resultado (como veremos luego) fue sorprendente.",
+    "ejercicio": "Añade paréntesis en 'El presidente según fuentes oficiales dimitirá'.",
+    "suggestedAnswer": "El presidente (según fuentes oficiales) dimitirá."
+  },
+  {
+    "id": 29,
+    "name": "Paréntesis para fechas o siglas",
+    "category": "Paréntesis",
+    "teoria": "Se usan para incluir el año o la aclaración de siglas.",
+    "ejemplo": "La RAE (Real Academia Española) se fundó en 1713.",
+    "ejercicio": "Escribe una oración con la aclaración de 'ONU' entre paréntesis.",
+    "suggestedAnswer": "La ONU (Organización de las Naciones Unidas) tiene 193 estados miembros."
+  },
+  {
+    "id": 30,
+    "name": "Paréntesis para opciones o números",
+    "category": "Paréntesis",
+    "teoria": "Se usan en listas enumerativas o para indicar opciones.",
+    "ejemplo": "1) Introducción; 2) Desarrollo; (3) Conclusión.",
+    "ejercicio": "Enumera dos opciones usando paréntesis.",
+    "suggestedAnswer": "(a) Primera opción (b) Segunda opción."
+  },
+  {
+    "id": 31,
+    "name": "Corchetes para inserciones en citas",
+    "category": "Corchetes",
+    "teoria": "Se usan para añadir palabras en una cita textual que no estaban en el original.",
+    "ejemplo": "El autor escribió: 'Ellos [los científicos] lo demostraron'.",
+    "ejercicio": "Añade corchetes en la cita 'Ellos lo hicieron' para aclarar quiénes.",
+    "suggestedAnswer": "'Ellos [los bomberos] lo hicieron'."
+  },
+  {
+    "id": 32,
+    "name": "Corchetes dentro de paréntesis",
+    "category": "Corchetes",
+    "teoria": "Cuando hay que encerrar texto que ya está entre paréntesis, se usan corchetes para el segundo nivel.",
+    "ejemplo": "Las cifras (ver Tabla 1 [página 23]) son reveladoras.",
+    "ejercicio": "Reescribe 'La fórmula (véase [apéndice])' sin errores.",
+    "suggestedAnswer": "Ya está correcto."
+  },
+  {
+    "id": 33,
+    "name": "Raya (em dash) para incisos enfáticos",
+    "category": "Raya",
+    "teoria": "La raya (—) se usa para incisos más destacados que los paréntesis.",
+    "ejemplo": "El resultado —que nadie esperaba— fue sorprendente.",
+    "ejercicio": "Escribe un inciso con raya.",
+    "suggestedAnswer": "El presidente —por supuesto— no asistió."
+  },
+  {
+    "id": 34,
+    "name": "Raya en diálogos",
+    "category": "Raya",
+    "teoria": "La raya se usa para indicar el cambio de hablante en un diálogo.",
+    "ejemplo": "—¿Vienes? —Sí, ahora mismo.",
+    "ejercicio": "Escribe un breve diálogo de dos líneas usando raya.",
+    "suggestedAnswer": "—Hola —dijo Juan. —Buenas —respondió Ana."
+  },
+  {
+    "id": 35,
+    "name": "Raya para introducir acotaciones de narrador",
+    "category": "Raya",
+    "teoria": "En los diálogos, la raya también puede introducir las palabras del narrador.",
+    "ejemplo": "—No lo sé —dijo él, pensativo.",
+    "ejercicio": "Escribe una línea de diálogo con acotación del narrador.",
+    "suggestedAnswer": "—Me voy —susurró mientras se levantaba."
+  },
+  {
+    "id": 36,
+    "name": "Guion en palabras compuestas",
+    "category": "Guion",
+    "teoria": "El guion se usa para unir palabras en compuestos ocasionales (teórico-práctico).",
+    "ejemplo": "Relación calidad-precio, literario-musical.",
+    "ejercicio": "Escribe el compuesto de 'teórico' y 'práctico'.",
+    "suggestedAnswer": "teórico-práctico."
+  },
+  {
+    "id": 37,
+    "name": "Guion para prefijos ante números o mayúsculas",
+    "category": "Guion",
+    "teoria": "Se usa guion cuando el prefijo va seguido de número o mayúscula (pre-1992, anti-OTAN).",
+    "ejemplo": "Pre-2020, pro-Trump, anti-EE. UU.",
+    "ejercicio": "Escribe 'anti + OTAN' con guion.",
+    "suggestedAnswer": "anti-OTAN."
+  },
+  {
+    "id": 38,
+    "name": "Guion para separar sílabas al final de línea (palabra partida)",
+    "category": "Guion",
+    "teoria": "El guion al final de línea indica que la palabra continúa en la línea siguiente.",
+    "ejemplo": "Este es un pá- \n rrafo partido.",
+    "ejercicio": "Divide correctamente 'transporte' con guion.",
+    "suggestedAnswer": "trans- \n porte."
+  },
+  {
+    "id": 39,
+    "name": "Comillas latinas y angulares",
+    "category": "Comillas",
+    "teoria": "En español se usan primero las comillas angulares (« »), luego las dobles (“ ”) y las simples (‘ ’).",
+    "ejemplo": "Me dijo: «Está todo bien».",
+    "ejercicio": "Reescribe la cita con comillas angulares: 'Vendré mañana'.",
+    "suggestedAnswer": "«Vendré mañana»."
+  },
+  {
+    "id": 40,
+    "name": "Comillas dobles para citas textuales",
+    "category": "Comillas",
+    "teoria": "Las comillas dobles (“ ”) se usan para reproducciones literales.",
+    "ejemplo": "El autor dijo: “El cambio es necesario”.",
+    "ejercicio": "Pon comillas dobles a la frase 'Me gusta leer'.",
+    "suggestedAnswer": "“Me gusta leer”."
+  },
+  {
+    "id": 41,
+    "name": "Comillas simples para citas dentro de citas",
+    "category": "Comillas",
+    "teoria": "Cuando hay una cita dentro de otra cita, se usan comillas simples (‘ ’) dentro de las dobles.",
+    "ejemplo": "Ana dijo: “Juan me contó ‘Voy a llegar tarde’”.",
+    "ejercicio": "Escribe una cita con dos niveles.",
+    "suggestedAnswer": "María dijo: “Pedro afirmó ‘Estoy cansado’”."
+  },
+  {
+    "id": 42,
+    "name": "Comillas para títulos de artículos o poemas",
+    "category": "Comillas",
+    "teoria": "Los títulos de artículos, poemas, capítulos se escriben entre comillas.",
+    "ejemplo": "Leí el artículo “El cambio climático”.",
+    "ejercicio": "Pon comillas al título 'La noche estrellada' (poema).",
+    "suggestedAnswer": "“La noche estrellada”."
+  },
+  {
+    "id": 43,
+    "name": "Comillas para extranjerismos no adaptados",
+    "category": "Comillas",
+    "teoria": "Los extranjerismos que no están adaptados al español se escriben en cursiva o entre comillas.",
+    "ejemplo": "El 'marketing' es clave.",
+    "ejercicio": "Pon comillas a 'software'.",
+    "suggestedAnswer": "“software” (aunque hoy se considera adaptado)."
+  },
+  {
+    "id": 44,
+    "name": "Comillas para ironía o palabras en sentido figurado",
+    "category": "Comillas",
+    "teoria": "Indican que la palabra se usa con un significado especial, irónico o metafórico.",
+    "ejemplo": "Fue un “genio” cometiendo ese error.",
+    "ejercicio": "Usa comillas para indicar ironía en 'inteligente'.",
+    "suggestedAnswer": "Fue un “inteligente” metiéndose en ese problema."
+  },
+  {
+    "id": 45,
+    "name": "Uso de la barra (/) en alternativas",
+    "category": "Barra",
+    "teoria": "Se usa para indicar opciones excluyentes (y/o, sí/no).",
+    "ejemplo": "Leer y/o escribir.",
+    "ejercicio": "Escribe una alternativa con barra.",
+    "suggestedAnswer": "Femenino/masculino."
+  },
+  {
+    "id": 46,
+    "name": "Barra para abreviaturas",
+    "category": "Barra",
+    "teoria": "Se usa en abreviaturas como c/ (calle), c/c (cuenta corriente).",
+    "ejemplo": "Vive en la c/ Mayor, 10.",
+    "ejercicio": "Escribe la abreviatura de 'calle' con barra.",
+    "suggestedAnswer": "c/."
+  },
+  {
+    "id": 47,
+    "name": "Barra en fechas",
+    "category": "Barra",
+    "teoria": "Separa día, mes y año (dd/mm/aaaa).",
+    "ejemplo": "31/12/2024.",
+    "ejercicio": "Escribe la fecha 15 de mayo de 2025 con barra.",
+    "suggestedAnswer": "15/05/2025."
+  },
+  {
+    "id": 48,
+    "name": "Barra en numeración de versos",
+    "category": "Barra",
+    "teoria": "Separa versos cuando se citan en línea continua.",
+    "ejemplo": "Solo sé que no sé nada / y esa es mi mayor certeza.",
+    "ejercicio": "Escribe dos versos separados por barra.",
+    "suggestedAnswer": "El tiempo pasa / y yo aquí."
+  },
+  {
+    "id": 49,
+    "name": "Punto y seguido en abreviaturas",
+    "category": "Abreviaturas",
+    "teoria": "Las abreviaturas llevan punto al final: Sr., Dr., pág.",
+    "ejemplo": "Dr. Pérez atendió al paciente.",
+    "ejercicio": "Abrevia 'señor'.",
+    "suggestedAnswer": "Sr."
+  },
+  {
+    "id": 50,
+    "name": "Punto en abreviaturas dobles (EE. UU., FF. AA.)",
+    "category": "Abreviaturas",
+    "teoria": "Las abreviaturas de palabras plurales se indican duplicando la letra y con punto después de cada letra.",
+    "ejemplo": "EE. UU. (Estados Unidos), FF. AA. (Fuerzas Armadas).",
+    "ejercicio": "Escribe la abreviatura de 'Estados Unidos'.",
+    "suggestedAnswer": "EE. UU."
+  },
+  {
+    "id": 51,
+    "name": "Punto en abreviaturas de tratamientos con mayúscula",
+    "category": "Abreviaturas",
+    "teoria": "Ud., Uds., D., D.ª, S.A.",
+    "ejemplo": "Ud. puede pasar. D. Juan llegó tarde.",
+    "ejercicio": "Abrevia 'usted'.",
+    "suggestedAnswer": "Ud."
+  },
+  {
+    "id": 52,
+    "name": "Sin punto en símbolos de unidades",
+    "category": "Abreviaturas",
+    "teoria": "Los símbolos de unidades de medida no llevan punto ni se pluralizan (kg, cm, l).",
+    "ejemplo": "5 kg (no 5 kgs.), 10 cm.",
+    "ejercicio": "Corrige '10 kilos' como símbolo.",
+    "suggestedAnswer": "10 kg."
+  },
+  {
+    "id": 53,
+    "name": "Uso de la coma en números decimales",
+    "category": "Números",
+    "teoria": "En español, la coma separa la parte entera de la decimal. (En algunos países se usa punto).",
+    "ejemplo": "Pi es 3,1416.",
+    "ejercicio": "Escribe el número 'tres punto catorce' con coma decimal.",
+    "suggestedAnswer": "3,14."
+  },
+  {
+    "id": 54,
+    "name": "Punto en miles (separador de miles)",
+    "category": "Números",
+    "teoria": "Se usa punto para separar los miles (1.000.000).",
+    "ejemplo": "10.000 personas.",
+    "ejercicio": "Escribe 'un millón' con separador de miles.",
+    "suggestedAnswer": "1.000.000."
+  },
+  {
+    "id": 55,
+    "name": "Coma Oxford (anglicismo innecesario)",
+    "category": "Coma",
+    "teoria": "En español no se usa la coma antes de 'y' en una enumeración, salvo para evitar ambigüedad.",
+    "ejemplo": "Incorrecto: 'Leche, pan, y queso'. Correcto: 'Leche, pan y queso'.",
+    "ejercicio": "Elimina la coma Oxford de 'Fui al cine, al teatro, y a la playa'.",
+    "suggestedAnswer": "Fui al cine, al teatro y a la playa."
+  },
+  {
+    "id": 56,
+    "name": "Coma para evitar ambigüedad",
+    "category": "Coma",
+    "teoria": "A veces es necesaria para evitar interpretaciones erróneas.",
+    "ejemplo": "El director, que llegó tarde, fue criticado (todos llegaron tarde). Sin coma: 'El director que llegó tarde fue criticado' (solo el que llegó tarde).",
+    "ejercicio": "Explica la diferencia de sentido con y sin coma en 'Los estudiantes, que estudian, aprueban'.",
+    "suggestedAnswer": "Con coma: todos estudian y todos aprueban; sin coma: solo aprueban los que estudian."
+  },
+  {
+    "id": 57,
+    "name": "Uso del punto en listas con viñetas",
+    "category": "Punto",
+    "teoria": "En listas de viñetas, los elementos cortos no llevan punto; los largos pueden llevarlo.",
+    "ejemplo": "• Café\n• Leche\n• Pan.",
+    "ejercicio": "¿Debe llevar punto la tercera viñeta en '• Pan'?",
+    "suggestedAnswer": "Solo si es una frase completa."
+  },
+  {
+    "id": 58,
+    "name": "Uso del punto en siglas",
+    "category": "Punto",
+    "teoria": "Las siglas (ONU, RAE) se escriben sin punto.",
+    "ejemplo": "ONU, OEA, FIFA.",
+    "ejercicio": "Escribe 'Organización de las Naciones Unidas' en sigla.",
+    "suggestedAnswer": "ONU."
+  },
+  {
+    "id": 59,
+    "name": "Uso de la raya en lugar de paréntesis en diálogos (línea de pensamiento)",
+    "category": "Raya",
+    "teoria": "En textos narrativos, la raya puede indicar un pensamiento del personaje.",
+    "ejemplo": "—¿Debo irme? —pensó.",
+    "ejercicio": "Escribe un pensamiento de un personaje usando raya.",
+    "suggestedAnswer": "—Ojalá no llueva —pensó mientras miraba el cielo."
+  },
+  {
+    "id": 60,
+    "name": "Uso de los dos puntos en el título de obras",
+    "category": "Dos puntos",
+    "teoria": "Los dos puntos separan el título principal del subtítulo.",
+    "ejemplo": "Cien años de soledad: el mito fundacional.",
+    "ejercicio": "Añade dos puntos en 'El Quijote un libro inmortal'.",
+    "suggestedAnswer": "El Quijote: un libro inmortal."
+  },
+  {
+    "id": 61,
+    "name": "Puntos suspensivos en final de cita truncada",
+    "category": "Puntos suspensivos",
+    "teoria": "Cuando se omite parte de una cita, se usan puntos suspensivos entre corchetes o paréntesis.",
+    "ejemplo": "El autor dice: “La situación es... [se omite]... preocupante”.",
+    "ejercicio": "Acorta la cita 'El cambio climático es un problema grave que requiere acción inmediata' a las primeras cinco palabras con puntos suspensivos.",
+    "suggestedAnswer": "“El cambio climático es un problema... grave” (no recomendable, mejor indicar la omisión)."
+  },
+  {
+    "id": 62,
+    "name": "Uso del guion en diálogos (versión simplificada)",
+    "category": "Guion",
+    "teoria": "En algunos textos, el guion corto (-) se usa en lugar de la raya para diálogos (menos formal).",
+    "ejemplo": "- ¿Vienes? - Sí.",
+    "ejercicio": "Escribe un diálogo usando guion corto.",
+    "suggestedAnswer": "- Hola - Buenos días."
+  },
+  {
+    "id": 63,
+    "name": "Punto después de comillas",
+    "category": "Punto",
+    "teoria": "El punto se coloca siempre después de las comillas de cierre, no antes.",
+    "ejemplo": "Me dijo “ven pronto”. (punto fuera).",
+    "ejercicio": "Corrige 'Me dijo “ven pronto”.'",
+    "suggestedAnswer": "Ya está correcto."
+  },
+  {
+    "id": 64,
+    "name": "Punto después de paréntesis",
+    "category": "Punto",
+    "teoria": "El punto va después del paréntesis si la frase completa incluye el inciso.",
+    "ejemplo": "El resultado (ver tabla) fue claro.",
+    "ejercicio": "Corrige 'El resultado (ver tabla). Fue claro'.",
+    "suggestedAnswer": "El resultado (ver tabla) fue claro."
+  },
+  {
+    "id": 65,
+    "name": "Punto antes de paréntesis cuando el inciso es independiente",
+    "category": "Punto",
+    "teoria": "Si el paréntesis encierra una oración completa, el punto va dentro.",
+    "ejemplo": "El experimento falló. (Los resultados no fueron concluyentes.)",
+    "ejercicio": "Corrige 'El experimento falló. (Los resultados no fueron concluyentes).'",
+    "suggestedAnswer": "El experimento falló. (Los resultados no fueron concluyentes.)"
+  },
+  {
+    "id": 66,
+    "name": "Signos de interrogación en preguntas indirectas",
+    "category": "Interrogación",
+    "teoria": "Las preguntas indirectas no llevan signos de interrogación.",
+    "ejemplo": "Me preguntó si vendría. (no ¿?).",
+    "ejercicio": "Corrige 'Me preguntó ¿si vendría?'.",
+    "suggestedAnswer": "Me preguntó si vendría."
+  },
+  {
+    "id": 67,
+    "name": "Exclamación en oraciones desiderativas",
+    "category": "Exclamación",
+    "teoria": "Se usan signos de exclamación en deseos y mandatos emotivos.",
+    "ejemplo": "¡Ojalá venga!",
+    "ejercicio": "Escribe un deseo con exclamación.",
+    "suggestedAnswer": "¡Que te vaya bien!"
+  },
+  {
+    "id": 68,
+    "name": "Exclamación e interrogación en oraciones con función mixta",
+    "category": "Exclamación e interrogación",
+    "teoria": "Se combinan los signos cuando la oración es a la vez pregunta y exclamación.",
+    "ejemplo": "¿¡Cómo has podido llegar tan tarde!?",
+    "ejercicio": "Escribe una oración que exprese sorpresa y pregunta a la vez.",
+    "suggestedAnswer": "¿¡En serio crees que voy a creerte!?"
+  },
+  {
+    "id": 69,
+    "name": "Punto y coma en oraciones con conectores como 'es decir'",
+    "category": "Punto y coma",
+    "teoria": "Se usa punto y coma antes de conectores como 'es decir', 'o sea', 'esto es', cuando la oración es larga.",
+    "ejemplo": "La situación es crítica; o sea, debemos actuar ya.",
+    "ejercicio": "Añade punto y coma antes de 'es decir' en 'Está agotado es decir necesita vacaciones'.",
+    "suggestedAnswer": "Está agotado; es decir, necesita vacaciones."
+  },
+  {
+    "id": 70,
+    "name": "Uso de la coma en fechas",
+    "category": "Coma",
+    "teoria": "La separación entre el día de la semana y el día del mes se hace con coma, y también entre el año y el resto cuando va incrustado.",
+    "ejemplo": "Lunes, 12 de octubre de 2024.",
+    "ejercicio": "Escribe 'Martes 15 de junio' con coma.",
+    "suggestedAnswer": "Martes, 15 de junio."
+  },
+  {
+    "id": 71,
+    "name": "Uso del punto en los números ordinales abreviados",
+    "category": "Punto",
+    "teoria": "Los ordinales abreviados llevan punto: 1.º, 2.ª, 3.er, 4.ª.",
+    "ejemplo": "Vive en el 2.º piso.",
+    "ejercicio": "Escribe 'tercero' en abreviatura.",
+    "suggestedAnswer": "3.er"
+  },
+  {
+    "id": 72,
+    "name": "Uso del punto en la numeración de apartados",
+    "category": "Punto",
+    "teoria": "Se usa punto después del número de un apartado o capítulo.",
+    "ejemplo": "1. Introducción. 1.1. Objetivos.",
+    "ejercicio": "Escribe el apartado 2 con subapartado 2.1.",
+    "suggestedAnswer": "2. Desarrollo. 2.1. Metodología."
+  },
+  {
+    "id": 73,
+    "name": "Uso de la raya en los complementos parentéticos",
+    "category": "Raya",
+    "teoria": "La raya puede usarse para encerrar un inciso que ya lleva comas internas.",
+    "ejemplo": "Los elementos —tierra, agua, fuego, aire— son básicos.",
+    "ejercicio": "Escribe un inciso con raya que contenga una enumeración.",
+    "suggestedAnswer": "Los colores primarios —rojo, amarillo, azul— son la base."
+  },
+  {
+    "id": 74,
+    "name": "Uso de los dos puntos en la estructura de textos legales",
+    "category": "Dos puntos",
+    "teoria": "Se usan dos puntos después de los enunciados introductorios de artículos o cláusulas.",
+    "ejemplo": "Artículo 1: Este documento regula...",
+    "ejercicio": "Escribe el inicio de un artículo legal con dos puntos.",
+    "suggestedAnswer": "Artículo 3: Queda prohibido fumar en espacios cerrados."
+  },
+  {
+    "id": 75,
+    "name": "Uso de los puntos suspensivos para indicar sorpresa",
+    "category": "Puntos suspensivos",
+    "teoria": "Expresan asombro o vacilación.",
+    "ejemplo": "Entonces... ¡apareció un fantasma!",
+    "ejercicio": "Escribe una oración de sorpresa con puntos suspensivos.",
+    "suggestedAnswer": "De repente... un ruido en la puerta."
+  },
+  {
+    "id": 76,
+    "name": "Uso del guion en palabras con prefijo 'ex'",
+    "category": "Guion",
+    "teoria": "El prefijo 'ex' no lleva guion, salvo cuando la base es una sigla (ex-ONU) o una palabra que empezaba por mayúscula (ex presidente se escribe sin guion).",
+    "ejemplo": "Expresidente, exalumno (sin guion).",
+    "ejercicio": "Escribe 'ex presidente' sin guion.",
+    "suggestedAnswer": "expresidente."
+  },
+  {
+    "id": 77,
+    "name": "Uso del guion en compuestos con números",
+    "category": "Guion",
+    "teoria": "Se usa guion en numerales compuestos (veintidós no lleva guion; treinta y tres tampoco; pero 22 se escribe sin guion).",
+    "ejemplo": "Veintiuno, veintidós (sin guion). Treinta y tres (sin guion).",
+    "ejercicio": "Escribe el número 45 con letra.",
+    "suggestedAnswer": "cuarenta y cinco (sin guion)."
+  },
+  {
+    "id": 78,
+    "name": "Uso de la raya en lugar de comillas para diálogos largos",
+    "category": "Raya",
+    "teoria": "En los diálogos, se puede prescindir de las comillas y usar la raya sola.",
+    "ejemplo": "—¿Cómo estás? —Bien, ¿y tú?",
+    "ejercicio": "Escribe un diálogo de tres intervenciones con raya.",
+    "suggestedAnswer": "—Hola —Buenas —¿Cómo va todo?"
+  },
+  {
+    "id": 79,
+    "name": "Uso del punto en las direcciones de correo electrónico",
+    "category": "Punto",
+    "teoria": "Los puntos en las direcciones de correo son parte de la dirección y no tienen función ortográfica.",
+    "ejemplo": "usuario@dominio.com.",
+    "ejercicio": "Escribe una dirección de correo ficticia.",
+    "suggestedAnswer": "juan.perez@ejemplo.com."
+  },
+  {
+    "id": 80,
+    "name": "Uso de la barra en fracciones",
+    "category": "Barra",
+    "teoria": "La barra se usa para separar numerador y denominador.",
+    "ejemplo": "1/2 (un medio).",
+    "ejercicio": "Escribe tres cuartos con barra.",
+    "suggestedAnswer": "3/4."
+  },
+  {
+    "id": 81,
+    "name": "Uso de la barra en porcentajes (alternativa a %)",
+    "category": "Barra",
+    "teoria": "Aunque no es común, la barra puede usarse en 'por cien' (10/100).",
+    "ejemplo": "El 5/100 de la población.",
+    "ejercicio": "Escribe 25 por ciento con barra.",
+    "suggestedAnswer": "25/100 (pero es más claro 25%)."
+  },
+  {
+    "id": 82,
+    "name": "Uso de los dos puntos en las fórmulas de cortesía (finales de carta)",
+    "category": "Dos puntos",
+    "teoria": "Tras las fórmulas de despedida (Atentamente,) se escribe coma, no dos puntos.",
+    "ejemplo": "Atentamente,",
+    "suggestedAnswer": "Atentamente,"
+  },
+  {
+    "id": 82,
+    "name": "Uso de los dos puntos en las fórmulas de cortesía (finales de carta)",
+    "category": "Dos puntos",
+    "teoria": "Tras las fórmulas de despedida (Atentamente,) se escribe coma, no dos puntos.",
+    "ejemplo": "Atentamente,",
+    "ejercicio": "Escribe la despedida 'Cordialmente' en una carta.",
+    "suggestedAnswer": "Cordialmente,"
+  },
+  {
+    "id": 83,
+    "name": "Punto y coma en oraciones causales largas",
+    "category": "Punto y coma",
+    "teoria": "En oraciones causales extensas, el punto y coma puede preceder a 'porque'.",
+    "ejemplo": "No vino; porque estaba enfermo, porque tenía que trabajar, y porque no le apetecía.",
+    "ejercicio": "Escribe una causa compuesta con punto y coma.",
+    "suggestedAnswer": "No salió; porque llovía, porque hacía frío, y porque no tenía ganas."
+  },
+  {
+    "id": 84,
+    "name": "Coma en la aposición especificativa (sin coma)",
+    "category": "Coma",
+    "teoria": "Las aposiciones especificativas no llevan comas.",
+    "ejemplo": "El poeta Neruda nació en Chile.",
+    "ejercicio": "Corrige 'El poeta, Neruda, nació en Chile' (si es especificativo, elimina comas).",
+    "suggestedAnswer": "El poeta Neruda nació en Chile."
+  },
+  {
+    "id": 85,
+    "name": "Coma en elipsis de verbo",
+    "category": "Coma",
+    "teoria": "Se usa coma para indicar la omisión del verbo (elipsis verbal).",
+    "ejemplo": "Juan estudia medicina; Pedro, derecho.",
+    "ejercicio": "Escribe una oración con elipsis del verbo usando coma.",
+    "suggestedAnswer": "Ella prefiere el café; él, el té."
+  },
+  {
+    "id": 86,
+    "name": "Puntos suspensivos en enumeraciones incompletas",
+    "category": "Puntos suspensivos",
+    "teoria": "Indican que la enumeración podría continuar.",
+    "ejemplo": "Puedes elegir rojo, verde, azul...",
+    "ejercicio": "Escribe una lista de tres colores y puntos suspensivos.",
+    "suggestedAnswer": "Rojo, amarillo, verde..."
+  },
+  {
+    "id": 87,
+    "name": "Punto y coma en textos jurídicos (numeración de incisos)",
+    "category": "Punto y coma",
+    "teoria": "En leyes y reglamentos, los incisos pueden separarse con punto y coma.",
+    "ejemplo": "Artículo 5: a) Se prohíbe fumar; b) Se prohíbe beber; c) Se permite hablar.",
+    "ejercicio": "Enumera dos incisos con punto y coma.",
+    "suggestedAnswer": "a) Primera opción; b) Segunda opción."
+  },
+  {
+    "id": 88,
+    "name": "Uso del punto en sitios web (URL)",
+    "category": "Punto",
+    "teoria": "El punto en las URL no es signo de puntuación, sino parte de la dirección.",
+    "ejemplo": "https://www.ejemplo.com.",
+    "ejercicio": "Escribe una URL ficticia.",
+    "suggestedAnswer": "www.midominio.com"
+  },
+  {
+    "id": 89,
+    "name": "Uso de la raya en poesía para indicar cambio de emisor",
+    "category": "Raya",
+    "teoria": "En poesía dramática, la raya puede indicar cambio de hablante.",
+    "ejemplo": "—¿Me quieres? —Sí —dijo ella.",
+    "ejercicio": "Escribe dos versos con raya para diálogo.",
+    "suggestedAnswer": "—Ven —susurró. —No puedo —respondió."
+  },
+  {
+    "id": 90,
+    "name": "Coma antes de 'etcétera'",
+    "category": "Coma",
+    "teoria": "Se escribe coma antes de etcétera o su abreviatura etc.",
+    "ejemplo": "Fruta: manzana, pera, plátano, etc.",
+    "ejercicio": "Añade coma antes de etc. en 'Trae pan leche queso etc.'.",
+    "suggestedAnswer": "Trae pan, leche, queso, etc."
+  },
+  {
+    "id": 91,
+    "name": "Punto y coma en el encabezado de listas numeradas",
+    "category": "Punto y coma",
+    "teoria": "Cuando los elementos de una lista son complejos, se separan con punto y coma.",
+    "ejemplo": "1. El proyecto se retrasó; 2. Los costos aumentaron; 3. El equipo lo logró.",
+    "ejercicio": "Escribe una lista de tres pasos con punto y coma.",
+    "suggestedAnswer": "1. Estudiar la teoría; 2. Hacer ejercicios; 3. Repasar lo aprendido."
+  },
+  {
+    "id": 92,
+    "name": "Coma en el último elemento de una enumeración antes de 'y' (cuando es necesario para claridad)",
+    "category": "Coma",
+    "teoria": "En casos de ambigüedad, se puede usar coma antes de 'y' (pero no es la norma general).",
+    "ejemplo": "Compré pan, vino, y queso y jamón (para evitar leer 'queso y jamón' como un solo producto).",
+    "ejercicio": "Explica por qué se añadiría coma antes de 'y' en 'Vino con Ana, Pedro y Luis y María'.",
+    "suggestedAnswer": "Para evitar confundir 'Luis y María' como una pareja; sería 'con Ana, Pedro, y Luis y María'."
+  },
+  {
+    "id": 93,
+    "name": "Uso de la barra en direcciones de internet (URL)",
+    "category": "Barra",
+    "teoria": "La barra separa directorios o recursos.",
+    "ejemplo": "https://ejemplo.com/pagina/subpagina",
+    "ejercicio": "Escribe una URL con dos barras.",
+    "suggestedAnswer": "www.ejemplo.com/carpeta/archivo"
+  },
+  {
+    "id": 94,
+    "name": "Comillas simples para glosas o acepciones",
+    "category": "Comillas",
+    "teoria": "En los diccionarios, las acepciones suelen ir entre comillas simples.",
+    "ejemplo": "Coche: ‘automóvil’.",
+    "ejercicio": "Escribe una acepción para 'libro' entre comillas simples.",
+    "suggestedAnswer": "Libro: ‘obra impresa’."
+  },
+  {
+    "id": 95,
+    "name": "Uso de los dos puntos en el resumen de artículos académicos (abstract)",
+    "category": "Dos puntos",
+    "teoria": "El título del abstract suele ir seguido de dos puntos.",
+    "ejemplo": "Resumen: Este artículo analiza...",
+    "ejercicio": "Escribe el inicio de un abstract con dos puntos.",
+    "suggestedAnswer": "Resumen: Se estudia el fenómeno de la globalización."
+  },
+  {
+    "id": 96,
+    "name": "Uso de la raya para cambios de escena en narrativa",
+    "category": "Raya",
+    "teoria": "En literatura, una raya sola puede indicar un cambio de escena o de tiempo.",
+    "ejemplo": "Terminó la reunión. — \n\n A la mañana siguiente, todo había cambiado.",
+    "ejercicio": "Escribe un cambio de escena breve usando raya.",
+    "suggestedAnswer": "Se fueron todos. — \n\n En la oficina vacía, el teléfono sonó."
+  },
+  {
+    "id": 97,
+    "name": "Uso de la barra en sistema de género (lenguaje inclusivo)",
+    "category": "Barra",
+    "teoria": "Se usa la barra para incluir ambos géneros (l@s, niñ@), aunque es criticado por la RAE.",
+    "ejemplo": "Estimad@s compañer@s.",
+    "ejercicio": "Escribe 'amigos y amigas' con barra.",
+    "suggestedAnswer": "amig@s."
+  },
+  {
+    "id": 98,
+    "name": "Punto final después de comillas en citas completas",
+    "category": "Punto",
+    "teoria": "Cuando la cita es completa y termina con punto, el punto va dentro de las comillas.",
+    "ejemplo": "Dijo: “Voy a casa.”",
+    "ejercicio": "Corrige 'Dijo “Voy a casa”.'",
+    "suggestedAnswer": "Dijo: “Voy a casa.”"
+  },
+  {
+    "id": 99,
+    "name": "Coma después de un adverbio al inicio de la oración",
+    "category": "Coma",
+    "teoria": "Adverbios como ciertamente, efectivamente, sin embargo, se separan con coma.",
+    "ejemplo": "Sin embargo, no vino.",
+    "ejercicio": "Añade coma después de 'Por lo tanto' en 'Por lo tanto se fue'.",
+    "suggestedAnswer": "Por lo tanto, se fue."
+  },
+  {
+    "id": 100,
+    "name": "Uso de puntos suspensivos en redes sociales (truncamiento de pensamiento)",
+    "category": "Puntos suspensivos",
+    "teoria": "En entornos digitales, los puntos suspensivos pueden indicar que la idea continúa o que se deja en suspenso.",
+    "ejemplo": "No sé qué pensar de esto...",
+    "ejercicio": "Escribe un tuit con puntos suspensivos para indicar duda.",
+    "suggestedAnswer": "Quizás sea buena idea... no lo sé."
+  }
+]
