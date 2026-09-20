@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "ejercicios",
     "certificaciones",
     "contenido",
+    "profesor",
     "gamificacion", 
 
 ]

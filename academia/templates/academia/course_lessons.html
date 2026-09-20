@@ -1,0 +1,97 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+
+  <!-- Breadcrumb -->
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'gamificacion:mis_cursos' %}">Mis Cursos</a></li>
+      <li class="breadcrumb-item active">{{ curso.titulo|truncatechars:50 }}</li>
+    </ol>
+  </nav>
+
+  <!-- Info curso -->
+  <div class="card mb-4">
+    <div class="card-body">
+      <div class="d-flex justify-content-between align-items-start">
+        <div>
+          <span class="badge bg-secondary">{{ curso.nivel.codigo }}</span>
+          <h2 class="mt-2">{{ curso.titulo }}</h2>
+          <p class="text-muted">{{ curso.descripcion }}</p>
+        </div>
+        <div class="text-end">
+          <h4>{{ lecciones|length }}</h4>
+          <small class="text-muted">lecciones</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lecciones -->
+  <h4 class="mb-3">📚 Lecciones</h4>
+  <div class="list-group">
+    {% for item in lecciones %}
+      <div class="list-group-item {% if item.desbloqueada %}list-group-item-action{% else %}bg-light{% endif %}">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            {% if item.completada %}
+              <span style="font-size:1.5rem; margin-right:10px;">✅</span>
+            {% elif item.desbloqueada %}
+              <span style="font-size:1.5rem; margin-right:10px;">📖</span>
+            {% else %}
+              <span style="font-size:1.5rem; margin-right:10px;">🔒</span>
+            {% endif %}
+            <div>
+              <strong>{{ item.leccion.titulo }}</strong>
+              {% if not item.desbloqueada %}
+                <br><small class="text-muted">Completa la lección anterior para desbloquear</small>
+              {% endif %}
+            </div>
+          </div>
+          <div>
+            {% if item.completada %}
+              <span class="badge bg-success">✅ Completada</span>
+            {% elif item.desbloqueada %}
+              <a href="{% url 'academia:lesson_detail' item.leccion.pk %}"
+                 class="btn btn-primary btn-sm">
+                Continuar →
+              </a>
+            {% else %}
+              <span class="badge bg-secondary">🔒 Bloqueada</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <div class="alert alert-info">
+        Este curso aún no tiene lecciones.
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Evaluación -->
+  {% if curso.evaluaciones.exists %}
+    <div class="card mt-4 border-warning">
+      <div class="card-body">
+        <h5>🏆 Evaluación final</h5>
+        <p class="text-muted small">Completa todas las lecciones y aprueba la evaluación para obtener tu certificado.</p>
+        {% for ev in curso.evaluaciones.all %}
+          <a href="{% url 'gamificacion:evaluaciones' %}" class="btn btn-warning">
+            Ir a evaluación: {{ ev.titulo|truncatechars:40 }}
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  <!-- Botón volver -->
+  <div class="mt-4">
+    <a href="{% url 'gamificacion:mis_cursos' %}" class="btn btn-outline-secondary">
+      ← Volver a mis cursos
+    </a>
+  </div>
+
+</div>
+{% endblock %}

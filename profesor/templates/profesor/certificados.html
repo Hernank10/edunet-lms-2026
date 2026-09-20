@@ -1,0 +1,19 @@
+{% extends "profesor/_base_profesor.html" %}
+{% block contenido %}
+<h2 class="mb-4">🏆 Certificados emitidos ({{ certificados|length }})</h2>
+<table class="table table-hover">
+  <thead>
+    <tr><th>Estudiante</th><th>Curso</th><th>Nota</th><th>Fecha</th></tr>
+  </thead>
+  <tbody>
+    {% for c in certificados %}
+      <tr>
+        <td>{{ c.usuario.username }}</td>
+        <td>{{ c.curso.titulo|truncatechars:50 }}</td>
+        <td>{{ c.nota_final }}%</td>
+        <td>{{ c.fecha_emision|date:"d M Y" }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

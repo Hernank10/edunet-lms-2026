@@ -1,0 +1,62 @@
+{% extends "gamificacion/_base_estudiante.html" %}
+{% block contenido %}
+<h2 class="mb-4">👤 Mi Perfil</h2>
+
+<div class="row">
+  <div class="col-md-4 mb-3">
+    <div class="card text-center">
+      <div class="card-body">
+        <div style="font-size:5rem;">👤</div>
+        <h4>{{ usuario.get_full_name|default:usuario.username }}</h4>
+        <p class="text-muted">@{{ usuario.username }}</p>
+        <p class="badge bg-primary">{{ perfil.titulo_nivel|default:"Aprendiz" }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-8">
+    <div class="card">
+      <div class="card-body">
+        <h5>Información</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between">
+            <span>📧 Email</span><strong>{{ usuario.email|default:"—" }}</strong>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>🌍 Idioma nativo</span><strong>{{ usuario.idioma_nativo|default:"Castellano" }}</strong>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>🕐 Zona horaria</span><strong>{{ usuario.zona_horaria|default:"UTC" }}</strong>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>📅 Miembro desde</span><strong>{{ usuario.date_joined|date:"M Y" }}</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card mt-3">
+      <div class="card-body">
+        <h5>Progreso de gamificación</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between">
+            <span>💎 XP Total</span><strong>{{ perfil.xp_total }}</strong>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>🏅 Nivel</span><strong>{{ perfil.nivel_actual }}</strong>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>🔥 Racha</span><strong>{{ perfil.racha_dias }} días</strong>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>🎓 Cursos completados</span><strong>{{ perfil.cursos_completados }}</strong>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>📚 Lecciones completadas</span><strong>{{ perfil.lecciones_completadas }}</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

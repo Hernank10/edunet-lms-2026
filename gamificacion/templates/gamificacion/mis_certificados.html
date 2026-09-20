@@ -1,0 +1,44 @@
+{% extends "gamificacion/_base_estudiante.html" %}
+{% block contenido %}
+<h2 class="mb-4">🏆 Mis Certificados</h2>
+
+<h4>Obtenidos ({{ obtenidos|length }})</h4>
+<div class="row mb-4">
+  {% for cert in obtenidos %}
+    <div class="col-md-6 mb-3">
+      <div class="card border-success h-100">
+        <div class="card-body">
+          <div class="d-flex justify-content-between mb-2">
+            <h5>{{ cert.curso.titulo|truncatechars:50 }}</h5>
+            <span class="badge bg-success">✅</span>
+          </div>
+          <p class="small mb-1">📅 {{ cert.fecha_emision|date:"d M Y" }}</p>
+          <p class="small mb-2">📝 Nota: {{ cert.nota_final }}%</p>
+          <p class="small">🔑 Código: <code>{{ cert.codigo_corto }}</code></p>
+          <a href="{% url 'certificaciones:ver_certificado' cert.codigo %}" class="btn btn-success btn-sm">
+            Ver certificado
+          </a>
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p class="text-muted">Aún no has obtenido certificados.</p>
+  {% endfor %}
+</div>
+
+<h4>Cursos completados sin certificado ({{ en_progreso|length }})</h4>
+<div class="row">
+  {% for curso in en_progreso %}
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <h6>{{ curso.titulo|truncatechars:50 }}</h6>
+          <span class="badge bg-warning">Pendiente emitir</span>
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p class="text-muted">Todos los cursos completados tienen certificado.</p>
+  {% endfor %}
+</div>
+{% endblock %}

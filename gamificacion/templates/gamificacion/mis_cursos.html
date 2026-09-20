@@ -1,26 +1,43 @@
 {% extends "gamificacion/_base_estudiante.html" %}
 {% block contenido %}
-<h2 class="mb-4">🎓 Mis Cursos ({{ inscripciones|length }})</h2>
+<h2 class="mb-4">🎓 Mis Cursos</h2>
+
+<ul class="nav nav-pills mb-3">
+  <li class="nav-item">
+    <a class="nav-link {% if filtro == 'todos' %}active{% endif %}" href="?filtro=todos">Todos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {% if filtro == 'activos' %}active{% endif %}" href="?filtro=activos">En progreso</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link {% if filtro == 'completados' %}active{% endif %}" href="?filtro=completados">Completados</a>
+  </li>
+</ul>
+
 <div class="row">
   {% for ins in inscripciones %}
     <div class="col-md-4 mb-3">
       <div class="card h-100">
         <div class="card-body">
-          <h6>{{ ins.curso.titulo|truncatechars:60 }}</h6>
-          <small class="text-muted">{{ ins.curso.nivel.codigo }}</small>
+          <span class="badge bg-secondary">{{ ins.curso.nivel.codigo }}</span>
+          <h6 class="mt-2">{{ ins.curso.titulo|truncatechars:60 }}</h6>
           <div class="progress my-2" style="height:12px;">
-            <div class="progress-bar" style="width: {{ ins.progreso_pct }}%;">{{ ins.progreso_pct }}%</div>
+            <div class="progress-bar" style="width: {{ ins.progreso_pct }}%;">
+              {{ ins.progreso_pct }}%
+            </div>
           </div>
           {% if ins.completado %}
-            <span class="badge bg-success">✅ Completado</span>
+            <span class="badge bg-success w-100">✅ Completado</span>
           {% else %}
-            <a href="{% url 'academia:course_lessons' ins.curso.id %}" class="btn btn-primary btn-sm w-100">Continuar</a>
+            <a href="{% url 'academia:course_lessons' ins.curso.id %}" class="btn btn-primary btn-sm w-100">
+              Continuar
+            </a>
           {% endif %}
         </div>
       </div>
     </div>
   {% empty %}
-    <p class="text-muted">No estás inscrito en ningún curso.</p>
+    <p class="text-muted">No tienes cursos en esta categoría.</p>
   {% endfor %}
 </div>
 {% endblock %}

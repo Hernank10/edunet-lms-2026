@@ -1,46 +1,116 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="container mt-5" style="max-width: 800px;">
-  <div class="card border-success shadow">
-    <div class="card-body text-center p-5">
-      <div style="font-size: 4rem;">🏆</div>
-      <h1 class="mt-3">Certificado de Finalización</h1>
-      <hr>
-      <p class="lead">Se certifica que</p>
-      <h2 class="text-primary">{{ cert.usuario.get_full_name|default:cert.usuario.username }}</h2>
-      <p class="lead">ha completado satisfactoriamente el curso</p>
-      <h3 class="text-success">{{ cert.curso.titulo }}</h3>
-      <p class="mt-3">
-        Nivel <strong>{{ cert.curso.nivel.codigo }}</strong> ·
-        Nota final: <strong>{{ cert.nota_final }}/100</strong> ·
-        Duración: <strong>{{ cert.horas }} horas</strong>
-      </p>
-      <hr>
-      <div class="row mt-4">
-        <div class="col-md-6">
-          <small class="text-muted">Fecha de emisión</small>
-          <p>{{ cert.fecha_emision|date:"d \d\e F \d\e Y" }}</p>
-        </div>
-        <div class="col-md-6">
-          <small class="text-muted">Código único</small>
-          <p><code>{{ cert.codigo }}</code></p>
-        </div>
-      </div>
-      <div class="mt-4">
-        <span class="badge bg-success">✅ Certificado verificado</span>
-      </div>
-      <p class="text-muted small mt-4">
-        Este certificado puede verificarse en cualquier momento en
-        <a href="{% url 'certificaciones:verificar' %}">la página de verificación</a>.
-      </p>
-    </div>
+<div class="container my-5">
+  <div class="text-center mb-3">
+    <a href="{% url 'certificaciones:mis_certificados' %}" class="btn btn-outline-secondary">
+      ← Volver
+    </a>
+    <button onclick="window.print()" class="btn btn-primary">
+      🖨️ Imprimir / Guardar como PDF
+    </button>
   </div>
 
-  <div class="text-center mt-3">
-    <a href="{% url 'certificaciones:mis_certificados' %}" class="btn btn-outline-secondary">
-      ← Volver a mis certificados
-    </a>
+  <!-- DIPLOMA -->
+  <div id="diploma" class="mx-auto p-5" style="max-width: 900px; background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); border: 15px double #b8860b; position: relative;">
+
+    <!-- Esquinas decorativas -->
+    <div style="position:absolute; top:10px; left:10px; font-size:2rem; color:#b8860b;">❦</div>
+    <div style="position:absolute; top:10px; right:10px; font-size:2rem; color:#b8860b;">❦</div>
+    <div style="position:absolute; bottom:10px; left:10px; font-size:2rem; color:#b8860b;">❦</div>
+    <div style="position:absolute; bottom:10px; right:10px; font-size:2rem; color:#b8860b;">❦</div>
+
+    <!-- Header -->
+    <div class="text-center">
+      <div style="font-size:4rem;">🎓</div>
+      <h1 style="font-family:'Georgia',serif; color:#8b4513; font-size:2.5rem; margin-top:10px;">
+        CERTIFICADO DE FINALIZACIÓN
+      </h1>
+      <p style="font-family:'Georgia',serif; font-style:italic; color:#666;">
+        {{ cert.institucion }}
+      </p>
+      <hr style="border:2px solid #b8860b; width:60%; margin:20px auto;">
+    </div>
+
+    <!-- Cuerpo -->
+    <div class="text-center" style="font-family:'Georgia',serif; padding:30px 0;">
+      <p style="font-size:1.2rem; color:#444;">Se otorga el presente certificado a</p>
+
+      <h2 style="font-size:2.5rem; color:#1a5490; font-family:'Georgia',serif; margin:20px 0; border-bottom:1px solid #ccc; display:inline-block; padding:0 40px 10px;">
+        {{ cert.nombre_estudiante }}
+      </h2>
+
+      <p style="font-size:1.1rem; margin-top:20px; color:#444;">
+        por haber completado satisfactoriamente el curso
+      </p>
+
+      <h3 style="font-size:1.8rem; color:#8b4513; margin:15px 0; font-family:'Georgia',serif;">
+        "{{ cert.curso.titulo }}"
+      </h3>
+
+      <p style="font-size:1rem; color:#666; margin-top:15px;">
+        Nivel <strong>{{ cert.curso.nivel.codigo }}</strong> ·
+        Nota final <strong>{{ cert.nota_final }}/100</strong> ·
+        Duración <strong>{{ cert.horas }} horas</strong>
+      </p>
+    </div>
+
+    <!-- Firmas -->
+    <div class="row mt-5 text-center" style="font-family:'Georgia',serif;">
+      <div class="col-6">
+        <div style="border-top:2px solid #333; padding-top:10px; margin:0 20px;">
+          <strong>{{ cert.nombre_admin }}</strong>
+          <br><small>{{ cert.cargo_admin }}</small>
+          <br><small style="color:#888;">Firma del Administrador</small>
+        </div>
+      </div>
+      <div class="col-6">
+        <div style="border-top:2px solid #333; padding-top:10px; margin:0 20px;">
+          <strong>{{ cert.nombre_profesor }}</strong>
+          <br><small>{{ cert.cargo_profesor }}</small>
+          <br><small style="color:#888;">Firma del Profesor</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sello y fecha -->
+    <div class="row mt-5 align-items-center">
+      <div class="col-md-3 text-center">
+        <div style="border:3px solid #b8860b; border-radius:50%; width:100px; height:100px; line-height:94px; margin:0 auto; color:#b8860b; font-family:'Georgia',serif; font-weight:bold;">
+          SELLO<br>OFICIAL
+        </div>
+      </div>
+      <div class="col-md-6 text-center" style="font-family:'Georgia',serif;">
+        <p style="font-size:0.9rem; color:#666;">Emitido el</p>
+        <p style="font-size:1.1rem;"><strong>{{ cert.fecha_emision|date:"d \d\e F \d\e Y" }}</strong></p>
+      </div>
+      <div class="col-md-3 text-center">
+        <div style="border:2px dashed #666; padding:10px; font-family:monospace; font-size:0.8rem;">
+          Código<br><strong>{{ cert.codigo_corto }}</strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- Verificación -->
+    <div class="text-center mt-4">
+      <small style="color:#888; font-family:'Georgia',serif;">
+        Este certificado puede verificarse en
+        <a href="{% url 'certificaciones:verificar' %}">la página de verificación</a>
+        con el código completo
+      </small>
+    </div>
+
+    <!-- Marca de agua -->
+    <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%) rotate(-30deg); font-size:8rem; color:rgba(184,134,11,0.05); font-family:'Georgia',serif; font-weight:bold; pointer-events:none; z-index:0;">
+      OFICIAL
+    </div>
   </div>
 </div>
+
+<style>
+  @media print {
+    nav, footer, .btn { display: none !important; }
+    #diploma { border-width: 10px; box-shadow: none; }
+  }
+</style>
 {% endblock %}

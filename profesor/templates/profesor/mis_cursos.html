@@ -1,0 +1,32 @@
+{% extends "profesor/_base_profesor.html" %}
+{% block contenido %}
+<h2 class="mb-4">🎓 Mis Cursos ({{ cursos|length }})</h2>
+<div class="row">
+  {% for item in cursos %}
+    <div class="col-md-4 mb-3">
+      <div class="card h-100">
+        <div class="card-body">
+          <span class="badge bg-secondary">{{ item.curso.nivel.codigo }}</span>
+          <h6 class="mt-2">{{ item.curso.titulo|truncatechars:60 }}</h6>
+          <div class="row small mt-3">
+            <div class="col-6">👥 {{ item.inscripciones }}</div>
+            <div class="col-6">📚 {{ item.lecciones }} lecc.</div>
+            <div class="col-6">📝 {{ item.evaluaciones }} eval.</div>
+            <div class="col-6">✅ {{ item.completados }}</div>
+          </div>
+          <div class="progress mt-2" style="height:10px;">
+            <div class="progress-bar" style="width: {{ item.pct_completado }}%;">
+              {{ item.pct_completado }}%
+            </div>
+          </div>
+          <a href="{% url 'profesor:curso_detalle' item.curso.id %}" class="btn btn-primary btn-sm w-100 mt-3">
+            Gestionar curso
+          </a>
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    <p class="text-muted">No tienes cursos asignados.</p>
+  {% endfor %}
+</div>
+{% endblock %}

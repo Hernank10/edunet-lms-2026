@@ -1,0 +1,113 @@
+{% extends "profesor/_base_profesor.html" %}
+{% block contenido %}
+<nav><ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="{% url 'profesor:mis_cursos' %}">Mis cursos</a></li>
+  <li class="breadcrumb-item active">{{ curso.titulo|truncatechars:40 }}</li>
+</ol></nav>
+
+<h2>{{ curso.titulo }}</h2>
+<p class="text-muted">{{ curso.descripcion }}</p>
+
+<div class="row mb-4">
+  <div class="col-md-3 mb-2">
+    <div class="card bg-primary text-white">
+      <div class="card-body text-center">
+        <h4>{{ estudiantes|length }}</h4>
+        <small>Estudiantes</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <div class="card bg-success text-white">
+      <div class="card-body text-center">
+        <h4>{{ evaluaciones|length }}</h4>
+        <small>Evaluaciones</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <div class="card bg-info text-white">
+      <div class="card-body text-center">
+        <h4>{{ curso.lecciones.count }}</h4>
+        <small>Lecciones</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <a href="{% url 'profesor:crear_anuncio' curso.id %}" class="card bg-warning text-dark text-decoration-none">
+      <div class="card-body text-center">
+        <h4>📢</h4>
+        <small>Nuevo anuncio</small>
+      </div>
+    </a>
+  </div>
+</div>
+
+<ul class="nav nav-tabs mb-3">
+  <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#estudiantes">👥 Estudiantes</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#evaluaciones">📝 Evaluaciones</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#anuncios">📢 Anuncios</a></li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane fade show active" id="estudiantes">
+    <table class="table table-hover">
+      <thead>
+        <tr><th>Estudiante</th><th>Progreso</th><th>Intentos</th><th>Mejor nota</th><th>Estado</th></tr>
+      </thead>
+      <tbody>
+        {% for e in estudiantes %}
+          <tr>
+            <td>{{ e.usuario.get_full_name|default:e.usuario.username }}</td>
+            <td>
+              <div class="progress" style="height:12px;">
+                <div class="progress-bar" style="width: {{ e.progreso_pct }}%;">{{ e.progreso_pct }}%</div>
+              </div>
+            </td>
+            <td>{{ e.intentos }}</td>
+            <td>{% if e.mejor_nota is not None %}{{ e.mejor_nota }}%{% else %}—{% endif %}</td>
+            <td>
+              {% if e.completado %}<span class="badge bg-success">✅ Completado</span>
+              {% elif e.aprobado %}<span class="badge bg-info">Aprobado</span>
+              {% else %}<span class="badge bg-secondary">En curso</span>{% endif %}
+            </td>
+          </tr>
+        {% empty %}
+          <tr><td colspan="5" class="text-muted">Sin estudiantes.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane fade" id="evaluaciones">
+    <table class="table">
+      <thead><tr><th>Evaluación</th><th>Preguntas</th><th>Nota mínima</th></tr></thead>
+      <tbody>
+        {% for ev in evaluaciones %}
+          <tr>
+            <td>{{ ev.titulo }}</td>
+            <td>{{ ev.preguntas.count }}</td>
+            <td>{{ ev.nota_minima }}%</td>
+          </tr>
+        {% empty %}
+          <tr><td colspan="3" class="text-muted">Sin evaluaciones.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane fade" id="anuncios">
+    {% for a in anuncios %}
+      <div class="card mb-2">
+        <div class="card-body">
+          <h6>{{ a.titulo }}</h6>
+          <p>{{ a.contenido }}</p>
+          <small class="text-muted">{{ a.fecha|date:"d M Y H:i" }}</small>
+        </div>
+      </div>
+    {% empty %}
+      <p class="text-muted">No hay anuncios.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

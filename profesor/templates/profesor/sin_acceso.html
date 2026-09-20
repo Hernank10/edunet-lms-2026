@@ -1,0 +1,7 @@
+{% extends "profesor/_base_profesor.html" %}
+{% block contenido %}
+<div class="alert alert-danger">
+  <h4>🚫 Sin acceso</h4>
+  <p>No tienes permiso para ver el curso: {{ curso.titulo }}</p>
+</div>
+{% endblock %}

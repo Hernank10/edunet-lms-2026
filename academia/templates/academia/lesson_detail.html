@@ -1,64 +1,45 @@
-{% extends "base.html" %}
+﻿{% extends "base.html" %}
 
 {% block content %}
-<h2>{{ lesson.title }}</h2>
+<div class="container mt-4" style="max-width: 900px;">
 
-<div class="mb-4">
-  {{ lesson.content|linebreaks }}
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+      <li class="breadcrumb-item">
+        <a href="{% url 'academia:course_lessons' leccion.curso.id %}">
+          {{ leccion.curso.titulo|truncatechars:40 }}
+        </a>
+      </li>
+      <li class="breadcrumb-item active">Lección {{ leccion.orden }}</li>
+    </ol>
+  </nav>
+
+  <div class="card">
+    <div class="card-header bg-primary text-white">
+      <h3 class="mb-0">{{ leccion.titulo }}</h3>
+    </div>
+    <div class="card-body">
+      <div class="content">
+        {{ leccion.contenido|linebreaks }}
+      </div>
+
+      <hr class="my-4">
+
+      <div class="d-flex justify-content-between">
+        <a href="{% url 'academia:course_lessons' leccion.curso.id %}"
+           class="btn btn-outline-secondary">
+          ← Volver al curso
+        </a>
+        <form method="post" class="d-inline">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-success">
+            ✅ Marcar como completada
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
 </div>
-
-<h4>Ejercicios</h4>
-
-<form method="post">
-  {% csrf_token %}
-
-  {% for exercise in lesson.exercises.all %}
-    <div class="mb-3">
-      <strong>{{ exercise.question }}</strong>
-
-      {% for option in exercise.options %}
-        <div class="form-check">
-          <input class="form-check-input"
-                 type="radio"
-                 name="exercise_{{ exercise.id }}">
-          <label class="form-check-label">
-            {{ option }}
-          </label>
-        </div>
-      {% endfor %}
-    </div>
-  {% endfor %}
-
-  {% if not progress.completed %}
-    <button type="submit" class="btn btn-success">
-      Marcar como completada
-    </button>
-  {% else %}
-    <div class="alert alert-success">
-      ✔ Lección completada
-    </div>
-  {% endif %}
-</form>
 {% endblock %}
-
-{% extends "base.html" %}
-
-{% block content %}
-
-<h2>{{ leccion.titulo }}</h2>
-
-<p>{{ leccion.contenido }}</p>
-
-<form method="post">
-    {% csrf_token %}
-
-    {% for ejercicio in ejercicios %}
-        <p>{{ ejercicio.data.pregunta }}</p>
-        <input type="text" name="ejercicio_{{ ejercicio.id }}">
-    {% endfor %}
-
-    <button type="submit">Enviar</button>
-</form>
-
-{% endblock %}
-

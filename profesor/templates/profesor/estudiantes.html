@@ -1,0 +1,19 @@
+{% extends "profesor/_base_profesor.html" %}
+{% block contenido %}
+<h2 class="mb-4">👥 Estudiantes ({{ estudiantes|length }})</h2>
+<table class="table table-hover">
+  <thead>
+    <tr><th>Usuario</th><th>Nombre</th><th>Inscripciones</th><th>Completados</th></tr>
+  </thead>
+  <tbody>
+    {% for e in estudiantes %}
+      <tr>
+        <td>{{ e.usuario.username }}</td>
+        <td>{{ e.usuario.get_full_name|default:"—" }}</td>
+        <td>{{ e.inscripciones }}</td>
+        <td>{{ e.completados }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

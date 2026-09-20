@@ -1,75 +1,191 @@
-﻿{% extends "base.html" %}
+{% extends "base.html" %}
 
 {% block content %}
+<div class="container mt-4">
 
-<!-- ===== SECCIÓN 1: Mi Academia de Castellano ===== -->
-<h1 class="mb-4">🎓 Mi Academia de Castellano</h1>
+  <!-- HERO -->
+  <div class="p-5 mb-4 bg-primary text-white rounded">
+    <h1 class="display-4">🎓 Academia Global de Castellano</h1>
+    <p class="lead">Aprende, practica y certifícate con 42 cursos, 2.000+ técnicas y 428 apps interactivas.</p>
+    <a href="{% url 'contenido:hub' %}" class="btn btn-light btn-lg">Explorar contenido →</a>
+    <a href="{% url 'gamificacion:dashboard' %}" class="btn btn-outline-light btn-lg">Mi dashboard</a>
+  </div>
 
-<div class="row">
-  {% for curso in cursos %}
-    <div class="col-md-4 mb-3">
-      <div class="card h-100">
-        <div class="card-body">
-          <h5>{{ curso.nombre }}</h5>
-          <p>
-            {{ curso.idioma.nombre }} ·
-            {{ curso.nivel.nombre }}
-          </p>
-          <a href="{% url 'academia:curso_detail' curso.slug %}"
-             class="btn btn-primary btn-sm">
-             Entrar
-          </a>
+  <!-- STATS -->
+  <div class="row mb-4">
+    <div class="col-md-3 col-lg-2 mb-3">
+      <div class="card text-white bg-primary h-100">
+        <div class="card-body text-center">
+          <h3>{{ total_cursos }}</h3>
+          <small>🎓 Cursos</small>
         </div>
       </div>
     </div>
-  {% empty %}
-    <p>No hay cursos aún.</p>
-  {% endfor %}
-</div>
+    <div class="col-md-3 col-lg-2 mb-3">
+      <div class="card text-white bg-success h-100">
+        <div class="card-body text-center">
+          <h3>{{ total_recursos }}</h3>
+          <small>📄 Recursos</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-2 mb-3">
+      <div class="card text-white bg-info h-100">
+        <div class="card-body text-center">
+          <h3>{{ total_tecnicas }}</h3>
+          <small>🎯 Técnicas</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-2 mb-3">
+      <div class="card text-white bg-warning h-100">
+        <div class="card-body text-center">
+          <h3>{{ total_htmls }}</h3>
+          <small>🌐 HTMLs</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-2 mb-3">
+      <div class="card text-white bg-secondary h-100">
+        <div class="card-body text-center">
+          <h3>{{ total_usuarios }}</h3>
+          <small>👥 Usuarios</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-lg-2 mb-3">
+      <div class="card text-white bg-dark h-100">
+        <div class="card-body text-center">
+          <h3>{{ total_certificados }}</h3>
+          <small>🏆 Certificados</small>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<!-- ===== SECCIÓN 2: Mi Progreso ===== -->
-<div class="container mt-4">
-  <h2>📊 Mi Progreso</h2>
+  <!-- ACCESOS RÁPIDOS -->
+  <div class="row mb-4">
+    <div class="col-md-4 mb-3">
+      <a href="{% url 'contenido:lista_recursos' %}" class="card h-100 text-decoration-none">
+        <div class="card-body text-center">
+          <div style="font-size:3rem;">📄</div>
+          <h5>Recursos JSON</h5>
+          <p class="text-muted">{{ total_recursos }} recursos con {{ total_tecnicas }} técnicas</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 mb-3">
+      <a href="{% url 'contenido:lista_htmls' %}" class="card h-100 text-decoration-none">
+        <div class="card-body text-center">
+          <div style="font-size:3rem;">🌐</div>
+          <h5>HTMLs interactivos</h5>
+          <p class="text-muted">{{ total_htmls }} apps: flotas, cuadernos, juegos</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-4 mb-3">
+      <a href="{% url 'contenido:hub' %}" class="card h-100 text-decoration-none">
+        <div class="card-body text-center">
+          <div style="font-size:3rem;">📚</div>
+          <h5>Hub de contenido</h5>
+          <p class="text-muted">{{ categorias|length }} categorías temáticas</p>
+        </div>
+      </a>
+    </div>
+  </div>
 
-  {% for item in data %}
-    <div class="card my-4">
-      <div class="card-body">
-        <h5 class="card-title">
-          {{ item.curso.titulo }} — Nivel {{ item.nivel.codigo }}
-        </h5>
-
-        <div class="progress mb-3">
-          <div class="progress-bar"
-               role="progressbar"
-               style="width: {{ item.progreso }}%;">
-            {{ item.progreso }}%
+  <!-- CATEGORÍAS -->
+  <h3 class="mb-3">📂 Explorar por categoría</h3>
+  <div class="row mb-5">
+    {% for cat in categorias %}
+      <div class="col-md-4 col-lg-3 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h6>{{ cat.nombre }}</h6>
+            <p class="text-muted small mb-2">
+              {{ cat.recursos }} recursos · {{ cat.htmls }} HTMLs
+            </p>
+            <div class="d-grid gap-1">
+              <a href="{% url 'contenido:lista_recursos' %}?categoria={{ cat.codigo }}"
+                 class="btn btn-sm btn-outline-primary">
+                📄 {{ cat.recursos }} recursos
+              </a>
+              <a href="{% url 'contenido:lista_htmls' %}?categoria={{ cat.codigo }}"
+                 class="btn btn-sm btn-outline-success">
+                🌐 {{ cat.htmls }} HTMLs
+              </a>
+            </div>
           </div>
         </div>
-
-        <ul class="list-group">
-          {% for l in item.lecciones %}
-            <li class="list-group-item d-flex justify-content-between">
-              {{ l.obj.titulo }}
-
-              {% if l.completada %}
-                <span class="badge bg-success">✅ Completada</span>
-              {% elif l.disponible %}
-                <a href="{% url 'leccion_detail' l.obj.slug %}"
-                   class="btn btn-sm btn-primary">
-                   Continuar
-                </a>
-              {% else %}
-                <span class="badge bg-secondary">🔒 Bloqueada</span>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-
       </div>
-    </div>
-  {% empty %}
-    <p>No hay progreso registrado aún.</p>
-  {% endfor %}
-</div>
+    {% endfor %}
+  </div>
 
+  <!-- ÚLTIMOS RECURSOS -->
+  <h3 class="mb-3">📄 Últimos recursos añadidos</h3>
+  <div class="row mb-5">
+    {% for rec in ultimos_recursos %}
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-secondary">{{ rec.get_categoria_display }}</span>
+            <h6 class="mt-2">{{ rec.titulo|truncatechars:55 }}</h6>
+            <p class="small text-muted">🎯 {{ rec.total_real }} técnicas</p>
+            <a href="{% url 'contenido:detalle_recurso' rec.pk %}" class="btn btn-primary btn-sm w-100">
+              Ver técnicas
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- ÚLTIMOS HTMLs -->
+  <h3 class="mb-3">🌐 Últimas apps interactivas</h3>
+  <div class="row mb-5">
+    {% for html in ultimos_htmls %}
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-warning text-dark">{{ html.get_tipo_display }}</span>
+            <h6 class="mt-2">{{ html.titulo|truncatechars:55 }}</h6>
+            <p class="small text-muted">{{ html.get_categoria_display }}</p>
+            <a href="{% url 'contenido:visor_html' html.slug %}" class="btn btn-success btn-sm w-100">
+              ▶ Abrir
+            </a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- CURSOS -->
+  <h3 class="mb-3">🎓 Cursos ({{ total_cursos }})</h3>
+  <div class="row">
+    {% for curso in cursos %}
+      <div class="col-md-4 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-secondary">{{ curso.nivel.codigo }}</span>
+            <h6 class="mt-2">{{ curso.titulo|truncatechars:60 }}</h6>
+            <p class="small text-muted">{{ curso.descripcion|truncatechars:80 }}</p>
+            <a href="{% url 'academia:curso_detail' curso.slug %}"
+               class="btn btn-primary btn-sm w-100">
+              Ver curso
+            </a>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p class="text-muted">No hay cursos aún.</p>
+    {% endfor %}
+  </div>
+
+  <div class="text-center mt-4 mb-5">
+    <a href="{% url 'gamificacion:dashboard' %}" class="btn btn-lg btn-success">
+      🎮 Ir a mi panel de estudiante
+    </a>
+  </div>
+
+</div>
 {% endblock %}

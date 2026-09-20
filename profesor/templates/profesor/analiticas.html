@@ -1,0 +1,26 @@
+{% extends "profesor/_base_profesor.html" %}
+{% block contenido %}
+<h2 class="mb-4">📈 Analíticas por Curso</h2>
+<table class="table table-hover">
+  <thead>
+    <tr><th>Curso</th><th>Intentos</th><th>Promedio</th><th>Aprobados</th><th>% Aprobados</th></tr>
+  </thead>
+  <tbody>
+    {% for s in cursos_stats %}
+      <tr>
+        <td>{{ s.curso.titulo|truncatechars:50 }}</td>
+        <td>{{ s.intentos }}</td>
+        <td>{{ s.promedio }}%</td>
+        <td>{{ s.aprobados }}</td>
+        <td>
+          <div class="progress" style="height:12px;">
+            <div class="progress-bar bg-success" style="width: {{ s.pct_aprobados }}%;">{{ s.pct_aprobados }}%</div>
+          </div>
+        </td>
+      </tr>
+    {% empty %}
+      <tr><td colspan="5" class="text-muted">Sin datos.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
