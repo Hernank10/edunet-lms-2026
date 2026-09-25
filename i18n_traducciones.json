@@ -1,0 +1,178 @@
+﻿{
+  "Castellano Global": {
+    "es": "Castellano Global", "en": "Global Spanish", "zh-hans": "全球西班牙语",
+    "hi": "वैश्विक स्पेनिश", "ar": "الإسبانية العالمية", "pt": "Castelhano Global",
+    "bn": "গ্লোবাল স্প্যানিশ", "ru": "Глобальный испанский", "ja": "グローバル・スペイン語",
+    "de": "Globales Spanisch", "fr": "Espagnol Global", "ko": "글로벌 스페인어",
+    "it": "Spagnolo Globale", "tr": "Küresel İspanyolca", "vi": "Tiếng Tây Ban Nha Toàn cầu"
+  },
+  "Contenido": {
+    "es": "Contenido", "en": "Content", "zh-hans": "内容", "hi": "सामग्री",
+    "ar": "المحتوى", "pt": "Conteúdo", "bn": "বিষয়বস্তু", "ru": "Содержание",
+    "ja": "コンテンツ", "de": "Inhalt", "fr": "Contenu", "ko": "콘텐츠",
+    "it": "Contenuto", "tr": "İçerik", "vi": "Nội dung"
+  },
+  "Recursos": {
+    "es": "Recursos", "en": "Resources", "zh-hans": "资源", "hi": "संसाधन",
+    "ar": "الموارد", "pt": "Recursos", "bn": "সম্পদ", "ru": "Ресурсы",
+    "ja": "リソース", "de": "Ressourcen", "fr": "Ressources", "ko": "리소스",
+    "it": "Risorse", "tr": "Kaynaklar", "vi": "Tài nguyên"
+  },
+  "HTMLs": {
+    "es": "HTMLs", "en": "HTMLs", "zh-hans": "HTML", "hi": "HTML",
+    "ar": "HTML", "pt": "HTMLs", "bn": "HTML", "ru": "HTML",
+    "ja": "HTML", "de": "HTMLs", "fr": "HTML", "ko": "HTML",
+    "it": "HTML", "tr": "HTML", "vi": "HTML"
+  },
+  "Entrar": {
+    "es": "Entrar", "en": "Log in", "zh-hans": "登录", "hi": "लॉग इन",
+    "ar": "تسجيل الدخول", "pt": "Entrar", "bn": "লগ ইন", "ru": "Войти",
+    "ja": "ログイン", "de": "Anmelden", "fr": "Connexion", "ko": "로그인",
+    "it": "Accedi", "tr": "Giriş yap", "vi": "Đăng nhập"
+  },
+  "Registro": {
+    "es": "Registro", "en": "Sign up", "zh-hans": "注册", "hi": "साइन अप",
+    "ar": "التسجيل", "pt": "Registro", "bn": "সাইন আপ", "ru": "Регистрация",
+    "ja": "登録", "de": "Registrieren", "fr": "Inscription", "ko": "가입",
+    "it": "Registrati", "tr": "Kayıt ol", "vi": "Đăng ký"
+  },
+  "Academia Global de Castellano": {
+    "es": "Academia Global de Castellano", "en": "Global Spanish Academy",
+    "zh-hans": "全球西班牙语学院", "hi": "वैश्विक स्पेनिश अकादमी",
+    "ar": "أكاديمية الإسبانية العالمية", "pt": "Academia Global de Castelhano",
+    "bn": "গ্লোবাল স্প্যানিশ একাডেমি", "ru": "Глобальная академия испанского",
+    "ja": "グローバル・スペイン語アカデミー", "de": "Globale Spanisch-Akademie",
+    "fr": "Académie Globale d'Espagnol", "ko": "글로벌 스페인어 아카데미",
+    "it": "Accademia Globale di Spagnolo", "tr": "Küresel İspanyolca Akademisi",
+    "vi": "Học viện Tây Ban Nha Toàn cầu"
+  },
+  "Aprende, practica y certifícate con 42 cursos, 2.000+ técnicas y 428 apps interactivas.": {
+    "es": "Aprende, practica y certifícate con 42 cursos, 2.000+ técnicas y 428 apps interactivas.",
+    "en": "Learn, practice and get certified with 42 courses, 2,000+ techniques and 428 interactive apps.",
+    "zh-hans": "通过 42 门课程、2,000+ 技巧和 428 个互动应用学习、练习并获得认证。",
+    "hi": "42 पाठ्यक्रमों, 2,000+ तकनीकों और 428 इंटरैक्टिव ऐप्स के साथ सीखें, अभ्यास करें और प्रमाणित हों।",
+    "ar": "تعلم وتدرب واحصل على شهادة مع 42 دورة وأكثر من 2000 تقنية و428 تطبيقًا تفاعليًا.",
+    "pt": "Aprenda, pratique e certifique-se com 42 cursos, 2.000+ técnicas e 428 apps interativos.",
+    "bn": "42টি কোর্স, 2,000+ কৌশল এবং 428টি ইন্টারেক্টিভ অ্যাপের সাথে শিখুন, অনুশীলন করুন এবং সার্টিফিকেট পান।",
+    "ru": "Учитесь, практикуйтесь и получайте сертификаты с 42 курсами, 2000+ техник и 428 интерактивными приложениями.",
+    "ja": "42コース、2,000以上のテクニック、428のインタラクティブアプリで学び、練習し、認定を受けましょう。",
+    "de": "Lernen, üben und zertifizieren Sie sich mit 42 Kursen, 2.000+ Techniken und 428 interaktiven Apps.",
+    "fr": "Apprenez, pratiquez et certifiez-vous avec 42 cours, 2 000+ techniques et 428 applications interactives.",
+    "ko": "42개 코스, 2,000개 이상의 기술, 428개의 인터랙티브 앱으로 배우고 연습하고 인증받으세요.",
+    "it": "Impara, esercitati e certificati con 42 corsi, 2.000+ tecniche e 428 app interattive.",
+    "tr": "42 kurs, 2.000+ teknik ve 428 etkileşimli uygulama ile öğrenin, pratik yapın ve sertifika alın.",
+    "vi": "Học, luyện tập và nhận chứng chỉ với 42 khóa học, 2.000+ kỹ thuật và 428 ứng dụng tương tác."
+  },
+  "Cursos": {
+    "es": "Cursos", "en": "Courses", "zh-hans": "课程", "hi": "पाठ्यक्रम",
+    "ar": "الدورات", "pt": "Cursos", "bn": "কোর্স", "ru": "Курсы",
+    "ja": "コース", "de": "Kurse", "fr": "Cours", "ko": "강좌",
+    "it": "Corsi", "tr": "Kurslar", "vi": "Khóa học"
+  },
+  "Técnicas": {
+    "es": "Técnicas", "en": "Techniques", "zh-hans": "技巧", "hi": "तकनीकें",
+    "ar": "التقنيات", "pt": "Técnicas", "bn": "কৌশল", "ru": "Техники",
+    "ja": "テクニック", "de": "Techniken", "fr": "Techniques", "ko": "기술",
+    "it": "Tecniche", "tr": "Teknikler", "vi": "Kỹ thuật"
+  },
+  "Usuarios": {
+    "es": "Usuarios", "en": "Users", "zh-hans": "用户", "hi": "उपयोगकर्ता",
+    "ar": "المستخدمون", "pt": "Usuários", "bn": "ব্যবহারকারী", "ru": "Пользователи",
+    "ja": "ユーザー", "de": "Benutzer", "fr": "Utilisateurs", "ko": "사용자",
+    "it": "Utenti", "tr": "Kullanıcılar", "vi": "Người dùng"
+  },
+  "Certificados": {
+    "es": "Certificados", "en": "Certificates", "zh-hans": "证书", "hi": "प्रमाणपत्र",
+    "ar": "الشهادات", "pt": "Certificados", "bn": "সার্টিফিকেট", "ru": "Сертификаты",
+    "ja": "証明書", "de": "Zertifikate", "fr": "Certificats", "ko": "인증서",
+    "it": "Certificati", "tr": "Sertifikalar", "vi": "Chứng chỉ"
+  },
+  "Recursos JSON": {
+    "es": "Recursos JSON", "en": "JSON Resources", "zh-hans": "JSON 资源", "hi": "JSON संसाधन",
+    "ar": "موارد JSON", "pt": "Recursos JSON", "bn": "JSON সম্পদ", "ru": "JSON-ресурсы",
+    "ja": "JSONリソース", "de": "JSON-Ressourcen", "fr": "Ressources JSON", "ko": "JSON 리소스",
+    "it": "Risorse JSON", "tr": "JSON Kaynakları", "vi": "Tài nguyên JSON"
+  },
+  "30 recursos con 2097 técnicas": {
+    "es": "30 recursos con 2097 técnicas", "en": "30 resources with 2097 techniques",
+    "zh-hans": "30 个资源，2097 种技巧", "hi": "2097 तकनीकों के साथ 30 संसाधन",
+    "ar": "30 موردًا مع 2097 تقنية", "pt": "30 recursos com 2097 técnicas",
+    "bn": "2097টি কৌশল সহ 30টি সম্পদ", "ru": "30 ресурсов с 2097 техниками",
+    "ja": "2097のテクニックを含む30のリソース", "de": "30 Ressourcen mit 2097 Techniken",
+    "fr": "30 ressources avec 2097 techniques", "ko": "2097개 기술이 있는 30개 리소스",
+    "it": "30 risorse con 2097 tecniche", "tr": "2097 teknikli 30 kaynak",
+    "vi": "30 tài nguyên với 2097 kỹ thuật"
+  },
+  "HTMLs interactivos": {
+    "es": "HTMLs interactivos", "en": "Interactive HTMLs", "zh-hans": "互动 HTML", "hi": "इंटरैक्टिव HTML",
+    "ar": "HTML تفاعلية", "pt": "HTMLs interativos", "bn": "ইন্টারেক্টিভ HTML", "ru": "Интерактивные HTML",
+    "ja": "インタラクティブHTML", "de": "Interaktive HTMLs", "fr": "HTML interactifs", "ko": "인터랙티브 HTML",
+    "it": "HTML interattivi", "tr": "Etkileşimli HTML", "vi": "HTML tương tác"
+  },
+  "428 apps: flotas, cuadernos, juegos": {
+    "es": "428 apps: flotas, cuadernos, juegos", "en": "428 apps: fleets, notebooks, games",
+    "zh-hans": "428 个应用：舰队、笔记本、游戏", "hi": "428 ऐप्स: बेड़े, नोटबुक, गेम",
+    "ar": "428 تطبيقًا: أساطيل، دفاتر، ألعاب", "pt": "428 apps: frotas, cadernos, jogos",
+    "bn": "428টি অ্যাপ: ফ্লিট, নোটবুক, গেম", "ru": "428 приложений: флоты, блокноты, игры",
+    "ja": "428のアプリ：フリート、ノートブック、ゲーム", "de": "428 Apps: Flotten, Notizbücher, Spiele",
+    "fr": "428 applications : flottes, cahiers, jeux", "ko": "428개 앱: 함대, 노트북, 게임",
+    "it": "428 app: flotte, quaderni, giochi", "tr": "428 uygulama: filolar, defterler, oyunlar",
+    "vi": "428 ứng dụng: đội tàu, sổ tay, trò chơi"
+  },
+  "Hub de contenido": {
+    "es": "Hub de contenido", "en": "Content Hub", "zh-hans": "内容中心", "hi": "सामग्री हब",
+    "ar": "مركز المحتوى", "pt": "Hub de conteúdo", "bn": "বিষয়বস্তু হাব", "ru": "Центр контента",
+    "ja": "コンテンツハブ", "de": "Content-Hub", "fr": "Hub de contenu", "ko": "콘텐츠 허브",
+    "it": "Hub dei contenuti", "tr": "İçerik Merkezi", "vi": "Trung tâm nội dung"
+  },
+  "12 categorías temáticas": {
+    "es": "12 categorías temáticas", "en": "12 thematic categories",
+    "zh-hans": "12 个主题类别", "hi": "12 विषयगत श्रेणियाँ",
+    "ar": "12 فئة موضوعية", "pt": "12 categorias temáticas",
+    "bn": "12টি বিষয়ভিত্তিক বিভাগ", "ru": "12 тематических категорий",
+    "ja": "12のテーマ別カテゴリ", "de": "12 thematische Kategorien",
+    "fr": "12 catégories thématiques", "ko": "12개 주제 카테고리",
+    "it": "12 categorie tematiche", "tr": "12 tematik kategori",
+    "vi": "12 danh mục chủ đề"
+  },
+  "Explorar por categoría": {
+    "es": "Explorar por categoría", "en": "Browse by category",
+    "zh-hans": "按类别浏览", "hi": "श्रेणी के अनुसार ब्राउज़ करें",
+    "ar": "تصفح حسب الفئة", "pt": "Explorar por categoria",
+    "bn": "বিভাগ অনুসারে ব্রাউজ করুন", "ru": "Просмотр по категориям",
+    "ja": "カテゴリで閲覧", "de": "Nach Kategorie durchsuchen",
+    "fr": "Parcourir par catégorie", "ko": "카테고리별 탐색",
+    "it": "Esplora per categoria", "tr": "Kategoriye göre gözat",
+    "vi": "Duyệt theo danh mục"
+  },
+  "Salir": {
+    "es": "Salir", "en": "Log out", "zh-hans": "退出", "hi": "लॉग आउट",
+    "ar": "تسجيل الخروج", "pt": "Sair", "bn": "লগ আউট", "ru": "Выйти",
+    "ja": "ログアウト", "de": "Abmelden", "fr": "Déconnexion", "ko": "로그아웃",
+    "it": "Esci", "tr": "Çıkış yap", "vi": "Đăng xuất"
+  },
+  "Admin": {
+    "es": "Admin", "en": "Admin", "zh-hans": "管理", "hi": "व्यवस्थापक",
+    "ar": "المسؤول", "pt": "Admin", "bn": "অ্যাডমিন", "ru": "Админ",
+    "ja": "管理者", "de": "Admin", "fr": "Admin", "ko": "관리자",
+    "it": "Admin", "tr": "Yönetici", "vi": "Quản trị viên"
+  },
+  "Profesor": {
+    "es": "Profesor", "en": "Teacher", "zh-hans": "教师", "hi": "शिक्षक",
+    "ar": "مدرس", "pt": "Professor", "bn": "শিক্ষক", "ru": "Учитель",
+    "ja": "教師", "de": "Lehrer", "fr": "Enseignant", "ko": "교사",
+    "it": "Insegnante", "tr": "Öğretmen", "vi": "Giáo viên"
+  },
+  "Estudiante": {
+    "es": "Estudiante", "en": "Student", "zh-hans": "学生", "hi": "छात्र",
+    "ar": "طالب", "pt": "Estudante", "bn": "শিক্ষার্থী", "ru": "Студент",
+    "ja": "学生", "de": "Student", "fr": "Étudiant", "ko": "학생",
+    "it": "Studente", "tr": "Öğrenci", "vi": "Học sinh"
+  },
+  "Perfil": {
+    "es": "Perfil", "en": "Profile", "zh-hans": "个人资料", "hi": "प्रोफ़ाइल",
+    "ar": "الملف الشخصي", "pt": "Perfil", "bn": "প্রোফাইল", "ru": "Профиль",
+    "ja": "プロフィール", "de": "Profil", "fr": "Profil", "ko": "프로필",
+    "it": "Profilo", "tr": "Profil", "vi": "Hồ sơ"
+  }
+}
