@@ -1,6 +1,8 @@
 {% extends "gamificacion/_base_estudiante.html" %}
+{% load i18n %}
+
 {% block contenido %}
-<h2 class="mb-4">👋 ¡Hola, {{ user.get_full_name|default:user.username }}!</h2>
+<h2 class="mb-4">ðŸ‘‹ Â¡Hola, {{ user.get_full_name|default:user.username }}!</h2>
 
 <!-- Stats -->
 <div class="row mb-4">
@@ -8,7 +10,7 @@
     <div class="card text-white bg-primary h-100">
       <div class="card-body text-center">
         <h3>{{ perfil.xp_total }}</h3>
-        <small>💎 XP Total</small>
+        <small>ðŸ’Ž XP Total</small>
       </div>
     </div>
   </div>
@@ -16,7 +18,7 @@
     <div class="card text-white bg-success h-100">
       <div class="card-body text-center">
         <h3>Nivel {{ perfil.nivel_actual }}</h3>
-        <small>🏅 {{ perfil.titulo_nivel|default:"Aprendiz" }}</small>
+        <small>ðŸ… {{ perfil.titulo_nivel|default:"Aprendiz" }}</small>
       </div>
     </div>
   </div>
@@ -24,7 +26,7 @@
     <div class="card text-white bg-warning h-100">
       <div class="card-body text-center">
         <h3>{{ perfil.racha_dias }}</h3>
-        <small>🔥 Racha de días</small>
+        <small>ðŸ”¥ Racha de dÃ­as</small>
       </div>
     </div>
   </div>
@@ -32,7 +34,7 @@
     <div class="card text-white bg-info h-100">
       <div class="card-body text-center">
         <h3>{{ total_lecciones }}</h3>
-        <small>📚 Lecciones completadas</small>
+        <small>ðŸ“š Lecciones completadas</small>
       </div>
     </div>
   </div>
@@ -42,7 +44,7 @@
 <div class="card mb-4">
   <div class="card-body">
     <div class="d-flex justify-content-between mb-2">
-      <strong>Nivel {{ perfil.nivel_actual }} → {{ perfil.nivel_actual|add:1 }}</strong>
+      <strong>Nivel {{ perfil.nivel_actual }} â†’ {{ perfil.nivel_actual|add:1 }}</strong>
       <span>{{ perfil.xp_total }} / {{ perfil.xp_siguiente_nivel|default:"500" }} XP</span>
     </div>
     <div class="progress" style="height: 25px;">
@@ -60,7 +62,7 @@
     <div class="card text-center border-primary">
       <div class="card-body">
         <h4 class="text-primary">{{ total_inscripciones }}</h4>
-        <small>🎓 Mis cursos</small>
+        <small>ðŸŽ“ Mis cursos</small>
         <br><small class="text-muted">{{ completadas }} completados</small>
       </div>
     </div>
@@ -69,7 +71,7 @@
     <div class="card text-center border-success">
       <div class="card-body">
         <h4 class="text-success">{{ evaluaciones_aprobadas }}/{{ evaluaciones_totales }}</h4>
-        <small>📝 Evaluaciones</small>
+        <small>ðŸ“ Evaluaciones</small>
         <br><small class="text-muted">Aprobadas</small>
       </div>
     </div>
@@ -78,7 +80,7 @@
     <div class="card text-center border-warning">
       <div class="card-body">
         <h4 class="text-warning">{{ certs }}</h4>
-        <small>🏆 Certificados</small>
+        <small>ðŸ† {% trans "Certificados" %}</small>
         <br><small class="text-muted">Obtenidos</small>
       </div>
     </div>
@@ -87,7 +89,7 @@
     <div class="card text-center border-info">
       <div class="card-body">
         <h4 class="text-info">{{ ganadas }}/{{ total_insignias }}</h4>
-        <small>🏅 Insignias</small>
+        <small>ðŸ… Insignias</small>
         <br><small class="text-muted">Ganadas</small>
       </div>
     </div>
@@ -97,7 +99,7 @@
 <!-- Cursos en progreso -->
 <div class="row mb-4">
   <div class="col-md-8">
-    <h4>🎓 Continúa donde lo dejaste</h4>
+    <h4>ðŸŽ“ ContinÃºa donde lo dejaste</h4>
     <div class="row">
       {% for ins in inscripciones %}
         <div class="col-md-6 mb-3">
@@ -111,10 +113,10 @@
                 </div>
               </div>
               {% if ins.completado %}
-                <span class="badge bg-success">✅ Completado</span>
+                <span class="badge bg-success">âœ… Completado</span>
               {% else %}
                 <a href="{% url 'academia:course_lessons' ins.curso.id %}" class="btn btn-primary btn-sm w-100">
-                  Continuar →
+                  Continuar â†’
                 </a>
               {% endif %}
             </div>
@@ -129,7 +131,7 @@
   </div>
 
   <div class="col-md-4">
-    <h4>🏅 Últimas insignias</h4>
+    <h4>ðŸ… Ãšltimas insignias</h4>
     <div class="card">
       <div class="card-body">
         {% for logro in ultimas_insignias %}
@@ -141,10 +143,10 @@
             </div>
           </div>
         {% empty %}
-          <p class="text-muted">Aún no has ganado insignias.</p>
+          <p class="text-muted">AÃºn no has ganado insignias.</p>
         {% endfor %}
         <a href="{% url 'gamificacion:mis_logros' %}" class="btn btn-sm btn-outline-primary w-100 mt-2">
-          Ver todas →
+          Ver todas â†’
         </a>
       </div>
     </div>
@@ -154,7 +156,7 @@
 <!-- Actividad reciente -->
 <div class="row">
   <div class="col-md-6">
-    <h4>📅 Actividad reciente</h4>
+    <h4>ðŸ“… Actividad reciente</h4>
     <ul class="list-group">
       {% for a in actividad %}
         <li class="list-group-item d-flex justify-content-between">
@@ -176,7 +178,7 @@
   </div>
 
   <div class="col-md-6">
-    <h4>🎯 Cursos recomendados</h4>
+    <h4>ðŸŽ¯ Cursos recomendados</h4>
     <div class="list-group">
       {% for c in recomendados %}
         <a href="{% url 'academia:course_lessons' c.id %}" class="list-group-item list-group-item-action">

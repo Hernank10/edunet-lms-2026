@@ -1,12 +1,14 @@
 {% extends "base.html" %}
+{% load i18n %}
+
 
 {% block content %}
 <div class="container mt-4" style="max-width: 900px;">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="{% url 'contenido:lista_recursos' %}">Recursos</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'contenido:lista_recursos' %}">{% trans "Recursos" %}</a></li>
       <li class="breadcrumb-item"><a href="{% url 'contenido:detalle_recurso' tecnica.recurso.pk %}">{{ tecnica.recurso.titulo|truncatechars:30 }}</a></li>
-      <li class="breadcrumb-item active">Técnica {{ tecnica.numero }}</li>
+      <li class="breadcrumb-item active">TÃ©cnica {{ tecnica.numero }}</li>
     </ol>
   </nav>
 
@@ -20,17 +22,17 @@
       {% endif %}
 
       {% if tecnica.teoria %}
-        <h5>📖 Teoría</h5>
+        <h5>ðŸ“– TeorÃ­a</h5>
         <p>{{ tecnica.teoria|linebreaks }}</p>
       {% endif %}
 
       {% if tecnica.ejemplo %}
-        <h5 class="mt-4">💡 Ejemplo</h5>
+        <h5 class="mt-4">ðŸ’¡ Ejemplo</h5>
         <p>{{ tecnica.ejemplo|linebreaks }}</p>
       {% endif %}
 
       {% if tecnica.ejercicio %}
-        <h5 class="mt-4">✏️ Ejercicio</h5>
+        <h5 class="mt-4">âœï¸ Ejercicio</h5>
         <p>{{ tecnica.ejercicio|linebreaks }}</p>
       {% endif %}
 
@@ -46,14 +48,14 @@
     <div class="card-footer d-flex justify-content-between">
       {% if anterior %}
         <a href="{% url 'contenido:tecnica' anterior.pk %}" class="btn btn-outline-primary">
-          ← Técnica {{ anterior.numero }}
+          â† TÃ©cnica {{ anterior.numero }}
         </a>
       {% else %}
         <span></span>
       {% endif %}
       {% if siguiente %}
         <a href="{% url 'contenido:tecnica' siguiente.pk %}" class="btn btn-primary">
-          Técnica {{ siguiente.numero }} →
+          TÃ©cnica {{ siguiente.numero }} â†’
         </a>
       {% endif %}
     </div>

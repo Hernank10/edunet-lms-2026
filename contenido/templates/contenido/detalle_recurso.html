@@ -1,11 +1,13 @@
 {% extends "base.html" %}
+{% load i18n %}
+
 
 {% block content %}
 <div class="container mt-4">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="{% url 'contenido:hub' %}">Contenido</a></li>
-      <li class="breadcrumb-item"><a href="{% url 'contenido:lista_recursos' %}">Recursos</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'contenido:hub' %}">{% trans "Contenido" %}</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'contenido:lista_recursos' %}">{% trans "Recursos" %}</a></li>
       <li class="breadcrumb-item active">{{ recurso.titulo|truncatechars:40 }}</li>
     </ol>
   </nav>
@@ -18,11 +20,11 @@
   <div class="mb-4">
     <span class="badge bg-secondary">{{ recurso.get_categoria_display }}</span>
     <span class="badge bg-info">{{ recurso.get_nivel_display }}</span>
-    <span class="badge bg-primary">{{ tecnicas|length }} técnicas</span>
-    {% if recurso.bilingue %}<span class="badge bg-warning">🌐 Bilingüe</span>{% endif %}
+    <span class="badge bg-primary">{{ tecnicas|length }} tÃ©cnicas</span>
+    {% if recurso.bilingue %}<span class="badge bg-warning">ðŸŒ BilingÃ¼e</span>{% endif %}
   </div>
 
-  <h3 class="mb-3">Técnicas</h3>
+  <h3 class="mb-3">{% trans "TÃ©cnicas" %}</h3>
   <div class="list-group">
     {% for t in tecnicas %}
       <a href="{% url 'contenido:tecnica' t.pk %}"
@@ -34,11 +36,11 @@
               <br><small class="text-muted">{{ t.categoria_interna }}</small>
             {% endif %}
           </div>
-          <span class="badge bg-secondary align-self-center">→</span>
+          <span class="badge bg-secondary align-self-center">â†’</span>
         </div>
       </a>
     {% empty %}
-      <p class="text-muted">Este recurso no tiene técnicas.</p>
+      <p class="text-muted">Este recurso no tiene tÃ©cnicas.</p>
     {% endfor %}
   </div>
 </div>

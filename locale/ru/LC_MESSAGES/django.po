@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-25 15:10-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: .\academia\templates\academia\dashboard.html:9 .\templates\base.html:6
+msgid "Academia Global de Castellano"
+msgstr "Глобальная академия испанского"
+
+#: .\academia\templates\academia\dashboard.html:10
+msgid ""
+"Aprende, practica y certifícate con 42 cursos, 2.000+ técnicas y 428 apps "
+"interactivas."
+msgstr ""
+
+#: .\academia\templates\academia\dashboard.html:21
+#: .\profesor\templates\profesor\dashboard.html:12
+msgid "Cursos"
+msgstr "Курсы"
+
+#: .\academia\templates\academia\dashboard.html:29 .\templates\base.html:22
+msgid "Recursos"
+msgstr "Ресурсы"
+
+#: .\academia\templates\academia\dashboard.html:37
+msgid "Técnicas"
+msgstr "Техники"
+
+#: .\academia\templates\academia\dashboard.html:45 .\templates\base.html:23
+msgid "HTMLs"
+msgstr "HTML"
+
+#: .\academia\templates\academia\dashboard.html:53
+msgid "Usuarios"
+msgstr "Пользователи"
+
+#: .\academia\templates\academia\dashboard.html:61
+#: .\gamificacion\templates\gamificacion\_base_estudiante.html:14
+#: .\gamificacion\templates\gamificacion\dashboard.html:82
+#: .\profesor\templates\profesor\_base_profesor.html:12
+#: .\profesor\templates\profesor\dashboard.html:52
+msgid "Certificados"
+msgstr "Сертификаты"
+
+#: .\academia\templates\academia\dashboard.html:73
+msgid "Recursos JSON"
+msgstr "JSON-ресурсы"
+
+#: .\academia\templates\academia\dashboard.html:82
+msgid "HTMLs interactivos"
+msgstr "Интерактивные HTML"
+
+#: .\academia\templates\academia\dashboard.html:91
+msgid "Hub de contenido"
+msgstr "Центр контента"
+
+#: .\academia\templates\academia\dashboard.html:99
+msgid "Explorar por categoría"
+msgstr "Просмотр по категориям"
+
+#: .\accounts\templates\accounts\login.html:14 .\templates\base.html:42
+#: .\templates\registration\login.html:14
+msgid "Entrar"
+msgstr "Войти"
+
+#: .\accounts\templates\accounts\perfil.html:12
+#: .\gamificacion\templates\gamificacion\_base_estudiante.html:20
+#: .\profesor\templates\profesor\_base_profesor.html:18
+#: .\templates\base.html:38
+msgid "Salir"
+msgstr "Выйти"
+
+#: .\accounts\templates\accounts\registro.html:5 .\templates\base.html:43
+msgid "Registro"
+msgstr "Регистрация"
+
+#: .\gamificacion\templates\gamificacion\_base_estudiante.html:15
+#: .\profesor\templates\profesor\crear_anuncio.html:12 .\templates\base.html:21
+msgid "Contenido"
+msgstr "Содержание"
+
+#: .\profesor\templates\profesor\certificados.html:7
+#: .\profesor\templates\profesor\curso_detalle.html:57 .\templates\base.html:32
+msgid "Estudiante"
+msgstr "Студент"
+
+#: .\templates\base.html:13
+msgid "Castellano Global"
+msgstr "Глобальный испанский"
+
+#: .\templates\base.html:28
+msgid "Admin"
+msgstr "Админ"
+
+#: .\templates\base.html:30
+msgid "Profesor"
+msgstr "Учитель"

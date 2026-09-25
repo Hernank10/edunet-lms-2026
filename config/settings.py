@@ -53,6 +53,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -144,3 +145,28 @@ LOGIN_URL = "/accounts/login/"
 # === Añadido por ARREGLAR_URLS.py ===
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
+
+# ============================================================
+# INTERNACIONALIZACION (i18n)
+# ============================================================
+LANGUAGES = [
+    ("es", "Español"),
+    ("en", "English"),
+    ("zh-hans", "简体中文"),
+    ("hi", "हिन्दी"),
+    ("ar", "العربية"),
+    ("pt", "Português"),
+    ("bn", "বাংলা"),
+    ("ru", "Русский"),
+    ("ja", "日本語"),
+    ("de", "Deutsch"),
+    ("fr", "Français"),
+    ("ko", "한국어"),
+    ("it", "Italiano"),
+    ("tr", "Türkçe"),
+    ("vi", "Tiếng Việt"),
+]
+
+LOCALE_PATHS = [
+    BASE_DIR / "locale",
+]

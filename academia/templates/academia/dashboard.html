@@ -1,13 +1,15 @@
 {% extends "base.html" %}
+{% load i18n %}
+
 
 {% block content %}
 <div class="container mt-4">
 
   <!-- HERO -->
   <div class="p-5 mb-4 bg-primary text-white rounded">
-    <h1 class="display-4">🎓 Academia Global de Castellano</h1>
-    <p class="lead">Aprende, practica y certifícate con 42 cursos, 2.000+ técnicas y 428 apps interactivas.</p>
-    <a href="{% url 'contenido:hub' %}" class="btn btn-light btn-lg">Explorar contenido →</a>
+    <h1 class="display-4">ðŸŽ“ {% trans "Academia Global de Castellano" %}</h1>
+    <p class="lead">{% trans "Aprende, practica y certifÃ­cate con 42 cursos, 2.000+ tÃ©cnicas y 428 apps interactivas." %}</p>
+    <a href="{% url 'contenido:hub' %}" class="btn btn-light btn-lg">Explorar contenido â†’</a>
     <a href="{% url 'gamificacion:dashboard' %}" class="btn btn-outline-light btn-lg">Mi dashboard</a>
   </div>
 
@@ -17,7 +19,7 @@
       <div class="card text-white bg-primary h-100">
         <div class="card-body text-center">
           <h3>{{ total_cursos }}</h3>
-          <small>🎓 Cursos</small>
+          <small>ðŸŽ“ {% trans "Cursos" %}</small>
         </div>
       </div>
     </div>
@@ -25,7 +27,7 @@
       <div class="card text-white bg-success h-100">
         <div class="card-body text-center">
           <h3>{{ total_recursos }}</h3>
-          <small>📄 Recursos</small>
+          <small>ðŸ“„ {% trans "Recursos" %}</small>
         </div>
       </div>
     </div>
@@ -33,7 +35,7 @@
       <div class="card text-white bg-info h-100">
         <div class="card-body text-center">
           <h3>{{ total_tecnicas }}</h3>
-          <small>🎯 Técnicas</small>
+          <small>ðŸŽ¯ {% trans "TÃ©cnicas" %}</small>
         </div>
       </div>
     </div>
@@ -41,7 +43,7 @@
       <div class="card text-white bg-warning h-100">
         <div class="card-body text-center">
           <h3>{{ total_htmls }}</h3>
-          <small>🌐 HTMLs</small>
+          <small>ðŸŒ {% trans "HTMLs" %}</small>
         </div>
       </div>
     </div>
@@ -49,7 +51,7 @@
       <div class="card text-white bg-secondary h-100">
         <div class="card-body text-center">
           <h3>{{ total_usuarios }}</h3>
-          <small>👥 Usuarios</small>
+          <small>ðŸ‘¥ {% trans "Usuarios" %}</small>
         </div>
       </div>
     </div>
@@ -57,28 +59,28 @@
       <div class="card text-white bg-dark h-100">
         <div class="card-body text-center">
           <h3>{{ total_certificados }}</h3>
-          <small>🏆 Certificados</small>
+          <small>ðŸ† {% trans "Certificados" %}</small>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ACCESOS RÁPIDOS -->
+  <!-- ACCESOS RÃPIDOS -->
   <div class="row mb-4">
     <div class="col-md-4 mb-3">
       <a href="{% url 'contenido:lista_recursos' %}" class="card h-100 text-decoration-none">
         <div class="card-body text-center">
-          <div style="font-size:3rem;">📄</div>
-          <h5>Recursos JSON</h5>
-          <p class="text-muted">{{ total_recursos }} recursos con {{ total_tecnicas }} técnicas</p>
+          <div style="font-size:3rem;">ðŸ“„</div>
+          <h5>{% trans "Recursos JSON" %}</h5>
+          <p class="text-muted">{{ total_recursos }} recursos con {{ total_tecnicas }} tÃ©cnicas</p>
         </div>
       </a>
     </div>
     <div class="col-md-4 mb-3">
       <a href="{% url 'contenido:lista_htmls' %}" class="card h-100 text-decoration-none">
         <div class="card-body text-center">
-          <div style="font-size:3rem;">🌐</div>
-          <h5>HTMLs interactivos</h5>
+          <div style="font-size:3rem;">ðŸŒ</div>
+          <h5>{% trans "HTMLs interactivos" %}</h5>
           <p class="text-muted">{{ total_htmls }} apps: flotas, cuadernos, juegos</p>
         </div>
       </a>
@@ -86,16 +88,16 @@
     <div class="col-md-4 mb-3">
       <a href="{% url 'contenido:hub' %}" class="card h-100 text-decoration-none">
         <div class="card-body text-center">
-          <div style="font-size:3rem;">📚</div>
-          <h5>Hub de contenido</h5>
-          <p class="text-muted">{{ categorias|length }} categorías temáticas</p>
+          <div style="font-size:3rem;">ðŸ“š</div>
+          <h5>{% trans "Hub de contenido" %}</h5>
+          <p class="text-muted">{{ categorias|length }} categorÃ­as temÃ¡ticas</p>
         </div>
       </a>
     </div>
   </div>
 
-  <!-- CATEGORÍAS -->
-  <h3 class="mb-3">📂 Explorar por categoría</h3>
+  <!-- CATEGORÃAS -->
+  <h3 class="mb-3">ðŸ“‚ {% trans "Explorar por categorÃ­a" %}</h3>
   <div class="row mb-5">
     {% for cat in categorias %}
       <div class="col-md-4 col-lg-3 mb-3">
@@ -103,16 +105,16 @@
           <div class="card-body">
             <h6>{{ cat.nombre }}</h6>
             <p class="text-muted small mb-2">
-              {{ cat.recursos }} recursos · {{ cat.htmls }} HTMLs
+              {{ cat.recursos }} recursos Â· {{ cat.htmls }} HTMLs
             </p>
             <div class="d-grid gap-1">
               <a href="{% url 'contenido:lista_recursos' %}?categoria={{ cat.codigo }}"
                  class="btn btn-sm btn-outline-primary">
-                📄 {{ cat.recursos }} recursos
+                ðŸ“„ {{ cat.recursos }} recursos
               </a>
               <a href="{% url 'contenido:lista_htmls' %}?categoria={{ cat.codigo }}"
                  class="btn btn-sm btn-outline-success">
-                🌐 {{ cat.htmls }} HTMLs
+                ðŸŒ {{ cat.htmls }} HTMLs
               </a>
             </div>
           </div>
@@ -121,8 +123,8 @@
     {% endfor %}
   </div>
 
-  <!-- ÚLTIMOS RECURSOS -->
-  <h3 class="mb-3">📄 Últimos recursos añadidos</h3>
+  <!-- ÃšLTIMOS RECURSOS -->
+  <h3 class="mb-3">ðŸ“„ Ãšltimos recursos aÃ±adidos</h3>
   <div class="row mb-5">
     {% for rec in ultimos_recursos %}
       <div class="col-md-4 mb-3">
@@ -130,9 +132,9 @@
           <div class="card-body">
             <span class="badge bg-secondary">{{ rec.get_categoria_display }}</span>
             <h6 class="mt-2">{{ rec.titulo|truncatechars:55 }}</h6>
-            <p class="small text-muted">🎯 {{ rec.total_real }} técnicas</p>
+            <p class="small text-muted">ðŸŽ¯ {{ rec.total_real }} tÃ©cnicas</p>
             <a href="{% url 'contenido:detalle_recurso' rec.pk %}" class="btn btn-primary btn-sm w-100">
-              Ver técnicas
+              Ver tÃ©cnicas
             </a>
           </div>
         </div>
@@ -140,8 +142,8 @@
     {% endfor %}
   </div>
 
-  <!-- ÚLTIMOS HTMLs -->
-  <h3 class="mb-3">🌐 Últimas apps interactivas</h3>
+  <!-- ÃšLTIMOS HTMLs -->
+  <h3 class="mb-3">ðŸŒ Ãšltimas apps interactivas</h3>
   <div class="row mb-5">
     {% for html in ultimos_htmls %}
       <div class="col-md-4 mb-3">
@@ -151,7 +153,7 @@
             <h6 class="mt-2">{{ html.titulo|truncatechars:55 }}</h6>
             <p class="small text-muted">{{ html.get_categoria_display }}</p>
             <a href="{% url 'contenido:visor_html' html.slug %}" class="btn btn-success btn-sm w-100">
-              ▶ Abrir
+              â–¶ Abrir
             </a>
           </div>
         </div>
@@ -160,7 +162,7 @@
   </div>
 
   <!-- CURSOS -->
-  <h3 class="mb-3">🎓 Cursos ({{ total_cursos }})</h3>
+  <h3 class="mb-3">ðŸŽ“ Cursos ({{ total_cursos }})</h3>
   <div class="row">
     {% for curso in cursos %}
       <div class="col-md-4 mb-3">
@@ -177,13 +179,13 @@
         </div>
       </div>
     {% empty %}
-      <p class="text-muted">No hay cursos aún.</p>
+      <p class="text-muted">No hay cursos aÃºn.</p>
     {% endfor %}
   </div>
 
   <div class="text-center mt-4 mb-5">
     <a href="{% url 'gamificacion:dashboard' %}" class="btn btn-lg btn-success">
-      🎮 Ir a mi panel de estudiante
+      ðŸŽ® Ir a mi panel de estudiante
     </a>
   </div>
 

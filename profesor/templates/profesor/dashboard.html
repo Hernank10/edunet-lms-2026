@@ -1,6 +1,8 @@
 {% extends "profesor/_base_profesor.html" %}
+{% load i18n %}
+
 {% block contenido %}
-<h2 class="mb-4">📊 Panel del Profesor</h2>
+<h2 class="mb-4">ðŸ“Š Panel del Profesor</h2>
 
 <!-- Stats -->
 <div class="row mb-4">
@@ -8,7 +10,7 @@
     <div class="card text-white bg-primary h-100">
       <div class="card-body text-center">
         <h3>{{ total_cursos }}</h3>
-        <small>Cursos</small>
+        <small>{% trans "Cursos" %}</small>
       </div>
     </div>
   </div>
@@ -48,7 +50,7 @@
     <div class="card text-white bg-dark h-100">
       <div class="card-body text-center">
         <h3>{{ total_certificados }}</h3>
-        <small>Certificados</small>
+        <small>{% trans "Certificados" %}</small>
       </div>
     </div>
   </div>
@@ -57,7 +59,7 @@
 <!-- Cursos top + Actividad -->
 <div class="row">
   <div class="col-md-7">
-    <h4>🎓 Top cursos por inscripciones</h4>
+    <h4>ðŸŽ“ Top cursos por inscripciones</h4>
     <table class="table table-hover">
       <thead>
         <tr>
@@ -93,7 +95,7 @@
   </div>
 
   <div class="col-md-5">
-    <h4>📅 Actividad reciente</h4>
+    <h4>ðŸ“… Actividad reciente</h4>
     <ul class="list-group">
       {% for a in actividad %}
         <li class="list-group-item">

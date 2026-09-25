@@ -1,13 +1,15 @@
 {% extends "base.html" %}
+{% load i18n %}
+
 {% block content %}
 <div class="container mt-5" style="max-width: 600px;">
-  <h2>👤 Mi perfil</h2>
+  <h2>ðŸ‘¤ Mi perfil</h2>
   <ul class="list-group">
     <li class="list-group-item"><strong>Usuario:</strong> {{ user.username }}</li>
-    <li class="list-group-item"><strong>Email:</strong> {{ user.email|default:"—" }}</li>
-    <li class="list-group-item"><strong>Idioma nativo:</strong> {{ user.idioma_nativo|default:"—" }}</li>
+    <li class="list-group-item"><strong>Email:</strong> {{ user.email|default:"â€”" }}</li>
+    <li class="list-group-item"><strong>Idioma nativo:</strong> {{ user.idioma_nativo|default:"â€”" }}</li>
     <li class="list-group-item"><strong>Zona horaria:</strong> {{ user.zona_horaria }}</li>
   </ul>
-  <a href="{% url 'logout' %}" class="btn btn-danger mt-3">Salir</a>
+  <a href="{% url 'logout' %}" class="btn btn-danger mt-3">{% trans "Salir" %}</a>
 </div>
 {% endblock %}

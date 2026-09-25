@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4" style="max-width: 900px;">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'contenido:lista_recursos' %}">Recursos</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'contenido:detalle_recurso' tecnica.recurso.pk %}">{{ tecnica.recurso.titulo|truncatechars:30 }}</a></li>
+      <li class="breadcrumb-item active">Técnica {{ tecnica.numero }}</li>
+    </ol>
+  </nav>
+
+  <div class="card">
+    <div class="card-header bg-primary text-white">
+      <h3 class="mb-0">{{ tecnica.numero }}. {{ tecnica.nombre }}</h3>
+    </div>
+    <div class="card-body">
+      {% if tecnica.categoria_interna %}
+        <span class="badge bg-secondary mb-3">{{ tecnica.categoria_interna }}</span>
+      {% endif %}
+
+      {% if tecnica.teoria %}
+        <h5>📖 Teoría</h5>
+        <p>{{ tecnica.teoria|linebreaks }}</p>
+      {% endif %}
+
+      {% if tecnica.ejemplo %}
+        <h5 class="mt-4">💡 Ejemplo</h5>
+        <p>{{ tecnica.ejemplo|linebreaks }}</p>
+      {% endif %}
+
+      {% if tecnica.ejercicio %}
+        <h5 class="mt-4">✏️ Ejercicio</h5>
+        <p>{{ tecnica.ejercicio|linebreaks }}</p>
+      {% endif %}
+
+      {% if tecnica.respuesta %}
+        <details class="mt-3">
+          <summary class="btn btn-outline-success">Ver respuesta</summary>
+          <div class="alert alert-success mt-3">
+            {{ tecnica.respuesta|linebreaks }}
+          </div>
+        </details>
+      {% endif %}
+    </div>
+    <div class="card-footer d-flex justify-content-between">
+      {% if anterior %}
+        <a href="{% url 'contenido:tecnica' anterior.pk %}" class="btn btn-outline-primary">
+          ← Técnica {{ anterior.numero }}
+        </a>
+      {% else %}
+        <span></span>
+      {% endif %}
+      {% if siguiente %}
+        <a href="{% url 'contenido:tecnica' siguiente.pk %}" class="btn btn-primary">
+          Técnica {{ siguiente.numero }} →
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}
