@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class="container mt-4">
-  <h1 class="mb-4">ðŸ“š Contenido educativo</h1>
+  <h1 class="mb-4">📚 Contenido educativo</h1>
 
   <!-- Stats -->
   <div class="row mb-4">
@@ -12,7 +12,7 @@
       <div class="card text-white bg-primary h-100">
         <div class="card-body text-center">
           <h2>{{ total_recursos }}</h2>
-          <p class="mb-0">ðŸ“„ {% trans "Recursos JSON" %}</p>
+          <p class="mb-0">📄 {% trans "Recursos JSON" %}</p>
         </div>
       </div>
     </div>
@@ -20,7 +20,7 @@
       <div class="card text-white bg-success h-100">
         <div class="card-body text-center">
           <h2>{{ total_tecnicas }}</h2>
-          <p class="mb-0">ðŸŽ¯ {% trans "TÃ©cnicas" %}</p>
+          <p class="mb-0">🎯 {% trans "Técnicas" %}</p>
         </div>
       </div>
     </div>
@@ -28,7 +28,7 @@
       <div class="card text-white bg-warning h-100">
         <div class="card-body text-center">
           <h2>{{ total_htmls }}</h2>
-          <p class="mb-0">ðŸŒ {% trans "HTMLs interactivos" %}</p>
+          <p class="mb-0">🌐 {% trans "HTMLs interactivos" %}</p>
         </div>
       </div>
     </div>
@@ -36,14 +36,14 @@
       <div class="card text-white bg-info h-100">
         <div class="card-body text-center">
           <h2>{{ categorias|length }}</h2>
-          <p class="mb-0">ðŸ“‚ CategorÃ­as</p>
+          <p class="mb-0">📂 Categorías</p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- CategorÃ­as -->
-  <h3 class="mb-3">{% trans "Explorar por categorÃ­a" %}</h3>
+  <!-- Categorías -->
+  <h3 class="mb-3">{% trans "Explorar por categoría" %}</h3>
   <div class="row">
     {% for cat in categorias %}
       <div class="col-md-4 col-lg-3 mb-3">
@@ -51,16 +51,16 @@
           <div class="card-body">
             <h5 class="card-title">{{ cat.nombre }}</h5>
             <p class="text-muted small mb-3">
-              {{ cat.recursos }} recursos Â· {{ cat.htmls }} HTMLs
+              {{ cat.recursos }} recursos · {{ cat.htmls }} HTMLs
             </p>
             <div class="d-grid gap-2">
               <a href="{% url 'contenido:lista_recursos' %}?categoria={{ cat.codigo }}"
                  class="btn btn-sm btn-outline-primary">
-                ðŸ“„ Recursos ({{ cat.recursos }})
+                📄 Recursos ({{ cat.recursos }})
               </a>
               <a href="{% url 'contenido:lista_htmls' %}?categoria={{ cat.codigo }}"
                  class="btn btn-sm btn-outline-success">
-                ðŸŒ HTMLs ({{ cat.htmls }})
+                🌐 HTMLs ({{ cat.htmls }})
               </a>
             </div>
           </div>
@@ -69,13 +69,13 @@
     {% endfor %}
   </div>
 
-  <!-- Accesos rÃ¡pidos -->
+  <!-- Accesos rápidos -->
   <div class="mt-5 d-flex gap-2">
     <a href="{% url 'contenido:lista_recursos' %}" class="btn btn-primary btn-lg">
-      ðŸ“„ Ver todos los recursos
+      📄 Ver todos los recursos
     </a>
     <a href="{% url 'contenido:lista_htmls' %}" class="btn btn-success btn-lg">
-      ðŸŒ Ver todos los HTMLs
+      🌐 Ver todos los HTMLs
     </a>
   </div>
 </div>

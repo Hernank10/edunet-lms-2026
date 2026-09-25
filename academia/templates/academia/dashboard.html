@@ -7,8 +7,8 @@
 
   <!-- HERO -->
   <div class="p-5 mb-4 bg-primary text-white rounded">
-    <h1 class="display-4">ðŸŽ“ {% trans "Academia Global de Castellano" %}</h1>
-    <p class="lead">{% trans "Aprende, practica y certifÃ­cate con 42 cursos, 2.000+ tÃ©cnicas y 428 apps interactivas." %}</p>
+    <h1 class="display-4">🎓 {% trans "Academia Global de Castellano" %}</h1>
+    <p class="lead">{% trans "Aprende, practica y certifícate con 42 cursos, 2.000+ técnicas y 428 apps interactivas." %}</p>
     <a href="{% url 'contenido:hub' %}" class="btn btn-light btn-lg">Explorar contenido â†’</a>
     <a href="{% url 'gamificacion:dashboard' %}" class="btn btn-outline-light btn-lg">Mi dashboard</a>
   </div>
@@ -19,7 +19,7 @@
       <div class="card text-white bg-primary h-100">
         <div class="card-body text-center">
           <h3>{{ total_cursos }}</h3>
-          <small>ðŸŽ“ {% trans "Cursos" %}</small>
+          <small>🎓 {% trans "Cursos" %}</small>
         </div>
       </div>
     </div>
@@ -27,7 +27,7 @@
       <div class="card text-white bg-success h-100">
         <div class="card-body text-center">
           <h3>{{ total_recursos }}</h3>
-          <small>ðŸ“„ {% trans "Recursos" %}</small>
+          <small>📄 {% trans "Recursos" %}</small>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="card text-white bg-info h-100">
         <div class="card-body text-center">
           <h3>{{ total_tecnicas }}</h3>
-          <small>ðŸŽ¯ {% trans "TÃ©cnicas" %}</small>
+          <small>🎯 {% trans "Técnicas" %}</small>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@
       <div class="card text-white bg-warning h-100">
         <div class="card-body text-center">
           <h3>{{ total_htmls }}</h3>
-          <small>ðŸŒ {% trans "HTMLs" %}</small>
+          <small>🌐 {% trans "HTMLs" %}</small>
         </div>
       </div>
     </div>
@@ -51,7 +51,7 @@
       <div class="card text-white bg-secondary h-100">
         <div class="card-body text-center">
           <h3>{{ total_usuarios }}</h3>
-          <small>ðŸ‘¥ {% trans "Usuarios" %}</small>
+          <small>👥 {% trans "Usuarios" %}</small>
         </div>
       </div>
     </div>
@@ -65,21 +65,21 @@
     </div>
   </div>
 
-  <!-- ACCESOS RÃPIDOS -->
+  <!-- ACCESOS RÁPIDOS -->
   <div class="row mb-4">
     <div class="col-md-4 mb-3">
       <a href="{% url 'contenido:lista_recursos' %}" class="card h-100 text-decoration-none">
         <div class="card-body text-center">
-          <div style="font-size:3rem;">ðŸ“„</div>
+          <div style="font-size:3rem;">📄</div>
           <h5>{% trans "Recursos JSON" %}</h5>
-          <p class="text-muted">{{ total_recursos }} recursos con {{ total_tecnicas }} tÃ©cnicas</p>
+          <p class="text-muted">{{ total_recursos }} recursos con {{ total_tecnicas }} técnicas</p>
         </div>
       </a>
     </div>
     <div class="col-md-4 mb-3">
       <a href="{% url 'contenido:lista_htmls' %}" class="card h-100 text-decoration-none">
         <div class="card-body text-center">
-          <div style="font-size:3rem;">ðŸŒ</div>
+          <div style="font-size:3rem;">🌐</div>
           <h5>{% trans "HTMLs interactivos" %}</h5>
           <p class="text-muted">{{ total_htmls }} apps: flotas, cuadernos, juegos</p>
         </div>
@@ -88,16 +88,16 @@
     <div class="col-md-4 mb-3">
       <a href="{% url 'contenido:hub' %}" class="card h-100 text-decoration-none">
         <div class="card-body text-center">
-          <div style="font-size:3rem;">ðŸ“š</div>
+          <div style="font-size:3rem;">📚</div>
           <h5>{% trans "Hub de contenido" %}</h5>
-          <p class="text-muted">{{ categorias|length }} categorÃ­as temÃ¡ticas</p>
+          <p class="text-muted">{{ categorias|length }} categorías temáticas</p>
         </div>
       </a>
     </div>
   </div>
 
   <!-- CATEGORÃAS -->
-  <h3 class="mb-3">ðŸ“‚ {% trans "Explorar por categorÃ­a" %}</h3>
+  <h3 class="mb-3">📂 {% trans "Explorar por categoría" %}</h3>
   <div class="row mb-5">
     {% for cat in categorias %}
       <div class="col-md-4 col-lg-3 mb-3">
@@ -105,16 +105,16 @@
           <div class="card-body">
             <h6>{{ cat.nombre }}</h6>
             <p class="text-muted small mb-2">
-              {{ cat.recursos }} recursos Â· {{ cat.htmls }} HTMLs
+              {{ cat.recursos }} recursos · {{ cat.htmls }} HTMLs
             </p>
             <div class="d-grid gap-1">
               <a href="{% url 'contenido:lista_recursos' %}?categoria={{ cat.codigo }}"
                  class="btn btn-sm btn-outline-primary">
-                ðŸ“„ {{ cat.recursos }} recursos
+                📄 {{ cat.recursos }} recursos
               </a>
               <a href="{% url 'contenido:lista_htmls' %}?categoria={{ cat.codigo }}"
                  class="btn btn-sm btn-outline-success">
-                ðŸŒ {{ cat.htmls }} HTMLs
+                🌐 {{ cat.htmls }} HTMLs
               </a>
             </div>
           </div>
@@ -124,7 +124,7 @@
   </div>
 
   <!-- ÃšLTIMOS RECURSOS -->
-  <h3 class="mb-3">ðŸ“„ Ãšltimos recursos aÃ±adidos</h3>
+  <h3 class="mb-3">📄 Ãšltimos recursos añadidos</h3>
   <div class="row mb-5">
     {% for rec in ultimos_recursos %}
       <div class="col-md-4 mb-3">
@@ -132,9 +132,9 @@
           <div class="card-body">
             <span class="badge bg-secondary">{{ rec.get_categoria_display }}</span>
             <h6 class="mt-2">{{ rec.titulo|truncatechars:55 }}</h6>
-            <p class="small text-muted">ðŸŽ¯ {{ rec.total_real }} tÃ©cnicas</p>
+            <p class="small text-muted">🎯 {{ rec.total_real }} técnicas</p>
             <a href="{% url 'contenido:detalle_recurso' rec.pk %}" class="btn btn-primary btn-sm w-100">
-              Ver tÃ©cnicas
+              Ver técnicas
             </a>
           </div>
         </div>
@@ -143,7 +143,7 @@
   </div>
 
   <!-- ÃšLTIMOS HTMLs -->
-  <h3 class="mb-3">ðŸŒ Ãšltimas apps interactivas</h3>
+  <h3 class="mb-3">🌐 Ãšltimas apps interactivas</h3>
   <div class="row mb-5">
     {% for html in ultimos_htmls %}
       <div class="col-md-4 mb-3">
@@ -162,7 +162,7 @@
   </div>
 
   <!-- CURSOS -->
-  <h3 class="mb-3">ðŸŽ“ Cursos ({{ total_cursos }})</h3>
+  <h3 class="mb-3">🎓 Cursos ({{ total_cursos }})</h3>
   <div class="row">
     {% for curso in cursos %}
       <div class="col-md-4 mb-3">
@@ -179,13 +179,13 @@
         </div>
       </div>
     {% empty %}
-      <p class="text-muted">No hay cursos aÃºn.</p>
+      <p class="text-muted">No hay cursos aún.</p>
     {% endfor %}
   </div>
 
   <div class="text-center mt-4 mb-5">
     <a href="{% url 'gamificacion:dashboard' %}" class="btn btn-lg btn-success">
-      ðŸŽ® Ir a mi panel de estudiante
+      🎮 Ir a mi panel de estudiante
     </a>
   </div>
 

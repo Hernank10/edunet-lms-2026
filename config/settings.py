@@ -170,3 +170,6 @@ LANGUAGES = [
 LOCALE_PATHS = [
     BASE_DIR / "locale",
 ]
+
+DEFAULT_CHARSET = "utf-8"
+FILE_CHARSET = "utf-8"

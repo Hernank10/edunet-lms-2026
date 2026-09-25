@@ -26,7 +26,7 @@
     <div class="card text-white bg-warning h-100">
       <div class="card-body text-center">
         <h3>{{ perfil.racha_dias }}</h3>
-        <small>ðŸ”¥ Racha de dÃ­as</small>
+        <small>ðŸ”¥ Racha de días</small>
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@
     <div class="card text-white bg-info h-100">
       <div class="card-body text-center">
         <h3>{{ total_lecciones }}</h3>
-        <small>ðŸ“š Lecciones completadas</small>
+        <small>📚 Lecciones completadas</small>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@
     <div class="card text-center border-primary">
       <div class="card-body">
         <h4 class="text-primary">{{ total_inscripciones }}</h4>
-        <small>ðŸŽ“ Mis cursos</small>
+        <small>🎓 Mis cursos</small>
         <br><small class="text-muted">{{ completadas }} completados</small>
       </div>
     </div>
@@ -99,7 +99,7 @@
 <!-- Cursos en progreso -->
 <div class="row mb-4">
   <div class="col-md-8">
-    <h4>ðŸŽ“ ContinÃºa donde lo dejaste</h4>
+    <h4>🎓 Continúa donde lo dejaste</h4>
     <div class="row">
       {% for ins in inscripciones %}
         <div class="col-md-6 mb-3">
@@ -143,7 +143,7 @@
             </div>
           </div>
         {% empty %}
-          <p class="text-muted">AÃºn no has ganado insignias.</p>
+          <p class="text-muted">Aún no has ganado insignias.</p>
         {% endfor %}
         <a href="{% url 'gamificacion:mis_logros' %}" class="btn btn-sm btn-outline-primary w-100 mt-2">
           Ver todas â†’
@@ -178,7 +178,7 @@
   </div>
 
   <div class="col-md-6">
-    <h4>ðŸŽ¯ Cursos recomendados</h4>
+    <h4>🎯 Cursos recomendados</h4>
     <div class="list-group">
       {% for c in recomendados %}
         <a href="{% url 'academia:course_lessons' c.id %}" class="list-group-item list-group-item-action">
