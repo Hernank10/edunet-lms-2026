@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     "accounts",
     "academia",
     "progreso",
-    "ejercicios",
+    # "ejercicios",
     "certificaciones",
     "contenido",
     "profesor",
