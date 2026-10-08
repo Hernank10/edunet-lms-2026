@@ -1,0 +1,19 @@
+{% extends "profesor/_base_profesor.html" %}
+{% load i18n %}
+
+{% block contenido %}
+<h2>ðŸ“¢ Nuevo anuncio para: {{ curso.titulo }}</h2>
+<form method="post">
+  {% csrf_token %}
+  <div class="mb-3">
+    <label>Título</label>
+    <input type="text" name="titulo" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label>{% trans "Contenido" %}</label>
+    <textarea name="contenido" class="form-control" rows="5" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Publicar</button>
+  <a href="{% url 'profesor:curso_detalle' curso.id %}" class="btn btn-secondary">Cancelar</a>
+</form>
+{% endblock %}
