@@ -1,0 +1,22 @@
+{% extends "profesor/_base_profesor.html" %}
+
+{% block contenido %}
+<div class="container my-4" style="max-width: 600px;">
+  <div class="card border-danger shadow-sm">
+    <div class="card-header bg-danger text-white">
+      <h4 class="mb-0">🗑️ Eliminar pregunta</h4>
+    </div>
+    <div class="card-body">
+      <p>¿Eliminar esta pregunta?</p>
+      <p class="fw-bold">{{ pregunta.enunciado|truncatechars:200 }}</p>
+      <form method="post">
+        {% csrf_token %}
+        <div class="d-flex justify-content-between mt-4">
+          <a href="{% url 'profesor:evaluacion_detalle' evaluacion.id %}" class="btn btn-outline-secondary">Cancelar</a>
+          <button type="submit" class="btn btn-danger">🗑️ Si, eliminar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

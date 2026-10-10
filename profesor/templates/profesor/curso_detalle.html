@@ -2,113 +2,209 @@
 {% load i18n %}
 
 {% block contenido %}
-<nav><ol class="breadcrumb">
-  <li class="breadcrumb-item"><a href="{% url 'profesor:mis_cursos' %}">Mis cursos</a></li>
-  <li class="breadcrumb-item active">{{ curso.titulo|truncatechars:40 }}</li>
-</ol></nav>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="{% url 'profesor:mis_cursos' %}">Mis cursos</a></li>
+    <li class="breadcrumb-item active">{{ curso.titulo|truncatechars:40 }}</li>
+  </ol>
+</nav>
 
-<h2>{{ curso.titulo }}</h2>
-<p class="text-muted">{{ curso.descripcion }}</p>
-
-<div class="row mb-4">
-  <div class="col-md-3 mb-2">
-    <div class="card bg-primary text-white">
-      <div class="card-body text-center">
-        <h4>{{ estudiantes|length }}</h4>
-        <small>Estudiantes</small>
-      </div>
-    </div>
+<!-- Cabecera con botones de accion -->
+<div class="d-flex justify-content-between align-items-start mb-3 flex-wrap gap-2">
+  <div>
+    <h2 class="mb-1">
+      {{ curso.titulo }}
+      {% if not curso.activo %}<span class="badge bg-danger align-middle">❌ Inactivo</span>{% endif %}
+    </h2>
+    <p class="text-muted mb-0">{{ curso.descripcion }}</p>
   </div>
-  <div class="col-md-3 mb-2">
-    <div class="card bg-success text-white">
-      <div class="card-body text-center">
-        <h4>{{ evaluaciones|length }}</h4>
-        <small>Evaluaciones</small>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-3 mb-2">
-    <div class="card bg-info text-white">
-      <div class="card-body text-center">
-        <h4>{{ curso.lecciones.count }}</h4>
-        <small>Lecciones</small>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-3 mb-2">
-    <a href="{% url 'profesor:crear_anuncio' curso.id %}" class="card bg-warning text-dark text-decoration-none">
-      <div class="card-body text-center">
-        <h4>ðŸ“¢</h4>
-        <small>Nuevo anuncio</small>
-      </div>
+  <div class="d-flex gap-2 flex-wrap">
+    <a href="{% url 'profesor:curso_editar' curso.id %}" class="btn btn-outline-primary btn-sm">
+      ✏️ {% trans "Editar curso" %}
+    </a>
+    <a href="{% url 'profesor:curso_toggle' curso.id %}" class="btn btn-outline-warning btn-sm">
+      🔄 {% if curso.activo %}Desactivar{% else %}Activar{% endif %}
+    </a>
+    <a href="{% url 'profesor:modulo_crear' curso.id %}" class="btn btn-info btn-sm">
+      📚 {% trans "Nuevo modulo" %}
+    </a>
+    <a href="{% url 'profesor:leccion_crear' curso.id %}" class="btn btn-success btn-sm">
+      ➕ {% trans "Nueva leccion" %}
+    </a>
+    <a href="{% url 'profesor:evaluacion_crear' curso.id %}" class="btn btn-warning btn-sm">
+      ➕ {% trans "Nueva evaluacion" %}
+    </a>
+    <a href="{% url 'profesor:anuncio_crear' curso.id %}" class="btn btn-info btn-sm">
+      📢 {% trans "Nuevo anuncio" %}
     </a>
   </div>
 </div>
 
-<ul class="nav nav-tabs mb-3">
+<!-- Estadisticas -->
+<div class="row mb-4">
+  <div class="col-md-3 mb-2">
+    <div class="card bg-primary text-white shadow-sm">
+      <div class="card-body text-center">
+        <h4 class="mb-0">{{ estudiantes|length }}</h4>
+        <small>👥 Estudiantes</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <div class="card bg-success text-white shadow-sm">
+      <div class="card-body text-center">
+        <h4 class="mb-0">{{ evaluaciones|length }}</h4>
+        <small>🏆 Evaluaciones</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <div class="card bg-info text-white shadow-sm">
+      <div class="card-body text-center">
+        <h4 class="mb-0">{{ curso.lecciones.count }}</h4>
+        <small>📚 Lecciones</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <div class="card bg-warning text-dark shadow-sm">
+      <div class="card-body text-center">
+        <h4 class="mb-0">{{ anuncios|length }}</h4>
+        <small>📢 Anuncios</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pestanas -->
+<ul class="nav nav-tabs mb-3" role="tablist">
   <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#estudiantes">👥 Estudiantes</a></li>
-  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#evaluaciones">ðŸ“ Evaluaciones</a></li>
-  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#anuncios">ðŸ“¢ Anuncios</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#lecciones">📚 Lecciones</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#evaluaciones">🏆 Evaluaciones</a></li>
+  <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#anuncios">📢 Anuncios</a></li>
 </ul>
 
 <div class="tab-content">
+  <!-- TAB ESTUDIANTES -->
   <div class="tab-pane fade show active" id="estudiantes">
-    <table class="table table-hover">
+    <table class="table table-hover align-middle">
       <thead>
         <tr><th>{% trans "Estudiante" %}</th><th>Progreso</th><th>Intentos</th><th>Mejor nota</th><th>Estado</th></tr>
       </thead>
       <tbody>
         {% for e in estudiantes %}
           <tr>
-            <td>{{ e.usuario.get_full_name|default:e.usuario.username }}</td>
             <td>
+              <strong>{{ e.usuario.get_full_name|default:e.usuario.username }}</strong>
+              <br><small class="text-muted">@{{ e.usuario.username }}</small>
+            </td>
+            <td style="min-width:120px;">
               <div class="progress" style="height:12px;">
                 <div class="progress-bar" style="width: {{ e.progreso_pct }}%;">{{ e.progreso_pct }}%</div>
               </div>
             </td>
             <td>{{ e.intentos }}</td>
-            <td>{% if e.mejor_nota is not None %}{{ e.mejor_nota }}%{% else %}â€”{% endif %}</td>
+            <td>{% if e.mejor_nota is not None %}{{ e.mejor_nota }}%{% else %}—{% endif %}</td>
             <td>
-              {% if e.completado %}<span class="badge bg-success">âœ… Completado</span>
+              {% if e.completado %}<span class="badge bg-success">✅ Completado</span>
               {% elif e.aprobado %}<span class="badge bg-info">Aprobado</span>
               {% else %}<span class="badge bg-secondary">En curso</span>{% endif %}
             </td>
           </tr>
         {% empty %}
-          <tr><td colspan="5" class="text-muted">Sin estudiantes.</td></tr>
+          <tr><td colspan="5" class="text-muted text-center">Sin estudiantes matriculados.</td></tr>
         {% endfor %}
       </tbody>
     </table>
   </div>
 
+  <!-- TAB LECCIONES -->
+  <div class="tab-pane fade" id="lecciones">
+    <div class="d-flex justify-content-between mb-2">
+      <h5>Lecciones ({{ curso.lecciones.count }})</h5>
+      <a href="{% url 'profesor:leccion_crear' curso.id %}" class="btn btn-success btn-sm">➕ Nueva leccion</a>
+    </div>
+    {% if curso.lecciones.all %}
+      <div class="list-group">
+        {% for lec in curso.lecciones.all %}
+          <div class="list-group-item">
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <strong>#{{ lec.orden }}.</strong> {{ lec.titulo }}
+                {% if not lec.activa %}<span class="badge bg-secondary">Inactiva</span>{% endif %}
+                <br><small class="text-muted">{{ lec.contenido|truncatechars:100 }}</small>
+              </div>
+              <div class="text-nowrap">
+                <a href="{% url 'profesor:leccion_editar' lec.id %}" class="btn btn-sm btn-outline-primary">✏️</a>
+                <a href="{% url 'profesor:leccion_eliminar' lec.id %}" class="btn btn-sm btn-outline-danger">🗑️</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="alert alert-info">No hay lecciones. <a href="{% url 'profesor:leccion_crear' curso.id %}">Crea la primera</a>.</div>
+    {% endif %}
+  </div>
+
+  <!-- TAB EVALUACIONES -->
   <div class="tab-pane fade" id="evaluaciones">
-    <table class="table">
-      <thead><tr><th>Evaluación</th><th>Preguntas</th><th>Nota mínima</th></tr></thead>
-      <tbody>
-        {% for ev in evaluaciones %}
-          <tr>
-            <td>{{ ev.titulo }}</td>
-            <td>{{ ev.preguntas.count }}</td>
-            <td>{{ ev.nota_minima }}%</td>
-          </tr>
-        {% empty %}
-          <tr><td colspan="3" class="text-muted">Sin evaluaciones.</td></tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    <div class="d-flex justify-content-between mb-2">
+      <h5>Evaluaciones ({{ evaluaciones|length }})</h5>
+      <a href="{% url 'profesor:evaluacion_crear' curso.id %}" class="btn btn-warning btn-sm">➕ Nueva evaluacion</a>
+    </div>
+    {% if evaluaciones %}
+      <table class="table table-hover align-middle">
+        <thead>
+          <tr><th>Titulo</th><th>Preguntas</th><th>Nota minima</th><th>Activo</th><th>Acciones</th></tr>
+        </thead>
+        <tbody>
+          {% for ev in evaluaciones %}
+            <tr>
+              <td>{{ ev.titulo }}</td>
+              <td>{{ ev.preguntas.count }} / {{ ev.num_preguntas }}</td>
+              <td>{{ ev.nota_minima }}%</td>
+              <td>{% if ev.activo %}✅ Si{% else %}❌ No{% endif %}</td>
+              <td class="text-nowrap">
+                <a href="{% url 'profesor:evaluacion_detalle' ev.id %}" class="btn btn-sm btn-outline-info">👁️</a>
+                <a href="{% url 'profesor:evaluacion_editar' ev.id %}" class="btn btn-sm btn-outline-primary">✏️</a>
+                <a href="{% url 'profesor:evaluacion_eliminar' ev.id %}" class="btn btn-sm btn-outline-danger">🗑️</a>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <div class="alert alert-info">No hay evaluaciones. <a href="{% url 'profesor:evaluacion_crear' curso.id %}">Crea la primera</a>.</div>
+    {% endif %}
   </div>
 
+  <!-- TAB ANUNCIOS -->
   <div class="tab-pane fade" id="anuncios">
+    <div class="d-flex justify-content-between mb-2">
+      <h5>Anuncios ({{ anuncios|length }})</h5>
+      <a href="{% url 'profesor:anuncio_crear' curso.id %}" class="btn btn-info btn-sm">📢 Nuevo anuncio</a>
+    </div>
     {% for a in anuncios %}
-      <div class="card mb-2">
+      <div class="card mb-2 shadow-sm">
         <div class="card-body">
-          <h6>{{ a.titulo }}</h6>
-          <p>{{ a.contenido }}</p>
-          <small class="text-muted">{{ a.fecha|date:"d M Y H:i" }}</small>
+          <div class="d-flex justify-content-between">
+            <div>
+              <h6 class="mb-1">
+                {% if a.activo %}📢{% else %}🔕{% endif %} {{ a.titulo }}
+              </h6>
+              <p class="mb-1">{{ a.contenido }}</p>
+              <small class="text-muted">Publicado el {{ a.fecha|date:"d M Y H:i" }}</small>
+            </div>
+            <div class="text-nowrap">
+              <a href="{% url 'profesor:anuncio_editar' a.id %}" class="btn btn-sm btn-outline-primary">✏️</a>
+              <a href="{% url 'profesor:anuncio_eliminar' a.id %}" class="btn btn-sm btn-outline-danger">🗑️</a>
+            </div>
+          </div>
         </div>
       </div>
     {% empty %}
-      <p class="text-muted">No hay anuncios.</p>
+      <div class="alert alert-info">No hay anuncios. <a href="{% url 'profesor:anuncio_crear' curso.id %}">Crea el primero</a>.</div>
     {% endfor %}
   </div>
 </div>

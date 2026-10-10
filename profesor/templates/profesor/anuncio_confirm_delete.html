@@ -1,0 +1,22 @@
+{% extends "profesor/_base_profesor.html" %}
+
+{% block contenido %}
+<div class="container my-4" style="max-width: 600px;">
+  <div class="card border-danger shadow-sm">
+    <div class="card-header bg-danger text-white">
+      <h4 class="mb-0">🗑️ Eliminar anuncio</h4>
+    </div>
+    <div class="card-body">
+      <p>¿Eliminar el anuncio?</p>
+      <p class="fw-bold">{{ anuncio.titulo }}</p>
+      <form method="post">
+        {% csrf_token %}
+        <div class="d-flex justify-content-between mt-4">
+          <a href="{% url 'profesor:curso_detalle' curso.id %}" class="btn btn-outline-secondary">Cancelar</a>
+          <button type="submit" class="btn btn-danger">🗑️ Si, eliminar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

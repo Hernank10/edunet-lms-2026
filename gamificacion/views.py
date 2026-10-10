@@ -21,45 +21,119 @@ def _get_perfil(user):
 # ============================================================
 @login_required
 def dashboard_estudiante(request):
-    """Dashboard principal del estudiante."""
+    """Dashboard principal del estudiante con graficos y estadisticas."""
+    import json
+    from datetime import timedelta
+    from django.utils import timezone
+
     usuario = request.user
     perfil = _get_perfil(usuario)
 
-    # Inscripciones activas (últimas 6)
+    # ============ INSCRIPCIONES ============
     inscripciones_activas = Inscripcion.objects.filter(
         usuario=usuario, activa=True
     ).select_related("curso", "curso__nivel").order_by("-fecha")[:6]
 
-    # Estadísticas
     total_inscripciones = Inscripcion.objects.filter(usuario=usuario).count()
     completadas = Inscripcion.objects.filter(usuario=usuario, completado=True).count()
     en_progreso = Inscripcion.objects.filter(usuario=usuario, activa=True, completado=False).count()
+    sin_empezar = max(0, total_inscripciones - completadas - en_progreso)
 
-    # Evaluaciones
+    # ============ EVALUACIONES ============
     intentos = IntentoEvaluacion.objects.filter(usuario=usuario)
     evaluaciones_aprobadas = intentos.filter(aprobado=True).count()
     evaluaciones_totales = intentos.count()
+    evaluaciones_reprobadas = evaluaciones_totales - evaluaciones_aprobadas
 
-    # Certificados
+    # ============ CERTIFICADOS ============
     certs = Certificado.objects.filter(usuario=usuario).count()
 
-    # Logros
+    # ============ LOGROS ============
     logros = Logro.objects.filter(usuario=usuario).select_related("insignia")
     total_insignias = Insignia.objects.count()
     ganadas = logros.count()
-
-    # Insignias recientes (últimas 5)
     ultimas_insignias = logros.order_by("-fecha")[:5]
 
-    # Progreso global
+    # ============ PROGRESO ============
     total_lecciones = ProgresoLeccion.objects.filter(usuario=usuario, completada=True).count()
 
-    # Cursos recomendados (los que no está inscrito)
+    # ============ CURSOS RECOMENDADOS ============
     cursos_inscritos_ids = Inscripcion.objects.filter(usuario=usuario).values_list("curso_id", flat=True)
     recomendados = Curso.objects.filter(activo=True).exclude(id__in=cursos_inscritos_ids)[:3]
 
-    # Actividad reciente (últimos intentos)
+    # ============ ACTIVIDAD RECIENTE ============
     actividad = intentos.select_related("evaluacion", "evaluacion__curso").order_by("-fecha")[:5]
+
+    # ============ DATOS PARA GRAFICOS ============
+
+    # --- Grafico A: Dona de cursos ---
+    dona_labels = ["Completados", "En progreso", "Sin empezar"]
+    dona_data = [completadas, en_progreso, sin_empezar]
+
+    # --- Grafico B: Barras de progreso por curso ---
+    inscripciones_con_progreso = Inscripcion.objects.filter(
+        usuario=usuario
+    ).select_related("curso").order_by("-progreso_pct")[:5]
+    barras_labels = [i.curso.titulo[:35] + ("..." if len(i.curso.titulo) > 35 else "") for i in inscripciones_con_progreso]
+    barras_data = [i.progreso_pct for i in inscripciones_con_progreso]
+
+    # --- Grafico C: Linea de XP ultimos 30 dias ---
+    hoy = timezone.now().date()
+    hace_30 = hoy - timedelta(days=29)
+    dias_labels = []
+    dias_xp = []
+    for i in range(30):
+        dia = hace_30 + timedelta(days=i)
+        dias_labels.append(dia.strftime("%d/%m"))
+        # XP ganado ese dia (simulado: contar lecciones completadas x 10 XP)
+        progreso_dia = ProgresoLeccion.objects.filter(
+            usuario=usuario, completada=True, fecha_completada__date=dia
+        ).count()
+        dias_xp.append(progreso_dia * 10)
+
+    # --- Grafico E: Barras apiladas evaluaciones por curso ---
+    cursos_con_eval = []
+    for curso in Curso.objects.filter(inscripciones__usuario=usuario).distinct()[:5]:
+        intentos_curso = intentos.filter(evaluacion__curso=curso)
+        cursos_con_eval.append({
+            "titulo": curso.titulo[:30] + ("..." if len(curso.titulo) > 30 else ""),
+            "aprobados": intentos_curso.filter(aprobado=True).count(),
+            "reprobados": intentos_curso.filter(aprobado=False).count(),
+        })
+
+    eval_labels = [c["titulo"] for c in cursos_con_eval]
+    eval_aprobados = [c["aprobados"] for c in cursos_con_eval]
+    eval_reprobados = [c["reprobados"] for c in cursos_con_eval]
+
+    # --- Proximos pasos ---
+    proximos_pasos = []
+    # 1. Curso mas cercano a completar
+    casi_completos = Inscripcion.objects.filter(
+        usuario=usuario, completado=False, progreso_pct__gte=70
+    ).select_related("curso").order_by("-progreso_pct")[:1]
+    for ins in casi_completos:
+        proximos_pasos.append({
+            "icono": "🎯",
+            "texto": "Casi terminas: " + ins.curso.titulo[:50] + " (" + str(ins.progreso_pct) + "%)",
+            "url": "/es/curso/" + str(ins.curso.id) + "/lecciones/",
+        })
+    # 2. Siguiente insignia
+    insignias_pendientes = Insignia.objects.exclude(
+        id__in=logros.values_list("insignia_id", flat=True)
+    )[:1]
+    for ins in insignias_pendientes:
+        proximos_pasos.append({
+            "icono": "🏅",
+            "texto": "Siguiente insignia: " + ins.nombre,
+            "url": "/es/estudiante/logros/",
+        })
+    # 3. Evaluaciones pendientes
+    if evaluaciones_totales == 0:
+        proximos_pasos.append({
+            "icono": "🏆",
+            "texto": "Aun no has hecho ninguna evaluacion. Empieza una!",
+            "url": "/es/estudiante/evaluaciones/",
+        })
 
     return render(request, "gamificacion/dashboard.html", {
         "perfil": perfil,
@@ -76,12 +150,18 @@ def dashboard_estudiante(request):
         "total_lecciones": total_lecciones,
         "recomendados": recomendados,
         "actividad": actividad,
+        # Datos para graficos (JSON)
+        "dona_data": json.dumps(dona_data),
+        "dona_labels": json.dumps(dona_labels),
+        "barras_labels": json.dumps(barras_labels),
+        "barras_data": json.dumps(barras_data),
+        "dias_labels": json.dumps(dias_labels),
+        "dias_xp": json.dumps(dias_xp),
+        "eval_labels": json.dumps(eval_labels),
+        "eval_aprobados": json.dumps(eval_aprobados),
+        "eval_reprobados": json.dumps(eval_reprobados),
+        "proximos_pasos": proximos_pasos,
     })
-
-
-# ============================================================
-# MIS CURSOS
-# ============================================================
 @login_required
 def mis_cursos(request):
     """Lista completa de cursos del estudiante."""

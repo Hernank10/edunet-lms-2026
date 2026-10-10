@@ -1,4 +1,4 @@
-﻿from django.db import models
+from django.db import models
 from django.utils.text import slugify
 
 
@@ -54,6 +54,15 @@ class Leccion(models.Model):
         Curso,
         on_delete=models.CASCADE,
         related_name="lecciones"
+    )
+
+    modulo = models.ForeignKey(
+        "Modulo",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="lecciones",
+        help_text="Modulo al que pertenece (opcional)"
     )
 
     titulo = models.CharField(max_length=200)
@@ -172,3 +181,28 @@ class Inscripcion(models.Model):
         self.progreso_pct = int((completadas / total) * 100)
         self.completado = self.progreso_pct >= 100
         self.save()
+
+class Modulo(models.Model):
+    """Modulo de un curso (agrupa N lecciones)."""
+    curso = models.ForeignKey(
+        Curso,
+        on_delete=models.CASCADE,
+        related_name="modulos",
+    )
+    titulo = models.CharField(max_length=200)
+    descripcion = models.TextField(blank=True)
+    orden = models.PositiveIntegerField(default=1)
+    activo = models.BooleanField(default=True)
+    fecha_creacion = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["orden"]
+        verbose_name = "Modulo"
+        verbose_name_plural = "Modulos"
+
+    def __str__(self):
+        return self.curso.titulo + " - " + self.titulo
+
+    @property
+    def num_lecciones(self):
+        return self.lecciones.count()

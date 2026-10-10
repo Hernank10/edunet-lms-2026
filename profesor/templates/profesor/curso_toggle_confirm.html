@@ -1,0 +1,23 @@
+{% extends "profesor/_base_profesor.html" %}
+
+{% block contenido %}
+<div class="container my-4" style="max-width: 600px;">
+  <div class="card shadow-sm">
+    <div class="card-header bg-warning text-dark">
+      <h4 class="mb-0">🔄 Cambiar estado del curso</h4>
+    </div>
+    <div class="card-body">
+      <p>El curso <strong>{{ curso.titulo }}</strong> esta actualmente:</p>
+      <p class="fs-4">{% if curso.activo %}✅ <span class="text-success">Activo</span>{% else %}❌ <span class="text-danger">Inactivo</span>{% endif %}</p>
+      <p>¿Deseas {% if curso.activo %}desactivarlo{% else %}activarlo{% endif %}?</p>
+      <form method="post">
+        {% csrf_token %}
+        <div class="d-flex justify-content-between mt-4">
+          <a href="{% url 'profesor:curso_detalle' curso.id %}" class="btn btn-outline-secondary">Cancelar</a>
+          <button type="submit" class="btn btn-warning">🔄 Si, cambiar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

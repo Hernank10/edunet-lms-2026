@@ -1,26 +1,307 @@
 {% extends "profesor/_base_profesor.html" %}
+{% load i18n %}
+
 {% block contenido %}
 <h2 class="mb-4">📈 Analíticas por Curso</h2>
-<table class="table table-hover">
-  <thead>
-    <tr><th>Curso</th><th>Intentos</th><th>Promedio</th><th>Aprobados</th><th>% Aprobados</th></tr>
-  </thead>
-  <tbody>
-    {% for s in cursos_stats %}
-      <tr>
-        <td>{{ s.curso.titulo|truncatechars:50 }}</td>
-        <td>{{ s.intentos }}</td>
-        <td>{{ s.promedio }}%</td>
-        <td>{{ s.aprobados }}</td>
-        <td>
-          <div class="progress" style="height:12px;">
-            <div class="progress-bar bg-success" style="width: {{ s.pct_aprobados }}%;">{{ s.pct_aprobados }}%</div>
-          </div>
-        </td>
-      </tr>
-    {% empty %}
-      <tr><td colspan="5" class="text-muted">Sin datos.</td></tr>
-    {% endfor %}
-  </tbody>
-</table>
+
+<!-- KPIs GLOBALES -->
+<div class="row mb-4">
+  <div class="col-md-3 mb-2">
+    <div class="card bg-primary text-white shadow-sm">
+      <div class="card-body text-center">
+        <h2 class="mb-0">{{ total_intentos }}</h2>
+        <small>📝 Intentos totales</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <div class="card bg-success text-white shadow-sm">
+      <div class="card-body text-center">
+        <h2 class="mb-0">{{ total_aprobados }}</h2>
+        <small>✅ Aprobados</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <div class="card bg-info text-white shadow-sm">
+      <div class="card-body text-center">
+        <h2 class="mb-0">{{ promedio_global }}%</h2>
+        <small>📊 Promedio global</small>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 mb-2">
+    <div class="card bg-warning text-dark shadow-sm">
+      <div class="card-body text-center">
+        <h2 class="mb-0">{{ pct_aprobados_global }}%</h2>
+        <small>🎯 Tasa de aprobación</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GRAFICAS -->
+<div class="row mb-4">
+  <!-- Dona: Global aprobados/reprobados -->
+  <div class="col-md-4 mb-3">
+    <div class="card shadow-sm h-100">
+      <div class="card-header bg-light">
+        <strong>🎯 Aprobados vs Reprobados</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="chartGlobal" height="200"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Barras: Promedio por curso -->
+  <div class="col-md-8 mb-3">
+    <div class="card shadow-sm h-100">
+      <div class="card-header bg-light">
+        <strong>📊 Promedio por curso (top 10)</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="chartPromedios" height="120"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-4">
+  <!-- Barras apiladas: Aprobados/Reprobados por curso -->
+  <div class="col-md-6 mb-3">
+    <div class="card shadow-sm h-100">
+      <div class="card-header bg-light">
+        <strong>✅ Aprobados vs ❌ Reprobados por curso</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="chartAprobados" height="200"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Linea: Evolucion ultimos 30 dias -->
+  <div class="col-md-6 mb-3">
+    <div class="card shadow-sm h-100">
+      <div class="card-header bg-light">
+        <strong>📈 Actividad últimos 30 días</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="chartEvolucion" height="200"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TABLA DETALLADA -->
+<div class="card shadow-sm mb-4">
+  <div class="card-header bg-light">
+    <strong>📋 Detalle por curso</strong>
+  </div>
+  <div class="card-body p-0">
+    <table class="table table-hover align-middle mb-0">
+      <thead class="table-light">
+        <tr>
+          <th>Curso</th>
+          <th class="text-center">Intentos</th>
+          <th class="text-center">Promedio</th>
+          <th class="text-center">Aprobados</th>
+          <th style="min-width:150px;">% Aprobados</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for c in cursos_stats %}
+          <tr>
+            <td>{{ c.curso.titulo|truncatechars:60 }}</td>
+            <td class="text-center">{{ c.intentos }}</td>
+            <td class="text-center">
+              {% if c.promedio >= 80 %}
+                <span class="badge bg-success">{{ c.promedio }}%</span>
+              {% elif c.promedio >= 60 %}
+                <span class="badge bg-warning text-dark">{{ c.promedio }}%</span>
+              {% elif c.promedio > 0 %}
+                <span class="badge bg-danger">{{ c.promedio }}%</span>
+              {% else %}
+                <span class="text-muted">—</span>
+              {% endif %}
+            </td>
+            <td class="text-center">{{ c.aprobados }} / {{ c.intentos }}</td>
+            <td>
+              <div class="d-flex align-items-center gap-2">
+                <div class="progress flex-grow-1" style="height:18px;">
+                  <div class="progress-bar {% if c.pct_aprobados >= 70 %}bg-success{% elif c.pct_aprobados >= 40 %}bg-warning{% else %}bg-danger{% endif %}"
+                       style="width: {{ c.pct_aprobados }}%;">
+                    {{ c.pct_aprobados }}%
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        {% empty %}
+          <tr><td colspan="5" class="text-center text-muted py-4">No hay datos de evaluaciones aún.</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Chart.js desde CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<script>
+// ============ DATOS DESDE DJANGO ============
+const chartLabels = {{ chart_labels|safe }};
+const chartPromedios = {{ chart_promedios|safe }};
+const chartAprobados = {{ chart_aprobados|safe }};
+const chartReprobados = {{ chart_reprobados|safe }};
+const chartIntentos = {{ chart_intentos|safe }};
+const chartGlobalAprobados = {{ chart_global_aprobados }};
+const chartGlobalReprobados = {{ chart_global_reprobados }};
+const diasLabels = {{ dias_labels|safe }};
+const diasIntentos = {{ dias_intentos|safe }};
+const diasAprobados = {{ dias_aprobados|safe }};
+
+const COLORES = {
+  primary: '#0d6efd',
+  success: '#198754',
+  danger:  '#dc3545',
+  warning: '#ffc107',
+  info:    '#0dcaf0',
+  secondary: '#6c757d'
+};
+
+// ============ 1. DONA GLOBAL ============
+new Chart(document.getElementById('chartGlobal'), {
+  type: 'doughnut',
+  data: {
+    labels: ['✅ Aprobados', '❌ Reprobados'],
+    datasets: [{
+      data: [chartGlobalAprobados, chartGlobalReprobados],
+      backgroundColor: [COLORES.success, COLORES.danger],
+      borderWidth: 2,
+      borderColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom' },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) {
+            const total = ctx.dataset.data.reduce((a, b) => a + b, 0);
+            const pct = total > 0 ? ((ctx.parsed / total) * 100).toFixed(1) : 0;
+            return ctx.label + ': ' + ctx.parsed + ' (' + pct + '%)';
+          }
+        }
+      }
+    }
+  }
+});
+
+// ============ 2. BARRAS PROMEDIO POR CURSO ============
+new Chart(document.getElementById('chartPromedios'), {
+  type: 'bar',
+  data: {
+    labels: chartLabels,
+    datasets: [{
+      label: 'Promedio',
+      data: chartPromedios,
+      backgroundColor: chartPromedios.map(p =>
+        p >= 80 ? COLORES.success : p >= 60 ? COLORES.warning : COLORES.danger
+      ),
+      borderWidth: 0
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          label: function(ctx) { return 'Promedio: ' + ctx.parsed.y + '%'; }
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 100,
+        ticks: { callback: function(v) { return v + '%'; } }
+      },
+      x: { ticks: { font: { size: 10 } } }
+    }
+  }
+});
+
+// ============ 3. BARRAS APILADAS APROBADOS/REPROBADOS ============
+new Chart(document.getElementById('chartAprobados'), {
+  type: 'bar',
+  data: {
+    labels: chartLabels,
+    datasets: [
+      {
+        label: '✅ Aprobados',
+        data: chartAprobados,
+        backgroundColor: COLORES.success
+      },
+      {
+        label: '❌ Reprobados',
+        data: chartReprobados,
+        backgroundColor: COLORES.danger
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom' }
+    },
+    scales: {
+      x: { stacked: true, ticks: { font: { size: 10 } } },
+      y: { stacked: true, beginAtZero: true }
+    }
+  }
+});
+
+// ============ 4. LINEA EVOLUCION 30 DIAS ============
+new Chart(document.getElementById('chartEvolucion'), {
+  type: 'line',
+  data: {
+    labels: diasLabels,
+    datasets: [
+      {
+        label: '📝 Intentos',
+        data: diasIntentos,
+        borderColor: COLORES.primary,
+        backgroundColor: 'rgba(13, 110, 253, 0.1)',
+        tension: 0.3,
+        fill: true
+      },
+      {
+        label: '✅ Aprobados',
+        data: diasAprobados,
+        borderColor: COLORES.success,
+        backgroundColor: 'rgba(25, 135, 84, 0.1)',
+        tension: 0.3,
+        fill: true
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom' }
+    },
+    scales: {
+      y: { beginAtZero: true, ticks: { stepSize: 1 } },
+      x: { ticks: { font: { size: 9 }, maxRotation: 60 } }
+    }
+  }
+});
+</script>
 {% endblock %}

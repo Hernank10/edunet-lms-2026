@@ -2,20 +2,65 @@
 {% load i18n %}
 
 {% block contenido %}
-<h2 class="mb-4">🏆 Certificados emitidos ({{ certificados|length }})</h2>
-<table class="table table-hover">
+<h2 class="mb-4">🏆 {% trans "Certificados emitidos" %} ({{ certificados|length }})</h2>
+
+{% if certificados %}
+<table class="table table-hover align-middle">
   <thead>
-    <tr><th>{% trans "Estudiante" %}</th><th>Curso</th><th>Nota</th><th>Fecha</th></tr>
+    <tr>
+      <th>{% trans "Estudiante" %}</th>
+      <th>{% trans "Curso" %}</th>
+      <th>{% trans "Nota" %}</th>
+      <th>{% trans "Fecha" %}</th>
+      <th class="text-end">{% trans "Acciones" %}</th>
+    </tr>
   </thead>
   <tbody>
     {% for c in certificados %}
       <tr>
-        <td>{{ c.usuario.username }}</td>
+        <td>
+          <strong>{{ c.usuario.get_full_name|default:c.usuario.username }}</strong>
+          <br><small class="text-muted">@{{ c.usuario.username }}</small>
+        </td>
         <td>{{ c.curso.titulo|truncatechars:50 }}</td>
-        <td>{{ c.nota_final }}%</td>
+        <td>
+          <span class="badge {% if c.nota_final >= 90 %}bg-success{% elif c.nota_final >= 70 %}bg-info{% else %}bg-warning{% endif %}">
+            {{ c.nota_final }}%
+          </span>
+        </td>
         <td>{{ c.fecha_emision|date:"d M Y" }}</td>
+        <td class="text-end">
+          {# Ver en HTML #}
+          <a href="{% url 'certificaciones:ver_certificado' c.codigo %}"
+             class="btn btn-sm btn-outline-primary"
+             target="_blank"
+             title="Ver certificado">
+            👁️ Ver
+          </a>
+
+          {# Descargar PDF #}
+          {% if c.pdf %}
+            <a href="{{ c.pdf.url }}"
+               class="btn btn-sm btn-outline-danger"
+               target="_blank"
+               title="Descargar PDF"
+               download>
+              📄 PDF
+            </a>
+          {% else %}
+            <span class="btn btn-sm btn-outline-secondary disabled" title="PDF no generado">
+              📄 PDF
+            </span>
+          {% endif %}
+        </td>
       </tr>
     {% endfor %}
   </tbody>
 </table>
+{% else %}
+<div class="alert alert-info">
+  {% trans "No hay certificados emitidos en tus cursos." %}
+</div>
+{% endif %}
+
 {% endblock %}

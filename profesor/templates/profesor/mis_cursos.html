@@ -1,32 +1,51 @@
 {% extends "profesor/_base_profesor.html" %}
+{% load i18n %}
+
 {% block contenido %}
-<h2 class="mb-4">🎓 Mis Cursos ({{ cursos|length }})</h2>
+<div class="d-flex justify-content-between align-items-center mb-4">
+  <h2 class="mb-0">🎓 {% trans "Mis Cursos" %} ({{ cursos|length }})</h2>
+  <a href="{% url 'profesor:curso_crear' %}" class="btn btn-success">
+    ➕ {% trans "Nuevo curso" %}
+  </a>
+</div>
+
 <div class="row">
   {% for item in cursos %}
     <div class="col-md-4 mb-3">
-      <div class="card h-100">
+      <div class="card h-100 shadow-sm">
         <div class="card-body">
           <span class="badge bg-secondary">{{ item.curso.nivel.codigo }}</span>
+          {% if not item.curso.activo %}
+            <span class="badge bg-danger">❌ Inactivo</span>
+          {% endif %}
+
           <h6 class="mt-2">{{ item.curso.titulo|truncatechars:60 }}</h6>
+
           <div class="row small mt-3">
             <div class="col-6">👥 {{ item.inscripciones }}</div>
             <div class="col-6">📚 {{ item.lecciones }} lecc.</div>
             <div class="col-6">📝 {{ item.evaluaciones }} eval.</div>
             <div class="col-6">✅ {{ item.completados }}</div>
           </div>
+
           <div class="progress mt-2" style="height:10px;">
             <div class="progress-bar" style="width: {{ item.pct_completado }}%;">
               {{ item.pct_completado }}%
             </div>
           </div>
+
           <a href="{% url 'profesor:curso_detalle' item.curso.id %}" class="btn btn-primary btn-sm w-100 mt-3">
-            Gestionar curso
+            ⚙️ Gestionar curso
           </a>
         </div>
       </div>
     </div>
   {% empty %}
-    <p class="text-muted">No tienes cursos asignados.</p>
+    <div class="col-12">
+      <div class="alert alert-info">
+        No tienes cursos asignados. <a href="{% url 'profesor:curso_crear' %}">Crea el primero</a>.
+      </div>
+    </div>
   {% endfor %}
 </div>
 {% endblock %}

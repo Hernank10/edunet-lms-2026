@@ -4,36 +4,36 @@
 {% block contenido %}
 <h2 class="mb-4">👋 ¡Hola, {{ user.get_full_name|default:user.username }}!</h2>
 
-<!-- Stats -->
+<!-- KPIs PRINCIPALES -->
 <div class="row mb-4">
   <div class="col-md-3 mb-3">
-    <div class="card text-white bg-primary h-100">
+    <div class="card text-white bg-primary h-100 shadow-sm">
       <div class="card-body text-center">
-        <h3>{{ perfil.xp_total }}</h3>
+        <h2 class="mb-0">{{ perfil.xp_total }}</h2>
         <small>💎 XP Total</small>
       </div>
     </div>
   </div>
   <div class="col-md-3 mb-3">
-    <div class="card text-white bg-success h-100">
+    <div class="card text-white bg-success h-100 shadow-sm">
       <div class="card-body text-center">
-        <h3>Nivel {{ perfil.nivel_actual }}</h3>
+        <h2 class="mb-0">Nivel {{ perfil.nivel_actual }}</h2>
         <small>🏅 {{ perfil.titulo_nivel|default:"Aprendiz" }}</small>
       </div>
     </div>
   </div>
   <div class="col-md-3 mb-3">
-    <div class="card text-white bg-warning h-100">
+    <div class="card text-white bg-warning h-100 shadow-sm">
       <div class="card-body text-center">
-        <h3>{{ perfil.racha_dias }}</h3>
+        <h2 class="mb-0">{{ perfil.racha_dias }}</h2>
         <small>🔥 Racha de días</small>
       </div>
     </div>
   </div>
   <div class="col-md-3 mb-3">
-    <div class="card text-white bg-info h-100">
+    <div class="card text-white bg-info h-100 shadow-sm">
       <div class="card-body text-center">
-        <h3>{{ total_lecciones }}</h3>
+        <h2 class="mb-0">{{ total_lecciones }}</h2>
         <small>📚 Lecciones completadas</small>
       </div>
     </div>
@@ -41,10 +41,10 @@
 </div>
 
 <!-- Barra de nivel -->
-<div class="card mb-4">
+<div class="card mb-4 shadow-sm">
   <div class="card-body">
     <div class="d-flex justify-content-between mb-2">
-      <strong>Nivel {{ perfil.nivel_actual }} ? {{ perfil.nivel_actual|add:1 }}</strong>
+      <strong>Nivel {{ perfil.nivel_actual }} → {{ perfil.nivel_actual|add:1 }}</strong>
       <span>{{ perfil.xp_total }} / {{ perfil.xp_siguiente_nivel|default:"500" }} XP</span>
     </div>
     <div class="progress" style="height: 25px;">
@@ -56,10 +56,10 @@
   </div>
 </div>
 
-<!-- Resumen en 4 columnas -->
+<!-- Resumen 4 columnas -->
 <div class="row mb-4">
   <div class="col-md-3 mb-3">
-    <div class="card text-center border-primary">
+    <div class="card text-center border-primary shadow-sm">
       <div class="card-body">
         <h4 class="text-primary">{{ total_inscripciones }}</h4>
         <small>🎓 Mis cursos</small>
@@ -68,7 +68,7 @@
     </div>
   </div>
   <div class="col-md-3 mb-3">
-    <div class="card text-center border-success">
+    <div class="card text-center border-success shadow-sm">
       <div class="card-body">
         <h4 class="text-success">{{ evaluaciones_aprobadas }}/{{ evaluaciones_totales }}</h4>
         <small>🏆 Evaluaciones</small>
@@ -77,16 +77,16 @@
     </div>
   </div>
   <div class="col-md-3 mb-3">
-    <div class="card text-center border-warning">
+    <div class="card text-center border-warning shadow-sm">
       <div class="card-body">
         <h4 class="text-warning">{{ certs }}</h4>
-        <small>🏆 {% trans "Certificados" %}</small>
+        <small>🏆 Certificados</small>
         <br><small class="text-muted">Obtenidos</small>
       </div>
     </div>
   </div>
   <div class="col-md-3 mb-3">
-    <div class="card text-center border-info">
+    <div class="card text-center border-info shadow-sm">
       <div class="card-body">
         <h4 class="text-info">{{ ganadas }}/{{ total_insignias }}</h4>
         <small>🏅 Insignias</small>
@@ -96,14 +96,96 @@
   </div>
 </div>
 
-<!-- Cursos en progreso -->
+<!-- PROXIMOS PASOS -->
+{% if proximos_pasos %}
+<div class="row mb-4">
+  <div class="col-12">
+    <div class="card shadow-sm border-info">
+      <div class="card-header bg-info text-white">
+        <strong>🎯 Sugerencias para ti</strong>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          {% for paso in proximos_pasos %}
+            <div class="col-md-4 mb-2">
+              <a href="{{ paso.url }}" class="text-decoration-none">
+                <div class="card h-100 border-info">
+                  <div class="card-body text-center">
+                    <div style="font-size:2rem;">{{ paso.icono }}</div>
+                    <p class="mb-0">{{ paso.texto }}</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- GRAFICOS -->
+<div class="row mb-4">
+  <!-- Grafico A: Dona -->
+  <div class="col-md-4 mb-3">
+    <div class="card shadow-sm h-100">
+      <div class="card-header bg-light">
+        <strong>📊 Mis cursos</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="chartDona" height="200"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grafico B: Barras de progreso -->
+  <div class="col-md-8 mb-3">
+    <div class="card shadow-sm h-100">
+      <div class="card-header bg-light">
+        <strong>📈 Progreso por curso (top 5)</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="chartBarras" height="140"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-4">
+  <!-- Grafico C: Linea de XP -->
+  <div class="col-md-6 mb-3">
+    <div class="card shadow-sm h-100">
+      <div class="card-header bg-light">
+        <strong>📈 XP ganado (últimos 30 días)</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="chartXP" height="200"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grafico E: Evaluaciones -->
+  <div class="col-md-6 mb-3">
+    <div class="card shadow-sm h-100">
+      <div class="card-header bg-light">
+        <strong>🏆 Evaluaciones por curso</strong>
+      </div>
+      <div class="card-body">
+        <canvas id="chartEval" height="200"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CURSOS EN PROGRESO + ULTIMAS INSIGNIAS -->
 <div class="row mb-4">
   <div class="col-md-8">
-    <h4>📋 Continúa donde lo dejaste</h4>
+    <h4>📚 Continúa donde lo dejaste</h4>
     <div class="row">
       {% for ins in inscripciones %}
         <div class="col-md-6 mb-3">
-          <div class="card h-100">
+          <div class="card h-100 shadow-sm">
             <div class="card-body">
               <h6>{{ ins.curso.titulo|truncatechars:55 }}</h6>
               <small class="text-muted">{{ ins.curso.nivel.codigo }}</small>
@@ -113,10 +195,10 @@
                 </div>
               </div>
               {% if ins.completado %}
-                <span class="badge bg-success">? Completado</span>
+                <span class="badge bg-success">✅ Completado</span>
               {% else %}
                 <a href="{% url 'academia:course_lessons' ins.curso.id %}" class="btn btn-primary btn-sm w-100">
-                  Continuar ?
+                  Continuar →
                 </a>
               {% endif %}
             </div>
@@ -132,7 +214,7 @@
 
   <div class="col-md-4">
     <h4>🏅 Últimas insignias</h4>
-    <div class="card">
+    <div class="card shadow-sm">
       <div class="card-body">
         {% for logro in ultimas_insignias %}
           <div class="d-flex align-items-center mb-2">
@@ -146,18 +228,18 @@
           <p class="text-muted">Aún no has ganado insignias.</p>
         {% endfor %}
         <a href="{% url 'gamificacion:mis_logros' %}" class="btn btn-sm btn-outline-primary w-100 mt-2">
-          Ver todas ?
+          Ver todas →
         </a>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Actividad reciente -->
+<!-- ACTIVIDAD + RECOMENDADOS -->
 <div class="row">
   <div class="col-md-6">
     <h4>📋 Actividad reciente</h4>
-    <ul class="list-group">
+    <ul class="list-group shadow-sm">
       {% for a in actividad %}
         <li class="list-group-item d-flex justify-content-between">
           <div>
@@ -179,7 +261,7 @@
 
   <div class="col-md-6">
     <h4>🎯 Cursos recomendados</h4>
-    <div class="list-group">
+    <div class="list-group shadow-sm">
       {% for c in recomendados %}
         <a href="{% url 'academia:course_lessons' c.id %}" class="list-group-item list-group-item-action">
           <div class="d-flex justify-content-between">
@@ -196,4 +278,134 @@
     </div>
   </div>
 </div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+<script>
+// ============ DATOS DESDE DJANGO ============
+const donaData = {{ dona_data|safe }};
+const donaLabels = {{ dona_labels|safe }};
+const barrasLabels = {{ barras_labels|safe }};
+const barrasData = {{ barras_data|safe }};
+const diasLabels = {{ dias_labels|safe }};
+const diasXP = {{ dias_xp|safe }};
+const evalLabels = {{ eval_labels|safe }};
+const evalAprobados = {{ eval_aprobados|safe }};
+const evalReprobados = {{ eval_reprobados|safe }};
+
+const COLORES = {
+  primary: '#0d6efd',
+  success: '#198754',
+  danger:  '#dc3545',
+  warning: '#ffc107',
+  info:    '#0dcaf0',
+  secondary: '#6c757d'
+};
+
+// ============ A. DONA DE CURSOS ============
+new Chart(document.getElementById('chartDona'), {
+  type: 'doughnut',
+  data: {
+    labels: donaLabels,
+    datasets: [{
+      data: donaData,
+      backgroundColor: [COLORES.success, COLORES.warning, COLORES.secondary],
+      borderWidth: 2,
+      borderColor: '#fff'
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom' }
+    }
+  }
+});
+
+// ============ B. BARRAS DE PROGRESO ============
+new Chart(document.getElementById('chartBarras'), {
+  type: 'bar',
+  data: {
+    labels: barrasLabels,
+    datasets: [{
+      label: 'Progreso',
+      data: barrasData,
+      backgroundColor: barrasData.map(p =>
+        p >= 80 ? COLORES.success : p >= 50 ? COLORES.warning : COLORES.danger
+      )
+    }]
+  },
+  options: {
+    indexAxis: 'y',
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false }
+    },
+    scales: {
+      x: { beginAtZero: true, max: 100, ticks: { callback: v => v + '%' } }
+    }
+  }
+});
+
+// ============ C. LINEA DE XP ============
+new Chart(document.getElementById('chartXP'), {
+  type: 'line',
+  data: {
+    labels: diasLabels,
+    datasets: [{
+      label: 'XP ganado',
+      data: diasXP,
+      borderColor: COLORES.primary,
+      backgroundColor: 'rgba(13, 110, 253, 0.1)',
+      tension: 0.3,
+      fill: true
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false }
+    },
+    scales: {
+      y: { beginAtZero: true },
+      x: { ticks: { font: { size: 9 }, maxRotation: 60 } }
+    }
+  }
+});
+
+// ============ E. EVALUACIONES POR CURSO ============
+new Chart(document.getElementById('chartEval'), {
+  type: 'bar',
+  data: {
+    labels: evalLabels,
+    datasets: [
+      {
+        label: '✅ Aprobadas',
+        data: evalAprobados,
+        backgroundColor: COLORES.success
+      },
+      {
+        label: '❌ Reprobadas',
+        data: evalReprobados,
+        backgroundColor: COLORES.danger
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { position: 'bottom' }
+    },
+    scales: {
+      x: { stacked: true, ticks: { font: { size: 9 } } },
+      y: { stacked: true, beginAtZero: true }
+    }
+  }
+});
+</script>
 {% endblock %}
