@@ -1,4 +1,6 @@
 from django.shortcuts import render, get_object_or_404
+from django.core.exceptions import ValidationError
+from django.core.exceptions import ValidationError
 from django.contrib.auth.decorators import login_required
 from django.http import Http404
 from academia.models import Curso
@@ -70,10 +72,21 @@ def verificar_codigo(request):
 
     if request.method == "POST":
         codigo = request.POST.get("codigo", "").strip()
-        try:
-            cert = Certificado.objects.select_related("usuario", "curso").get(codigo=codigo)
-        except (Certificado.DoesNotExist, ValueError):
-            error = "❌ Código no válido. Verifica el código e inténtalo de nuevo."
+        if codigo:
+            # 1. Intentar como UUID completo
+            try:
+                cert = Certificado.objects.select_related("usuario", "curso").get(codigo=codigo)
+            except (Certificado.DoesNotExist, ValidationError, ValueError):
+                # 2. Intentar como codigo corto (8 caracteres)
+                if len(codigo) == 8:
+                    candidatos = Certificado.objects.filter(codigo__startswith=codigo.lower()[:8])
+                    if candidatos.count() == 1:
+                        cert = candidatos.first()
+
+            if cert is None:
+                error = "Codigo no valido. Verifica el codigo e intentalo de nuevo."
+        else:
+            error = "Por favor ingresa un codigo."
 
     return render(request, "certificaciones/verificar_codigo.html", {
         "cert": cert,

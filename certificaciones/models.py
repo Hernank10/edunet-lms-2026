@@ -52,7 +52,7 @@ class Firma(models.Model):
         verbose_name_plural = "Firmas"
 
     def __str__(self):
-        return f"{self.usuario.get_full_name|default:self.usuario.username} ({self.cargo})"
+        return f"{self.usuario.get_full_name() or self.usuario.username} ({self.cargo})"
 
 
 class Certificado(models.Model):
@@ -110,16 +110,16 @@ class Certificado(models.Model):
 
     @property
     def nombre_estudiante(self):
-        return self.usuario.get_full_name or self.usuario.username
+        return self.usuario.get_full_name() or self.usuario.username
 
     @property
     def nombre_admin(self):
         if self.firmado_por_admin:
-            return self.firmado_por_admin.get_full_name or self.firmado_por_admin.username
+            return self.firmado_por_admin.get_full_name() or self.firmado_por_admin.username
         return "Administración"
 
     @property
     def nombre_profesor(self):
         if self.firmado_por_profesor:
-            return self.firmado_por_profesor.get_full_name or self.firmado_por_profesor.username
+            return self.firmado_por_profesor.get_full_name() or self.firmado_por_profesor.username
         return "Profesor Asignado"
