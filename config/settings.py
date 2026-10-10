@@ -38,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Terceros (REST API)
+    'rest_framework',
+    'rest_framework.authtoken',
+    'drf_spectacular',
+
     # Apps del proyecto
     "accounts",
     "academia",
@@ -46,7 +51,8 @@ INSTALLED_APPS = [
     "certificaciones",
     "contenido",
     "profesor",
-    "gamificacion", 
+    "gamificacion",
+    "api", 
 
 ]
 
@@ -173,3 +179,31 @@ LOCALE_PATHS = [
 
 DEFAULT_CHARSET = "utf-8"
 FILE_CHARSET = "utf-8"
+
+# ============================================================
+# DJANGO REST FRAMEWORK
+# ============================================================
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',   # Móvil
+        'rest_framework.authentication.SessionAuthentication',  # Browsable API
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 20,
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
+
+# Documentacion OpenAPI (Swagger)
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'EduNet Academia API',
+    'DESCRIPTION': 'API REST para app movil del LMS de Lengua Castellana',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}
