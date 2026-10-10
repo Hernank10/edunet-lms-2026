@@ -1,165 +1,73 @@
-🎓 Edunet Academia
+# EduNet Academia
 
-Plataforma educativa para la enseñanza de lenguas con progreso pedagógico automático
+LMS de Lengua Castellana - Django 5.2.11 + Python 3.12.4
 
-🌍 Descripción general
+[![Tests](https://github.com/Hernank10/edunet-lms-2026/actions/workflows/tests.yml/badge.svg)](https://github.com/Hernank10/edunet-lms-2026/actions/workflows/tests.yml)
 
-Edunet Academia es una plataforma educativa desarrollada en Django cuyo objetivo es facilitar el aprendizaje estructurado de la lengua castellana y la escritura académica, con especial atención a hablantes de las lenguas más habladas del mundo.
+## Descripcion
 
-El proyecto combina:
+Plataforma de aprendizaje (LMS) orientada a la preparacion para el concurso docente en Lengua Castellana en Colombia y la prueba Saber Pro.
 
-Pedagogía progresiva
+## Caracteristicas
 
-Tecnología web moderna
+- **Profesores:** CRUD completo de cursos, modulos, lecciones, evaluaciones, preguntas y anuncios
+- **Estudiantes:** Dashboard con graficos, gamificacion (XP, insignias, logros), certificados
+- **Editor WYSIWYG** (TinyMCE) para contenido de lecciones
+- **API REST** con token auth para app movil (Swagger en /api/docs/)
+- **Certificados** con exportacion a Word (.docx) y verificacion publica por codigo
+- **429 HTMLs interactivos** con tecnicas de Lengua Castellana
 
-Evaluación formativa
+## Stack
 
-Seguimiento automático del progreso del estudiante
+- Django 5.2.11
+- Django REST Framework 3.14
+- drf-spectacular (Swagger/OpenAPI 3)
+- SQLite (desarrollo) / PostgreSQL (produccion)
+- TinyMCE 6 (editor WYSIWYG)
+- Chart.js (graficos)
+- Bootstrap 5
 
-Está diseñada para contextos educativos reales, investigación pedagógica y expansión internacional.
+## Desarrollo
 
-🧠 Enfoque pedagógico
+```bash
+# Instalar dependencias
+pip install django==5.2.11 djangorestframework==3.14.0 drf-spectacular
+pip install pytest pytest-django pytest-cov pytest-xdist
 
-La plataforma se basa en un modelo de aprendizaje guiado:
-
-El estudiante se inscribe en un curso
-
-Accede a lecciones secuenciales
-
-Responde ejercicios integrados
-
-El sistema valida respuestas
-
-Se registra el progreso
-
-Se desbloquean nuevas lecciones automáticamente
-
-Este enfoque fomenta:
-
-Autonomía
-
-Aprendizaje significativo
-
-Evaluación continua
-
-Motivación intrínseca
-
-🏗️ Arquitectura del proyecto
-
-El proyecto sigue una arquitectura modular por apps:
-
-edunet_project/
-├── academia/          # Cursos, niveles, lecciones
-├── ejercicios/        # Ejercicios y evaluaciones
-├── progreso/          # Seguimiento pedagógico
-├── accounts/          # Usuarios y roles
-├── analytics/         # Métricas educativas
-├── certificaciones/   # Certificados académicos
-├── practice/          # Práctica guiada
-├── templates/         # Plantillas base
-├── config/            # Configuración del proyecto
-└── manage.py
-
-⚙️ Tecnologías utilizadas
-
-Python 3.11+
-
-Django 5/6
-
-SQLite (desarrollo)
-
-Bootstrap 5
-
-HTML5 / CSS3
-
-Git + GitHub
-
-Preparado para:
-
-PostgreSQL
-
-Docker
-
-Despliegue en la nube
-
-👥 Roles del sistema
-
-👨‍🎓 Estudiante: consume contenido y progresa
-
-👩‍�� Docente: crea cursos, lecciones y ejercicios
-
-🛠 Administrador: gestiona la plataforma
-
-🚀 Instalación local
-git clone https://github.com/USUARIO/edunet-academia.git
-cd edunet-academia
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+# Migrar base de datos
 python manage.py migrate
+
+# Crear superusuario
 python manage.py createsuperuser
-python manage.py runserver
 
+# Correr servidor
+python manage.py runserver 8011
 
-Accede en:
-👉 http://127.0.0.1:8000/
+# Correr tests
+pytest -q
+```
 
-🧪 Estado del proyecto
+## Tests
 
-🟡 En desarrollo activo
-✔ Dashboard funcional
-✔ Administración completa
-🚧 Progreso automático en implementación
+- **181 tests** cubriendo 6 apps (accounts, academia, profesor, gamificacion, certificaciones, api)
+- Corren en ~16 segundos
+- CI/CD con GitHub Actions (cada push)
 
-📚 Uso educativo y académico
+## API REST
 
-Este proyecto puede utilizarse para:
+Documentacion interactiva en /api/docs/ (Swagger UI).
 
-Instituciones educativas
+Endpoints principales:
 
-Investigación en didáctica de lenguas
+- POST /api/auth/ - Login (obtener token)
+- GET /api/cursos/ - Listar cursos
+- GET /api/cursos/{id}/modulos/ - Modulos del curso
+- GET /api/lecciones/{id}/ - Detalle de leccion (con HTML)
+- GET /api/inscripciones/ - Mis inscripciones
+- POST /api/inscripciones/ - Inscribirse en un curso
+- GET /api/certificados/ - Mis certificados
+- GET /api/perfil/ - Mi perfil de gamificacion
 
-Plataformas de e-learning
+## Licencia
 
-Formación docente
-
-Educación intercultural
-
-📜 Licencia
-
-Este proyecto está licenciado bajo la MIT License.
-El contenido educativo puede adaptarse a Creative Commons según el uso.
-
-🤝 Contribuciones
-
-Las contribuciones son bienvenidas:
-
-Fork del proyecto
-
-Crear rama (feature/nueva-funcionalidad)
-
-Commit claro
-
-Pull Request documentado
-
-✨ Visión futura
-
-Soporte multilingüe (i18n)
-
-Inteligencia pedagógica adaptativa
-
-Evaluación automática avanzada
-
-Certificación verificable
-
-Integración con IA educativa
-
-👤 Autor
-
-Hernán Acevedo Mar
-Proyecto educativo y tecnológico para la democratización del aprendizaje lingüístico.
-
-❤️ Filosofía
-
-Aprender una lengua no es memorizar reglas,
-es construir pensamiento, identidad y diálogo.
+Privado - Todos los derechos reservados.
