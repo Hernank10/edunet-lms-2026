@@ -42,6 +42,9 @@ urlpatterns = [
     path("anuncio/<int:anuncio_id>/editar/", views.anuncio_editar, name="anuncio_editar"),
     path("anuncio/<int:anuncio_id>/eliminar/", views.anuncio_eliminar, name="anuncio_eliminar"),
 
+    # Subir imagen (TinyMCE)
+    path("subir-imagen/", views.subir_imagen, name="subir_imagen"),
+
     # Otros
     path("estudiantes/", views.estudiantes, name="estudiantes"),
     path("analiticas/", views.analiticas, name="analiticas"),

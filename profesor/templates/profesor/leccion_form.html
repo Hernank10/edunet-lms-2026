@@ -68,11 +68,43 @@ tinymce.init({
     content_style: 'body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 16px; line-height: 1.6; }',
     language: 'es',
     branding: false,
+    images_upload_url: '{% url "profesor:subir_imagen" %}',
+    images_upload_credentials: true,
+    automatic_uploads: true,
+    file_picker_types: 'image',
+    images_reuse_filename: false,
     valid_elements: '*[*]',
     extended_valid_elements: 'script[src|async|defer|type|charset]',
     setup: function(editor) {
-        editor.on('change', function() {
-            editor.save();
+        editor.on('change', function() { editor.save(); });
+    },
+    images_upload_handler: function(blobInfo, progress) {
+        return new Promise(function(resolve, reject) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '{% url "profesor:subir_imagen" %}');
+            xhr.withCredentials = true;
+            xhr.setRequestHeader('X-CSRFToken', document.querySelector('[name=csrfmiddlewaretoken]').value);
+            xhr.upload.onprogress = function(e) {
+                progress(e.loaded / e.total * 100);
+            };
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    var json = JSON.parse(xhr.responseText);
+                    if (json && json.location) {
+                        resolve(json.location);
+                    } else {
+                        reject({ message: 'Respuesta invalida', remove: true });
+                    }
+                } else {
+                    reject({ message: 'Error ' + xhr.status, remove: true });
+                }
+            };
+            xhr.onerror = function() {
+                reject({ message: 'Error de red', remove: true });
+            };
+            var formData = new FormData();
+            formData.append('file', blobInfo.blob(), blobInfo.filename());
+            xhr.send(formData);
         });
     }
 });

@@ -918,3 +918,49 @@ def modulo_crear(request, curso_id):
         "titulo_pagina": "Crear modulo",
         "accion": "Crear modulo y lecciones",
     })
+
+# ============================================================
+# SUBIR IMAGEN (para TinyMCE)
+# ============================================================
+import uuid
+import os
+from django.core.files.storage import default_storage
+from django.core.files.base import ContentFile
+from django.http import JsonResponse
+from django.views.decorators.http import require_POST
+
+
+@login_required
+@user_passes_test(es_profesor)
+@require_POST
+def subir_imagen(request):
+    """Endpoint para subir imágenes desde TinyMCE."""
+    archivo = request.FILES.get("file")
+    if not archivo:
+        return JsonResponse({"error": "No se recibió archivo"}, status=400)
+
+    # Validar tipo
+    tipos_ok = ["image/jpeg", "image/png", "image/gif", "image/webp", "image/svg+xml"]
+    if archivo.content_type not in tipos_ok:
+        return JsonResponse(
+            {"error": "Tipo de archivo no permitido. Solo JPG, PNG, GIF, WEBP, SVG."},
+            status=400,
+        )
+
+    # Validar tamaño (5 MB)
+    if archivo.size > 5 * 1024 * 1024:
+        return JsonResponse({"error": "El archivo excede 5 MB."}, status=400)
+
+    # Generar nombre único
+    ext = os.path.splitext(archivo.name)[1].lower()
+    if ext not in [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"]:
+        ext = ".jpg"
+    nombre = f"{uuid.uuid4().hex}{ext}"
+    ruta = f"lecciones/{nombre}"
+
+    # Guardar
+    ruta_guardada = default_storage.save(ruta, ContentFile(archivo.read()))
+    url = default_storage.url(ruta_guardada)
+
+    # TinyMCE espera {"location": "URL"}
+    return JsonResponse({"location": url})
